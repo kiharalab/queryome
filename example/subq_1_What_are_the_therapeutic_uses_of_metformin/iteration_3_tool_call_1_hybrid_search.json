@@ -1,0 +1,8 @@
+{
+  "name": "hybrid_search",
+  "arguments": {
+    "query": "therapeutic uses of metformin in non-metabolic disorders and as adjunct therapy in cancer",
+    "alpha": 0.7,
+    "k": 15
+  }
+}

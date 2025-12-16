@@ -1,0 +1,3024 @@
+SYSTEM: 
+You are a research critic agent. Your task is to evaluate the relevance of the following articles to the research question.
+For each article, provide a relevance score from 1 to 10 (1 = not relevant, 10 = highly relevant) and a brief justification.
+Also, provide an overall assessment: should we continue searching or stop?
+
+Respond in JSON format with two keys: "scores" and "decision".
+- "scores": a list of objects, each with "pmid", "relevance_score", and "justification".
+- "decision": either "CONTINUE" or "STOP". If continuing, add a "suggestion" key with ideas for the next search.
+
+USER: 
+Research Question: "What are the common and serious side effects of metformin?"
+
+Articles to evaluate:
+[
+  {
+    "rank": 1,
+    "score": 7.153765678405762,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 14972378,
+    "chunk_id": 14972378,
+    "pmid": "22701848",
+    "title": "Metformin and sleep disorders.",
+    "year": 2012,
+    "journal": "Indian journal of endocrinology and metabolism",
+    "authors": [
+      "Somsri Wiwanitkit",
+      "Viroj Wiwanitkit"
+    ],
+    "mesh_terms": [],
+    "keywords": [
+      {
+        "term": "Metformin",
+        "is_major": false
+      },
+      {
+        "term": "side effect",
+        "is_major": false
+      },
+      {
+        "term": "sleep disorders",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Metformin is a widely used anti-diabetic drug. Deterioration of sleep is an important unwanted side effect of metformin. Here, the authors review and present the details on metformin and sleep problem."
+  },
+  {
+    "rank": 2,
+    "score": 6.4762139320373535,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 12419833,
+    "chunk_id": 12419833,
+    "pmid": "25937541",
+    "title": "The influence of age and metformin treatment status on reported gastrointestinal side effects with liraglutide treatment in type 2 diabetes.",
+    "year": 2015,
+    "journal": "Diabetes research and clinical practice",
+    "authors": [
+      "K Y Thong",
+      "P Sen Gupta",
+      "A D Blann",
+      "R E J Ryder"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Adult",
+        "is_major": false,
+        "ui": "D000328"
+      },
+      {
+        "term": "Age Factors",
+        "is_major": false,
+        "ui": "D000367"
+      },
+      {
+        "term": "Aged",
+        "is_major": false,
+        "ui": "D000368"
+      },
+      {
+        "term": "Body Weight",
+        "is_major": false,
+        "ui": "D001835"
+      },
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": false,
+        "ui": "D003924"
+      },
+      {
+        "term": "Drug Therapy, Combination",
+        "is_major": false,
+        "ui": "D004359"
+      },
+      {
+        "term": "Female",
+        "is_major": false,
+        "ui": "D005260"
+      },
+      {
+        "term": "Gastrointestinal Diseases",
+        "is_major": false,
+        "ui": "D005767"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Liraglutide",
+        "is_major": false,
+        "ui": "D000069450"
+      },
+      {
+        "term": "Male",
+        "is_major": false,
+        "ui": "D008297"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Middle Aged",
+        "is_major": false,
+        "ui": "D008875"
+      },
+      {
+        "term": "Retrospective Studies",
+        "is_major": false,
+        "ui": "D012189"
+      },
+      {
+        "term": "Risk Factors",
+        "is_major": false,
+        "ui": "D012307"
+      },
+      {
+        "term": "Treatment Outcome",
+        "is_major": false,
+        "ui": "D016896"
+      },
+      {
+        "term": "United Kingdom",
+        "is_major": false,
+        "ui": "D006113"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "GLP-1",
+        "is_major": false
+      },
+      {
+        "term": "Gastrointestinal side effects",
+        "is_major": false
+      },
+      {
+        "term": "Liraglutide",
+        "is_major": false
+      },
+      {
+        "term": "Metformin",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "AIM: Treatment of type 2 diabetes with glucagon-like peptide-1 (GLP-1) receptor agonists may be limited by gastrointestinal side effects (GISE) in some patients. Risk factors for developing GISE are not known. We analysed patient characteristics that were associated with GISE among patients treated with the GLP-1 receptor agonist liraglutide.\n\nMETHODS: Data was obtained from an audit database of liraglutide use based in clinical practice in the UK. Patients were grouped into those who did not report GISE, those who reported GISE but continued liraglutide and those who discontinued liraglutide due to GISE within 26 weeks of treatment. Baseline variables of age, diabetes duration, HbA1c, weight, BMI, blood pressure, lipids, gender, ethnicity, alanine transaminotransferase, estimated glomerular filtration rate (eGFR) and diabetes treatment types were tested for possible associations with GISE outcome. Significant variables in univariate analyses were entered into ordinal logistic regression analyses.\n\nRESULTS: A total of 4442 patients were suitable for analysis. A total of 3905 (87.9%) did not report GISE, 297 (6.7%) and 240 (5.4%) had GISE and continued and discontinued treatment, respectively. Age, weight, eGFR, metformin status and insulin status were associated with GISE outcome in univariate analyses (P all <0.05). In the final regression model, age (adjusted OR 1.15 [95%CI 1.05,1.26], P=0.002) and non-metformin use (adjusted OR 0.76 [95%CI 0.60,0.96], P=0.020) were associated with worse GISE outcome.\n\nCONCLUSION: Older age and non-metformin use were associated with more significant GISE leading to discontinuation of liraglutide treatment. The reasons for these findings are unclear and warrant further investigation."
+  },
+  {
+    "rank": 3,
+    "score": 6.378229141235352,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 3914092,
+    "chunk_id": 3914092,
+    "pmid": "36450560",
+    "title": "Second mRNA Vaccination of COVID-19 in a Patient Who Developed Pericarditis after the First Vaccination.",
+    "year": 2022,
+    "journal": "International heart journal",
+    "authors": [
+      "Yutaro Oshima",
+      "Tsuyoshi Nozue",
+      "Sohei Takagi",
+      "Toshiki Asada",
+      "Toshitsugu Gamou",
+      "Taku Iwaki",
+      "Ichiro Michishita"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Male",
+        "is_major": false,
+        "ui": "D008297"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Middle Aged",
+        "is_major": false,
+        "ui": "D008875"
+      },
+      {
+        "term": "RNA, Messenger",
+        "is_major": false,
+        "ui": "D012333"
+      },
+      {
+        "term": "COVID-19",
+        "is_major": true,
+        "ui": "D000086382"
+      },
+      {
+        "term": "COVID-19 Vaccines",
+        "is_major": false,
+        "ui": "D000086663"
+      },
+      {
+        "term": "Pericarditis",
+        "is_major": true,
+        "ui": "D010493"
+      },
+      {
+        "term": "Vaccination",
+        "is_major": false,
+        "ui": "D014611"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Side effects",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "The coronavirus infection 2019 (COVID-19) pandemic has led to the development of mRNA vaccines with proven efficacy. However, it remains unclear whether patients who developed pericarditis after the first COVID-19 mRNA would be fit to receive the second vaccination. Herein, we present the case of a 64-year-old man who visited our emergency department with substernal chest discomfort that began 4 days after his first mRNA COVID-19 vaccination. Acute pericarditis was diagnosed based on symptoms and ST-segment elevation on an electrocardiogram. Chest pain improved 2 days after treatment.Since there are no guidelines on whether to administer an additional vaccination to a patient who developed pericarditis after the initial vaccination, we considered whether or not to administer the additional vaccination. We informed the patient about the risks and benefits and decided to administer the second dose. He did not experience any major adverse reactions. The indications for the second vaccination need to be thoroughly considered."
+  },
+  {
+    "rank": 4,
+    "score": 6.101569175720215,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 4773673,
+    "chunk_id": 4773673,
+    "pmid": "35455237",
+    "title": "The Side Effects and Adverse Clinical Cases Reported after COVID-19 Immunization.",
+    "year": 2022,
+    "journal": "Vaccines",
+    "authors": [
+      "Roshina Rabail",
+      "Waqar Ahmed",
+      "Madiha Ilyas",
+      "Muhammad Shahid Riaz Rajoka",
+      "Abdo Hassoun",
+      "Abdur Rauf Khalid",
+      "Moazzam Rafiq Khan",
+      "Rana Muhammad Aadil"
+    ],
+    "mesh_terms": [],
+    "keywords": [
+      {
+        "term": "AstraZeneca side effects",
+        "is_major": false
+      },
+      {
+        "term": "COVID-19 vaccination side effects",
+        "is_major": false
+      },
+      {
+        "term": "Moderna side effects",
+        "is_major": false
+      },
+      {
+        "term": "Pfizer side effects",
+        "is_major": false
+      },
+      {
+        "term": "Sinopharm side effects",
+        "is_major": false
+      },
+      {
+        "term": "Sputnik V side effects",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "COVID-19 remains a deadly disease that poses a serious threat to humanity. COVID-19 vaccines protect the public and limit viral spread. However, public acceptance is significantly dependent on the efficacy and side effects (SEs) of the vaccinations being produced. Four important mechanisms have been examined for COVID-19 vaccines: DNA-based, mRNA-based, protein-based, and inactivated viruses. Vaccination safety research was formerly limited to manufacturer-sponsored studies, but numerous additional cross-sectional survey-based studies conducted globally have contributed to the generation of vaccine-related safety data reports. Twenty-seven studies and twenty-four case reports published-up till 2021 were overviewed for the presentation of SEs and their severity. Injection site pain remained the most dominant localized SE, while headache and fatigue were the most prevalent systemic SEs. Most studies reported that all vaccinations were safe, with very little or no adverse effects, but the nature of SEs was reported to be more persistent in DNA- and mRNA-based vaccines, while inactivated viral vaccines were associated with longer-duration SEs. Overall, SEs were found to be more dominant in women and youngsters. Case reports of adverse reactions have also been documented, but there is still a need to find out their pathological linkage with the COVID-19 vaccination."
+  },
+  {
+    "rank": 5,
+    "score": 5.843907833099365,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 10363552,
+    "chunk_id": 10363552,
+    "pmid": "28616428",
+    "title": "Severity of Gastrointestinal Side Effects of Metformin Tablet Compared to Metformin Capsule in Type 2 Diabetes Mellitus Patients.",
+    "year": null,
+    "journal": "Journal of research in pharmacy practice",
+    "authors": [
+      "Mansour Siavash",
+      "Majid Tabbakhian",
+      "Ali Mohammad Sabzghabaee",
+      "Niloufar Razavi"
+    ],
+    "mesh_terms": [],
+    "keywords": [
+      {
+        "term": "Gastrointestinal side effects",
+        "is_major": false
+      },
+      {
+        "term": "Metformin capsule",
+        "is_major": false
+      },
+      {
+        "term": "Metformin tablet",
+        "is_major": false
+      },
+      {
+        "term": "type 2 diabetes mellitus",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "OBJECTIVE: This study was designed to compare the severity of gastrointestinal (GI) side effects in Type 2 diabetes mellitus (DM) patients receiving tablet or capsule forms of metformin.\n\nMETHODS: In this prospective interventional study, patients were evaluated from June to November 2016 at DM clinics affiliated to Isfahan University of Medical Sciences, Isfahan, Iran. Adult patients with Type 2 DM who were eligible for inclusion criteria switched from metformin tablet to metformin capsule. Hemoglobin A1c (HbA1c), GI side effects, and patient satisfaction based on visual analog scale (VAS) were assessed during a 6-week follow-up of receiving metformin capsule.\n\nFINDINGS: One hundred and three patients were evaluated, and 75 patients participated in this study. At the baseline, 40 patients (53.3%) had GI side effects due to metformin tablet which was reduced to 16 patients (21.3%) after switching to metformin capsule (\n\nCONCLUSION: Switching to metformin capsule may result in less GI side effects, with no further side effect complications."
+  },
+  {
+    "rank": 6,
+    "score": 5.661753177642822,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 10728164,
+    "chunk_id": 10728164,
+    "pmid": "28116648",
+    "title": "Metformin: New Preparations and Nonglycemic Benefits.",
+    "year": 2017,
+    "journal": "Current diabetes reports",
+    "authors": [
+      "Yoshihito Fujita",
+      "Nobuya Inagaki"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Blood Glucose",
+        "is_major": false,
+        "ui": "D001786"
+      },
+      {
+        "term": "Cardiovascular Diseases",
+        "is_major": false,
+        "ui": "D002318"
+      },
+      {
+        "term": "Delayed-Action Preparations",
+        "is_major": false,
+        "ui": "D003692"
+      },
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": false,
+        "ui": "D003924"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Longevity",
+        "is_major": false,
+        "ui": "D008136"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Neoplasms",
+        "is_major": false,
+        "ui": "D009369"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Anticancer effect",
+        "is_major": false
+      },
+      {
+        "term": "Longevity",
+        "is_major": false
+      },
+      {
+        "term": "Metformin",
+        "is_major": false
+      },
+      {
+        "term": "Metformin DR",
+        "is_major": false
+      },
+      {
+        "term": "Metformin XR",
+        "is_major": false
+      },
+      {
+        "term": "Nonglycemic effect",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Metformin has been widely used for over 5 decades. New preparations have been developed for possible enhancement of efficiency, tolerability, and pleiotropic nonglycemic effects. Extended-release metformin has contributed to adherence and improved gastrointestinal tolerability. Delayed-release metformin acts in the lower gastrointestinal tract and exerts glucose-lowering effects at lower plasma metformin levels, which might suggest use of this biguanide in patients with chronic kidney disease. Metformin is also known to have numerous nonglycemic effects. Results of the UK Prospective Diabetes Study indicate improvements in cardiovascular outcome and reduced total mortality independent of glycemic control. Anticancer effects of metformin have been discussed and many clinical trials are on-going. Metformin is noted for its beneficial effects on lifespan extension and on disorders due to increased insulin resistance. Further investigations, including randomized control trials in nondiabetic individuals, are required to demonstrate the nonglycemic effects of metformin."
+  },
+  {
+    "rank": 7,
+    "score": 5.534353256225586,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 10490174,
+    "chunk_id": 10490174,
+    "pmid": "28460285",
+    "title": "Rate and predictors of negative effects of psychotherapy in psychiatric and psychosomatic inpatients.",
+    "year": 2017,
+    "journal": "Psychiatry research",
+    "authors": [
+      "Julia Rheker",
+      "Sylvia Beisel",
+      "Svenja Kr\u00e4ling",
+      "Winfried Rief"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Adult",
+        "is_major": false,
+        "ui": "D000328"
+      },
+      {
+        "term": "Female",
+        "is_major": false,
+        "ui": "D005260"
+      },
+      {
+        "term": "Hospitals, Psychiatric",
+        "is_major": false,
+        "ui": "D006778"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Male",
+        "is_major": false,
+        "ui": "D008297"
+      },
+      {
+        "term": "Mental Disorders",
+        "is_major": false,
+        "ui": "D001523"
+      },
+      {
+        "term": "Middle Aged",
+        "is_major": false,
+        "ui": "D008875"
+      },
+      {
+        "term": "Predictive Value of Tests",
+        "is_major": false,
+        "ui": "D011237"
+      },
+      {
+        "term": "Psychophysiologic Disorders",
+        "is_major": false,
+        "ui": "D011602"
+      },
+      {
+        "term": "Psychotherapy",
+        "is_major": false,
+        "ui": "D011613"
+      },
+      {
+        "term": "Surveys and Questionnaires",
+        "is_major": false,
+        "ui": "D011795"
+      },
+      {
+        "term": "Treatment Outcome",
+        "is_major": false,
+        "ui": "D016896"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Malpractice",
+        "is_major": false
+      },
+      {
+        "term": "Side effects",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Studies examining the rates of negative effects of psychotherapy are rare and the reported rates differ widely. To be able to calculate adequate benefit-cost ratios in conjunction with different samples and settings, we need a deeper understanding of these effects. We therefore investigated whether different treatment settings would reveal varying rates and kinds of negative effects by recruiting patients from a psychiatric (n=93) and a psychosomatic rehabilitation (n=63) hospital. Negative effects of psychotherapy were assessed with the Inventory for the Assessment of Negative Effects of Psychotherapy post-treatment. To investigate whether patients' pre-treatment expectations have an influence on reported negative effects, patients filled in the Patient Questionnaire on Therapy Expectation and Evaluation prior to treatment begin. Patients from the psychiatric hospital reported an average 1.41 negative effects, with 58.7% reporting at least one negative effect. Those from the psychosomatic hospital reported 0.76 negative effects on average, with 45.2% of patients reporting at least one negative effect. The differences between these samples are significant. The two samples' top three reported types of negative effects are that patients had experienced more downs during or just before the end of the therapy, that patients had difficulty making important decisions without the therapist, and that patients were concerned that colleagues or friends might find out about the therapy. A regression analysis revealed that the clinical setting (psychosomatic rehabilitation hospital vs. psychiatric hospital) and expectations in the form of hope of improvement were significant predictors for negative effects of psychotherapy. Our study highlights the need to examine the negative effects of psychotherapy in different settings and samples to better evaluate the benefit-cost ratios of treatments for different patient groups. It also shows that we need guidelines for assessing and reporting negative effects."
+  },
+  {
+    "rank": 8,
+    "score": 5.501831531524658,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 4095061,
+    "chunk_id": 4095061,
+    "pmid": "36237763",
+    "title": "An Unusual Association Between Metformin and Nightmares: A Case Report.",
+    "year": 2022,
+    "journal": "Cureus",
+    "authors": [
+      "Diana Voloshyna",
+      "Qudsia I Sandhu",
+      "Saima Khan",
+      "Anan Bseiso",
+      "Jaina Mengar",
+      "Nirupama Nayudu",
+      "Rajesh Kumar",
+      "Deepa Khemani",
+      "Muhammad Usama"
+    ],
+    "mesh_terms": [],
+    "keywords": [
+      {
+        "term": "abnormal dreams",
+        "is_major": false
+      },
+      {
+        "term": "bizzare and vivid dreams",
+        "is_major": false
+      },
+      {
+        "term": "diabetes",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "metformin side effects",
+        "is_major": false
+      },
+      {
+        "term": "nightmares",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Metformin remains the oral drug of choice for patients with type 2 diabetes mellitus (T2DM). It is an ideal anti-diabetic drug for maintaining good glycemic control in diabetics. However, the side effect profile of metformin varies from minor or no effects to substantial impact on the GI tract. In addition, metformin is rarely known for its association with nightmares. Here we present the case of a newly diagnosed 40-year-old diabetic who developed recurrent nightmares within a week of starting metformin treatment. The patient had no previous history of psychiatric or sleep disorders. However, it was the first time he had experienced such recurrent nightmares, especially after the start of 500 mg metformin thrice a day. Based on the Naranjo Adverse Drug Reaction (ADR) Probability Scale, and sudden onset and disappearance of nightmares after metformin initiation and discontinuation made metformin the primary cause of his nightmares."
+  },
+  {
+    "rank": 9,
+    "score": 5.444826126098633,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 5922391,
+    "chunk_id": 5922391,
+    "pmid": "34075573",
+    "title": "Efficacy and Side Effect Profile of Different Formulations of Metformin: A Systematic Review and Meta-Analysis.",
+    "year": 2021,
+    "journal": "Diabetes therapy : research, treatment and education of diabetes and related disorders",
+    "authors": [
+      "Jane L Tarry-Adkins",
+      "Imogen D Grant",
+      "Susan E Ozanne",
+      "Rebecca M Reynolds",
+      "Catherine E Aiken"
+    ],
+    "mesh_terms": [],
+    "keywords": [
+      {
+        "term": "Diabetes",
+        "is_major": false
+      },
+      {
+        "term": "Efficacy",
+        "is_major": false
+      },
+      {
+        "term": "Metformin",
+        "is_major": false
+      },
+      {
+        "term": "Polycystic ovarian syndrome",
+        "is_major": false
+      },
+      {
+        "term": "Side effects",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "INTRODUCTION: Metformin is among the most frequently prescribed drugs worldwide for a variety of indications. Although metformin has several important advantages, for example being easy to store and administer, it is associated with a high incidence of gastrointestinal side effects. Slower-release formulations of metformin may reduce the incidence of side effects while maintaining efficacy; however, there is a lack of systematic evidence available to guide head-to-head comparisons between different metformin formulations.\n\nMETHODS: PubMed, Web of Science, OVID EMBASE, MEDLINE, The Cochrane database and Clinicaltrials.gov were systematically searched (from inception to 25\u00a0January 2021). Trials that randomized adult participants to extended-release formulation of metformin (met-XR), delayed-release (met-DR) or immediate-release metformin (met-IR) were included. Two reviewers independently assessed articles for eligibility and risk-of-bias, with conflicts resolved by a third reviewer. Outcome measures were change in fasting plasma glucose (FPG), glycated haemoglobin (HbA1c), body weight, BMI, lipid profile and side effects. Meta-analyses were conducted using random-effects models.\n\nRESULTS: Fifteen studies (n\u2009=\u20093765) met eligibility criteria. There was no significant difference between the efficacy of met-IR, met-XR or met-DR in changing FPG (p\u2009=\u20090.93). A non-significant reduction in mean body weight was observed in individuals randomized to met-XR vs. met-IR (-\u20091.03\u00a0kg, 95% CI -\u00a02.12 to 0.05, p\u2009=\u20090.06). Individuals randomized to met-XR vs. met-IR had lower low-density lipoprotein (LDL) cholesterol levels (-\u20095.73\u00a0mg/dl, 95% CI -\u00a07.91 to -\u00a03.56, p\u2009<\u20090.00001). Gastrointestinal (GI) side effects were markedly reduced in patients randomised to met-DR vs. met-IR (OR 0.45, 95% CI 0.26-0.80, p\u2009=\u20090.006).\n\nCONCLUSION: Our results demonstrate equal efficacy of longer-acting formulations (met-XR, met-DR) versus immediate-release metformin formulations in terms of glycaemic control. There were insufficient studies available to compare the efficacy of different metformin formulations outside of diabetes care. However met-XR was associated with reduced serum LDL cholesterol concentrations, while met-DR was strongly associated with reduced GI side effects, which could improve drug compliance."
+  },
+  {
+    "rank": 10,
+    "score": 5.444826126098633,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 1294799,
+    "chunk_id": 1294799,
+    "pmid": "39609919",
+    "title": "Development of a predictive model for gastrointestinal side effects of metformin treatment in Chinese individuals with type 2 diabetes based on four randomised clinical trials.",
+    "year": 2025,
+    "journal": "Diabetes, obesity & metabolism",
+    "authors": [
+      "Weihao Wang",
+      "Yujia Han",
+      "Xun Jiang",
+      "Jian Shao",
+      "Jia Zhang",
+      "Kaixin Zhou",
+      "Wenying Yang",
+      "Qi Pan",
+      "Zedong Nie",
+      "Lixin Guo"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Aged",
+        "is_major": false,
+        "ui": "D000368"
+      },
+      {
+        "term": "Female",
+        "is_major": false,
+        "ui": "D005260"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Male",
+        "is_major": false,
+        "ui": "D008297"
+      },
+      {
+        "term": "Middle Aged",
+        "is_major": false,
+        "ui": "D008875"
+      },
+      {
+        "term": "China",
+        "is_major": false,
+        "ui": "D002681"
+      },
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": true,
+        "ui": "D003924"
+      },
+      {
+        "term": "East Asian People",
+        "is_major": false,
+        "ui": "D000095225"
+      },
+      {
+        "term": "Gastrointestinal Diseases",
+        "is_major": false,
+        "ui": "D005767"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": true,
+        "ui": "D007004"
+      },
+      {
+        "term": "Machine Learning",
+        "is_major": false,
+        "ui": "D000069550"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Randomized Controlled Trials as Topic",
+        "is_major": false,
+        "ui": "D016032"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "gastrointestinal side effects",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "prediction model",
+        "is_major": false
+      },
+      {
+        "term": "type 2 diabetes",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "AIMS: This study aimed to build a model-based predictive approach to evaluate the gastrointestinal side effects following an initial metformin medication.\n\nMATERIALS AND METHODS: The model was developed from data from four randomised clinical cohorts. A prediction model was established using integrated or simplified indicators. Ten machine learning models were used for the construction of predictive models. The Shapley values were used to report the features' contribution.\n\nRESULTS: Four randomised clinical trial cohorts, including 1736 patients with type 2 diabetes, were first included in the analysis. Seventy percent of participants (1216) were allocated to the training set, 15% (260) were assigned to the internal validation set and 15% (260) were assigned to the test set. The Extra Tree model had the highest area under curve (AUC) (0.87) in the validation and test set. The top five crucial indicators were blood urea nitrogen (BUN), sex, triglyceride (TG), high-density lipoprotein-cholesterol (HDL-C) and total cholesterol (TC), and these five indicators were selected for constructing a simplified predictive model (AUC\u2009=\u20090.76). An online web-based tool was established based on the predictive model with integrated 17 features and top five indicators.\n\nCONCLUSIONS: To predict gastrointestinal side effects in diabetic patients for initial use of metformin, a few easily obtained features are needed to establish the model. The model can be applied to the Chinese population in clinical practice."
+  },
+  {
+    "rank": 1,
+    "score": 5.882831573486328,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 3962946,
+    "chunk_id": 3962946,
+    "pmid": "36385252",
+    "title": "Adverse reactions to cosmetics reported to the Chongqing adverse drug reaction monitoring centre system in China.",
+    "year": 2023,
+    "journal": "Contact dermatitis",
+    "authors": [
+      "Sha Wang",
+      "Yang Jiang",
+      "Jing Lyu",
+      "Jiajia Li",
+      "Qingchun Diao"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Female",
+        "is_major": false,
+        "ui": "D005260"
+      },
+      {
+        "term": "Male",
+        "is_major": false,
+        "ui": "D008297"
+      },
+      {
+        "term": "Dermatitis, Allergic Contact",
+        "is_major": true,
+        "ui": "D017449"
+      },
+      {
+        "term": "Cosmetics",
+        "is_major": true,
+        "ui": "D003358"
+      },
+      {
+        "term": "Skin",
+        "is_major": false,
+        "ui": "D012867"
+      },
+      {
+        "term": "Patch Tests",
+        "is_major": false,
+        "ui": "D010328"
+      },
+      {
+        "term": "China",
+        "is_major": false,
+        "ui": "D002681"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "adverse reaction",
+        "is_major": false
+      },
+      {
+        "term": "allergy",
+        "is_major": false
+      },
+      {
+        "term": "cosmetic adverse reactions",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "BACKGROUND: Cosmetic adverse reactions (CARs) are becoming widespread in China. However, a comprehensive analysis of data is lacking.\n\nOBJECTIVE: To analyse the clinical characteristics of patients with reported adverse reactions to cosmetics in Chongqing, China.\n\nMETHODS: Cases with CARs reported to the Chongqing Adverse Drug Reaction Monitoring Centre System from 2017 to 2021 were analysed.\n\nRESULTS: A total of 23\u2009245 cases were identified, of which 94.5% were women. Contact dermatitis (84.3%) was the most common diagnosis of CARs, followed by acne (3.1%). The most frequently reported clinical signs were erythema (70.1%), followed by papules (35.5%). The majority of CARs were reported to be due to ordinary cosmetics (87.9%), of which 81.0% were skin care products and 7.1% were makeup products. Cosmetics with special functions constituted 12.2%, of these, skin whitening (54.0%) and sunscreen (28.0%) products were most frequently reported.\n\nCONCLUSION: Our results suggest that adverse reactions to cosmetics are of concern in China, and dermatologists should actively identify and diagnose CARs. In addition, we should establish a convenient and effective model for collecting, reporting, and evaluating CARs."
+  },
+  {
+    "rank": 2,
+    "score": 5.82741641998291,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 5287152,
+    "chunk_id": 5287152,
+    "pmid": "34844104",
+    "title": "Gut microbiota of patients with type 2 diabetes and gastrointestinal intolerance to metformin differs in composition and functionality from tolerant patients.",
+    "year": 2022,
+    "journal": "Biomedicine & pharmacotherapy = Biomedecine & pharmacotherapie",
+    "authors": [
+      "Cristina Ma D\u00edaz-Perdigones",
+      "Araceli Mu\u00f1oz-Garach",
+      "Mar\u00eda Dolores \u00c1lvarez-Berm\u00fadez",
+      "Isabel Moreno-Indias",
+      "Francisco J Tinahones"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Aged",
+        "is_major": false,
+        "ui": "D000368"
+      },
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": false,
+        "ui": "D003924"
+      },
+      {
+        "term": "Female",
+        "is_major": false,
+        "ui": "D005260"
+      },
+      {
+        "term": "Follow-Up Studies",
+        "is_major": false,
+        "ui": "D005500"
+      },
+      {
+        "term": "Gastrointestinal Microbiome",
+        "is_major": false,
+        "ui": "D000069196"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Male",
+        "is_major": false,
+        "ui": "D008297"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Middle Aged",
+        "is_major": false,
+        "ui": "D008875"
+      },
+      {
+        "term": "Prospective Studies",
+        "is_major": false,
+        "ui": "D011446"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Adverse drug reactions",
+        "is_major": false
+      },
+      {
+        "term": "Gastrointestinal",
+        "is_major": false
+      },
+      {
+        "term": "Gut microbiome",
+        "is_major": false
+      },
+      {
+        "term": "Metformin",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "OBJECTIVE: Metformin modifies the gut microbiome in type 2 diabetes and gastrointestinal tolerance to metformin could be mediated by the gut microbiome.\n\nMETHODS: We enrolled 35 patients with type 2 diabetes not receiving treatment with metformin due to suspected gastrointestinal intolerance. Metformin was reintroduced at 425\u00a0mg, increasing 425\u00a0mg every two weeks until reaching 1700\u00a0mg per day. According to the occurrence of metformin-related gastrointestinal symptoms, patients were classified into three groups: early intolerance, non-tolerant, and tolerant. Gut microbiota was profiled with 16\u00a0S rRNA. This sequencing aimed to determine the differences in the baseline gut microbiota in all groups and prospectively in the tolerant and non-tolerant groups.\n\nRESULTS: The classification resulted in 15 early intolerant, 10 tolerant, and 10 non-tolerant subjects. Early tolerance was characterized by a higher abundance of Subdoligranulum; while Veillonella and Serratia were higher in the non-tolerant group. The tolerant group showed enrichment of Megamonas, Megamonas rupellensis, and Phascolarctobacterium spp; Ruminococcus gnavus was lower in the longitudinal analysis. At the end point Prevotellaceae, Prevotella stercorea, Megamonas funiformis, Bacteroides xylanisolvens, and Blautia producta had a higher relative abundance in the tolerant group compared to the non-tolerant group. Subdoligranulum, Ruminococcus torques_1, Phascolarctobacterium faecium, and Eubacterium were higher in the non-tolerant group. The PICRUSt analysis showed a lower activity of the amino acid biosynthesis pathways and a higher sugar degradation pathway in the intolerant groups.\n\nCONCLUSIONS: Gut microbiota of subjects with gastrointestinal intolerance depicted taxonomic and functional differences compared to tolerant patients, and this changed differently after metformin administration."
+  },
+  {
+    "rank": 3,
+    "score": 5.690413475036621,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 2484524,
+    "chunk_id": 2484524,
+    "pmid": "38203351",
+    "title": "Mass Spectrometry Study about In Vitro and In Vivo Reaction between Metformin and Glucose: A Preliminary Investigation on Alternative Biological Behavior.",
+    "year": 2023,
+    "journal": "International journal of molecular sciences",
+    "authors": [
+      "Gianluca Bartolucci",
+      "Marco Pallecchi",
+      "Laura Braconi",
+      "Silvia Dei",
+      "Elisabetta Teodori",
+      "Annunziata Lapolla",
+      "Giovanni Sartore",
+      "Pietro Traldi"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Tandem Mass Spectrometry",
+        "is_major": false,
+        "ui": "D053719"
+      },
+      {
+        "term": "Liquid Chromatography-Mass Spectrometry",
+        "is_major": false,
+        "ui": "D000097922"
+      },
+      {
+        "term": "Cell Membrane",
+        "is_major": false,
+        "ui": "D002462"
+      },
+      {
+        "term": "Glucose",
+        "is_major": false,
+        "ui": "D005947"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "mass spectrometry",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "reaction of metformin with glucose",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Metformin is the most prescribed glucose-lowering drug worldwide; globally, over 100 million patients are prescribed this drug annually. Some different action mechanisms have been proposed for this drug, but, surprisingly, no metabolite of metformin has ever been described. It was considered interesting to investigate the possible reaction of metformin with glucose following the Maillard reaction pattern. The reaction was first performed in in vitro conditions, showing the formation of two adducts that originated by the condensation of the two molecular species with the losses of one or two water molecules. Their structures were investigated by liquid chromatography coupled with mass spectrometry (HPLC-MS), tandem mass spectrometry (MS/MS) and accurate mass measurements (HRMS). The species originated via the reaction of glucose and metformin and were called"
+  },
+  {
+    "rank": 4,
+    "score": 5.399035930633545,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 5316224,
+    "chunk_id": 5316224,
+    "pmid": "34818566",
+    "title": "Prescriptions for Potentially Inappropriate Medications from the Beers Criteria Among Older Adults Hospitalized for Heart Failure.",
+    "year": 2022,
+    "journal": "Journal of cardiac failure",
+    "authors": [
+      "Diana Jaber",
+      "Fabian Vargas",
+      "Linh Nguyen",
+      "Joanna Ringel",
+      "Kate Zarzuela",
+      "Mahad Musse",
+      "Min Ji Kwak",
+      "Emily B Levitan",
+      "Mathew S Maurer",
+      "Mark S Lachs",
+      "Monika M Safford",
+      "Parag Goyal"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Aged",
+        "is_major": false,
+        "ui": "D000368"
+      },
+      {
+        "term": "Heart Failure",
+        "is_major": true,
+        "ui": "D006333"
+      },
+      {
+        "term": "Hospitalization",
+        "is_major": false,
+        "ui": "D006760"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Inappropriate Prescribing",
+        "is_major": false,
+        "ui": "D057970"
+      },
+      {
+        "term": "Potentially Inappropriate Medication List",
+        "is_major": true,
+        "ui": "D000067561"
+      },
+      {
+        "term": "Prescriptions",
+        "is_major": false,
+        "ui": "D055656"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "PIMs",
+        "is_major": false
+      },
+      {
+        "term": "adverse reactions",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "BACKGROUND: We sought to better understand patterns of potentially inappropriate medications (PIMs) from the Beers criteria among older adults hospitalized with heart failure (HF). This observational study of hospitalizations was derived from the geographically diverse REasons for Geographic and Racial Differences in Stroke cohort.\n\nMETHODS AND RESULTS: We examined participants aged 65 years and older with an expert-adjudicated hospitalization for HF. The Beers criteria medications were abstracted from medical records. The prevalence of PIMs was 61.1% at admission and 64.0% at discharge. Participants were taking a median of 1 PIM (interquartile range [IQR] 0-1 PIM) at hospital admission and a median of 1 PIM (IQR 0-2 PIM) at hospital discharge. Between admission and discharge, 19.1% of patients experienced an increase in the number of PIMs, 15.1% experienced a decrease, and 37% remained on the same number between hospital admission and discharge. The medications with the greatest increase from admission to discharge were proton pump inhibitors (32.6% to 38.6%) and amiodarone (6.2% to 12.2%). The strongest determinant of potentially harmful prescribing patterns was polypharmacy (relative risk 1.34, 95% confidence interval 1.16-1.55, P < .001).\n\nCONCLUSIONS: PIMs are common among older adults hospitalized for HF and may be an important target to improve outcomes in this vulnerable population."
+  },
+  {
+    "rank": 5,
+    "score": 5.363385200500488,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 10997263,
+    "chunk_id": 10997263,
+    "pmid": "27758711",
+    "title": "Loss of Eyebrows and Eyelashes During Concomitant Treatment with Sitagliptin and Metformin.",
+    "year": 2017,
+    "journal": "Current drug safety",
+    "authors": [
+      "Elena Succurro",
+      "Caterina Palleria",
+      "Mariafrancesca Ruffo",
+      "Raffaele Serra",
+      "Franco Arturi",
+      "Luca Gallelli"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Aged",
+        "is_major": false,
+        "ui": "D000368"
+      },
+      {
+        "term": "Alopecia",
+        "is_major": false,
+        "ui": "D000505"
+      },
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": false,
+        "ui": "D003924"
+      },
+      {
+        "term": "Eyebrows",
+        "is_major": false,
+        "ui": "D005138"
+      },
+      {
+        "term": "Eyelashes",
+        "is_major": false,
+        "ui": "D005140"
+      },
+      {
+        "term": "Follow-Up Studies",
+        "is_major": false,
+        "ui": "D005500"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Male",
+        "is_major": false,
+        "ui": "D008297"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Sitagliptin Phosphate",
+        "is_major": false,
+        "ui": "D000068900"
+      },
+      {
+        "term": "Sitagliptin Phosphate, Metformin Hydrochloride Drug Combination",
+        "is_major": false,
+        "ui": "D000068899"
+      },
+      {
+        "term": "Treatment Outcome",
+        "is_major": false,
+        "ui": "D016896"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Adverse drug reaction",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "sitagliptin",
+        "is_major": false
+      },
+      {
+        "term": "type 2 diabetes mellitus",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "The fixed dose combination of sitagliptin 50 mg and metformin 850 mg (Janumet \u00ae), is indicated for the treatment of type 2 diabetes mellitus in addition to diet and exercise to improve glycemic control in patients treated with metformin alone.\n\nMETHODS: We report a 69-year-old man with type 2 diabetes that developed sudden loss of eyebrows and eyelashes about 4 months after the beginning of Janumet\u00ae. Clinical and laboratory findings excluded the presence of systemic or skin diseases able to induce these manifestations, while the Naranjo probability scale documented a possible association between the drug and the adverse drug reaction."
+  },
+  {
+    "rank": 6,
+    "score": 5.363385200500488,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 2436694,
+    "chunk_id": 2436694,
+    "pmid": "38269492",
+    "title": "Metformin adverse event profile: a pharmacovigilance study based on the FDA Adverse Event Reporting System (FAERS) from 2004 to 2022.",
+    "year": null,
+    "journal": "Expert review of clinical pharmacology",
+    "authors": [
+      "Yikuan Du",
+      "Jinfeng Zhu",
+      "Zhuoming Guo",
+      "Zhenjie Wang",
+      "Yuni Wang",
+      "Mianda Hu",
+      "Lingzhi Zhang",
+      "Yurong Yang",
+      "Jinjin Wang",
+      "Yixing Huang",
+      "Peiying Huang",
+      "Mianhai Chen",
+      "Bo Chen",
+      "Chun Yang"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "United States",
+        "is_major": false,
+        "ui": "D014481"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Pharmacovigilance",
+        "is_major": false,
+        "ui": "D060735"
+      },
+      {
+        "term": "Acute Disease",
+        "is_major": false,
+        "ui": "D000208"
+      },
+      {
+        "term": "Pancreatitis",
+        "is_major": true,
+        "ui": "D010195"
+      },
+      {
+        "term": "Adverse Drug Reaction Reporting Systems",
+        "is_major": false,
+        "ui": "D016907"
+      },
+      {
+        "term": "United States Food and Drug Administration",
+        "is_major": false,
+        "ui": "D014486"
+      },
+      {
+        "term": "Drug-Related Side Effects and Adverse Reactions",
+        "is_major": true,
+        "ui": "D064420"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "FAERS",
+        "is_major": false
+      },
+      {
+        "term": "Metformin",
+        "is_major": false
+      },
+      {
+        "term": "adverse drug reactions",
+        "is_major": false
+      },
+      {
+        "term": "lactic acidosis",
+        "is_major": false
+      },
+      {
+        "term": "pharmacovigilance",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "BACKGROUND: Metformin has the potential for treating numerous diseases, but there are still many unrecognized and unreported adverse events (AEs).\n\nMETHODS: We selected data from the United States FDA Adverse Event Reporting System (FAERS) database from the first quarter (Q1) of 2004 to the fourth quarter (Q4) of 2022 for disproportionality analysis to assess the association between metformin and related adverse events.\n\nRESULTS: In this study 10,500,295 case reports were collected from the FAERS database, of which 56,674 adverse events related to metformin were reported. A total of 643 preferred terms (PTs) and 27 system organ classes (SOCs) that were significant disproportionality conforming to the four algorithms simultaneously were included. The SOCs included metabolic and nutritional disorders (\n\nCONCLUSION: Most of our results were consistent with the specification, but some new signals of adverse reactions such as acute pancreatitis were not included. Therefore, further studies are needed to validate unlabeled adverse reactions and provide important support for clinical monitoring and risk identification of metformin."
+  },
+  {
+    "rank": 7,
+    "score": 5.279434680938721,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 10903993,
+    "chunk_id": 10903993,
+    "pmid": "27839968",
+    "title": "Post-donation telephonic interview of blood donors providing an insight into delayed adverse reactions: First attempt in India.",
+    "year": 2017,
+    "journal": "Transfusion and apheresis science : official journal of the World Apheresis Association : official journal of the European Society for Haemapheresis",
+    "authors": [
+      "Aseem K Tiwari",
+      "Geet Aggarwal",
+      "Ravi C Dara",
+      "Dinesh Arora",
+      "Khushboo Srivastava",
+      "Vimarsh Raina"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Adult",
+        "is_major": false,
+        "ui": "D000328"
+      },
+      {
+        "term": "Blood Donors",
+        "is_major": true,
+        "ui": "D001782"
+      },
+      {
+        "term": "Female",
+        "is_major": false,
+        "ui": "D005260"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "India",
+        "is_major": false,
+        "ui": "D007194"
+      },
+      {
+        "term": "Interviews as Topic",
+        "is_major": true,
+        "ui": "D007407"
+      },
+      {
+        "term": "Male",
+        "is_major": false,
+        "ui": "D008297"
+      },
+      {
+        "term": "Prospective Studies",
+        "is_major": false,
+        "ui": "D011446"
+      },
+      {
+        "term": "Surveys and Questionnaires",
+        "is_major": true,
+        "ui": "D011795"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Adverse reaction",
+        "is_major": false
+      },
+      {
+        "term": "Delayed adverse reaction (DAR)",
+        "is_major": false
+      },
+      {
+        "term": "Immediate adverse reaction (IAR)",
+        "is_major": false
+      },
+      {
+        "term": "Telephonic interview",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "BACKGROUND: Blood donor experiences both immediate adverse reactions (IAR) and delayed adverse reactions (DAR). With limited published data available on the incidence of DAR, a study was conducted to estimate incidence and profile of DAR through telephonic interview.\n\nMATERIALS AND METHODS: Study was conducted over a 45-day period for consecutive volunteer whole blood donations at tertiary care hospital. Donors were divided into first-time, repeat and regular and were monitored for IAR. They were given written copy of post-donation advice. Donors were contacted telephonically three weeks post-donation and enquired about general wellbeing and specific DAR in accordance with a standard n international (International Society of Blood Transfusion) standard format.\n\nRESULTS: Donors participated in the study of which 1.6% donors experienced an IAR. Much larger number reported DAR (10.3% vs.1.6% p<0.0001). Further, DAR was presented as a variegated profile with bruise, painful arms and fatigue being the commonest. DARs were more common in females than males (25% vs. 10.3%, p<0.02). Localized DAR like bruise and painful arms were more common in younger donors (age <50 years) whereas systemic DAR like fatigue was common in older donors (>50 years). First time (12.3%) and repeat donors (13.5%) had similar frequency of DAR but were lower among regular donors (6.7%).\n\nCONCLUSION: DARs are more common than IAR and are of different profile. Post-donation interview has provided an insight into donor experiences and can be used as a valuable tool in donor hemovigilance."
+  },
+  {
+    "rank": 8,
+    "score": 5.141610622406006,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 15723376,
+    "chunk_id": 15723376,
+    "pmid": "21701642",
+    "title": "Adverse drug reactions in inpatients of internal medicine wards at a tertiary care hospital: A prospective cohort study.",
+    "year": 2011,
+    "journal": "Journal of pharmacology & pharmacotherapeutics",
+    "authors": [
+      "Mukeshkumar B Vora",
+      "Hiren R Trivedi",
+      "Bharatbhai K Shah",
+      "C B Tripathi"
+    ],
+    "mesh_terms": [],
+    "keywords": [
+      {
+        "term": "Adverse drug reaction",
+        "is_major": false
+      },
+      {
+        "term": "adverse drug reactions",
+        "is_major": false
+      },
+      {
+        "term": "cohort study",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "OBJECTIVE: To find out incidence of adverse drug reactions (ADR) in patients of internal medicine wards and study various aspects of ADR, e.g., causality, mortality, drugs commonly causing ADR in internal medicine wards of Guru Gobind Singh Hospital, Jamnagar, a tertiary care hospital.\n\nMATERIALS AND METHODS: This was prospective, observational study carried out at Department of Medicine, Shri Meghji Pethraj Shah Medical College attached with Guru Gobind Singh Hospital, a tertiary care teaching hospital, Jamnagar, Gujarat over a period of 6 months. For statistical analysis, ADR were analyzed by using Chi-square test.\n\nRESULTS: Out of total 860 patients admitted, 830 were analyzed as they met the inclusion criteria. A total of 45 (5.42%) patients developed 47 ADR. Among them, 27 (3.25 %) (95% CI, 2.03, 4.47%) patients due to ADR required hospital admission in medicine ward (ADR Ad), 18 (2.17%) (95% CI, 1.17%-3.17%) patients developed ADR while already hospitalized in medicine ward (ADR In). Most of the fatal and life-threatening reactions occurred due to chemotherapeutic agents. Majority of patients discontinued suspected drug and recovered from ADR.\n\nCONCLUSION: Fatal and life-threatening adverse reactions reported in the present as well as other studies underline the importance of such studies and need for creating awareness among health professionals about looking for and reporting such reactions."
+  },
+  {
+    "rank": 9,
+    "score": 5.141610622406006,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 5103727,
+    "chunk_id": 5103727,
+    "pmid": "35054090",
+    "title": "Drug Triggers and Clinic of Acute Generalized Exanthematous Pustulosis (AGEP): A Literature Case Series of 297 Patients.",
+    "year": 2022,
+    "journal": "Journal of clinical medicine",
+    "authors": [
+      "Enriqueta Vallejo-Yag\u00fce",
+      "Adrian Martinez-De la Torre",
+      "Omar S Mohamad",
+      "Shweta Sabu",
+      "Andrea M Burden"
+    ],
+    "mesh_terms": [],
+    "keywords": [
+      {
+        "term": "AGEP",
+        "is_major": false
+      },
+      {
+        "term": "adverse drug reaction",
+        "is_major": false
+      },
+      {
+        "term": "adverse event",
+        "is_major": false
+      },
+      {
+        "term": "skin reaction",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Acute generalized exanthematous pustulosis (AGEP) is a rare skin reaction, commonly caused by drugs. Available evidence mostly relies on small studies or case reports. We collected published AGEP case reports and, subsequently, described the patient characteristics, suspect and concomitant drugs, time to onset, disease management, and clinical prognosis. This study included 297 AGEP patients (64.3% women) obtained from 250 published case reports or case series with individual patient data. AGEP affected patients of all ages, but the majority of patients (88.2%) were \u226525 years old. The most frequently reported suspect drugs were anti-infectives for systemic use (36.5%), particularly antibacterials for systemic use (31.0%), and especially beta-lactam antibacterials (18.3%) and macrolides (4.3%). Other frequent suspect drugs were antineoplastics (12.2%), and anti-inflammatory/anti-rheumatic products (5.2%) plus hydroxychloroquine (12.8%). Mean time to onset was 9.1 days (standard deviation SD 13.94). Some patients developed fever (64.3%) and systemic involvement (18.9%), and most patients (76.4%) received pharmacological treatment for AGEP. Seven patients died, although five of them were already critically ill prior to AGEP. In conclusion, antibiotics remain the most common suspected cause of AGEP. While case mortality rate may be up to 2.5%, disentangling the role of AGEP on the fatal outcome from the role of the preexisting health conditions remains challenging."
+  },
+  {
+    "rank": 10,
+    "score": 4.967804908752441,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 1656853,
+    "chunk_id": 1656853,
+    "pmid": "39182908",
+    "title": "Rethinking about Metformin: Promising Potentials.",
+    "year": 2024,
+    "journal": "Korean journal of family medicine",
+    "authors": [
+      "Kyunam Kim"
+    ],
+    "mesh_terms": [],
+    "keywords": [
+      {
+        "term": "Adverse Drug Reaction",
+        "is_major": false
+      },
+      {
+        "term": "COVID-19",
+        "is_major": false
+      },
+      {
+        "term": "Diabetes Mellitus",
+        "is_major": false
+      },
+      {
+        "term": "Metformin",
+        "is_major": false
+      },
+      {
+        "term": "Neoplasms",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Metformin is widely used drugs in the treatment of type 2 diabetes mellitus. However, the mechanisms of action are complex and are still not fully understood yet. Metformin has a dose-dependent blood sugar-lowering effect. The most common adverse reactions of metformin are gastrointestinal symptoms, and women tend to be more experienced than men. A positive correlation between the administration of duration and the daily dose of metformin and the risk of vitamin B12 deficiency is confirmed. Novel glucose-lowering mechanism through the activation of AMP-activated protein kinase and alteration of gut microbiota composition is identified. In addition, metformin has immunomodulatory properties in various mechanisms, including anti-inflammatory actions, and so forth. Metformin improves insulin sensitivity, which may reduce the risk of tumor growth in certain cancers. The antiviral effects of metformin may occur through several mechanisms, including blocking angiotensin converting enzyme 2 receptor, and so forth. These potential mechanisms of metformin are promising in various clinical settings, such as inflammatory diseases, autoimmune diseases, cancer, and coronavirus disease 2019."
+  },
+  {
+    "rank": 1,
+    "score": 9.609614372253418,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 2991313,
+    "chunk_id": 2991313,
+    "pmid": "37591450",
+    "title": "Metformin derivatives - Researchers' friends or foes?",
+    "year": 2023,
+    "journal": "Biochemical pharmacology",
+    "authors": [
+      "Sema Tuna Torunoglu",
+      "Agnieszka Zajda",
+      "Janne Tampio",
+      "Magdalena Markowicz-Piasecka",
+      "Kristiina M Huttunen"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Drug Discovery",
+        "is_major": false,
+        "ui": "D055808"
+      },
+      {
+        "term": "Drug-Related Side Effects and Adverse Reactions",
+        "is_major": true,
+        "ui": "D064420"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Derivative",
+        "is_major": false
+      },
+      {
+        "term": "Metformin",
+        "is_major": false
+      },
+      {
+        "term": "Prodrug",
+        "is_major": false
+      },
+      {
+        "term": "Sulfenamide",
+        "is_major": false
+      },
+      {
+        "term": "Sulfonamide",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Metformin has been used for ages to treat diabetes mellitus due to its safety profile and low cost. However, metformin has variable pharmacokinetics in patients, and due to its poor oral absorption, the therapeutic doses are relatively high, causing unpleasant gastrointestinal adverse effects. Therefore, novel derivatives of metformin have been synthesized during the past decades. Particularly, after the mid-2000\u00a0s, when organic cation transporters were identified as the main metformin carriers, metformin derivatives have been under intensive investigation. Nevertheless, due to the biguanide structure, derivatives of metformin have been challenging to synthesize. Moreover, the mechanisms of metformin's action are not fully understood to date, and since it has multifunctional properties, the interests have switched to re-purposing for other diseases. Indeed, metformin derivatives have been demonstrated in many cases to be more effective than metformin itself and have the potential to be used in different diseases, including several types of cancers and neurodegenerative diseases. On the other hand, the pleiotropic nature of metformin and its derivatives can also create challenges. Not all properties are fit for all diseases. In this review, the history of the development of metformin-like compounds is summarized, and insights into their potential for future drug discovery are discussed."
+  },
+  {
+    "rank": 2,
+    "score": 8.244368553161621,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 4872943,
+    "chunk_id": 4872943,
+    "pmid": "35330695",
+    "title": "Evaluation of Metformin Hydrochloride Tailoring Bilosomes as an Effective Transdermal Nanocarrier.",
+    "year": 2022,
+    "journal": "International journal of nanomedicine",
+    "authors": [
+      "Heba F Salem",
+      "Mohammed M Nafady",
+      "Adel A Ali",
+      "Nermeen M Khalil",
+      "Amani A Elsisi"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": true,
+        "ui": "D003924"
+      },
+      {
+        "term": "Drug-Related Side Effects and Adverse Reactions",
+        "is_major": true,
+        "ui": "D064420"
+      },
+      {
+        "term": "Excipients",
+        "is_major": false,
+        "ui": "D005079"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Surface-Active Agents",
+        "is_major": false,
+        "ui": "D013501"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Design-Expert 13",
+        "is_major": false
+      },
+      {
+        "term": "bile salts",
+        "is_major": false
+      },
+      {
+        "term": "bilosome",
+        "is_major": false
+      },
+      {
+        "term": "edge activators",
+        "is_major": false
+      },
+      {
+        "term": "metformin HCL",
+        "is_major": false
+      },
+      {
+        "term": "permeation study",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Introduction: Metformin hydrochloride (metformin HCL), a first-line drug treating diabetes type II, was known to cause severe gastritis, so seeking a non-oral dosage form was the new trend. Bilosomes are bilayer nano-vesicles of non-ionic surfactants embodying bile salts. In our study, bilosomes were investigated as an acceptable novel carrier for active targeting transdermal delivery of metformin HCL, circumventing its side effects.\n\nMethods: Twelve bilosome formulations were prepared with solvent evaporation method with slight modification according to a 3\n\nResults: The resulting vesicles publicized EE from 56.21% to 94.21%, VS from 183.64 to 701.8 nm, PDI values oscillating between 0.33 and 0.53, ZP (absolute value) from 29 to 44.2 mV, biphasic release profile within 24 h from 60.62 and up to 75.28%, and permeation flux enhancement (198.79-431.91 ng cm\n\nConclusion: Overall results showed that bilosome incorporation of metformin HCL improved permeation and offered a new nano-carrier for active transdermal delivery."
+  },
+  {
+    "rank": 3,
+    "score": 8.016583442687988,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 3590698,
+    "chunk_id": 3590698,
+    "pmid": "36852652",
+    "title": "Metformin counters oxidative stress and mitigates adverse effects of radiation exposure: An overview.",
+    "year": 2023,
+    "journal": "Fundamental & clinical pharmacology",
+    "authors": [
+      "Ekaterina Karmanova",
+      "Anatoly Chernikov",
+      "Anna Usacheva",
+      "Vladimir Ivanov",
+      "Vadim Bruskov"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": true,
+        "ui": "D003924"
+      },
+      {
+        "term": "Oxidative Stress",
+        "is_major": false,
+        "ui": "D018384"
+      },
+      {
+        "term": "Antioxidants",
+        "is_major": false,
+        "ui": "D000975"
+      },
+      {
+        "term": "Oxidation-Reduction",
+        "is_major": false,
+        "ui": "D010084"
+      },
+      {
+        "term": "Drug-Related Side Effects and Adverse Reactions",
+        "is_major": true,
+        "ui": "D064420"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "oxidative stress",
+        "is_major": false
+      },
+      {
+        "term": "radiation",
+        "is_major": false
+      },
+      {
+        "term": "radiomitigator",
+        "is_major": false
+      },
+      {
+        "term": "radiotherapeutic properties",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Metformin (1,1-dimethylbiguanidine hydrochloride) (MF) is a drug that has long been in use for the treatment of type 2 diabetes mellitus and recently is coming into use in the radiation therapy of cancer and other conditions. Exposure to ionizing radiation disturbs the redox homeostasis of cells and causes damage to proteins, membranes, and mitochondria, destroying a number of biological processes. After irradiation, MF activates cellular antioxidant and repair systems by signaling to eliminate the harmful consequences of disruption of redox homeostasis. The use of MF in the treatment of the negative effects of irradiation has great potential in medical patients after radiotherapy and in victims of nuclear accidents or radiologic terrorism."
+  },
+  {
+    "rank": 4,
+    "score": 7.801047325134277,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 8375528,
+    "chunk_id": 8375528,
+    "pmid": "31098946",
+    "title": "Metformin as a protective agent against natural or chemical toxicities: a comprehensive review on drug repositioning.",
+    "year": 2020,
+    "journal": "Journal of endocrinological investigation",
+    "authors": [
+      "S E Meshkani",
+      "D Mahdian",
+      "K Abbaszadeh-Goudarzi",
+      "M Abroudi",
+      "G Dadashizadeh",
+      "J-D Lalau",
+      "M E De Broe",
+      "H Hosseinzadeh"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": false,
+        "ui": "D003924"
+      },
+      {
+        "term": "Drug Repositioning",
+        "is_major": true,
+        "ui": "D058492"
+      },
+      {
+        "term": "Drug-Related Side Effects and Adverse Reactions",
+        "is_major": false,
+        "ui": "D064420"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Protective Agents",
+        "is_major": false,
+        "ui": "D020011"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Chemical toxin",
+        "is_major": false
+      },
+      {
+        "term": "Metformin protection",
+        "is_major": false
+      },
+      {
+        "term": "Natural toxin",
+        "is_major": false
+      },
+      {
+        "term": "Toxin",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "BACKGROUND: Metformin is the first prescribed drug for\u00a0hyperglycemia in type 2 diabetes mellitus. Mainly by activating AMPK pathway, this drug exerts various functions that among them protective effects are of the interest.\n\nPURPOSE: Herein, we aimed to gather data about the protective impacts of metformin against various natural or chemical toxicities.\n\nRESULTS: An extensive search among PubMed, Scopus, and Google Scholar was conducted by keywords related to protection, toxicity, natural and chemical toxins and, metformin. Our literature review showed metformin alongside its anti-hyperglycemic effect has a wide range of anti-toxic effects against anti-tumour and routine drugs, natural and chemical toxins, herbicides and, heavy metals.\n\nCONCLUSION: It is evident that metformin is a potent drug against the toxicity of a broad spectrum of natural, chemical toxic agents which is proved by a vast number of studies. Metformin mainly through AMPK axis can protect different organs against toxicities. Moreover, metformin preserves DNA integrity and can be an option for adjuvant therapy to ameliorate side effect of other therapeutics."
+  },
+  {
+    "rank": 5,
+    "score": 7.801047325134277,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 7203794,
+    "chunk_id": 7203794,
+    "pmid": "32562114",
+    "title": "Identification of longevity compounds with minimized probabilities of side effects.",
+    "year": 2020,
+    "journal": "Biogerontology",
+    "authors": [
+      "Georges E Janssens",
+      "Riekelt H Houtkooper"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Aging",
+        "is_major": true,
+        "ui": "D000375"
+      },
+      {
+        "term": "Animals",
+        "is_major": false,
+        "ui": "D000818"
+      },
+      {
+        "term": "Databases, Factual",
+        "is_major": false,
+        "ui": "D016208"
+      },
+      {
+        "term": "Drug-Related Side Effects and Adverse Reactions",
+        "is_major": false,
+        "ui": "D064420"
+      },
+      {
+        "term": "Glucosamine",
+        "is_major": false,
+        "ui": "D005944"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Longevity",
+        "is_major": true,
+        "ui": "D008136"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Mice",
+        "is_major": false,
+        "ui": "D051379"
+      },
+      {
+        "term": "Probability",
+        "is_major": false,
+        "ui": "D011336"
+      },
+      {
+        "term": "Spermidine",
+        "is_major": false,
+        "ui": "D013095"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "D-Glucosamine",
+        "is_major": false
+      },
+      {
+        "term": "Geroprotectors",
+        "is_major": false
+      },
+      {
+        "term": "Hormesis",
+        "is_major": false
+      },
+      {
+        "term": "Side effects",
+        "is_major": false
+      },
+      {
+        "term": "Spermidine",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "It is hypothesized that treating the general aging population with compounds that slow aging, geroprotectors, could provide many benefits to society, including a reduction of age-related diseases. It is intuitive that such compounds should cause minimal side effects, since they would be distributed to otherwise healthy individuals for extended periods of time. The question therefore emerges of how we should prioritize geroprotectors discovered in model organisms for clinical testing in humans. In other words, which compounds are least likely to cause harm, while still potentially providing benefit? To systematically answer this question we queried the DrugAge database-containing hundreds of known geroprotectors-and cross-referenced this with a recently published repository of compound side effect predictions. In total, 124 geroprotectors were associated to 800 unique side effects. Geroprotectors with high risks of side effects, some even with risk for death, included lamotrigine and minocycline, while compounds with low side effect risks included spermidine and D-glucosamine. Despite their popularity as top geroprotector candidates for humans, sirolimus and metformin harbored greater risks of side effects than many other candidate geroprotectors, sirolimus being the more severe of the two. Furthermore, we found that a correlation existed between maximum lifespan extension in worms and the likelihood of causing a side effect, suggesting that extreme lifespan extension in model organisms should not necessarily be the priority when screening for novel geroprotectors. We discuss the implications of our findings for prioritizing geroprotectors, suggesting spermidine and D-glucosamine for clinical trials in humans."
+  },
+  {
+    "rank": 6,
+    "score": 7.596797943115234,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 5051672,
+    "chunk_id": 5051672,
+    "pmid": "35115253",
+    "title": "Metformin-based single pill drug combinations for type 2 diabetes in primary care England: A time trend analysis.",
+    "year": 2022,
+    "journal": "Primary care diabetes",
+    "authors": [
+      "Syed Shahzad Hasan",
+      "Qasim Aslam",
+      "Imarah Islam",
+      "Chia Siang Kow",
+      "Zaheer Ud Din Babar"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": true,
+        "ui": "D003924"
+      },
+      {
+        "term": "Drug Combinations",
+        "is_major": false,
+        "ui": "D004338"
+      },
+      {
+        "term": "Drug-Related Side Effects and Adverse Reactions",
+        "is_major": true,
+        "ui": "D064420"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Primary Health Care",
+        "is_major": false,
+        "ui": "D011320"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Adverse drug reactions",
+        "is_major": false
+      },
+      {
+        "term": "Cost",
+        "is_major": false
+      },
+      {
+        "term": "England",
+        "is_major": false
+      },
+      {
+        "term": "Metformin",
+        "is_major": false
+      },
+      {
+        "term": "Prescribing",
+        "is_major": false
+      },
+      {
+        "term": "Primary care",
+        "is_major": false
+      },
+      {
+        "term": "Single pill",
+        "is_major": false
+      },
+      {
+        "term": "Type 2 diabetes",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "AIMS: There has been an increase in prescribing and costs of oral hypoglycaemic agents in England and other countries. This study aims to investigate the trends in prescriptions, costs, and adverse events of metformin and metformin-based single pill drug combinations from 2015 to 2020 and explore why changes in use or cost are occurring.\n\nMETHODS: Prescriptions and costs data from Prescription Cost Analysis database and Interactive Drug Analysis Profiles presenting all suspected ADRs reported for each drug were examined. Pharmacy level prices were also obtained. Linear regression analysis was used to investigate the trends in prescribing and costs.\n\nRESULTS: Prescribing and costs of metformin-based single pill drug combinations (as a percent mean change per year) saw an increase of 8.78% (95% Cl: 7.45%, 10.11%, p = 0.001) and 5.17% (95% Cl: 2.13%, 8.22%, p = 0.009) on average each year, respectively. Metformin was the most prescribed monotherapy drug between 2015 and 2020. The cost of prescribing metformin (as a proportion of total oral hypoglycaemic agents) has been reduced from 30% in 2015 to 17% in 2020. Metformin-dipeptidyl peptidase-4 inhibitor (e.g., metformin-sitagliptin) combination was the most popular metformin-based single pill drug combination. The number of adverse drug reactions per million items dispensed shows that metformin has the lowest adverse drug reactions per million items compared to other oral hypoglycaemic drugs.\n\nCONCLUSIONS: Overall, an increase in prescription items can be seen for metformin-based single pill drug combinations along with an increase in their costs in primary care in England between 2015 and 2020. There was a declining trend for the number of ADRs reported per million prescription items dispensed for metformin-containing single pill combinations, even though their prescription rate increased."
+  },
+  {
+    "rank": 7,
+    "score": 7.596797943115234,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 1871672,
+    "chunk_id": 1871672,
+    "pmid": "38888389",
+    "title": "[Risk minimalisation measures for medications; are they incorporated in Dutch clinical guidelines?]",
+    "year": 2024,
+    "journal": "Nederlands tijdschrift voor geneeskunde",
+    "authors": [
+      "Renske J Grupstra",
+      "Satu J Siiskonen",
+      "Helga Gardarsdottir"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Netherlands",
+        "is_major": false,
+        "ui": "D009426"
+      },
+      {
+        "term": "Practice Guidelines as Topic",
+        "is_major": true,
+        "ui": "D017410"
+      },
+      {
+        "term": "Drug-Related Side Effects and Adverse Reactions",
+        "is_major": false,
+        "ui": "D064420"
+      },
+      {
+        "term": "Methotrexate",
+        "is_major": false,
+        "ui": "D008727"
+      },
+      {
+        "term": "Valproic Acid",
+        "is_major": false,
+        "ui": "D014635"
+      },
+      {
+        "term": "Fluoroquinolones",
+        "is_major": false,
+        "ui": "D024841"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Risk Management",
+        "is_major": false,
+        "ui": "D012308"
+      }
+    ],
+    "keywords": [],
+    "citations": [],
+    "text": "OBJECTIVE: Risk minimisation measures (RMM) are put in place to ensure safe and effective use of medicines. This study assessed whether RMM for five medicines are implemented in Dutch clinical guidelines.\n\nDESIGN: Descriptive study.\n\nMETHOD: Dutch clinical guidelines where treatment with valproate, fluoroquinolones, methotrexate, metformin or fluorouracil was recommended were identified. In those guidelines that had been updated after publication of the RMM, we determined whether RMM-information was included in the guideline.\n\nRESULTS: Out of 50 identified guidelines recommending treatment with one of the five medicines, only 21 (42%) were revised after RMM-implementation. Of these 21 guidelines, 12 (n = 57%) included RMM-related information.\n\nCONCLUSION: Uptake of RMM information in Dutch clinical guidelines is limited and RMM-publication does not prompt guideline updates. This suggests that guidelines alone are not an optimal way to inform health care professionals of new safety warnings."
+  },
+  {
+    "rank": 8,
+    "score": 7.596797943115234,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 10492662,
+    "chunk_id": 10492662,
+    "pmid": "28463344",
+    "title": "Minimizing weight gain for patients taking antipsychotic medications: The potential role for early use of metformin.",
+    "year": 2017,
+    "journal": "Annals of clinical psychiatry : official journal of the American Academy of Clinical Psychiatrists",
+    "authors": [
+      "Victoria Hendrick",
+      "Robert Dasher",
+      "Michael Gitlin",
+      "Mehrban Parsi"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Antipsychotic Agents",
+        "is_major": false,
+        "ui": "D014150"
+      },
+      {
+        "term": "Drug-Related Side Effects and Adverse Reactions",
+        "is_major": true,
+        "ui": "D064420"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Mental Disorders",
+        "is_major": false,
+        "ui": "D001523"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Time-to-Treatment",
+        "is_major": false,
+        "ui": "D061665"
+      },
+      {
+        "term": "Weight Gain",
+        "is_major": false,
+        "ui": "D015430"
+      }
+    ],
+    "keywords": [],
+    "citations": [],
+    "text": "BACKGROUND: Patients taking antipsychotic medications are at high risk for weight gain, which in turn leads to poor health outcomes, nonadherence with treatment, and low self-esteem.\n\nMETHODS: We reviewed published studies of pharmacologic interventions aimed at minimizing antipsychotic-induced weight gain. Treatments initiated prior to onset of weight gain were compared with those that started once weight gain already had occurred.\n\nRESULTS: Although data are limited, adjunctive medications for weight management appear to be more effective when initiated at or near the time when patients are first exposed to antipsychotic medications. Interventions initiated later in the course of treatment-typically after weight gain already has occurred-rarely help patients return to their pretreatment weight. The most commonly used adjunctive intervention has been metformin.\n\nCONCLUSIONS: Certain patients benefit from initiating metformin early in their exposure to second-generation antipsychotic agents. In particular, young, healthy patients beginning olanzapine or clozapine probably will experience less weight gain if they concomitantly initiate metformin."
+  },
+  {
+    "rank": 9,
+    "score": 7.402970790863037,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 10560205,
+    "chunk_id": 10560205,
+    "pmid": "28361819",
+    "title": "Pioglitazone utilization, efficacy & safety in Indian type 2 diabetic patients: A systematic review & comparison with European Medicines Agency Assessment Report.",
+    "year": 2016,
+    "journal": "The Indian journal of medical research",
+    "authors": [
+      "Sarayu A Pai",
+      "Nilima A Kshirsagar"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Clinical Trials as Topic",
+        "is_major": false,
+        "ui": "D002986"
+      },
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": false,
+        "ui": "D003924"
+      },
+      {
+        "term": "Drug-Related Side Effects and Adverse Reactions",
+        "is_major": false,
+        "ui": "D064420"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "India",
+        "is_major": false,
+        "ui": "D007194"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Pioglitazone",
+        "is_major": false,
+        "ui": "D000077205"
+      },
+      {
+        "term": "Thiazolidinediones",
+        "is_major": false,
+        "ui": "D045162"
+      }
+    ],
+    "keywords": [],
+    "citations": [],
+    "text": "BACKGROUND & OBJECTIVES: With pioglitazone ban and subsequent revoking in India along with varying regulatory decisions in other countries, it was decided to carry out a systematic review on its safety, efficacy and drug utilization in patients with type 2 diabetes mellitus (T2DM) in India and compare with the data from the European Medicines Agency Assessment Report (EMA-AR).\n\nMETHODS: Systematic review was performed as per the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidelines, searching Medline/PubMed, Google Scholar and Science Direct databases using 'pioglitazone AND India AND human' and 'pioglitazone AND India AND human AND patient' and compared with EMA-AR. Spontaneous reports in World Health Organization VigiBase from India were compared with VigiBase data from other countries.\n\nRESULTS: Sixty six publications, 26 (efficacy), 32 (drug utilization) and eight (safety), were retrieved. In India, pioglitazone was used at 15-30 mg/day mostly with metformin and sulphonylurea, being prescribed to 26.7 and 8.4 per cent patients in north and south, respectively. The efficacy in clinical trials (CTs) was similar to those in EMA-AR. Incidence of bladder cancer in pioglitazone exposed and non-exposed patients was not significantly different in an Indian retrospective cohort study. There were two cases and a series of eight cases of bladder cancer published but none reported in VigiBase.\n\nINTERPRETATION & CONCLUSIONS: In India, probably due to lower dose, lower background incidence of bladder cancer and smaller sample size in epidemiological studies, association of bladder cancer with pioglitazone was not found to be significant. Reporting of CTs and adverse drug reactions to Clinical Trials Registry of India and Pharmacovigilance Programme of India, respectively, along with compliance studies with warning given in package insert and epidemiological studies with larger sample size are needed."
+  },
+  {
+    "rank": 10,
+    "score": 7.218789100646973,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 3538895,
+    "chunk_id": 3538895,
+    "pmid": "36909343",
+    "title": "The effects of prebiotics on gastrointestinal side effects of metformin in youth: A pilot randomized control trial in youth-onset type 2 diabetes.",
+    "year": 2023,
+    "journal": "Frontiers in endocrinology",
+    "authors": [
+      "Sydney A Dixon",
+      "Sidharth Mishra",
+      "Katrina B Dietsche",
+      "Shalini Jain",
+      "Lilian Mabundo",
+      "Michael Stagliano",
+      "Andrea Krenek",
+      "Amber Courville",
+      "Shanna Yang",
+      "Sara A Turner",
+      "Abby G Meyers",
+      "Doris E Estrada",
+      "Hariom Yadav",
+      "Stephanie T Chung"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Male",
+        "is_major": false,
+        "ui": "D008297"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Adolescent",
+        "is_major": false,
+        "ui": "D000293"
+      },
+      {
+        "term": "Female",
+        "is_major": false,
+        "ui": "D005260"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": true,
+        "ui": "D003924"
+      },
+      {
+        "term": "Prebiotics",
+        "is_major": false,
+        "ui": "D056692"
+      },
+      {
+        "term": "Pilot Projects",
+        "is_major": false,
+        "ui": "D010865"
+      },
+      {
+        "term": "Double-Blind Method",
+        "is_major": false,
+        "ui": "D004311"
+      },
+      {
+        "term": "Drug-Related Side Effects and Adverse Reactions",
+        "is_major": true,
+        "ui": "D064420"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "diabetes",
+        "is_major": false
+      },
+      {
+        "term": "fiber",
+        "is_major": false
+      },
+      {
+        "term": "gastrointestinal",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "microbiome",
+        "is_major": false
+      },
+      {
+        "term": "prebiotics",
+        "is_major": false
+      },
+      {
+        "term": "side effects (SE)",
+        "is_major": false
+      },
+      {
+        "term": "youth",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Disclosure summary: Dr. Yadav is Chief Scientific Officer and Co-Founder of Postbiotics Inc and has no conflict of interest with this work. All other authors have no conflicts of interest to disclose.\n\nBackground: Metformin is the only approved first-line oral glucose lowering agent for youth with type 2 diabetes mellitus (Y-T2DM) but often causes gastrointestinal (GI) side effects, which may contribute to reduced treatment adherence and efficacy. Prebiotic intake may reduce metformin's side effects by shifting microbiota composition and activity.\n\nObjective: The aims of this study were to determine the feasibility and tolerability of a prebiotic supplement to improve metformin-induced GI symptoms and explore the changes in glycemia and shifts in the microbiota diversity.\n\nMethods: In a two-phase pilot clinical trial, we compared, stool frequency and stool form every 1-2 days, and composite lower GI symptoms (weekly) at initiation of daily metformin combined with either a daily prebiotic or a placebo shake in a 1-week randomized double-blind crossover design (Phase 1), followed by a 1-month open-labeled extension (Phase 2). Plasma glycemic markers and stool samples were collected before and after each phase.\n\nResults: Six Y-T2DM (17.2 \u00b1 1.7y (mean \u00b1 SD), 67% male, BMI (42 \u00b1 9 kg/m\n\nConclusion: Administration of a prebiotic fiber supplement during short-term metformin therapy was well tolerated in Y-T2DM and associated with modest shifts in microbial composition. This study provides a proof-of-concept for feasibility exploring prebiotic-metformin-microbiome interactions as a basis for adjunctive metformin therapy.\n\nClinical trial registration: https://clinicaltrials.gov/, identifier NCT04209075."
+  },
+  {
+    "rank": 1,
+    "score": 8.528135299682617,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 2991313,
+    "chunk_id": 2991313,
+    "pmid": "37591450",
+    "title": "Metformin derivatives - Researchers' friends or foes?",
+    "year": 2023,
+    "journal": "Biochemical pharmacology",
+    "authors": [
+      "Sema Tuna Torunoglu",
+      "Agnieszka Zajda",
+      "Janne Tampio",
+      "Magdalena Markowicz-Piasecka",
+      "Kristiina M Huttunen"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Drug Discovery",
+        "is_major": false,
+        "ui": "D055808"
+      },
+      {
+        "term": "Drug-Related Side Effects and Adverse Reactions",
+        "is_major": true,
+        "ui": "D064420"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Derivative",
+        "is_major": false
+      },
+      {
+        "term": "Metformin",
+        "is_major": false
+      },
+      {
+        "term": "Prodrug",
+        "is_major": false
+      },
+      {
+        "term": "Sulfenamide",
+        "is_major": false
+      },
+      {
+        "term": "Sulfonamide",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Metformin has been used for ages to treat diabetes mellitus due to its safety profile and low cost. However, metformin has variable pharmacokinetics in patients, and due to its poor oral absorption, the therapeutic doses are relatively high, causing unpleasant gastrointestinal adverse effects. Therefore, novel derivatives of metformin have been synthesized during the past decades. Particularly, after the mid-2000\u00a0s, when organic cation transporters were identified as the main metformin carriers, metformin derivatives have been under intensive investigation. Nevertheless, due to the biguanide structure, derivatives of metformin have been challenging to synthesize. Moreover, the mechanisms of metformin's action are not fully understood to date, and since it has multifunctional properties, the interests have switched to re-purposing for other diseases. Indeed, metformin derivatives have been demonstrated in many cases to be more effective than metformin itself and have the potential to be used in different diseases, including several types of cancers and neurodegenerative diseases. On the other hand, the pleiotropic nature of metformin and its derivatives can also create challenges. Not all properties are fit for all diseases. In this review, the history of the development of metformin-like compounds is summarized, and insights into their potential for future drug discovery are discussed."
+  },
+  {
+    "rank": 2,
+    "score": 7.521967887878418,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 2436694,
+    "chunk_id": 2436694,
+    "pmid": "38269492",
+    "title": "Metformin adverse event profile: a pharmacovigilance study based on the FDA Adverse Event Reporting System (FAERS) from 2004 to 2022.",
+    "year": null,
+    "journal": "Expert review of clinical pharmacology",
+    "authors": [
+      "Yikuan Du",
+      "Jinfeng Zhu",
+      "Zhuoming Guo",
+      "Zhenjie Wang",
+      "Yuni Wang",
+      "Mianda Hu",
+      "Lingzhi Zhang",
+      "Yurong Yang",
+      "Jinjin Wang",
+      "Yixing Huang",
+      "Peiying Huang",
+      "Mianhai Chen",
+      "Bo Chen",
+      "Chun Yang"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "United States",
+        "is_major": false,
+        "ui": "D014481"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Pharmacovigilance",
+        "is_major": false,
+        "ui": "D060735"
+      },
+      {
+        "term": "Acute Disease",
+        "is_major": false,
+        "ui": "D000208"
+      },
+      {
+        "term": "Pancreatitis",
+        "is_major": true,
+        "ui": "D010195"
+      },
+      {
+        "term": "Adverse Drug Reaction Reporting Systems",
+        "is_major": false,
+        "ui": "D016907"
+      },
+      {
+        "term": "United States Food and Drug Administration",
+        "is_major": false,
+        "ui": "D014486"
+      },
+      {
+        "term": "Drug-Related Side Effects and Adverse Reactions",
+        "is_major": true,
+        "ui": "D064420"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "FAERS",
+        "is_major": false
+      },
+      {
+        "term": "Metformin",
+        "is_major": false
+      },
+      {
+        "term": "adverse drug reactions",
+        "is_major": false
+      },
+      {
+        "term": "lactic acidosis",
+        "is_major": false
+      },
+      {
+        "term": "pharmacovigilance",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "BACKGROUND: Metformin has the potential for treating numerous diseases, but there are still many unrecognized and unreported adverse events (AEs).\n\nMETHODS: We selected data from the United States FDA Adverse Event Reporting System (FAERS) database from the first quarter (Q1) of 2004 to the fourth quarter (Q4) of 2022 for disproportionality analysis to assess the association between metformin and related adverse events.\n\nRESULTS: In this study 10,500,295 case reports were collected from the FAERS database, of which 56,674 adverse events related to metformin were reported. A total of 643 preferred terms (PTs) and 27 system organ classes (SOCs) that were significant disproportionality conforming to the four algorithms simultaneously were included. The SOCs included metabolic and nutritional disorders (\n\nCONCLUSION: Most of our results were consistent with the specification, but some new signals of adverse reactions such as acute pancreatitis were not included. Therefore, further studies are needed to validate unlabeled adverse reactions and provide important support for clinical monitoring and risk identification of metformin."
+  },
+  {
+    "rank": 3,
+    "score": 7.383090019226074,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 7587671,
+    "chunk_id": 7587671,
+    "pmid": "32048185",
+    "title": "Sex Differences in Adverse Drug Reactions of Metformin: A Longitudinal Survey Study.",
+    "year": 2020,
+    "journal": "Drug safety",
+    "authors": [
+      "Sieta T de Vries",
+      "Petra Denig",
+      "Corine Ekhart",
+      "Peter G M Mol",
+      "Eugene P van Puijenbroek"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Adverse Drug Reaction Reporting Systems",
+        "is_major": false,
+        "ui": "D016907"
+      },
+      {
+        "term": "Drug-Related Side Effects and Adverse Reactions",
+        "is_major": false,
+        "ui": "D064420"
+      },
+      {
+        "term": "Female",
+        "is_major": false,
+        "ui": "D005260"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Longitudinal Studies",
+        "is_major": false,
+        "ui": "D008137"
+      },
+      {
+        "term": "Male",
+        "is_major": false,
+        "ui": "D008297"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Middle Aged",
+        "is_major": false,
+        "ui": "D008875"
+      },
+      {
+        "term": "Netherlands",
+        "is_major": false,
+        "ui": "D009426"
+      },
+      {
+        "term": "Pharmacovigilance",
+        "is_major": false,
+        "ui": "D060735"
+      },
+      {
+        "term": "Sex Factors",
+        "is_major": false,
+        "ui": "D012737"
+      },
+      {
+        "term": "Surveys and Questionnaires",
+        "is_major": false,
+        "ui": "D011795"
+      }
+    ],
+    "keywords": [],
+    "citations": [],
+    "text": "INTRODUCTION: In general, women more often experience metformin-associated adverse drug reactions (ADRs) than men.\n\nOBJECTIVES: We aimed to assess whether sex differences in reported ADRs for metformin are observed at different times after initiation, and to explore their concurrence with sex differences in the dose of metformin over time. This may guide future studies in assessing the involved mechanisms of sex differences in metformin-associated ADRs and may guide sex-specific management of ADRs in clinical practice.\n\nMETHODS: This study has a longitudinal design using data about patients initiating metformin collected by the Dutch National Pharmacovigilance Center Lareb through their Intensive Monitoring program. Patients were asked to complete a web-based questionnaire six times after initiation (i.e., at 2\u00a0weeks, 6\u00a0weeks and at 3, 6, 9, and 12\u00a0months). The outcome variables were the proportion of patients reporting any ADR (primary) and the dose of metformin (secondary). Sex differences in the proportions of ADRs and in the dose were tested at each assessment using Pearson Chi-Squared tests and Wilcoxon rank-sum tests, respectively. Using Bonferroni adjustment for multiple testing, a p value\u2009<\u20090.01 was considered statistically significant.\n\nRESULTS: The number of included patients was 1712 (40.9% women). Women reported an ADR more often than men, which was statistically significant at the assessment at 2\u00a0weeks (34% vs 25%, p\u2009<\u20090.001), and 6\u00a0weeks (37% vs 28%, p\u2009=\u20090.001) after initiation. In general, women were reported to be prescribed a lower dose than men, which became statistically significant at the 9-month assessment (p\u2009<\u20090.01).\n\nCONCLUSIONS: Sex differences in reported ADRs were seen in the first weeks after metformin initiation, whereas statistically significant differences in self-reported prescribed dosing were observed after several months. Patients, in particular women, might benefit from being prescribed lower metformin doses at treatment initiation."
+  },
+  {
+    "rank": 4,
+    "score": 7.316535472869873,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 4872943,
+    "chunk_id": 4872943,
+    "pmid": "35330695",
+    "title": "Evaluation of Metformin Hydrochloride Tailoring Bilosomes as an Effective Transdermal Nanocarrier.",
+    "year": 2022,
+    "journal": "International journal of nanomedicine",
+    "authors": [
+      "Heba F Salem",
+      "Mohammed M Nafady",
+      "Adel A Ali",
+      "Nermeen M Khalil",
+      "Amani A Elsisi"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": true,
+        "ui": "D003924"
+      },
+      {
+        "term": "Drug-Related Side Effects and Adverse Reactions",
+        "is_major": true,
+        "ui": "D064420"
+      },
+      {
+        "term": "Excipients",
+        "is_major": false,
+        "ui": "D005079"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Surface-Active Agents",
+        "is_major": false,
+        "ui": "D013501"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Design-Expert 13",
+        "is_major": false
+      },
+      {
+        "term": "bile salts",
+        "is_major": false
+      },
+      {
+        "term": "bilosome",
+        "is_major": false
+      },
+      {
+        "term": "edge activators",
+        "is_major": false
+      },
+      {
+        "term": "metformin HCL",
+        "is_major": false
+      },
+      {
+        "term": "permeation study",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Introduction: Metformin hydrochloride (metformin HCL), a first-line drug treating diabetes type II, was known to cause severe gastritis, so seeking a non-oral dosage form was the new trend. Bilosomes are bilayer nano-vesicles of non-ionic surfactants embodying bile salts. In our study, bilosomes were investigated as an acceptable novel carrier for active targeting transdermal delivery of metformin HCL, circumventing its side effects.\n\nMethods: Twelve bilosome formulations were prepared with solvent evaporation method with slight modification according to a 3\n\nResults: The resulting vesicles publicized EE from 56.21% to 94.21%, VS from 183.64 to 701.8 nm, PDI values oscillating between 0.33 and 0.53, ZP (absolute value) from 29 to 44.2 mV, biphasic release profile within 24 h from 60.62 and up to 75.28%, and permeation flux enhancement (198.79-431.91 ng cm\n\nConclusion: Overall results showed that bilosome incorporation of metformin HCL improved permeation and offered a new nano-carrier for active transdermal delivery."
+  },
+  {
+    "rank": 5,
+    "score": 7.114386558532715,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 3590698,
+    "chunk_id": 3590698,
+    "pmid": "36852652",
+    "title": "Metformin counters oxidative stress and mitigates adverse effects of radiation exposure: An overview.",
+    "year": 2023,
+    "journal": "Fundamental & clinical pharmacology",
+    "authors": [
+      "Ekaterina Karmanova",
+      "Anatoly Chernikov",
+      "Anna Usacheva",
+      "Vladimir Ivanov",
+      "Vadim Bruskov"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": true,
+        "ui": "D003924"
+      },
+      {
+        "term": "Oxidative Stress",
+        "is_major": false,
+        "ui": "D018384"
+      },
+      {
+        "term": "Antioxidants",
+        "is_major": false,
+        "ui": "D000975"
+      },
+      {
+        "term": "Oxidation-Reduction",
+        "is_major": false,
+        "ui": "D010084"
+      },
+      {
+        "term": "Drug-Related Side Effects and Adverse Reactions",
+        "is_major": true,
+        "ui": "D064420"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "oxidative stress",
+        "is_major": false
+      },
+      {
+        "term": "radiation",
+        "is_major": false
+      },
+      {
+        "term": "radiomitigator",
+        "is_major": false
+      },
+      {
+        "term": "radiotherapeutic properties",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Metformin (1,1-dimethylbiguanidine hydrochloride) (MF) is a drug that has long been in use for the treatment of type 2 diabetes mellitus and recently is coming into use in the radiation therapy of cancer and other conditions. Exposure to ionizing radiation disturbs the redox homeostasis of cells and causes damage to proteins, membranes, and mitochondria, destroying a number of biological processes. After irradiation, MF activates cellular antioxidant and repair systems by signaling to eliminate the harmful consequences of disruption of redox homeostasis. The use of MF in the treatment of the negative effects of irradiation has great potential in medical patients after radiotherapy and in victims of nuclear accidents or radiologic terrorism."
+  },
+  {
+    "rank": 6,
+    "score": 6.9231061935424805,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 7203794,
+    "chunk_id": 7203794,
+    "pmid": "32562114",
+    "title": "Identification of longevity compounds with minimized probabilities of side effects.",
+    "year": 2020,
+    "journal": "Biogerontology",
+    "authors": [
+      "Georges E Janssens",
+      "Riekelt H Houtkooper"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Aging",
+        "is_major": true,
+        "ui": "D000375"
+      },
+      {
+        "term": "Animals",
+        "is_major": false,
+        "ui": "D000818"
+      },
+      {
+        "term": "Databases, Factual",
+        "is_major": false,
+        "ui": "D016208"
+      },
+      {
+        "term": "Drug-Related Side Effects and Adverse Reactions",
+        "is_major": false,
+        "ui": "D064420"
+      },
+      {
+        "term": "Glucosamine",
+        "is_major": false,
+        "ui": "D005944"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Longevity",
+        "is_major": true,
+        "ui": "D008136"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Mice",
+        "is_major": false,
+        "ui": "D051379"
+      },
+      {
+        "term": "Probability",
+        "is_major": false,
+        "ui": "D011336"
+      },
+      {
+        "term": "Spermidine",
+        "is_major": false,
+        "ui": "D013095"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "D-Glucosamine",
+        "is_major": false
+      },
+      {
+        "term": "Geroprotectors",
+        "is_major": false
+      },
+      {
+        "term": "Hormesis",
+        "is_major": false
+      },
+      {
+        "term": "Side effects",
+        "is_major": false
+      },
+      {
+        "term": "Spermidine",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "It is hypothesized that treating the general aging population with compounds that slow aging, geroprotectors, could provide many benefits to society, including a reduction of age-related diseases. It is intuitive that such compounds should cause minimal side effects, since they would be distributed to otherwise healthy individuals for extended periods of time. The question therefore emerges of how we should prioritize geroprotectors discovered in model organisms for clinical testing in humans. In other words, which compounds are least likely to cause harm, while still potentially providing benefit? To systematically answer this question we queried the DrugAge database-containing hundreds of known geroprotectors-and cross-referenced this with a recently published repository of compound side effect predictions. In total, 124 geroprotectors were associated to 800 unique side effects. Geroprotectors with high risks of side effects, some even with risk for death, included lamotrigine and minocycline, while compounds with low side effect risks included spermidine and D-glucosamine. Despite their popularity as top geroprotector candidates for humans, sirolimus and metformin harbored greater risks of side effects than many other candidate geroprotectors, sirolimus being the more severe of the two. Furthermore, we found that a correlation existed between maximum lifespan extension in worms and the likelihood of causing a side effect, suggesting that extreme lifespan extension in model organisms should not necessarily be the priority when screening for novel geroprotectors. We discuss the implications of our findings for prioritizing geroprotectors, suggesting spermidine and D-glucosamine for clinical trials in humans."
+  },
+  {
+    "rank": 7,
+    "score": 6.9231061935424805,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 8375528,
+    "chunk_id": 8375528,
+    "pmid": "31098946",
+    "title": "Metformin as a protective agent against natural or chemical toxicities: a comprehensive review on drug repositioning.",
+    "year": 2020,
+    "journal": "Journal of endocrinological investigation",
+    "authors": [
+      "S E Meshkani",
+      "D Mahdian",
+      "K Abbaszadeh-Goudarzi",
+      "M Abroudi",
+      "G Dadashizadeh",
+      "J-D Lalau",
+      "M E De Broe",
+      "H Hosseinzadeh"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": false,
+        "ui": "D003924"
+      },
+      {
+        "term": "Drug Repositioning",
+        "is_major": true,
+        "ui": "D058492"
+      },
+      {
+        "term": "Drug-Related Side Effects and Adverse Reactions",
+        "is_major": false,
+        "ui": "D064420"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Protective Agents",
+        "is_major": false,
+        "ui": "D020011"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Chemical toxin",
+        "is_major": false
+      },
+      {
+        "term": "Metformin protection",
+        "is_major": false
+      },
+      {
+        "term": "Natural toxin",
+        "is_major": false
+      },
+      {
+        "term": "Toxin",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "BACKGROUND: Metformin is the first prescribed drug for\u00a0hyperglycemia in type 2 diabetes mellitus. Mainly by activating AMPK pathway, this drug exerts various functions that among them protective effects are of the interest.\n\nPURPOSE: Herein, we aimed to gather data about the protective impacts of metformin against various natural or chemical toxicities.\n\nRESULTS: An extensive search among PubMed, Scopus, and Google Scholar was conducted by keywords related to protection, toxicity, natural and chemical toxins and, metformin. Our literature review showed metformin alongside its anti-hyperglycemic effect has a wide range of anti-toxic effects against anti-tumour and routine drugs, natural and chemical toxins, herbicides and, heavy metals.\n\nCONCLUSION: It is evident that metformin is a potent drug against the toxicity of a broad spectrum of natural, chemical toxic agents which is proved by a vast number of studies. Metformin mainly through AMPK axis can protect different organs against toxicities. Moreover, metformin preserves DNA integrity and can be an option for adjuvant therapy to ameliorate side effect of other therapeutics."
+  },
+  {
+    "rank": 8,
+    "score": 6.741843223571777,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 5051672,
+    "chunk_id": 5051672,
+    "pmid": "35115253",
+    "title": "Metformin-based single pill drug combinations for type 2 diabetes in primary care England: A time trend analysis.",
+    "year": 2022,
+    "journal": "Primary care diabetes",
+    "authors": [
+      "Syed Shahzad Hasan",
+      "Qasim Aslam",
+      "Imarah Islam",
+      "Chia Siang Kow",
+      "Zaheer Ud Din Babar"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": true,
+        "ui": "D003924"
+      },
+      {
+        "term": "Drug Combinations",
+        "is_major": false,
+        "ui": "D004338"
+      },
+      {
+        "term": "Drug-Related Side Effects and Adverse Reactions",
+        "is_major": true,
+        "ui": "D064420"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Primary Health Care",
+        "is_major": false,
+        "ui": "D011320"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Adverse drug reactions",
+        "is_major": false
+      },
+      {
+        "term": "Cost",
+        "is_major": false
+      },
+      {
+        "term": "England",
+        "is_major": false
+      },
+      {
+        "term": "Metformin",
+        "is_major": false
+      },
+      {
+        "term": "Prescribing",
+        "is_major": false
+      },
+      {
+        "term": "Primary care",
+        "is_major": false
+      },
+      {
+        "term": "Single pill",
+        "is_major": false
+      },
+      {
+        "term": "Type 2 diabetes",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "AIMS: There has been an increase in prescribing and costs of oral hypoglycaemic agents in England and other countries. This study aims to investigate the trends in prescriptions, costs, and adverse events of metformin and metformin-based single pill drug combinations from 2015 to 2020 and explore why changes in use or cost are occurring.\n\nMETHODS: Prescriptions and costs data from Prescription Cost Analysis database and Interactive Drug Analysis Profiles presenting all suspected ADRs reported for each drug were examined. Pharmacy level prices were also obtained. Linear regression analysis was used to investigate the trends in prescribing and costs.\n\nRESULTS: Prescribing and costs of metformin-based single pill drug combinations (as a percent mean change per year) saw an increase of 8.78% (95% Cl: 7.45%, 10.11%, p = 0.001) and 5.17% (95% Cl: 2.13%, 8.22%, p = 0.009) on average each year, respectively. Metformin was the most prescribed monotherapy drug between 2015 and 2020. The cost of prescribing metformin (as a proportion of total oral hypoglycaemic agents) has been reduced from 30% in 2015 to 17% in 2020. Metformin-dipeptidyl peptidase-4 inhibitor (e.g., metformin-sitagliptin) combination was the most popular metformin-based single pill drug combination. The number of adverse drug reactions per million items dispensed shows that metformin has the lowest adverse drug reactions per million items compared to other oral hypoglycaemic drugs.\n\nCONCLUSIONS: Overall, an increase in prescription items can be seen for metformin-based single pill drug combinations along with an increase in their costs in primary care in England between 2015 and 2020. There was a declining trend for the number of ADRs reported per million prescription items dispensed for metformin-containing single pill combinations, even though their prescription rate increased."
+  },
+  {
+    "rank": 9,
+    "score": 6.741843223571777,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 10492662,
+    "chunk_id": 10492662,
+    "pmid": "28463344",
+    "title": "Minimizing weight gain for patients taking antipsychotic medications: The potential role for early use of metformin.",
+    "year": 2017,
+    "journal": "Annals of clinical psychiatry : official journal of the American Academy of Clinical Psychiatrists",
+    "authors": [
+      "Victoria Hendrick",
+      "Robert Dasher",
+      "Michael Gitlin",
+      "Mehrban Parsi"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Antipsychotic Agents",
+        "is_major": false,
+        "ui": "D014150"
+      },
+      {
+        "term": "Drug-Related Side Effects and Adverse Reactions",
+        "is_major": true,
+        "ui": "D064420"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Mental Disorders",
+        "is_major": false,
+        "ui": "D001523"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Time-to-Treatment",
+        "is_major": false,
+        "ui": "D061665"
+      },
+      {
+        "term": "Weight Gain",
+        "is_major": false,
+        "ui": "D015430"
+      }
+    ],
+    "keywords": [],
+    "citations": [],
+    "text": "BACKGROUND: Patients taking antipsychotic medications are at high risk for weight gain, which in turn leads to poor health outcomes, nonadherence with treatment, and low self-esteem.\n\nMETHODS: We reviewed published studies of pharmacologic interventions aimed at minimizing antipsychotic-induced weight gain. Treatments initiated prior to onset of weight gain were compared with those that started once weight gain already had occurred.\n\nRESULTS: Although data are limited, adjunctive medications for weight management appear to be more effective when initiated at or near the time when patients are first exposed to antipsychotic medications. Interventions initiated later in the course of treatment-typically after weight gain already has occurred-rarely help patients return to their pretreatment weight. The most commonly used adjunctive intervention has been metformin.\n\nCONCLUSIONS: Certain patients benefit from initiating metformin early in their exposure to second-generation antipsychotic agents. In particular, young, healthy patients beginning olanzapine or clozapine probably will experience less weight gain if they concomitantly initiate metformin."
+  },
+  {
+    "rank": 10,
+    "score": 6.741843223571777,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 1871672,
+    "chunk_id": 1871672,
+    "pmid": "38888389",
+    "title": "[Risk minimalisation measures for medications; are they incorporated in Dutch clinical guidelines?]",
+    "year": 2024,
+    "journal": "Nederlands tijdschrift voor geneeskunde",
+    "authors": [
+      "Renske J Grupstra",
+      "Satu J Siiskonen",
+      "Helga Gardarsdottir"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Netherlands",
+        "is_major": false,
+        "ui": "D009426"
+      },
+      {
+        "term": "Practice Guidelines as Topic",
+        "is_major": true,
+        "ui": "D017410"
+      },
+      {
+        "term": "Drug-Related Side Effects and Adverse Reactions",
+        "is_major": false,
+        "ui": "D064420"
+      },
+      {
+        "term": "Methotrexate",
+        "is_major": false,
+        "ui": "D008727"
+      },
+      {
+        "term": "Valproic Acid",
+        "is_major": false,
+        "ui": "D014635"
+      },
+      {
+        "term": "Fluoroquinolones",
+        "is_major": false,
+        "ui": "D024841"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Risk Management",
+        "is_major": false,
+        "ui": "D012308"
+      }
+    ],
+    "keywords": [],
+    "citations": [],
+    "text": "OBJECTIVE: Risk minimisation measures (RMM) are put in place to ensure safe and effective use of medicines. This study assessed whether RMM for five medicines are implemented in Dutch clinical guidelines.\n\nDESIGN: Descriptive study.\n\nMETHOD: Dutch clinical guidelines where treatment with valproate, fluoroquinolones, methotrexate, metformin or fluorouracil was recommended were identified. In those guidelines that had been updated after publication of the RMM, we determined whether RMM-information was included in the guideline.\n\nRESULTS: Out of 50 identified guidelines recommending treatment with one of the five medicines, only 21 (42%) were revised after RMM-implementation. Of these 21 guidelines, 12 (n = 57%) included RMM-related information.\n\nCONCLUSION: Uptake of RMM information in Dutch clinical guidelines is limited and RMM-publication does not prompt guideline updates. This suggests that guidelines alone are not an optimal way to inform health care professionals of new safety warnings."
+  }
+]

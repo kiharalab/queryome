@@ -1,0 +1,974 @@
+{
+  "query": "therapeutic uses of metformin in non-metabolic disorders and as adjunct therapy in cancer",
+  "search_type": "hybrid",
+  "parameters": {
+    "k": 15,
+    "alpha": 0.7
+  },
+  "results_count": 15,
+  "results": [
+    {
+      "rank": 1,
+      "score": 0.8225974196666681,
+      "search_type": "hybrid",
+      "vector_id": 2105330,
+      "chunk_id": 2105330,
+      "pmid": "38612893",
+      "title": "Metformin: A Dual-Role Player in Cancer Treatment and Prevention.",
+      "year": 2024,
+      "journal": "International journal of molecular sciences",
+      "authors": [
+        "Mariam Ahmed Galal",
+        "Mohammed Al-Rimawi",
+        "Abdurrahman Hajeer",
+        "Huda Dahman",
+        "Samhar Alouch",
+        "Ahmad Aljada"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Metformin",
+          "is_major": true,
+          "ui": "D008687"
+        },
+        {
+          "term": "Diabetes Mellitus, Type 2",
+          "is_major": true,
+          "ui": "D003924"
+        },
+        {
+          "term": "Cell Proliferation",
+          "is_major": false,
+          "ui": "D049109"
+        },
+        {
+          "term": "Chemotherapy, Adjuvant",
+          "is_major": false,
+          "ui": "D017024"
+        },
+        {
+          "term": "Hyperplasia",
+          "is_major": false,
+          "ui": "D006965"
+        },
+        {
+          "term": "Neoplasms",
+          "is_major": true,
+          "ui": "D009369"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "adjuvant therapy",
+          "is_major": false
+        },
+        {
+          "term": "anticancer",
+          "is_major": false
+        },
+        {
+          "term": "cancer",
+          "is_major": false
+        },
+        {
+          "term": "chemoresistance",
+          "is_major": false
+        },
+        {
+          "term": "clinical trials",
+          "is_major": false
+        },
+        {
+          "term": "mechanisms of action",
+          "is_major": false
+        },
+        {
+          "term": "metformin",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Cancer continues to pose a significant global health challenge, as evidenced by the increasing incidence rates and high mortality rates, despite the advancements made in chemotherapy. The emergence of chemoresistance further complicates the effectiveness of treatment. However, there is growing interest in the potential of metformin, a commonly prescribed drug for type 2 diabetes mellitus (T2DM), as an adjuvant chemotherapy agent in cancer treatment. Although the precise mechanism of action of metformin in cancer therapy is not fully understood, it has been found to have pleiotropic effects, including the modulation of metabolic pathways, reduction in inflammation, and the regulation of cellular proliferation. This comprehensive review examines the anticancer properties of metformin, drawing insights from various studies conducted in vitro and in vivo, as well as from clinical trials and observational research. This review discusses the mechanisms of action involving both insulin-dependent and independent pathways, shedding light on the potential of metformin as a therapeutic agent for different types of cancer. Despite promising findings, there are challenges that need to be addressed, such as conflicting outcomes in clinical trials, considerations regarding dosing, and the development of resistance. These challenges highlight the importance of further research to fully harness the therapeutic potential of metformin in cancer treatment. The aims of this review are to provide a contemporary understanding of the role of metformin in cancer therapy and identify areas for future exploration in the pursuit of effective anticancer strategies."
+    },
+    {
+      "rank": 2,
+      "score": 0.7620538334057052,
+      "search_type": "hybrid",
+      "vector_id": 10281972,
+      "chunk_id": 10281972,
+      "pmid": "28703040",
+      "title": "Metformin: Adjunct Therapy in Cancer Treatment.",
+      "year": 2017,
+      "journal": "Workplace health & safety",
+      "authors": [
+        "Ann R Lurati"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Female",
+          "is_major": false,
+          "ui": "D005260"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Hypoglycemic Agents",
+          "is_major": false,
+          "ui": "D007004"
+        },
+        {
+          "term": "Metformin",
+          "is_major": false,
+          "ui": "D008687"
+        },
+        {
+          "term": "Middle Aged",
+          "is_major": false,
+          "ui": "D008875"
+        },
+        {
+          "term": "Neoplasms",
+          "is_major": false,
+          "ui": "D009369"
+        },
+        {
+          "term": "Off-Label Use",
+          "is_major": true,
+          "ui": "D056687"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "cancer",
+          "is_major": false
+        },
+        {
+          "term": "glucose",
+          "is_major": false
+        },
+        {
+          "term": "glycolysis",
+          "is_major": false
+        },
+        {
+          "term": "metformin",
+          "is_major": false
+        },
+        {
+          "term": "mitochrondria",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "An employee undergoing cancer treatment was prescribed metformin, a medication used in the treatment of type 2 diabetes and currently used as adjunct therapy for cancer. Metformin's anti-inflammatory properties inhibit tumor growth. It is speculated that cancer cells develop a metabolism that enhances aerobic glycolysis, which promotes cell growth and increases the need for glucose. Metformin decreases insulin in the blood, which decreases the amount of glucose available to cancer cells, thus starving the cells of nutrition, resulting in cell death. This case study explores the role of metformin in cancer treatment, with implications for occupational health nurses."
+    },
+    {
+      "rank": 3,
+      "score": 0.7618433986348796,
+      "search_type": "hybrid",
+      "vector_id": 1991950,
+      "chunk_id": 1991950,
+      "pmid": "38785784",
+      "title": "Metformin: From Diabetes to Cancer-Unveiling Molecular Mechanisms and Therapeutic Strategies.",
+      "year": 2024,
+      "journal": "Biology",
+      "authors": [
+        "Emilia Amengual-Cladera",
+        "Pere Miquel Morla-Barcelo",
+        "Andrea Morán-Costoya",
+        "Jorge Sastre-Serra",
+        "Daniel Gabriel Pons",
+        "Adamo Valle",
+        "Pilar Roca",
+        "Mercedes Nadal-Serrano"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        {
+          "term": "breast cancer",
+          "is_major": false
+        },
+        {
+          "term": "colorectal cancer",
+          "is_major": false
+        },
+        {
+          "term": "diabetes",
+          "is_major": false
+        },
+        {
+          "term": "metformin",
+          "is_major": false
+        },
+        {
+          "term": "mitochondria",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Metformin, a widely used anti-diabetic drug, has garnered attention for its potential in cancer management, particularly in breast and colorectal cancer. It is established that metformin reduces mitochondrial respiration, but its specific molecular targets within mitochondria vary. Proposed mechanisms include inhibiting mitochondrial respiratory chain Complex I and/or Complex IV, and mitochondrial glycerophosphate dehydrogenase, among others. These actions lead to cellular energy deficits, redox state changes, and several molecular changes that reduce hyperglycemia in type 2 diabetic patients. Clinical evidence supports metformin's role in cancer prevention in type 2 diabetes mellitus patients. Moreover, in these patients with breast and colorectal cancer, metformin consumption leads to an improvement in survival outcomes and prognosis. The synergistic effects of metformin with chemotherapy and immunotherapy highlights its potential as an adjunctive therapy for breast and colorectal cancer. However, nuanced findings underscore the need for further research and stratification by molecular subtype, particularly for breast cancer. This comprehensive review integrates metformin-related findings from epidemiological, clinical, and preclinical studies in breast and colorectal cancer. Here, we discuss current research addressed to define metformin's bioavailability and efficacy, exploring novel metformin-based compounds and drug delivery systems, including derivatives targeting mitochondria, combination therapies, and novel nanoformulations, showing enhanced anticancer effects."
+    },
+    {
+      "rank": 4,
+      "score": 0.709772692180096,
+      "search_type": "hybrid",
+      "vector_id": 2160792,
+      "chunk_id": 2160792,
+      "pmid": "38555742",
+      "title": "Metformin as anticancer agent and adjuvant in cancer combination therapy: Current progress and future prospect.",
+      "year": 2024,
+      "journal": "Translational oncology",
+      "authors": [
+        "Lin Zhu",
+        "Kaiqing Yang",
+        "Zhe Ren",
+        "Detao Yin",
+        "Yubing Zhou"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        {
+          "term": "Cancer",
+          "is_major": false
+        },
+        {
+          "term": "Chemotherapy",
+          "is_major": false
+        },
+        {
+          "term": "Combination therapy",
+          "is_major": false
+        },
+        {
+          "term": "Immunotherapy",
+          "is_major": false
+        },
+        {
+          "term": "Metformin",
+          "is_major": false
+        },
+        {
+          "term": "Radiotherapy",
+          "is_major": false
+        },
+        {
+          "term": "Targeted therapy",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Metformin, as the preferred antihyperglycemic drug for type 2 diabetes, has been found to have a significant effect in inhibiting tumor growth in recent years. However, metformin alone in cancer treatment has the disadvantages of high dose concentrations and few targeted cancer types. Increasing studies have confirmed that metformin can be used in combination with conventional anticancer therapy to obtain more promising clinical benefits, which is expected to be rapidly transformed and applied in clinic. Some combination therapy strategies including metformin combined with chemotherapy, radiotherapy, targeted therapy and immunotherapy have been proven to have more significant antitumor effects and longer survival time than monotherapy. In this review, we summarize the synergistic antitumor effects and mechanisms of metformin in combination with other current conventional anticancer therapies. In addition, we update the research progress and the latest prospect of the metformin-combined application in the cancer treatment. This work could provide more evidence and future direction for the clinical application of metformin in antitumor."
+    },
+    {
+      "rank": 5,
+      "score": 0.6941878668584267,
+      "search_type": "hybrid",
+      "vector_id": 9764989,
+      "chunk_id": 9764989,
+      "pmid": "29342230",
+      "title": "Metformin as an anti-cancer agent: actions and mechanisms targeting cancer stem cells.",
+      "year": 2018,
+      "journal": "Acta biochimica et biophysica Sinica",
+      "authors": [
+        "Nipun Saini",
+        "Xiaohe Yang"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Antineoplastic Agents",
+          "is_major": false,
+          "ui": "D000970"
+        },
+        {
+          "term": "Cell Differentiation",
+          "is_major": false,
+          "ui": "D002454"
+        },
+        {
+          "term": "Cell Proliferation",
+          "is_major": false,
+          "ui": "D049109"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Hypoglycemic Agents",
+          "is_major": false,
+          "ui": "D007004"
+        },
+        {
+          "term": "Metformin",
+          "is_major": false,
+          "ui": "D008687"
+        },
+        {
+          "term": "Models, Biological",
+          "is_major": false,
+          "ui": "D008954"
+        },
+        {
+          "term": "Neoplasms",
+          "is_major": false,
+          "ui": "D009369"
+        },
+        {
+          "term": "Neoplastic Stem Cells",
+          "is_major": false,
+          "ui": "D014411"
+        },
+        {
+          "term": "Signal Transduction",
+          "is_major": false,
+          "ui": "D015398"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "AMPK/mTOR pathway",
+          "is_major": false
+        },
+        {
+          "term": "anti-cancer drugs",
+          "is_major": false
+        },
+        {
+          "term": "cancer stem cells",
+          "is_major": false
+        },
+        {
+          "term": "cellular metabolism",
+          "is_major": false
+        },
+        {
+          "term": "metformin",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Metformin, a first line medication for type II diabetes, initially entered the spotlight as a promising anti-cancer agent due to epidemiologic reports that found reduced cancer risk and improved clinical outcomes in diabetic patients taking metformin. To uncover the anti-cancer mechanisms of metformin, preclinical studies determined that metformin impairs cellular metabolism and suppresses oncogenic signaling pathways, including receptor tyrosine kinase, PI3K/Akt, and mTOR pathways. Recently, the anti-cancer potential of metformin has gained increasing interest due to its inhibitory effects on cancer stem cells (CSCs), which are associated with tumor metastasis, drug resistance, and relapse. Studies using various cancer models, including breast, pancreatic, prostate, and colon, have demonstrated the potency of metformin in attenuating CSCs through the targeting of specific pathways involved in cell differentiation, renewal, metastasis, and metabolism. In this review, we provide a comprehensive overview of the anti-cancer actions and mechanisms of metformin, including the regulation of CSCs and related pathways. We also discuss the potential anti-cancer applications of metformin as mono- or combination therapies."
+    },
+    {
+      "rank": 6,
+      "score": 0.6937588803737522,
+      "search_type": "hybrid",
+      "vector_id": 8388234,
+      "chunk_id": 8388234,
+      "pmid": "31114366",
+      "title": "The beneficial effects of metformin on cancer prevention and therapy: a comprehensive review of recent advances.",
+      "year": 2019,
+      "journal": "Cancer management and research",
+      "authors": [
+        "Pouya Saraei",
+        "Ilia Asadi",
+        "Muhammad Azam Kakar",
+        "Nasroallah Moradi-Kor"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        {
+          "term": "AMPK pathway",
+          "is_major": false
+        },
+        {
+          "term": "LKB1",
+          "is_major": false
+        },
+        {
+          "term": "mTOR pathway",
+          "is_major": false
+        },
+        {
+          "term": "metformin",
+          "is_major": false
+        },
+        {
+          "term": "prevention and treatment of cancer",
+          "is_major": false
+        },
+        {
+          "term": "radiation",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Metformin is a widely used drug in today's prescriptions by physicians due to its specific effects in treating and curing type II diabetes. Diabetes is a common disease that may occur throughout human life, and can increase the likelihood of the occurrence of various types of cancer, such as colon, rectum, pancreas and liver cancers, compared to non-diabetic patients. Metformin inhibits mTOR activity by activating ATM (ataxia telangiectasia mutated) and LKB1 (liver kinase B1) and then adenosine monophosphate-activated kinase (AMPK), and thus prevents protein synthesis and cell growth. Metformin can activate p53 by activating AMPK and thereby ultimately stop the cell cycle. Given the potential of metformin in the treatment of cancer, it can be used in radiotherapy, chemotherapy and to improve the response to treatment in androgen derivatives (ADT), and also, according to available evidence, metformin can also be used to prevent various types of cancers. Generally, metformin can: 1) reduce the incidence of cancers, 2) reduce the mortality from cancers, 3) increase the response to treatment in cancer cells when using radiotherapy and chemotherapy, 4) optimize tumor movement and reduce the malignancy, 5) reduce the likelihood of relapse, and 6) reduce the damaging effects of ADT. Therefore, this drug can be used as a complementary therapeutic agent for cancer treatment and prevention. In this review, we have summarized the data from various experimental and clinical studies and highlight the possible potential effects of metformin on cancer therapeutic responses."
+    },
+    {
+      "rank": 7,
+      "score": 0.6757650590071653,
+      "search_type": "hybrid",
+      "vector_id": 5710310,
+      "chunk_id": 5710310,
+      "pmid": "34311387",
+      "title": "Role of metformin and other metabolic drugs in the prevention and therapy of endocrine-related cancers.",
+      "year": 2021,
+      "journal": "Current opinion in pharmacology",
+      "authors": [
+        "Antonio J León-González",
+        "Juan M Jiménez-Vacas",
+        "Antonio C Fuentes-Fayos",
+        "Andre Sarmento-Cabral",
+        "Aura D Herrera-Martínez",
+        "Manuel D Gahete",
+        "Raúl M Luque"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Diabetes Mellitus, Type 2",
+          "is_major": false,
+          "ui": "D003924"
+        },
+        {
+          "term": "Endocrine Gland Neoplasms",
+          "is_major": true,
+          "ui": "D004701"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Hypoglycemic Agents",
+          "is_major": true,
+          "ui": "D007004"
+        },
+        {
+          "term": "Insulin",
+          "is_major": false,
+          "ui": "D007328"
+        },
+        {
+          "term": "Metformin",
+          "is_major": true,
+          "ui": "D008687"
+        },
+        {
+          "term": "Tumor Microenvironment",
+          "is_major": false,
+          "ui": "D059016"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "Cancer",
+          "is_major": false
+        },
+        {
+          "term": "insulin",
+          "is_major": false
+        },
+        {
+          "term": "metabolic syndrome",
+          "is_major": false
+        },
+        {
+          "term": "metformin",
+          "is_major": false
+        },
+        {
+          "term": "statins",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Metabolic syndrome is associated with chronic diseases, including type 2 diabetes, cardiovascular diseases, and cancer. This review summarizes the current evidence on the antitumor effects of some relevant drugs currently used to manage metabolic-related pathologies (i.e. insulin and its analogs, metformin, statins, etc.) in endocrine-related cancers including breast cancer, prostate cancer, pituitary cancer, ovarian cancer, and neuroendocrine neoplasms. Although current evidence does not provide a clear antitumor role of several of these drugs, metformin seems to be a promising chemopreventive and adjuvant agent in cancer management, modulating tumor cell metabolism and microenvironment, through both AMP-activated protein kinase-dependent and -independent mechanisms. Moreover, its combination with statins might represent a promising therapeutic strategy to tackle the progression of endocrine-related tumors. However, further studies are needed to endorse the clinical relevance of these drugs as adjuvants for cancer chemotherapy."
+    },
+    {
+      "rank": 8,
+      "score": 0.641864905355436,
+      "search_type": "hybrid",
+      "vector_id": 1282831,
+      "chunk_id": 1282831,
+      "pmid": "39595655",
+      "title": "Anti-Diabetic Therapies and Cancer: From Bench to Bedside.",
+      "year": 2024,
+      "journal": "Biomolecules",
+      "authors": [
+        "Dimitris Kounatidis",
+        "Natalia G Vallianou",
+        "Irene Karampela",
+        "Eleni Rebelos",
+        "Marina Kouveletsou",
+        "Vasileios Dalopoulos",
+        "Petros Koufopoulos",
+        "Evanthia Diakoumopoulou",
+        "Nikolaos Tentolouris",
+        "Maria Dalamaga"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Neoplasms",
+          "is_major": true,
+          "ui": "D009369"
+        },
+        {
+          "term": "Hypoglycemic Agents",
+          "is_major": true,
+          "ui": "D007004"
+        },
+        {
+          "term": "Animals",
+          "is_major": false,
+          "ui": "D000818"
+        },
+        {
+          "term": "Metformin",
+          "is_major": false,
+          "ui": "D008687"
+        },
+        {
+          "term": "Diabetes Mellitus",
+          "is_major": false,
+          "ui": "D003920"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "GLP-1 receptor agonists",
+          "is_major": false
+        },
+        {
+          "term": "SGLT-2 inhibitors",
+          "is_major": false
+        },
+        {
+          "term": "cancer",
+          "is_major": false
+        },
+        {
+          "term": "chronic low-grade inflammation",
+          "is_major": false
+        },
+        {
+          "term": "diabetes mellitus",
+          "is_major": false
+        },
+        {
+          "term": "doxorubicin-induced cardiomyopathy",
+          "is_major": false
+        },
+        {
+          "term": "immune check point inhibitors",
+          "is_major": false
+        },
+        {
+          "term": "metformin",
+          "is_major": false
+        },
+        {
+          "term": "tirzepatide",
+          "is_major": false
+        },
+        {
+          "term": "tumor microenvironment",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Diabetes mellitus (DM) is a significant risk factor for various cancers, with the impact of anti-diabetic therapies on cancer progression differing across malignancies. Among these therapies, metformin has gained attention for its potential anti-cancer effects, primarily through modulation of the AMP-activated protein kinase/mammalian target of rapamycin (AMPK/mTOR) pathway and the induction of autophagy. Beyond metformin, other conventional anti-diabetic treatments, such as insulin, sulfonylureas (SUs), pioglitazone, and dipeptidyl peptidase-4 (DPP-4) inhibitors, have also been examined for their roles in cancer biology, though findings are often inconclusive. More recently, novel medications, like glucagon-like peptide-1 (GLP-1) receptor agonists, dual GLP-1/glucose-dependent insulinotropic polypeptide (GIP) agonists, and sodium-glucose co-transporter-2 (SGLT-2) inhibitors, have revolutionized DM management by not only improving glycemic control but also delivering substantial cardiovascular and renal benefits. Given their diverse metabolic effects, including anti-obesogenic properties, these novel agents are now under meticulous investigation for their potential influence on tumorigenesis and cancer advancement. This review aims to offer a comprehensive exploration of the evolving landscape of glucose-lowering treatments and their implications in cancer biology. It critically evaluates experimental evidence surrounding the molecular mechanisms by which these medications may modulate oncogenic signaling pathways and reshape the tumor microenvironment (TME). Furthermore, it assesses translational research and clinical trials to gauge the practical relevance of these findings in real-world settings. Finally, it explores the potential of anti-diabetic medications as adjuncts in cancer treatment, particularly in enhancing the efficacy of chemotherapy, minimizing toxicity, and addressing resistance within the framework of immunotherapy."
+    },
+    {
+      "rank": 9,
+      "score": 0.6321845978360136,
+      "search_type": "hybrid",
+      "vector_id": 4921984,
+      "chunk_id": 4921984,
+      "pmid": "35267644",
+      "title": "Metformin Intervention-A Panacea for Cancer Treatment?",
+      "year": 2022,
+      "journal": "Cancers",
+      "authors": [
+        "Angelika Buczyńska",
+        "Iwona Sidorkiewicz",
+        "Adam Jacek Krętowski",
+        "Monika Zbucka-Krętowska",
+        "Agnieszka Adamska"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        {
+          "term": "anti-cancer",
+          "is_major": false
+        },
+        {
+          "term": "antioxidant",
+          "is_major": false
+        },
+        {
+          "term": "metformin",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "The molecular mechanism of action and the individual influence of various metabolic pathways related to metformin intervention are under current investigation. The available data suggest that metformin provides many advantages, exhibiting anti-inflammatory, anti-cancer, hepatoprotective, cardioprotective, otoprotective, radioprotective, and radio-sensitizing properties depending on cellular context. This literature review was undertaken to provide novel evidence concerning metformin intervention, with a particular emphasis on cancer treatment and prevention. Undoubtedly, the pleiotropic actions associated with metformin include inhibiting inflammatory processes, increasing antioxidant capacity, and improving glycemic and lipid metabolism. Consequently, these characteristics make metformin an attractive medicament to translate to human trials, the promising results of which were also summarized in this review."
+    },
+    {
+      "rank": 10,
+      "score": 0.6056847185423982,
+      "search_type": "hybrid",
+      "vector_id": 1490784,
+      "chunk_id": 1490784,
+      "pmid": "39354464",
+      "title": "Non-coding RNAs as potential targets in metformin therapy for cancer.",
+      "year": 2024,
+      "journal": "Cancer cell international",
+      "authors": [
+        "Yihan Zhang",
+        "Yunhao Wu",
+        "Zixu Liu",
+        "Kangping Yang",
+        "Hui Lin",
+        "Kai Xiong"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        {
+          "term": "Cancer",
+          "is_major": false
+        },
+        {
+          "term": "Circular RNA microRNA",
+          "is_major": false
+        },
+        {
+          "term": "Long non-coding RNA",
+          "is_major": false
+        },
+        {
+          "term": "Metformin",
+          "is_major": false
+        },
+        {
+          "term": "Non-coding RNA",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Metformin, a widely used oral hypoglycemic drug, has emerged as a potential therapeutic agent for cancer treatment. While initially known for its role in managing diabetes, accumulating evidence suggests that metformin exhibits anticancer properties through various mechanisms. Several cellular or animal experiments have attempted to elucidate the role of non-coding RNA molecules, including microRNAs and long non-coding RNAs, in mediating the anticancer effects of metformin. The present review summarized the current understanding of the mechanisms by which non-coding RNAs modulate the response to metformin in cancer cells. The regulatory roles of non-coding RNAs, particularly miRNAs, in key cellular processes such as cell proliferation, cell death, angiogenesis, metabolism and epigenetics, and how metformin affects these processes are discussed. This review also highlights the role of lncRNAs in cancer types such as lung adenocarcinoma, breast cancer, and renal cancer, and points out the need for further exploration of the mechanisms by which metformin regulates lncRNAs. In addition, the present review explores the potential advantages of metformin-based therapies over direct delivery of ncRNAs, and this review highlights the mechanisms of non-coding RNA regulation when metformin is combined with other therapies. Overall, the present review provides insights into the molecular mechanisms underlying the anticancer effects of metformin mediated by non-coding RNAs, offering novel opportunities for the development of personalized treatment strategies in cancer patients."
+    },
+    {
+      "rank": 11,
+      "score": 0.5961364913787108,
+      "search_type": "hybrid",
+      "vector_id": 3142776,
+      "chunk_id": 3142776,
+      "pmid": "37405073",
+      "title": "Efficacy of metformin adjunctive therapy as the treatment for non-diabetic patients with advanced non-small cell lung cancer: A Systematic review and Meta-analysis.",
+      "year": 2023,
+      "journal": "Journal of research in medical sciences : the official journal of Isfahan University of Medical Sciences",
+      "authors": [
+        "Xueyu Duan",
+        "Binbin Liao",
+        "Xiaobo Liu",
+        "Ruixiang Chen"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        {
+          "term": "Meta-analysis",
+          "is_major": false
+        },
+        {
+          "term": "metformin",
+          "is_major": false
+        },
+        {
+          "term": "non-small cell lung cancer",
+          "is_major": false
+        },
+        {
+          "term": "systematic review",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Background: Currently, the anticancer effects of metformin on different types of lung cancer have been frequently studied. However, the relationship between metformin and prognosis in nondiabetic patients with lung cancer remains controversial. To systematically evaluate the efficacy of metformin adjunctive therapy as the treatment for nondiabetic patients with advanced non-small cell lung cancer (NSCLC) to provide an evidence-based reference for clinical medication.\n\nMaterials and Methods: The literatures related to Phase II or III randomized controlled trials (RCTs) of metformin adjunctive therapy in nondiabetic patients with advanced NSCLC, including EMBASE, PubMed, the Cochrane Library, and Scopus database, were retrieved by computer, and the search time ranged from January 2017 to August 2022. The risk of bias assessment tool recommended by Cochrane Systematic Evaluator Manual 5.1.0 was used to evaluate the quality of the RCTs included. Rev Man 5.3 software and STATA15.0 were used for meta-analysis.\n\nResults: A total of 8 studies were included (925 patients). Meta-analysis results showed that there were no significant differences in progression-free survival (PFS) (hazard ratio [HR] = 0.95, 95% confidence interval [CI]: 0.66-1.36,\n\nConclusion: Metformin adjunctive therapy can improve the DCR of nondiabetic patients with advanced NSCLC. In addition, the patients cannot obtain a prolonged PFS, OS, 1-year PFS rate, and higher ORR rate."
+    },
+    {
+      "rank": 12,
+      "score": 0.5881194470965168,
+      "search_type": "hybrid",
+      "vector_id": 11537401,
+      "chunk_id": 11537401,
+      "pmid": "27004404",
+      "title": "Repurposing metformin for cancer treatment: current clinical studies.",
+      "year": 2016,
+      "journal": "Oncotarget",
+      "authors": [
+        "Young Kwang Chae",
+        "Ayush Arya",
+        "Mary-Kate Malecek",
+        "Daniel Sanghoon Shin",
+        "Benedito Carneiro",
+        "Sunandana Chandra",
+        "Jason Kaplan",
+        "Aparna Kalyan",
+        "Jessica K Altman",
+        "Leonidas Platanias",
+        "Francis Giles"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Animals",
+          "is_major": false,
+          "ui": "D000818"
+        },
+        {
+          "term": "Antineoplastic Agents",
+          "is_major": false,
+          "ui": "D000970"
+        },
+        {
+          "term": "Breast Neoplasms",
+          "is_major": false,
+          "ui": "D001943"
+        },
+        {
+          "term": "Cell Proliferation",
+          "is_major": false,
+          "ui": "D049109"
+        },
+        {
+          "term": "Clinical Trials as Topic",
+          "is_major": false,
+          "ui": "D002986"
+        },
+        {
+          "term": "Cohort Studies",
+          "is_major": false,
+          "ui": "D015331"
+        },
+        {
+          "term": "Endometrial Neoplasms",
+          "is_major": false,
+          "ui": "D016889"
+        },
+        {
+          "term": "Female",
+          "is_major": false,
+          "ui": "D005260"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Insulin Resistance",
+          "is_major": false,
+          "ui": "D007333"
+        },
+        {
+          "term": "Ki-67 Antigen",
+          "is_major": false,
+          "ui": "D019394"
+        },
+        {
+          "term": "Lung Neoplasms",
+          "is_major": false,
+          "ui": "D008175"
+        },
+        {
+          "term": "Metformin",
+          "is_major": false,
+          "ui": "D008687"
+        },
+        {
+          "term": "Neoplasms",
+          "is_major": false,
+          "ui": "D009369"
+        },
+        {
+          "term": "Risk",
+          "is_major": false,
+          "ui": "D012306"
+        },
+        {
+          "term": "Treatment Outcome",
+          "is_major": false,
+          "ui": "D016896"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "cancer",
+          "is_major": false
+        },
+        {
+          "term": "clinical trials",
+          "is_major": false
+        },
+        {
+          "term": "metformin",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "In recent years, several studies have presented evidence suggesting a potential role for metformin in anti-cancer therapy. Preclinical studies have demonstrated several anticancer molecular mechanisms of metformin including mTOR inhibition, cytotoxic effects, and immunomodulation. Epidemiologic data have demonstrated decreased cancer incidence and mortality in patients taking metformin. Several clinical trials, focused on evaluation of metformin as an anti-cancer agent are presently underway. Data published from a small number of completed trials has put forth intriguing results. Clinical trials in pre-surgical endometrial cancer patients exhibited a significant decrease in Ki67 with metformin monotherapy. Another interesting observation was made in patients with breast cancer, wherein a trend towards improvement in cancer proliferation markers was noted in patients without insulin resistance. Data on survival outcomes with the use of metformin as an anti-cancer agent is awaited. This manuscript will critically review the role of metformin as a potential cancer treatment."
+    },
+    {
+      "rank": 13,
+      "score": 0.5794800959966935,
+      "search_type": "hybrid",
+      "vector_id": 15306431,
+      "chunk_id": 15306431,
+      "pmid": "22203527",
+      "title": "Metformin: multi-faceted protection against cancer.",
+      "year": 2011,
+      "journal": "Oncotarget",
+      "authors": [
+        "Sonia Del Barco",
+        "Alejandro Vazquez-Martin",
+        "Sílvia Cufí",
+        "Cristina Oliveras-Ferraros",
+        "Joaquim Bosch-Barrera",
+        "Jorge Joven",
+        "Begoña Martin-Castillo",
+        "Javier A Menendez"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Cell Transformation, Neoplastic",
+          "is_major": false,
+          "ui": "D002471"
+        },
+        {
+          "term": "Cellular Senescence",
+          "is_major": false,
+          "ui": "D016922"
+        },
+        {
+          "term": "DNA Damage",
+          "is_major": false,
+          "ui": "D004249"
+        },
+        {
+          "term": "Diabetes Mellitus",
+          "is_major": false,
+          "ui": "D003920"
+        },
+        {
+          "term": "Epithelial-Mesenchymal Transition",
+          "is_major": false,
+          "ui": "D058750"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Hypoglycemic Agents",
+          "is_major": false,
+          "ui": "D007004"
+        },
+        {
+          "term": "Insulin Resistance",
+          "is_major": false,
+          "ui": "D007333"
+        },
+        {
+          "term": "Metformin",
+          "is_major": false,
+          "ui": "D008687"
+        },
+        {
+          "term": "MicroRNAs",
+          "is_major": false,
+          "ui": "D035683"
+        },
+        {
+          "term": "Neoplasms",
+          "is_major": false,
+          "ui": "D009369"
+        },
+        {
+          "term": "Neoplastic Stem Cells",
+          "is_major": false,
+          "ui": "D014411"
+        },
+        {
+          "term": "Receptor, Insulin",
+          "is_major": false,
+          "ui": "D011972"
+        }
+      ],
+      "keywords": [],
+      "citations": [],
+      "text": "The biguanide metformin, a widely used drug for the treatment of type 2 diabetes, may exert cancer chemopreventive effects by suppressing the transformative and hyperproliferative processes that initiate carcinogenesis. Metformin's molecular targets in cancer cells (e.g., mTOR, HER2) are similar to those currently being used for directed cancer therapy. However, metformin is nontoxic and might be extremely useful for enhancing treatment efficacy of mechanism-based and biologically targeted drugs. Here, we first revisit the epidemiological, preclinical, and clinical evidence from the last 5 years showing that metformin is a promising candidate for oncology therapeutics. Second, the anticancer effects of metformin by both direct (insulin-independent) and indirect (insulin-dependent) mechanisms are discussed in terms of metformin-targeted processes and the ontogenesis of cancer stem cells (CSC), including Epithelial-to-Mesenchymal Transition (EMT) and microRNAs-regulated dedifferentiation of CSCs. Finally, we present preliminary evidence that metformin may regulate cellular senescence, an innate safeguard against cellular immortalization. There are two main lines of evidence that suggest that metformin's primary target is the immortalizing step during tumorigenesis. First, metformin activates intracellular DNA damage response checkpoints. Second, metformin attenuates the anti-senescence effects of the ATP-generating glycolytic metabotype-the Warburg effect-, which is required for self-renewal and proliferation of CSCs. If metformin therapy presents an intrinsic barrier against tumorigenesis by lowering the threshold for stress-induced senescence, metformin therapeutic strategies may be pivotal for therapeutic intervention for cancer. Current and future clinical trials will elucidate whether metformin has the potential to be used in preventive and treatment settings as an adjuvant to current cancer therapeutics."
+    },
+    {
+      "rank": 14,
+      "score": 0.5729738942251337,
+      "search_type": "hybrid",
+      "vector_id": 5914696,
+      "chunk_id": 5914696,
+      "pmid": "34067321",
+      "title": "Molecular and Cellular Mechanisms of Metformin in Cervical Cancer.",
+      "year": 2021,
+      "journal": "Cancers",
+      "authors": [
+        "Ya-Hui Chen",
+        "Po-Hui Wang",
+        "Pei-Ni Chen",
+        "Shun-Fa Yang",
+        "Yi-Hsuan Hsiao"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        {
+          "term": "cervical cancer",
+          "is_major": false
+        },
+        {
+          "term": "diabetes",
+          "is_major": false
+        },
+        {
+          "term": "metformin",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Cervical cancer is one of the major gynecologic malignancies worldwide. Treatment options include chemotherapy, surgical resection, radiotherapy, or a combination of these treatments; however, relapse and recurrence may occur, and the outcome may not be favorable. Metformin is an established, safe, well-tolerated drug used in the treatment of type 2 diabetes; it can be safely combined with other antidiabetic agents. Diabetes, possibly associated with an increased site-specific cancer risk, may relate to the progression or initiation of specific types of cancer. The potential effects of metformin in terms of cancer prevention and therapy have been widely studied, and a number of studies have indicated its potential role in cancer treatment. The most frequently proposed mechanism underlying the diabetes-cancer association is insulin resistance, which leads to secondary hyperinsulinemia; furthermore, insulin may exert mitogenic effects through the insulin-like growth factor 1 (IGF-1) receptor, and hyperglycemia may worsen carcinogenesis through the induction of oxidative stress. Evidence has suggested clinical benefits of metformin in the treatment of gynecologic cancers. Combining current anticancer drugs with metformin may increase their efficacy and diminish adverse drug reactions. Accumulating evidence is indicating that metformin exerts anticancer effects alone or in combination with other agents in cervical cancer in vitro and in vivo. Metformin might thus serve as an adjunct therapeutic agent for cervical cancer. Here, we reviewed the potential anticancer effects of metformin against cervical cancer and discussed possible underlying mechanisms."
+    },
+    {
+      "rank": 15,
+      "score": 0.5721845402594838,
+      "search_type": "hybrid",
+      "vector_id": 1607580,
+      "chunk_id": 1607580,
+      "pmid": "39246697",
+      "title": "Metformin as a Potential ",
+      "year": 2024,
+      "journal": "International journal of breast cancer",
+      "authors": [
+        "A G R Greshamali Jinadasa",
+        "H M Kasuni Akalanka",
+        "N D Amal Wageesha",
+        "Sagarika Ekanayake"
+      ],
+      "mesh_terms": [],
+      "keywords": [],
+      "citations": [],
+      "text": "Metformin (MET) is the commonly prescribed hypoglycemic agent used in the treatment of type 2 diabetes mellitus (DM). Pleiotropic effects of MET are emerging as a medication for other diseases including breast cancer (BC). Therefore, a literature review was conducted to investigate whether the anticancer effects of MET are mediated through adenosine monophosphate kinase (AMPK). This review assessed published data focusing on studies where BC cell lines were treated with MET to explore its potential anticancer effects via AMPK on BC cells. The published data reveals that activated AMPK induces anticancer effects primarily by suppressing cell proliferation, induction of apoptosis, and cell cycle arrest, inhibition of metastasis and invasion, alteration of tumor microenvironment, and downregulation of tumorigenesis. In addition, MET was observed to induce AMPK-mediated effects when combined with other drugs. Further studies on assessing the potential use of MET alone or in combination with other drugs would pave the way to design new treatment strategies for BC."
+    }
+  ]
+}

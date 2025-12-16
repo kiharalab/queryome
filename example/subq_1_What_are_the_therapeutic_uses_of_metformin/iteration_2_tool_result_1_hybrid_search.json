@@ -1,0 +1,851 @@
+{
+  "query": "therapeutic uses of metformin in cardiovascular diseases",
+  "search_type": "hybrid",
+  "parameters": {
+    "k": 10,
+    "alpha": 0.5
+  },
+  "results_count": 10,
+  "results": [
+    {
+      "rank": 1,
+      "score": 0.8156887401319974,
+      "search_type": "hybrid",
+      "vector_id": 4249446,
+      "chunk_id": 4249446,
+      "pmid": "36052760",
+      "title": "Protective effects of metformin in various cardiovascular diseases: Clinical evidence and AMPK-dependent mechanisms.",
+      "year": 2022,
+      "journal": "Journal of cellular and molecular medicine",
+      "authors": [
+        "Yizhi Bu",
+        "Mei Peng",
+        "Xinyi Tang",
+        "Xu Xu",
+        "Yifeng Wu",
+        "Alex F Chen",
+        "Xiaoping Yang"
+      ],
+      "mesh_terms": [
+        {
+          "term": "AMP-Activated Protein Kinases",
+          "is_major": false,
+          "ui": "D055372"
+        },
+        {
+          "term": "Cardiovascular Diseases",
+          "is_major": true,
+          "ui": "D002318"
+        },
+        {
+          "term": "Diabetes Mellitus, Type 2",
+          "is_major": true,
+          "ui": "D003924"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Hypoglycemic Agents",
+          "is_major": false,
+          "ui": "D007004"
+        },
+        {
+          "term": "Metformin",
+          "is_major": true,
+          "ui": "D008687"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "cardiovascular diseases",
+          "is_major": false
+        },
+        {
+          "term": "metformin",
+          "is_major": false
+        },
+        {
+          "term": "protective effect",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Metformin, a well-known AMPK agonist, has been widely used as the first-line drug for treating type 2 diabetes. There had been a significant concern regarding the use of metformin in people with cardiovascular diseases (CVDs) due to its potential lactic acidosis side effect. Currently growing clinical and preclinical evidence indicates that metformin can lower the incidence of cardiovascular events in diabetic patients or even non-diabetic patients beyond its hypoglycaemic effects. The underlying mechanisms of cardiovascular benefits of metformin largely involve the cellular energy sensor, AMPK, of which activation corrects endothelial dysfunction, reduces oxidative stress and improves inflammatory response. In this minireview, we summarized the clinical evidence of metformin benefits in several widely studied cardiovascular diseases, such as atherosclerosis, ischaemic/reperfusion injury and arrhythmia, both in patients with or without diabetes. Meanwhile, we highlighted the potential AMPK-dependent mechanisms in in vitro and/or in vivo models."
+    },
+    {
+      "rank": 2,
+      "score": 0.8088490635313986,
+      "search_type": "hybrid",
+      "vector_id": 12533573,
+      "chunk_id": 12533573,
+      "pmid": "25762117",
+      "title": "Novel therapeutic targets of metformin: metabolic syndrome and cardiovascular disease.",
+      "year": 2015,
+      "journal": "Expert opinion on therapeutic targets",
+      "authors": [
+        "Ricardo Ladeiras-Lopes",
+        "Ricardo Fontes-Carvalho",
+        "Nuno Bettencourt",
+        "Francisco Sampaio",
+        "Vasco Gama",
+        "Adelino Leite-Moreira"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Animals",
+          "is_major": false,
+          "ui": "D000818"
+        },
+        {
+          "term": "Cardiovascular Diseases",
+          "is_major": false,
+          "ui": "D002318"
+        },
+        {
+          "term": "Diabetes Mellitus, Type 2",
+          "is_major": false,
+          "ui": "D003924"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Hypoglycemic Agents",
+          "is_major": false,
+          "ui": "D007004"
+        },
+        {
+          "term": "Insulin Resistance",
+          "is_major": false,
+          "ui": "D007333"
+        },
+        {
+          "term": "Metabolic Syndrome",
+          "is_major": false,
+          "ui": "D024821"
+        },
+        {
+          "term": "Metformin",
+          "is_major": false,
+          "ui": "D008687"
+        },
+        {
+          "term": "Molecular Targeted Therapy",
+          "is_major": false,
+          "ui": "D058990"
+        },
+        {
+          "term": "Myocardial Reperfusion Injury",
+          "is_major": false,
+          "ui": "D015428"
+        },
+        {
+          "term": "Prediabetic State",
+          "is_major": false,
+          "ui": "D011236"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "cardiovascular disease",
+          "is_major": false
+        },
+        {
+          "term": "heart failure",
+          "is_major": false
+        },
+        {
+          "term": "ischemic heart disease",
+          "is_major": false
+        },
+        {
+          "term": "metabolic syndrome",
+          "is_major": false
+        },
+        {
+          "term": "metformin",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "INTRODUCTION: Metformin is a widely used drug in the treatment of type 2 diabetes mellitus (T2DM). However, it is becoming an attractive drug to manage patients with pre-diabetes and to possibly prevent cardiac remodeling and fibrosis and heart failure.\n\nAREAS COVERED: In this review, we highlight the novel therapeutic targets of metformin with a special emphasis on cardiovascular disease. We discuss its key mechanisms of action and new signaling pathways that could partially account for its effect. Furthermore, metformin's role in the management of patients with metabolic syndrome is debated, emphasizing its potential to prevent diabetic heart disease. On the other hand, intense research is ongoing to clarify if metformin will be a future drug to target ischemia-reperfusion injury in the setting of myocardial ischemia.\n\nEXPERT OPINION: In the following years, one should look carefully at basic science results to successfully design and conduct clinical trials, emphasizing patients without full-blown T2DM, but who otherwise might have increased insulin resistance. Topics such as the prevention of cardiac fibrosis and heart failure with preserved ejection fraction, the attenuation of ischemia-reperfusion injury on an acute coronary syndrome and the post-myocardial infarction left ventricle remodeling surely deserve a special interest and should be faced as potential therapeutic targets for metformin."
+    },
+    {
+      "rank": 3,
+      "score": 0.80822901380623,
+      "search_type": "hybrid",
+      "vector_id": 8418809,
+      "chunk_id": 8418809,
+      "pmid": "31029144",
+      "title": "Metformin in patients with and without diabetes: a paradigm shift in cardiovascular disease management.",
+      "year": 2019,
+      "journal": "Cardiovascular diabetology",
+      "authors": [
+        "Fei Luo",
+        "Avash Das",
+        "Jingfei Chen",
+        "Panyun Wu",
+        "Xiangping Li",
+        "Zhenfei Fang"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Animals",
+          "is_major": false,
+          "ui": "D000818"
+        },
+        {
+          "term": "Biomarkers",
+          "is_major": false,
+          "ui": "D015415"
+        },
+        {
+          "term": "Blood Glucose",
+          "is_major": false,
+          "ui": "D001786"
+        },
+        {
+          "term": "Cardiovascular Agents",
+          "is_major": false,
+          "ui": "D002317"
+        },
+        {
+          "term": "Cardiovascular Diseases",
+          "is_major": false,
+          "ui": "D002318"
+        },
+        {
+          "term": "Clinical Decision-Making",
+          "is_major": false,
+          "ui": "D000066491"
+        },
+        {
+          "term": "Diabetes Mellitus",
+          "is_major": false,
+          "ui": "D003920"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Hypoglycemic Agents",
+          "is_major": false,
+          "ui": "D007004"
+        },
+        {
+          "term": "Metformin",
+          "is_major": false,
+          "ui": "D008687"
+        },
+        {
+          "term": "Risk Factors",
+          "is_major": false,
+          "ui": "D012307"
+        },
+        {
+          "term": "Treatment Outcome",
+          "is_major": false,
+          "ui": "D016896"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "Atherosclerosis",
+          "is_major": false
+        },
+        {
+          "term": "Coronary artery disease",
+          "is_major": false
+        },
+        {
+          "term": "Diabetes mellitus",
+          "is_major": false
+        },
+        {
+          "term": "Metformin",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "With an increasing global burden of coronary artery disease (CAD), early detection and timely management of risk factors are crucial to reduce morbidity and mortality in such patients. Diabetes mellitus (DM) is considered an independent risk factor for the development of CAD. Metformin, an anti-diabetic drug, has been shown in pre-clinical and clinical studies, to lower the cardiovascular events in the DM patients. Growing evidence suggests that metformin has a protective effect on coronary artery beyond its hypoglycemic effects. Given its global availability, route of administration and cost, metformin provides an alternate/additional therapeutic option for primary and secondary prevention of CAD in DM and non-diabetics alike. Future prospective cohort-based studies and randomized clinical trials are needed to identify 'at-risk' population who may potentially benefit from metformin."
+    },
+    {
+      "rank": 4,
+      "score": 0.7220759973056714,
+      "search_type": "hybrid",
+      "vector_id": 4270197,
+      "chunk_id": 4270197,
+      "pmid": "36077136",
+      "title": "From Diabetes to Atherosclerosis: Potential of Metformin for Management of Cardiovascular Disease.",
+      "year": 2022,
+      "journal": "International journal of molecular sciences",
+      "authors": [
+        "Anastasia V Poznyak",
+        "Larisa Litvinova",
+        "Paolo Poggio",
+        "Donato Moschetta",
+        "Vasily Nikolaevich Sukhorukov",
+        "Alexander N Orekhov"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Atherosclerosis",
+          "is_major": true,
+          "ui": "D050197"
+        },
+        {
+          "term": "Cardiovascular Diseases",
+          "is_major": true,
+          "ui": "D002318"
+        },
+        {
+          "term": "Diabetes Mellitus",
+          "is_major": true,
+          "ui": "D003920"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Hypoglycemic Agents",
+          "is_major": false,
+          "ui": "D007004"
+        },
+        {
+          "term": "Metformin",
+          "is_major": true,
+          "ui": "D008687"
+        },
+        {
+          "term": "Oxidative Stress",
+          "is_major": false,
+          "ui": "D018384"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "atherosclerosis",
+          "is_major": false
+        },
+        {
+          "term": "cardiovascular disease",
+          "is_major": false
+        },
+        {
+          "term": "lipid",
+          "is_major": false
+        },
+        {
+          "term": "metformin",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Atherosclerosis is a common cause of cardiovascular disease, which, in turn, is often fatal. Today, we know a lot about the pathogenesis of atherosclerosis. However, the main knowledge is that the disease is extremely complicated. The development of atherosclerosis is associated with more than one molecular mechanism, each making a significant contribution. These mechanisms include endothelial dysfunction, inflammation, mitochondrial dysfunction, oxidative stress, and lipid metabolism disorders. This complexity inevitably leads to difficulties in treatment and prevention. One of the possible therapeutic options for atherosclerosis and its consequences may be metformin, which has already proven itself in the treatment of diabetes. Both diabetes and atherosclerosis are complex metabolic diseases, the pathogenesis of which involves many different mechanisms, including those common to both diseases. This makes metformin a suitable candidate for investigating its efficacy in cardiovascular disease. In this review, we highlight aspects such as the mechanisms of action and targets of metformin, in addition to summarizing the available data from clinical trials on the effective reduction of cardiovascular risks."
+    },
+    {
+      "rank": 5,
+      "score": 0.7213414430415032,
+      "search_type": "hybrid",
+      "vector_id": 13948934,
+      "chunk_id": 13948934,
+      "pmid": "24007890",
+      "title": "Evaluating the potential benefits of metformin in patients with cardiovascular disease and heart failure.",
+      "year": 2013,
+      "journal": "The Consultant pharmacist : the journal of the American Society of Consultant Pharmacists",
+      "authors": [
+        "Daryn K Norwood",
+        "Allison A Chilipko",
+        "Shril M Amin",
+        "David Macharia",
+        "Kimberly L Still"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Cardiovascular Diseases",
+          "is_major": false,
+          "ui": "D002318"
+        },
+        {
+          "term": "Diabetes Mellitus, Type 2",
+          "is_major": false,
+          "ui": "D003924"
+        },
+        {
+          "term": "Heart Failure",
+          "is_major": false,
+          "ui": "D006333"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Hypoglycemic Agents",
+          "is_major": false,
+          "ui": "D007004"
+        },
+        {
+          "term": "Metformin",
+          "is_major": false,
+          "ui": "D008687"
+        },
+        {
+          "term": "Randomized Controlled Trials as Topic",
+          "is_major": false,
+          "ui": "D016032"
+        }
+      ],
+      "keywords": [],
+      "citations": [],
+      "text": "OBJECTIVE: To examine the safety and potential benefits of metformin in diabetic patients with cardiovascular (CV) disease and heart failure (HF).\n\nDATA SOURCES: Searches of MEDLINE and International Pharmaceutical Abstracts (1966-August 2012). Search terms included metformin, lactic acidosis, cardiovascular disease, diabetes, heart failure, and clinical trials.\n\nSTUDY SELECTION AND DATA EXTRACTION: Published studies and case reports that were chosen for inclusion evaluated the benefit and safety of metformin in patients with diabetes with CV disease and HF.\n\nDATA SYNTHESIS: Case reports and retrospective trials have failed to illustrate an association with metformin use and lactic acidosis in patients with HF or cardiac disease. In fact, the evidence has suggested that these patients may actually benefit from the use of metformin.\n\nCONCLUSIONS: Results from recent trials have evaluated the potential clinical advantages of metformin in patients with cardiac disease and HF. These studies have illustrated a favorable morbidity and mortality profile for the use of metformin in these patient populations. While large prospective trials are still needed to display conclusive evidence, the recent clinical trials suggest a benefit in areas where metformin use has previously been discouraged."
+    },
+    {
+      "rank": 6,
+      "score": 0.6748254883374358,
+      "search_type": "hybrid",
+      "vector_id": 12126809,
+      "chunk_id": 12126809,
+      "pmid": "26271457",
+      "title": "The pleiotropic effects of metformin: time for prospective studies.",
+      "year": 2015,
+      "journal": "Cardiovascular diabetology",
+      "authors": [
+        "Daniel I Bromage",
+        "Derek M Yellon"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Animals",
+          "is_major": false,
+          "ui": "D000818"
+        },
+        {
+          "term": "Biomarkers",
+          "is_major": false,
+          "ui": "D015415"
+        },
+        {
+          "term": "Blood Glucose",
+          "is_major": false,
+          "ui": "D001786"
+        },
+        {
+          "term": "Cardiovascular Diseases",
+          "is_major": false,
+          "ui": "D002318"
+        },
+        {
+          "term": "Diabetes Mellitus, Type 2",
+          "is_major": false,
+          "ui": "D003924"
+        },
+        {
+          "term": "Evidence-Based Medicine",
+          "is_major": false,
+          "ui": "D019317"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Hypoglycemic Agents",
+          "is_major": false,
+          "ui": "D007004"
+        },
+        {
+          "term": "Metformin",
+          "is_major": false,
+          "ui": "D008687"
+        },
+        {
+          "term": "Risk Assessment",
+          "is_major": false,
+          "ui": "D018570"
+        },
+        {
+          "term": "Risk Factors",
+          "is_major": false,
+          "ui": "D012307"
+        },
+        {
+          "term": "Treatment Outcome",
+          "is_major": false,
+          "ui": "D016896"
+        }
+      ],
+      "keywords": [],
+      "citations": [],
+      "text": "The global prevalence of diabetes has risen to epidemic proportions and the trend is predicted to continue. The consequent burden of cardiovascular morbidity and mortality is a major public health concern and new treatments are required to mitigate the deleterious effects of cardiovascular disease in diabetic patients. Ischaemia-reperfusion injury is well known to exacerbate the harmful effects of acute myocardial infarction and subsequent therapeutic reperfusion, and several mechanical and pharmacological approaches to mitigating this injury have been investigated. Metformin, which is cheap, relatively safe and widely used in type 2 diabetes, is one such pharmacotherapy with considerable pre-clinical evidence for cardioprotective utility beyond its glucose-lowering effect. However, despite convincing basic evidence its translation to clinical application has largely been limited to studies of cardiovascular risk. There are several barriers to prospective randomized assessment in the context of acute myocardial infarction, not least the accessibility and already widespread use of metformin among patients with type 2 diabetes at high risk of cardiovascular events. In the place of class 1 evidence, well-designed prospective cohort studies of the potential pleiotropic utility of metformin in cardiovascular disease, and particularly its benefit in ischaemia-reperfusion injury, are needed. Given the availability of metformin worldwide, this is particularly true in low- and middle-income countries where the optimal therapy for acute myocardial infarction, primary percutaneous coronary intervention, may not be available, and instead patients are managed with thrombolysis. As this is less effective, metformin as an adjunct to thrombolysis (or PPCI) could represent an effective, cheap means of cardioprotection with global relevance."
+    },
+    {
+      "rank": 7,
+      "score": 0.661943123202881,
+      "search_type": "hybrid",
+      "vector_id": 5137470,
+      "chunk_id": 5137470,
+      "pmid": "35032305",
+      "title": "Association of Metformin with the Mortality and Incidence of Cardiovascular Events in Patients with Pre-existing Cardiovascular Diseases.",
+      "year": 2022,
+      "journal": "Drugs",
+      "authors": [
+        "Tian Li",
+        "Rui Providencia",
+        "Wenhua Jiang",
+        "Manling Liu",
+        "Lu Yu",
+        "Chunhu Gu",
+        "Alex Chia Yu Chang",
+        "Heng Ma"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Cardiovascular Diseases",
+          "is_major": true,
+          "ui": "D002318"
+        },
+        {
+          "term": "Diabetes Mellitus, Type 2",
+          "is_major": true,
+          "ui": "D003924"
+        },
+        {
+          "term": "Heart Failure",
+          "is_major": true,
+          "ui": "D006333"
+        },
+        {
+          "term": "Incidence",
+          "is_major": false,
+          "ui": "D015994"
+        },
+        {
+          "term": "Metformin",
+          "is_major": true,
+          "ui": "D008687"
+        },
+        {
+          "term": "Myocardial Infarction",
+          "is_major": true,
+          "ui": "D009203"
+        }
+      ],
+      "keywords": [],
+      "citations": [],
+      "text": "INTRODUCTION: Whether metformin reduces all-cause cardiovascular mortality and the incidence of cardiovascular events in patients with pre-existing cardiovascular diseases (CVD) remains inconclusive. Some randomised controlled trials (RCTs) and cohort studies have shown that metformin is associated with an increased risk of mortality and cardiovascular events.\n\nMETHODS: We conducted a pooling synthesis to assess the effects of metformin in all-cause cardiovascular mortality and incidence of cardiovascular events in patients with CVD. Studies published up to October 2021 in PubMed or Embase with a registration in PROSPERO (CRD42020189905) were collected. Both RCT and cohort studies were included. Hazard ratios (HR) with 95% CI were pooled across various trials using the random-effects model.\n\nRESULTS: This study enrolled 35 published studies (in 14 publications) for qualitative synthesis and identified 33 studies (published in 26 publications) for quantitative analysis. We analysed a total of 61,704 patients, among them 58,271 patients were used to calculate all-cause mortality while 12,814 patients were used to calculate cardiovascular mortality. Compared with non-metformin control, metformin usage is associated with a reduction in all-cause mortality (HR: 0.90; 95% CI 0.83, 0.98; p = 0.01), cardiovascular mortality (HR: 0.89; 95% CI 0.85, 0.94; p < 0.0001), incidence of coronary revascularisation (HR: 0.79; 95% CI 0.64, 0.98; p = 0.03), and heart failure (HR: 0.90; 95% CI 0.87, 0.94; p < 0.0001) in patients with pre-existing cardiovascular diseases.\n\nCONCLUSION: Metformin use is associated with a reduction in all-cause mortality, cardiovascular mortality, incidence of coronary revascularisation, and heart failure in patients with CVD; however, metformin usage was not associated with reduction in the incidence of myocardial infarction, angina, or stroke."
+    },
+    {
+      "rank": 8,
+      "score": 0.6591742537682828,
+      "search_type": "hybrid",
+      "vector_id": 3492509,
+      "chunk_id": 3492509,
+      "pmid": "36972373",
+      "title": "Metformin: evidence from preclinical and clinical studies for potential novel applications in cardiovascular disease.",
+      "year": 2023,
+      "journal": "Expert opinion on investigational drugs",
+      "authors": [
+        "Adel Dihoum",
+        "Graham Rena",
+        "Ewan R Pearson",
+        "Chim C Lang",
+        "Ify R Mordi"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Metformin",
+          "is_major": true,
+          "ui": "D008687"
+        },
+        {
+          "term": "Diabetes Mellitus, Type 2",
+          "is_major": true,
+          "ui": "D003924"
+        },
+        {
+          "term": "Hypoglycemic Agents",
+          "is_major": false,
+          "ui": "D007004"
+        },
+        {
+          "term": "Cardiovascular Diseases",
+          "is_major": true,
+          "ui": "D002318"
+        },
+        {
+          "term": "Sodium-Glucose Transporter 2 Inhibitors",
+          "is_major": true,
+          "ui": "D000077203"
+        },
+        {
+          "term": "Randomized Controlled Trials as Topic",
+          "is_major": false,
+          "ui": "D016032"
+        },
+        {
+          "term": "Glucagon-Like Peptide-1 Receptor Agonists",
+          "is_major": false,
+          "ui": "D000097789"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "Cardiovascular disease",
+          "is_major": false
+        },
+        {
+          "term": "diabetes",
+          "is_major": false
+        },
+        {
+          "term": "heart failure",
+          "is_major": false
+        },
+        {
+          "term": "inflammation",
+          "is_major": false
+        },
+        {
+          "term": "metformin",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "INTRODUCTION: For a long time, metformin has been the first-line treatment for glycemic control in type 2 diabetes; however, the results of recent cardiovascular outcome trials of sodium-glucose co-transporter 2 inhibitors and glucagon-like peptide 1 receptor agonists have caused many to question metformin's position in the guidelines. Although there are several plausible mechanisms by which metformin might have beneficial cardiovascular effects, for example, its anti-inflammatory effects and metabolic properties, and numerous observational data suggesting improved cardiovascular outcomes with metformin use, the main randomized clinical trial data for metformin was published over 20 years ago. Nevertheless, the overwhelming majority of participants in contemporary type 2 diabetes trials were prescribed metformin.\n\nAREAS COVERED: In this review, we will summarize the potential mechanisms of cardiovascular benefit with metformin, before discussing clinical data in individuals with or without diabetes.\n\nEXPERT OPINION: Metformin may have some cardiovascular benefit in patients with and without diabetes, however the majority of clinical trials were small and are before the use SGLT2 inhibitors and GLP1-RAs. Larger contemporary randomized trials, with metformin evaluating its cardiovascular benefit are warranted."
+    },
+    {
+      "rank": 9,
+      "score": 0.6330232876299713,
+      "search_type": "hybrid",
+      "vector_id": 8139225,
+      "chunk_id": 8139225,
+      "pmid": "31362743",
+      "title": "Effect of metformin on all-cause and cardiovascular mortality in patients with coronary artery diseases: a systematic review and an updated meta-analysis.",
+      "year": 2019,
+      "journal": "Cardiovascular diabetology",
+      "authors": [
+        "Yechen Han",
+        "Hongzhi Xie",
+        "Yongtai Liu",
+        "Peng Gao",
+        "Xufei Yang",
+        "Zhujun Shen"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Adult",
+          "is_major": false,
+          "ui": "D000328"
+        },
+        {
+          "term": "Aged",
+          "is_major": false,
+          "ui": "D000368"
+        },
+        {
+          "term": "Biomarkers",
+          "is_major": false,
+          "ui": "D015415"
+        },
+        {
+          "term": "Blood Glucose",
+          "is_major": false,
+          "ui": "D001786"
+        },
+        {
+          "term": "Cause of Death",
+          "is_major": false,
+          "ui": "D002423"
+        },
+        {
+          "term": "Coronary Artery Disease",
+          "is_major": false,
+          "ui": "D003324"
+        },
+        {
+          "term": "Diabetes Mellitus, Type 2",
+          "is_major": false,
+          "ui": "D003924"
+        },
+        {
+          "term": "Female",
+          "is_major": false,
+          "ui": "D005260"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Hypoglycemic Agents",
+          "is_major": false,
+          "ui": "D007004"
+        },
+        {
+          "term": "Incidence",
+          "is_major": false,
+          "ui": "D015994"
+        },
+        {
+          "term": "Male",
+          "is_major": false,
+          "ui": "D008297"
+        },
+        {
+          "term": "Metformin",
+          "is_major": false,
+          "ui": "D008687"
+        },
+        {
+          "term": "Middle Aged",
+          "is_major": false,
+          "ui": "D008875"
+        },
+        {
+          "term": "Risk Assessment",
+          "is_major": false,
+          "ui": "D018570"
+        },
+        {
+          "term": "Risk Factors",
+          "is_major": false,
+          "ui": "D012307"
+        },
+        {
+          "term": "Time Factors",
+          "is_major": false,
+          "ui": "D013997"
+        },
+        {
+          "term": "Treatment Outcome",
+          "is_major": false,
+          "ui": "D016896"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "Coronary artery disease",
+          "is_major": false
+        },
+        {
+          "term": "Diabetes",
+          "is_major": false
+        },
+        {
+          "term": "Meta-analysis",
+          "is_major": false
+        },
+        {
+          "term": "Systemic review",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "BACKGROUND: Metformin is the most widely prescribed drug to lower glucose and has a definitive effect on the cardiovascular system. The goal of this systematic review and meta-analysis is to assess the effects of metformin on mortality and cardiac function among patients with coronary artery disease (CAD).\n\nMETHODS: Relevant studies reported before October 2018 was retrieved from databases including PubMed, EMBASE, Cochrane Library and Web of Science. Hazard ratio (HR) was calculated to evaluate the all-cause mortality, cardiovascular mortality and incidence of cardiovascular events (CV events), to figure out the level of left ventricular ejection fraction (LVEF), creatine kinase MB (CK-MB), type B natriuretic peptide (BNP) and to compare the average level of low density lipoprotein (LDL).\n\nRESULTS: In this meta-analysis were included 40 studies comprising 1,066,408 patients. The cardiovascular mortality, all-cause mortality and incidence of CV events were lowered to adjusted HR (aHR) = 0.81, aHR = 0.67 and aHR = 0. 83 respectively after the patients with CAD were given metformin. Subgroup analysis showed that metformin reduced all-cause mortality in myocardial infarction (MI) (aHR = 0.79) and heart failure (HF) patients (aHR = 0.84), the incidence of CV events in HF (aHR = 0.83) and type II diabetes mellitus (T2DM) patients (aHR = 0.83), but had no significant effect on MI (aHR = 0.87) and non-T2DM patients (aHR = 0.92). Metformin is superior to sulphonylurea (aHR = 0.81) in effects on lowering the incidence of CV events and in effects on patients who don't use medication. The CK-MB level in the metformin group was lower than that in the control group standard mean difference (SMD) = - 0.11). There was no significant evidence that metformin altered LVEF (MD = 2.91), BNP (MD = - 0.02) and LDL (MD = - 0.08).\n\nCONCLUSION: Metformin reduces cardiovascular mortality, all-cause mortality and CV events in CAD patients. For MI patients and CAD patients without T2DM, metformin has no significant effect of reducing the incidence of CV events. Metformin has a better effect of reducing the incidence of CV events than sulfonylureas."
+    },
+    {
+      "rank": 10,
+      "score": 0.6142906005531495,
+      "search_type": "hybrid",
+      "vector_id": 3213615,
+      "chunk_id": 3213615,
+      "pmid": "37307806",
+      "title": "Cardiovascular Protection by Metformin: Latest Advances in Basic and Clinical Research.",
+      "year": 2023,
+      "journal": "Cardiology",
+      "authors": [
+        "Jason Z Li",
+        "Y Robert Li"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Metformin",
+          "is_major": true,
+          "ui": "D008687"
+        },
+        {
+          "term": "Diabetes Mellitus, Type 2",
+          "is_major": true,
+          "ui": "D003924"
+        },
+        {
+          "term": "Hypoglycemic Agents",
+          "is_major": false,
+          "ui": "D007004"
+        },
+        {
+          "term": "Heart Failure",
+          "is_major": true,
+          "ui": "D006333"
+        },
+        {
+          "term": "Atherosclerosis",
+          "is_major": true,
+          "ui": "D050197"
+        },
+        {
+          "term": "Glucose",
+          "is_major": false,
+          "ui": "D005947"
+        },
+        {
+          "term": "Cardiovascular Diseases",
+          "is_major": true,
+          "ui": "D002318"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "Atherosclerosis",
+          "is_major": false
+        },
+        {
+          "term": "Cardiovascular protection",
+          "is_major": false
+        },
+        {
+          "term": "Heart failure",
+          "is_major": false
+        },
+        {
+          "term": "Metformin",
+          "is_major": false
+        },
+        {
+          "term": "Myocardial injury",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "BACKGROUND: Metformin is among the most frequently prescribed antidiabetic drugs worldwide and remains the first-line therapy for type 2 diabetes due to its well-established glucose-lowering efficacy and favorable safety profile.\n\nSUMMARY: Studies over the past decades show that metformin also exerts many other beneficial effects independent of its glucose-lowering effect both in experimental models and human subjects. Among them, the most notable is its cardiovascular protective effect. In this review, we discuss the latest cutting-edge research findings on metformin's cardiovascular protection from both preclinical studies and randomized clinical trials. We focus on describing novel basic research discoveries reported in influential journals and discussing their implications in the context of latest clinical trial findings related to common cardiovascular and metabolic disorders, including atherosclerosis and dyslipidemia, myocardial injury, and heart failure.\n\nKEY MESSAGES: While substantial preclinical and clinical evidence suggests metformin as a potential cardiovascular protectant, large-scale randomized controlled trials are warranted to establish its clinical efficacy in treating patients with atherosclerotic cardiovascular disease and heart failure."
+    }
+  ]
+}

@@ -1,0 +1,575 @@
+{
+  "query": "metformin trends",
+  "search_type": "bm25_author_keywords",
+  "parameters": {
+    "k": 10
+  },
+  "results_count": 10,
+  "results": [
+    {
+      "rank": 1,
+      "score": 4.776224613189697,
+      "search_type": "bm25_author_keywords",
+      "vector_id": 8718887,
+      "chunk_id": 8718887,
+      "pmid": "30661330",
+      "title": "Hepatoprotective and anti-obesity effects of Korean blue honeysuckle extracts in high fat diet-fed mice.",
+      "year": 2018,
+      "journal": "Journal of exercise nutrition & biochemistry",
+      "authors": [
+        "Yoon-Seok Chun",
+        "Se-Kwang Ku",
+        "Jong-Kyu Kim",
+        "Sok Park",
+        "In-Ho Cho",
+        "Nam-Ju Lee"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        {
+          "term": "Metformin",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "PURPOSE: This study aimed to study the protective effects and mechanism of Blue Honeysuckle (BH) extracts (Berries of Lonicera caerulea L.) on non-alcoholic fatty liver disease (NAFLD) and obesity risk factors in a high fat-diet (HFD) model.\n\nMETHODS: Animals adapted to HFD were selected after 1 week of adaption period and divided into 6 groups (8 mice in each group; 40 HFD-fed mice and 8 normal fat pellet diet (NFD)-fed mice). After the end of 12 weeks of continuous oral administrations of 3 different dosages of BH extract, 400, 200 and 100 mg/kg, or metformin 250 mg/kg, dissolved in a volume of 10 mL/kg distilled water, the hepatoprotective, hypolipidemic, hypoglycemic, nephroprotective, and anti-obesity effects were analyzed.\n\nRESULTS: The BH extract improved fat density and mass, adipocyte histopathology, hepatocyte hypertrophy, hepatic enzyme activity, lipid metabolism, and related gene expression including ACC1, AMPK α1 and AMPK α2 in hepatic tissue, leptin, UCP2, adiponectin, C/EBP α, C/EBPβ and SREBP1c in adipose tissue. Especially, 200 mg/kg of BH extract constantly improved NAFLD and obesity risk factors through AMPK upregulation-mediated hepatic glucose enzyme activity, lipid metabolism-related gene expression, and activation of the antioxidant defense system, to a level comparable to that of metformin 250 mg/kg in HFD-fed mice.\n\nCONCLUSION: BH extract has the potential to reduce the risk factors associated with obesity, in addition to the remarkable effect of preventing NAFLD. Future research will need to be done to determine whether these results are consistent in human studies."
+    },
+    {
+      "rank": 2,
+      "score": 4.1875433921813965,
+      "search_type": "bm25_author_keywords",
+      "vector_id": 10371717,
+      "chunk_id": 10371717,
+      "pmid": "28565153",
+      "title": "MECHANISMS OF LARGE-SCALE EVOLUTIONARY TRENDS.",
+      "year": 1994,
+      "journal": "Evolution; international journal of organic evolution",
+      "authors": [
+        "Daniel W McShea"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        {
+          "term": "Diffusion",
+          "is_major": false
+        },
+        {
+          "term": "driven trend",
+          "is_major": false
+        },
+        {
+          "term": "evolutionary trends",
+          "is_major": false
+        },
+        {
+          "term": "passive trend",
+          "is_major": false
+        },
+        {
+          "term": "trend mechanisms",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Large-scale evolutionary trends may result from driving forces or from passive diffusion in bounded spaces. Such trends are persistent directional changes in higher taxa spanning significant periods of geological time; examples include the frequently cited long-term trends in size, complexity, and fitness in life as a whole, as well as trends in lesser supraspecific taxa and trends in space. In a driven trend, the distribution mean increases on account of a force (which may manifest itself as a bias in the direction of change) that acts on lineages throughout the space in which diversification occurs. In a passive system, no pervasive force or bias exists, but the mean increases because change in one direction is blocked by a boundary, or other inhomogeneity, in some limited region of the space. Two tests have been used to distinguish these trend mechanisms: (1) the test based on the behavior of the minimum; and (2) the ancestor-descendant test, based on comparisons in a random sample of ancestor-descendant pairs that lie far from any possible lower bound. For skewed distributions, a third test is introduced here: (3) the subclade test, based on the mean skewness of a sample of subclades drawn from the tail of a terminal distribution. With certain restrictions, a system is driven if the minimum increases, if increases significantly outnumber decreases among ancestor-descendant pairs, and if the mean skew of subclades is significantly positive. A passive mechanism is more difficult to demonstrate but is the more likely mechanism if decreases outnumber increases and if the mean skew of subclades is negative. Unlike the other tests, the subclade test requires no detailed phylogeny or paleontological time series, but only terminal (e.g., modern) distributions. Monte Carlo simulations of the diversification of a clade are used to show how the subclade test works. In the empirical cases examined, the three tests gave concordant results, suggesting first, that they work, and second, that the passive and driven mechanisms may correspond to natural categories of causes of large-scale trends."
+    },
+    {
+      "rank": 3,
+      "score": 4.124407768249512,
+      "search_type": "bm25_author_keywords",
+      "vector_id": 10174282,
+      "chunk_id": 10174282,
+      "pmid": "28819951",
+      "title": "Metformin - a new old drug.",
+      "year": 2017,
+      "journal": "Endokrynologia Polska",
+      "authors": [
+        "Marta Patrycja Wróbel",
+        "Bogdan Marek",
+        "Dariusz Kajdaniuk",
+        "Dominika Rokicka",
+        "Aleksandra Szymborska-Kajanek",
+        "Krzysztof Strojek"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Diabetes Mellitus, Type 2",
+          "is_major": false,
+          "ui": "D003924"
+        },
+        {
+          "term": "Female",
+          "is_major": false,
+          "ui": "D005260"
+        },
+        {
+          "term": "Glucose",
+          "is_major": false,
+          "ui": "D005947"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Insulin Resistance",
+          "is_major": false,
+          "ui": "D007333"
+        },
+        {
+          "term": "Liver",
+          "is_major": false,
+          "ui": "D008099"
+        },
+        {
+          "term": "Metformin",
+          "is_major": false,
+          "ui": "D008687"
+        },
+        {
+          "term": "Polycystic Ovary Syndrome",
+          "is_major": false,
+          "ui": "D011085"
+        },
+        {
+          "term": "Practice Guidelines as Topic",
+          "is_major": false,
+          "ui": "D017410"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "metformin",
+          "is_major": false
+        },
+        {
+          "term": "metformin properties",
+          "is_major": false
+        },
+        {
+          "term": "type 2 diabetes",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "For many years metformin has been the gold standard in the treatment of type 2 diabetes. According to recommendations of the most important diabetes associations, this is the first-choice drug for use as monotherapy in patients with newly diagnosed type 2 diabetes. Metformin is also recommended in combined treatment when monotherapy is no longer effective. It is then combined with a sulfony-lurea, an incretin, flozin, or insulin, irrespective of the number of insulin injections per day. Besides its properties used in the treatment of diabetes, metformin has been treated for some time as a drug of a so-called pleiotropic activity, as each year brings new reports about its favourable effect in different conditions. At present, the scope of reimbursed indications of this drug has been expanded to include prediabetes, insulin resistance syndromes, and polycystic ovary syndrome. Metformin does not stimulate insulin secretion by the beta cells of the pancreas, and thus it is a drug that does not cause hypoglycaemia. The blood glucose-lowering effect of the drug is a consequence of hepatic glucose production inhibition, and of peripheral tissue (muscle tissue, fatty tissue) sensitisation to the effect of insulin of both endogenous and exogenous origin. The exact mechanism of metformin action at the cellular level remained unknown for a long time. Studies performed in recent years have provided a great deal of information that enables better understanding of the mechanism of action of the drug as well as the clinical effects resulting from its use. Metformin, besides improvement of glycaemia, is neutral to body weight, is cardioprotective, improves lipid profile, and has a probable anti-cancer effect. Metformin accumulation in the intestinal mucosa may interfere with FDG (18F-deoxyglucose) PET-CT image assessment. The aim of this article is a detailed discussion of metformin properties, its mechanisms of action, and clinical effects."
+    },
+    {
+      "rank": 4,
+      "score": 4.124407768249512,
+      "search_type": "bm25_author_keywords",
+      "vector_id": 9551584,
+      "chunk_id": 9551584,
+      "pmid": "29637033",
+      "title": "Metformin-Induced Lactic Acidosis: A Case Study.",
+      "year": 2018,
+      "journal": "Cureus",
+      "authors": [
+        "Waliul Chowdhury",
+        "Muhammad Uzair Lodhi",
+        "Intekhab Askari Syed",
+        "Umer Ahmed",
+        "Maxwell Miller",
+        "Mustafa Rahim"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        {
+          "term": "lactic acidosis",
+          "is_major": false
+        },
+        {
+          "term": "metformin",
+          "is_major": false
+        },
+        {
+          "term": "metformin overdose",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Metformin is the first line management for patients with Type 2 diabetes mellitus. Metformin-induced lactic acidosis (MALA) is a severe side effect of metformin in high doses. However, there have not been many reported cases of MALA. The threshold metformin concentration needed to induce lactic acidosis is still not fully understood. It is important for physicians to measure metformin levels upon admission in Type 2 diabetes patients who take metformin and present with suspected lactic acidosis. We present a case of a 40-year-old Caucasian male who presented with severe lactic acidosis shortly after overdosing on metformin."
+    },
+    {
+      "rank": 5,
+      "score": 4.124407768249512,
+      "search_type": "bm25_author_keywords",
+      "vector_id": 8243539,
+      "chunk_id": 8243539,
+      "pmid": "31245187",
+      "title": "Metformin-associated Lactic Acidosis: An Unexpected Scenario.",
+      "year": 2019,
+      "journal": "Cureus",
+      "authors": [
+        "Samia Asif",
+        "Joseph Bennett",
+        "Bindiya Marakkath"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        {
+          "term": "lactic acidosis",
+          "is_major": false
+        },
+        {
+          "term": "metformin",
+          "is_major": false
+        },
+        {
+          "term": "metformin toxicity",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "According to the National Diabetes Statistics Report (2017) by Centers for Disease Control and Prevention (CDC), 9.4% of the US population, approximately 30.3 million people had diabetes while 84.1 million had pre-diabetes as of 2015. In addition to lifestyle changes, the American Diabetes Association recommends metformin as the first-line treatment for type 2 diabetes. Hence, not surprisingly, metformin is a commonly prescribed medication by most healthcare providers in all clinical settings. As a result, it remains essential that all medical professionals be aware of any adverse effects as a result of metformin therapy, no matter how uncommon. We present the case of a 42-year-old lady with type 2 diabetes mellitus who required initial admission to intensive care unit (ICU) after presenting with unilateral back and lower abdominal pain with dysuria and was noted to have an acute kidney injury with a creatinine of 7.45 mg/dL and severe metabolic acidosis with a pH of 6.7 and an anion gap more than 50 mmol/L. Lactic acid was elevated at 24.2 mmol/L. Serum metformin levels were high at 14 mcg/mL (therapeutic range: 1-2 mcg/mL). She required emergent dialysis but subsequently, renal functions recovered. Risk of metformin-associated lactic acidosis (MALA) is reported to be an estimated 6.3 per 100,000 patient-years. Commonly encountered clinical scenarios such as hypoxemia, sepsis, alcohol abuse, renal injury, and shock can precipitate MALA. Early recognition allows timely initiation of appropriate therapy and reduces associated morbidity."
+    },
+    {
+      "rank": 6,
+      "score": 4.073256492614746,
+      "search_type": "bm25_author_keywords",
+      "vector_id": 8797786,
+      "chunk_id": 8797786,
+      "pmid": "30572757",
+      "title": "National Trends in Diabetes Medication Use in the United States: 2008 to 2015.",
+      "year": 2020,
+      "journal": "Journal of pharmacy practice",
+      "authors": [
+        "Amit D Raval",
+        "Ami Vyas"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Adolescent",
+          "is_major": false,
+          "ui": "D000293"
+        },
+        {
+          "term": "Adult",
+          "is_major": false,
+          "ui": "D000328"
+        },
+        {
+          "term": "Diabetes Mellitus",
+          "is_major": true,
+          "ui": "D003920"
+        },
+        {
+          "term": "Dipeptidyl-Peptidase IV Inhibitors",
+          "is_major": false,
+          "ui": "D054873"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Hypoglycemic Agents",
+          "is_major": false,
+          "ui": "D007004"
+        },
+        {
+          "term": "Metformin",
+          "is_major": false,
+          "ui": "D008687"
+        },
+        {
+          "term": "Sodium-Glucose Transporter 2 Inhibitors",
+          "is_major": false,
+          "ui": "D000077203"
+        },
+        {
+          "term": "Sulfonylurea Compounds",
+          "is_major": false,
+          "ui": "D013453"
+        },
+        {
+          "term": "United States",
+          "is_major": false,
+          "ui": "D014481"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "Medical Expenditure Panel Survey",
+          "is_major": false
+        },
+        {
+          "term": "diabetes",
+          "is_major": false
+        },
+        {
+          "term": "insulin",
+          "is_major": false
+        },
+        {
+          "term": "metformin",
+          "is_major": false
+        },
+        {
+          "term": "trends",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "BACKGROUND: Data on trends of diabetes medications use are sparse, outdated, and limited to prescription data. We determined trends in diabetes medication use among US individuals with diabetes during 2008-2015.\n\nMETHODS: We used 2008-2015 Medical Expenditure Panel Survey to examine diabetes medication utilization among individuals aged ≥18 years with diabetes. Prescription medications were classified based on therapeutic class and subclass using Multum Lexicon database.\n\nRESULTS: From 2008 to 2015, use of any diabetes medication (81.4% vs. 87%), metformin (47.8% vs. 59.0%), and insulin (23.0% vs. 31.0%) increased, whereas, use of sulfonylurea (36.0% vs. 29.0%) and thiazolidinedione (21% vs. 9.0%) declined. A linear increase was observed in the uptake of dipeptidyl peptidase-4 (DPP-4) inhibitors from 6.2% in 2008 to 12.4% in 2015; glucagon-like peptide-1 (GLP-1) receptor agonists from 2.5% in 2008 to 4.4% in 2015 and sodium glucose transporter-2 (SGLT2) inhibitors from 0.8% in 2014 (the first SGLT2 inhibitors approval year) to 4.4% in 2015. Monotherapy use increased from 50.6% to 56.4% during 2008-2015, while triple therapy use declined.\n\nCONCLUSIONS: Metformin, insulin and sulfonylureas remained the top-three prescribed classes of diabetes medications. Increased use of DPP-4 inhibitors, GLP-1 receptor agonists and SGLT2 inhibitors was offset by decline in TZDs use."
+    },
+    {
+      "rank": 7,
+      "score": 4.047947883605957,
+      "search_type": "bm25_author_keywords",
+      "vector_id": 3629278,
+      "chunk_id": 3629278,
+      "pmid": "36836794",
+      "title": "Pleiotropic Effects of Metformin in Osteoarthritis.",
+      "year": 2023,
+      "journal": "Life (Basel, Switzerland)",
+      "authors": [
+        "Sevdalina Nikolova Lambova"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        {
+          "term": "metformin",
+          "is_major": false
+        },
+        {
+          "term": "osteoarthritis",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "The involvement of the knee joint is the most common localization of the pathological process in osteoarthritis (OA), which is associated with obesity in over 50% of the patients and is mediated by mechanical, inflammatory, and metabolic mechanisms. Obesity and the associated conditions (hyperglycemia, dyslipidemia, and hypertension) have been found to be risk factors for the development of knee OA, which has led to the emerging concept of the existence of a distinct phenotype, i.e., metabolic knee OA. Combined assessment of markers derived from dysfunctional adipose tissue, markers of bone and cartilage metabolism, as well as high-sensitivity inflammatory markers and imaging, might reveal prognostic signs for metabolic knee OA. Interestingly, it has been suggested that drugs used for the treatment of other components of the metabolic syndrome may also affect the clinical course and retard the progression of metabolic-associated knee OA. In this regard, significant amounts of new data are accumulating about the role of metformin-a drug, commonly used in clinical practice with suggested multiple pleiotropic effects. The aim of the current review is to analyze the current views about the potential pleiotropic effects of metformin in OA. Upon the analysis of the different effects of metformin, major mechanisms that might be involved in OA are the influence of inflammation, oxidative stress, autophagy, adipokine levels, and microbiome modulation. There is an increasing amount of evidence from in vitro studies, animal models, and clinical trials that metformin can slow OA progression by modulating inflammatory and metabolic factors that are summarized in the current up-to-date review. Considering the contemporary concept about the existence of metabolic type knee OA, in which the accompanying obesity and systemic low-grade inflammation are suggested to influence disease course, metformin could be considered as a useful and safe component of the personalized therapeutic approach in knee OA patients with accompanying type II diabetes or obesity."
+    },
+    {
+      "rank": 8,
+      "score": 4.047947883605957,
+      "search_type": "bm25_author_keywords",
+      "vector_id": 7089638,
+      "chunk_id": 7089638,
+      "pmid": "32668195",
+      "title": "Mitochondrial Metabolism as a Target for Cancer Therapy.",
+      "year": 2020,
+      "journal": "Cell metabolism",
+      "authors": [
+        "Karthik Vasan",
+        "Marie Werner",
+        "Navdeep S Chandel"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Animals",
+          "is_major": false,
+          "ui": "D000818"
+        },
+        {
+          "term": "Antineoplastic Agents",
+          "is_major": false,
+          "ui": "D000970"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Mitochondria",
+          "is_major": false,
+          "ui": "D008928"
+        },
+        {
+          "term": "Neoplasms",
+          "is_major": false,
+          "ui": "D009369"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "metformin",
+          "is_major": false
+        },
+        {
+          "term": "mitochondria",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Recent evidence in humans and mice supports the notion that mitochondrial metabolism is active and necessary for tumor growth. Mitochondrial metabolism supports tumor anabolism by providing key metabolites for macromolecule synthesis and generating oncometabolites to maintain the cancer phenotype. Moreover, there are multiple clinical trials testing the efficacy of inhibiting mitochondrial metabolism as a new cancer therapeutic treatment. In this review, we discuss the rationale of using these anti-cancer agents in clinical trials and highlight how to effectively utilize them in different tumor contexts."
+    },
+    {
+      "rank": 9,
+      "score": 3.827117681503296,
+      "search_type": "bm25_author_keywords",
+      "vector_id": 11188695,
+      "chunk_id": 11188695,
+      "pmid": "27469359",
+      "title": "In Vivo Imaging of Human 11C-Metformin in Peripheral Organs: Dosimetry, Biodistribution, and Kinetic Analyses.",
+      "year": 2016,
+      "journal": "Journal of nuclear medicine : official publication, Society of Nuclear Medicine",
+      "authors": [
+        "Lars C Gormsen",
+        "Elias Immanuel Sundelin",
+        "Jonas Brorson Jensen",
+        "Mikkel Holm Vendelbo",
+        "Steen Jakobsen",
+        "Ole Lajord Munk",
+        "Mette Marie Hougaard Christensen",
+        "Kim Brøsen",
+        "Jørgen Frøkiær",
+        "Niels Jessen"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Adult",
+          "is_major": false,
+          "ui": "D000328"
+        },
+        {
+          "term": "Carbon Radioisotopes",
+          "is_major": true,
+          "ui": "D002250"
+        },
+        {
+          "term": "Female",
+          "is_major": false,
+          "ui": "D005260"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Kinetics",
+          "is_major": false,
+          "ui": "D007700"
+        },
+        {
+          "term": "Male",
+          "is_major": false,
+          "ui": "D008297"
+        },
+        {
+          "term": "Metformin",
+          "is_major": false,
+          "ui": "D008687"
+        },
+        {
+          "term": "Middle Aged",
+          "is_major": false,
+          "ui": "D008875"
+        },
+        {
+          "term": "Positron-Emission Tomography",
+          "is_major": false,
+          "ui": "D049268"
+        },
+        {
+          "term": "Radiometry",
+          "is_major": false,
+          "ui": "D011874"
+        },
+        {
+          "term": "Tissue Distribution",
+          "is_major": false,
+          "ui": "D014018"
+        },
+        {
+          "term": "Whole Body Imaging",
+          "is_major": false,
+          "ui": "D051598"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "11C-metformin",
+          "is_major": false
+        },
+        {
+          "term": "PET/CT",
+          "is_major": false
+        },
+        {
+          "term": "biodistribution",
+          "is_major": false
+        },
+        {
+          "term": "metformin",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Metformin is the most widely prescribed oral antiglycemic drug, with few adverse effects. However, surprisingly little is known about its human biodistribution and target tissue metabolism. In animal experiments, we have shown that metformin can be labeled by\n\nMETHODS: Nine subjects (3 women and 6 men) participated in 2 studies: in the first study, human radiation dosimetry and biodistribution of\n\nRESULTS: Radiation dosimetry was acceptable, with effective doses of 9.5 μSv/MBq (intravenous administration) and 18.1 μSv/MBq (oral administration). Whole-body PET revealed that"
+    },
+    {
+      "rank": 10,
+      "score": 3.827117681503296,
+      "search_type": "bm25_author_keywords",
+      "vector_id": 2484524,
+      "chunk_id": 2484524,
+      "pmid": "38203351",
+      "title": "Mass Spectrometry Study about In Vitro and In Vivo Reaction between Metformin and Glucose: A Preliminary Investigation on Alternative Biological Behavior.",
+      "year": 2023,
+      "journal": "International journal of molecular sciences",
+      "authors": [
+        "Gianluca Bartolucci",
+        "Marco Pallecchi",
+        "Laura Braconi",
+        "Silvia Dei",
+        "Elisabetta Teodori",
+        "Annunziata Lapolla",
+        "Giovanni Sartore",
+        "Pietro Traldi"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Metformin",
+          "is_major": true,
+          "ui": "D008687"
+        },
+        {
+          "term": "Tandem Mass Spectrometry",
+          "is_major": false,
+          "ui": "D053719"
+        },
+        {
+          "term": "Liquid Chromatography-Mass Spectrometry",
+          "is_major": false,
+          "ui": "D000097922"
+        },
+        {
+          "term": "Cell Membrane",
+          "is_major": false,
+          "ui": "D002462"
+        },
+        {
+          "term": "Glucose",
+          "is_major": false,
+          "ui": "D005947"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "mass spectrometry",
+          "is_major": false
+        },
+        {
+          "term": "metformin",
+          "is_major": false
+        },
+        {
+          "term": "reaction of metformin with glucose",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Metformin is the most prescribed glucose-lowering drug worldwide; globally, over 100 million patients are prescribed this drug annually. Some different action mechanisms have been proposed for this drug, but, surprisingly, no metabolite of metformin has ever been described. It was considered interesting to investigate the possible reaction of metformin with glucose following the Maillard reaction pattern. The reaction was first performed in in vitro conditions, showing the formation of two adducts that originated by the condensation of the two molecular species with the losses of one or two water molecules. Their structures were investigated by liquid chromatography coupled with mass spectrometry (HPLC-MS), tandem mass spectrometry (MS/MS) and accurate mass measurements (HRMS). The species originated via the reaction of glucose and metformin and were called"
+    }
+  ]
+}

@@ -1,0 +1,3219 @@
+SYSTEM: 
+You are a research critic agent. Your task is to evaluate the relevance of the following articles to the research question.
+For each article, provide a relevance score from 1 to 10 (1 = not relevant, 10 = highly relevant) and a brief justification.
+Also, provide an overall assessment: should we continue searching or stop?
+
+Respond in JSON format with two keys: "scores" and "decision".
+- "scores": a list of objects, each with "pmid", "relevance_score", and "justification".
+- "decision": either "CONTINUE" or "STOP". If continuing, add a "suggestion" key with ideas for the next search.
+
+USER: 
+Research Question: "What are the therapeutic uses of metformin?"
+
+Articles to evaluate:
+[
+  {
+    "rank": 1,
+    "score": 0.8225974196666681,
+    "search_type": "hybrid",
+    "vector_id": 2105330,
+    "chunk_id": 2105330,
+    "pmid": "38612893",
+    "title": "Metformin: A Dual-Role Player in Cancer Treatment and Prevention.",
+    "year": 2024,
+    "journal": "International journal of molecular sciences",
+    "authors": [
+      "Mariam Ahmed Galal",
+      "Mohammed Al-Rimawi",
+      "Abdurrahman Hajeer",
+      "Huda Dahman",
+      "Samhar Alouch",
+      "Ahmad Aljada"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": true,
+        "ui": "D003924"
+      },
+      {
+        "term": "Cell Proliferation",
+        "is_major": false,
+        "ui": "D049109"
+      },
+      {
+        "term": "Chemotherapy, Adjuvant",
+        "is_major": false,
+        "ui": "D017024"
+      },
+      {
+        "term": "Hyperplasia",
+        "is_major": false,
+        "ui": "D006965"
+      },
+      {
+        "term": "Neoplasms",
+        "is_major": true,
+        "ui": "D009369"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "adjuvant therapy",
+        "is_major": false
+      },
+      {
+        "term": "anticancer",
+        "is_major": false
+      },
+      {
+        "term": "cancer",
+        "is_major": false
+      },
+      {
+        "term": "chemoresistance",
+        "is_major": false
+      },
+      {
+        "term": "clinical trials",
+        "is_major": false
+      },
+      {
+        "term": "mechanisms of action",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Cancer continues to pose a significant global health challenge, as evidenced by the increasing incidence rates and high mortality rates, despite the advancements made in chemotherapy. The emergence of chemoresistance further complicates the effectiveness of treatment. However, there is growing interest in the potential of metformin, a commonly prescribed drug for type 2 diabetes mellitus (T2DM), as an adjuvant chemotherapy agent in cancer treatment. Although the precise mechanism of action of metformin in cancer therapy is not fully understood, it has been found to have pleiotropic effects, including the modulation of metabolic pathways, reduction in inflammation, and the regulation of cellular proliferation. This comprehensive review examines the anticancer properties of metformin, drawing insights from various studies conducted in vitro and in vivo, as well as from clinical trials and observational research. This review discusses the mechanisms of action involving both insulin-dependent and independent pathways, shedding light on the potential of metformin as a therapeutic agent for different types of cancer. Despite promising findings, there are challenges that need to be addressed, such as conflicting outcomes in clinical trials, considerations regarding dosing, and the development of resistance. These challenges highlight the importance of further research to fully harness the therapeutic potential of metformin in cancer treatment. The aims of this review are to provide a contemporary understanding of the role of metformin in cancer therapy and identify areas for future exploration in the pursuit of effective anticancer strategies."
+  },
+  {
+    "rank": 2,
+    "score": 0.7620538334057052,
+    "search_type": "hybrid",
+    "vector_id": 10281972,
+    "chunk_id": 10281972,
+    "pmid": "28703040",
+    "title": "Metformin: Adjunct Therapy in Cancer Treatment.",
+    "year": 2017,
+    "journal": "Workplace health & safety",
+    "authors": [
+      "Ann R Lurati"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Female",
+        "is_major": false,
+        "ui": "D005260"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Middle Aged",
+        "is_major": false,
+        "ui": "D008875"
+      },
+      {
+        "term": "Neoplasms",
+        "is_major": false,
+        "ui": "D009369"
+      },
+      {
+        "term": "Off-Label Use",
+        "is_major": true,
+        "ui": "D056687"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "cancer",
+        "is_major": false
+      },
+      {
+        "term": "glucose",
+        "is_major": false
+      },
+      {
+        "term": "glycolysis",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "mitochrondria",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "An employee undergoing cancer treatment was prescribed metformin, a medication used in the treatment of type 2 diabetes and currently used as adjunct therapy for cancer. Metformin's anti-inflammatory properties inhibit tumor growth. It is speculated that cancer cells develop a metabolism that enhances aerobic glycolysis, which promotes cell growth and increases the need for glucose. Metformin decreases insulin in the blood, which decreases the amount of glucose available to cancer cells, thus starving the cells of nutrition, resulting in cell death. This case study explores the role of metformin in cancer treatment, with implications for occupational health nurses."
+  },
+  {
+    "rank": 3,
+    "score": 0.7618433986348796,
+    "search_type": "hybrid",
+    "vector_id": 1991950,
+    "chunk_id": 1991950,
+    "pmid": "38785784",
+    "title": "Metformin: From Diabetes to Cancer-Unveiling Molecular Mechanisms and Therapeutic Strategies.",
+    "year": 2024,
+    "journal": "Biology",
+    "authors": [
+      "Emilia Amengual-Cladera",
+      "Pere Miquel Morla-Barcelo",
+      "Andrea Mor\u00e1n-Costoya",
+      "Jorge Sastre-Serra",
+      "Daniel Gabriel Pons",
+      "Adamo Valle",
+      "Pilar Roca",
+      "Mercedes Nadal-Serrano"
+    ],
+    "mesh_terms": [],
+    "keywords": [
+      {
+        "term": "breast cancer",
+        "is_major": false
+      },
+      {
+        "term": "colorectal cancer",
+        "is_major": false
+      },
+      {
+        "term": "diabetes",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "mitochondria",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Metformin, a widely used anti-diabetic drug, has garnered attention for its potential in cancer management, particularly in breast and colorectal cancer. It is established that metformin reduces mitochondrial respiration, but its specific molecular targets within mitochondria vary. Proposed mechanisms include inhibiting mitochondrial respiratory chain Complex I and/or Complex IV, and mitochondrial glycerophosphate dehydrogenase, among others. These actions lead to cellular energy deficits, redox state changes, and several molecular changes that reduce hyperglycemia in type 2 diabetic patients. Clinical evidence supports metformin's role in cancer prevention in type 2 diabetes mellitus patients. Moreover, in these patients with breast and colorectal cancer, metformin consumption leads to an improvement in survival outcomes and prognosis. The synergistic effects of metformin with chemotherapy and immunotherapy highlights its potential as an adjunctive therapy for breast and colorectal cancer. However, nuanced findings underscore the need for further research and stratification by molecular subtype, particularly for breast cancer. This comprehensive review integrates metformin-related findings from epidemiological, clinical, and preclinical studies in breast and colorectal cancer. Here, we discuss current research addressed to define metformin's bioavailability and efficacy, exploring novel metformin-based compounds and drug delivery systems, including derivatives targeting mitochondria, combination therapies, and novel nanoformulations, showing enhanced anticancer effects."
+  },
+  {
+    "rank": 4,
+    "score": 0.709772692180096,
+    "search_type": "hybrid",
+    "vector_id": 2160792,
+    "chunk_id": 2160792,
+    "pmid": "38555742",
+    "title": "Metformin as anticancer agent and adjuvant in cancer combination therapy: Current progress and future prospect.",
+    "year": 2024,
+    "journal": "Translational oncology",
+    "authors": [
+      "Lin Zhu",
+      "Kaiqing Yang",
+      "Zhe Ren",
+      "Detao Yin",
+      "Yubing Zhou"
+    ],
+    "mesh_terms": [],
+    "keywords": [
+      {
+        "term": "Cancer",
+        "is_major": false
+      },
+      {
+        "term": "Chemotherapy",
+        "is_major": false
+      },
+      {
+        "term": "Combination therapy",
+        "is_major": false
+      },
+      {
+        "term": "Immunotherapy",
+        "is_major": false
+      },
+      {
+        "term": "Metformin",
+        "is_major": false
+      },
+      {
+        "term": "Radiotherapy",
+        "is_major": false
+      },
+      {
+        "term": "Targeted therapy",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Metformin, as the preferred antihyperglycemic drug for type 2 diabetes, has been found to have a significant effect in inhibiting tumor growth in recent years. However, metformin alone in cancer treatment has the disadvantages of high dose concentrations and few targeted cancer types. Increasing studies have confirmed that metformin can be used in combination with conventional anticancer therapy to obtain more promising clinical benefits, which is expected to be rapidly transformed and applied in clinic. Some combination therapy strategies including metformin combined with chemotherapy, radiotherapy, targeted therapy and immunotherapy have been proven to have more significant antitumor effects and longer survival time than monotherapy. In this review, we summarize the synergistic antitumor effects and mechanisms of metformin in combination with other current conventional anticancer therapies. In addition, we update the research progress and the latest prospect of the metformin-combined application in the cancer treatment. This work could provide more evidence and future direction for the clinical application of metformin in antitumor."
+  },
+  {
+    "rank": 5,
+    "score": 0.6941878668584267,
+    "search_type": "hybrid",
+    "vector_id": 9764989,
+    "chunk_id": 9764989,
+    "pmid": "29342230",
+    "title": "Metformin as an anti-cancer agent: actions and mechanisms targeting cancer stem cells.",
+    "year": 2018,
+    "journal": "Acta biochimica et biophysica Sinica",
+    "authors": [
+      "Nipun Saini",
+      "Xiaohe Yang"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Antineoplastic Agents",
+        "is_major": false,
+        "ui": "D000970"
+      },
+      {
+        "term": "Cell Differentiation",
+        "is_major": false,
+        "ui": "D002454"
+      },
+      {
+        "term": "Cell Proliferation",
+        "is_major": false,
+        "ui": "D049109"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Models, Biological",
+        "is_major": false,
+        "ui": "D008954"
+      },
+      {
+        "term": "Neoplasms",
+        "is_major": false,
+        "ui": "D009369"
+      },
+      {
+        "term": "Neoplastic Stem Cells",
+        "is_major": false,
+        "ui": "D014411"
+      },
+      {
+        "term": "Signal Transduction",
+        "is_major": false,
+        "ui": "D015398"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "AMPK/mTOR pathway",
+        "is_major": false
+      },
+      {
+        "term": "anti-cancer drugs",
+        "is_major": false
+      },
+      {
+        "term": "cancer stem cells",
+        "is_major": false
+      },
+      {
+        "term": "cellular metabolism",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Metformin, a first line medication for type II diabetes, initially entered the spotlight as a promising anti-cancer agent due to epidemiologic reports that found reduced cancer risk and improved clinical outcomes in diabetic patients taking metformin. To uncover the anti-cancer mechanisms of metformin, preclinical studies determined that metformin impairs cellular metabolism and suppresses oncogenic signaling pathways, including receptor tyrosine kinase, PI3K/Akt, and mTOR pathways. Recently, the anti-cancer potential of metformin has gained increasing interest due to its inhibitory effects on cancer stem cells (CSCs), which are associated with tumor metastasis, drug resistance, and relapse. Studies using various cancer models, including breast, pancreatic, prostate, and colon, have demonstrated the potency of metformin in attenuating CSCs through the targeting of specific pathways involved in cell differentiation, renewal, metastasis, and metabolism. In this review, we provide a comprehensive overview of the anti-cancer actions and mechanisms of metformin, including the regulation of CSCs and related pathways. We also discuss the potential anti-cancer applications of metformin as mono- or combination therapies."
+  },
+  {
+    "rank": 6,
+    "score": 0.6937588803737522,
+    "search_type": "hybrid",
+    "vector_id": 8388234,
+    "chunk_id": 8388234,
+    "pmid": "31114366",
+    "title": "The beneficial effects of metformin on cancer prevention and therapy: a comprehensive review of recent advances.",
+    "year": 2019,
+    "journal": "Cancer management and research",
+    "authors": [
+      "Pouya Saraei",
+      "Ilia Asadi",
+      "Muhammad Azam Kakar",
+      "Nasroallah Moradi-Kor"
+    ],
+    "mesh_terms": [],
+    "keywords": [
+      {
+        "term": "AMPK pathway",
+        "is_major": false
+      },
+      {
+        "term": "LKB1",
+        "is_major": false
+      },
+      {
+        "term": "mTOR pathway",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "prevention and treatment of cancer",
+        "is_major": false
+      },
+      {
+        "term": "radiation",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Metformin is a widely used drug in today's prescriptions by physicians due to its specific effects in treating and curing type II diabetes. Diabetes is a common disease that may occur throughout human life, and can increase the likelihood of the occurrence of various types of cancer, such as colon, rectum, pancreas and liver cancers, compared to non-diabetic patients. Metformin inhibits mTOR activity by activating ATM (ataxia telangiectasia mutated) and LKB1 (liver kinase B1) and then adenosine monophosphate-activated kinase (AMPK), and thus prevents protein synthesis and cell growth. Metformin can activate p53 by activating AMPK and thereby ultimately stop the cell cycle. Given the potential of metformin in the treatment of cancer, it can be used in radiotherapy, chemotherapy and to improve the response to treatment in androgen derivatives (ADT), and also, according to available evidence, metformin can also be used to prevent various types of cancers. Generally, metformin can: 1) reduce the incidence of cancers, 2) reduce the mortality from cancers, 3) increase the response to treatment in cancer cells when using radiotherapy and chemotherapy, 4) optimize tumor movement and reduce the malignancy, 5) reduce the likelihood of relapse, and 6) reduce the damaging effects of ADT. Therefore, this drug can be used as a complementary therapeutic agent for cancer treatment and prevention. In this review, we have summarized the data from various experimental and clinical studies and highlight the possible potential effects of metformin on cancer therapeutic responses."
+  },
+  {
+    "rank": 7,
+    "score": 0.6757650590071653,
+    "search_type": "hybrid",
+    "vector_id": 5710310,
+    "chunk_id": 5710310,
+    "pmid": "34311387",
+    "title": "Role of metformin and other metabolic drugs in the prevention and therapy of endocrine-related cancers.",
+    "year": 2021,
+    "journal": "Current opinion in pharmacology",
+    "authors": [
+      "Antonio J Le\u00f3n-Gonz\u00e1lez",
+      "Juan M Jim\u00e9nez-Vacas",
+      "Antonio C Fuentes-Fayos",
+      "Andre Sarmento-Cabral",
+      "Aura D Herrera-Mart\u00ednez",
+      "Manuel D Gahete",
+      "Ra\u00fal M Luque"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": false,
+        "ui": "D003924"
+      },
+      {
+        "term": "Endocrine Gland Neoplasms",
+        "is_major": true,
+        "ui": "D004701"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": true,
+        "ui": "D007004"
+      },
+      {
+        "term": "Insulin",
+        "is_major": false,
+        "ui": "D007328"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Tumor Microenvironment",
+        "is_major": false,
+        "ui": "D059016"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Cancer",
+        "is_major": false
+      },
+      {
+        "term": "insulin",
+        "is_major": false
+      },
+      {
+        "term": "metabolic syndrome",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "statins",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Metabolic syndrome is associated with chronic diseases, including type 2 diabetes, cardiovascular diseases, and cancer. This review summarizes the current evidence on the antitumor effects of some relevant drugs currently used to manage metabolic-related pathologies (i.e.\u00a0insulin and its analogs, metformin, statins, etc.) in endocrine-related cancers including breast cancer, prostate cancer, pituitary cancer, ovarian cancer, and neuroendocrine neoplasms. Although current evidence does not provide a clear antitumor role of several of these drugs, metformin seems to be a promising chemopreventive and adjuvant agent in cancer management, modulating tumor cell metabolism and microenvironment, through both AMP-activated protein kinase-dependent and -independent mechanisms. Moreover, its combination with statins might represent a promising therapeutic strategy to tackle the progression of endocrine-related tumors. However, further studies are needed to endorse the clinical relevance of these drugs as adjuvants for cancer chemotherapy."
+  },
+  {
+    "rank": 8,
+    "score": 0.641864905355436,
+    "search_type": "hybrid",
+    "vector_id": 1282831,
+    "chunk_id": 1282831,
+    "pmid": "39595655",
+    "title": "Anti-Diabetic Therapies and Cancer: From Bench to Bedside.",
+    "year": 2024,
+    "journal": "Biomolecules",
+    "authors": [
+      "Dimitris Kounatidis",
+      "Natalia G Vallianou",
+      "Irene Karampela",
+      "Eleni Rebelos",
+      "Marina Kouveletsou",
+      "Vasileios Dalopoulos",
+      "Petros Koufopoulos",
+      "Evanthia Diakoumopoulou",
+      "Nikolaos Tentolouris",
+      "Maria Dalamaga"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Neoplasms",
+        "is_major": true,
+        "ui": "D009369"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": true,
+        "ui": "D007004"
+      },
+      {
+        "term": "Animals",
+        "is_major": false,
+        "ui": "D000818"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Diabetes Mellitus",
+        "is_major": false,
+        "ui": "D003920"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "GLP-1 receptor agonists",
+        "is_major": false
+      },
+      {
+        "term": "SGLT-2 inhibitors",
+        "is_major": false
+      },
+      {
+        "term": "cancer",
+        "is_major": false
+      },
+      {
+        "term": "chronic low-grade inflammation",
+        "is_major": false
+      },
+      {
+        "term": "diabetes mellitus",
+        "is_major": false
+      },
+      {
+        "term": "doxorubicin-induced cardiomyopathy",
+        "is_major": false
+      },
+      {
+        "term": "immune check point inhibitors",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "tirzepatide",
+        "is_major": false
+      },
+      {
+        "term": "tumor microenvironment",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Diabetes mellitus (DM) is a significant risk factor for various cancers, with the impact of anti-diabetic therapies on cancer progression differing across malignancies. Among these therapies, metformin has gained attention for its potential anti-cancer effects, primarily through modulation of the AMP-activated protein kinase/mammalian target of rapamycin (AMPK/mTOR) pathway and the induction of autophagy. Beyond metformin, other conventional anti-diabetic treatments, such as insulin, sulfonylureas (SUs), pioglitazone, and dipeptidyl peptidase-4 (DPP-4) inhibitors, have also been examined for their roles in cancer biology, though findings are often inconclusive. More recently, novel medications, like glucagon-like peptide-1 (GLP-1) receptor agonists, dual GLP-1/glucose-dependent insulinotropic polypeptide (GIP) agonists, and sodium-glucose co-transporter-2 (SGLT-2) inhibitors, have revolutionized DM management by not only improving glycemic control but also delivering substantial cardiovascular and renal benefits. Given their diverse metabolic effects, including anti-obesogenic properties, these novel agents are now under meticulous investigation for their potential influence on tumorigenesis and cancer advancement. This review aims to offer a comprehensive exploration of the evolving landscape of glucose-lowering treatments and their implications in cancer biology. It critically evaluates experimental evidence surrounding the molecular mechanisms by which these medications may modulate oncogenic signaling pathways and reshape the tumor microenvironment (TME). Furthermore, it assesses translational research and clinical trials to gauge the practical relevance of these findings in real-world settings. Finally, it explores the potential of anti-diabetic medications as adjuncts in cancer treatment, particularly in enhancing the efficacy of chemotherapy, minimizing toxicity, and addressing resistance within the framework of immunotherapy."
+  },
+  {
+    "rank": 9,
+    "score": 0.6321845978360136,
+    "search_type": "hybrid",
+    "vector_id": 4921984,
+    "chunk_id": 4921984,
+    "pmid": "35267644",
+    "title": "Metformin Intervention-A Panacea for Cancer Treatment?",
+    "year": 2022,
+    "journal": "Cancers",
+    "authors": [
+      "Angelika Buczy\u0144ska",
+      "Iwona Sidorkiewicz",
+      "Adam Jacek Kr\u0119towski",
+      "Monika Zbucka-Kr\u0119towska",
+      "Agnieszka Adamska"
+    ],
+    "mesh_terms": [],
+    "keywords": [
+      {
+        "term": "anti-cancer",
+        "is_major": false
+      },
+      {
+        "term": "antioxidant",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "The molecular mechanism of action and the individual influence of various metabolic pathways related to metformin intervention are under current investigation. The available data suggest that metformin provides many advantages, exhibiting anti-inflammatory, anti-cancer, hepatoprotective, cardioprotective, otoprotective, radioprotective, and radio-sensitizing properties depending on cellular context. This literature review was undertaken to provide novel evidence concerning metformin intervention, with a particular emphasis on cancer treatment and prevention. Undoubtedly, the pleiotropic actions associated with metformin include inhibiting inflammatory processes, increasing antioxidant capacity, and improving glycemic and lipid metabolism. Consequently, these characteristics make metformin an attractive medicament to translate to human trials, the promising results of which were also summarized in this review."
+  },
+  {
+    "rank": 10,
+    "score": 0.6056847185423982,
+    "search_type": "hybrid",
+    "vector_id": 1490784,
+    "chunk_id": 1490784,
+    "pmid": "39354464",
+    "title": "Non-coding RNAs as potential targets in metformin therapy for cancer.",
+    "year": 2024,
+    "journal": "Cancer cell international",
+    "authors": [
+      "Yihan Zhang",
+      "Yunhao Wu",
+      "Zixu Liu",
+      "Kangping Yang",
+      "Hui Lin",
+      "Kai Xiong"
+    ],
+    "mesh_terms": [],
+    "keywords": [
+      {
+        "term": "Cancer",
+        "is_major": false
+      },
+      {
+        "term": "Circular RNA microRNA",
+        "is_major": false
+      },
+      {
+        "term": "Long non-coding RNA",
+        "is_major": false
+      },
+      {
+        "term": "Metformin",
+        "is_major": false
+      },
+      {
+        "term": "Non-coding RNA",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Metformin, a widely used oral hypoglycemic drug, has emerged as a potential therapeutic agent for cancer treatment. While initially known for its role in managing diabetes, accumulating evidence suggests that metformin exhibits anticancer properties through various mechanisms. Several cellular or animal experiments have attempted to elucidate the role of non-coding RNA molecules, including microRNAs and long non-coding RNAs, in mediating the anticancer effects of metformin. The present review summarized the current understanding of the mechanisms by which non-coding RNAs modulate the response to metformin in cancer cells. The regulatory roles of non-coding RNAs, particularly miRNAs, in key cellular processes such as cell proliferation, cell death, angiogenesis, metabolism and epigenetics, and how metformin affects these processes are discussed. This review also highlights the role of lncRNAs in cancer types such as lung adenocarcinoma, breast cancer, and renal cancer, and points out the need for further exploration of the mechanisms by which metformin regulates lncRNAs. In addition, the present review explores the potential advantages of metformin-based therapies over direct delivery of ncRNAs, and this review highlights the mechanisms of non-coding RNA regulation when metformin is combined with other therapies. Overall, the present review provides insights into the molecular mechanisms underlying the anticancer effects of metformin mediated by non-coding RNAs, offering novel opportunities for the development of personalized treatment strategies in cancer patients."
+  },
+  {
+    "rank": 11,
+    "score": 0.5961364913787108,
+    "search_type": "hybrid",
+    "vector_id": 3142776,
+    "chunk_id": 3142776,
+    "pmid": "37405073",
+    "title": "Efficacy of metformin adjunctive therapy as the treatment for non-diabetic patients with advanced non-small cell lung cancer: A Systematic review and Meta-analysis.",
+    "year": 2023,
+    "journal": "Journal of research in medical sciences : the official journal of Isfahan University of Medical Sciences",
+    "authors": [
+      "Xueyu Duan",
+      "Binbin Liao",
+      "Xiaobo Liu",
+      "Ruixiang Chen"
+    ],
+    "mesh_terms": [],
+    "keywords": [
+      {
+        "term": "Meta-analysis",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "non-small cell lung cancer",
+        "is_major": false
+      },
+      {
+        "term": "systematic review",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Background: Currently, the anticancer effects of metformin on different types of lung cancer have been frequently studied. However, the relationship between metformin and prognosis in nondiabetic patients with lung cancer remains controversial. To systematically evaluate the efficacy of metformin adjunctive therapy as the treatment for nondiabetic patients with advanced non-small cell lung cancer (NSCLC) to provide an evidence-based reference for clinical medication.\n\nMaterials and Methods: The literatures related to Phase II or III randomized controlled trials (RCTs) of metformin adjunctive therapy in nondiabetic patients with advanced NSCLC, including EMBASE, PubMed, the Cochrane Library, and Scopus database, were retrieved by computer, and the search time ranged from January 2017 to August 2022. The risk of bias assessment tool recommended by Cochrane Systematic Evaluator Manual 5.1.0 was used to evaluate the quality of the RCTs included. Rev Man 5.3 software and STATA15.0 were used for meta-analysis.\n\nResults: A total of 8 studies were included (925 patients). Meta-analysis results showed that there were no significant differences in progression-free survival (PFS) (hazard ratio [HR] = 0.95, 95% confidence interval [CI]: 0.66-1.36,\n\nConclusion: Metformin adjunctive therapy can improve the DCR of nondiabetic patients with advanced NSCLC. In addition, the patients cannot obtain a prolonged PFS, OS, 1-year PFS rate, and higher ORR rate."
+  },
+  {
+    "rank": 12,
+    "score": 0.5881194470965168,
+    "search_type": "hybrid",
+    "vector_id": 11537401,
+    "chunk_id": 11537401,
+    "pmid": "27004404",
+    "title": "Repurposing metformin for cancer treatment: current clinical studies.",
+    "year": 2016,
+    "journal": "Oncotarget",
+    "authors": [
+      "Young Kwang Chae",
+      "Ayush Arya",
+      "Mary-Kate Malecek",
+      "Daniel Sanghoon Shin",
+      "Benedito Carneiro",
+      "Sunandana Chandra",
+      "Jason Kaplan",
+      "Aparna Kalyan",
+      "Jessica K Altman",
+      "Leonidas Platanias",
+      "Francis Giles"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Animals",
+        "is_major": false,
+        "ui": "D000818"
+      },
+      {
+        "term": "Antineoplastic Agents",
+        "is_major": false,
+        "ui": "D000970"
+      },
+      {
+        "term": "Breast Neoplasms",
+        "is_major": false,
+        "ui": "D001943"
+      },
+      {
+        "term": "Cell Proliferation",
+        "is_major": false,
+        "ui": "D049109"
+      },
+      {
+        "term": "Clinical Trials as Topic",
+        "is_major": false,
+        "ui": "D002986"
+      },
+      {
+        "term": "Cohort Studies",
+        "is_major": false,
+        "ui": "D015331"
+      },
+      {
+        "term": "Endometrial Neoplasms",
+        "is_major": false,
+        "ui": "D016889"
+      },
+      {
+        "term": "Female",
+        "is_major": false,
+        "ui": "D005260"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Insulin Resistance",
+        "is_major": false,
+        "ui": "D007333"
+      },
+      {
+        "term": "Ki-67 Antigen",
+        "is_major": false,
+        "ui": "D019394"
+      },
+      {
+        "term": "Lung Neoplasms",
+        "is_major": false,
+        "ui": "D008175"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Neoplasms",
+        "is_major": false,
+        "ui": "D009369"
+      },
+      {
+        "term": "Risk",
+        "is_major": false,
+        "ui": "D012306"
+      },
+      {
+        "term": "Treatment Outcome",
+        "is_major": false,
+        "ui": "D016896"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "cancer",
+        "is_major": false
+      },
+      {
+        "term": "clinical trials",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "In recent years, several studies have presented evidence suggesting a potential role for metformin in anti-cancer therapy. Preclinical studies have demonstrated several anticancer molecular mechanisms of metformin including mTOR inhibition, cytotoxic effects, and immunomodulation. Epidemiologic data have demonstrated decreased cancer incidence and mortality in patients taking metformin. Several clinical trials, focused on evaluation of metformin as an anti-cancer agent are presently underway. Data published from a small number of completed trials has put forth intriguing results. Clinical trials in pre-surgical endometrial cancer patients exhibited a significant decrease in Ki67 with metformin monotherapy. Another interesting observation was made in patients with breast cancer, wherein a trend towards improvement in cancer proliferation markers was noted in patients without insulin resistance. Data on survival outcomes with the use of metformin as an anti-cancer agent is awaited. This manuscript will critically review the role of metformin as a potential cancer treatment."
+  },
+  {
+    "rank": 13,
+    "score": 0.5794800959966935,
+    "search_type": "hybrid",
+    "vector_id": 15306431,
+    "chunk_id": 15306431,
+    "pmid": "22203527",
+    "title": "Metformin: multi-faceted protection against cancer.",
+    "year": 2011,
+    "journal": "Oncotarget",
+    "authors": [
+      "Sonia Del Barco",
+      "Alejandro Vazquez-Martin",
+      "S\u00edlvia Cuf\u00ed",
+      "Cristina Oliveras-Ferraros",
+      "Joaquim Bosch-Barrera",
+      "Jorge Joven",
+      "Bego\u00f1a Martin-Castillo",
+      "Javier A Menendez"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Cell Transformation, Neoplastic",
+        "is_major": false,
+        "ui": "D002471"
+      },
+      {
+        "term": "Cellular Senescence",
+        "is_major": false,
+        "ui": "D016922"
+      },
+      {
+        "term": "DNA Damage",
+        "is_major": false,
+        "ui": "D004249"
+      },
+      {
+        "term": "Diabetes Mellitus",
+        "is_major": false,
+        "ui": "D003920"
+      },
+      {
+        "term": "Epithelial-Mesenchymal Transition",
+        "is_major": false,
+        "ui": "D058750"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Insulin Resistance",
+        "is_major": false,
+        "ui": "D007333"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "MicroRNAs",
+        "is_major": false,
+        "ui": "D035683"
+      },
+      {
+        "term": "Neoplasms",
+        "is_major": false,
+        "ui": "D009369"
+      },
+      {
+        "term": "Neoplastic Stem Cells",
+        "is_major": false,
+        "ui": "D014411"
+      },
+      {
+        "term": "Receptor, Insulin",
+        "is_major": false,
+        "ui": "D011972"
+      }
+    ],
+    "keywords": [],
+    "citations": [],
+    "text": "The biguanide metformin, a widely used drug for the treatment of type 2 diabetes, may exert cancer chemopreventive effects by suppressing the transformative and hyperproliferative processes that initiate carcinogenesis. Metformin's molecular targets in cancer cells (e.g., mTOR, HER2) are similar to those currently being used for directed cancer therapy. However, metformin is nontoxic and might be extremely useful for enhancing treatment efficacy of mechanism-based and biologically targeted drugs. Here, we first revisit the epidemiological, preclinical, and clinical evidence from the last 5 years showing that metformin is a promising candidate for oncology therapeutics. Second, the anticancer effects of metformin by both direct (insulin-independent) and indirect (insulin-dependent) mechanisms are discussed in terms of metformin-targeted processes and the ontogenesis of cancer stem cells (CSC), including Epithelial-to-Mesenchymal Transition (EMT) and microRNAs-regulated dedifferentiation of CSCs. Finally, we present preliminary evidence that metformin may regulate cellular senescence, an innate safeguard against cellular immortalization. There are two main lines of evidence that suggest that metformin's primary target is the immortalizing step during tumorigenesis. First, metformin activates intracellular DNA damage response checkpoints. Second, metformin attenuates the anti-senescence effects of the ATP-generating glycolytic metabotype-the Warburg effect-, which is required for self-renewal and proliferation of CSCs. If metformin therapy presents an intrinsic barrier against tumorigenesis by lowering the threshold for stress-induced senescence, metformin therapeutic strategies may be pivotal for therapeutic intervention for cancer. Current and future clinical trials will elucidate whether metformin has the potential to be used in preventive and treatment settings as an adjuvant to current cancer therapeutics."
+  },
+  {
+    "rank": 14,
+    "score": 0.5729738942251337,
+    "search_type": "hybrid",
+    "vector_id": 5914696,
+    "chunk_id": 5914696,
+    "pmid": "34067321",
+    "title": "Molecular and Cellular Mechanisms of Metformin in Cervical Cancer.",
+    "year": 2021,
+    "journal": "Cancers",
+    "authors": [
+      "Ya-Hui Chen",
+      "Po-Hui Wang",
+      "Pei-Ni Chen",
+      "Shun-Fa Yang",
+      "Yi-Hsuan Hsiao"
+    ],
+    "mesh_terms": [],
+    "keywords": [
+      {
+        "term": "cervical cancer",
+        "is_major": false
+      },
+      {
+        "term": "diabetes",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Cervical cancer is one of the major gynecologic malignancies worldwide. Treatment options include chemotherapy, surgical resection, radiotherapy, or a combination of these treatments; however, relapse and recurrence may occur, and the outcome may not be favorable. Metformin is an established, safe, well-tolerated drug used in the treatment of type 2 diabetes; it can be safely combined with other antidiabetic agents. Diabetes, possibly associated with an increased site-specific cancer risk, may relate to the progression or initiation of specific types of cancer. The potential effects of metformin in terms of cancer prevention and therapy have been widely studied, and a number of studies have indicated its potential role in cancer treatment. The most frequently proposed mechanism underlying the diabetes-cancer association is insulin resistance, which leads to secondary hyperinsulinemia; furthermore, insulin may exert mitogenic effects through the insulin-like growth factor 1 (IGF-1) receptor, and hyperglycemia may worsen carcinogenesis through the induction of oxidative stress. Evidence has suggested clinical benefits of metformin in the treatment of gynecologic cancers. Combining current anticancer drugs with metformin may increase their efficacy and diminish adverse drug reactions. Accumulating evidence is indicating that metformin exerts anticancer effects alone or in combination with other agents in cervical cancer in vitro and in vivo. Metformin might thus serve as an adjunct therapeutic agent for cervical cancer. Here, we reviewed the potential anticancer effects of metformin against cervical cancer and discussed possible underlying mechanisms."
+  },
+  {
+    "rank": 15,
+    "score": 0.5721845402594838,
+    "search_type": "hybrid",
+    "vector_id": 1607580,
+    "chunk_id": 1607580,
+    "pmid": "39246697",
+    "title": "Metformin as a Potential ",
+    "year": 2024,
+    "journal": "International journal of breast cancer",
+    "authors": [
+      "A G R Greshamali Jinadasa",
+      "H M Kasuni Akalanka",
+      "N D Amal Wageesha",
+      "Sagarika Ekanayake"
+    ],
+    "mesh_terms": [],
+    "keywords": [],
+    "citations": [],
+    "text": "Metformin (MET) is the commonly prescribed hypoglycemic agent used in the treatment of type 2 diabetes mellitus (DM). Pleiotropic effects of MET are emerging as a medication for other diseases including breast cancer (BC). Therefore, a literature review was conducted to investigate whether the anticancer effects of MET are mediated through adenosine monophosphate kinase (AMPK). This review assessed published data focusing on studies where BC cell lines were treated with MET to explore its potential anticancer effects via AMPK on BC cells. The published data reveals that activated AMPK induces anticancer effects primarily by suppressing cell proliferation, induction of apoptosis, and cell cycle arrest, inhibition of metastasis and invasion, alteration of tumor microenvironment, and downregulation of tumorigenesis. In addition, MET was observed to induce AMPK-mediated effects when combined with other drugs. Further studies on assessing the potential use of MET alone or in combination with other drugs would pave the way to design new treatment strategies for BC."
+  },
+  {
+    "rank": 1,
+    "score": 7.4965972900390625,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 8438576,
+    "chunk_id": 8438576,
+    "pmid": "31053397",
+    "title": "Mind-Body Interventions in the Management of Chronic Cancer Pain.",
+    "year": 2019,
+    "journal": "Seminars in oncology nursing",
+    "authors": [
+      "Linda H Eaton",
+      "Jennifer M Hulett"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Cancer Pain",
+        "is_major": false,
+        "ui": "D000072716"
+      },
+      {
+        "term": "Chronic Disease",
+        "is_major": false,
+        "ui": "D002908"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Mind-Body Therapies",
+        "is_major": true,
+        "ui": "D026441"
+      },
+      {
+        "term": "Pain Management",
+        "is_major": false,
+        "ui": "D059408"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Cancer",
+        "is_major": false
+      },
+      {
+        "term": "Chronic pain",
+        "is_major": false
+      },
+      {
+        "term": "Complementary therapies",
+        "is_major": false
+      },
+      {
+        "term": "Mind-body therapies",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "OBJECTIVES: To describe mind-body interventions used in the management of chronic cancer pain including their mechanisms of action, dosing, and delivery methods based on available evidence to date.\n\nDATA SOURCES: Peer-reviewed publications.\n\nCONCLUSION: Further high-quality research is needed to establish the effectiveness and mechanisms of actions for mind-body interventions in chronic cancer pain management.\n\nIMPLICATIONS FOR NURSING PRACTICE: Mind-body interventions for chronic cancer pain management are generally safe and well-accepted by individuals with cancer. Nurses need to be knowledgeable about these interventions to explain their level of effectiveness and any safety issues with patients."
+  },
+  {
+    "rank": 2,
+    "score": 6.370349884033203,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 11112600,
+    "chunk_id": 11112600,
+    "pmid": "27567928",
+    "title": "Aspirin in pancreatic cancer: chemopreventive effects and therapeutic potentials.",
+    "year": 2016,
+    "journal": "Biochimica et biophysica acta",
+    "authors": [
+      "Ming-Jie Jiang",
+      "Juan-Juan Dai",
+      "Dian-Na Gu",
+      "Qian Huang",
+      "Ling Tian"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Animals",
+        "is_major": false,
+        "ui": "D000818"
+      },
+      {
+        "term": "Anticarcinogenic Agents",
+        "is_major": false,
+        "ui": "D016588"
+      },
+      {
+        "term": "Aspirin",
+        "is_major": false,
+        "ui": "D001241"
+      },
+      {
+        "term": "Cancer Pain",
+        "is_major": false,
+        "ui": "D000072716"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Pancreatic Neoplasms",
+        "is_major": false,
+        "ui": "D010190"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Aspirin",
+        "is_major": false
+      },
+      {
+        "term": "Cancer biology",
+        "is_major": false
+      },
+      {
+        "term": "Cancer chemoprevention",
+        "is_major": false
+      },
+      {
+        "term": "Cancer microenvironment",
+        "is_major": false
+      },
+      {
+        "term": "Cancer therapy",
+        "is_major": false
+      },
+      {
+        "term": "Pancreatic cancer",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Pancreatic cancer is one of the most aggressive malignancies with dismal prognosis. Recently, aspirin has been found to be an effective chemopreventive agent for many solid tumors. However, the function of aspirin use in pancreatic cancer largely remains unknown. We herein argued that aspirin could also lower the risk of pancreatic cancer. Importantly, aspirin assumes pleiotropic effects by targeting multiple molecules. It could further target the unique tumor biology of pancreatic cancer and modify the cancer microenvironment, thus showing remarkable therapeutic potentials. Besides, aspirin could reverse the chemoradiation resistance by repressing tumor repopulation and exert synergistic potentials with metformin on pancreatic cancer chemoprevention. Moreover, aspirin secondarily benefits pancreatic cancer patients through modestly reducing cancer pain and the risk of venous thromboembolism. Furthermore, new aspirin derivatives and delivery systems might help to improve risk-to-benefit ratio. In brief, aspirin is a promising chemopreventive agent and exerts significant therapeutic potentials in pancreatic cancer."
+  },
+  {
+    "rank": 3,
+    "score": 6.360741138458252,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 17734942,
+    "chunk_id": 17734942,
+    "pmid": "18786090",
+    "title": "Insulin resistance: a potential new target for therapy in patients with heart failure.",
+    "year": 2008,
+    "journal": "Cardiovascular therapeutics",
+    "authors": [
+      "Aaron K F Wong",
+      "Matlooba A AlZadjali",
+      "Anna-Maria J Choy",
+      "Chim C Lang"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Chronic Disease",
+        "is_major": false,
+        "ui": "D002908"
+      },
+      {
+        "term": "Heart Failure",
+        "is_major": false,
+        "ui": "D006333"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Insulin Resistance",
+        "is_major": true,
+        "ui": "D007333"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Thiazolidinediones",
+        "is_major": false,
+        "ui": "D045162"
+      }
+    ],
+    "keywords": [],
+    "citations": [],
+    "text": "There is increasing evidence to suggest that chronic heart failure (CHF) is an insulin resistant (IR) state and that the degree of IR correlates with the severity and mortality of CHF. The pathophysiology of IR in CHF has yet to be fully defined. Additionally, it remains to be determined if IR is merely a marker reflecting the severity of CHF or whether it contributes to the disease in CHF. If IR is truly a culprit that worsens CHF, it will potentially be a new target for therapy as strategies that can reverse IR in CHF may potentially result in an improvement in symptoms and even mortality in these patients. However, there are concerns regarding the use of certain insulin sensitizers, most notably, the thiazolidinediones (TZDs) which have been associated with increased risk of hospitalizations for CHF. Despite previous concerns of lactic acidosis (LA), there is now evidence that metformin may not only be safe but could potentially be useful in the setting of CHF. There are now ongoing prospective studies, including the TAYSIDE study, to determine if reversing IR with metformin will have beneficial effects in patients with CHF."
+  },
+  {
+    "rank": 4,
+    "score": 6.360741138458252,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 4875491,
+    "chunk_id": 4875491,
+    "pmid": "35333878",
+    "title": "Recruitment in randomized clinical trials: The MeMeMe experience.",
+    "year": 2022,
+    "journal": "PloS one",
+    "authors": [
+      "Ivan Baldassari",
+      "Andreina Oliverio",
+      "Vittorio Krogh",
+      "Eleonora Bruno",
+      "Giuliana Gargano",
+      "Mauro Cortellini",
+      "Alice Casagrande",
+      "Maria G Di Mauro",
+      "Elisabetta Venturelli",
+      "Daniela Del Sette Cerulli",
+      "Bellegotti Manuela",
+      "Franco Berrino",
+      "Patrizia Pasanisi"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Chronic Disease",
+        "is_major": false,
+        "ui": "D002908"
+      },
+      {
+        "term": "Female",
+        "is_major": false,
+        "ui": "D005260"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Logistic Models",
+        "is_major": false,
+        "ui": "D016015"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Racial Groups",
+        "is_major": false,
+        "ui": "D044469"
+      },
+      {
+        "term": "Research Design",
+        "is_major": false,
+        "ui": "D012107"
+      }
+    ],
+    "keywords": [],
+    "citations": [],
+    "text": "INTRODUCTION: Recruitment is essential for the success of clinical trials. We are conducting a randomized clinical trial to test the effect of a Mediterranean dietary intervention with or without 1700 mg/day of metformin for the prevention of age-related chronic diseases, the MeMeMe trial (Trial registration number: EudraCT number: 2012-005427-32 ClinicalTrials.gov ID: NCT02960711). MeMeMe recruiting experience, highlighting strengths, limitations encountered and results is reported.\n\nPATIENTS AND METHODS: Statistical analysis focused on the reasons for withdrawal according to the recruitment method (\"active\" versus \"passive\" criterion) and the time of withdrawal. Logistic regression models were used to explore the associations between the risk of withdrawal and sex, recruitment method, randomization arm, and with markers of compliance to the intervention, such as one-year change in body weight.\n\nRESULTS: Out of 2035 volunteers, 660 (32.4%) were recruited \"actively\" and 1375 (67.6%) \"passively\". Among people who dropped out of the trial after randomization, there were 19.5% for the \"active\" and 22.0% for the \"passive\" method (p = 0.28). The risk of withdrawal was significantly higher in women (OR:1.91; 95% CI:1.17-3.12; p = 0.01), in volunteers older at recruitment (OR:1.25; 95% CI:1.07-1.45; p = 0.004), and in those with a higher BMI at baseline (OR:1.23; 95% CI:1.07-1.43; p = 0.004). Volunteers who lost at least 2 kg (the median weight change) in the first year of intervention were significantly less (53%) likely to withdraw from the trial (OR:0.48; 95% CI:0.30-0.75; p = 0.001).\n\nCONCLUSION: Our findings suggest that the \"passive\" recruitment method was more effective than the \"active\" one to advance recruitment. The benefits of \"passive\" recruitment hardly outweighed the drawbacks.\n\nTRIAL REGISTRATION: Trial registration number: EudraCT number: 2012-005427-32. ClinicalTrials.gov ID: NCT02960711."
+  },
+  {
+    "rank": 5,
+    "score": 6.320361137390137,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 8643865,
+    "chunk_id": 8643865,
+    "pmid": "30754072",
+    "title": "NF-\u03baB as the mediator of metformin's effect on ageing and ageing-related diseases.",
+    "year": 2019,
+    "journal": "Clinical and experimental pharmacology & physiology",
+    "authors": [
+      "G\u00f6n\u00fcl Kanigur Sultuybek",
+      "Tugba Soydas",
+      "Guven Yenmis"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Aging",
+        "is_major": false,
+        "ui": "D000375"
+      },
+      {
+        "term": "Animals",
+        "is_major": false,
+        "ui": "D000818"
+      },
+      {
+        "term": "Disease",
+        "is_major": false,
+        "ui": "D004194"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Molecular Targeted Therapy",
+        "is_major": true,
+        "ui": "D058990"
+      },
+      {
+        "term": "NF-kappa B",
+        "is_major": false,
+        "ui": "D016328"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "NF-kB",
+        "is_major": false
+      },
+      {
+        "term": "ageing",
+        "is_major": false
+      },
+      {
+        "term": "ageing-related diseases",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "oxidative stress",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Ageing can be defined as the progressive failure of repair and maintenance systems with a consequent accumulation of cellular damage in nucleic acids, proteins, and lipids. These various types of damage promote ageing by driving cellular senescence and apoptosis. The nuclear factor-kappa B (NF-kB) pathway is one of the key mediators of ageing and this pathway is activated by genotoxic, oxidative and inflammatory stress, and regulates expression of cytokines, growth factors, and genes that regulate apoptosis, cell-cycle progression, and inflammation. Therefore, NF-kB is increased in a variety of tissues with ageing, thus the inhibition of NF-kB leads to delayed onset of ageing-related symptoms and pathologies such as diabetes, atherosclerosis, and cancer. Metformin is often used as an anti-diabetic medication in type 2 diabetes throughout the world and appears to be a potential anti-ageing agent. Owing to its antioxidant, anticancer, cardio-protective and anti-inflammatory properties, metformin has become a potential candidate drug, improving in the context of ageing and ageing-related diseases. An inappropriate NF-kB activation is associated with diseases and pathologic conditions which can impair the activity of genes involved in cell senescence, apoptosis, immunity, and inflammation. Metformin, inhibiting the expression of NF-kB gene, eliminates the susceptibility to common diseases. This review underlines the pleiotropic effects of metformin in ageing and different ageing-related diseases and attributes its effects to the modulation of NF-kB."
+  },
+  {
+    "rank": 6,
+    "score": 6.248255729675293,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 4538594,
+    "chunk_id": 4538594,
+    "pmid": "35735150",
+    "title": "[Chronic cancer pain: pathophysiology and ICD-11 classification].",
+    "year": 2022,
+    "journal": "Revue medicale suisse",
+    "authors": [
+      "Cyril Chams",
+      "Ana Borda De Agua Reis",
+      "Chantal Berna",
+      "Marc R Suter"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Cancer Pain",
+        "is_major": true,
+        "ui": "D000072716"
+      },
+      {
+        "term": "Cancer Survivors",
+        "is_major": true,
+        "ui": "D000073116"
+      },
+      {
+        "term": "Chronic Pain",
+        "is_major": true,
+        "ui": "D059350"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "International Classification of Diseases",
+        "is_major": false,
+        "ui": "D038801"
+      },
+      {
+        "term": "Medical Oncology",
+        "is_major": false,
+        "ui": "D008495"
+      },
+      {
+        "term": "Neoplasms",
+        "is_major": true,
+        "ui": "D009369"
+      }
+    ],
+    "keywords": [],
+    "citations": [],
+    "text": "Chronic cancer pain is one of the most common symptoms affecting oncology patients and cancer survivors. Epidemiological trends show that its recognition and management are increasingly important. The ICD-11 provides a better analysis of this problem based on the pathophysiological characteristics of cancer-related pain. This article proposes to review the mechanisms of cancer-related pain in relation to this classification."
+  },
+  {
+    "rank": 7,
+    "score": 6.2408952713012695,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 168856,
+    "chunk_id": 168856,
+    "pmid": "39456024",
+    "title": "Effects of metformin phonophoresis and exercise therapy on pain, range of motion, and physical function in chronic knee osteoarthritis: randomized clinical trial.",
+    "year": 2024,
+    "journal": "Journal of orthopaedic surgery and research",
+    "authors": [
+      "Marwah Salih Abed",
+      "Marihan Zakaria Aziz",
+      "Nabil Mohie AbdelHamid",
+      "Elsadat Saad Soliman"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Osteoarthritis, Knee",
+        "is_major": true,
+        "ui": "D020370"
+      },
+      {
+        "term": "Female",
+        "is_major": false,
+        "ui": "D005260"
+      },
+      {
+        "term": "Male",
+        "is_major": false,
+        "ui": "D008297"
+      },
+      {
+        "term": "Middle Aged",
+        "is_major": false,
+        "ui": "D008875"
+      },
+      {
+        "term": "Phonophoresis",
+        "is_major": true,
+        "ui": "D015612"
+      },
+      {
+        "term": "Range of Motion, Articular",
+        "is_major": true,
+        "ui": "D016059"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Exercise Therapy",
+        "is_major": true,
+        "ui": "D005081"
+      },
+      {
+        "term": "Aged",
+        "is_major": false,
+        "ui": "D000368"
+      },
+      {
+        "term": "Treatment Outcome",
+        "is_major": false,
+        "ui": "D016896"
+      },
+      {
+        "term": "Chronic Disease",
+        "is_major": false,
+        "ui": "D002908"
+      },
+      {
+        "term": "Combined Modality Therapy",
+        "is_major": false,
+        "ui": "D003131"
+      },
+      {
+        "term": "Pain Measurement",
+        "is_major": false,
+        "ui": "D010147"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Exercise",
+        "is_major": false
+      },
+      {
+        "term": "Knee osteoarthritis",
+        "is_major": false
+      },
+      {
+        "term": "Metformin Phonophoresis",
+        "is_major": false
+      },
+      {
+        "term": "Ultrasound",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "BACKGROUND: Knee osteoarthritis (KOA) is a common musculoskeletal disorder. Therapeutic ultrasound (US) is a safe and effective treatment for KOA. It relieves knee pain and enhances function. Metformin (MF) regulates chondrocytes, hence providing chondroprotection. Furthermore, it efficiently reduces knee articular cartilage degeneration and retards the progression of osteoarthritis. However, the localized administration of MF by phonophoresis for KOA has yet to be studied.\n\nPURPOSE: To assess the possible effects of metformin phonophoresis (MFPH) plus exercise therapy (EX) compared to MFPH alone or the US on knee pain, function, and range of motion (ROM) in chronic KOA patients.\n\nMETHODS: Seventy-eight patients with unilateral mild to moderate chronic KOA were included. Patients were randomly assigned to three groups: group A (MFPH\u2009+\u2009EX), group B (MFPH alone), and group C (US). The US group used an acoustic-neutral gel, while the MFPH group used a gel containing 1.2% MF. The exercises included hamstring stretches, calf stretches, and knee strengthening exercises. Treatment in the three groups continued for four weeks (three sessions per week). The Visual Analog Scale (VAS), the Western Ontario and McMaster Universities Osteoarthritis Index (WOMAC), and the goniometer were used to assess knee pain, function disability, and ROM, respectively. All measures were recorded before, 2 weeks, and 4 weeks after the intervention in all groups. Multivariate Analysis of Variance (MNOVA) was performed to compare the effects within and between groups for knee ROM and function disability. The Kruskal-Wallis test and the Friedman test analyzed the pain intensity.\n\nRESULTS: When the baseline patient characteristics were compared, there were no significant differences in means of age, gender, body mass index (BMI), or lower limb dominance across the three groups (p\u2009>\u20090.05). After 4 weeks of intervention, clinical outcomes significantly improved in all three groups (p\u2009<\u20090.05). However, patients in the MFPH\u2009+\u2009EX group improved significantly in all outcomes compared to the MFPH and US groups (p\u2009<\u20090.05).\n\nCONCLUSION: Post-treatment results showed a statistically and clinically significant improvement in pain intensity, knee ROM, and function in the MFPH group; however, combining MFPH with exercises is more beneficial in reducing KOA symptoms.\n\nTRIAL REGISTRATION: Clinical Trial Registry at (pactr.samrc.ac.za) database. NO: PACTR202311507335269. Date: November 9, 2023 (retrospectively registered)."
+  },
+  {
+    "rank": 8,
+    "score": 6.2408952713012695,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 1422072,
+    "chunk_id": 1422072,
+    "pmid": "39456024",
+    "title": "Effects of metformin phonophoresis and exercise therapy on pain, range of motion, and physical function in chronic knee osteoarthritis: randomized clinical trial.",
+    "year": 2024,
+    "journal": "Journal of orthopaedic surgery and research",
+    "authors": [
+      "Marwah Salih Abed",
+      "Marihan Zakaria Aziz",
+      "Nabil Mohie AbdelHamid",
+      "Elsadat Saad Soliman"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Osteoarthritis, Knee",
+        "is_major": true,
+        "ui": "D020370"
+      },
+      {
+        "term": "Female",
+        "is_major": false,
+        "ui": "D005260"
+      },
+      {
+        "term": "Male",
+        "is_major": false,
+        "ui": "D008297"
+      },
+      {
+        "term": "Middle Aged",
+        "is_major": false,
+        "ui": "D008875"
+      },
+      {
+        "term": "Phonophoresis",
+        "is_major": true,
+        "ui": "D015612"
+      },
+      {
+        "term": "Range of Motion, Articular",
+        "is_major": true,
+        "ui": "D016059"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Exercise Therapy",
+        "is_major": true,
+        "ui": "D005081"
+      },
+      {
+        "term": "Aged",
+        "is_major": false,
+        "ui": "D000368"
+      },
+      {
+        "term": "Treatment Outcome",
+        "is_major": false,
+        "ui": "D016896"
+      },
+      {
+        "term": "Chronic Disease",
+        "is_major": false,
+        "ui": "D002908"
+      },
+      {
+        "term": "Combined Modality Therapy",
+        "is_major": false,
+        "ui": "D003131"
+      },
+      {
+        "term": "Pain Measurement",
+        "is_major": false,
+        "ui": "D010147"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Exercise",
+        "is_major": false
+      },
+      {
+        "term": "Knee osteoarthritis",
+        "is_major": false
+      },
+      {
+        "term": "Metformin Phonophoresis",
+        "is_major": false
+      },
+      {
+        "term": "Ultrasound",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "BACKGROUND: Knee osteoarthritis (KOA) is a common musculoskeletal disorder. Therapeutic ultrasound (US) is a safe and effective treatment for KOA. It relieves knee pain and enhances function. Metformin (MF) regulates chondrocytes, hence providing chondroprotection. Furthermore, it efficiently reduces knee articular cartilage degeneration and retards the progression of osteoarthritis. However, the localized administration of MF by phonophoresis for KOA has yet to be studied.\n\nPURPOSE: To assess the possible effects of metformin phonophoresis (MFPH) plus exercise therapy (EX) compared to MFPH alone or the US on knee pain, function, and range of motion (ROM) in chronic KOA patients.\n\nMETHODS: Seventy-eight patients with unilateral mild to moderate chronic KOA were included. Patients were randomly assigned to three groups: group A (MFPH\u2009+\u2009EX), group B (MFPH alone), and group C (US). The US group used an acoustic-neutral gel, while the MFPH group used a gel containing 1.2% MF. The exercises included hamstring stretches, calf stretches, and knee strengthening exercises. Treatment in the three groups continued for four weeks (three sessions per week). The Visual Analog Scale (VAS), the Western Ontario and McMaster Universities Osteoarthritis Index (WOMAC), and the goniometer were used to assess knee pain, function disability, and ROM, respectively. All measures were recorded before, 2 weeks, and 4 weeks after the intervention in all groups. Multivariate Analysis of Variance (MNOVA) was performed to compare the effects within and between groups for knee ROM and function disability. The Kruskal-Wallis test and the Friedman test analyzed the pain intensity.\n\nRESULTS: When the baseline patient characteristics were compared, there were no significant differences in means of age, gender, body mass index (BMI), or lower limb dominance across the three groups (p\u2009>\u20090.05). After 4 weeks of intervention, clinical outcomes significantly improved in all three groups (p\u2009<\u20090.05). However, patients in the MFPH\u2009+\u2009EX group improved significantly in all outcomes compared to the MFPH and US groups (p\u2009<\u20090.05).\n\nCONCLUSION: Post-treatment results showed a statistically and clinically significant improvement in pain intensity, knee ROM, and function in the MFPH group; however, combining MFPH with exercises is more beneficial in reducing KOA symptoms.\n\nTRIAL REGISTRATION: Clinical Trial Registry at (pactr.samrc.ac.za) database. NO: PACTR202311507335269. Date: November 9, 2023 (retrospectively registered)."
+  },
+  {
+    "rank": 9,
+    "score": 6.167946815490723,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 13385469,
+    "chunk_id": 13385469,
+    "pmid": "24709339",
+    "title": "STOP accelerating lung aging for the treatment of COPD.",
+    "year": 2014,
+    "journal": "Experimental gerontology",
+    "authors": [
+      "Kazuhiro Ito",
+      "Nicolas Mercado"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Aging",
+        "is_major": false,
+        "ui": "D000375"
+      },
+      {
+        "term": "Disease Progression",
+        "is_major": false,
+        "ui": "D018450"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Inflammation",
+        "is_major": false,
+        "ui": "D007249"
+      },
+      {
+        "term": "Lung",
+        "is_major": false,
+        "ui": "D008168"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Oxidative Stress",
+        "is_major": false,
+        "ui": "D018384"
+      },
+      {
+        "term": "Pulmonary Disease, Chronic Obstructive",
+        "is_major": false,
+        "ui": "D029424"
+      },
+      {
+        "term": "Sirtuins",
+        "is_major": false,
+        "ui": "D037761"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Aging",
+        "is_major": false
+      },
+      {
+        "term": "Autophagy",
+        "is_major": false
+      },
+      {
+        "term": "COPD",
+        "is_major": false
+      },
+      {
+        "term": "Corticosteroid",
+        "is_major": false
+      },
+      {
+        "term": "Emphysema",
+        "is_major": false
+      },
+      {
+        "term": "Inflammation",
+        "is_major": false
+      },
+      {
+        "term": "Lung",
+        "is_major": false
+      },
+      {
+        "term": "Melatonin",
+        "is_major": false
+      },
+      {
+        "term": "Metformin",
+        "is_major": false
+      },
+      {
+        "term": "Oxidative stress",
+        "is_major": false
+      },
+      {
+        "term": "Sirtuin",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Life expectancy is assumed to rise continuously and consequently global burden of age-associated diseases is expected to increase. All vital organs begin to lose some function during aging with different rates, and the same happens on the lung. Chronic obstructive pulmonary disease (COPD) is a chronic inflammatory disease of the lungs, which progresses very slowly and the majority of patients are therefore elderly. COPD is a major and increasing global health problem with enormous amount of expenditure of indirect/direct health care costs, and therefore, there is urgent need to clarify the molecular mechanism of COPD and develop novel treatments. We here hypothesize that environmental gases, such as cigarette smoke and kitchen pollutants, may accelerate the aging of lung or worsen aging-related events in the lung, leading to defective resolution of inflammation, reduced anti-oxidant capacity and defective disposal of abnormal proteins, and this consequently induces progression of COPD. Recent studies identified some anti-aging small molecules (geroprotectors) that may open up new avenues for the treatment of COPD."
+  },
+  {
+    "rank": 10,
+    "score": 6.166131019592285,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 4398768,
+    "chunk_id": 4398768,
+    "pmid": "35869449",
+    "title": "The promising therapeutic effects of metformin on metabolic reprogramming of cancer-associated fibroblasts in solid tumors.",
+    "year": 2022,
+    "journal": "Cellular & molecular biology letters",
+    "authors": [
+      "Samaneh Mostafavi",
+      "Hamidreza Zalpoor",
+      "Zuhair Mohammad Hassan"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Cancer-Associated Fibroblasts",
+        "is_major": true,
+        "ui": "D000072645"
+      },
+      {
+        "term": "Fibroblasts",
+        "is_major": false,
+        "ui": "D005347"
+      },
+      {
+        "term": "Glycolysis",
+        "is_major": false,
+        "ui": "D006019"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Lactates",
+        "is_major": false,
+        "ui": "D007773"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Neoplasms",
+        "is_major": true,
+        "ui": "D009369"
+      },
+      {
+        "term": "Tumor Microenvironment",
+        "is_major": false,
+        "ui": "D059016"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Cancer-associated fibroblasts",
+        "is_major": false
+      },
+      {
+        "term": "Lactic acid",
+        "is_major": false
+      },
+      {
+        "term": "Metformin",
+        "is_major": false
+      },
+      {
+        "term": "Myofibroblasts",
+        "is_major": false
+      },
+      {
+        "term": "Stromal cells",
+        "is_major": false
+      },
+      {
+        "term": "Tumor microenvironment",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Tumor-infiltrated lymphocytes are exposed to many toxic metabolites and molecules in the tumor microenvironment (TME) that suppress their anti-tumor activity. Toxic metabolites, such as lactate and ketone bodies, are produced mainly by catabolic cancer-associated fibroblasts (CAFs) to feed anabolic cancer cells. These catabolic and anabolic cells make a metabolic compartment through which high-energy metabolites like lactate can be transferred via the monocarboxylate transporter channel 4. Moreover, a decrease in molecules, including caveolin-1, has been reported to cause deep metabolic changes in normal fibroblasts toward myofibroblast differentiation. In this context, metformin is a promising drug in cancer therapy due to its effect on oncogenic signal transduction pathways, leading to the inhibition of tumor proliferation and downregulation of key oncometabolites like lactate and succinate. The cross-feeding and metabolic coupling of CAFs and tumor cells are also affected by metformin. Therefore, the importance of metabolic reprogramming of stromal cells and also the pivotal effects of metformin on TME and oncometabolites signaling pathways have been reviewed in this study."
+  },
+  {
+    "rank": 11,
+    "score": 6.14723014831543,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 3581975,
+    "chunk_id": 3581975,
+    "pmid": "36842758",
+    "title": "Cancer screening in chronic inflammatory rheumatic diseases.",
+    "year": 2023,
+    "journal": "Joint bone spine",
+    "authors": [
+      "Joanna Kedra",
+      "Rapha\u00e8le Seror"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Early Detection of Cancer",
+        "is_major": false,
+        "ui": "D055088"
+      },
+      {
+        "term": "Rheumatic Diseases",
+        "is_major": true,
+        "ui": "D012216"
+      },
+      {
+        "term": "Rheumatology",
+        "is_major": true,
+        "ui": "D012219"
+      },
+      {
+        "term": "Chronic Disease",
+        "is_major": false,
+        "ui": "D002908"
+      },
+      {
+        "term": "Neoplasms",
+        "is_major": true,
+        "ui": "D009369"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Cancer",
+        "is_major": false
+      },
+      {
+        "term": "Rheumatic disease",
+        "is_major": false
+      },
+      {
+        "term": "Screening",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Cancer is a major public health concern, and screening for cancer is a on-going issue in our practice. The risk of cancer in patients with chronic inflammatory rheumatic diseases varies according to their personal medical history, underlying rheumatic disease and its treatment. However, to date, no rheumatology learned society has established specific recommendations for cancer screening in patients with chronic inflammatory rheumatic diseases. In this review, we provide an overview of the risk of cancer in chronic inflammatory rheumatic diseases (related to the disease itself or its treatment), cancer screening in the general population and in immunocompromised subjects, and cancer screening in patients with chronic inflammatory rheumatic diseases."
+  },
+  {
+    "rank": 12,
+    "score": 5.9774909019470215,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 21502405,
+    "chunk_id": 21502405,
+    "pmid": "11714216",
+    "title": "Metformin as a cause of late-onset chronic diarrhea.",
+    "year": 2001,
+    "journal": "Pharmacotherapy",
+    "authors": [
+      "M T Foss",
+      "K D Clement"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Chronic Disease",
+        "is_major": false,
+        "ui": "D002908"
+      },
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": false,
+        "ui": "D003924"
+      },
+      {
+        "term": "Diarrhea",
+        "is_major": false,
+        "ui": "D003967"
+      },
+      {
+        "term": "Female",
+        "is_major": false,
+        "ui": "D005260"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Middle Aged",
+        "is_major": false,
+        "ui": "D008875"
+      }
+    ],
+    "keywords": [],
+    "citations": [],
+    "text": "Metformin is an effective and commonly administered drug for controlling plasma glucose concentrations in patients with type 2 diabetes mellitus. Gastrointestinal adverse effects such as abdominal pain, nausea, dyspepsia, anorexia, and diarrhea are common and widely accepted when occurring at the start of metformin therapy. Diarrhea occurring long after the dosage titration period is much less well recognized. Our patient began to experience nausea, abdominal cramping, and explosive watery diarrhea that occasionally caused incontinence after several years of stable metformin therapy A trial of metformin discontinuation resolved all gastrointestinal symptoms. A review of the literature revealed two reports that suggest diarrhea occurring long after the start of metformin therapy is relatively common, based on surveys of patients with diabetes. Metformin-induced diarrhea is differentiated from diabetic diarrhea, which is clinically similar, except diabetic diarrhea is rare in patients with type 2 diabetes. Patients with type 2 diabetes who are taking metformin and experience diarrhea deserve a drug-free interval before undergoing expensive and uncomfortable diagnostic tests, even when the dosage has been stable over a long period."
+  },
+  {
+    "rank": 13,
+    "score": 5.9774909019470215,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 14462536,
+    "chunk_id": 14462536,
+    "pmid": "23369136",
+    "title": "Diabetes and chronic heart failure: from diabetic cardiomyopathy to therapeutic approach.",
+    "year": 2013,
+    "journal": "Endocrine, metabolic & immune disorders drug targets",
+    "authors": [
+      "A Dei Cas",
+      "V Spigoni",
+      "V Ridolfi",
+      "M Metra"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Chronic Disease",
+        "is_major": false,
+        "ui": "D002908"
+      },
+      {
+        "term": "Diabetes Mellitus",
+        "is_major": true,
+        "ui": "D003920"
+      },
+      {
+        "term": "Diabetic Cardiomyopathies",
+        "is_major": false,
+        "ui": "D058065"
+      },
+      {
+        "term": "Heart Failure",
+        "is_major": false,
+        "ui": "D006333"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Insulin",
+        "is_major": false,
+        "ui": "D007328"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      }
+    ],
+    "keywords": [],
+    "citations": [],
+    "text": "Diabetes and chronic heart failure are interrelated conditions with major medical and economic impact that have to be treated as a distinct entity. Several pathological mechanisms have been investigated and proposed to explain the structural and functional changes associated with diabetic cardiomyopathy. These mechanisms are likely to act synergically and may potentiate one the other. This review outlines recent advances in the pathophysiological mechanisms implicated in the development and progression of diabetic cardiomyopathy and in current therapeutic strategies."
+  },
+  {
+    "rank": 14,
+    "score": 5.9745988845825195,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 5671480,
+    "chunk_id": 5671480,
+    "pmid": "34387256",
+    "title": "Diabetes and pancreatic cancer: recent insights with implications for early diagnosis, treatment and prevention.",
+    "year": 2021,
+    "journal": "Current opinion in gastroenterology",
+    "authors": [
+      "Bechien U Wu"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": true,
+        "ui": "D003924"
+      },
+      {
+        "term": "Early Detection of Cancer",
+        "is_major": false,
+        "ui": "D055088"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Pancreatic Neoplasms",
+        "is_major": true,
+        "ui": "D010190"
+      }
+    ],
+    "keywords": [],
+    "citations": [],
+    "text": "PURPOSE OF REVIEW: Recent insights into the complex relationship between diabetes and pancreatic cancer have the potential to help direct future approaches to early detection, treatment and prevention.\n\nRECENT FINDINGS: Insulin resistance and hyperinsulinemia have been identified as factors that relate to risk of pancreatic cancer among patients with long-standing diabetes. In contrast, weight loss in the setting of new-onset diabetes can help identify patients at an increased risk for harbouring pancreatic-cancer related disturbances in glucose metabolism. Insights into the implications of poor glycaemic control in patients undergoing resection for pancreatic cancer have the potential to improve both surgical and oncologic outcomes. Finally, among antidiabetic medications, metformin continues to be evaluated as a potential adjunctive therapeutic agent, although recent evidence supports the safety of incretins with respect to pancreatic cancer.\n\nSUMMARY: This review highlights recent developments in these areas with an emphasis on opportunities for improved early diagnosis, treatment and prevention in pancreatic cancer."
+  },
+  {
+    "rank": 15,
+    "score": 5.9310078620910645,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 17030735,
+    "chunk_id": 17030735,
+    "pmid": "19801140",
+    "title": "Restorative physical and occupational therapy: a critical need for patients with chronic kidney and end-stage renal disease.",
+    "year": 2009,
+    "journal": "Advances in chronic kidney disease",
+    "authors": [
+      "James Nussbaum",
+      "Ralph K Garcia"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Chronic Disease",
+        "is_major": false,
+        "ui": "D002908"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Kidney Diseases",
+        "is_major": false,
+        "ui": "D007674"
+      },
+      {
+        "term": "Kidney Failure, Chronic",
+        "is_major": false,
+        "ui": "D007676"
+      },
+      {
+        "term": "Occupational Therapy",
+        "is_major": true,
+        "ui": "D009788"
+      },
+      {
+        "term": "Physical Therapy Modalities",
+        "is_major": true,
+        "ui": "D026741"
+      }
+    ],
+    "keywords": [],
+    "citations": [],
+    "text": "Patients with CKD and ESRD present with many health problems, which may lead to increased mortality and dysfunction. Numerous comorbidities may contribute toward physical, emotional, and social problems and a decreased quality of life. Difficulty ambulating, balance deficits, joint pain and stiffness, muscle spasm and weakness, fatigue, neuropathy, and difficulty with activities of daily living (ADLs) may contribute to a decrease in functional independence. Physical therapy (PT) and occupational therapy (OT) aim to restore physical functioning, facilitate independence in ADLs, and promote functional independence by using various therapeutic procedures. PT and OT are the usual services of choice to address impaired function associated with acute and chronic pathology. The purpose of this article is multifold: (1) to describe specific interventions provided by PTs and OTs that may be beneficial to individuals with CKD and ESRD, (2) to identify and describe the potential benefits of rehabilitation for these patient populations, and (3) to provide programmatic rehabilitation recommendations for patients with CKD and ESRD."
+  },
+  {
+    "rank": 1,
+    "score": 6.37532901763916,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 9610569,
+    "chunk_id": 9610569,
+    "pmid": "29524481",
+    "title": "Changes in metformin use and other antihyperglycemic therapies after insulin initiation in patients with type 2 diabetes.",
+    "year": 2018,
+    "journal": "Diabetes research and clinical practice",
+    "authors": [
+      "Scott J Pilla",
+      "James R Dotimas",
+      "Nisa M Maruthur",
+      "Jeanne M Clark",
+      "Hsin-Chieh Yeh"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": false,
+        "ui": "D003924"
+      },
+      {
+        "term": "Female",
+        "is_major": false,
+        "ui": "D005260"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Insulin",
+        "is_major": false,
+        "ui": "D007328"
+      },
+      {
+        "term": "Male",
+        "is_major": false,
+        "ui": "D008297"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Middle Aged",
+        "is_major": false,
+        "ui": "D008875"
+      },
+      {
+        "term": "Retrospective Studies",
+        "is_major": false,
+        "ui": "D012189"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Diabetes mellitus, Type 2",
+        "is_major": false
+      },
+      {
+        "term": "Insulin/therapeutic use",
+        "is_major": false
+      },
+      {
+        "term": "Metformin/therapeutic use",
+        "is_major": false
+      },
+      {
+        "term": "Pharmacoepidemiology",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "AIMS: When patients with type 2 diabetes initiate insulin, metformin should be continued while continuation of other antihyperglycemics has unclear benefit. We aimed to identify practice patterns in antihyperglycemic therapy during the insulin transition, and determine factors associated with metformin continuation.\n\nMETHODS: We performed a retrospective analysis of the Look AHEAD (Action for Health in Diabetes) trial which randomized overweight/obese adults under ambulatory care for type 2 diabetes to an intensive lifestyle intervention or diabetes support and education. Among the 931 participants who initiated insulin over ten years, we described longitudinal changes in antihyperglycemic medications during the insulin transition, and performed multivariable logistic regression to estimate the association between patient characteristics and metformin continuation.\n\nRESULTS: Before insulin initiation, 81.0% of patients used multiple antihyperglycemics, the most common being metformin, sulfonylureas, and thiazolidinediones. After insulin initiation, metformin was continued in 80.3% of patients; other antihyperglycemics were continued less often, yet 58.0% of patients were treated with multiple non-insulin antihyperglycemics. Metformin continuation was inversely associated with age (fully adjusted (a) OR 0.60 per 10\u202fyears [0.42-0.86]), serum creatinine above safety thresholds (aOR 0.09 [0.02-0.36]), lower income (P\u202f=\u202f0.025 for trend), taking more medications (aOR 0.92 per medication [0.86-0.98]), and initiating rapid, short, or premixed insulin (aOR 0.59 [0.39-0.89]).\n\nCONCLUSIONS: The vast majority of patients with type 2 diabetes continue metformin after insulin initiation, consistent with guidelines. Other antihyperglycemics are frequently continued along with insulin, and further research is needed to determine which, if any, patients may benefit from this."
+  },
+  {
+    "rank": 2,
+    "score": 6.122757434844971,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 10898332,
+    "chunk_id": 10898332,
+    "pmid": "27902459",
+    "title": "Anti-tumor activity of metformin: from metabolic and epigenetic perspectives.",
+    "year": 2017,
+    "journal": "Oncotarget",
+    "authors": [
+      "Xilan Yu",
+      "Wuxiang Mao",
+      "Yansheng Zhai",
+      "Chong Tong",
+      "Min Liu",
+      "Lixin Ma",
+      "Xiaolan Yu",
+      "Shanshan Li"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Antineoplastic Agents",
+        "is_major": false,
+        "ui": "D000970"
+      },
+      {
+        "term": "Apoptosis",
+        "is_major": false,
+        "ui": "D017209"
+      },
+      {
+        "term": "Epigenesis, Genetic",
+        "is_major": false,
+        "ui": "D044127"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Neoplasms",
+        "is_major": false,
+        "ui": "D009369"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "epigenetic modifications",
+        "is_major": false
+      },
+      {
+        "term": "metabolism",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "therapeutic targets",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Metformin has been used to treat type 2 diabetes for over 50 years. Epidemiological, preclinical and clinical studies suggest that metformin treatment reduces cancer incidence in diabetes patients. Due to its potential as an anti-cancer agent and its low cost, metformin has gained intense research interest. Its traditional anti-cancer mechanisms involve both indirect and direct insulin-dependent pathways. Here, we discussed the anti-tumor mechanism of metformin from the aspects of cell metabolism and epigenetic modifications. The effects of metformin on anti-cancer immunity and apoptosis were also described. Understanding these mechanisms will shed lights on application of metformin in clinical trials and development of anti-cancer therapy."
+  },
+  {
+    "rank": 3,
+    "score": 5.864181041717529,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 20645702,
+    "chunk_id": 20645702,
+    "pmid": "13059621",
+    "title": "Corticotropin (ACTH) and cortisone; newer concepts of their use in clinical practice.",
+    "year": 1953,
+    "journal": "California medicine",
+    "authors": [
+      "L W KINSELL",
+      "L BOLING",
+      "J W PARTRIDGE",
+      "N FOREMAN"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Adjuvants, Immunologic",
+        "is_major": true,
+        "ui": "D000276"
+      },
+      {
+        "term": "Adjuvants, Pharmaceutic",
+        "is_major": true,
+        "ui": "D000277"
+      },
+      {
+        "term": "Adrenocorticotropic Hormone",
+        "is_major": false,
+        "ui": "D000324"
+      },
+      {
+        "term": "Arthritis, Rheumatoid",
+        "is_major": true,
+        "ui": "D001172"
+      },
+      {
+        "term": "Asthma",
+        "is_major": true,
+        "ui": "D001249"
+      },
+      {
+        "term": "Cortisone",
+        "is_major": false,
+        "ui": "D003348"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Probability",
+        "is_major": true,
+        "ui": "D011336"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "ACTH/therapeutic use",
+        "is_major": true
+      },
+      {
+        "term": "CORTISONE/therapeutic use",
+        "is_major": true
+      }
+    ],
+    "citations": [],
+    "text": "On the basis of three years' experience with corticotropin and cortisone, it seems probable that the place of these hormones in clinical medicine will be one of increasing importance. At present they may be used to attain certain specific objectives:1. To return a large number of chronic invalids to a place of full activity in the community. This applies particularly to patients with rheumatoid arthritis and bronchial asthma. Many years of continuous therapy will be required in the majority of such patients.2. As life-saving agents in patients with certain diseases of unknown etiologic delineation that almost always cause death. In some patients treated for some of those diseases, therapy may eventually be discontinued.3. As life-saving agents (in conjunction with intensive antibiotic therapy) in patients with severe infections inadequately responsive to chemotherapy alone. Many of the untoward effects of hormonal therapy may be minimized or prevented by appropriate adjuvant measures."
+  },
+  {
+    "rank": 4,
+    "score": 5.777824401855469,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 8157500,
+    "chunk_id": 8157500,
+    "pmid": "31385375",
+    "title": "Oxidative phosphorylation inhibition induces anticancerous changes in therapy-resistant-acute myeloid leukemia patient cells.",
+    "year": 2019,
+    "journal": "Molecular carcinogenesis",
+    "authors": [
+      "Aida Vitkevi\u010dien\u0117",
+      "Vytautas Janulis",
+      "Andrius \u017du\u010denka",
+      "Veronika Borutinskait\u0117",
+      "Algirdas Kaupinis",
+      "Mindaugas Valius",
+      "Laimonas Gri\u0161kevi\u010dius",
+      "R\u016bta Navakauskien\u0117"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Apoptosis",
+        "is_major": false,
+        "ui": "D017209"
+      },
+      {
+        "term": "Cell Line, Tumor",
+        "is_major": false,
+        "ui": "D045744"
+      },
+      {
+        "term": "Cell Proliferation",
+        "is_major": false,
+        "ui": "D049109"
+      },
+      {
+        "term": "Drug Resistance, Neoplasm",
+        "is_major": false,
+        "ui": "D019008"
+      },
+      {
+        "term": "Gene Expression Regulation, Neoplastic",
+        "is_major": false,
+        "ui": "D015972"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Leukemia, Myeloid, Acute",
+        "is_major": false,
+        "ui": "D015470"
+      },
+      {
+        "term": "Leukocytes, Mononuclear",
+        "is_major": false,
+        "ui": "D007963"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Neoplasm Proteins",
+        "is_major": false,
+        "ui": "D009363"
+      },
+      {
+        "term": "Oxidative Phosphorylation",
+        "is_major": false,
+        "ui": "D010085"
+      },
+      {
+        "term": "Proteomics",
+        "is_major": true,
+        "ui": "D040901"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "AML",
+        "is_major": false
+      },
+      {
+        "term": "metabolism",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Treatment of acute myeloid leukemia (AML) is still a challenge because of common relapses or resistance to treatment. Therefore, the development of new therapeutic approaches is necessary. Various studies have shown that certain cancers, including some chemoresistant AML subsets, have upregulated oxidative phosphorylation. In this study, we aimed to assess treatment-resistant AML patients' cell modulation using oxidative phosphorylation inhibitors metformin and atovaquone alone and in various combinations with cytosine analog cytarabine and apoptosis inducer venetoclax. Metabolic activity analysis using Agilent Seahorse XF Extracellular Flux Analyzer revealed that peripheral blood mononuclear cells' metabolic state was different among treatment-resistant AML patients. We demonstrated that metformin decreased therapy-resistant-AML cell oxidative phosphorylation ex vivo, cotreatment with cytarabine and venetoclax slightly increased the effect. However, treatment with atovaquone did not have a marked effect in our experiment. Cell treatment had a slight effect on cell proliferation inhibition; combination of metformin, cytarabine, and venetoclax had the strongest effect. Moreover, a slightly higher effect on cell proliferation and cell cycle regulation was demonstrated in the cells with higher initial oxidative phosphorylation rate as demonstrated by gene expression analysis using reverse transcription quantitative polymerase chain reaction (RT-qPCR). Proteomic analysis by liquid chromatography-mass spectrometry demonstrated that chemoresistant AML cell treatment with metformin modulated metabolic pathways, while metformin combination with cytarabine and venetoclax boosted the effect. We suggest that oxidative phosphorylation inhibition is effective but not sufficient for chemoresistant AML treatment. Indeed, it causes anticancerous changes that might have an important additive role in combinatory treatment."
+  },
+  {
+    "rank": 5,
+    "score": 5.777824401855469,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 4090413,
+    "chunk_id": 4090413,
+    "pmid": "36232951",
+    "title": "Metabolic Heterogeneity of Brain Tumor Cells of Proneural and Mesenchymal Origin.",
+    "year": 2022,
+    "journal": "International journal of molecular sciences",
+    "authors": [
+      "Corinna Seliger",
+      "Anne-Louise Meyer",
+      "Verena Leidgens",
+      "Lisa Rauer",
+      "Sylvia Moeckel",
+      "Birgit Jachnik",
+      "Judith Proske",
+      "Katja Dettmer",
+      "Tanja Rothhammer-Hampl",
+      "Leon D Kaulen",
+      "Markus J Riemenschneider",
+      "Peter J Oefner",
+      "Marina Kreutz",
+      "Nils-Ole Schmidt",
+      "Marsha Merrill",
+      "Martin Uhl",
+      "Kathrin Renner",
+      "Arabel Vollmann-Zwerenz",
+      "Martin Proescholdt",
+      "Peter Hau"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Brain",
+        "is_major": false,
+        "ui": "D001921"
+      },
+      {
+        "term": "Brain Neoplasms",
+        "is_major": true,
+        "ui": "D001932"
+      },
+      {
+        "term": "Cell Line, Tumor",
+        "is_major": false,
+        "ui": "D045744"
+      },
+      {
+        "term": "Glioblastoma",
+        "is_major": true,
+        "ui": "D005909"
+      },
+      {
+        "term": "Glucose",
+        "is_major": false,
+        "ui": "D005947"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Neoplastic Stem Cells",
+        "is_major": false,
+        "ui": "D014411"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "glioma",
+        "is_major": false
+      },
+      {
+        "term": "metabolism",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Brain-tumor-initiating cells (BTICs) of proneural and mesenchymal origin contribute to the highly malignant phenotype of glioblastoma (GB) and resistance to current therapies. BTICs of different subtypes were challenged with oxidative phosphorylation (OXPHOS) inhibition with metformin to assess the differential effects of metabolic intervention on key resistance features. Whereas mesenchymal BTICs varied according to their invasiveness, they were in general more glycolytic and less responsive to metformin. Proneural BTICs were less invasive, catabolized glucose more via the pentose phosphate pathway, and responded better to metformin. Targeting glycolysis may be a promising approach to inhibit tumor cells of mesenchymal origin, whereas proneural cells are more responsive to OXPHOS inhibition. Future clinical trials exploring metabolic interventions should account for metabolic heterogeneity of brain tumors."
+  },
+  {
+    "rank": 6,
+    "score": 5.72795295715332,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 20644022,
+    "chunk_id": 20644022,
+    "pmid": "13230926",
+    "title": "Diuretics in therapy of epilepsy; their use for the potentiation of anticonvulsant drugs.",
+    "year": 1955,
+    "journal": "California medicine",
+    "authors": [
+      "N A BERCEL"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Animals",
+        "is_major": false,
+        "ui": "D000818"
+      },
+      {
+        "term": "Anticoagulants",
+        "is_major": false,
+        "ui": "D000925"
+      },
+      {
+        "term": "Anticonvulsants",
+        "is_major": true,
+        "ui": "D000927"
+      },
+      {
+        "term": "Blood-Brain Barrier",
+        "is_major": true,
+        "ui": "D001812"
+      },
+      {
+        "term": "Diuretics",
+        "is_major": false,
+        "ui": "D004232"
+      },
+      {
+        "term": "Epilepsy",
+        "is_major": false,
+        "ui": "D004827"
+      },
+      {
+        "term": "Fats",
+        "is_major": false,
+        "ui": "D005223"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Seizures",
+        "is_major": true,
+        "ui": "D012640"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "ANTICOAGULANTS/therapeutic use",
+        "is_major": true
+      },
+      {
+        "term": "DIURETICS/therapeutic use",
+        "is_major": true
+      },
+      {
+        "term": "EPILEPSY/therapy",
+        "is_major": true
+      },
+      {
+        "term": "FATS/metabolism",
+        "is_major": true
+      }
+    ],
+    "citations": [],
+    "text": "Animal experiments having indicated a nearly twofold increase in anticonvulsant protection with the use of diuretics which increase blood-brain barrier permeability, the principle was applied to treatment of humans with epilepsy. The addition of diuretics to anticonvulsant medication permitted a decrease of previously toxic dosages in ten epileptics, followed for six months, without lessening (and in some cases improving) the control of seizures. In three cases excessive diuresis and gastric distress necessitated discontinuance or decrease in dosage of the diuretic used."
+  },
+  {
+    "rank": 7,
+    "score": 5.552865982055664,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 6697456,
+    "chunk_id": 6697456,
+    "pmid": "33176391",
+    "title": "Time trends in diabetes medication prescription and factors associated with metformin discontinuation in people with newly diagnosed type 2 diabetes: A national population-based study.",
+    "year": 2021,
+    "journal": "Diabetic medicine : a journal of the British Diabetic Association",
+    "authors": [
+      "Anne-Sophie Aguad\u00e9",
+      "Chrystelle Gastaldi-M\u00e9nager",
+      "Pierre Fontaine",
+      "Diane Karsenty",
+      "Anne Fagot-Campagna",
+      "Coralie Amadou"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Age Factors",
+        "is_major": false,
+        "ui": "D000367"
+      },
+      {
+        "term": "Cohort Studies",
+        "is_major": false,
+        "ui": "D015331"
+      },
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": false,
+        "ui": "D003924"
+      },
+      {
+        "term": "Drug Prescriptions",
+        "is_major": false,
+        "ui": "D011307"
+      },
+      {
+        "term": "Female",
+        "is_major": false,
+        "ui": "D005260"
+      },
+      {
+        "term": "France",
+        "is_major": false,
+        "ui": "D005602"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Male",
+        "is_major": false,
+        "ui": "D008297"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Middle Aged",
+        "is_major": false,
+        "ui": "D008875"
+      },
+      {
+        "term": "Polypharmacology",
+        "is_major": false,
+        "ui": "D064798"
+      },
+      {
+        "term": "Sex Factors",
+        "is_major": false,
+        "ui": "D012737"
+      },
+      {
+        "term": "Social Deprivation",
+        "is_major": false,
+        "ui": "D000091489"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Type 2 diabetes",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "therapeutics",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "OBJECTIVE: To describe, based on the French National Health Insurance (NHI) data, time trends in diabetes medications after treatment initiation in two consecutive cohorts of people newly treated for type 2 diabetes (T2D) in 2008 (1st cohort) and 2013 (2nd cohort).\n\nMATERIALS AND METHODS: People, aged 45\u00a0years and older, newly treated for T2D in 2008 and 2013 were identified in the French NHI Data System. Treatment changes were collected for each year of follow-up. Logistic regression was performed to identify factors associated with metformin discontinuation.\n\nRESULTS: Respectively, 157 940 and 160 670 beneficiaries (mean age: 63 and 64\u00a0years; men proportion: 53 and 52%) of the French NHI general scheme initiated a diabetes treatment in 2008 and 2013. Metformin was the first monotherapy and increased in use: 67% of monotherapies in 2008 versus 77% in 2013. Monotherapy percentage decreased from the second year onwards in both cohorts. A marked increase in metformin-DPP4i combination therapy was observed (14% of dual therapies in 2008 vs. 46% in 2015 in the first cohort), replacing the metformin-sulfonylureas combination as a second-line treatment. Metformin discontinuation was statistically associated with female gender, social deprivation, age and anti-diabetic polypharmacy. Discontinuation of diabetes treatment was observed after 5\u00a0years for, respectively, 10% and 13% in the first and second cohorts.\n\nCONCLUSION: Descriptive analysis of two consecutive national cohorts showed an evolution in the prescription patterns of anti-diabetic treatments over a short period. With early treatment intensification, increasing rate of metformin monotherapy, and changes in dual-therapy strategy."
+  },
+  {
+    "rank": 8,
+    "score": 5.469906806945801,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 20644315,
+    "chunk_id": 20644315,
+    "pmid": "13182626",
+    "title": "Acne conglobata; use of cortisone and corticotropin in therapy.",
+    "year": 1954,
+    "journal": "California medicine",
+    "authors": [
+      "E M FARBER",
+      "E R CLAIBORNE"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Acne Vulgaris",
+        "is_major": true,
+        "ui": "D000152"
+      },
+      {
+        "term": "Adrenocorticotropic Hormone",
+        "is_major": false,
+        "ui": "D000324"
+      },
+      {
+        "term": "Anti-Bacterial Agents",
+        "is_major": true,
+        "ui": "D000900"
+      },
+      {
+        "term": "Cortisone",
+        "is_major": false,
+        "ui": "D003348"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Steroids",
+        "is_major": true,
+        "ui": "D013256"
+      },
+      {
+        "term": "X-Ray Therapy",
+        "is_major": true,
+        "ui": "D014964"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "ACNE",
+        "is_major": true
+      },
+      {
+        "term": "ACTH/therapeutic use",
+        "is_major": true
+      },
+      {
+        "term": "CORTISONE/therapeutic use",
+        "is_major": true
+      }
+    ],
+    "citations": [],
+    "text": "Six patients with acne conglobata were treated with cortisone and adrenocorticotropic hormone. Definite immediate improvement was observed in all of them. In three cases control of the disease was maintained on relatively low doses of steroid. In one case there was response to superficial x-ray therapy after the acute phase of the disease had subsided in response to steroids. Resistance to steroid therapy apparently developed in one patient after approximately 18 months of treatment. One patient responded to treatment and then remained well (for two months when last observed) although steroids and all other treatment were discontinued. The combined use of antibiotics and steroids in the patients treated gave the best results."
+  },
+  {
+    "rank": 9,
+    "score": 5.381918907165527,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 20644379,
+    "chunk_id": 20644379,
+    "pmid": "13150198",
+    "title": "Acid detergent douche therapy of leukorrhea.",
+    "year": 1954,
+    "journal": "California medicine",
+    "authors": [
+      "R W DEVOE",
+      "W FOOTER"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Detergents",
+        "is_major": false,
+        "ui": "D003902"
+      },
+      {
+        "term": "Female",
+        "is_major": false,
+        "ui": "D005260"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Leukorrhea",
+        "is_major": true,
+        "ui": "D007973"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "DETERGENTS/therapeutic use",
+        "is_major": true
+      }
+    ],
+    "citations": [],
+    "text": "A harmless acid detergent douche solution based on known physiologic and chemical factors was used in clinical trial on 104 patients having leukorrhea of various causes. When used alone or as an adjunct to other forms of therapy there was a favorable response in 81 per cent of patients with infections who were followed. In non-infectious leukorrhea there was probably no shortening of healing; however, there was effective relief of symptoms in 84 per cent of those who were followed. This acid detergent douche solution may have a wide range of use."
+  },
+  {
+    "rank": 10,
+    "score": 5.381918907165527,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 20643222,
+    "chunk_id": 20643222,
+    "pmid": "13404449",
+    "title": "Suppression of malaria with pyrimethamine in Nigerian schoolchildren.",
+    "year": 1956,
+    "journal": "Bulletin of the World Health Organization",
+    "authors": [
+      "H M ARCHIBALD",
+      "L J BRUCE-CHWATT"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Antimalarials",
+        "is_major": false,
+        "ui": "D000962"
+      },
+      {
+        "term": "Body Weight",
+        "is_major": true,
+        "ui": "D001835"
+      },
+      {
+        "term": "Child",
+        "is_major": false,
+        "ui": "D002648"
+      },
+      {
+        "term": "Drug Combinations",
+        "is_major": true,
+        "ui": "D004338"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Malaria",
+        "is_major": true,
+        "ui": "D008288"
+      },
+      {
+        "term": "Malaria, Falciparum",
+        "is_major": true,
+        "ui": "D016778"
+      },
+      {
+        "term": "Pyrimethamine",
+        "is_major": true,
+        "ui": "D011739"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "ANTIMALARIALS/therapeutic use",
+        "is_major": true
+      }
+    ],
+    "citations": [],
+    "text": "The authors describe a two-year investigation carried out on a group of Nigerian schoolchildren with the object of assessing the effect of suppressing malaria infection with pyrimethamine on the physical development of the African child. The results showed that the average gain in weight of the treated children over the period of the investigation was significantly greater than that of the untreated children. Despite the relatively high weekly dose of the drug no side-effects were observed, and no alarming manifestation of malaria was noted when administration of the drug was discontinued."
+  },
+  {
+    "rank": 11,
+    "score": 5.381918907165527,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 20642240,
+    "chunk_id": 20642240,
+    "pmid": "13638834",
+    "title": "Phenethylbiguanide in diabetic patients; clinical and metabolic effects.",
+    "year": 1959,
+    "journal": "California medicine",
+    "authors": [
+      "T H LAMBERT"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": true,
+        "ui": "D003924"
+      },
+      {
+        "term": "Diet, Diabetic",
+        "is_major": true,
+        "ui": "D003927"
+      },
+      {
+        "term": "Glycated Hemoglobin",
+        "is_major": true,
+        "ui": "D006442"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Insulin",
+        "is_major": true,
+        "ui": "D007328"
+      },
+      {
+        "term": "Male",
+        "is_major": false,
+        "ui": "D008297"
+      },
+      {
+        "term": "Nausea",
+        "is_major": true,
+        "ui": "D009325"
+      },
+      {
+        "term": "Obesity",
+        "is_major": true,
+        "ui": "D009765"
+      },
+      {
+        "term": "Phenformin",
+        "is_major": true,
+        "ui": "D010629"
+      },
+      {
+        "term": "Vomiting",
+        "is_major": true,
+        "ui": "D014839"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "ANTIDIABETICS/therapeutic use",
+        "is_major": true
+      }
+    ],
+    "citations": [],
+    "text": "Phenethylbiguanide (DBI) was given to 70 unselected but not obese diabetic patients who were receiving restricted diabetic diets. The only side effects attributed to the drug were anorexia, nausea, vomiting and diarrhea in 28 patients. These symptoms subsided with reduction of dosage. No evidence of serious toxicity has been demonstrated in clinical and metabolic studies. In 27 of the 70 patients diabetes was controlled adequately with DBI alone, and more stable control was obtained in 11 labile diabetics who received DBI in combination with insulin.The mechanism of action is not definitely known."
+  },
+  {
+    "rank": 12,
+    "score": 5.381918907165527,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 20642498,
+    "chunk_id": 20642498,
+    "pmid": "13563551",
+    "title": "Metachromasy: an experimental and theoretical reevaluation.",
+    "year": 1958,
+    "journal": "The Journal of biophysical and biochemical cytology",
+    "authors": [
+      "J A BERGERON",
+      "M SINGER"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Coloring Agents",
+        "is_major": true,
+        "ui": "D004396"
+      },
+      {
+        "term": "Plants, Medicinal",
+        "is_major": false,
+        "ui": "D010946"
+      },
+      {
+        "term": "Spectrophotometry",
+        "is_major": true,
+        "ui": "D013053"
+      },
+      {
+        "term": "Staining and Labeling",
+        "is_major": true,
+        "ui": "D013194"
+      },
+      {
+        "term": "Tolonium Chloride",
+        "is_major": true,
+        "ui": "D014048"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "SQUILL/therapeutic use",
+        "is_major": true
+      }
+    ],
+    "citations": [],
+    "text": "Non-chromotropic substances such as fibrin and gelatin and most tissue and cellular structures stain orthochromatically with internal dye concentrations of such metachromatic dyes as methylene blue and toluidine blue which, if in solution, would be metachromatic. Therefore, at ordinary levels of staining these substances depress the natural tendency of these dyes to change color. However, at elevated levels of dye-binding metachromasy eventually occurs. This phenomenon is explained on the basis of the distribution of dye-binding sites. In these substrates, by contrast with chromotropic substances, many binding sites are too far removed for dye interaction, consequently the interaction frequency can become high enough to produce a color change only as saturation of the available sites is approached. It is also shown that the destruction of color is a characteristic of metachromasy and that water molecules intercalated between approximated dye ions are responsible for the loss and change of color. A concept of metachromasy is proposed in which the interaction between water molecules and suitably approximated dye ions plays an essential role. The experimental studies are described against a background of the history and evolution of ideas on metachromasy. The literature is reviewed and reassessed particularly from the physicochemical viewpoint."
+  },
+  {
+    "rank": 13,
+    "score": 5.381918907165527,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 20642320,
+    "chunk_id": 20642320,
+    "pmid": "13585163",
+    "title": "Ultrasonic therapy: physiological basis and clinical application.",
+    "year": 1958,
+    "journal": "California medicine",
+    "authors": [
+      "D RUBIN"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Liver",
+        "is_major": true,
+        "ui": "D008099"
+      },
+      {
+        "term": "Ultrasonic Therapy",
+        "is_major": true,
+        "ui": "D014464"
+      },
+      {
+        "term": "Ultrasonics",
+        "is_major": false,
+        "ui": "D014465"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "ULTRASONICS/therapeutic use",
+        "is_major": true
+      }
+    ],
+    "citations": [],
+    "text": "Ultrasound is a relatively new but fairly well accepted physical modality. Therapeutically, ultrasonic energy is employed empirically, but the present trend is to utilize low and medium intensities, 0.5 to 2.0 watts per square centimeter, rather than high intensities, over 2.0 watts per square centimeter, for medical purposes. The important physiological effects of ultrasonic energy on living tissue are thermal, mechanical, chemical and biological. Which one of these effects is dominant is not clearly understood. However, the intensity of the ultrasound field and the duration of application determines the extent to which the thermal or the mechanical effect prevails. From a clinical point of view ultrasonic energy has been most effective in the treatment of painful conditions involving the musculoskeletal and neuromuscular structures. More recently, studies have been directed toward the use of ultrasound as a neurosurgical tool."
+  },
+  {
+    "rank": 14,
+    "score": 5.381918907165527,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 20440257,
+    "chunk_id": 20440257,
+    "pmid": "14925825",
+    "title": "Oxygen therapy.",
+    "year": 1952,
+    "journal": "California medicine",
+    "authors": [
+      "J B DILLON"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Acute Disease",
+        "is_major": true,
+        "ui": "D000208"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Oxygen",
+        "is_major": false,
+        "ui": "D010100"
+      },
+      {
+        "term": "Oxygen Inhalation Therapy",
+        "is_major": true,
+        "ui": "D010102"
+      },
+      {
+        "term": "Shock",
+        "is_major": true,
+        "ui": "D012769"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "OXYGEN/therapeutic use",
+        "is_major": true
+      }
+    ],
+    "citations": [],
+    "text": "Oxygen, properly administered, often is a valuable therapeutic agent in many conditions such as hemorrhage, heart disease, respiratory diseases, anemia, shock, infection with fever and others in which there is direct or indirect interference with normal oxygenation of tissues. In severe heart disease or acute respiratory conditions, administration of oxygen under pressure may be necessary in order to deliver the required amount to the tissues in want. For conditions in which oxygen want is less critical, 50 per cent concentration of the gas in the inspired atmosphere is effective and more easily carried out. Patients with chronic heart disease may be greatly helped by taking oxygen at home under the direction of a physician."
+  },
+  {
+    "rank": 15,
+    "score": 5.2375993728637695,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 8528904,
+    "chunk_id": 8528904,
+    "pmid": "30917505",
+    "title": "Role of SIRT-3, p-mTOR and HIF-1\u03b1 in Hepatocellular Carcinoma Patients Affected by Metabolic Dysfunctions and in Chronic Treatment with Metformin.",
+    "year": 2019,
+    "journal": "International journal of molecular sciences",
+    "authors": [
+      "Serena De Matteis",
+      "Emanuela Scarpi",
+      "Anna Maria Granato",
+      "Umberto Vespasiani-Gentilucci",
+      "Giuliano La Barba",
+      "Francesco Giuseppe Foschi",
+      "Erika Bandini",
+      "Martina Ghetti",
+      "Giorgia Marisi",
+      "Paola Cravero",
+      "Laura Gramantieri",
+      "Alessandro Cucchetti",
+      "Giorgio Ercolani",
+      "Daniele Santini",
+      "Giovanni Luca Frassineti",
+      "Luca Faloppi",
+      "Mario Scartozzi",
+      "Stefano Cascinu",
+      "Andrea Casadei-Gardini"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Adult",
+        "is_major": false,
+        "ui": "D000328"
+      },
+      {
+        "term": "Aged",
+        "is_major": false,
+        "ui": "D000368"
+      },
+      {
+        "term": "Aged, 80 and over",
+        "is_major": false,
+        "ui": "D000369"
+      },
+      {
+        "term": "Carcinoma, Hepatocellular",
+        "is_major": false,
+        "ui": "D006528"
+      },
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": false,
+        "ui": "D003924"
+      },
+      {
+        "term": "Female",
+        "is_major": false,
+        "ui": "D005260"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Hypoxia-Inducible Factor 1, alpha Subunit",
+        "is_major": false,
+        "ui": "D051795"
+      },
+      {
+        "term": "Liver",
+        "is_major": false,
+        "ui": "D008099"
+      },
+      {
+        "term": "Liver Neoplasms",
+        "is_major": false,
+        "ui": "D008113"
+      },
+      {
+        "term": "Male",
+        "is_major": false,
+        "ui": "D008297"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Middle Aged",
+        "is_major": false,
+        "ui": "D008875"
+      },
+      {
+        "term": "Sirtuin 3",
+        "is_major": false,
+        "ui": "D056566"
+      },
+      {
+        "term": "TOR Serine-Threonine Kinases",
+        "is_major": false,
+        "ui": "D058570"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "diabetes",
+        "is_major": false
+      },
+      {
+        "term": "metabolic syndrome",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "non-alcoholic steatohepatitis",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "The incidence of hepatocellular carcinoma deriving from metabolic dysfunctions has increased in the last years. Sirtuin- (SIRT-3), phospho-mammalian target of rapamycin (p-mTOR) and hypoxia-inducible factor- (HIF-1\u03b1) are involved in metabolism and cancer. However, their role in hepatocellular carcinoma (HCC) metabolism, drug resistance and progression remains unclear. This study aimed to better clarify the biological and clinical function of these markers in HCC patients, in relation to the presence of metabolic alterations, metformin therapy and clinical outcome. A total of 70 HCC patients were enrolled: 48 and 22 of whom were in early stage and advanced stage, respectively. The expression levels of the three markers were assessed by immunohistochemistry and summarized using descriptive statistics. SIRT-3 expression was higher in diabetic than non-diabetic patients, and in metformin-treated than insulin-treated patients. Interestingly, p-mTOR was higher in patients with metabolic syndrome than those with different etiology, and, similar to SIRT-3, in metformin-treated than insulin-treated patients. Moreover, our results describe a slight, albeit not significant, benefit of high SIRT-3 and a significant benefit of high nuclear HIF-1\u03b1 expression in early-stage patients, whereas high levels of p-mTOR correlated with worse prognosis in advanced-stage patients. Our study highlighted the involvement of SIRT-3 and p-mTOR in metabolic dysfunctions that occur in HCC patients, and suggested SIRT-3 and HIF-1\u03b1 as predictors of prognosis in early-stage HCC patients, and p-mTOR as target for the treatment of advanced-stage HCC."
+  }
+]

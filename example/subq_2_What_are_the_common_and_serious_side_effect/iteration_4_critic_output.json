@@ -1,0 +1,56 @@
+{
+  "scores": [
+    {
+      "pmid": "22701848",
+      "relevance_score": 7,
+      "justification": "This article specifically addresses sleep disorders as a side effect of metformin, directly related to the research question concerning side effects."
+    },
+    {
+      "pmid": "25937541",
+      "relevance_score": 5,
+      "justification": "Although this article involves metformin, it primarily focuses on gastrointestinal side effects of liraglutide, not metformin, thus only somewhat relevant."
+    },
+    {
+      "pmid": "36450560",
+      "relevance_score": 1,
+      "justification": "This article discusses side effects of COVID-19 vaccines, unrelated to metformin."
+    },
+    {
+      "pmid": "35455237",
+      "relevance_score": 1,
+      "justification": "This article details side effects post-COVID-19 immunization, not related to metformin."
+    },
+    {
+      "pmid": "28616428",
+      "relevance_score": 8,
+      "justification": "This article directly compares gastrointestinal side effects of different formulations of metformin, highly relevant to understanding common side effects."
+    },
+    {
+      "pmid": "28116648",
+      "relevance_score": 4,
+      "justification": "While it reviews metformin's new preparations and non-glycemic benefits, discussion on side effects is limited, making it less relevant."
+    },
+    {
+      "pmid": "28460285",
+      "relevance_score": 1,
+      "justification": "Focuses on negative effects of psychotherapy, not relevant to metformin side effects."
+    },
+    {
+      "pmid": "36237763",
+      "relevance_score": 6,
+      "justification": "Mentions a rare side effect (nightmares) associated with metformin, somewhat relevant but not broadly applicable."
+    },
+    {
+      "pmid": "34075573",
+      "relevance_score": 9,
+      "justification": "Comprehensively reviews side effects associated with different formulations of metformin, providing detailed and relevant information."
+    },
+    {
+      "pmid": "39609919",
+      "relevance_score": 8,
+      "justification": "Develops a predictive model for gastrointestinal side effects of metformin, directly relevant to understanding and managing common side effects."
+    }
+  ],
+  "decision": "CONTINUE",
+  "suggestion": "Refine search to focus on systematic reviews and meta-analyses that overview the common and serious side effects of metformin, particularly those discussing gastrointestinal, neurological, and hypersensitivity reactions."
+}

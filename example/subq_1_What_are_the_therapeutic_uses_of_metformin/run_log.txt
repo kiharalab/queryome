@@ -1,0 +1,94 @@
+[2025-12-07T12:18:15.043395] [PI] Starting subagent team for: 'What are the therapeutic uses of metformin?'
+[2025-12-07T12:18:15.122912] [SUBAGENT] Starting research for subquestion: 'What are the therapeutic uses of metformin?'
+[2025-12-07T12:18:15.126555] [SUBAGENT] Starting iteration 1/5
+[2025-12-07T12:18:15.128363] Saving text to logs/2025-12-07_12-15-47/subq_1_What_are_the_therapeutic_uses_of_metformin/iteration_1_planner_prompt.txt
+[2025-12-07T12:18:15.132958] [SUBAGENT] Planner phase - calling gpt-4o...
+[2025-12-07T12:18:20.242300] [SUBAGENT] Planner responded, executing function calls...
+[2025-12-07T12:18:20.243951] [SUBAGENT] Found 3 tool calls to execute
+[2025-12-07T12:18:20.246516] [SUBAGENT] Executing tool call 1: hybrid_search
+[2025-12-07T12:18:20.248170] [SUBAGENT] Tool arguments: {'query': 'therapeutic uses of metformin', 'alpha': 0.7}
+[2025-12-07T12:18:20.250837] Saving JSON to logs/2025-12-07_12-15-47/subq_1_What_are_the_therapeutic_uses_of_metformin/iteration_1_tool_call_1_hybrid_search.json
+[2025-12-07T12:19:20.461248] [SUBAGENT] Tool hybrid_search executed successfully
+[2025-12-07T12:19:20.463205] Saving JSON to logs/2025-12-07_12-15-47/subq_1_What_are_the_therapeutic_uses_of_metformin/iteration_1_tool_result_1_hybrid_search.json
+[2025-12-07T12:19:20.470861] [SUBAGENT] Executing tool call 2: bm25_mesh_terms_search
+[2025-12-07T12:19:20.473744] [SUBAGENT] Tool arguments: {'query': 'therapeutic use of metformin'}
+[2025-12-07T12:19:20.490359] Saving JSON to logs/2025-12-07_12-15-47/subq_1_What_are_the_therapeutic_uses_of_metformin/iteration_1_tool_call_2_bm25_mesh_terms_search.json
+[2025-12-07T12:19:26.190838] [SUBAGENT] Tool bm25_mesh_terms_search executed successfully
+[2025-12-07T12:19:26.193064] Saving JSON to logs/2025-12-07_12-15-47/subq_1_What_are_the_therapeutic_uses_of_metformin/iteration_1_tool_result_2_bm25_mesh_terms_search.json
+[2025-12-07T12:19:26.208078] [SUBAGENT] Executing tool call 3: bm25_author_keywords_search
+[2025-12-07T12:19:26.210656] [SUBAGENT] Tool arguments: {'query': 'therapeutic uses of metformin'}
+[2025-12-07T12:19:26.212296] Saving JSON to logs/2025-12-07_12-15-47/subq_1_What_are_the_therapeutic_uses_of_metformin/iteration_1_tool_call_3_bm25_author_keywords_search.json
+[2025-12-07T12:19:27.212340] [SUBAGENT] Tool bm25_author_keywords_search executed successfully
+[2025-12-07T12:19:27.214464] Saving JSON to logs/2025-12-07_12-15-47/subq_1_What_are_the_therapeutic_uses_of_metformin/iteration_1_tool_result_3_bm25_author_keywords_search.json
+[2025-12-07T12:19:27.223107] [SUBAGENT] Executed 3 function calls
+[2025-12-07T12:19:27.226748] [SUBAGENT] Found 30 new results. Critic phase - calling gpt-4o...
+[2025-12-07T12:19:27.236061] Saving text to logs/2025-12-07_12-15-47/subq_1_What_are_the_therapeutic_uses_of_metformin/iteration_1_critic_prompt.txt
+[2025-12-07T12:20:13.911200] Saving text to logs/2025-12-07_12-15-47/subq_1_What_are_the_therapeutic_uses_of_metformin/iteration_1_critic_decision.txt
+[2025-12-07T12:20:13.916868] Saving JSON to logs/2025-12-07_12-15-47/subq_1_What_are_the_therapeutic_uses_of_metformin/iteration_1_critic_output.json
+[2025-12-07T12:20:13.922223] [SUBAGENT] Added 7 relevant results (score >= 6). Total relevant results: 7
+[2025-12-07T12:20:13.924027] [SUBAGENT] Critic decision: CONTINUE
+[2025-12-07T12:20:13.926810] [SUBAGENT] Critic says CONTINUE - preparing next iteration
+[2025-12-07T12:20:13.928557] [SUBAGENT] Starting iteration 2/5
+[2025-12-07T12:20:13.931432] Saving text to logs/2025-12-07_12-15-47/subq_1_What_are_the_therapeutic_uses_of_metformin/iteration_2_planner_prompt.txt
+[2025-12-07T12:20:13.956120] [SUBAGENT] Planner phase - calling gpt-4o...
+[2025-12-07T12:20:15.439121] [SUBAGENT] Planner responded, executing function calls...
+[2025-12-07T12:20:15.441700] [SUBAGENT] Found 3 tool calls to execute
+[2025-12-07T12:20:15.443268] [SUBAGENT] Executing tool call 1: hybrid_search
+[2025-12-07T12:20:15.446338] [SUBAGENT] Tool arguments: {'query': 'therapeutic uses of metformin in cardiovascular diseases', 'k': 10, 'alpha': 0.5}
+[2025-12-07T12:20:15.448103] Saving JSON to logs/2025-12-07_12-15-47/subq_1_What_are_the_therapeutic_uses_of_metformin/iteration_2_tool_call_1_hybrid_search.json
+[2025-12-07T12:20:24.315523] [SUBAGENT] Tool hybrid_search executed successfully
+[2025-12-07T12:20:24.317510] Saving JSON to logs/2025-12-07_12-15-47/subq_1_What_are_the_therapeutic_uses_of_metformin/iteration_2_tool_result_1_hybrid_search.json
+[2025-12-07T12:20:24.325543] [SUBAGENT] Executing tool call 2: hybrid_search
+[2025-12-07T12:20:24.327017] [SUBAGENT] Tool arguments: {'query': 'therapeutic uses of metformin in neurodegenerative diseases', 'k': 10, 'alpha': 0.5}
+[2025-12-07T12:20:24.328674] Saving JSON to logs/2025-12-07_12-15-47/subq_1_What_are_the_therapeutic_uses_of_metformin/iteration_2_tool_call_2_hybrid_search.json
+[2025-12-07T12:20:28.351506] [SUBAGENT] Tool hybrid_search executed successfully
+[2025-12-07T12:20:28.353683] Saving JSON to logs/2025-12-07_12-15-47/subq_1_What_are_the_therapeutic_uses_of_metformin/iteration_2_tool_result_2_hybrid_search.json
+[2025-12-07T12:20:28.360842] [SUBAGENT] Executing tool call 3: hybrid_search
+[2025-12-07T12:20:28.362660] [SUBAGENT] Tool arguments: {'query': 'therapeutic uses of metformin in gastrointestinal health', 'k': 10, 'alpha': 0.5}
+[2025-12-07T12:20:28.365295] Saving JSON to logs/2025-12-07_12-15-47/subq_1_What_are_the_therapeutic_uses_of_metformin/iteration_2_tool_call_3_hybrid_search.json
+[2025-12-07T12:20:31.863749] [SUBAGENT] Tool hybrid_search executed successfully
+[2025-12-07T12:20:31.867017] Saving JSON to logs/2025-12-07_12-15-47/subq_1_What_are_the_therapeutic_uses_of_metformin/iteration_2_tool_result_3_hybrid_search.json
+[2025-12-07T12:20:31.872979] [SUBAGENT] Executed 3 function calls
+[2025-12-07T12:20:31.875411] [SUBAGENT] Found 30 new results. Critic phase - calling gpt-4o...
+[2025-12-07T12:20:31.880563] Saving text to logs/2025-12-07_12-15-47/subq_1_What_are_the_therapeutic_uses_of_metformin/iteration_2_critic_prompt.txt
+[2025-12-07T12:20:39.771892] Saving text to logs/2025-12-07_12-15-47/subq_1_What_are_the_therapeutic_uses_of_metformin/iteration_2_critic_decision.txt
+[2025-12-07T12:20:39.776667] Saving JSON to logs/2025-12-07_12-15-47/subq_1_What_are_the_therapeutic_uses_of_metformin/iteration_2_critic_output.json
+[2025-12-07T12:20:39.782327] [SUBAGENT] Added 10 relevant results (score >= 6). Total relevant results: 17
+[2025-12-07T12:20:39.785406] [SUBAGENT] Critic decision: CONTINUE
+[2025-12-07T12:20:39.787232] [SUBAGENT] Critic says CONTINUE - preparing next iteration
+[2025-12-07T12:20:39.788989] [SUBAGENT] Starting iteration 3/5
+[2025-12-07T12:20:39.791431] Saving text to logs/2025-12-07_12-15-47/subq_1_What_are_the_therapeutic_uses_of_metformin/iteration_3_planner_prompt.txt
+[2025-12-07T12:20:39.796652] [SUBAGENT] Planner phase - calling gpt-4o...
+[2025-12-07T12:20:41.411844] [SUBAGENT] Planner responded, executing function calls...
+[2025-12-07T12:20:41.413474] [SUBAGENT] Found 3 tool calls to execute
+[2025-12-07T12:20:41.416541] [SUBAGENT] Executing tool call 1: hybrid_search
+[2025-12-07T12:20:41.418274] [SUBAGENT] Tool arguments: {'query': 'therapeutic uses of metformin in non-metabolic disorders and as adjunct therapy in cancer', 'alpha': 0.7, 'k': 15}
+[2025-12-07T12:20:41.421178] Saving JSON to logs/2025-12-07_12-15-47/subq_1_What_are_the_therapeutic_uses_of_metformin/iteration_3_tool_call_1_hybrid_search.json
+[2025-12-07T12:20:49.021180] [SUBAGENT] Tool hybrid_search executed successfully
+[2025-12-07T12:20:49.023640] Saving JSON to logs/2025-12-07_12-15-47/subq_1_What_are_the_therapeutic_uses_of_metformin/iteration_3_tool_result_1_hybrid_search.json
+[2025-12-07T12:20:49.046167] [SUBAGENT] Executing tool call 2: bm25_mesh_terms_search
+[2025-12-07T12:20:49.048058] [SUBAGENT] Tool arguments: {'query': 'metformin adjunct therapy cancer chronic diseases', 'k': 15}
+[2025-12-07T12:20:49.050989] Saving JSON to logs/2025-12-07_12-15-47/subq_1_What_are_the_therapeutic_uses_of_metformin/iteration_3_tool_call_2_bm25_mesh_terms_search.json
+[2025-12-07T12:20:50.891350] [SUBAGENT] Tool bm25_mesh_terms_search executed successfully
+[2025-12-07T12:20:50.894256] Saving JSON to logs/2025-12-07_12-15-47/subq_1_What_are_the_therapeutic_uses_of_metformin/iteration_3_tool_result_2_bm25_mesh_terms_search.json
+[2025-12-07T12:20:50.910422] [SUBAGENT] Executing tool call 3: bm25_author_keywords_search
+[2025-12-07T12:20:50.912195] [SUBAGENT] Tool arguments: {'query': 'metformin non-metabolic therapeutic uses', 'k': 15}
+[2025-12-07T12:20:50.914061] Saving JSON to logs/2025-12-07_12-15-47/subq_1_What_are_the_therapeutic_uses_of_metformin/iteration_3_tool_call_3_bm25_author_keywords_search.json
+[2025-12-07T12:20:51.643461] [SUBAGENT] Tool bm25_author_keywords_search executed successfully
+[2025-12-07T12:20:51.646270] Saving JSON to logs/2025-12-07_12-15-47/subq_1_What_are_the_therapeutic_uses_of_metformin/iteration_3_tool_result_3_bm25_author_keywords_search.json
+[2025-12-07T12:20:51.661838] [SUBAGENT] Executed 3 function calls
+[2025-12-07T12:20:51.665695] [SUBAGENT] Found 45 new results. Critic phase - calling gpt-4o...
+[2025-12-07T12:20:51.672095] Saving text to logs/2025-12-07_12-15-47/subq_1_What_are_the_therapeutic_uses_of_metformin/iteration_3_critic_prompt.txt
+[2025-12-07T12:20:59.760129] Saving text to logs/2025-12-07_12-15-47/subq_1_What_are_the_therapeutic_uses_of_metformin/iteration_3_critic_decision.txt
+[2025-12-07T12:20:59.766815] Saving JSON to logs/2025-12-07_12-15-47/subq_1_What_are_the_therapeutic_uses_of_metformin/iteration_3_critic_output.json
+[2025-12-07T12:20:59.790580] [SUBAGENT] Added 9 relevant results (score >= 6). Total relevant results: 26
+[2025-12-07T12:20:59.792407] [SUBAGENT] Critic decision: STOP
+[2025-12-07T12:20:59.795591] [SUBAGENT] Critic says STOP - ending research loop
+[2025-12-07T12:20:59.797281] [SUBAGENT] Research loop completed. Total results: 26
+[2025-12-07T12:20:59.799082] Saving JSON to logs/2025-12-07_12-15-47/subq_1_What_are_the_therapeutic_uses_of_metformin/all_collected_articles.json
+[2025-12-07T12:20:59.816954] [SUBAGENT] Generating executive summary with gpt-4o...
+[2025-12-07T12:20:59.820881] Saving text to logs/2025-12-07_12-15-47/subq_1_What_are_the_therapeutic_uses_of_metformin/executive_summary_prompt.txt
+[2025-12-07T12:21:07.781998] [SUBAGENT] Executive summary generated, length: 2453 chars
+[2025-12-07T12:21:07.783607] Saving text to logs/2025-12-07_12-15-47/subq_1_What_are_the_therapeutic_uses_of_metformin/executive_summary.txt
+[2025-12-07T12:21:07.788567] [SUBAGENT] Subquestion research complete for: 'What are the therapeutic uses of metformin?'
+[2025-12-07T12:21:07.791328] [PI] Subagent team completed for: 'What are the therapeutic uses of metformin?' - found 26 articles

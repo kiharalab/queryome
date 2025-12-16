@@ -1,0 +1,656 @@
+{
+  "query": "metformin side effects reviews meta-analyses",
+  "search_type": "bm25_author_keywords",
+  "parameters": {
+    "k": 10
+  },
+  "results_count": 10,
+  "results": [
+    {
+      "rank": 1,
+      "score": 7.470499038696289,
+      "search_type": "bm25_author_keywords",
+      "vector_id": 11386677,
+      "chunk_id": 11386677,
+      "pmid": "27193864",
+      "title": "A Neuropsychologist's Guide To Undertaking a Systematic Review for Publication: Making the most of PRISMA Guidelines.",
+      "year": 2016,
+      "journal": "Neuropsychology review",
+      "authors": [
+        "Nicola J Gates",
+        "Evrim G March"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Meta-Analysis as Topic",
+          "is_major": false,
+          "ui": "D015201"
+        },
+        {
+          "term": "Neuropsychology",
+          "is_major": false,
+          "ui": "D009484"
+        },
+        {
+          "term": "Systematic Reviews as Topic",
+          "is_major": true,
+          "ui": "D000078202"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "Meta-analyses",
+          "is_major": false
+        },
+        {
+          "term": "Systematic review",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "There is increasing impetus to improve the quality of research and scientific writing. Systematic reviews provide Class 1 research evidence, are based upon an established rigor and communicate results in a comprehensive manner, and are therefore particularly relevant to clinicians and researchers. Clinician requirements for quality systematic reviews are twofold: to keep up to date with research and to make informed decisions including those required for diagnoses, disease or risk assessment, and treatment. Researchers rely upon quality systematic reviews to compete for diminishing research funds, prove efficacy for intervention trials, and to meet increasing demand for evidence based intervention. However, insufficient systematic reviews are undertaken, and the methodological rigor and quality are often variable. The aim of this article is to guide researchers through the iterative systematic review process in order to improve quality and thereby increase publication rates. The step by step guide provides a road map through the EQUATOR network and practical suggestions in order to meet the guidelines of the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) (Moher et al. 2009) as well as encouraging high standards through the use of quality rating scales. Lastly, information is provided to encourage quantitative analysis to improve the synthesis of results and qualitative interpretation, such as calculating effect sizes or conducting a meta-analyses as the ultimate goal of a systematic review."
+    },
+    {
+      "rank": 2,
+      "score": 7.2049736976623535,
+      "search_type": "bm25_author_keywords",
+      "vector_id": 2835932,
+      "chunk_id": 2835932,
+      "pmid": "37773165",
+      "title": "Will metformin use lead to a decreased risk of thyroid cancer? A systematic review and meta-analyses.",
+      "year": 2023,
+      "journal": "European journal of medical research",
+      "authors": [
+        "Hailong Li",
+        "Yue Chen",
+        "Lei Hu",
+        "Wenzhi Yang",
+        "Zongshi Gao",
+        "Mengqing Liu",
+        "Hui Tao",
+        "Jie Li"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Metformin",
+          "is_major": true,
+          "ui": "D008687"
+        },
+        {
+          "term": "Risk",
+          "is_major": false,
+          "ui": "D012306"
+        },
+        {
+          "term": "Thyroid Neoplasms",
+          "is_major": true,
+          "ui": "D013964"
+        },
+        {
+          "term": "China",
+          "is_major": false,
+          "ui": "D002681"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "Meta-analyses",
+          "is_major": false
+        },
+        {
+          "term": "Metformin use",
+          "is_major": false
+        },
+        {
+          "term": "Systematic review",
+          "is_major": false
+        },
+        {
+          "term": "Thyroid cancer",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "BACKGROUND: It has been reported that metformin use may reduce the risk of thyroid cancer, but existing studies have generated inconsistent results. The purpose of this study was to investigate such association between metformin use and the risk of thyroid cancer.\n\nMETHODS: Studies of metformin use for the risk of thyroid cancer were searched in Web of Science, PubMed, Embase, Cochrane Library, China National Knowledge Infrastructure, China Biomedical Database, Wanfang Data, and Chinese Scientific Journals Database (VIP) from the establishment date to December 2022. Newcastle-Ottawa scale is adopted for assessing the methodological quality of included studies, and the inter-study heterogeneity was assessed by using the I-squared statistic. Combined odds ratios (ORs) with the corresponding 95% confidence intervals (CIs) were calculated through either fixed-effects or random-effects model according to the heterogeneity. Besides, subgroup analyses, sensitivity analyses and test for publication bias were conducted.\n\nRESULTS: Five studies involving 1,713,528 participants were enrolled in the qualitative and quantitative synthesis. The result of the meta-analyses showed that metformin use was associated with a statistically significant lower risk of thyroid cancer (pooled OR = 0.68, 95% CI = 0.50-0.91, P = 0.011). Moreover, in the subgroup analysis, we found that the use of metformin may also aid in the prevention of thyroid cancer in Eastern population (pooled OR = 0.55, 95% CI = 0.35-0.88, P = 0.012) rather than Western population (pooled OR = 0.89, 95% CI = 0.52-1.54, P = 0.685). Sensitivity analysis suggested the results of this meta-analyses were relatively stable. No publication bias was detected.\n\nCONCLUSION: Metformin use is beneficial for reducing the risk of thyroid cancer. For further investigation, more well-designed studies are still needed to elucidate the association between metformin use and the risk of thyroid cancer."
+    },
+    {
+      "rank": 3,
+      "score": 7.153765678405762,
+      "search_type": "bm25_author_keywords",
+      "vector_id": 14972378,
+      "chunk_id": 14972378,
+      "pmid": "22701848",
+      "title": "Metformin and sleep disorders.",
+      "year": 2012,
+      "journal": "Indian journal of endocrinology and metabolism",
+      "authors": [
+        "Somsri Wiwanitkit",
+        "Viroj Wiwanitkit"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        {
+          "term": "Metformin",
+          "is_major": false
+        },
+        {
+          "term": "side effect",
+          "is_major": false
+        },
+        {
+          "term": "sleep disorders",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Metformin is a widely used anti-diabetic drug. Deterioration of sleep is an important unwanted side effect of metformin. Here, the authors review and present the details on metformin and sleep problem."
+    },
+    {
+      "rank": 4,
+      "score": 6.965612411499023,
+      "search_type": "bm25_author_keywords",
+      "vector_id": 28125592,
+      "chunk_id": 28125592,
+      "pmid": "39952841",
+      "title": "Creating and Publishing Systematic Reviews, Meta-analyses, and Scoping Reviews: A 10-step Guide for Students and Trainees.",
+      "year": 2025,
+      "journal": "Academic radiology",
+      "authors": [
+        "Ishwarya Sivakumar",
+        "Katie Lobner",
+        "Rachel L Walden",
+        "Clifford R Weiss"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Meta-Analysis as Topic",
+          "is_major": true,
+          "ui": "D015201"
+        },
+        {
+          "term": "Systematic Reviews as Topic",
+          "is_major": true,
+          "ui": "D000078202"
+        },
+        {
+          "term": "Publishing",
+          "is_major": true,
+          "ui": "D011643"
+        },
+        {
+          "term": "Review Literature as Topic",
+          "is_major": true,
+          "ui": "D012196"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Scoping Review as Topic",
+          "is_major": false,
+          "ui": "D000098584"
+        },
+        {
+          "term": "Radiology",
+          "is_major": true,
+          "ui": "D011871"
+        },
+        {
+          "term": "Guidelines as Topic",
+          "is_major": true,
+          "ui": "D017408"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "Meta-analyses",
+          "is_major": false
+        },
+        {
+          "term": "Scoping review",
+          "is_major": false
+        },
+        {
+          "term": "Systematic review",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "This article serves as a step-by-step guide for students and trainees who wish to conduct a systematic review, meta-analysis, or scoping review. As the field of evidence synthesis progresses, more students and trainees are attempting to conduct reviews, and it can be unclear how to approach such a project. In 10 organized steps, we describe different types of reviews, explain how to choose the most appropriate one, detail the steps involved in conducting a review, and list resources that are available to support authors of reviews. We describe the steps involved in 1) forming an appropriate research team; 2) developing a compelling research question; 3) writing a review; and 4) reporting the findings with clarity."
+    },
+    {
+      "rank": 5,
+      "score": 6.965612411499023,
+      "search_type": "bm25_author_keywords",
+      "vector_id": 28186388,
+      "chunk_id": 28186388,
+      "pmid": "39952841",
+      "title": "Creating and Publishing Systematic Reviews, Meta-analyses, and Scoping Reviews: A 10-step Guide for Students and Trainees.",
+      "year": 2025,
+      "journal": "Academic radiology",
+      "authors": [
+        "Ishwarya Sivakumar",
+        "Katie Lobner",
+        "Rachel L Walden",
+        "Clifford R Weiss"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Meta-Analysis as Topic",
+          "is_major": true,
+          "ui": "D015201"
+        },
+        {
+          "term": "Systematic Reviews as Topic",
+          "is_major": true,
+          "ui": "D000078202"
+        },
+        {
+          "term": "Publishing",
+          "is_major": true,
+          "ui": "D011643"
+        },
+        {
+          "term": "Review Literature as Topic",
+          "is_major": true,
+          "ui": "D012196"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Scoping Review as Topic",
+          "is_major": false,
+          "ui": "D000098584"
+        },
+        {
+          "term": "Radiology",
+          "is_major": true,
+          "ui": "D011871"
+        },
+        {
+          "term": "Guidelines as Topic",
+          "is_major": true,
+          "ui": "D017408"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "Meta-analyses",
+          "is_major": false
+        },
+        {
+          "term": "Scoping review",
+          "is_major": false
+        },
+        {
+          "term": "Systematic review",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "This article serves as a step-by-step guide for students and trainees who wish to conduct a systematic review, meta-analysis, or scoping review. As the field of evidence synthesis progresses, more students and trainees are attempting to conduct reviews, and it can be unclear how to approach such a project. In 10 organized steps, we describe different types of reviews, explain how to choose the most appropriate one, detail the steps involved in conducting a review, and list resources that are available to support authors of reviews. We describe the steps involved in 1) forming an appropriate research team; 2) developing a compelling research question; 3) writing a review; and 4) reporting the findings with clarity."
+    },
+    {
+      "rank": 6,
+      "score": 6.965612411499023,
+      "search_type": "bm25_author_keywords",
+      "vector_id": 585552,
+      "chunk_id": 585552,
+      "pmid": "39952841",
+      "title": "Creating and Publishing Systematic Reviews, Meta-analyses, and Scoping Reviews: A 10-step Guide for Students and Trainees.",
+      "year": 2025,
+      "journal": "Academic radiology",
+      "authors": [
+        "Ishwarya Sivakumar",
+        "Katie Lobner",
+        "Rachel L Walden",
+        "Clifford R Weiss"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        {
+          "term": "Meta-analyses",
+          "is_major": false
+        },
+        {
+          "term": "Scoping review",
+          "is_major": false
+        },
+        {
+          "term": "Systematic review",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "This article serves as a step-by-step guide for students and trainees who wish to conduct a systematic review, meta-analysis, or scoping review. As the field of evidence synthesis progresses, more students and trainees are attempting to conduct reviews, and it can be unclear how to approach such a project. In 10 organized steps, we describe different types of reviews, explain how to choose the most appropriate one, detail the steps involved in conducting a review, and list resources that are available to support authors of reviews. We describe the steps involved in 1) forming an appropriate research team; 2) developing a compelling research question; 3) writing a review; and 4) reporting the findings with clarity."
+    },
+    {
+      "rank": 7,
+      "score": 6.794027328491211,
+      "search_type": "bm25_author_keywords",
+      "vector_id": 9709199,
+      "chunk_id": 9709199,
+      "pmid": "29397794",
+      "title": "Melatonin and health: an umbrella review of health outcomes and biological mechanisms of action.",
+      "year": 2018,
+      "journal": "BMC medicine",
+      "authors": [
+        "Pawel P Posadzki",
+        "Ram Bajpai",
+        "Bhone Myint Kyaw",
+        "Nicola J Roberts",
+        "Amnon Brzezinski",
+        "George I Christopoulos",
+        "Ushashree Divakar",
+        "Shweta Bajpai",
+        "Michael Soljak",
+        "Gerard Dunleavy",
+        "Krister Jarbrink",
+        "Ei Ei Khaing Nang",
+        "Chee Kiong Soh",
+        "Josip Car"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Anxiety",
+          "is_major": true,
+          "ui": "D001007"
+        },
+        {
+          "term": "Circadian Rhythm",
+          "is_major": true,
+          "ui": "D002940"
+        },
+        {
+          "term": "Melatonin",
+          "is_major": true,
+          "ui": "D008550"
+        },
+        {
+          "term": "Quality of Life",
+          "is_major": true,
+          "ui": "D011788"
+        },
+        {
+          "term": "Systematic Reviews as Topic",
+          "is_major": false,
+          "ui": "D000078202"
+        },
+        {
+          "term": "Meta-Analysis as Topic",
+          "is_major": false,
+          "ui": "D015201"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "Effectiveness",
+          "is_major": false
+        },
+        {
+          "term": "Health",
+          "is_major": false
+        },
+        {
+          "term": "Melatonin",
+          "is_major": false
+        },
+        {
+          "term": "Meta-analyses",
+          "is_major": false
+        },
+        {
+          "term": "Systematic reviews",
+          "is_major": false
+        },
+        {
+          "term": "Umbrella review",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "BACKGROUND: Our aims were to evaluate critically the evidence from systematic reviews as well as narrative reviews of the effects of melatonin (MLT) on health and to identify the potential mechanisms of action involved.\n\nMETHODS: An umbrella review of the evidence across systematic reviews and narrative reviews of endogenous and exogenous (supplementation) MLT was undertaken. The Oxman checklist for assessing the methodological quality of the included systematic reviews was utilised. The following databases were searched: MEDLINE, EMBASE, Web of Science, CENTRAL, PsycINFO and CINAHL. In addition, reference lists were screened. We included reviews of the effects of MLT on any type of health-related outcome measure.\n\nRESULTS: Altogether, 195 reviews met the inclusion criteria. Most were of low methodological quality (mean -4.5, standard deviation 6.7). Of those, 164 did not pool the data and were synthesised narratively (qualitatively) whereas the remaining 31 used meta-analytic techniques and were synthesised quantitatively. Seven meta-analyses were significant with P values less than 0.001 under the random-effects model. These pertained to sleep latency, pre-operative anxiety, prevention of agitation and risk of breast cancer.\n\nCONCLUSIONS: There is an abundance of reviews evaluating the effects of exogenous and endogenous MLT on health. In general, MLT has been shown to be associated with a wide variety of health outcomes in clinically and methodologically heterogeneous populations. Many reviews stressed the need for more high-quality randomised clinical trials to reduce the existing uncertainties."
+    },
+    {
+      "rank": 8,
+      "score": 6.688921928405762,
+      "search_type": "bm25_author_keywords",
+      "vector_id": 8016093,
+      "chunk_id": 8016093,
+      "pmid": "31520403",
+      "title": "Glossary for systematic reviews and meta-analyses.",
+      "year": 2020,
+      "journal": "International endodontic journal",
+      "authors": [
+        "V Nagendrababu",
+        "P Dilokthornsakul",
+        "P Jinatongthai",
+        "S K Veettil",
+        "S J Pulikkotil",
+        "H F Duncan",
+        "P M H Dummer"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Endodontics",
+          "is_major": false,
+          "ui": "D004708"
+        },
+        {
+          "term": "Meta-Analysis as Topic",
+          "is_major": true,
+          "ui": "D015201"
+        },
+        {
+          "term": "Reproducibility of Results",
+          "is_major": false,
+          "ui": "D015203"
+        },
+        {
+          "term": "Systematic Reviews as Topic",
+          "is_major": true,
+          "ui": "D000078202"
+        },
+        {
+          "term": "Terminology as Topic",
+          "is_major": true,
+          "ui": "D009626"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "glossary",
+          "is_major": false
+        },
+        {
+          "term": "meta-analyses",
+          "is_major": false
+        },
+        {
+          "term": "systematic reviews",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "A systematic review aims to answer a focussed research question through a structured review of the evidence, using a predefined methodology, which often includes a meta-analysis. A meta-analysis is a statistical method used to combine the effect estimates from the individual studies included in a systematic review. Systematic reviews and meta-analyses are positioned at the highest level in the hierarchy of clinical evidence. The Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) statement was introduced in 2009 to help authors improve the quality and reliability of systematic reviews and meta-analyses. Recently, the volume of systematic reviews and meta-analyses in the field of Endodontology has increased; however, the quality of the published manuscripts has been reported to be sub-optimal, which does not take account of the systematic reviews that were rejected because of more obvious deficiencies. The aim of this paper is to present a comprehensive glossary of terminology commonly used in systematic reviews and meta-analyses in an attempt to provide easily understood definitions and explanations to assist authors when reporting systematic reviews and meta-analyses and to allow those wishing to read them to become better informed."
+    },
+    {
+      "rank": 9,
+      "score": 6.688921928405762,
+      "search_type": "bm25_author_keywords",
+      "vector_id": 2350683,
+      "chunk_id": 2350683,
+      "pmid": "38351600",
+      "title": "GRADE pearls and pitfalls-Part 1: Systematic reviews and meta-analyses.",
+      "year": 2024,
+      "journal": "Acta anaesthesiologica Scandinavica",
+      "authors": [
+        "Zainab Al Duhailib",
+        "Anders Granholm",
+        "Waleed Alhazzani",
+        "Simon Oczkowski",
+        "Emilie Belley-Cote",
+        "Morten Hylander Møller"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Meta-Analysis as Topic",
+          "is_major": true,
+          "ui": "D015201"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Review Literature as Topic",
+          "is_major": false,
+          "ui": "D012196"
+        },
+        {
+          "term": "Evidence-Based Medicine",
+          "is_major": false,
+          "ui": "D019317"
+        },
+        {
+          "term": "Systematic Reviews as Topic",
+          "is_major": false,
+          "ui": "D000078202"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "GRADE",
+          "is_major": false
+        },
+        {
+          "term": "meta‐analyses",
+          "is_major": false
+        },
+        {
+          "term": "systematic reviews",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "BACKGROUND: The Grading of Recommendation, Assessment, Development and Evaluation (GRADE) approach is used to assess the certainty of evidence in systematic reviews and meta-analyses.\n\nMETHODS: We describe how the GRADE approach is used in systematic reviews and meta-analyses, including key points and examples. This overview is aimed at clinicians and researchers who are, or plan to be, involved in the development or assessment of systematic reviews with meta-analyses using GRADE.\n\nRESULTS: We outline how the certainty of evidence is assessed, how the evidence is summarized using GRADE evidence profiles or summary of findings tables, how the results are communicated, and we discuss challenges, advantages, and disadvantages with using GRADE.\n\nCONCLUSIONS: This overview aims to provide an overview of how GRADE is used in systematic reviews and meta-analyses, and may be used by systematic review developers, methodologists, and evidence end-users."
+    },
+    {
+      "rank": 10,
+      "score": 6.503147125244141,
+      "search_type": "bm25_author_keywords",
+      "vector_id": 5587626,
+      "chunk_id": 5587626,
+      "pmid": "34470914",
+      "title": "Best Practices for Meta-Reviews in Physical Activity and Health Research: Insights From the Physical Activity Guidelines for Americans Advisory Committee Scientific Report.",
+      "year": 2021,
+      "journal": "Journal of physical activity & health",
+      "authors": [
+        "Linda S Pescatello",
+        "Emily A Hennessy",
+        "Peter T Katzmarzyk",
+        "William E Kraus",
+        "Anne F Fish",
+        "Lynette L Craft",
+        "Blair T Johnson"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Advisory Committees",
+          "is_major": false,
+          "ui": "D026683"
+        },
+        {
+          "term": "Bias",
+          "is_major": false,
+          "ui": "D015982"
+        },
+        {
+          "term": "Biomedical Research",
+          "is_major": false,
+          "ui": "D035843"
+        },
+        {
+          "term": "Databases, Factual",
+          "is_major": false,
+          "ui": "D016208"
+        },
+        {
+          "term": "Evidence-Based Practice",
+          "is_major": true,
+          "ui": "D055317"
+        },
+        {
+          "term": "Exercise",
+          "is_major": true,
+          "ui": "D015444"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Meta-Analysis as Topic",
+          "is_major": false,
+          "ui": "D015201"
+        },
+        {
+          "term": "Research Report",
+          "is_major": false,
+          "ui": "D058028"
+        },
+        {
+          "term": "Systematic Reviews as Topic",
+          "is_major": false,
+          "ui": "D000078202"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "exercise",
+          "is_major": false
+        },
+        {
+          "term": "meta-analyses",
+          "is_major": false
+        },
+        {
+          "term": "reviews",
+          "is_major": false
+        },
+        {
+          "term": "systematic reviews",
+          "is_major": false
+        },
+        {
+          "term": "umbrella reviews",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "BACKGROUND: Systematic reviews (SRs) and meta-analyses (MAs) have proliferated with a concomitant increase in reviews of SRs/MAs or \"meta-reviews\" (MRs). As uncovered by the 2018 US Physical Activity Guidelines Advisory Committee (PAGAC), there is a paucity of best practice guidance on MRs on physical activity health-related research. This manuscript aims to fill this gap.\n\nMETHODS: In total, the PAGAC conducted 38 literature searches across 3 electronic databases and triaged 20,838 titles, 4913 abstracts, and 2139 full texts from which 1130 articles qualified for the PAGAC Scientific Report.\n\nRESULTS: During the MR process, the following challenges were encountered: (1) if the SR/MA authors had limited experience in synthesis methodology, they likely did not account for risk of bias in the conclusions they reached; (2) many SRs/MAs reviewed the same primary-level studies; (3) many SRs/MAs failed to disclose effect modifier analyses; (4) source populations varied; (5) physical activity exposures were nonstandardized; and (6) dose-response effects or effect modification of the physical activity exposure could not be identified.\n\nCONCLUSIONS: Using examples from the PAGAC Scientific Report, we provide (1) a high-level introduction to MRs; (2) recommended steps in conducting a MR; (3) challenges that can be encountered; and (4) guidance in addressing these challenges."
+    }
+  ]
+}

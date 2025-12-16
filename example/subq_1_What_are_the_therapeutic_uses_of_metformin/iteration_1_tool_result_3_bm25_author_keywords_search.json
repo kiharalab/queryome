@@ -1,0 +1,673 @@
+{
+  "query": "therapeutic uses of metformin",
+  "search_type": "bm25_author_keywords",
+  "parameters": {
+    "k": 10
+  },
+  "results_count": 10,
+  "results": [
+    {
+      "rank": 1,
+      "score": 6.37532901763916,
+      "search_type": "bm25_author_keywords",
+      "vector_id": 9610569,
+      "chunk_id": 9610569,
+      "pmid": "29524481",
+      "title": "Changes in metformin use and other antihyperglycemic therapies after insulin initiation in patients with type 2 diabetes.",
+      "year": 2018,
+      "journal": "Diabetes research and clinical practice",
+      "authors": [
+        "Scott J Pilla",
+        "James R Dotimas",
+        "Nisa M Maruthur",
+        "Jeanne M Clark",
+        "Hsin-Chieh Yeh"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Diabetes Mellitus, Type 2",
+          "is_major": false,
+          "ui": "D003924"
+        },
+        {
+          "term": "Female",
+          "is_major": false,
+          "ui": "D005260"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Hypoglycemic Agents",
+          "is_major": false,
+          "ui": "D007004"
+        },
+        {
+          "term": "Insulin",
+          "is_major": false,
+          "ui": "D007328"
+        },
+        {
+          "term": "Male",
+          "is_major": false,
+          "ui": "D008297"
+        },
+        {
+          "term": "Metformin",
+          "is_major": false,
+          "ui": "D008687"
+        },
+        {
+          "term": "Middle Aged",
+          "is_major": false,
+          "ui": "D008875"
+        },
+        {
+          "term": "Retrospective Studies",
+          "is_major": false,
+          "ui": "D012189"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "Diabetes mellitus, Type 2",
+          "is_major": false
+        },
+        {
+          "term": "Insulin/therapeutic use",
+          "is_major": false
+        },
+        {
+          "term": "Metformin/therapeutic use",
+          "is_major": false
+        },
+        {
+          "term": "Pharmacoepidemiology",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "AIMS: When patients with type 2 diabetes initiate insulin, metformin should be continued while continuation of other antihyperglycemics has unclear benefit. We aimed to identify practice patterns in antihyperglycemic therapy during the insulin transition, and determine factors associated with metformin continuation.\n\nMETHODS: We performed a retrospective analysis of the Look AHEAD (Action for Health in Diabetes) trial which randomized overweight/obese adults under ambulatory care for type 2 diabetes to an intensive lifestyle intervention or diabetes support and education. Among the 931 participants who initiated insulin over ten years, we described longitudinal changes in antihyperglycemic medications during the insulin transition, and performed multivariable logistic regression to estimate the association between patient characteristics and metformin continuation.\n\nRESULTS: Before insulin initiation, 81.0% of patients used multiple antihyperglycemics, the most common being metformin, sulfonylureas, and thiazolidinediones. After insulin initiation, metformin was continued in 80.3% of patients; other antihyperglycemics were continued less often, yet 58.0% of patients were treated with multiple non-insulin antihyperglycemics. Metformin continuation was inversely associated with age (fully adjusted (a) OR 0.60 per 10 years [0.42-0.86]), serum creatinine above safety thresholds (aOR 0.09 [0.02-0.36]), lower income (P = 0.025 for trend), taking more medications (aOR 0.92 per medication [0.86-0.98]), and initiating rapid, short, or premixed insulin (aOR 0.59 [0.39-0.89]).\n\nCONCLUSIONS: The vast majority of patients with type 2 diabetes continue metformin after insulin initiation, consistent with guidelines. Other antihyperglycemics are frequently continued along with insulin, and further research is needed to determine which, if any, patients may benefit from this."
+    },
+    {
+      "rank": 2,
+      "score": 5.864181041717529,
+      "search_type": "bm25_author_keywords",
+      "vector_id": 20645702,
+      "chunk_id": 20645702,
+      "pmid": "13059621",
+      "title": "Corticotropin (ACTH) and cortisone; newer concepts of their use in clinical practice.",
+      "year": 1953,
+      "journal": "California medicine",
+      "authors": [
+        "L W KINSELL",
+        "L BOLING",
+        "J W PARTRIDGE",
+        "N FOREMAN"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Adjuvants, Immunologic",
+          "is_major": true,
+          "ui": "D000276"
+        },
+        {
+          "term": "Adjuvants, Pharmaceutic",
+          "is_major": true,
+          "ui": "D000277"
+        },
+        {
+          "term": "Adrenocorticotropic Hormone",
+          "is_major": false,
+          "ui": "D000324"
+        },
+        {
+          "term": "Arthritis, Rheumatoid",
+          "is_major": true,
+          "ui": "D001172"
+        },
+        {
+          "term": "Asthma",
+          "is_major": true,
+          "ui": "D001249"
+        },
+        {
+          "term": "Cortisone",
+          "is_major": false,
+          "ui": "D003348"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Probability",
+          "is_major": true,
+          "ui": "D011336"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "ACTH/therapeutic use",
+          "is_major": true
+        },
+        {
+          "term": "CORTISONE/therapeutic use",
+          "is_major": true
+        }
+      ],
+      "citations": [],
+      "text": "On the basis of three years' experience with corticotropin and cortisone, it seems probable that the place of these hormones in clinical medicine will be one of increasing importance. At present they may be used to attain certain specific objectives:1. To return a large number of chronic invalids to a place of full activity in the community. This applies particularly to patients with rheumatoid arthritis and bronchial asthma. Many years of continuous therapy will be required in the majority of such patients.2. As life-saving agents in patients with certain diseases of unknown etiologic delineation that almost always cause death. In some patients treated for some of those diseases, therapy may eventually be discontinued.3. As life-saving agents (in conjunction with intensive antibiotic therapy) in patients with severe infections inadequately responsive to chemotherapy alone. Many of the untoward effects of hormonal therapy may be minimized or prevented by appropriate adjuvant measures."
+    },
+    {
+      "rank": 3,
+      "score": 5.552865982055664,
+      "search_type": "bm25_author_keywords",
+      "vector_id": 6697456,
+      "chunk_id": 6697456,
+      "pmid": "33176391",
+      "title": "Time trends in diabetes medication prescription and factors associated with metformin discontinuation in people with newly diagnosed type 2 diabetes: A national population-based study.",
+      "year": 2021,
+      "journal": "Diabetic medicine : a journal of the British Diabetic Association",
+      "authors": [
+        "Anne-Sophie Aguadé",
+        "Chrystelle Gastaldi-Ménager",
+        "Pierre Fontaine",
+        "Diane Karsenty",
+        "Anne Fagot-Campagna",
+        "Coralie Amadou"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Age Factors",
+          "is_major": false,
+          "ui": "D000367"
+        },
+        {
+          "term": "Cohort Studies",
+          "is_major": false,
+          "ui": "D015331"
+        },
+        {
+          "term": "Diabetes Mellitus, Type 2",
+          "is_major": false,
+          "ui": "D003924"
+        },
+        {
+          "term": "Drug Prescriptions",
+          "is_major": false,
+          "ui": "D011307"
+        },
+        {
+          "term": "Female",
+          "is_major": false,
+          "ui": "D005260"
+        },
+        {
+          "term": "France",
+          "is_major": false,
+          "ui": "D005602"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Hypoglycemic Agents",
+          "is_major": false,
+          "ui": "D007004"
+        },
+        {
+          "term": "Male",
+          "is_major": false,
+          "ui": "D008297"
+        },
+        {
+          "term": "Metformin",
+          "is_major": false,
+          "ui": "D008687"
+        },
+        {
+          "term": "Middle Aged",
+          "is_major": false,
+          "ui": "D008875"
+        },
+        {
+          "term": "Polypharmacology",
+          "is_major": false,
+          "ui": "D064798"
+        },
+        {
+          "term": "Sex Factors",
+          "is_major": false,
+          "ui": "D012737"
+        },
+        {
+          "term": "Social Deprivation",
+          "is_major": false,
+          "ui": "D000091489"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "Type 2 diabetes",
+          "is_major": false
+        },
+        {
+          "term": "metformin",
+          "is_major": false
+        },
+        {
+          "term": "therapeutics",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "OBJECTIVE: To describe, based on the French National Health Insurance (NHI) data, time trends in diabetes medications after treatment initiation in two consecutive cohorts of people newly treated for type 2 diabetes (T2D) in 2008 (1st cohort) and 2013 (2nd cohort).\n\nMATERIALS AND METHODS: People, aged 45 years and older, newly treated for T2D in 2008 and 2013 were identified in the French NHI Data System. Treatment changes were collected for each year of follow-up. Logistic regression was performed to identify factors associated with metformin discontinuation.\n\nRESULTS: Respectively, 157 940 and 160 670 beneficiaries (mean age: 63 and 64 years; men proportion: 53 and 52%) of the French NHI general scheme initiated a diabetes treatment in 2008 and 2013. Metformin was the first monotherapy and increased in use: 67% of monotherapies in 2008 versus 77% in 2013. Monotherapy percentage decreased from the second year onwards in both cohorts. A marked increase in metformin-DPP4i combination therapy was observed (14% of dual therapies in 2008 vs. 46% in 2015 in the first cohort), replacing the metformin-sulfonylureas combination as a second-line treatment. Metformin discontinuation was statistically associated with female gender, social deprivation, age and anti-diabetic polypharmacy. Discontinuation of diabetes treatment was observed after 5 years for, respectively, 10% and 13% in the first and second cohorts.\n\nCONCLUSION: Descriptive analysis of two consecutive national cohorts showed an evolution in the prescription patterns of anti-diabetic treatments over a short period. With early treatment intensification, increasing rate of metformin monotherapy, and changes in dual-therapy strategy."
+    },
+    {
+      "rank": 4,
+      "score": 5.469906806945801,
+      "search_type": "bm25_author_keywords",
+      "vector_id": 20644315,
+      "chunk_id": 20644315,
+      "pmid": "13182626",
+      "title": "Acne conglobata; use of cortisone and corticotropin in therapy.",
+      "year": 1954,
+      "journal": "California medicine",
+      "authors": [
+        "E M FARBER",
+        "E R CLAIBORNE"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Acne Vulgaris",
+          "is_major": true,
+          "ui": "D000152"
+        },
+        {
+          "term": "Adrenocorticotropic Hormone",
+          "is_major": false,
+          "ui": "D000324"
+        },
+        {
+          "term": "Anti-Bacterial Agents",
+          "is_major": true,
+          "ui": "D000900"
+        },
+        {
+          "term": "Cortisone",
+          "is_major": false,
+          "ui": "D003348"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Steroids",
+          "is_major": true,
+          "ui": "D013256"
+        },
+        {
+          "term": "X-Ray Therapy",
+          "is_major": true,
+          "ui": "D014964"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "ACNE",
+          "is_major": true
+        },
+        {
+          "term": "ACTH/therapeutic use",
+          "is_major": true
+        },
+        {
+          "term": "CORTISONE/therapeutic use",
+          "is_major": true
+        }
+      ],
+      "citations": [],
+      "text": "Six patients with acne conglobata were treated with cortisone and adrenocorticotropic hormone. Definite immediate improvement was observed in all of them. In three cases control of the disease was maintained on relatively low doses of steroid. In one case there was response to superficial x-ray therapy after the acute phase of the disease had subsided in response to steroids. Resistance to steroid therapy apparently developed in one patient after approximately 18 months of treatment. One patient responded to treatment and then remained well (for two months when last observed) although steroids and all other treatment were discontinued. The combined use of antibiotics and steroids in the patients treated gave the best results."
+    },
+    {
+      "rank": 5,
+      "score": 5.381918907165527,
+      "search_type": "bm25_author_keywords",
+      "vector_id": 20642320,
+      "chunk_id": 20642320,
+      "pmid": "13585163",
+      "title": "Ultrasonic therapy: physiological basis and clinical application.",
+      "year": 1958,
+      "journal": "California medicine",
+      "authors": [
+        "D RUBIN"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Liver",
+          "is_major": true,
+          "ui": "D008099"
+        },
+        {
+          "term": "Ultrasonic Therapy",
+          "is_major": true,
+          "ui": "D014464"
+        },
+        {
+          "term": "Ultrasonics",
+          "is_major": false,
+          "ui": "D014465"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "ULTRASONICS/therapeutic use",
+          "is_major": true
+        }
+      ],
+      "citations": [],
+      "text": "Ultrasound is a relatively new but fairly well accepted physical modality. Therapeutically, ultrasonic energy is employed empirically, but the present trend is to utilize low and medium intensities, 0.5 to 2.0 watts per square centimeter, rather than high intensities, over 2.0 watts per square centimeter, for medical purposes. The important physiological effects of ultrasonic energy on living tissue are thermal, mechanical, chemical and biological. Which one of these effects is dominant is not clearly understood. However, the intensity of the ultrasound field and the duration of application determines the extent to which the thermal or the mechanical effect prevails. From a clinical point of view ultrasonic energy has been most effective in the treatment of painful conditions involving the musculoskeletal and neuromuscular structures. More recently, studies have been directed toward the use of ultrasound as a neurosurgical tool."
+    },
+    {
+      "rank": 6,
+      "score": 5.381918907165527,
+      "search_type": "bm25_author_keywords",
+      "vector_id": 20644379,
+      "chunk_id": 20644379,
+      "pmid": "13150198",
+      "title": "Acid detergent douche therapy of leukorrhea.",
+      "year": 1954,
+      "journal": "California medicine",
+      "authors": [
+        "R W DEVOE",
+        "W FOOTER"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Detergents",
+          "is_major": false,
+          "ui": "D003902"
+        },
+        {
+          "term": "Female",
+          "is_major": false,
+          "ui": "D005260"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Leukorrhea",
+          "is_major": true,
+          "ui": "D007973"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "DETERGENTS/therapeutic use",
+          "is_major": true
+        }
+      ],
+      "citations": [],
+      "text": "A harmless acid detergent douche solution based on known physiologic and chemical factors was used in clinical trial on 104 patients having leukorrhea of various causes. When used alone or as an adjunct to other forms of therapy there was a favorable response in 81 per cent of patients with infections who were followed. In non-infectious leukorrhea there was probably no shortening of healing; however, there was effective relief of symptoms in 84 per cent of those who were followed. This acid detergent douche solution may have a wide range of use."
+    },
+    {
+      "rank": 7,
+      "score": 5.381918907165527,
+      "search_type": "bm25_author_keywords",
+      "vector_id": 20440257,
+      "chunk_id": 20440257,
+      "pmid": "14925825",
+      "title": "Oxygen therapy.",
+      "year": 1952,
+      "journal": "California medicine",
+      "authors": [
+        "J B DILLON"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Acute Disease",
+          "is_major": true,
+          "ui": "D000208"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Oxygen",
+          "is_major": false,
+          "ui": "D010100"
+        },
+        {
+          "term": "Oxygen Inhalation Therapy",
+          "is_major": true,
+          "ui": "D010102"
+        },
+        {
+          "term": "Shock",
+          "is_major": true,
+          "ui": "D012769"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "OXYGEN/therapeutic use",
+          "is_major": true
+        }
+      ],
+      "citations": [],
+      "text": "Oxygen, properly administered, often is a valuable therapeutic agent in many conditions such as hemorrhage, heart disease, respiratory diseases, anemia, shock, infection with fever and others in which there is direct or indirect interference with normal oxygenation of tissues. In severe heart disease or acute respiratory conditions, administration of oxygen under pressure may be necessary in order to deliver the required amount to the tissues in want. For conditions in which oxygen want is less critical, 50 per cent concentration of the gas in the inspired atmosphere is effective and more easily carried out. Patients with chronic heart disease may be greatly helped by taking oxygen at home under the direction of a physician."
+    },
+    {
+      "rank": 8,
+      "score": 5.381918907165527,
+      "search_type": "bm25_author_keywords",
+      "vector_id": 20642498,
+      "chunk_id": 20642498,
+      "pmid": "13563551",
+      "title": "Metachromasy: an experimental and theoretical reevaluation.",
+      "year": 1958,
+      "journal": "The Journal of biophysical and biochemical cytology",
+      "authors": [
+        "J A BERGERON",
+        "M SINGER"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Coloring Agents",
+          "is_major": true,
+          "ui": "D004396"
+        },
+        {
+          "term": "Plants, Medicinal",
+          "is_major": false,
+          "ui": "D010946"
+        },
+        {
+          "term": "Spectrophotometry",
+          "is_major": true,
+          "ui": "D013053"
+        },
+        {
+          "term": "Staining and Labeling",
+          "is_major": true,
+          "ui": "D013194"
+        },
+        {
+          "term": "Tolonium Chloride",
+          "is_major": true,
+          "ui": "D014048"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "SQUILL/therapeutic use",
+          "is_major": true
+        }
+      ],
+      "citations": [],
+      "text": "Non-chromotropic substances such as fibrin and gelatin and most tissue and cellular structures stain orthochromatically with internal dye concentrations of such metachromatic dyes as methylene blue and toluidine blue which, if in solution, would be metachromatic. Therefore, at ordinary levels of staining these substances depress the natural tendency of these dyes to change color. However, at elevated levels of dye-binding metachromasy eventually occurs. This phenomenon is explained on the basis of the distribution of dye-binding sites. In these substrates, by contrast with chromotropic substances, many binding sites are too far removed for dye interaction, consequently the interaction frequency can become high enough to produce a color change only as saturation of the available sites is approached. It is also shown that the destruction of color is a characteristic of metachromasy and that water molecules intercalated between approximated dye ions are responsible for the loss and change of color. A concept of metachromasy is proposed in which the interaction between water molecules and suitably approximated dye ions plays an essential role. The experimental studies are described against a background of the history and evolution of ideas on metachromasy. The literature is reviewed and reassessed particularly from the physicochemical viewpoint."
+    },
+    {
+      "rank": 9,
+      "score": 5.381918907165527,
+      "search_type": "bm25_author_keywords",
+      "vector_id": 20643222,
+      "chunk_id": 20643222,
+      "pmid": "13404449",
+      "title": "Suppression of malaria with pyrimethamine in Nigerian schoolchildren.",
+      "year": 1956,
+      "journal": "Bulletin of the World Health Organization",
+      "authors": [
+        "H M ARCHIBALD",
+        "L J BRUCE-CHWATT"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Antimalarials",
+          "is_major": false,
+          "ui": "D000962"
+        },
+        {
+          "term": "Body Weight",
+          "is_major": true,
+          "ui": "D001835"
+        },
+        {
+          "term": "Child",
+          "is_major": false,
+          "ui": "D002648"
+        },
+        {
+          "term": "Drug Combinations",
+          "is_major": true,
+          "ui": "D004338"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Malaria",
+          "is_major": true,
+          "ui": "D008288"
+        },
+        {
+          "term": "Malaria, Falciparum",
+          "is_major": true,
+          "ui": "D016778"
+        },
+        {
+          "term": "Pyrimethamine",
+          "is_major": true,
+          "ui": "D011739"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "ANTIMALARIALS/therapeutic use",
+          "is_major": true
+        }
+      ],
+      "citations": [],
+      "text": "The authors describe a two-year investigation carried out on a group of Nigerian schoolchildren with the object of assessing the effect of suppressing malaria infection with pyrimethamine on the physical development of the African child. The results showed that the average gain in weight of the treated children over the period of the investigation was significantly greater than that of the untreated children. Despite the relatively high weekly dose of the drug no side-effects were observed, and no alarming manifestation of malaria was noted when administration of the drug was discontinued."
+    },
+    {
+      "rank": 10,
+      "score": 5.381918907165527,
+      "search_type": "bm25_author_keywords",
+      "vector_id": 20642240,
+      "chunk_id": 20642240,
+      "pmid": "13638834",
+      "title": "Phenethylbiguanide in diabetic patients; clinical and metabolic effects.",
+      "year": 1959,
+      "journal": "California medicine",
+      "authors": [
+        "T H LAMBERT"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Diabetes Mellitus, Type 2",
+          "is_major": true,
+          "ui": "D003924"
+        },
+        {
+          "term": "Diet, Diabetic",
+          "is_major": true,
+          "ui": "D003927"
+        },
+        {
+          "term": "Glycated Hemoglobin",
+          "is_major": true,
+          "ui": "D006442"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Hypoglycemic Agents",
+          "is_major": false,
+          "ui": "D007004"
+        },
+        {
+          "term": "Insulin",
+          "is_major": true,
+          "ui": "D007328"
+        },
+        {
+          "term": "Male",
+          "is_major": false,
+          "ui": "D008297"
+        },
+        {
+          "term": "Nausea",
+          "is_major": true,
+          "ui": "D009325"
+        },
+        {
+          "term": "Obesity",
+          "is_major": true,
+          "ui": "D009765"
+        },
+        {
+          "term": "Phenformin",
+          "is_major": true,
+          "ui": "D010629"
+        },
+        {
+          "term": "Vomiting",
+          "is_major": true,
+          "ui": "D014839"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "ANTIDIABETICS/therapeutic use",
+          "is_major": true
+        }
+      ],
+      "citations": [],
+      "text": "Phenethylbiguanide (DBI) was given to 70 unselected but not obese diabetic patients who were receiving restricted diabetic diets. The only side effects attributed to the drug were anorexia, nausea, vomiting and diarrhea in 28 patients. These symptoms subsided with reduction of dosage. No evidence of serious toxicity has been demonstrated in clinical and metabolic studies. In 27 of the 70 patients diabetes was controlled adequately with DBI alone, and more stable control was obtained in 11 labile diabetics who received DBI in combination with insulin.The mechanism of action is not definitely known."
+    }
+  ]
+}

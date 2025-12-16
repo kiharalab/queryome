@@ -1,0 +1,2179 @@
+SYSTEM: 
+You are a research critic agent. Your task is to evaluate the relevance of the following articles to the research question.
+For each article, provide a relevance score from 1 to 10 (1 = not relevant, 10 = highly relevant) and a brief justification.
+Also, provide an overall assessment: should we continue searching or stop?
+
+Respond in JSON format with two keys: "scores" and "decision".
+- "scores": a list of objects, each with "pmid", "relevance_score", and "justification".
+- "decision": either "CONTINUE" or "STOP". If continuing, add a "suggestion" key with ideas for the next search.
+
+USER: 
+Research Question: "What are the common and serious side effects of metformin?"
+
+Articles to evaluate:
+[
+  {
+    "rank": 1,
+    "score": 0.9078139181014324,
+    "search_type": "hybrid",
+    "vector_id": 6225503,
+    "chunk_id": 6225503,
+    "pmid": "33709434",
+    "title": "Metformin and health outcomes: An umbrella review of systematic reviews with meta-analyses.",
+    "year": 2021,
+    "journal": "European journal of clinical investigation",
+    "authors": [
+      "Xue Li",
+      "Stefano Celotto",
+      "Damiano Pizzol",
+      "Danijela Gasevic",
+      "Meng-Meng Ji",
+      "Tommaso Barnini",
+      "Marco Solmi",
+      "Brendon Stubbs",
+      "Lee Smith",
+      "Guillermo F L\u00f3pez S\u00e1nchez",
+      "Gabriella Pesolillo",
+      "Zengli Yu",
+      "Ioanna Tzoulaki",
+      "Evropi Theodoratou",
+      "John P A Ioannidis",
+      "Nicola Veronese",
+      "Jacopo Demurtas"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Body Mass Index",
+        "is_major": false,
+        "ui": "D015992"
+      },
+      {
+        "term": "Cardiovascular Diseases",
+        "is_major": false,
+        "ui": "D002318"
+      },
+      {
+        "term": "Diabetes Mellitus, Type 1",
+        "is_major": false,
+        "ui": "D003922"
+      },
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": false,
+        "ui": "D003924"
+      },
+      {
+        "term": "Female",
+        "is_major": false,
+        "ui": "D005260"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Infertility, Female",
+        "is_major": false,
+        "ui": "D007247"
+      },
+      {
+        "term": "Male",
+        "is_major": false,
+        "ui": "D008297"
+      },
+      {
+        "term": "Meta-Analysis as Topic",
+        "is_major": false,
+        "ui": "D015201"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Neoplasms",
+        "is_major": false,
+        "ui": "D009369"
+      },
+      {
+        "term": "Obesity",
+        "is_major": false,
+        "ui": "D009765"
+      },
+      {
+        "term": "Overweight",
+        "is_major": false,
+        "ui": "D050177"
+      },
+      {
+        "term": "Polycystic Ovary Syndrome",
+        "is_major": false,
+        "ui": "D011085"
+      },
+      {
+        "term": "Pregnancy",
+        "is_major": false,
+        "ui": "D011247"
+      },
+      {
+        "term": "Pregnancy Rate",
+        "is_major": false,
+        "ui": "D018873"
+      },
+      {
+        "term": "Protective Factors",
+        "is_major": false,
+        "ui": "D065840"
+      },
+      {
+        "term": "Systematic Reviews as Topic",
+        "is_major": false,
+        "ui": "D000078202"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "GRADE",
+        "is_major": false
+      },
+      {
+        "term": "meta-analysis",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "umbrella",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "BACKGROUND: The objective was to capture the breadth of outcomes that have been associated with metformin use and to systematically assess the quality, strength and credibility of these associations using the umbrella review methodology.\n\nMETHODS: Four major databases were searched until 31 May 2020. Meta-analyses of observational studies and meta-analyses of randomized controlled trials (RCTs) (including active and placebo control arms) were included.\n\nRESULTS: From 175 eligible publications, we identified 427 different meta-analyses, including 167 meta-analyses of observational studies, 147 meta-analyses of RCTs for metformin vs placebo/no treatment and 113 meta-analyses of RCTs for metformin vs active medications. There was no association classified as convincing or highly suggestive from meta-analyses of observational studies, but some suggestive/weak associations of metformin use with a lower mortality risk of CVD and cancer. In meta-analyses of RCTs, metformin was associated with a lower incidence of diabetes in people with prediabetes or no diabetes at baseline; lower ovarian hyperstimulation syndrome incidence (in women in controlled ovarian stimulation); higher success for clinical pregnancy rate in poly-cystic ovary syndrome (PCOS); and significant reduction in body mass index in people with type 1 diabetes mellitus, in women who have obesity/overweight with PCOS and in obese/overweight women. Of 175 publications, 166 scored as low or critically low quality per AMSTAR 2 criteria.\n\nCONCLUSIONS: Observational evidence on metformin seems largely unreliable. Randomized evidence shows benefits for preventing diabetes and in some gynaecological and obstetrical settings. However, almost all meta-analyses are of low or critically low quality according to AMSTAR 2 criteria."
+  },
+  {
+    "rank": 2,
+    "score": 0.8308033401865634,
+    "search_type": "hybrid",
+    "vector_id": 2736438,
+    "chunk_id": 2736438,
+    "pmid": "37900422",
+    "title": "The Effectiveness of Metformin in Diabetes Prevention: A Systematic Review and Meta-Analysis.",
+    "year": 2023,
+    "journal": "Cureus",
+    "authors": [
+      "Dhara Patel",
+      "Ismat E Ayesha",
+      "Neetha R Monson",
+      "Nimra Klair",
+      "Utkarsh Patel",
+      "Ayushi Saxena",
+      "Pousette Hamid"
+    ],
+    "mesh_terms": [],
+    "keywords": [
+      {
+        "term": "insulin resistance",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "pre-diabetes",
+        "is_major": false
+      },
+      {
+        "term": "prevention of diabetes",
+        "is_major": false
+      },
+      {
+        "term": "type 2 diabetes",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Diabetes mellitus is a growing global health concern, and prevention strategies play a crucial role in reducing its burden. Metformin has been widely studied as a potential intervention for diabetes prevention, but its overall effectiveness and impact on various populations remain unclear. This study aims to provide a comprehensive synthesis of the available evidence on the effectiveness of metformin in diabetes prevention. A systematic search was conducted in PubMed, Scopus, ScienceDirect, and Google Scholar for articles published from inception to June 2023. The reference lists of the included studies were also searched to retrieve possible additional studies. Any quantitative data were analyzed using Review Manager 5.4. A"
+  },
+  {
+    "rank": 3,
+    "score": 0.7290045402182015,
+    "search_type": "hybrid",
+    "vector_id": 3021998,
+    "chunk_id": 3021998,
+    "pmid": "37567440",
+    "title": "Extensive therapeutic effects, underlying molecular mechanisms and disease treatment prediction of Metformin: a systematic review.",
+    "year": 2024,
+    "journal": "Translational research : the journal of laboratory and clinical medicine",
+    "authors": [
+      "Yifei Geng",
+      "Zhen Wang",
+      "Xiaoyu Xu",
+      "Xiao Sun",
+      "Xi Dong",
+      "Yun Luo",
+      "Xiaobo Sun"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": true,
+        "ui": "D003924"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Gastrointestinal Microbiome",
+        "is_major": true,
+        "ui": "D000069196"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Derivative",
+        "is_major": false
+      },
+      {
+        "term": "Disease",
+        "is_major": false
+      },
+      {
+        "term": "Metformin",
+        "is_major": false
+      },
+      {
+        "term": "Molecular mechanism",
+        "is_major": false
+      },
+      {
+        "term": "Systematic pharmacology",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Metformin (Met), a first-line management for type 2 diabetes mellitus, has been expansively employed and studied with results indicating its therapeutic potential extending beyond glycemic control. Beyond its established role, this therapeutic drug demonstrates a broad spectrum of action encompassing over 60 disorders, encompassing metabolic conditions, inflammatory disorders, carcinomas, cardiovascular diseases, and cerebrovascular pathologies. There is clear evidence of Met's action targeting specific nodes in the molecular pathways of these diseases and, intriguingly, interactions with the intestinal microbiota and epigenetic processes have been explored. Furthermore, novel Met derivatives with structural modifications tailored to diverse diseases have been synthesized and assessed. This manuscript proffers a comprehensive thematic review of the diseases amenable to Met treatment, elucidates their molecular mechanisms, and employs informatics technology to prospect future therapeutic applications of Met. These data and insights gleaned considerably contribute to enriching our understanding and appreciation of Met's far-reaching clinical potential and therapeutic applicability."
+  },
+  {
+    "rank": 4,
+    "score": 0.6138219104197007,
+    "search_type": "hybrid",
+    "vector_id": 6141178,
+    "chunk_id": 6141178,
+    "pmid": "33847633",
+    "title": "Effects of continuous use of metformin on cardiovascular outcomes in patients with type 2 diabetes after acute myocardial infarction: A protocol for systematic review and meta-analysis.",
+    "year": 2021,
+    "journal": "Medicine",
+    "authors": [
+      "Chuanwen Shen",
+      "Shuying Tan",
+      "Jun Yang"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Cardiovascular Diseases",
+        "is_major": false,
+        "ui": "D002318"
+      },
+      {
+        "term": "Clinical Trials as Topic",
+        "is_major": false,
+        "ui": "D002986"
+      },
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": false,
+        "ui": "D003924"
+      },
+      {
+        "term": "Glycated Hemoglobin",
+        "is_major": false,
+        "ui": "D006442"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Myocardial Infarction",
+        "is_major": false,
+        "ui": "D009203"
+      },
+      {
+        "term": "Research Design",
+        "is_major": false,
+        "ui": "D012107"
+      },
+      {
+        "term": "Meta-Analysis as Topic",
+        "is_major": false,
+        "ui": "D015201"
+      },
+      {
+        "term": "Systematic Review as Topic",
+        "is_major": false,
+        "ui": "D000078202"
+      }
+    ],
+    "keywords": [],
+    "citations": [],
+    "text": "BACKGROUND: To our knowledge, no meta-analyses or reviews have investigated the efficacy and safety of metformin on cardiovascular outcomes after acute myocardial infarction (AMI) in patients with type 2 diabetes mellitus (T2DM). We thus conduct a high-quality systematic review and meta-analysis to assess the efficacy and safety of metformin on cardiovascular outcomes after AMI in patients with T2DM.\n\nMETHODS: In this systematic review and meta-analysis, we will search PUBMED, Scopus, EMBASE, and Cochrane Library databases through April, 2021. The study is structured to adhere to PRISMA guidelines (i.e., Preferred Reporting Items for Systematic Reviews and Meta-analyses). The literature search, data extraction, and quality assessments are conducted independently by 2 authors. Outcome measures include all-cause mortality; complications such as acute kidney injury, lactic acidosis, hospitalization for AMI or stroke, or death. Where disagreement in the collection of data occurs, this is resolved through discussion. Review Manager Software (v 5.3; Cochrane Collaboration) is used for the meta-analysis. Two independent reviewers will assess the risk of bias of the included studies at study level.\n\nRESULTS: It is hypothesized that metformin use at the post-AMI is associated with decreased risk of cardiovascular disease and death in patients with T2DM.\n\nCONCLUSIONS: This study expects to provide credible and scientific evidence for the efficacy and safety of metformin on cardiovascular outcomes after AMI in patients with T2DM.\n\nREGISTRATION NUMBER: 10.17605/OSF.IO/S3MBP."
+  },
+  {
+    "rank": 5,
+    "score": 0.5771377541177394,
+    "search_type": "hybrid",
+    "vector_id": 2633761,
+    "chunk_id": 2633761,
+    "pmid": "38021728",
+    "title": "Comparison of the Efficacy of Metformin and Lifestyle Modification for the Primary Prevention of Type 2 Diabetes: A Meta-Analysis of Randomized Controlled Trials.",
+    "year": 2023,
+    "journal": "Cureus",
+    "authors": [
+      "Jaahnavi Vajje",
+      "Saima Khan",
+      "Avneet Kaur",
+      "Heemali Kataria",
+      "Sahar Sarpoolaki",
+      "Aastha Goudel",
+      "Ali Hanif Bhatti",
+      "Danish Allahwala"
+    ],
+    "mesh_terms": [],
+    "keywords": [
+      {
+        "term": "lifestyle intervention",
+        "is_major": false
+      },
+      {
+        "term": "meta-analysis",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "prevention",
+        "is_major": false
+      },
+      {
+        "term": "type 2 diabetes",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "This meta-analysis aimed to compare the effectiveness of metformin versus lifestyle interventions in preventing diabetes in individuals with prediabetes. We followed the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidelines and conducted a comprehensive search of databases (PubMed, Cochrane Library, EMBASE) up to September 1, 2023. Five eligible studies were included. The results showed that there was no significant difference in the risk of developing diabetes between the metformin and lifestyle intervention groups (RR: 1.14, 95% CI: 0.77-1.68). Similarly, when comparing metformin with lifestyle intervention, the risk of diabetes was slightly higher in the metformin group, but this difference was not statistically significant (RR: 1.31, 95% CI: 0.93-1.86). When comparing metformin with lifestyle intervention to lifestyle intervention alone, no significant difference was observed in the incidence of diabetes (RR: 0.88, 95% CI: 0.74-1.04). In conclusion, our analysis found that the incidence of type 2 diabetes was slightly higher in patients receiving metformin alone compared to lifestyle intervention, but this difference did not reach statistical significance. Further trials are necessary to better evaluate these interventions for preventing type 2 diabetes in high-risk individuals."
+  },
+  {
+    "rank": 6,
+    "score": 0.564951183532196,
+    "search_type": "hybrid",
+    "vector_id": 19581304,
+    "chunk_id": 19581304,
+    "pmid": "16153370",
+    "title": "[Metformin for type-2 diabetes mellitus. Systematic review and meta-analysis].",
+    "year": 2005,
+    "journal": "Atencion primaria",
+    "authors": [
+      "A S\u00e1enz Calvo",
+      "I Fern\u00e1ndez Esteban",
+      "A Mataix Sanju\u00e1n",
+      "M Ausejo Segura",
+      "M Roqu\u00e9",
+      "D Moher"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Adult",
+        "is_major": false,
+        "ui": "D000328"
+      },
+      {
+        "term": "Aged",
+        "is_major": false,
+        "ui": "D000368"
+      },
+      {
+        "term": "Chi-Square Distribution",
+        "is_major": false,
+        "ui": "D016009"
+      },
+      {
+        "term": "Cholesterol, LDL",
+        "is_major": false,
+        "ui": "D008078"
+      },
+      {
+        "term": "Confidence Intervals",
+        "is_major": false,
+        "ui": "D016001"
+      },
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": false,
+        "ui": "D003924"
+      },
+      {
+        "term": "Female",
+        "is_major": false,
+        "ui": "D005260"
+      },
+      {
+        "term": "Glycated Hemoglobin",
+        "is_major": false,
+        "ui": "D006442"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Male",
+        "is_major": false,
+        "ui": "D008297"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Middle Aged",
+        "is_major": false,
+        "ui": "D008875"
+      },
+      {
+        "term": "Placebos",
+        "is_major": false,
+        "ui": "D010919"
+      },
+      {
+        "term": "Randomized Controlled Trials as Topic",
+        "is_major": false,
+        "ui": "D016032"
+      },
+      {
+        "term": "Risk",
+        "is_major": false,
+        "ui": "D012306"
+      },
+      {
+        "term": "Risk Factors",
+        "is_major": false,
+        "ui": "D012307"
+      },
+      {
+        "term": "Time Factors",
+        "is_major": false,
+        "ui": "D013997"
+      }
+    ],
+    "keywords": [],
+    "citations": [
+      {
+        "type": "CommentIn",
+        "source": "Aten Primaria. 2005 Sep 15;36(4):192-3. doi: 10.1157/13078604",
+        "pmid": "16153371"
+      }
+    ],
+    "text": "OBJECTIVE: To evaluate the efficacy of metformin against placebo, diet, oral anti-diabetics, or insulin in type 2 diabetes mellitus.\n\nDESIGN: Systematic review.\n\nDATA SOURCES: MEDLINE (1966-2003), EMBASE (1974-2003), LILACS (1986-2003), Cochrane library (Issue 3, 2003).\n\nSELECTION OF STUDIES: 29 randomized clinical trials of metformin in monotherapy, with results on mortality, morbidity, and biochemistry. EXTRACTION OF DATA: RevMan 4 computer program. Two reviewers extracted the data and evaluated the quality.\n\nMAIN VARIABLES: any clinical event related to diabetes (mortality, coronary disease, stroke, arterial disease, and retinopathy). Secondary variables: weight and biochemistry.\n\nRESULTS: 29 clinical studies with 37 comparisons of metformin were analyzed (13 with sulphonylureas, 12 with placebo, 3 with diet, 3 with thiazolidinediones, 2 with alpha-glucosidase inhibitors, 2 with insulin, and 2 with meglitinides). Metformin was more beneficial than the sulphonylureas or insulin for any clinical event associated with diabetes (relative risk [RR]=0.78; 95% confidence interval [CI], 0.65-0.94) and than diet (RR=0.74; 95% CI, 0.60-0.90). Metformin decreased glycosylated hemoglobin A1 (weighted mean difference, -1.21%; 95% CI, -1.48 to -0.94), low density lipoprotein cholesterol (weighted mean difference, -0.24; 95% CI, -0.40 to -0.09), and weight (standardized mean difference, -0.11; 95% CI, -0.18 to -0.04). Metformin was more beneficial than the placebo, diet or the thiazolidinediones on glycosylated hemoglobin A1, and than the sulphonylureas or insulin on weight.\n\nCONCLUSIONS: In the long term metformin reduces the risks of clinical events associated with diabetes. There are no long term clinical trials which compare alpha-glucosidase inhibitors, meglitinides, and thiazolidinediones with metformin, in primary results. The different treatments compared with metformin did not obtain more benefit for the secondary results evaluated."
+  },
+  {
+    "rank": 7,
+    "score": 0.5491466831844228,
+    "search_type": "hybrid",
+    "vector_id": 2719641,
+    "chunk_id": 2719641,
+    "pmid": "37881440",
+    "title": "Unveiling the potential pleiotropic effects of metformin in treating COVID-19: a comprehensive review.",
+    "year": 2023,
+    "journal": "Frontiers in molecular biosciences",
+    "authors": [
+      "Pavlo Petakh",
+      "Iryna Kamyshna",
+      "Aleksandr Kamyshnyi"
+    ],
+    "mesh_terms": [],
+    "keywords": [
+      {
+        "term": "coronavirus disease 2019",
+        "is_major": false
+      },
+      {
+        "term": "diabetes",
+        "is_major": false
+      },
+      {
+        "term": "dysbiosis",
+        "is_major": false
+      },
+      {
+        "term": "gut microbiota",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "This review article explores the potential of metformin, a medication commonly used for type 2 diabetes, as an antiviral and anti-inflammatory agent in the context of coronavirus disease 2019 (COVID-19). Metformin has demonstrated inhibitory effects on the growth of SARS-CoV-2 in cell culture models and has shown promising results in reducing viral load and achieving undetectable viral levels in clinical trials. Additionally, metformin exhibits anti-inflammatory properties by reducing the production of pro-inflammatory cytokines and modulating immune cell function, which may help prevent cytokine storms associated with severe COVID-19. The drug's ability to regulate the balance between pro-inflammatory Th17 cells and anti-inflammatory Treg cells suggests its potential in mitigating inflammation and restoring T cell functionality. Furthermore, metformin's modulation of the gut microbiota, particularly changes in bacterial taxa and the production of short-chain fatty acids, may contribute to its therapeutic effects. The interplay between metformin, bile acids, the gut microbiome, glucagon-like peptide-1 secretion, and glycemic control has implications for the management of diabetes and potential interventions in COVID-19. By refreshing the current evidence, this review highlights the potential of metformin as a therapeutic option in the management of COVID-19, while also exploring its effects on the gut microbiome and immunometabolism."
+  },
+  {
+    "rank": 8,
+    "score": 0.5485475993140153,
+    "search_type": "hybrid",
+    "vector_id": 6343919,
+    "chunk_id": 6343919,
+    "pmid": "33549430",
+    "title": "Effect of metformin on all-cause mortality and major adverse cardiovascular events: An updated meta-analysis of randomized controlled trials.",
+    "year": 2021,
+    "journal": "Nutrition, metabolism, and cardiovascular diseases : NMCD",
+    "authors": [
+      "Matteo Monami",
+      "Riccardo Candido",
+      "Basilio Pintaudi",
+      "Giovanni Targher",
+      "Edoardo Mannucci"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Cardiovascular Diseases",
+        "is_major": false,
+        "ui": "D002318"
+      },
+      {
+        "term": "Cause of Death",
+        "is_major": false,
+        "ui": "D002423"
+      },
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": false,
+        "ui": "D003924"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Randomized Controlled Trials as Topic",
+        "is_major": false,
+        "ui": "D016032"
+      },
+      {
+        "term": "Risk Assessment",
+        "is_major": false,
+        "ui": "D018570"
+      },
+      {
+        "term": "Risk Factors",
+        "is_major": false,
+        "ui": "D012307"
+      },
+      {
+        "term": "Time Factors",
+        "is_major": false,
+        "ui": "D013997"
+      },
+      {
+        "term": "Treatment Outcome",
+        "is_major": false,
+        "ui": "D016896"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Major cardiovascular events",
+        "is_major": false
+      },
+      {
+        "term": "Meta-analysis",
+        "is_major": false
+      },
+      {
+        "term": "Metformin",
+        "is_major": false
+      },
+      {
+        "term": "Mortality",
+        "is_major": false
+      },
+      {
+        "term": "Type 2 diabetes",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "AIMS: The Italian Society of Diabetology and the Italian Association of Clinical Diabetologists are developing new guidelines for drug treatment of type 2 diabetes. The effects of anti-hyperglycaemic drugs on all-cause mortality and major adverse cardiovascular events (MACEs) were included among the critical clinical outcomes. We have therefore carried out an updated meta-analysis on the effects of metformin on these outcomes.\n\nDATA SYNTHESIS: A MEDLINE and EMBASE search was performed to identify all randomized controlled trials (RCTs) with duration \u226552 weeks (published up to August 2020), in which metformin was compared with either placebo/no therapy or active comparators. MACEs (restricted for RCT reporting MACEs within their study endpoints) and all-cause mortality (irrespective of the inclusion of MACEs among the pre-specified endpoints) were considered as the primary endpoints. Mantel-Haenszel odds ratio (MH-OR) with 95% confidence interval was calculated for all endpoints considered. Metformin was associated with a nonsignificant reduction of all-cause mortality (n\u00a0=\u00a013 RCTs; MH-OR 0.80 [95% CI 0.60, 1.07]). However, this association became statistically significant after excluding RCTs comparing metformin with sulfonylureas, SGLT-2 inhibitors or GLP-1 analogues (MH-OR 0.71 [0.51, 0.99]). Metformin was associated with a lower risk of MACEs compared with comparator treatments (n\u00a0=\u00a02 RCTs; MH-OR 0.52 [0.37, 0.73]), p\u00a0<\u00a00.001. Similar results were obtained in a post-hoc analysis including all RCTs fulfilling criteria for inclusion in the analysis (MH-OR: 0.57 [0.42, 0.76]).\n\nCONCLUSIONS: This updated meta-analysis suggests that metfomin is significantly associated with lower risk of MACEs and tendentially lower all-cause mortality compared to placebo or other anti-hyperglycaemic drugs."
+  },
+  {
+    "rank": 9,
+    "score": 0.5351460894431459,
+    "search_type": "hybrid",
+    "vector_id": 28118097,
+    "chunk_id": 28118097,
+    "pmid": "40230880",
+    "title": "Potential Efficacy of Metformin for Age-Related Macular Degeneration: A Systematic Review and Meta-Analysis.",
+    "year": null,
+    "journal": "Ophthalmology science",
+    "authors": [
+      "Matthew D Huh",
+      "Simon N Le",
+      "Kieran S O'Brien",
+      "Jeremy D Keenan",
+      "Jay M Stewart"
+    ],
+    "mesh_terms": [],
+    "keywords": [
+      {
+        "term": "Age-related macular degeneration",
+        "is_major": false
+      },
+      {
+        "term": "Meta-analysis",
+        "is_major": false
+      },
+      {
+        "term": "Metformin",
+        "is_major": false
+      },
+      {
+        "term": "Systematic review",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Topic: Metformin, a widely used diabetes medication, has shown potential for treating age-related macular degeneration (AMD) due to its antioxidative, anti-inflammatory, and antiangiogenic properties. This study aims to systematically review and analyze the efficacy of metformin in reducing AMD prevalence.\n\nClinical Relevance: Metformin's potential to serve as a treatment for AMD could significantly reduce the burden of vision loss, offering a cost-effective and widely accessible solution.\n\nMethods: A systematic search was conducted in OVID Embase, OVID MEDLINE, Cochrane Library, and Web of Science databases on May 2, 2024. Both observational and interventional studies were included if they involved oral metformin use before AMD diagnosis. Data were extracted and analyzed using a random-effects model meta-analysis, with subgroup analyses based on study design, AMD subtype, sex, and metformin dosage.\n\nResults: Eighteen observational studies were identified, which together included a total of 2\u00a0683\u00a0234 individuals. Nine studies had a case-control design, 7 were retrospective cohort studies, and 2 were cross-sectional studies. The meta-analysis revealed a significant reduction in the odds of AMD among metformin users (pooled odds ratio [OR]\u00a0=\u00a00.86, 95% confidence interval\u00a0=\u00a00.79-0.93,\n\nConclusion: Although the current evidence suggests a potential protective role of metformin in AMD, all studies showing an effect of metformin have been observational and thus subject to bias. Randomized clinical trials are needed to determine the effectiveness of metformin for preventing the onset of AMD.\n\nFinancial Disclosures: Proprietary or commercial disclosure may be found in the Footnotes and Disclosures at the end of this article."
+  },
+  {
+    "rank": 10,
+    "score": 0.5351460894431459,
+    "search_type": "hybrid",
+    "vector_id": 28134516,
+    "chunk_id": 28134516,
+    "pmid": "40230880",
+    "title": "Potential Efficacy of Metformin for Age-Related Macular Degeneration: A Systematic Review and Meta-Analysis.",
+    "year": null,
+    "journal": "Ophthalmology science",
+    "authors": [
+      "Matthew D Huh",
+      "Simon N Le",
+      "Kieran S O'Brien",
+      "Jeremy D Keenan",
+      "Jay M Stewart"
+    ],
+    "mesh_terms": [],
+    "keywords": [
+      {
+        "term": "Age-related macular degeneration",
+        "is_major": false
+      },
+      {
+        "term": "Meta-analysis",
+        "is_major": false
+      },
+      {
+        "term": "Metformin",
+        "is_major": false
+      },
+      {
+        "term": "Systematic review",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Topic: Metformin, a widely used diabetes medication, has shown potential for treating age-related macular degeneration (AMD) due to its antioxidative, anti-inflammatory, and antiangiogenic properties. This study aims to systematically review and analyze the efficacy of metformin in reducing AMD prevalence.\n\nClinical Relevance: Metformin's potential to serve as a treatment for AMD could significantly reduce the burden of vision loss, offering a cost-effective and widely accessible solution.\n\nMethods: A systematic search was conducted in OVID Embase, OVID MEDLINE, Cochrane Library, and Web of Science databases on May 2, 2024. Both observational and interventional studies were included if they involved oral metformin use before AMD diagnosis. Data were extracted and analyzed using a random-effects model meta-analysis, with subgroup analyses based on study design, AMD subtype, sex, and metformin dosage.\n\nResults: Eighteen observational studies were identified, which together included a total of 2\u00a0683\u00a0234 individuals. Nine studies had a case-control design, 7 were retrospective cohort studies, and 2 were cross-sectional studies. The meta-analysis revealed a significant reduction in the odds of AMD among metformin users (pooled odds ratio [OR]\u00a0=\u00a00.86, 95% confidence interval\u00a0=\u00a00.79-0.93,\n\nConclusion: Although the current evidence suggests a potential protective role of metformin in AMD, all studies showing an effect of metformin have been observational and thus subject to bias. Randomized clinical trials are needed to determine the effectiveness of metformin for preventing the onset of AMD.\n\nFinancial Disclosures: Proprietary or commercial disclosure may be found in the Footnotes and Disclosures at the end of this article."
+  },
+  {
+    "rank": 1,
+    "score": 7.470499038696289,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 11386677,
+    "chunk_id": 11386677,
+    "pmid": "27193864",
+    "title": "A Neuropsychologist's Guide To Undertaking a Systematic Review for Publication: Making the most of PRISMA Guidelines.",
+    "year": 2016,
+    "journal": "Neuropsychology review",
+    "authors": [
+      "Nicola J Gates",
+      "Evrim G March"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Meta-Analysis as Topic",
+        "is_major": false,
+        "ui": "D015201"
+      },
+      {
+        "term": "Neuropsychology",
+        "is_major": false,
+        "ui": "D009484"
+      },
+      {
+        "term": "Systematic Reviews as Topic",
+        "is_major": true,
+        "ui": "D000078202"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Meta-analyses",
+        "is_major": false
+      },
+      {
+        "term": "Systematic review",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "There is increasing impetus to improve the quality of research and scientific writing. Systematic reviews provide Class 1 research evidence, are based upon an established rigor and communicate results in a comprehensive manner, and are therefore particularly relevant to clinicians and researchers. Clinician requirements for quality systematic reviews are twofold: to keep up to date with research and to make informed decisions including those required for diagnoses, disease or risk assessment, and treatment. Researchers rely upon quality systematic reviews to compete for diminishing research funds, prove efficacy for intervention trials, and to meet increasing demand for evidence based intervention. However, insufficient systematic reviews are undertaken, and the methodological rigor and quality are often variable. The aim of this article is to guide researchers through the iterative systematic review process in order to improve quality and thereby increase publication rates. The step by step guide provides a road map through the EQUATOR network and practical suggestions in order to meet the guidelines of the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) (Moher et al. 2009) as well as encouraging high standards through the use of quality rating scales. Lastly, information is provided to encourage quantitative analysis to improve the synthesis of results and qualitative interpretation, such as calculating effect sizes or conducting a meta-analyses as the ultimate goal of a systematic review."
+  },
+  {
+    "rank": 2,
+    "score": 7.2049736976623535,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 2835932,
+    "chunk_id": 2835932,
+    "pmid": "37773165",
+    "title": "Will metformin use lead to a decreased risk of thyroid cancer? A systematic review and meta-analyses.",
+    "year": 2023,
+    "journal": "European journal of medical research",
+    "authors": [
+      "Hailong Li",
+      "Yue Chen",
+      "Lei Hu",
+      "Wenzhi Yang",
+      "Zongshi Gao",
+      "Mengqing Liu",
+      "Hui Tao",
+      "Jie Li"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Risk",
+        "is_major": false,
+        "ui": "D012306"
+      },
+      {
+        "term": "Thyroid Neoplasms",
+        "is_major": true,
+        "ui": "D013964"
+      },
+      {
+        "term": "China",
+        "is_major": false,
+        "ui": "D002681"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Meta-analyses",
+        "is_major": false
+      },
+      {
+        "term": "Metformin use",
+        "is_major": false
+      },
+      {
+        "term": "Systematic review",
+        "is_major": false
+      },
+      {
+        "term": "Thyroid cancer",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "BACKGROUND: It has been reported that metformin use may reduce the risk of thyroid cancer, but existing studies have generated inconsistent results. The purpose of this study was to investigate such association between metformin use and the risk of thyroid cancer.\n\nMETHODS: Studies of metformin use for the risk of thyroid cancer were searched in Web of Science, PubMed, Embase, Cochrane Library, China National Knowledge Infrastructure, China Biomedical Database, Wanfang Data, and Chinese Scientific Journals Database (VIP) from the establishment date to December 2022. Newcastle-Ottawa scale is adopted for assessing the methodological quality of included studies, and the inter-study heterogeneity was assessed by using the I-squared statistic. Combined odds ratios (ORs) with the corresponding 95% confidence intervals (CIs) were calculated through either fixed-effects or random-effects model according to the heterogeneity. Besides, subgroup analyses, sensitivity analyses and test for publication bias were conducted.\n\nRESULTS: Five studies involving 1,713,528 participants were enrolled in the qualitative and quantitative synthesis. The result of the meta-analyses showed that metformin use was associated with a statistically significant lower risk of thyroid cancer (pooled OR\u2009=\u20090.68, 95% CI\u2009=\u20090.50-0.91, P\u2009=\u20090.011). Moreover, in the subgroup analysis, we found that the use of metformin may also aid in the prevention of thyroid cancer in Eastern population (pooled OR\u2009=\u20090.55, 95% CI\u2009=\u20090.35-0.88, P\u2009=\u20090.012) rather than Western population (pooled OR\u2009=\u20090.89, 95% CI\u2009=\u20090.52-1.54, P\u2009=\u20090.685). Sensitivity analysis suggested the results of this meta-analyses were relatively stable. No publication bias was detected.\n\nCONCLUSION: Metformin use is beneficial for reducing the risk of thyroid cancer. For further investigation, more well-designed studies are still needed to elucidate the association between metformin use and the risk of thyroid cancer."
+  },
+  {
+    "rank": 3,
+    "score": 7.153765678405762,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 14972378,
+    "chunk_id": 14972378,
+    "pmid": "22701848",
+    "title": "Metformin and sleep disorders.",
+    "year": 2012,
+    "journal": "Indian journal of endocrinology and metabolism",
+    "authors": [
+      "Somsri Wiwanitkit",
+      "Viroj Wiwanitkit"
+    ],
+    "mesh_terms": [],
+    "keywords": [
+      {
+        "term": "Metformin",
+        "is_major": false
+      },
+      {
+        "term": "side effect",
+        "is_major": false
+      },
+      {
+        "term": "sleep disorders",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Metformin is a widely used anti-diabetic drug. Deterioration of sleep is an important unwanted side effect of metformin. Here, the authors review and present the details on metformin and sleep problem."
+  },
+  {
+    "rank": 4,
+    "score": 6.965612411499023,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 28125592,
+    "chunk_id": 28125592,
+    "pmid": "39952841",
+    "title": "Creating and Publishing Systematic Reviews, Meta-analyses, and Scoping Reviews: A\u00a010-step Guide for Students and Trainees.",
+    "year": 2025,
+    "journal": "Academic radiology",
+    "authors": [
+      "Ishwarya Sivakumar",
+      "Katie Lobner",
+      "Rachel L Walden",
+      "Clifford R Weiss"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Meta-Analysis as Topic",
+        "is_major": true,
+        "ui": "D015201"
+      },
+      {
+        "term": "Systematic Reviews as Topic",
+        "is_major": true,
+        "ui": "D000078202"
+      },
+      {
+        "term": "Publishing",
+        "is_major": true,
+        "ui": "D011643"
+      },
+      {
+        "term": "Review Literature as Topic",
+        "is_major": true,
+        "ui": "D012196"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Scoping Review as Topic",
+        "is_major": false,
+        "ui": "D000098584"
+      },
+      {
+        "term": "Radiology",
+        "is_major": true,
+        "ui": "D011871"
+      },
+      {
+        "term": "Guidelines as Topic",
+        "is_major": true,
+        "ui": "D017408"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Meta-analyses",
+        "is_major": false
+      },
+      {
+        "term": "Scoping review",
+        "is_major": false
+      },
+      {
+        "term": "Systematic review",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "This article serves as a step-by-step guide for students and trainees who wish to conduct a systematic review, meta-analysis, or scoping review. As the field of evidence synthesis progresses, more students and trainees are attempting to conduct reviews, and it can be unclear how to approach such a project. In 10 organized steps, we describe different types of reviews, explain how to choose the most appropriate one, detail the steps involved in conducting a review, and list resources that are available to support authors of reviews. We describe the steps involved in 1) forming an appropriate research team; 2) developing a compelling research question; 3) writing a review; and 4) reporting the findings with clarity."
+  },
+  {
+    "rank": 5,
+    "score": 6.965612411499023,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 28186388,
+    "chunk_id": 28186388,
+    "pmid": "39952841",
+    "title": "Creating and Publishing Systematic Reviews, Meta-analyses, and Scoping Reviews: A\u00a010-step Guide for Students and Trainees.",
+    "year": 2025,
+    "journal": "Academic radiology",
+    "authors": [
+      "Ishwarya Sivakumar",
+      "Katie Lobner",
+      "Rachel L Walden",
+      "Clifford R Weiss"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Meta-Analysis as Topic",
+        "is_major": true,
+        "ui": "D015201"
+      },
+      {
+        "term": "Systematic Reviews as Topic",
+        "is_major": true,
+        "ui": "D000078202"
+      },
+      {
+        "term": "Publishing",
+        "is_major": true,
+        "ui": "D011643"
+      },
+      {
+        "term": "Review Literature as Topic",
+        "is_major": true,
+        "ui": "D012196"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Scoping Review as Topic",
+        "is_major": false,
+        "ui": "D000098584"
+      },
+      {
+        "term": "Radiology",
+        "is_major": true,
+        "ui": "D011871"
+      },
+      {
+        "term": "Guidelines as Topic",
+        "is_major": true,
+        "ui": "D017408"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Meta-analyses",
+        "is_major": false
+      },
+      {
+        "term": "Scoping review",
+        "is_major": false
+      },
+      {
+        "term": "Systematic review",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "This article serves as a step-by-step guide for students and trainees who wish to conduct a systematic review, meta-analysis, or scoping review. As the field of evidence synthesis progresses, more students and trainees are attempting to conduct reviews, and it can be unclear how to approach such a project. In 10 organized steps, we describe different types of reviews, explain how to choose the most appropriate one, detail the steps involved in conducting a review, and list resources that are available to support authors of reviews. We describe the steps involved in 1) forming an appropriate research team; 2) developing a compelling research question; 3) writing a review; and 4) reporting the findings with clarity."
+  },
+  {
+    "rank": 6,
+    "score": 6.965612411499023,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 585552,
+    "chunk_id": 585552,
+    "pmid": "39952841",
+    "title": "Creating and Publishing Systematic Reviews, Meta-analyses, and Scoping Reviews: A\u00a010-step Guide for Students and Trainees.",
+    "year": 2025,
+    "journal": "Academic radiology",
+    "authors": [
+      "Ishwarya Sivakumar",
+      "Katie Lobner",
+      "Rachel L Walden",
+      "Clifford R Weiss"
+    ],
+    "mesh_terms": [],
+    "keywords": [
+      {
+        "term": "Meta-analyses",
+        "is_major": false
+      },
+      {
+        "term": "Scoping review",
+        "is_major": false
+      },
+      {
+        "term": "Systematic review",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "This article serves as a step-by-step guide for students and trainees who wish to conduct a systematic review, meta-analysis, or scoping review. As the field of evidence synthesis progresses, more students and trainees are attempting to conduct reviews, and it can be unclear how to approach such a project. In 10 organized steps, we describe different types of reviews, explain how to choose the most appropriate one, detail the steps involved in conducting a review, and list resources that are available to support authors of reviews. We describe the steps involved in 1) forming an appropriate research team; 2) developing a compelling research question; 3) writing a review; and 4) reporting the findings with clarity."
+  },
+  {
+    "rank": 7,
+    "score": 6.794027328491211,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 9709199,
+    "chunk_id": 9709199,
+    "pmid": "29397794",
+    "title": "Melatonin and health: an umbrella review of health outcomes and biological mechanisms of action.",
+    "year": 2018,
+    "journal": "BMC medicine",
+    "authors": [
+      "Pawel P Posadzki",
+      "Ram Bajpai",
+      "Bhone Myint Kyaw",
+      "Nicola J Roberts",
+      "Amnon Brzezinski",
+      "George I Christopoulos",
+      "Ushashree Divakar",
+      "Shweta Bajpai",
+      "Michael Soljak",
+      "Gerard Dunleavy",
+      "Krister Jarbrink",
+      "Ei Ei Khaing Nang",
+      "Chee Kiong Soh",
+      "Josip Car"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Anxiety",
+        "is_major": true,
+        "ui": "D001007"
+      },
+      {
+        "term": "Circadian Rhythm",
+        "is_major": true,
+        "ui": "D002940"
+      },
+      {
+        "term": "Melatonin",
+        "is_major": true,
+        "ui": "D008550"
+      },
+      {
+        "term": "Quality of Life",
+        "is_major": true,
+        "ui": "D011788"
+      },
+      {
+        "term": "Systematic Reviews as Topic",
+        "is_major": false,
+        "ui": "D000078202"
+      },
+      {
+        "term": "Meta-Analysis as Topic",
+        "is_major": false,
+        "ui": "D015201"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Effectiveness",
+        "is_major": false
+      },
+      {
+        "term": "Health",
+        "is_major": false
+      },
+      {
+        "term": "Melatonin",
+        "is_major": false
+      },
+      {
+        "term": "Meta-analyses",
+        "is_major": false
+      },
+      {
+        "term": "Systematic reviews",
+        "is_major": false
+      },
+      {
+        "term": "Umbrella review",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "BACKGROUND: Our aims were to evaluate critically the evidence from systematic reviews as well as narrative reviews of the effects of melatonin (MLT) on health and to identify the potential mechanisms of action involved.\n\nMETHODS: An umbrella review of the evidence across systematic reviews and narrative reviews of endogenous and exogenous (supplementation) MLT was undertaken. The Oxman checklist for assessing the methodological quality of the included systematic reviews was utilised. The following databases were searched: MEDLINE, EMBASE, Web of Science, CENTRAL, PsycINFO and CINAHL. In addition, reference lists were screened. We included reviews of the effects of MLT on any type of health-related outcome measure.\n\nRESULTS: Altogether, 195 reviews met the inclusion criteria. Most were of low methodological quality (mean -4.5, standard deviation 6.7). Of those, 164 did not pool the data and were synthesised narratively (qualitatively) whereas the remaining 31 used meta-analytic techniques and were synthesised quantitatively. Seven meta-analyses were significant with P values less than 0.001 under the random-effects model. These pertained to sleep latency, pre-operative anxiety, prevention of agitation and risk of breast cancer.\n\nCONCLUSIONS: There is an abundance of reviews evaluating the effects of exogenous and endogenous MLT on health. In general, MLT has been shown to be associated with a wide variety of health outcomes in clinically and methodologically heterogeneous populations. Many reviews stressed the need for more high-quality randomised clinical trials to reduce the existing uncertainties."
+  },
+  {
+    "rank": 8,
+    "score": 6.688921928405762,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 8016093,
+    "chunk_id": 8016093,
+    "pmid": "31520403",
+    "title": "Glossary for systematic reviews and meta-analyses.",
+    "year": 2020,
+    "journal": "International endodontic journal",
+    "authors": [
+      "V Nagendrababu",
+      "P Dilokthornsakul",
+      "P Jinatongthai",
+      "S K Veettil",
+      "S J Pulikkotil",
+      "H F Duncan",
+      "P M H Dummer"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Endodontics",
+        "is_major": false,
+        "ui": "D004708"
+      },
+      {
+        "term": "Meta-Analysis as Topic",
+        "is_major": true,
+        "ui": "D015201"
+      },
+      {
+        "term": "Reproducibility of Results",
+        "is_major": false,
+        "ui": "D015203"
+      },
+      {
+        "term": "Systematic Reviews as Topic",
+        "is_major": true,
+        "ui": "D000078202"
+      },
+      {
+        "term": "Terminology as Topic",
+        "is_major": true,
+        "ui": "D009626"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "glossary",
+        "is_major": false
+      },
+      {
+        "term": "meta-analyses",
+        "is_major": false
+      },
+      {
+        "term": "systematic reviews",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "A systematic review aims to answer a focussed research question through a structured review of the evidence, using a predefined methodology, which often includes a meta-analysis. A meta-analysis is a statistical method used to combine the effect estimates from the individual studies included in a systematic review. Systematic reviews and meta-analyses are positioned at the highest level in the hierarchy of clinical evidence. The Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) statement was introduced in 2009 to help authors improve the quality and reliability of systematic reviews and meta-analyses. Recently, the volume of systematic reviews and meta-analyses in the field of Endodontology has increased; however, the quality of the published manuscripts has been reported to be sub-optimal, which does not take account of the systematic reviews that were rejected because of more obvious deficiencies. The aim of this paper is to present a comprehensive glossary of terminology commonly used in systematic reviews and meta-analyses in an attempt to provide easily understood definitions and explanations to assist authors when reporting systematic reviews and meta-analyses and to allow those wishing to read them to become better informed."
+  },
+  {
+    "rank": 9,
+    "score": 6.688921928405762,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 2350683,
+    "chunk_id": 2350683,
+    "pmid": "38351600",
+    "title": "GRADE pearls and pitfalls-Part 1: Systematic reviews and meta-analyses.",
+    "year": 2024,
+    "journal": "Acta anaesthesiologica Scandinavica",
+    "authors": [
+      "Zainab Al Duhailib",
+      "Anders Granholm",
+      "Waleed Alhazzani",
+      "Simon Oczkowski",
+      "Emilie Belley-Cote",
+      "Morten Hylander M\u00f8ller"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Meta-Analysis as Topic",
+        "is_major": true,
+        "ui": "D015201"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Review Literature as Topic",
+        "is_major": false,
+        "ui": "D012196"
+      },
+      {
+        "term": "Evidence-Based Medicine",
+        "is_major": false,
+        "ui": "D019317"
+      },
+      {
+        "term": "Systematic Reviews as Topic",
+        "is_major": false,
+        "ui": "D000078202"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "GRADE",
+        "is_major": false
+      },
+      {
+        "term": "meta\u2010analyses",
+        "is_major": false
+      },
+      {
+        "term": "systematic reviews",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "BACKGROUND: The Grading of Recommendation, Assessment, Development and Evaluation (GRADE) approach is used to assess the certainty of evidence in systematic reviews and meta-analyses.\n\nMETHODS: We describe how the GRADE approach is used in systematic reviews and meta-analyses, including key points and examples. This overview is aimed at clinicians and researchers who are, or plan to be, involved in the development or assessment of systematic reviews with meta-analyses using GRADE.\n\nRESULTS: We outline how the certainty of evidence is assessed, how the evidence is summarized using GRADE evidence profiles or summary of findings tables, how the results are communicated, and we discuss challenges, advantages, and disadvantages with using GRADE.\n\nCONCLUSIONS: This overview aims to provide an overview of how GRADE is used in systematic reviews and meta-analyses, and may be used by systematic review developers, methodologists, and evidence end-users."
+  },
+  {
+    "rank": 10,
+    "score": 6.503147125244141,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 5587626,
+    "chunk_id": 5587626,
+    "pmid": "34470914",
+    "title": "Best Practices for Meta-Reviews in Physical Activity and Health Research: Insights From the Physical Activity Guidelines for Americans Advisory Committee Scientific Report.",
+    "year": 2021,
+    "journal": "Journal of physical activity & health",
+    "authors": [
+      "Linda S Pescatello",
+      "Emily A Hennessy",
+      "Peter T Katzmarzyk",
+      "William E Kraus",
+      "Anne F Fish",
+      "Lynette L Craft",
+      "Blair T Johnson"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Advisory Committees",
+        "is_major": false,
+        "ui": "D026683"
+      },
+      {
+        "term": "Bias",
+        "is_major": false,
+        "ui": "D015982"
+      },
+      {
+        "term": "Biomedical Research",
+        "is_major": false,
+        "ui": "D035843"
+      },
+      {
+        "term": "Databases, Factual",
+        "is_major": false,
+        "ui": "D016208"
+      },
+      {
+        "term": "Evidence-Based Practice",
+        "is_major": true,
+        "ui": "D055317"
+      },
+      {
+        "term": "Exercise",
+        "is_major": true,
+        "ui": "D015444"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Meta-Analysis as Topic",
+        "is_major": false,
+        "ui": "D015201"
+      },
+      {
+        "term": "Research Report",
+        "is_major": false,
+        "ui": "D058028"
+      },
+      {
+        "term": "Systematic Reviews as Topic",
+        "is_major": false,
+        "ui": "D000078202"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "exercise",
+        "is_major": false
+      },
+      {
+        "term": "meta-analyses",
+        "is_major": false
+      },
+      {
+        "term": "reviews",
+        "is_major": false
+      },
+      {
+        "term": "systematic reviews",
+        "is_major": false
+      },
+      {
+        "term": "umbrella reviews",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "BACKGROUND: Systematic reviews (SRs) and meta-analyses (MAs) have proliferated with a concomitant increase in reviews of SRs/MAs or \"meta-reviews\" (MRs). As uncovered by the 2018 US Physical Activity Guidelines Advisory Committee (PAGAC), there is a paucity of best practice guidance on MRs on physical activity health-related research. This manuscript aims to fill this gap.\n\nMETHODS: In total, the PAGAC conducted 38 literature searches across 3 electronic databases and triaged 20,838 titles, 4913 abstracts, and 2139 full texts from which 1130 articles qualified for the PAGAC Scientific Report.\n\nRESULTS: During the MR process, the following challenges were encountered: (1)\u00a0if the SR/MA authors had limited experience in synthesis methodology, they likely did not account for risk of bias in the conclusions they reached; (2)\u00a0many SRs/MAs reviewed the same primary-level studies; (3)\u00a0many SRs/MAs failed to disclose effect modifier analyses; (4)\u00a0source populations varied; (5)\u00a0physical activity exposures were nonstandardized; and (6)\u00a0dose-response effects or effect modification of the physical activity exposure could not be identified.\n\nCONCLUSIONS: Using examples from the PAGAC Scientific Report, we provide (1)\u00a0a high-level introduction to MRs; (2)\u00a0recommended steps in conducting a MR; (3)\u00a0challenges that can be encountered; and (4)\u00a0guidance in addressing these challenges."
+  },
+  {
+    "rank": 1,
+    "score": 9.439553260803223,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 2991313,
+    "chunk_id": 2991313,
+    "pmid": "37591450",
+    "title": "Metformin derivatives - Researchers' friends or foes?",
+    "year": 2023,
+    "journal": "Biochemical pharmacology",
+    "authors": [
+      "Sema Tuna Torunoglu",
+      "Agnieszka Zajda",
+      "Janne Tampio",
+      "Magdalena Markowicz-Piasecka",
+      "Kristiina M Huttunen"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Drug Discovery",
+        "is_major": false,
+        "ui": "D055808"
+      },
+      {
+        "term": "Drug-Related Side Effects and Adverse Reactions",
+        "is_major": true,
+        "ui": "D064420"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Derivative",
+        "is_major": false
+      },
+      {
+        "term": "Metformin",
+        "is_major": false
+      },
+      {
+        "term": "Prodrug",
+        "is_major": false
+      },
+      {
+        "term": "Sulfenamide",
+        "is_major": false
+      },
+      {
+        "term": "Sulfonamide",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Metformin has been used for ages to treat diabetes mellitus due to its safety profile and low cost. However, metformin has variable pharmacokinetics in patients, and due to its poor oral absorption, the therapeutic doses are relatively high, causing unpleasant gastrointestinal adverse effects. Therefore, novel derivatives of metformin have been synthesized during the past decades. Particularly, after the mid-2000\u00a0s, when organic cation transporters were identified as the main metformin carriers, metformin derivatives have been under intensive investigation. Nevertheless, due to the biguanide structure, derivatives of metformin have been challenging to synthesize. Moreover, the mechanisms of metformin's action are not fully understood to date, and since it has multifunctional properties, the interests have switched to re-purposing for other diseases. Indeed, metformin derivatives have been demonstrated in many cases to be more effective than metformin itself and have the potential to be used in different diseases, including several types of cancers and neurodegenerative diseases. On the other hand, the pleiotropic nature of metformin and its derivatives can also create challenges. Not all properties are fit for all diseases. In this review, the history of the development of metformin-like compounds is summarized, and insights into their potential for future drug discovery are discussed."
+  },
+  {
+    "rank": 2,
+    "score": 8.098468780517578,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 4872943,
+    "chunk_id": 4872943,
+    "pmid": "35330695",
+    "title": "Evaluation of Metformin Hydrochloride Tailoring Bilosomes as an Effective Transdermal Nanocarrier.",
+    "year": 2022,
+    "journal": "International journal of nanomedicine",
+    "authors": [
+      "Heba F Salem",
+      "Mohammed M Nafady",
+      "Adel A Ali",
+      "Nermeen M Khalil",
+      "Amani A Elsisi"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": true,
+        "ui": "D003924"
+      },
+      {
+        "term": "Drug-Related Side Effects and Adverse Reactions",
+        "is_major": true,
+        "ui": "D064420"
+      },
+      {
+        "term": "Excipients",
+        "is_major": false,
+        "ui": "D005079"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Surface-Active Agents",
+        "is_major": false,
+        "ui": "D013501"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Design-Expert 13",
+        "is_major": false
+      },
+      {
+        "term": "bile salts",
+        "is_major": false
+      },
+      {
+        "term": "bilosome",
+        "is_major": false
+      },
+      {
+        "term": "edge activators",
+        "is_major": false
+      },
+      {
+        "term": "metformin HCL",
+        "is_major": false
+      },
+      {
+        "term": "permeation study",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Introduction: Metformin hydrochloride (metformin HCL), a first-line drug treating diabetes type II, was known to cause severe gastritis, so seeking a non-oral dosage form was the new trend. Bilosomes are bilayer nano-vesicles of non-ionic surfactants embodying bile salts. In our study, bilosomes were investigated as an acceptable novel carrier for active targeting transdermal delivery of metformin HCL, circumventing its side effects.\n\nMethods: Twelve bilosome formulations were prepared with solvent evaporation method with slight modification according to a 3\n\nResults: The resulting vesicles publicized EE from 56.21% to 94.21%, VS from 183.64 to 701.8 nm, PDI values oscillating between 0.33 and 0.53, ZP (absolute value) from 29 to 44.2 mV, biphasic release profile within 24 h from 60.62 and up to 75.28%, and permeation flux enhancement (198.79-431.91 ng cm\n\nConclusion: Overall results showed that bilosome incorporation of metformin HCL improved permeation and offered a new nano-carrier for active transdermal delivery."
+  },
+  {
+    "rank": 3,
+    "score": 7.8747148513793945,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 3590698,
+    "chunk_id": 3590698,
+    "pmid": "36852652",
+    "title": "Metformin counters oxidative stress and mitigates adverse effects of radiation exposure: An overview.",
+    "year": 2023,
+    "journal": "Fundamental & clinical pharmacology",
+    "authors": [
+      "Ekaterina Karmanova",
+      "Anatoly Chernikov",
+      "Anna Usacheva",
+      "Vladimir Ivanov",
+      "Vadim Bruskov"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": true,
+        "ui": "D003924"
+      },
+      {
+        "term": "Oxidative Stress",
+        "is_major": false,
+        "ui": "D018384"
+      },
+      {
+        "term": "Antioxidants",
+        "is_major": false,
+        "ui": "D000975"
+      },
+      {
+        "term": "Oxidation-Reduction",
+        "is_major": false,
+        "ui": "D010084"
+      },
+      {
+        "term": "Drug-Related Side Effects and Adverse Reactions",
+        "is_major": true,
+        "ui": "D064420"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "oxidative stress",
+        "is_major": false
+      },
+      {
+        "term": "radiation",
+        "is_major": false
+      },
+      {
+        "term": "radiomitigator",
+        "is_major": false
+      },
+      {
+        "term": "radiotherapeutic properties",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Metformin (1,1-dimethylbiguanidine hydrochloride) (MF) is a drug that has long been in use for the treatment of type 2 diabetes mellitus and recently is coming into use in the radiation therapy of cancer and other conditions. Exposure to ionizing radiation disturbs the redox homeostasis of cells and causes damage to proteins, membranes, and mitochondria, destroying a number of biological processes. After irradiation, MF activates cellular antioxidant and repair systems by signaling to eliminate the harmful consequences of disruption of redox homeostasis. The use of MF in the treatment of the negative effects of irradiation has great potential in medical patients after radiotherapy and in victims of nuclear accidents or radiologic terrorism."
+  },
+  {
+    "rank": 4,
+    "score": 7.662992000579834,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 7203794,
+    "chunk_id": 7203794,
+    "pmid": "32562114",
+    "title": "Identification of longevity compounds with minimized probabilities of side effects.",
+    "year": 2020,
+    "journal": "Biogerontology",
+    "authors": [
+      "Georges E Janssens",
+      "Riekelt H Houtkooper"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Aging",
+        "is_major": true,
+        "ui": "D000375"
+      },
+      {
+        "term": "Animals",
+        "is_major": false,
+        "ui": "D000818"
+      },
+      {
+        "term": "Databases, Factual",
+        "is_major": false,
+        "ui": "D016208"
+      },
+      {
+        "term": "Drug-Related Side Effects and Adverse Reactions",
+        "is_major": false,
+        "ui": "D064420"
+      },
+      {
+        "term": "Glucosamine",
+        "is_major": false,
+        "ui": "D005944"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Longevity",
+        "is_major": true,
+        "ui": "D008136"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Mice",
+        "is_major": false,
+        "ui": "D051379"
+      },
+      {
+        "term": "Probability",
+        "is_major": false,
+        "ui": "D011336"
+      },
+      {
+        "term": "Spermidine",
+        "is_major": false,
+        "ui": "D013095"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "D-Glucosamine",
+        "is_major": false
+      },
+      {
+        "term": "Geroprotectors",
+        "is_major": false
+      },
+      {
+        "term": "Hormesis",
+        "is_major": false
+      },
+      {
+        "term": "Side effects",
+        "is_major": false
+      },
+      {
+        "term": "Spermidine",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "It is hypothesized that treating the general aging population with compounds that slow aging, geroprotectors, could provide many benefits to society, including a reduction of age-related diseases. It is intuitive that such compounds should cause minimal side effects, since they would be distributed to otherwise healthy individuals for extended periods of time. The question therefore emerges of how we should prioritize geroprotectors discovered in model organisms for clinical testing in humans. In other words, which compounds are least likely to cause harm, while still potentially providing benefit? To systematically answer this question we queried the DrugAge database-containing hundreds of known geroprotectors-and cross-referenced this with a recently published repository of compound side effect predictions. In total, 124 geroprotectors were associated to 800 unique side effects. Geroprotectors with high risks of side effects, some even with risk for death, included lamotrigine and minocycline, while compounds with low side effect risks included spermidine and D-glucosamine. Despite their popularity as top geroprotector candidates for humans, sirolimus and metformin harbored greater risks of side effects than many other candidate geroprotectors, sirolimus being the more severe of the two. Furthermore, we found that a correlation existed between maximum lifespan extension in worms and the likelihood of causing a side effect, suggesting that extreme lifespan extension in model organisms should not necessarily be the priority when screening for novel geroprotectors. We discuss the implications of our findings for prioritizing geroprotectors, suggesting spermidine and D-glucosamine for clinical trials in humans."
+  },
+  {
+    "rank": 5,
+    "score": 7.662992000579834,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 8375528,
+    "chunk_id": 8375528,
+    "pmid": "31098946",
+    "title": "Metformin as a protective agent against natural or chemical toxicities: a comprehensive review on drug repositioning.",
+    "year": 2020,
+    "journal": "Journal of endocrinological investigation",
+    "authors": [
+      "S E Meshkani",
+      "D Mahdian",
+      "K Abbaszadeh-Goudarzi",
+      "M Abroudi",
+      "G Dadashizadeh",
+      "J-D Lalau",
+      "M E De Broe",
+      "H Hosseinzadeh"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": false,
+        "ui": "D003924"
+      },
+      {
+        "term": "Drug Repositioning",
+        "is_major": true,
+        "ui": "D058492"
+      },
+      {
+        "term": "Drug-Related Side Effects and Adverse Reactions",
+        "is_major": false,
+        "ui": "D064420"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Protective Agents",
+        "is_major": false,
+        "ui": "D020011"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Chemical toxin",
+        "is_major": false
+      },
+      {
+        "term": "Metformin protection",
+        "is_major": false
+      },
+      {
+        "term": "Natural toxin",
+        "is_major": false
+      },
+      {
+        "term": "Toxin",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "BACKGROUND: Metformin is the first prescribed drug for\u00a0hyperglycemia in type 2 diabetes mellitus. Mainly by activating AMPK pathway, this drug exerts various functions that among them protective effects are of the interest.\n\nPURPOSE: Herein, we aimed to gather data about the protective impacts of metformin against various natural or chemical toxicities.\n\nRESULTS: An extensive search among PubMed, Scopus, and Google Scholar was conducted by keywords related to protection, toxicity, natural and chemical toxins and, metformin. Our literature review showed metformin alongside its anti-hyperglycemic effect has a wide range of anti-toxic effects against anti-tumour and routine drugs, natural and chemical toxins, herbicides and, heavy metals.\n\nCONCLUSION: It is evident that metformin is a potent drug against the toxicity of a broad spectrum of natural, chemical toxic agents which is proved by a vast number of studies. Metformin mainly through AMPK axis can protect different organs against toxicities. Moreover, metformin preserves DNA integrity and can be an option for adjuvant therapy to ameliorate side effect of other therapeutics."
+  },
+  {
+    "rank": 6,
+    "score": 7.525237083435059,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 2436694,
+    "chunk_id": 2436694,
+    "pmid": "38269492",
+    "title": "Metformin adverse event profile: a pharmacovigilance study based on the FDA Adverse Event Reporting System (FAERS) from 2004 to 2022.",
+    "year": null,
+    "journal": "Expert review of clinical pharmacology",
+    "authors": [
+      "Yikuan Du",
+      "Jinfeng Zhu",
+      "Zhuoming Guo",
+      "Zhenjie Wang",
+      "Yuni Wang",
+      "Mianda Hu",
+      "Lingzhi Zhang",
+      "Yurong Yang",
+      "Jinjin Wang",
+      "Yixing Huang",
+      "Peiying Huang",
+      "Mianhai Chen",
+      "Bo Chen",
+      "Chun Yang"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "United States",
+        "is_major": false,
+        "ui": "D014481"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Pharmacovigilance",
+        "is_major": false,
+        "ui": "D060735"
+      },
+      {
+        "term": "Acute Disease",
+        "is_major": false,
+        "ui": "D000208"
+      },
+      {
+        "term": "Pancreatitis",
+        "is_major": true,
+        "ui": "D010195"
+      },
+      {
+        "term": "Adverse Drug Reaction Reporting Systems",
+        "is_major": false,
+        "ui": "D016907"
+      },
+      {
+        "term": "United States Food and Drug Administration",
+        "is_major": false,
+        "ui": "D014486"
+      },
+      {
+        "term": "Drug-Related Side Effects and Adverse Reactions",
+        "is_major": true,
+        "ui": "D064420"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "FAERS",
+        "is_major": false
+      },
+      {
+        "term": "Metformin",
+        "is_major": false
+      },
+      {
+        "term": "adverse drug reactions",
+        "is_major": false
+      },
+      {
+        "term": "lactic acidosis",
+        "is_major": false
+      },
+      {
+        "term": "pharmacovigilance",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "BACKGROUND: Metformin has the potential for treating numerous diseases, but there are still many unrecognized and unreported adverse events (AEs).\n\nMETHODS: We selected data from the United States FDA Adverse Event Reporting System (FAERS) database from the first quarter (Q1) of 2004 to the fourth quarter (Q4) of 2022 for disproportionality analysis to assess the association between metformin and related adverse events.\n\nRESULTS: In this study 10,500,295 case reports were collected from the FAERS database, of which 56,674 adverse events related to metformin were reported. A total of 643 preferred terms (PTs) and 27 system organ classes (SOCs) that were significant disproportionality conforming to the four algorithms simultaneously were included. The SOCs included metabolic and nutritional disorders (\n\nCONCLUSION: Most of our results were consistent with the specification, but some new signals of adverse reactions such as acute pancreatitis were not included. Therefore, further studies are needed to validate unlabeled adverse reactions and provide important support for clinical monitoring and risk identification of metformin."
+  },
+  {
+    "rank": 7,
+    "score": 7.462357521057129,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 5051672,
+    "chunk_id": 5051672,
+    "pmid": "35115253",
+    "title": "Metformin-based single pill drug combinations for type 2 diabetes in primary care England: A time trend analysis.",
+    "year": 2022,
+    "journal": "Primary care diabetes",
+    "authors": [
+      "Syed Shahzad Hasan",
+      "Qasim Aslam",
+      "Imarah Islam",
+      "Chia Siang Kow",
+      "Zaheer Ud Din Babar"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": true,
+        "ui": "D003924"
+      },
+      {
+        "term": "Drug Combinations",
+        "is_major": false,
+        "ui": "D004338"
+      },
+      {
+        "term": "Drug-Related Side Effects and Adverse Reactions",
+        "is_major": true,
+        "ui": "D064420"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Primary Health Care",
+        "is_major": false,
+        "ui": "D011320"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Adverse drug reactions",
+        "is_major": false
+      },
+      {
+        "term": "Cost",
+        "is_major": false
+      },
+      {
+        "term": "England",
+        "is_major": false
+      },
+      {
+        "term": "Metformin",
+        "is_major": false
+      },
+      {
+        "term": "Prescribing",
+        "is_major": false
+      },
+      {
+        "term": "Primary care",
+        "is_major": false
+      },
+      {
+        "term": "Single pill",
+        "is_major": false
+      },
+      {
+        "term": "Type 2 diabetes",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "AIMS: There has been an increase in prescribing and costs of oral hypoglycaemic agents in England and other countries. This study aims to investigate the trends in prescriptions, costs, and adverse events of metformin and metformin-based single pill drug combinations from 2015 to 2020 and explore why changes in use or cost are occurring.\n\nMETHODS: Prescriptions and costs data from Prescription Cost Analysis database and Interactive Drug Analysis Profiles presenting all suspected ADRs reported for each drug were examined. Pharmacy level prices were also obtained. Linear regression analysis was used to investigate the trends in prescribing and costs.\n\nRESULTS: Prescribing and costs of metformin-based single pill drug combinations (as a percent mean change per year) saw an increase of 8.78% (95% Cl: 7.45%, 10.11%, p = 0.001) and 5.17% (95% Cl: 2.13%, 8.22%, p = 0.009) on average each year, respectively. Metformin was the most prescribed monotherapy drug between 2015 and 2020. The cost of prescribing metformin (as a proportion of total oral hypoglycaemic agents) has been reduced from 30% in 2015 to 17% in 2020. Metformin-dipeptidyl peptidase-4 inhibitor (e.g., metformin-sitagliptin) combination was the most popular metformin-based single pill drug combination. The number of adverse drug reactions per million items dispensed shows that metformin has the lowest adverse drug reactions per million items compared to other oral hypoglycaemic drugs.\n\nCONCLUSIONS: Overall, an increase in prescription items can be seen for metformin-based single pill drug combinations along with an increase in their costs in primary care in England between 2015 and 2020. There was a declining trend for the number of ADRs reported per million prescription items dispensed for metformin-containing single pill combinations, even though their prescription rate increased."
+  },
+  {
+    "rank": 8,
+    "score": 7.462357521057129,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 10492662,
+    "chunk_id": 10492662,
+    "pmid": "28463344",
+    "title": "Minimizing weight gain for patients taking antipsychotic medications: The potential role for early use of metformin.",
+    "year": 2017,
+    "journal": "Annals of clinical psychiatry : official journal of the American Academy of Clinical Psychiatrists",
+    "authors": [
+      "Victoria Hendrick",
+      "Robert Dasher",
+      "Michael Gitlin",
+      "Mehrban Parsi"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Antipsychotic Agents",
+        "is_major": false,
+        "ui": "D014150"
+      },
+      {
+        "term": "Drug-Related Side Effects and Adverse Reactions",
+        "is_major": true,
+        "ui": "D064420"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Mental Disorders",
+        "is_major": false,
+        "ui": "D001523"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Time-to-Treatment",
+        "is_major": false,
+        "ui": "D061665"
+      },
+      {
+        "term": "Weight Gain",
+        "is_major": false,
+        "ui": "D015430"
+      }
+    ],
+    "keywords": [],
+    "citations": [],
+    "text": "BACKGROUND: Patients taking antipsychotic medications are at high risk for weight gain, which in turn leads to poor health outcomes, nonadherence with treatment, and low self-esteem.\n\nMETHODS: We reviewed published studies of pharmacologic interventions aimed at minimizing antipsychotic-induced weight gain. Treatments initiated prior to onset of weight gain were compared with those that started once weight gain already had occurred.\n\nRESULTS: Although data are limited, adjunctive medications for weight management appear to be more effective when initiated at or near the time when patients are first exposed to antipsychotic medications. Interventions initiated later in the course of treatment-typically after weight gain already has occurred-rarely help patients return to their pretreatment weight. The most commonly used adjunctive intervention has been metformin.\n\nCONCLUSIONS: Certain patients benefit from initiating metformin early in their exposure to second-generation antipsychotic agents. In particular, young, healthy patients beginning olanzapine or clozapine probably will experience less weight gain if they concomitantly initiate metformin."
+  },
+  {
+    "rank": 9,
+    "score": 7.462357521057129,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 1871672,
+    "chunk_id": 1871672,
+    "pmid": "38888389",
+    "title": "[Risk minimalisation measures for medications; are they incorporated in Dutch clinical guidelines?]",
+    "year": 2024,
+    "journal": "Nederlands tijdschrift voor geneeskunde",
+    "authors": [
+      "Renske J Grupstra",
+      "Satu J Siiskonen",
+      "Helga Gardarsdottir"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Netherlands",
+        "is_major": false,
+        "ui": "D009426"
+      },
+      {
+        "term": "Practice Guidelines as Topic",
+        "is_major": true,
+        "ui": "D017410"
+      },
+      {
+        "term": "Drug-Related Side Effects and Adverse Reactions",
+        "is_major": false,
+        "ui": "D064420"
+      },
+      {
+        "term": "Methotrexate",
+        "is_major": false,
+        "ui": "D008727"
+      },
+      {
+        "term": "Valproic Acid",
+        "is_major": false,
+        "ui": "D014635"
+      },
+      {
+        "term": "Fluoroquinolones",
+        "is_major": false,
+        "ui": "D024841"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Risk Management",
+        "is_major": false,
+        "ui": "D012308"
+      }
+    ],
+    "keywords": [],
+    "citations": [],
+    "text": "OBJECTIVE: Risk minimisation measures (RMM) are put in place to ensure safe and effective use of medicines. This study assessed whether RMM for five medicines are implemented in Dutch clinical guidelines.\n\nDESIGN: Descriptive study.\n\nMETHOD: Dutch clinical guidelines where treatment with valproate, fluoroquinolones, methotrexate, metformin or fluorouracil was recommended were identified. In those guidelines that had been updated after publication of the RMM, we determined whether RMM-information was included in the guideline.\n\nRESULTS: Out of 50 identified guidelines recommending treatment with one of the five medicines, only 21 (42%) were revised after RMM-implementation. Of these 21 guidelines, 12 (n = 57%) included RMM-related information.\n\nCONCLUSION: Uptake of RMM information in Dutch clinical guidelines is limited and RMM-publication does not prompt guideline updates. This suggests that guidelines alone are not an optimal way to inform health care professionals of new safety warnings."
+  },
+  {
+    "rank": 10,
+    "score": 7.376217365264893,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 7587671,
+    "chunk_id": 7587671,
+    "pmid": "32048185",
+    "title": "Sex Differences in Adverse Drug Reactions of Metformin: A Longitudinal Survey Study.",
+    "year": 2020,
+    "journal": "Drug safety",
+    "authors": [
+      "Sieta T de Vries",
+      "Petra Denig",
+      "Corine Ekhart",
+      "Peter G M Mol",
+      "Eugene P van Puijenbroek"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Adverse Drug Reaction Reporting Systems",
+        "is_major": false,
+        "ui": "D016907"
+      },
+      {
+        "term": "Drug-Related Side Effects and Adverse Reactions",
+        "is_major": false,
+        "ui": "D064420"
+      },
+      {
+        "term": "Female",
+        "is_major": false,
+        "ui": "D005260"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Longitudinal Studies",
+        "is_major": false,
+        "ui": "D008137"
+      },
+      {
+        "term": "Male",
+        "is_major": false,
+        "ui": "D008297"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Middle Aged",
+        "is_major": false,
+        "ui": "D008875"
+      },
+      {
+        "term": "Netherlands",
+        "is_major": false,
+        "ui": "D009426"
+      },
+      {
+        "term": "Pharmacovigilance",
+        "is_major": false,
+        "ui": "D060735"
+      },
+      {
+        "term": "Sex Factors",
+        "is_major": false,
+        "ui": "D012737"
+      },
+      {
+        "term": "Surveys and Questionnaires",
+        "is_major": false,
+        "ui": "D011795"
+      }
+    ],
+    "keywords": [],
+    "citations": [],
+    "text": "INTRODUCTION: In general, women more often experience metformin-associated adverse drug reactions (ADRs) than men.\n\nOBJECTIVES: We aimed to assess whether sex differences in reported ADRs for metformin are observed at different times after initiation, and to explore their concurrence with sex differences in the dose of metformin over time. This may guide future studies in assessing the involved mechanisms of sex differences in metformin-associated ADRs and may guide sex-specific management of ADRs in clinical practice.\n\nMETHODS: This study has a longitudinal design using data about patients initiating metformin collected by the Dutch National Pharmacovigilance Center Lareb through their Intensive Monitoring program. Patients were asked to complete a web-based questionnaire six times after initiation (i.e., at 2\u00a0weeks, 6\u00a0weeks and at 3, 6, 9, and 12\u00a0months). The outcome variables were the proportion of patients reporting any ADR (primary) and the dose of metformin (secondary). Sex differences in the proportions of ADRs and in the dose were tested at each assessment using Pearson Chi-Squared tests and Wilcoxon rank-sum tests, respectively. Using Bonferroni adjustment for multiple testing, a p value\u2009<\u20090.01 was considered statistically significant.\n\nRESULTS: The number of included patients was 1712 (40.9% women). Women reported an ADR more often than men, which was statistically significant at the assessment at 2\u00a0weeks (34% vs 25%, p\u2009<\u20090.001), and 6\u00a0weeks (37% vs 28%, p\u2009=\u20090.001) after initiation. In general, women were reported to be prescribed a lower dose than men, which became statistically significant at the 9-month assessment (p\u2009<\u20090.01).\n\nCONCLUSIONS: Sex differences in reported ADRs were seen in the first weeks after metformin initiation, whereas statistically significant differences in self-reported prescribed dosing were observed after several months. Patients, in particular women, might benefit from being prescribed lower metformin doses at treatment initiation."
+  }
+]

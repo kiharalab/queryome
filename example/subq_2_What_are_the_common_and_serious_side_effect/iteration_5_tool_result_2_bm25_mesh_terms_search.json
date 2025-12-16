@@ -1,0 +1,706 @@
+{
+  "query": "metformin adverse effects systematic review meta-analysis gastrointestinal diseases neurologic manifestations hypersensitivity",
+  "search_type": "bm25_mesh_terms",
+  "parameters": {
+    "k": 10
+  },
+  "results_count": 10,
+  "results": [
+    {
+      "rank": 1,
+      "score": 14.982101440429688,
+      "search_type": "bm25_mesh_terms",
+      "vector_id": 2877181,
+      "chunk_id": 2877181,
+      "pmid": "37699621",
+      "title": "Efficacy and safety of drug therapy for the prevention and treatment of chemotherapy-induced peripheral neuropathy: a protocol for a systematic review and network meta-analysis.",
+      "year": 2023,
+      "journal": "BMJ open",
+      "authors": [
+        "Miki Takenaka Sato",
+        "Takeshi Hasegawa",
+        "Hisashi Noma",
+        "Hideki Sugita",
+        "Erika Ota"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Network Meta-Analysis",
+          "is_major": false,
+          "ui": "D000071076"
+        },
+        {
+          "term": "Systematic Reviews as Topic",
+          "is_major": false,
+          "ui": "D000078202"
+        },
+        {
+          "term": "Drug-Related Side Effects and Adverse Reactions",
+          "is_major": true,
+          "ui": "D064420"
+        },
+        {
+          "term": "Peripheral Nervous System Diseases",
+          "is_major": true,
+          "ui": "D010523"
+        },
+        {
+          "term": "Antineoplastic Agents",
+          "is_major": true,
+          "ui": "D000970"
+        },
+        {
+          "term": "Meta-Analysis as Topic",
+          "is_major": false,
+          "ui": "D015201"
+        },
+        {
+          "term": "Review Literature as Topic",
+          "is_major": false,
+          "ui": "D012196"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "CHEMOTHERAPY",
+          "is_major": false
+        },
+        {
+          "term": "Neuropathology",
+          "is_major": false
+        },
+        {
+          "term": "ONCOLOGY",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "INTRODUCTION: Chemotherapy-induced peripheral neuropathy (CIPN) is one of the most common dose-limiting side effects of chemotherapeutic drugs. Numerous clinical trials of various targeted drugs for the prevention or treatment of CIPN have been conducted; however, previous systematic reviews with direct comparisons have failed to demonstrate the efficacy of these drugs in the prevention or treatment of CIPN. In addition, no systematic reviews have indirectly compared CIPN prevention and treatment. This article describes a protocol for evaluating the efficacy and safety of drug therapy for the prevention and treatment of CIPN. The results of the proposed systematic review with network meta-analysis (NMA) will provide new insights into the prevention and treatment of CIPN.\n\nMETHODS AND ANALYSIS: We will conduct a literature search in MEDLINE, PubMed, Embase, Cochrane Central Register of Controlled Trials and ClinicalTrials.gov to find relevant articles published through January 2023. We will include studies that investigated the efficacy and safety of vitamin B\n\nETHICS AND DISSEMINATION: This review does not require ethical approval. The research will be published in a peer-reviewed journal.\n\nPROSPERO REGISTRATION NUMBER: CRD42022371829."
+    },
+    {
+      "rank": 2,
+      "score": 14.59632396697998,
+      "search_type": "bm25_mesh_terms",
+      "vector_id": 7836504,
+      "chunk_id": 7836504,
+      "pmid": "31732106",
+      "title": "Limited Evidence Suggests Metformin Might Be Beneficial to Reduce Head and Neck Cancer Risk and Increase Overall Survival, While Any Benefit With Antiinflammatory Drugs Is Inconsistent.",
+      "year": 2019,
+      "journal": "The journal of evidence-based dental practice",
+      "authors": [
+        "Analia Veitz-Keenan",
+        "Thamar Delia Silvestre Calle",
+        "Marco Bergamini"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Head and Neck Neoplasms",
+          "is_major": true,
+          "ui": "D006258"
+        },
+        {
+          "term": "Metformin",
+          "is_major": true,
+          "ui": "D008687"
+        },
+        {
+          "term": "Meta-Analysis as Topic",
+          "is_major": false,
+          "ui": "D015201"
+        },
+        {
+          "term": "Systematic Reviews as Topic",
+          "is_major": false,
+          "ui": "D000078202"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "Metformin",
+          "is_major": false
+        },
+        {
+          "term": "NSAIDs",
+          "is_major": false
+        },
+        {
+          "term": "Oral cancer",
+          "is_major": false
+        },
+        {
+          "term": "Oral cancer prevention",
+          "is_major": false
+        },
+        {
+          "term": "Oral cancer risk",
+          "is_major": false
+        },
+        {
+          "term": "Statins",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "ARTICLE TITLE AND BIBLIOGRAPHIC INFORMATION: Protective effects of metformin, statins, and antiinflammatory drugs on head and neck cancer: A systematic review. Saka Herrán C, Jané-Salas E, Devesa AE, López-López J. Oral Oncol 2018;85:68-81.\n\nSOURCE OF FUNDING: None.\n\nTYPE OF DESIGN: Systematic review with meta-analysis."
+    },
+    {
+      "rank": 3,
+      "score": 14.176563262939453,
+      "search_type": "bm25_mesh_terms",
+      "vector_id": 27660004,
+      "chunk_id": 27660004,
+      "pmid": "39976244",
+      "title": "A commentary on Kim et al.'s (2025) mapping the multifaceted approaches and impacts of adverse childhood experiences: an umbrella review of meta-analyses for Journal of Child Psychology and Psychiatry's Annual Research Review.",
+      "year": 2025,
+      "journal": "Journal of child psychology and psychiatry, and allied disciplines",
+      "authors": [
+        "Todd I Herrenkohl"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Adverse Childhood Experiences",
+          "is_major": true,
+          "ui": "D000076783"
+        },
+        {
+          "term": "Child",
+          "is_major": false,
+          "ui": "D002648"
+        },
+        {
+          "term": "Systematic Reviews as Topic",
+          "is_major": false,
+          "ui": "D000078202"
+        },
+        {
+          "term": "Meta-Analysis as Topic",
+          "is_major": false,
+          "ui": "D015201"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "Adversity",
+          "is_major": false
+        },
+        {
+          "term": "prevention",
+          "is_major": false
+        },
+        {
+          "term": "protective factors",
+          "is_major": false
+        },
+        {
+          "term": "risk factors",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Research on Adverse Childhood Experiences (ACEs) has progresses at a rapid pace over the last 30 years and publications now span many fields and disciplines. With a literature this vast, it is important to stake stock of what is known and where gaps in knowledge remain by reviewing and synthesizing published findings. In this commentary, I center remarks on a well-designed umbrella review conducted by Kim et al. on the impact of ACEs. Their review adds depth and precision to earlier reviews on this topic and draws attention to areas where further research is needed, including mechanisms underlying the transmission of risk and the onset of health-related outcomes associated with ACE exposure. I conclude the commentary by echoing a call by Kim and colleagues for more investment in public health prevention to reduce ACE exposure, lessen trauma symptoms, and reduce costs to society."
+    },
+    {
+      "rank": 4,
+      "score": 14.098159790039062,
+      "search_type": "bm25_mesh_terms",
+      "vector_id": 7493712,
+      "chunk_id": 7493712,
+      "pmid": "32183872",
+      "title": "Adverse drug reactions associated with amitriptyline - protocol for a systematic multiple-indication review and meta-analysis.",
+      "year": 2020,
+      "journal": "Systematic reviews",
+      "authors": [
+        "Maria-Sophie Brueckle",
+        "Elizabeth T Thomas",
+        "Svenja E Seide",
+        "Maximilian Pilz",
+        "Ana Isabel Gonzalez-Gonzalez",
+        "Truc Sophia Nguyen",
+        "Sebastian Harder",
+        "Paul P Glasziou",
+        "Ferdinand M Gerlach",
+        "Christiane Muth"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Adult",
+          "is_major": false,
+          "ui": "D000328"
+        },
+        {
+          "term": "Amitriptyline",
+          "is_major": true,
+          "ui": "D000639"
+        },
+        {
+          "term": "Drug-Related Side Effects and Adverse Reactions",
+          "is_major": true,
+          "ui": "D064420"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Meta-Analysis as Topic",
+          "is_major": false,
+          "ui": "D015201"
+        },
+        {
+          "term": "Systematic Reviews as Topic",
+          "is_major": false,
+          "ui": "D000078202"
+        },
+        {
+          "term": "United States",
+          "is_major": false,
+          "ui": "D014481"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "Adverse drug reaction",
+          "is_major": false
+        },
+        {
+          "term": "Amitriptyline",
+          "is_major": false
+        },
+        {
+          "term": "Anticholinergic",
+          "is_major": false
+        },
+        {
+          "term": "Elderly",
+          "is_major": false
+        },
+        {
+          "term": "Meta-analysis",
+          "is_major": false
+        },
+        {
+          "term": "Multimedication",
+          "is_major": false
+        },
+        {
+          "term": "Multimorbidity",
+          "is_major": false
+        },
+        {
+          "term": "Multiple-indication review",
+          "is_major": false
+        },
+        {
+          "term": "Polypharmacy",
+          "is_major": false
+        },
+        {
+          "term": "Side effects",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "BACKGROUND: Unwanted anticholinergic effects are both underestimated and frequently overlooked. Failure to identify adverse drug reactions (ADRs) can lead to prescribing cascades and the unnecessary use of over-the-counter products. The objective of this systematic review and meta-analysis is to explore and quantify the frequency and severity of ADRs associated with amitriptyline vs. placebo in randomized controlled trials (RCTs) involving adults with any indication, as well as healthy individuals.\n\nMETHODS: A systematic search in six electronic databases, forward/backward searches, manual searches, and searches for Food and Drug Administration (FDA) and European Medicines Agency (EMA) approval studies, will be performed. Placebo-controlled RCTs evaluating amitriptyline in any dosage, regardless of indication and without restrictions on the time and language of publication, will be included, as will healthy individuals. Studies of topical amitriptyline, combination therapies, or including < 100 participants, will be excluded. Two investigators will screen the studies independently, assess methodological quality, and extract data on design, population, intervention, and outcomes ((non-)anticholinergic ADRs, e.g., symptoms, test results, and adverse drug events (ADEs) such as falls). The primary outcome will be the frequency of anticholinergic ADRs as a binary outcome (absolute number of patients with/without anticholinergic ADRs) in amitriptyline vs. placebo groups. Anticholinergic ADRs will be defined by an experienced clinical pharmacologist, based on literature and data from Martindale: The Complete Drug Reference. Secondary outcomes will be frequency and severity of (non-)anticholinergic ADRs and ADEs. The information will be synthesized in meta-analyses and narratives. We intend to assess heterogeneity using meta-regression (for indication, outcome, and time points) and I\n\nDISCUSSION: We will quantify the frequency of anticholinergic and other ADRs/ADEs in adults taking amitriptyline for any indication by comparing rates for amitriptyline vs. placebo, hence, preventing bias from disease symptoms and nocebo effects. As no standardized instrument exists to measure it, our overall estimate of anticholinergic ADRs may have limitations.\n\nSYSTEMATIC REVIEW REGISTRATION: Submitted to PROSPERO; assignment is in progress."
+    },
+    {
+      "rank": 5,
+      "score": 14.012664794921875,
+      "search_type": "bm25_mesh_terms",
+      "vector_id": 6954390,
+      "chunk_id": 6954390,
+      "pmid": "32871961",
+      "title": "The efficacy and safety of moxibustion for chemotherapy-induced gastrointestinal adverse reaction: A protocol for systematic review and meta-analysis.",
+      "year": 2020,
+      "journal": "Medicine",
+      "authors": [
+        "Han-Xiao Zhang",
+        "Cheng-Shun Zhang",
+        "Xiao-Qin Dai",
+        "Chuan-Yi Zuo",
+        "Peng Lv",
+        "Rui-Zhen Huang",
+        "Qian-Ning Mo",
+        "Yi-Feng Bai",
+        "Yi Zhou"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Antineoplastic Agents",
+          "is_major": false,
+          "ui": "D000970"
+        },
+        {
+          "term": "Gastrointestinal Diseases",
+          "is_major": false,
+          "ui": "D005767"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Meta-Analysis as Topic",
+          "is_major": false,
+          "ui": "D015201"
+        },
+        {
+          "term": "Moxibustion",
+          "is_major": true,
+          "ui": "D009071"
+        },
+        {
+          "term": "Systematic Reviews as Topic",
+          "is_major": false,
+          "ui": "D000078202"
+        }
+      ],
+      "keywords": [],
+      "citations": [],
+      "text": "BACKGROUND: Many cancer patients experience gastrointestinal adverse reaction during chemotherapy. Pharmacological interventions are commonly used to treat chemotherapy-induced gastrointestinal side effects but have various limitations. Clinical trials have indicated that moxibustion may alleviate gastrointestinal dysfunction and improve quality of life (QoL) after chemotherapy. This study aims to assess the efficacy and safety of moxibustion for chemotherapy-induced gastrointestinal adverse reaction through a systematic review and meta-analysis.\n\nMETHODS: All randomized controlled trials (RCTs) related to moxibution targeting chemotherapy-induced gastrointestinal adverse reaction will be searched in online databases, such as PubMed, EMBASE, the Cochrane Library, Web of Science, China National Knowledge Infrastructure (CNKI), the Chinese Scientific Journal Database (VIP Database) and WanFang Database from their inception to May 1, 2020. The primary outcome is the incidence and severity of chemotherapy-related gastrointestinal toxicities (nausea and vomiting, diarrhea and constipation). The secondary outcomes include the quality of life, biological parameters' alteration, and adverse events. Study selection, data extraction, and assessment of risk of bias will be performed independently by 2 researchers. The Cochrane Collaboration's Review Manager (RevMan 5.3) software will be used to conduct the direct meta-analysis.\n\nRESULTS: This study will provide a comprehensive review of the available evidence for the treatment of chemotherapy-induced gastrointestinal adverse reaction with moxibustion.\n\nCONCLUSION: The conclusion of this study will provide evidence to judge whether moxibustion is an effective and safety therapeutic intervention for chemotherapy-induced gastrointestinal adverse reaction.\n\nPROSPERO REGISTRATION NUMBER: CRD42020182990."
+    },
+    {
+      "rank": 6,
+      "score": 13.778133392333984,
+      "search_type": "bm25_mesh_terms",
+      "vector_id": 5653394,
+      "chunk_id": 5653394,
+      "pmid": "34426461",
+      "title": "Sibship size, birth order and risk of asthma and allergy: protocol for a systematic review and meta-analysis.",
+      "year": 2021,
+      "journal": "BMJ open",
+      "authors": [
+        "Daniil Lisik",
+        "Athina Ioannidou",
+        "Gregorio Milani",
+        "Sungkutu Nyassi",
+        "Saliha Selin Özuygur Ermis",
+        "Giulia C I Spolidoro",
+        "Emma Goksör",
+        "Göran Wennergren",
+        "Bright I Nwaru"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Asthma",
+          "is_major": true,
+          "ui": "D001249"
+        },
+        {
+          "term": "Birth Order",
+          "is_major": false,
+          "ui": "D001722"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Hypersensitivity",
+          "is_major": true,
+          "ui": "D006967"
+        },
+        {
+          "term": "Meta-Analysis as Topic",
+          "is_major": false,
+          "ui": "D015201"
+        },
+        {
+          "term": "Review Literature as Topic",
+          "is_major": false,
+          "ui": "D012196"
+        },
+        {
+          "term": "Systematic Reviews as Topic",
+          "is_major": false,
+          "ui": "D000078202"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "allergy",
+          "is_major": false
+        },
+        {
+          "term": "asthma",
+          "is_major": false
+        },
+        {
+          "term": "eczema",
+          "is_major": false
+        },
+        {
+          "term": "immunology",
+          "is_major": false
+        },
+        {
+          "term": "paediatric dermatology",
+          "is_major": false
+        },
+        {
+          "term": "paediatric infectious disease & immunisation",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "INTRODUCTION: The hygiene hypothesis suggests that reduced exposure to microbes might have contributed to the increase in prevalence and incidence of asthma and allergy observed during the second half of the last century. Following this proposal, several studies have investigated the role of sibship size and birth order in the development of asthma and allergic diseases, but the underlying evidence is conflicting. The objective of the present systematic review will be to identify, critically appraise and synthesise previous primary studies investigating the association of sibship size and birth order with the risk of asthma and allergic diseases.\n\nMETHODS AND ANALYSIS: The following databases will be searched: AMED, CABI, CINAHL, Embase, Google Scholar, OAIster, Open Access Theses and Dissertations, Open Grey, ProQuest Dissertations & Theses Global, PsycINFO, PubMed, SciELO, Scopus, Web of Science and WHO Global Index Medicus. Studies published up until 31 December 2020 will be eligible. There will be no restrictions by language and geographical location. Risk of bias in the included studies will be assessed using the Effective Public Health Practice Project quality assessment tool. The produced evidence will be synthesised narratively, and studies that present comparable numerical data will be included in meta-analyses using random effects model.\n\nETHICS AND DISSEMINATION: Only data from the published literature will be included in this systematic review. Therefore, no ethical approval is required. The final review paper will be published in a peer-reviewed journal.\n\nPROSPERO REGISTRATION NUMBER: CRD42020207905."
+    },
+    {
+      "rank": 7,
+      "score": 13.72903823852539,
+      "search_type": "bm25_mesh_terms",
+      "vector_id": 27753406,
+      "chunk_id": 27753406,
+      "pmid": "36701706",
+      "title": "Acupuncture for cancer patients with nausea and vomiting: A protocol for systematic review and meta-analysis.",
+      "year": 2023,
+      "journal": "Medicine",
+      "authors": [
+        "Sung-A Kim",
+        "Sabina Lim",
+        "Tiana Won",
+        "Sujung Yeo"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Systematic Reviews as Topic",
+          "is_major": false,
+          "ui": "D000078202"
+        },
+        {
+          "term": "Meta-Analysis as Topic",
+          "is_major": false,
+          "ui": "D015201"
+        },
+        {
+          "term": "Vomiting",
+          "is_major": false,
+          "ui": "D014839"
+        },
+        {
+          "term": "Nausea",
+          "is_major": false,
+          "ui": "D009325"
+        },
+        {
+          "term": "Acupuncture Therapy",
+          "is_major": true,
+          "ui": "D015670"
+        },
+        {
+          "term": "Neoplasms",
+          "is_major": true,
+          "ui": "D009369"
+        },
+        {
+          "term": "Drug-Related Side Effects and Adverse Reactions",
+          "is_major": true,
+          "ui": "D064420"
+        }
+      ],
+      "keywords": [],
+      "citations": [],
+      "text": "BACKGROUND: Nausea and vomiting are among the most common adverse effects experienced by cancer patients undergoing treatment worldwide. Their treatment with pharmacologic therapy can often be complicated by medication interactions and other unwanted side effects. The aim of this systematic review and meta-analysis protocol is to assess the effectiveness and safety of acupuncture therapy for treating nausea and vomiting in patients with cancer.\n\nMETHODS: Three electronic databases and 2 clinical registry platforms will be searched from inception to May 2022: the MEDLINE via PubMed, Embase via Ovid, the Cochrane Central Register of Controlled Trials via the Cochrane Library, the World Health Organisation International Clinical Trials Registry Platform, and National Institutes of Health Clinical trials.gov. Search terms will include nausea, vomiting, cancer, and acupuncture. Two researchers will independently select studies, extract data and assess the risk of bias. The primary outcome will be the incidence of nausea and/or vomiting or other validated outcome measures. Meta-analysis will be carried out using RevMan V.5.4. The quality of evidence from randomized clinical trials will be evaluated with the Grading of Recommendations Assessment, Development and Evaluation System tool.\n\nRESULTS: The results will provide a high-quality synthesis of evidence for clinicians in the field of oncology.\n\nCONCLUSION: The conclusion is expected to provide evidence to determine whether acupuncture is an effective and safe treatment for cancer patients with nausea and vomiting."
+    },
+    {
+      "rank": 8,
+      "score": 13.72903823852539,
+      "search_type": "bm25_mesh_terms",
+      "vector_id": 3723743,
+      "chunk_id": 3723743,
+      "pmid": "36701706",
+      "title": "Acupuncture for cancer patients with nausea and vomiting: A protocol for systematic review and meta-analysis.",
+      "year": 2023,
+      "journal": "Medicine",
+      "authors": [
+        "Sung-A Kim",
+        "Sabina Lim",
+        "Tiana Won",
+        "Sujung Yeo"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Systematic Reviews as Topic",
+          "is_major": false,
+          "ui": "D000078202"
+        },
+        {
+          "term": "Meta-Analysis as Topic",
+          "is_major": false,
+          "ui": "D015201"
+        },
+        {
+          "term": "Vomiting",
+          "is_major": false,
+          "ui": "D014839"
+        },
+        {
+          "term": "Nausea",
+          "is_major": false,
+          "ui": "D009325"
+        },
+        {
+          "term": "Acupuncture Therapy",
+          "is_major": true,
+          "ui": "D015670"
+        },
+        {
+          "term": "Neoplasms",
+          "is_major": true,
+          "ui": "D009369"
+        },
+        {
+          "term": "Drug-Related Side Effects and Adverse Reactions",
+          "is_major": true,
+          "ui": "D064420"
+        }
+      ],
+      "keywords": [],
+      "citations": [],
+      "text": "BACKGROUND: Nausea and vomiting are among the most common adverse effects experienced by cancer patients undergoing treatment worldwide. Their treatment with pharmacologic therapy can often be complicated by medication interactions and other unwanted side effects. The aim of this systematic review and meta-analysis protocol is to assess the effectiveness and safety of acupuncture therapy for treating nausea and vomiting in patients with cancer.\n\nMETHODS: Three electronic databases and 2 clinical registry platforms will be searched from inception to May 2022: the MEDLINE via PubMed, Embase via Ovid, the Cochrane Central Register of Controlled Trials via the Cochrane Library, the World Health Organisation International Clinical Trials Registry Platform, and National Institutes of Health Clinical trials.gov. Search terms will include nausea, vomiting, cancer, and acupuncture. Two researchers will independently select studies, extract data and assess the risk of bias. The primary outcome will be the incidence of nausea and/or vomiting or other validated outcome measures. Meta-analysis will be carried out using RevMan V.5.4. The quality of evidence from randomized clinical trials will be evaluated with the Grading of Recommendations Assessment, Development and Evaluation System tool.\n\nRESULTS: The results will provide a high-quality synthesis of evidence for clinicians in the field of oncology.\n\nCONCLUSION: The conclusion is expected to provide evidence to determine whether acupuncture is an effective and safe treatment for cancer patients with nausea and vomiting."
+    },
+    {
+      "rank": 9,
+      "score": 13.59051513671875,
+      "search_type": "bm25_mesh_terms",
+      "vector_id": 13186419,
+      "chunk_id": 13186419,
+      "pmid": "24973984",
+      "title": "Efficacy of turmeric in the treatment of digestive disorders: a systematic review and meta-analysis protocol.",
+      "year": 2014,
+      "journal": "Systematic reviews",
+      "authors": [
+        "Kednapa Thavorn",
+        "Muhammad M Mamdani",
+        "Sharon E Straus"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Curcuma",
+          "is_major": true,
+          "ui": "D030024"
+        },
+        {
+          "term": "Gastrointestinal Diseases",
+          "is_major": false,
+          "ui": "D005767"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Phytotherapy",
+          "is_major": false,
+          "ui": "D008517"
+        },
+        {
+          "term": "Systematic Reviews as Topic",
+          "is_major": false,
+          "ui": "D000078202"
+        },
+        {
+          "term": "Treatment Outcome",
+          "is_major": false,
+          "ui": "D016896"
+        },
+        {
+          "term": "Meta-Analysis as Topic",
+          "is_major": false,
+          "ui": "D015201"
+        }
+      ],
+      "keywords": [],
+      "citations": [],
+      "text": "BACKGROUND: Digestive disorders pose significant burdens to millions of people worldwide in terms of morbidity, mortality and healthcare costs. Turmeric has been traditionally used for conditions associated with the digestive system, and its therapeutic benefits were also confirmed in clinical studies. However, rigorous systematic review on this topic is severely limited. Our study aims to systematically review the therapeutic and adverse effects of turmeric and its compounds on digestive disorders, including dyspepsia, peptic ulcer, irritable bowel disease, Crohn's disease, ulcerative colitis, and gastroesophageal reflux disease.\n\nMETHODS/DESIGN: This study will include both randomized controlled trials and non-randomized controlled trials assessing the efficacy and safety of turmeric or its compounds in comparison to a placebo or any other active interventions for digestive disorders without any restrictions on participant age or language of publication. The primary outcome is the proportion of patients that have experienced treatment success. Secondary outcomes are the prevalence of an individual symptom of digestive disorders, the proportion of patients who experienced relapse, the number of physician visits/hospitalization due to digestive disorders, health-related quality of life and the proportion of patients who experienced adverse events. Relevant studies will be identified through MEDLINE, EMBASE, AMED, Dissertations & Theses Database and the Cochrane Central Register of Control Trials from their inception to August 31, 2013. In addition, grey literature such as information published on drug regulatory agencies websites and abstracts/proceedings from conferences will also be reviewed. A calibration exercise will be conducted in a process of study screening, whereby two reviewers will independently screen titles and abstracts from the literature search. Any conflicts will be resolved through a subsequent team discussion. The same process will be adopted in data abstraction and methodological quality appraisal by the Cochrane Risk of Bias Tool and the Newcastle-Ottawa Scale. We will describe study and patient characteristics, risk of bias/methodological quality results, and outcomes of the included studies. If we have sufficient data and homogeneity, a random effects meta-analysis will be performed.\n\nDISCUSSION: Our results will help patients and healthcare practitioners to make informed decisions when considering turmeric as an alternative therapy for digestive disorders.\n\nTRIAL REGISTRATION: PROSPERO registry number: CRD42013005739."
+    },
+    {
+      "rank": 10,
+      "score": 13.556554794311523,
+      "search_type": "bm25_mesh_terms",
+      "vector_id": 14581335,
+      "chunk_id": 14581335,
+      "pmid": "23198755",
+      "title": "Pharmacologic interventions for painful diabetic neuropathy: an umbrella systematic review and comparative effectiveness network meta-analysis (Protocol).",
+      "year": 2012,
+      "journal": "Systematic reviews",
+      "authors": [
+        "Marcio L Griebeler",
+        "Apostolos Tsapas",
+        "Juan P Brito",
+        "Zhen Wang",
+        "Olivia J Phung",
+        "Victor M Montori",
+        "M Hassan Murad"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Analgesics",
+          "is_major": true,
+          "ui": "D000700"
+        },
+        {
+          "term": "Comparative Effectiveness Research",
+          "is_major": true,
+          "ui": "D057186"
+        },
+        {
+          "term": "Diabetic Neuropathies",
+          "is_major": true,
+          "ui": "D003929"
+        },
+        {
+          "term": "Systematic Reviews as Topic",
+          "is_major": false,
+          "ui": "D000078202"
+        },
+        {
+          "term": "Meta-Analysis as Topic",
+          "is_major": false,
+          "ui": "D015201"
+        },
+        {
+          "term": "Network Meta-Analysis",
+          "is_major": false,
+          "ui": "D000071076"
+        }
+      ],
+      "keywords": [],
+      "citations": [],
+      "text": "BACKGROUND: Neuropathic pain can reduce the quality of life and independence of 30% to 50% of patients with diabetes. The comparative effectiveness of analgesics for patients with diabetic neuropathy remains unclear. The aim of the current work, therefore, was to summarize the evidence about the analgesic effectiveness of the most common oral and topical agents used for the treatment of peripheral diabetic neuropathy.\n\nMETHODS: We will use an umbrella approach (systematic review of systematic reviews) to identify eligible randomized controlled trials (RCTs) for the most common oral or topical analgesics for painful diabetic neuropathy. Two reviewers will independently determine RCT eligibility. Disagreement will be solved by consensus and arbitrated by a third reviewer. We will extract descriptive, methodological and efficacy data in duplicate. Results will be pooled and analyzed using classic random-effects meta-analyses and network meta-analyses to compute the absolute and relative efficacy of therapeutic options. We will use the I2 statistic and Cochran's Q test to assess heterogeneity. Risk of bias and publication bias, if appropriate, will be evaluated, as well as overall strength of the evidence.\n\nDISCUSSION: This network meta-analysis aims to synthesize available direct and indirect evidence of effectiveness of analgesics in the treatment of painful diabetic neuropathy. The network approach will offer the opportunity to generate a ranking based on efficacy and along with known side effects, costs, and administration burdens will enable patients and clinicians to make choices that best reflect their preferences for treatment of painful diabetic neuropathy."
+    }
+  ]
+}

@@ -1,0 +1,927 @@
+{
+  "query": "mechanism of action of metformin",
+  "search_type": "hybrid",
+  "parameters": {
+    "k": 10,
+    "alpha": 0.7
+  },
+  "results_count": 10,
+  "results": [
+    {
+      "rank": 1,
+      "score": 0.8291312877148025,
+      "search_type": "hybrid",
+      "vector_id": 15753847,
+      "chunk_id": 15753847,
+      "pmid": "21677353",
+      "title": "[Metformin - mechanisms of action and use for the treatment of type 2 diabetes mellitus].",
+      "year": 2011,
+      "journal": "Postepy higieny i medycyny doswiadczalnej (Online)",
+      "authors": [
+        "Marzena Grzybowska",
+        "Joanna Bober",
+        "Maria Olszewska"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Diabetes Mellitus, Type 2",
+          "is_major": false,
+          "ui": "D003924"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Hypoglycemic Agents",
+          "is_major": false,
+          "ui": "D007004"
+        },
+        {
+          "term": "Metformin",
+          "is_major": false,
+          "ui": "D008687"
+        },
+        {
+          "term": "Treatment Outcome",
+          "is_major": false,
+          "ui": "D016896"
+        }
+      ],
+      "keywords": [],
+      "citations": [],
+      "text": "Metformin is widely used for the treatment of type 2 diabetes mellitus. Although this biguanide derivative has been used for more than 50 years, its mechanism of action has not been fully elucidated. In this article we describe the latest achievements concerning the mechanisms of antihyperglycemic action of metformin. They include: decrease of glucose absorption in the small intestine, increase of glucose transport into cells, decrease in the plasma free fatty acid concentrations and inhibition of gluconeogenesis. Activation of AMP-activated protein kinase (AMPK) plays an important role in these processes. The latest discoveries have revealed mechanisms of anti-atherosclerotic, hypotensive and anticancer action of metformin and its impact on vein endothelial function. The pleiotropic actions of metformin include impact on plasma lipid profile, decrease of oxidative stress, and increase in plasma fibrinolytic activity. Although metformin is not metabolized, the latest research has shown that it is actively transported into hepatocytes and renal tubular epithelium, by OCT1 (organic cation transporter 1, encoded by the SLC22A1 gene) and OCT2 (organic cation transporter 2, encoded by the SLC22A2 gene), respectively. However, MATE1 transporter (multidrug and toxin extrusion 1 protein) is encoded by the SLC47A1 gene and facilitates metformin excretion from these cells into bile and urine. Metformin transporter gene polymorphisms may contribute to significant variation in drug response. Further studies of mechanisms of metformin action could contribute to its wider use for the prevention of type 2 diabetes mellitus, cancer, and Alzheimer’s disease, and for the treatment of type 1 diabetes mellitus, and polycystic ovary syndrome (PCOS)."
+    },
+    {
+      "rank": 2,
+      "score": 0.8051953659325545,
+      "search_type": "hybrid",
+      "vector_id": 14275358,
+      "chunk_id": 14275358,
+      "pmid": "23582849",
+      "title": "Revisiting the mechanisms of metformin action in the liver.",
+      "year": 2013,
+      "journal": "Annales d'endocrinologie",
+      "authors": [
+        "Benoit Viollet",
+        "Marc Foretz"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Animals",
+          "is_major": false,
+          "ui": "D000818"
+        },
+        {
+          "term": "Diabetes Mellitus, Type 2",
+          "is_major": false,
+          "ui": "D003924"
+        },
+        {
+          "term": "Galega",
+          "is_major": false,
+          "ui": "D029881"
+        },
+        {
+          "term": "History, 20th Century",
+          "is_major": false,
+          "ui": "D049673"
+        },
+        {
+          "term": "History, 21st Century",
+          "is_major": false,
+          "ui": "D049674"
+        },
+        {
+          "term": "History, Medieval",
+          "is_major": false,
+          "ui": "D049691"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Hypoglycemic Agents",
+          "is_major": false,
+          "ui": "D007004"
+        },
+        {
+          "term": "Liver",
+          "is_major": false,
+          "ui": "D008099"
+        },
+        {
+          "term": "Metformin",
+          "is_major": false,
+          "ui": "D008687"
+        },
+        {
+          "term": "Phytotherapy",
+          "is_major": false,
+          "ui": "D008517"
+        }
+      ],
+      "keywords": [],
+      "citations": [],
+      "text": "Although considerable efforts have been made since the 1950s to better understand the action of metformin, the first line therapeutic for type 2 diabetes, its mechanisms of action has not been fully elucidated. The main antidiabetic effect of this drug is to decrease hepatic glucose production. A plausible molecular mechanism of action now emerges from recent breakthroughs that place metformin at the control of energy homeostasis. Metformin was shown to induce a mild and transient inhibition of the mitochondrial respiratory chain complex 1. The resulting decrease in hepatic energy state activates the AMP-activated protein kinase (AMPK), a cellular metabolic sensor, and provided a generally accepted mechanism for metformin action on hepatic gluconeogenic program. However, the role of AMPK activation in metformin action has recently been challenged by loss-of-function experiments. Recent evidence showed that metformin-induced inhibition of hepatic glucose output is mediated by reducing cellular energy charge rather than direct inhibition of gluconeogenic gene expression. Furthermore, recent data support a novel mechanism of action for metformin involving antagonism of glucagon signaling pathways by inducing the accumulation of AMP, which inhibits adenylate cyclase and reduced levels of cAMP."
+    },
+    {
+      "rank": 3,
+      "score": 0.7972544461496724,
+      "search_type": "hybrid",
+      "vector_id": 5115903,
+      "chunk_id": 5115903,
+      "pmid": "35067907",
+      "title": "An update on mode of action of metformin in modulation of meta-inflammation and inflammaging.",
+      "year": 2022,
+      "journal": "Pharmacological reports : PR",
+      "authors": [
+        "Meysam Khodadadi",
+        "Davoud Jafari-Gharabaghlou",
+        "Nosratollah Zarghami"
+      ],
+      "mesh_terms": [
+        {
+          "term": "AMP-Activated Protein Kinases",
+          "is_major": false,
+          "ui": "D055372"
+        },
+        {
+          "term": "Diabetes Mellitus, Type 2",
+          "is_major": true,
+          "ui": "D003924"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Hypoglycemic Agents",
+          "is_major": false,
+          "ui": "D007004"
+        },
+        {
+          "term": "Inflammation",
+          "is_major": false,
+          "ui": "D007249"
+        },
+        {
+          "term": "Metformin",
+          "is_major": true,
+          "ui": "D008687"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "Aging",
+          "is_major": false
+        },
+        {
+          "term": "Diabetes",
+          "is_major": false
+        },
+        {
+          "term": "Inflammaging",
+          "is_major": false
+        },
+        {
+          "term": "Metformin",
+          "is_major": false
+        },
+        {
+          "term": "Obesity",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Type 2 diabetes mellitus (T2DM) is the most common chronic metabolic condition. Several genetic and environmental factors are involved in developing T2DM. Aging, inflammation, and obesity are the main contributors to the initiation of T2DM. They cause chronic sterile meta-inflammation and insulin resistance, thereby making a person more susceptible to developing T2DM. Metformin, a natural cationic biguanide, is widely used as the first-line treatment of T2DM. The exact action mechanism behind the glucose-lowering effect of metformin is not clear, but, presumably, metformin utilizes a broad spectrum of molecular mechanisms to control blood glucose including decreasing intestinal glucose absorption, inhibition of the hepatic gluconeogenesis, decreasing insulin resistance, etc. Recent studies have shown that metformin exerts its effects through the inhibition of mitochondrial respiratory chain complex 1 and the AMP-activated protein kinase (AMPK) activation, but it has been identified in the other studies that AMPK is not the sole hub in metformin mode of action or there are other unknown mechanisms which are involved and yet to be explored. Therefore, here, we discuss the updated findings of the mechanism of action of metformin that contributes to the meta-inflammation and inflammaging action. It is proposed that figuring out the precise mechanism of action of metformin could improve its application in the fields of obesity, inflammation, aging, and inflammaging."
+    },
+    {
+      "rank": 4,
+      "score": 0.7969466936017957,
+      "search_type": "hybrid",
+      "vector_id": 8101522,
+      "chunk_id": 8101522,
+      "pmid": "31439934",
+      "title": "Understanding the glucoregulatory mechanisms of metformin in type 2 diabetes mellitus.",
+      "year": 2019,
+      "journal": "Nature reviews. Endocrinology",
+      "authors": [
+        "Marc Foretz",
+        "Bruno Guigas",
+        "Benoit Viollet"
+      ],
+      "mesh_terms": [
+        {
+          "term": "AMP-Activated Protein Kinases",
+          "is_major": false,
+          "ui": "D055372"
+        },
+        {
+          "term": "Animals",
+          "is_major": false,
+          "ui": "D000818"
+        },
+        {
+          "term": "Diabetes Mellitus, Type 2",
+          "is_major": false,
+          "ui": "D003924"
+        },
+        {
+          "term": "Electron Transport",
+          "is_major": false,
+          "ui": "D004579"
+        },
+        {
+          "term": "Gastrointestinal Microbiome",
+          "is_major": false,
+          "ui": "D000069196"
+        },
+        {
+          "term": "Glucose",
+          "is_major": false,
+          "ui": "D005947"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Hypoglycemic Agents",
+          "is_major": false,
+          "ui": "D007004"
+        },
+        {
+          "term": "Metformin",
+          "is_major": false,
+          "ui": "D008687"
+        }
+      ],
+      "keywords": [],
+      "citations": [],
+      "text": "Despite its position as the first-line drug for treatment of type 2 diabetes mellitus, the mechanisms underlying the plasma glucose level-lowering effects of metformin (1,1-dimethylbiguanide) still remain incompletely understood. Metformin is thought to exert its primary antidiabetic action through the suppression of hepatic glucose production. In addition, the discovery that metformin inhibits the mitochondrial respiratory chain complex 1 has placed energy metabolism and activation of AMP-activated protein kinase (AMPK) at the centre of its proposed mechanism of action. However, the role of AMPK has been challenged and might only account for indirect changes in hepatic insulin sensitivity. Various mechanisms involving alterations in cellular energy charge, AMP-mediated inhibition of adenylate cyclase or fructose-1,6-bisphosphatase 1 and modulation of the cellular redox state through direct inhibition of mitochondrial glycerol-3-phosphate dehydrogenase have been proposed for the acute inhibition of gluconeogenesis by metformin. Emerging evidence suggests that metformin could improve obesity-induced meta-inflammation via direct and indirect effects on tissue-resident immune cells in metabolic organs (that is, adipose tissue, the gastrointestinal tract and the liver). Furthermore, the gastrointestinal tract also has a major role in metformin action through modulation of glucose-lowering hormone glucagon-like peptide 1 and the intestinal bile acid pool and alterations in gut microbiota composition."
+    },
+    {
+      "rank": 5,
+      "score": 0.7826704829294889,
+      "search_type": "hybrid",
+      "vector_id": 15390547,
+      "chunk_id": 15390547,
+      "pmid": "22117616",
+      "title": "Cellular and molecular mechanisms of metformin: an overview.",
+      "year": 2012,
+      "journal": "Clinical science (London, England : 1979)",
+      "authors": [
+        "Benoit Viollet",
+        "Bruno Guigas",
+        "Nieves Sanz Garcia",
+        "Jocelyne Leclerc",
+        "Marc Foretz",
+        "Fabrizio Andreelli"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Animals",
+          "is_major": false,
+          "ui": "D000818"
+        },
+        {
+          "term": "Cardiovascular System",
+          "is_major": false,
+          "ui": "D002319"
+        },
+        {
+          "term": "Circadian Clocks",
+          "is_major": false,
+          "ui": "D057906"
+        },
+        {
+          "term": "Diabetic Nephropathies",
+          "is_major": false,
+          "ui": "D003928"
+        },
+        {
+          "term": "Female",
+          "is_major": false,
+          "ui": "D005260"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Hypoglycemic Agents",
+          "is_major": false,
+          "ui": "D007004"
+        },
+        {
+          "term": "Metformin",
+          "is_major": false,
+          "ui": "D008687"
+        },
+        {
+          "term": "Neoplasms",
+          "is_major": false,
+          "ui": "D009369"
+        },
+        {
+          "term": "Polycystic Ovary Syndrome",
+          "is_major": false,
+          "ui": "D011085"
+        }
+      ],
+      "keywords": [],
+      "citations": [],
+      "text": "Considerable efforts have been made since the 1950s to better understand the cellular and molecular mechanisms of action of metformin, a potent antihyperglycaemic agent now recommended as the first-line oral therapy for T2D (Type 2 diabetes). The main effect of this drug from the biguanide family is to acutely decrease hepatic glucose production, mostly through a mild and transient inhibition of the mitochondrial respiratory chain complex I. In addition, the resulting decrease in hepatic energy status activates AMPK (AMP-activated protein kinase), a cellular metabolic sensor, providing a generally accepted mechanism for the action of metformin on hepatic gluconeogenesis. The demonstration that respiratory chain complex I, but not AMPK, is the primary target of metformin was recently strengthened by showing that the metabolic effect of the drug is preserved in liver-specific AMPK-deficient mice. Beyond its effect on glucose metabolism, metformin has been reported to restore ovarian function in PCOS (polycystic ovary syndrome), reduce fatty liver, and to lower microvascular and macrovascular complications associated with T2D. Its use has also recently been suggested as an adjuvant treatment for cancer or gestational diabetes and for the prevention in pre-diabetic populations. These emerging new therapeutic areas for metformin will be reviewed together with recent findings from pharmacogenetic studies linking genetic variations to drug response, a promising new step towards personalized medicine in the treatment of T2D."
+    },
+    {
+      "rank": 6,
+      "score": 0.7578074113770897,
+      "search_type": "hybrid",
+      "vector_id": 21537120,
+      "chunk_id": 21537120,
+      "pmid": "11602624",
+      "title": "Role of AMP-activated protein kinase in mechanism of metformin action.",
+      "year": 2001,
+      "journal": "The Journal of clinical investigation",
+      "authors": [
+        "G Zhou",
+        "R Myers",
+        "Y Li",
+        "Y Chen",
+        "X Shen",
+        "J Fenyk-Melody",
+        "M Wu",
+        "J Ventre",
+        "T Doebber",
+        "N Fujii",
+        "N Musi",
+        "M F Hirshman",
+        "L J Goodyear",
+        "D E Moller"
+      ],
+      "mesh_terms": [
+        {
+          "term": "AMP-Activated Protein Kinases",
+          "is_major": false,
+          "ui": "D055372"
+        },
+        {
+          "term": "Aminoimidazole Carboxamide",
+          "is_major": false,
+          "ui": "D000620"
+        },
+        {
+          "term": "Animals",
+          "is_major": false,
+          "ui": "D000818"
+        },
+        {
+          "term": "CCAAT-Enhancer-Binding Proteins",
+          "is_major": false,
+          "ui": "D022762"
+        },
+        {
+          "term": "DNA-Binding Proteins",
+          "is_major": false,
+          "ui": "D004268"
+        },
+        {
+          "term": "Diabetes Mellitus, Type 2",
+          "is_major": false,
+          "ui": "D003924"
+        },
+        {
+          "term": "Enzyme Activation",
+          "is_major": false,
+          "ui": "D004789"
+        },
+        {
+          "term": "Fatty Acids",
+          "is_major": false,
+          "ui": "D005227"
+        },
+        {
+          "term": "Gene Expression",
+          "is_major": false,
+          "ui": "D015870"
+        },
+        {
+          "term": "Glucose",
+          "is_major": false,
+          "ui": "D005947"
+        },
+        {
+          "term": "Hepatocytes",
+          "is_major": false,
+          "ui": "D022781"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Hypoglycemic Agents",
+          "is_major": false,
+          "ui": "D007004"
+        },
+        {
+          "term": "In Vitro Techniques",
+          "is_major": false,
+          "ui": "D066298"
+        },
+        {
+          "term": "Male",
+          "is_major": false,
+          "ui": "D008297"
+        },
+        {
+          "term": "Metformin",
+          "is_major": false,
+          "ui": "D008687"
+        },
+        {
+          "term": "Multienzyme Complexes",
+          "is_major": false,
+          "ui": "D009097"
+        },
+        {
+          "term": "Muscle, Skeletal",
+          "is_major": false,
+          "ui": "D018482"
+        },
+        {
+          "term": "Protein Kinase Inhibitors",
+          "is_major": false,
+          "ui": "D047428"
+        },
+        {
+          "term": "Protein Kinases",
+          "is_major": true,
+          "ui": "D011494"
+        },
+        {
+          "term": "Protein Serine-Threonine Kinases",
+          "is_major": false,
+          "ui": "D017346"
+        },
+        {
+          "term": "Pyrazoles",
+          "is_major": false,
+          "ui": "D011720"
+        },
+        {
+          "term": "Pyrimidines",
+          "is_major": false,
+          "ui": "D011743"
+        },
+        {
+          "term": "RNA, Messenger",
+          "is_major": false,
+          "ui": "D012333"
+        },
+        {
+          "term": "Rats",
+          "is_major": false,
+          "ui": "D051381"
+        },
+        {
+          "term": "Rats, Sprague-Dawley",
+          "is_major": false,
+          "ui": "D017207"
+        },
+        {
+          "term": "Ribonucleotides",
+          "is_major": false,
+          "ui": "D012265"
+        },
+        {
+          "term": "Sterol Regulatory Element Binding Protein 1",
+          "is_major": false,
+          "ui": "D051780"
+        },
+        {
+          "term": "Transcription Factors",
+          "is_major": true,
+          "ui": "D014157"
+        }
+      ],
+      "keywords": [],
+      "citations": [
+        {
+          "type": "CommentIn",
+          "source": "J Clin Invest. 2001 Oct;108(8):1105-7. doi: 10.1172/JCI14178",
+          "pmid": "11602616"
+        }
+      ],
+      "text": "Metformin is a widely used drug for treatment of type 2 diabetes with no defined cellular mechanism of action. Its glucose-lowering effect results from decreased hepatic glucose production and increased glucose utilization. Metformin's beneficial effects on circulating lipids have been linked to reduced fatty liver. AMP-activated protein kinase (AMPK) is a major cellular regulator of lipid and glucose metabolism. Here we report that metformin activates AMPK in hepatocytes; as a result, acetyl-CoA carboxylase (ACC) activity is reduced, fatty acid oxidation is induced, and expression of lipogenic enzymes is suppressed. Activation of AMPK by metformin or an adenosine analogue suppresses expression of SREBP-1, a key lipogenic transcription factor. In metformin-treated rats, hepatic expression of SREBP-1 (and other lipogenic) mRNAs and protein is reduced; activity of the AMPK target, ACC, is also reduced. Using a novel AMPK inhibitor, we find that AMPK activation is required for metformin's inhibitory effect on glucose production by hepatocytes. In isolated rat skeletal muscles, metformin stimulates glucose uptake coincident with AMPK activation. Activation of AMPK provides a unified explanation for the pleiotropic beneficial effects of this drug; these results also suggest that alternative means of modulating AMPK should be useful for the treatment of metabolic disorders."
+    },
+    {
+      "rank": 7,
+      "score": 0.757697324315894,
+      "search_type": "hybrid",
+      "vector_id": 4982561,
+      "chunk_id": 4982561,
+      "pmid": "35216316",
+      "title": "Metformin's Mechanism of Action Is Stimulation of the Biosynthesis of the Natural Cyclic AMP Antagonist Prostaglandylinositol Cyclic Phosphate (Cyclic PIP).",
+      "year": 2022,
+      "journal": "International journal of molecular sciences",
+      "authors": [
+        "Heinrich K Wasner"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Cyclic AMP",
+          "is_major": true,
+          "ui": "D000242"
+        },
+        {
+          "term": "Inositol Phosphates",
+          "is_major": false,
+          "ui": "D007295"
+        },
+        {
+          "term": "Insulin",
+          "is_major": false,
+          "ui": "D007328"
+        },
+        {
+          "term": "Metformin",
+          "is_major": true,
+          "ui": "D008687"
+        },
+        {
+          "term": "Prostaglandins E",
+          "is_major": false,
+          "ui": "D011458"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "biguanides",
+          "is_major": false
+        },
+        {
+          "term": "cyclic AMP antagonist",
+          "is_major": false
+        },
+        {
+          "term": "cyclic PIP",
+          "is_major": false
+        },
+        {
+          "term": "mechanism of insulin action",
+          "is_major": false
+        },
+        {
+          "term": "metformin",
+          "is_major": false
+        },
+        {
+          "term": "prostaglandylinositol cyclic phosphate",
+          "is_major": false
+        },
+        {
+          "term": "protein serine/threonine phosphatase",
+          "is_major": false
+        },
+        {
+          "term": "protein tyrosine kinase",
+          "is_major": false
+        },
+        {
+          "term": "protein tyrosine phosphatase",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Metformin is the leading drug for treating type 2 diabetics, but the mechanism of action of metformin, despite some suggested mechanisms such as the activation of the AMP-kinase, is largely unknown. Among its many positive effects are the reduction of blood glucose levels, the inhibition of cyclic AMP synthesis, gluconeogenesis and an increase in sensitivity to insulin. Recent studies have described the natural antagonist of cyclic AMP, prostaglandylinositol cyclic phosphate. Synthesis of cyclic PIP is stimulated in all organs by hormones such as insulin and also by drugs such as metformin. Its primary action is to trigger the dephosphorylation of proteins/enzymes, phosphorylated on serine/threonine residues. Cyclic PIP triggers many of the regulations requested by insulin. The parallels between the beneficial effects of metformin and the regulations triggered by cyclic PIP suggest that the mechanism of action of this key drug may well be explained by its stimulation of the synthesis of cyclic PIP."
+    },
+    {
+      "rank": 8,
+      "score": 0.7347023006326634,
+      "search_type": "hybrid",
+      "vector_id": 7232124,
+      "chunk_id": 7232124,
+      "pmid": "32535544",
+      "title": "Mechanisms of action of metformin in type 2 diabetes: Effects on mitochondria and leukocyte-endothelium interactions.",
+      "year": 2020,
+      "journal": "Redox biology",
+      "authors": [
+        "Nadezda Apostolova",
+        "Francesca Iannantuoni",
+        "Aleksandra Gruevska",
+        "Jordi Muntane",
+        "Milagros Rocha",
+        "Victor M Victor"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Diabetes Mellitus, Type 2",
+          "is_major": true,
+          "ui": "D003924"
+        },
+        {
+          "term": "Endothelium",
+          "is_major": false,
+          "ui": "D004727"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Leukocytes",
+          "is_major": false,
+          "ui": "D007962"
+        },
+        {
+          "term": "Metformin",
+          "is_major": true,
+          "ui": "D008687"
+        },
+        {
+          "term": "Mitochondria",
+          "is_major": false,
+          "ui": "D008928"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "Atherosclerosis",
+          "is_major": false
+        },
+        {
+          "term": "Metformin",
+          "is_major": false
+        },
+        {
+          "term": "Mitochondria",
+          "is_major": false
+        },
+        {
+          "term": "Oxidative stress",
+          "is_major": false
+        },
+        {
+          "term": "Pathophysiology",
+          "is_major": false
+        },
+        {
+          "term": "Treatment",
+          "is_major": false
+        },
+        {
+          "term": "Type 2 diabetes",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Type 2 diabetes (T2D) is a very prevalent, multisystemic, chronic metabolic disorder closely related to atherosclerosis and cardiovascular diseases. It is characterised by mitochondrial dysfunction and the presence of oxidative stress. Metformin is one of the safest and most effective anti-hyperglycaemic agents currently employed as first-line oral therapy for T2D. It has demonstrated additional beneficial effects, unrelated to its hypoglycaemic action, on weight loss and several diseases, such as cancer, cardiovascular disorders and metabolic diseases, including thyroid diseases. Despite the vast clinical experience gained over several decades of use, the mechanism of action of metformin is still not fully understood. This review provides an overview of the existing literature concerning the beneficial mitochondrial and vascular effects of metformin, which it exerts by diminishing oxidative stress and reducing leukocyte-endothelium interactions. Specifically, we describe the molecular mechanisms involved in metformin's effect on gluconeogenesis, its capacity to interfere with major metabolic pathways (AMPK and mTORC1), its action on mitochondria and its antioxidant effects. We also discuss potential targets for therapeutic intervention based on these molecular actions."
+    },
+    {
+      "rank": 9,
+      "score": 0.7267900455603609,
+      "search_type": "hybrid",
+      "vector_id": 7907021,
+      "chunk_id": 7907021,
+      "pmid": "31693892",
+      "title": "Metformin Improves Mitochondrial Respiratory Activity through Activation of AMPK.",
+      "year": 2019,
+      "journal": "Cell reports",
+      "authors": [
+        "Yu Wang",
+        "Hongying An",
+        "Ting Liu",
+        "Caolitao Qin",
+        "Hiromi Sesaki",
+        "Shaodong Guo",
+        "Sally Radovick",
+        "Mehboob Hussain",
+        "Akhil Maheshwari",
+        "Fredric E Wondisford",
+        "Brian O'Rourke",
+        "Ling He"
+      ],
+      "mesh_terms": [
+        {
+          "term": "AMP-Activated Protein Kinase Kinases",
+          "is_major": false,
+          "ui": "D000091162"
+        },
+        {
+          "term": "AMP-Activated Protein Kinases",
+          "is_major": false,
+          "ui": "D055372"
+        },
+        {
+          "term": "Adenine Nucleotides",
+          "is_major": false,
+          "ui": "D000227"
+        },
+        {
+          "term": "Animals",
+          "is_major": false,
+          "ui": "D000818"
+        },
+        {
+          "term": "Blood Glucose",
+          "is_major": false,
+          "ui": "D001786"
+        },
+        {
+          "term": "Cell Respiration",
+          "is_major": false,
+          "ui": "D019069"
+        },
+        {
+          "term": "Diet, High-Fat",
+          "is_major": false,
+          "ui": "D059305"
+        },
+        {
+          "term": "Electron Transport Complex I",
+          "is_major": false,
+          "ui": "D042967"
+        },
+        {
+          "term": "Gene Knockout Techniques",
+          "is_major": false,
+          "ui": "D055786"
+        },
+        {
+          "term": "Hepatocytes",
+          "is_major": false,
+          "ui": "D022781"
+        },
+        {
+          "term": "Hyperglycemia",
+          "is_major": false,
+          "ui": "D006943"
+        },
+        {
+          "term": "Hypoglycemic Agents",
+          "is_major": false,
+          "ui": "D007004"
+        },
+        {
+          "term": "Insulin Resistance",
+          "is_major": false,
+          "ui": "D007333"
+        },
+        {
+          "term": "Liver",
+          "is_major": false,
+          "ui": "D008099"
+        },
+        {
+          "term": "Metformin",
+          "is_major": false,
+          "ui": "D008687"
+        },
+        {
+          "term": "Mice",
+          "is_major": false,
+          "ui": "D051379"
+        },
+        {
+          "term": "Mice, Inbred C57BL",
+          "is_major": false,
+          "ui": "D008810"
+        },
+        {
+          "term": "Mitochondria, Liver",
+          "is_major": false,
+          "ui": "D008930"
+        },
+        {
+          "term": "Mitochondrial Dynamics",
+          "is_major": false,
+          "ui": "D063154"
+        },
+        {
+          "term": "Protein Kinases",
+          "is_major": false,
+          "ui": "D011494"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "AMPK",
+          "is_major": false
+        },
+        {
+          "term": "Drp1",
+          "is_major": false
+        },
+        {
+          "term": "adenine nucleotides",
+          "is_major": false
+        },
+        {
+          "term": "diabetes",
+          "is_major": false
+        },
+        {
+          "term": "insulin resistance",
+          "is_major": false
+        },
+        {
+          "term": "membrane potential",
+          "is_major": false
+        },
+        {
+          "term": "metformin",
+          "is_major": false
+        },
+        {
+          "term": "mitochondrial respiration/fission",
+          "is_major": false
+        }
+      ],
+      "citations": [
+        {
+          "type": "CommentIn",
+          "source": "Trends Endocrinol Metab. 2020 Apr;31(4):269-271. doi: 10.1016/j.tem.2020.02.003",
+          "pmid": "32187522"
+        }
+      ],
+      "text": "Impaired mitochondrial respiratory activity contributes to the development of insulin resistance in type 2 diabetes. Metformin, a first-line antidiabetic drug, functions mainly by improving patients' hyperglycemia and insulin resistance. However, its mechanism of action is still not well understood. We show here that pharmacological metformin concentration increases mitochondrial respiration, membrane potential, and ATP levels in hepatocytes and a clinically relevant metformin dose increases liver mitochondrial density and complex 1 activity along with improved hyperglycemia in high-fat- diet (HFD)-fed mice. Metformin, functioning through 5' AMP-activated protein kinase (AMPK), promotes mitochondrial fission to improve mitochondrial respiration and restore the mitochondrial life cycle. Furthermore, HFD-fed-mice with liver-specific knockout of AMPKα1/2 subunits exhibit higher blood glucose levels when treated with metformin. Our results demonstrate that activation of AMPK by metformin improves mitochondrial respiration and hyperglycemia in obesity. We also found that supra-pharmacological metformin concentrations reduce adenine nucleotides, resulting in the halt of mitochondrial respiration. These findings suggest a mechanism for metformin's anti-tumor effects."
+    },
+    {
+      "rank": 10,
+      "score": 0.7183910464863708,
+      "search_type": "hybrid",
+      "vector_id": 4795963,
+      "chunk_id": 4795963,
+      "pmid": "35419709",
+      "title": "The role of AMPK-dependent pathways in cellular and molecular mechanisms of metformin: a new perspective for treatment and prevention of diseases.",
+      "year": 2022,
+      "journal": "Inflammopharmacology",
+      "authors": [
+        "Amin Hasanvand"
+      ],
+      "mesh_terms": [
+        {
+          "term": "AMP-Activated Protein Kinases",
+          "is_major": false,
+          "ui": "D055372"
+        },
+        {
+          "term": "Cell Proliferation",
+          "is_major": false,
+          "ui": "D049109"
+        },
+        {
+          "term": "Hepatocytes",
+          "is_major": false,
+          "ui": "D022781"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Hypoglycemic Agents",
+          "is_major": false,
+          "ui": "D007004"
+        },
+        {
+          "term": "Metformin",
+          "is_major": true,
+          "ui": "D008687"
+        },
+        {
+          "term": "Neoplasms",
+          "is_major": true,
+          "ui": "D009369"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "AMPK",
+          "is_major": false
+        },
+        {
+          "term": "Diseases",
+          "is_major": false
+        },
+        {
+          "term": "Metformin",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Metformin can suppress gluconeogenesis and reduce blood sugar by activating adenosine monophosphate-activated protein kinase (AMPK) and inducing small heterodimer partner (SHP) expression in the liver cells. The main mechanism of metformin's action is related to its activation of the AMPK enzyme and regulation of the energy balance. AMPK is a heterothermic serine/threonine kinase made of a catalytic alpha subunit and two subunits of beta and a gamma regulator. This enzyme can measure the intracellular ratio of AMP/ATP. If this ratio is high, the amino acid threonine 172 available in its alpha chain would be activated by the phosphorylated liver kinase B1 (LKB1), leading to AMPK activation. Several studies have indicated that apart from its significant role in the reduction of blood glucose level, metformin activates the AMPK enzyme that in turn has various efficient impacts on the regulation of various processes, including controlling inflammatory conditions, altering the differentiation pathway of immune and non-immune cell pathways, and the amelioration of various cancers, liver diseases, inflammatory bowel disease (IBD), kidney diseases, neurological disorders, etc. Metformin's activation of AMPK enables it to control inflammatory conditions, improve oxidative status, regulate the differentiation pathways of various cells, change the pathological process in various diseases, and finally have positive therapeutic effects on them. Due to the activation of AMPK and its role in regulating several subcellular signalling pathways, metformin can be effective in altering the cells' proliferation and differentiation pathways and eventually in the prevention and treatment of certain diseases."
+    }
+  ]
+}

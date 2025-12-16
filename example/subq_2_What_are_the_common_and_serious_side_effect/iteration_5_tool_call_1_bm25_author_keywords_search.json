@@ -1,0 +1,7 @@
+{
+  "name": "bm25_author_keywords_search",
+  "arguments": {
+    "query": "systematic review meta-analysis gastrointestinal neurological hypersensitivity metformin",
+    "k": 10
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "hybrid_search",
+  "arguments": {
+    "query": "metformin side effects systematic review meta-analysis",
+    "alpha": 0.5,
+    "k": 10
+  }
+}

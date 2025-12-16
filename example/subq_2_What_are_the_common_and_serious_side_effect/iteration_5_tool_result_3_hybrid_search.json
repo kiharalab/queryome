@@ -1,0 +1,770 @@
+{
+  "query": "metformin side effects systematic review meta-analysis",
+  "search_type": "hybrid",
+  "parameters": {
+    "k": 10,
+    "alpha": 0.5
+  },
+  "results_count": 10,
+  "results": [
+    {
+      "rank": 1,
+      "score": 0.7235648007391823,
+      "search_type": "hybrid",
+      "vector_id": 4155213,
+      "chunk_id": 4155213,
+      "pmid": "36187122",
+      "title": "Gastrointestinal adverse events of metformin treatment in patients with type 2 diabetes mellitus: A systematic review, meta-analysis and meta-regression of randomized controlled trials.",
+      "year": 2022,
+      "journal": "Frontiers in endocrinology",
+      "authors": [
+        "Katarzyna Nabrdalik",
+        "Karolina Skonieczna-Żydecka",
+        "Krzysztof Irlik",
+        "Mirela Hendel",
+        "Hanna Kwiendacz",
+        "Igor Łoniewski",
+        "Kornelia Januszkiewicz",
+        "Janusz Gumprecht",
+        "Gregory Y H Lip"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Abdominal Pain",
+          "is_major": false,
+          "ui": "D015746"
+        },
+        {
+          "term": "Delayed-Action Preparations",
+          "is_major": false,
+          "ui": "D003692"
+        },
+        {
+          "term": "Diabetes Mellitus, Type 2",
+          "is_major": true,
+          "ui": "D003924"
+        },
+        {
+          "term": "Diarrhea",
+          "is_major": false,
+          "ui": "D003967"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Hypoglycemic Agents",
+          "is_major": false,
+          "ui": "D007004"
+        },
+        {
+          "term": "Metformin",
+          "is_major": true,
+          "ui": "D008687"
+        },
+        {
+          "term": "Nausea",
+          "is_major": false,
+          "ui": "D009325"
+        },
+        {
+          "term": "Randomized Controlled Trials as Topic",
+          "is_major": false,
+          "ui": "D016032"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "Adverse events",
+          "is_major": false
+        },
+        {
+          "term": "diarrhea",
+          "is_major": false
+        },
+        {
+          "term": "dose",
+          "is_major": false
+        },
+        {
+          "term": "formulation",
+          "is_major": false
+        },
+        {
+          "term": "gastrointestinal",
+          "is_major": false
+        },
+        {
+          "term": "meta-analysis",
+          "is_major": false
+        },
+        {
+          "term": "metformin",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Introduction: Metformin is the first choice drug in the treatment of type 2 diabetes mellitus but its administration may be linked to gastrointestinal adverse events limiting its use.\n\nObjectives: The objective of this systematic review and meta-analysis was to assess the risk of gastrointestinal adverse events related to metformin use in patients with type 2 diabetes treated with metformin.\n\nMethods: PUB MED/CINAHL/Web of Science/Scopus were searched from database inception until 08.11.2020 for articles in English and randomized controlled trials related to patients with type 2 diabetes treated with metformin were included.\n\nResults: From 5315 publications, we identified 199 potentially eligible full-text articles. Finally, 71 randomized controlled trials were included in the meta-analysis. In these studies, metformin use was associated with higher risk of abdominal pain, diarrhea and nausea comparing to control. The risks of abdominal pain and nausea were highest comparing to placebo. Bloating risk was only elevated when metformin treatment was compared to DPP4i.\n\nConclusions: The risk of gastrointestinal adverse events such as abdominal pain, nausea and diarrhea is higher in type 2 diabetes patients treated with metformin compared to other antidiabetic drugs. There is a higher risk of bloating and diarrhea with metformin immediate-release than with metformin extended release formulation.\n\nSystematic Review Registration: https://www.crd.york.ac.uk/prospero/display_record.php?ID=CRD42021289975, identifier CRD42021289975."
+    },
+    {
+      "rank": 2,
+      "score": 0.7118012110243597,
+      "search_type": "hybrid",
+      "vector_id": 2736438,
+      "chunk_id": 2736438,
+      "pmid": "37900422",
+      "title": "The Effectiveness of Metformin in Diabetes Prevention: A Systematic Review and Meta-Analysis.",
+      "year": 2023,
+      "journal": "Cureus",
+      "authors": [
+        "Dhara Patel",
+        "Ismat E Ayesha",
+        "Neetha R Monson",
+        "Nimra Klair",
+        "Utkarsh Patel",
+        "Ayushi Saxena",
+        "Pousette Hamid"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        {
+          "term": "insulin resistance",
+          "is_major": false
+        },
+        {
+          "term": "metformin",
+          "is_major": false
+        },
+        {
+          "term": "pre-diabetes",
+          "is_major": false
+        },
+        {
+          "term": "prevention of diabetes",
+          "is_major": false
+        },
+        {
+          "term": "type 2 diabetes",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Diabetes mellitus is a growing global health concern, and prevention strategies play a crucial role in reducing its burden. Metformin has been widely studied as a potential intervention for diabetes prevention, but its overall effectiveness and impact on various populations remain unclear. This study aims to provide a comprehensive synthesis of the available evidence on the effectiveness of metformin in diabetes prevention. A systematic search was conducted in PubMed, Scopus, ScienceDirect, and Google Scholar for articles published from inception to June 2023. The reference lists of the included studies were also searched to retrieve possible additional studies. Any quantitative data were analyzed using Review Manager 5.4. A"
+    },
+    {
+      "rank": 3,
+      "score": 0.710787864803901,
+      "search_type": "hybrid",
+      "vector_id": 6225503,
+      "chunk_id": 6225503,
+      "pmid": "33709434",
+      "title": "Metformin and health outcomes: An umbrella review of systematic reviews with meta-analyses.",
+      "year": 2021,
+      "journal": "European journal of clinical investigation",
+      "authors": [
+        "Xue Li",
+        "Stefano Celotto",
+        "Damiano Pizzol",
+        "Danijela Gasevic",
+        "Meng-Meng Ji",
+        "Tommaso Barnini",
+        "Marco Solmi",
+        "Brendon Stubbs",
+        "Lee Smith",
+        "Guillermo F López Sánchez",
+        "Gabriella Pesolillo",
+        "Zengli Yu",
+        "Ioanna Tzoulaki",
+        "Evropi Theodoratou",
+        "John P A Ioannidis",
+        "Nicola Veronese",
+        "Jacopo Demurtas"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Body Mass Index",
+          "is_major": false,
+          "ui": "D015992"
+        },
+        {
+          "term": "Cardiovascular Diseases",
+          "is_major": false,
+          "ui": "D002318"
+        },
+        {
+          "term": "Diabetes Mellitus, Type 1",
+          "is_major": false,
+          "ui": "D003922"
+        },
+        {
+          "term": "Diabetes Mellitus, Type 2",
+          "is_major": false,
+          "ui": "D003924"
+        },
+        {
+          "term": "Female",
+          "is_major": false,
+          "ui": "D005260"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Hypoglycemic Agents",
+          "is_major": false,
+          "ui": "D007004"
+        },
+        {
+          "term": "Infertility, Female",
+          "is_major": false,
+          "ui": "D007247"
+        },
+        {
+          "term": "Male",
+          "is_major": false,
+          "ui": "D008297"
+        },
+        {
+          "term": "Meta-Analysis as Topic",
+          "is_major": false,
+          "ui": "D015201"
+        },
+        {
+          "term": "Metformin",
+          "is_major": false,
+          "ui": "D008687"
+        },
+        {
+          "term": "Neoplasms",
+          "is_major": false,
+          "ui": "D009369"
+        },
+        {
+          "term": "Obesity",
+          "is_major": false,
+          "ui": "D009765"
+        },
+        {
+          "term": "Overweight",
+          "is_major": false,
+          "ui": "D050177"
+        },
+        {
+          "term": "Polycystic Ovary Syndrome",
+          "is_major": false,
+          "ui": "D011085"
+        },
+        {
+          "term": "Pregnancy",
+          "is_major": false,
+          "ui": "D011247"
+        },
+        {
+          "term": "Pregnancy Rate",
+          "is_major": false,
+          "ui": "D018873"
+        },
+        {
+          "term": "Protective Factors",
+          "is_major": false,
+          "ui": "D065840"
+        },
+        {
+          "term": "Systematic Reviews as Topic",
+          "is_major": false,
+          "ui": "D000078202"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "GRADE",
+          "is_major": false
+        },
+        {
+          "term": "meta-analysis",
+          "is_major": false
+        },
+        {
+          "term": "metformin",
+          "is_major": false
+        },
+        {
+          "term": "umbrella",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "BACKGROUND: The objective was to capture the breadth of outcomes that have been associated with metformin use and to systematically assess the quality, strength and credibility of these associations using the umbrella review methodology.\n\nMETHODS: Four major databases were searched until 31 May 2020. Meta-analyses of observational studies and meta-analyses of randomized controlled trials (RCTs) (including active and placebo control arms) were included.\n\nRESULTS: From 175 eligible publications, we identified 427 different meta-analyses, including 167 meta-analyses of observational studies, 147 meta-analyses of RCTs for metformin vs placebo/no treatment and 113 meta-analyses of RCTs for metformin vs active medications. There was no association classified as convincing or highly suggestive from meta-analyses of observational studies, but some suggestive/weak associations of metformin use with a lower mortality risk of CVD and cancer. In meta-analyses of RCTs, metformin was associated with a lower incidence of diabetes in people with prediabetes or no diabetes at baseline; lower ovarian hyperstimulation syndrome incidence (in women in controlled ovarian stimulation); higher success for clinical pregnancy rate in poly-cystic ovary syndrome (PCOS); and significant reduction in body mass index in people with type 1 diabetes mellitus, in women who have obesity/overweight with PCOS and in obese/overweight women. Of 175 publications, 166 scored as low or critically low quality per AMSTAR 2 criteria.\n\nCONCLUSIONS: Observational evidence on metformin seems largely unreliable. Randomized evidence shows benefits for preventing diabetes and in some gynaecological and obstetrical settings. However, almost all meta-analyses are of low or critically low quality according to AMSTAR 2 criteria."
+    },
+    {
+      "rank": 4,
+      "score": 0.66978822480484,
+      "search_type": "hybrid",
+      "vector_id": 6141178,
+      "chunk_id": 6141178,
+      "pmid": "33847633",
+      "title": "Effects of continuous use of metformin on cardiovascular outcomes in patients with type 2 diabetes after acute myocardial infarction: A protocol for systematic review and meta-analysis.",
+      "year": 2021,
+      "journal": "Medicine",
+      "authors": [
+        "Chuanwen Shen",
+        "Shuying Tan",
+        "Jun Yang"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Cardiovascular Diseases",
+          "is_major": false,
+          "ui": "D002318"
+        },
+        {
+          "term": "Clinical Trials as Topic",
+          "is_major": false,
+          "ui": "D002986"
+        },
+        {
+          "term": "Diabetes Mellitus, Type 2",
+          "is_major": false,
+          "ui": "D003924"
+        },
+        {
+          "term": "Glycated Hemoglobin",
+          "is_major": false,
+          "ui": "D006442"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Hypoglycemic Agents",
+          "is_major": false,
+          "ui": "D007004"
+        },
+        {
+          "term": "Metformin",
+          "is_major": false,
+          "ui": "D008687"
+        },
+        {
+          "term": "Myocardial Infarction",
+          "is_major": false,
+          "ui": "D009203"
+        },
+        {
+          "term": "Research Design",
+          "is_major": false,
+          "ui": "D012107"
+        },
+        {
+          "term": "Meta-Analysis as Topic",
+          "is_major": false,
+          "ui": "D015201"
+        },
+        {
+          "term": "Systematic Review as Topic",
+          "is_major": false,
+          "ui": "D000078202"
+        }
+      ],
+      "keywords": [],
+      "citations": [],
+      "text": "BACKGROUND: To our knowledge, no meta-analyses or reviews have investigated the efficacy and safety of metformin on cardiovascular outcomes after acute myocardial infarction (AMI) in patients with type 2 diabetes mellitus (T2DM). We thus conduct a high-quality systematic review and meta-analysis to assess the efficacy and safety of metformin on cardiovascular outcomes after AMI in patients with T2DM.\n\nMETHODS: In this systematic review and meta-analysis, we will search PUBMED, Scopus, EMBASE, and Cochrane Library databases through April, 2021. The study is structured to adhere to PRISMA guidelines (i.e., Preferred Reporting Items for Systematic Reviews and Meta-analyses). The literature search, data extraction, and quality assessments are conducted independently by 2 authors. Outcome measures include all-cause mortality; complications such as acute kidney injury, lactic acidosis, hospitalization for AMI or stroke, or death. Where disagreement in the collection of data occurs, this is resolved through discussion. Review Manager Software (v 5.3; Cochrane Collaboration) is used for the meta-analysis. Two independent reviewers will assess the risk of bias of the included studies at study level.\n\nRESULTS: It is hypothesized that metformin use at the post-AMI is associated with decreased risk of cardiovascular disease and death in patients with T2DM.\n\nCONCLUSIONS: This study expects to provide credible and scientific evidence for the efficacy and safety of metformin on cardiovascular outcomes after AMI in patients with T2DM.\n\nREGISTRATION NUMBER: 10.17605/OSF.IO/S3MBP."
+    },
+    {
+      "rank": 5,
+      "score": 0.6453894993513573,
+      "search_type": "hybrid",
+      "vector_id": 5922391,
+      "chunk_id": 5922391,
+      "pmid": "34075573",
+      "title": "Efficacy and Side Effect Profile of Different Formulations of Metformin: A Systematic Review and Meta-Analysis.",
+      "year": 2021,
+      "journal": "Diabetes therapy : research, treatment and education of diabetes and related disorders",
+      "authors": [
+        "Jane L Tarry-Adkins",
+        "Imogen D Grant",
+        "Susan E Ozanne",
+        "Rebecca M Reynolds",
+        "Catherine E Aiken"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        {
+          "term": "Diabetes",
+          "is_major": false
+        },
+        {
+          "term": "Efficacy",
+          "is_major": false
+        },
+        {
+          "term": "Metformin",
+          "is_major": false
+        },
+        {
+          "term": "Polycystic ovarian syndrome",
+          "is_major": false
+        },
+        {
+          "term": "Side effects",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "INTRODUCTION: Metformin is among the most frequently prescribed drugs worldwide for a variety of indications. Although metformin has several important advantages, for example being easy to store and administer, it is associated with a high incidence of gastrointestinal side effects. Slower-release formulations of metformin may reduce the incidence of side effects while maintaining efficacy; however, there is a lack of systematic evidence available to guide head-to-head comparisons between different metformin formulations.\n\nMETHODS: PubMed, Web of Science, OVID EMBASE, MEDLINE, The Cochrane database and Clinicaltrials.gov were systematically searched (from inception to 25 January 2021). Trials that randomized adult participants to extended-release formulation of metformin (met-XR), delayed-release (met-DR) or immediate-release metformin (met-IR) were included. Two reviewers independently assessed articles for eligibility and risk-of-bias, with conflicts resolved by a third reviewer. Outcome measures were change in fasting plasma glucose (FPG), glycated haemoglobin (HbA1c), body weight, BMI, lipid profile and side effects. Meta-analyses were conducted using random-effects models.\n\nRESULTS: Fifteen studies (n = 3765) met eligibility criteria. There was no significant difference between the efficacy of met-IR, met-XR or met-DR in changing FPG (p = 0.93). A non-significant reduction in mean body weight was observed in individuals randomized to met-XR vs. met-IR (- 1.03 kg, 95% CI - 2.12 to 0.05, p = 0.06). Individuals randomized to met-XR vs. met-IR had lower low-density lipoprotein (LDL) cholesterol levels (- 5.73 mg/dl, 95% CI - 7.91 to - 3.56, p < 0.00001). Gastrointestinal (GI) side effects were markedly reduced in patients randomised to met-DR vs. met-IR (OR 0.45, 95% CI 0.26-0.80, p = 0.006).\n\nCONCLUSION: Our results demonstrate equal efficacy of longer-acting formulations (met-XR, met-DR) versus immediate-release metformin formulations in terms of glycaemic control. There were insufficient studies available to compare the efficacy of different metformin formulations outside of diabetes care. However met-XR was associated with reduced serum LDL cholesterol concentrations, while met-DR was strongly associated with reduced GI side effects, which could improve drug compliance."
+    },
+    {
+      "rank": 6,
+      "score": 0.6402059506296229,
+      "search_type": "hybrid",
+      "vector_id": 1487125,
+      "chunk_id": 1487125,
+      "pmid": "39350158",
+      "title": "Gastrointestinal adverse events of metformin treatment in patients with type 2 diabetes mellitus: a systematic review and meta-analysis with meta-regression of observational studies.",
+      "year": 2024,
+      "journal": "BMC endocrine disorders",
+      "authors": [
+        "Katarzyna Nabrdalik",
+        "Mirela Hendel",
+        "Krzysztof Irlik",
+        "Hanna Kwiendacz",
+        "Igor Łoniewski",
+        "Tommaso Bucci",
+        "Uazman Alam",
+        "Gregory Y H Lip",
+        "Janusz Gumprecht",
+        "Karolina Skonieczna-Żydecka"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Diabetes Mellitus, Type 2",
+          "is_major": true,
+          "ui": "D003924"
+        },
+        {
+          "term": "Gastrointestinal Diseases",
+          "is_major": true,
+          "ui": "D005767"
+        },
+        {
+          "term": "Hypoglycemic Agents",
+          "is_major": true,
+          "ui": "D007004"
+        },
+        {
+          "term": "Incidence",
+          "is_major": false,
+          "ui": "D015994"
+        },
+        {
+          "term": "Metformin",
+          "is_major": true,
+          "ui": "D008687"
+        },
+        {
+          "term": "Observational Studies as Topic",
+          "is_major": false,
+          "ui": "D064887"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "Diarrhea",
+          "is_major": false
+        },
+        {
+          "term": "Dose",
+          "is_major": false
+        },
+        {
+          "term": "Formulation",
+          "is_major": false
+        },
+        {
+          "term": "Gastrointestinal adverse events",
+          "is_major": false
+        },
+        {
+          "term": "Meta-analysis",
+          "is_major": false
+        },
+        {
+          "term": "Metformin",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "INTRODUCTION: Metformin is the most prescribed medication for type 2 diabetes mellitus (T2DM); there is a well-established link with the elevated incidence of gastrointestinal (GI) adverse events (AE) limiting its administration or intensification.\n\nOBJECTIVES: The objective of this systematic review and meta-analysis of observational studies was to evaluate the pooled incidence of GI AE related to metformin use in patients with T2DM.\n\nMATERIALS AND METHODS: PUB MED/CINAHL/Web of Science/Scopus were searched from database inception until 29.07.2024 for observational studies in English describing the frequency of GI AE in patients with T2DM treated with metformin. Random-effects meta-analyses were used to derive effect sizes: event rates.\n\nRESULTS: From 7019 publications, we identified 211 potentially eligible full-text articles. Ultimately, 21 observational studies were included in the meta-analysis. The prevalence of GI AE was as follows: diarrhea 6.9% (95% CI: 0.038-0.123), bloating 6,2% (95% CI: 0.020-0.177), abdominal pain 5,3% (95% CI: 0.003-0.529), vomiting 2.4% (95%: CI 0.007-0.075), constipation 1.1% (95%: CI 0.001-0.100). The incidence of bloating (coefficient -4.46; p < 0.001), diarrhea (coefficient -1.17; p = 0.0951) abdominal pain (coefficient -2.80; p = 0.001), constipation (coefficient -5.78; p = 0.0014) and vomiting (coefficient -2.47; p < 0.001) were lower for extended release (XR) metformin than metformin immediate release (IR) formulation.\n\nCONCLUSIONS: This study highlights the prevalence of GI AE in patients receiving metformin, with a diarrhea predominance, followed by bloating, diarrhea, abdominal pain, constipation, and vomiting. The incidence is lower in patients administered with XR metformin.\n\nTRIAL REGISTRATION: https://www.crd.york.ac.uk/prospero/display_record.php?ID=CRD42021289975 , identifier CRD42021289975."
+    },
+    {
+      "rank": 7,
+      "score": 0.6296185797301606,
+      "search_type": "hybrid",
+      "vector_id": 3759972,
+      "chunk_id": 3759972,
+      "pmid": "36628003",
+      "title": "Effect of Metformin on Vitamin B12 Deficiency in Patients With Type 2 Diabetes Mellitus and Factors Associated With It: A Meta-Analysis.",
+      "year": 2022,
+      "journal": "Cureus",
+      "authors": [
+        "Yasitha Kakarlapudi",
+        "Sai Kiran Kondabolu",
+        "Zuha Tehseen",
+        "Vimal Khemani",
+        "Srilakshmi K J",
+        "Maira D Nousherwani",
+        "Faraz Saleem",
+        "Ahmed N Abdelhameed"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        {
+          "term": "factors",
+          "is_major": false
+        },
+        {
+          "term": "meta-analysis",
+          "is_major": false
+        },
+        {
+          "term": "metformin",
+          "is_major": false
+        },
+        {
+          "term": "type 2 diabetes",
+          "is_major": false
+        },
+        {
+          "term": "vitamin b12",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "The current meta-analysis aims to explore the effect of metformin use on vitamin B12 deficiency in patients with type 2 diabetes mellitus (T2DM) and the factors associated with it. This meta-analysis followed the Meta-analysis Of Observational Studies in Epidemiology (MOOSE) guidelines and the Preferred Reporting Items for Systematic reviews and Meta-Analysis (PRISMA) guidelines. We searched PubMed and EMBASE from January 1, 2010, to October 31, 2022, to collect the studies that reported the effect of metformin on the deficiency of vitamin B12 in patients with T2DM and the factors associated with it. A total of 17 studies were included in the current meta-analysis. Among all the included studies, 13 were cross-sectional studies, 3 were retrospective cohorts, and one was a case-control study. The pooled rate of deficiency of vitamin B12 in patients receiving metformin (23.16%) was significantly higher compared to patients who were not on metformin (17.4%) (OR: 2.95, 95% CI: 2.18-4.00, p-value: 0.001). Factors significantly associated with vitamin B12 deficiency in patients with T2DM and receiving metformin include the duration of metformin use and a greater dose of metformin. In conclusion, our meta-analysis found that the prevalence of vitamin B12 deficiency is greater in patients receiving metformin compared to patients who did not receive metformin. Given the importance of vitamin B12 in nutrition, metformin-induced B12 decrease may be harmful to patients with T2DM. Supplemental vitamin B12 may be advantageous for those on metformin."
+    },
+    {
+      "rank": 8,
+      "score": 0.6134237565689757,
+      "search_type": "hybrid",
+      "vector_id": 3734707,
+      "chunk_id": 3734707,
+      "pmid": "36714564",
+      "title": "Association of metformin use with fracture risk in type 2 diabetes: A systematic review and meta-analysis of observational studies.",
+      "year": 2022,
+      "journal": "Frontiers in endocrinology",
+      "authors": [
+        "Yining Wang",
+        "Liming Yu",
+        "Zhiqiang Ye",
+        "Rui Lin",
+        "Antonia RuJia Sun",
+        "Lingna Liu",
+        "Jinsong Wei",
+        "Feifu Deng",
+        "Xiangxin Zhong",
+        "Liao Cui",
+        "Li Li",
+        "Yanzhi Liu"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Metformin",
+          "is_major": true,
+          "ui": "D008687"
+        },
+        {
+          "term": "Diabetes Mellitus, Type 2",
+          "is_major": true,
+          "ui": "D003924"
+        },
+        {
+          "term": "Hypoglycemic Agents",
+          "is_major": false,
+          "ui": "D007004"
+        },
+        {
+          "term": "Fractures, Bone",
+          "is_major": true,
+          "ui": "D050723"
+        },
+        {
+          "term": "Risk",
+          "is_major": false,
+          "ui": "D012306"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "bone",
+          "is_major": false
+        },
+        {
+          "term": "diabetes",
+          "is_major": false
+        },
+        {
+          "term": "fracture",
+          "is_major": false
+        },
+        {
+          "term": "meta-analysis",
+          "is_major": false
+        },
+        {
+          "term": "metformin",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Aims: Increasing evidence suggests that metformin can affect bone metabolism beyond its hypoglycemic effects in diabetic patients. However, the effects of metformin on fracture risk in type 2 diabetes mellitus (T2DM) patients remain unclear. A systematic review and meta-analysis were performed in this study to evaluate the association between metformin application and fracture risk in T2DM patients based on previous studies published until June 2021.\n\nMethods: A systematic search was performed to collect publications on metformin application in T2DM patients based on PubMed, Embase, Cochran, and Web of Science databases. Meta-analysis was performed by using a random-effects model to estimate the summary relative risks (RRs) with 95% confidence intervals (CIs). Subgroup analyses based on cohort/case-control and ethnicity and sensitivity analyses were also performed.\n\nResults: Eleven studies were included in the meta-analysis. Results demonstrated metformin use was not significantly associated with a decreased risk of fracture (RR, 0.91; 95% CI, 0.81-1.02; I\n\nConclusion: There was no significant correlation between fracture risk and metformin application in T2DM patients. Due to a limited number of existing studies, further research is needed to make a definite conclusion for clinical consensus."
+    },
+    {
+      "rank": 9,
+      "score": 0.5585983282400592,
+      "search_type": "hybrid",
+      "vector_id": 1712906,
+      "chunk_id": 1712906,
+      "pmid": "39065748",
+      "title": "Metformin-Associated Gastrointestinal Adverse Events Are Reduced by Probiotics: A Meta-Analysis.",
+      "year": 2024,
+      "journal": "Pharmaceuticals (Basel, Switzerland)",
+      "authors": [
+        "Izabela Szymczak-Pajor",
+        "Józef Drzewoski",
+        "Sylwia Wenclewska",
+        "Agnieszka Śliwińska"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        {
+          "term": "gastrointestinal (GI) adverse events",
+          "is_major": false
+        },
+        {
+          "term": "metformin",
+          "is_major": false
+        },
+        {
+          "term": "oral glucose-lowering drugs (GLDs)",
+          "is_major": false
+        },
+        {
+          "term": "probiotics",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Metformin, one of the most frequently used oral glucose-lowering drugs (GLDs), is associated with the occurrence of gastrointestinal (GI) adverse events in approximately 20% of users. These unwanted actions result in non-compliance or even discontinuation of metformin therapy. The aim of the presented meta-analysis was to determine whether adding a drug from the group of sulfonylureas, glitazones, DPP-IV inhibitors, or probiotics to metformin monotherapy may affect the risk of GI side effects. The material for this meta-analysis comprised data from 26 randomized controlled clinical trials (RCTs) published in English. This meta-analysis included 41,048 patients. The PubMed, Cochrane Library, and Clinical Trials databases were thoroughly searched to find relevant RCTs. The Population, Intervention, Comparison, Outcomes, and Study Type (PICOT) structure was used to formulate study selection criteria and the research question. Cochrane Review Manager Software 5.4 was used to carry out analysis of collected data. The results were presented as relative risk (RR) and 95% confidence interval (95% CI) for each group, and"
+    },
+    {
+      "rank": 10,
+      "score": 0.5510636329050038,
+      "search_type": "hybrid",
+      "vector_id": 3161891,
+      "chunk_id": 3161891,
+      "pmid": "37369280",
+      "title": "Effects of combined treatment of probiotics and metformin in management of type 2 diabetes: A systematic review and meta-analysis.",
+      "year": 2023,
+      "journal": "Diabetes research and clinical practice",
+      "authors": [
+        "Hamda Memon",
+        "Fatima Abdulla",
+        "Tea Reljic",
+        "Saif Alnuaimi",
+        "Fadila Serdarevic",
+        "Zelija Velija Asimi",
+        "Ambuj Kumar",
+        "Sabina Semiz"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Adult",
+          "is_major": false,
+          "ui": "D000328"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Metformin",
+          "is_major": true,
+          "ui": "D008687"
+        },
+        {
+          "term": "Hypoglycemic Agents",
+          "is_major": false,
+          "ui": "D007004"
+        },
+        {
+          "term": "Diabetes Mellitus, Type 2",
+          "is_major": true,
+          "ui": "D003924"
+        },
+        {
+          "term": "Probiotics",
+          "is_major": true,
+          "ui": "D019936"
+        },
+        {
+          "term": "Fasting",
+          "is_major": false,
+          "ui": "D005215"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "Fasting glucose",
+          "is_major": false
+        },
+        {
+          "term": "Fasting insulin",
+          "is_major": false
+        },
+        {
+          "term": "Gastrointestinal intolerance",
+          "is_major": false
+        },
+        {
+          "term": "HbA1c",
+          "is_major": false
+        },
+        {
+          "term": "Insulin resistance",
+          "is_major": false
+        },
+        {
+          "term": "Lipids",
+          "is_major": false
+        },
+        {
+          "term": "Metformin",
+          "is_major": false
+        },
+        {
+          "term": "Probiotic",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "BACKGROUND: Lifestyle changes and dietary intervention, including the use of probiotics, can modulate dysbiosis of gut microbiome and contribute to the management of type 2 diabetes mellitus (T2DM). This systematic review and meta-analysis aim to assess the efficacy of metformin plus probiotics versus metformin alone on outcomes in patients with T2DM.\n\nMETHODS: We searched MEDLINE and EMBASE from inception to February 2023 to identify all randomized controlled trials (RCTs), which compared the use of metformin plus probiotics versus metformin alone in adult patients with T2DM. Data were summarized as mean differences (MD) with 95 % confidence interval (CI) and pooled under the random effects model.\n\nFINDINGS: Fourteen RCTs (17 comparisons, 1009 patients) were included in this systematic review. Pooled results show a significant decrease in fasting glucose (FG) (MD = -0.64, 95 % CI = -1.06, -0.22) and HbA1c (MD = -0.29, 95 % CI = -0.47, -0.10) levels in patients with T2DM treated with metformin plus probiotics versus metformin alone. The addition of probiotics to metformin resulted in lower odds of gastrointestinal adverse events (Odds ratio = 0.18, 95 % CI = 0.09, 0.3.8; I\n\nCONCLUSIONS: The addition of probiotics to metformin therapy is associated with improvement in T2DM outcomes. However, high-quality and adequately reported RCTs are needed in the future to confirm our findings."
+    }
+  ]
+}

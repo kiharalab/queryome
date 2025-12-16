@@ -1,0 +1,7 @@
+{
+  "name": "bm25_author_keywords_search",
+  "arguments": {
+    "query": "metformin adverse reactions",
+    "k": 10
+  }
+}

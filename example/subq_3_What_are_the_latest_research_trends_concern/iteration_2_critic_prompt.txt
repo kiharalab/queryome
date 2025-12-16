@@ -1,0 +1,1456 @@
+SYSTEM: 
+You are a research critic agent. Your task is to evaluate the relevance of the following articles to the research question.
+For each article, provide a relevance score from 1 to 10 (1 = not relevant, 10 = highly relevant) and a brief justification.
+Also, provide an overall assessment: should we continue searching or stop?
+
+Respond in JSON format with two keys: "scores" and "decision".
+- "scores": a list of objects, each with "pmid", "relevance_score", and "justification".
+- "decision": either "CONTINUE" or "STOP". If continuing, add a "suggestion" key with ideas for the next search.
+
+USER: 
+Research Question: "What are the latest research trends concerning metformin?"
+
+Articles to evaluate:
+[
+  {
+    "rank": 1,
+    "score": 0.7344847918858907,
+    "search_type": "hybrid",
+    "vector_id": 1991950,
+    "chunk_id": 1991950,
+    "pmid": "38785784",
+    "title": "Metformin: From Diabetes to Cancer-Unveiling Molecular Mechanisms and Therapeutic Strategies.",
+    "year": 2024,
+    "journal": "Biology",
+    "authors": [
+      "Emilia Amengual-Cladera",
+      "Pere Miquel Morla-Barcelo",
+      "Andrea Mor\u00e1n-Costoya",
+      "Jorge Sastre-Serra",
+      "Daniel Gabriel Pons",
+      "Adamo Valle",
+      "Pilar Roca",
+      "Mercedes Nadal-Serrano"
+    ],
+    "mesh_terms": [],
+    "keywords": [
+      {
+        "term": "breast cancer",
+        "is_major": false
+      },
+      {
+        "term": "colorectal cancer",
+        "is_major": false
+      },
+      {
+        "term": "diabetes",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "mitochondria",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Metformin, a widely used anti-diabetic drug, has garnered attention for its potential in cancer management, particularly in breast and colorectal cancer. It is established that metformin reduces mitochondrial respiration, but its specific molecular targets within mitochondria vary. Proposed mechanisms include inhibiting mitochondrial respiratory chain Complex I and/or Complex IV, and mitochondrial glycerophosphate dehydrogenase, among others. These actions lead to cellular energy deficits, redox state changes, and several molecular changes that reduce hyperglycemia in type 2 diabetic patients. Clinical evidence supports metformin's role in cancer prevention in type 2 diabetes mellitus patients. Moreover, in these patients with breast and colorectal cancer, metformin consumption leads to an improvement in survival outcomes and prognosis. The synergistic effects of metformin with chemotherapy and immunotherapy highlights its potential as an adjunctive therapy for breast and colorectal cancer. However, nuanced findings underscore the need for further research and stratification by molecular subtype, particularly for breast cancer. This comprehensive review integrates metformin-related findings from epidemiological, clinical, and preclinical studies in breast and colorectal cancer. Here, we discuss current research addressed to define metformin's bioavailability and efficacy, exploring novel metformin-based compounds and drug delivery systems, including derivatives targeting mitochondria, combination therapies, and novel nanoformulations, showing enhanced anticancer effects."
+  },
+  {
+    "rank": 2,
+    "score": 0.7,
+    "search_type": "hybrid",
+    "vector_id": 1282831,
+    "chunk_id": 1282831,
+    "pmid": "39595655",
+    "title": "Anti-Diabetic Therapies and Cancer: From Bench to Bedside.",
+    "year": 2024,
+    "journal": "Biomolecules",
+    "authors": [
+      "Dimitris Kounatidis",
+      "Natalia G Vallianou",
+      "Irene Karampela",
+      "Eleni Rebelos",
+      "Marina Kouveletsou",
+      "Vasileios Dalopoulos",
+      "Petros Koufopoulos",
+      "Evanthia Diakoumopoulou",
+      "Nikolaos Tentolouris",
+      "Maria Dalamaga"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Neoplasms",
+        "is_major": true,
+        "ui": "D009369"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": true,
+        "ui": "D007004"
+      },
+      {
+        "term": "Animals",
+        "is_major": false,
+        "ui": "D000818"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Diabetes Mellitus",
+        "is_major": false,
+        "ui": "D003920"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "GLP-1 receptor agonists",
+        "is_major": false
+      },
+      {
+        "term": "SGLT-2 inhibitors",
+        "is_major": false
+      },
+      {
+        "term": "cancer",
+        "is_major": false
+      },
+      {
+        "term": "chronic low-grade inflammation",
+        "is_major": false
+      },
+      {
+        "term": "diabetes mellitus",
+        "is_major": false
+      },
+      {
+        "term": "doxorubicin-induced cardiomyopathy",
+        "is_major": false
+      },
+      {
+        "term": "immune check point inhibitors",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "tirzepatide",
+        "is_major": false
+      },
+      {
+        "term": "tumor microenvironment",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Diabetes mellitus (DM) is a significant risk factor for various cancers, with the impact of anti-diabetic therapies on cancer progression differing across malignancies. Among these therapies, metformin has gained attention for its potential anti-cancer effects, primarily through modulation of the AMP-activated protein kinase/mammalian target of rapamycin (AMPK/mTOR) pathway and the induction of autophagy. Beyond metformin, other conventional anti-diabetic treatments, such as insulin, sulfonylureas (SUs), pioglitazone, and dipeptidyl peptidase-4 (DPP-4) inhibitors, have also been examined for their roles in cancer biology, though findings are often inconclusive. More recently, novel medications, like glucagon-like peptide-1 (GLP-1) receptor agonists, dual GLP-1/glucose-dependent insulinotropic polypeptide (GIP) agonists, and sodium-glucose co-transporter-2 (SGLT-2) inhibitors, have revolutionized DM management by not only improving glycemic control but also delivering substantial cardiovascular and renal benefits. Given their diverse metabolic effects, including anti-obesogenic properties, these novel agents are now under meticulous investigation for their potential influence on tumorigenesis and cancer advancement. This review aims to offer a comprehensive exploration of the evolving landscape of glucose-lowering treatments and their implications in cancer biology. It critically evaluates experimental evidence surrounding the molecular mechanisms by which these medications may modulate oncogenic signaling pathways and reshape the tumor microenvironment (TME). Furthermore, it assesses translational research and clinical trials to gauge the practical relevance of these findings in real-world settings. Finally, it explores the potential of anti-diabetic medications as adjuncts in cancer treatment, particularly in enhancing the efficacy of chemotherapy, minimizing toxicity, and addressing resistance within the framework of immunotherapy."
+  },
+  {
+    "rank": 3,
+    "score": 0.6377193445910023,
+    "search_type": "hybrid",
+    "vector_id": 3478104,
+    "chunk_id": 3478104,
+    "pmid": "37016064",
+    "title": "Molecular mechanisms of action of metformin: latest advances and therapeutic implications.",
+    "year": 2023,
+    "journal": "Clinical and experimental medicine",
+    "authors": [
+      "Hong Zhu",
+      "Zhenquan Jia",
+      "Yunbo Robert Li",
+      "Igor Danelisen"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": true,
+        "ui": "D003924"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Cardiovascular disease",
+        "is_major": false
+      },
+      {
+        "term": "Diabetes",
+        "is_major": false
+      },
+      {
+        "term": "Inflammation",
+        "is_major": false
+      },
+      {
+        "term": "Metformin",
+        "is_major": false
+      },
+      {
+        "term": "Mitochondria",
+        "is_major": false
+      },
+      {
+        "term": "Redox signaling",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Metformin is among the most widely used antidiabetic drugs. Studies over the past few years have identified multiple novel molecular targets and pathways that metformin acts on to exert its beneficial effects in treating type 2 diabetes as well as other disorders involving dysregulated inflammation and redox homeostasis. In this mini-review, we discuss the latest cutting-edge research discoveries on novel molecular targets of metformin in glycemic control, cardiovascular protection, cancer intervention, anti-inflammation, antiaging, and weight control. Identification of these novel targets and pathways not only deepens our understanding of the molecular mechanisms by which metformin exerts diverse beneficial biological effects, but also provides opportunities for developing new mechanistically based drugs for human diseases."
+  },
+  {
+    "rank": 4,
+    "score": 0.6106282454722837,
+    "search_type": "hybrid",
+    "vector_id": 4022752,
+    "chunk_id": 4022752,
+    "pmid": "36336804",
+    "title": "Metformin: A Promising Antidiabetic Medication for Cancer Treatment.",
+    "year": 2023,
+    "journal": "Current drug targets",
+    "authors": [
+      "Wei Mu",
+      "Yunyun Jiang",
+      "Guoqiang Liang",
+      "Yue Feng",
+      "Falin Qu"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": true,
+        "ui": "D003924"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Neoplasms",
+        "is_major": true,
+        "ui": "D009369"
+      },
+      {
+        "term": "Apoptosis",
+        "is_major": false,
+        "ui": "D017209"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "AMPK complex",
+        "is_major": false
+      },
+      {
+        "term": "ICIs",
+        "is_major": false
+      },
+      {
+        "term": "Metformin",
+        "is_major": false
+      },
+      {
+        "term": "ROS",
+        "is_major": false
+      },
+      {
+        "term": "Sps",
+        "is_major": false
+      },
+      {
+        "term": "anticancer",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Metformin is a widely used drug in patients with type 2 diabetes mellitus. Metformin inhibits hepatic gluconeogenesis and increases glucose utilization in peripheral tissues. In recent years, several studies have shown that metformin is a potential therapeutic agent against cancer, alone or combined with other anticancer treatments. Metformin mainly activates the AMPK complex and regulates intracellular energy status, inhibiting the mitochondrial respiratory chain complex I and reducing the production of reactive oxygen species. Other anticancer targets of metformin are specific transcription factors inhibiting cell proliferation, promoting apoptosis and reducing drug resistance. In addition, metformin modulates tumor cells' response to anticancer treatments, favoring the activity of T cells. In diabetic patients, metformin reduces the occurrence of cancer and improves the prognosis and efficacy of anticancer treatments. In this review, we provided a comprehensive perspective of metformin as an anticancer drug."
+  },
+  {
+    "rank": 5,
+    "score": 0.5830802103879027,
+    "search_type": "hybrid",
+    "vector_id": 11537401,
+    "chunk_id": 11537401,
+    "pmid": "27004404",
+    "title": "Repurposing metformin for cancer treatment: current clinical studies.",
+    "year": 2016,
+    "journal": "Oncotarget",
+    "authors": [
+      "Young Kwang Chae",
+      "Ayush Arya",
+      "Mary-Kate Malecek",
+      "Daniel Sanghoon Shin",
+      "Benedito Carneiro",
+      "Sunandana Chandra",
+      "Jason Kaplan",
+      "Aparna Kalyan",
+      "Jessica K Altman",
+      "Leonidas Platanias",
+      "Francis Giles"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Animals",
+        "is_major": false,
+        "ui": "D000818"
+      },
+      {
+        "term": "Antineoplastic Agents",
+        "is_major": false,
+        "ui": "D000970"
+      },
+      {
+        "term": "Breast Neoplasms",
+        "is_major": false,
+        "ui": "D001943"
+      },
+      {
+        "term": "Cell Proliferation",
+        "is_major": false,
+        "ui": "D049109"
+      },
+      {
+        "term": "Clinical Trials as Topic",
+        "is_major": false,
+        "ui": "D002986"
+      },
+      {
+        "term": "Cohort Studies",
+        "is_major": false,
+        "ui": "D015331"
+      },
+      {
+        "term": "Endometrial Neoplasms",
+        "is_major": false,
+        "ui": "D016889"
+      },
+      {
+        "term": "Female",
+        "is_major": false,
+        "ui": "D005260"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Insulin Resistance",
+        "is_major": false,
+        "ui": "D007333"
+      },
+      {
+        "term": "Ki-67 Antigen",
+        "is_major": false,
+        "ui": "D019394"
+      },
+      {
+        "term": "Lung Neoplasms",
+        "is_major": false,
+        "ui": "D008175"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Neoplasms",
+        "is_major": false,
+        "ui": "D009369"
+      },
+      {
+        "term": "Risk",
+        "is_major": false,
+        "ui": "D012306"
+      },
+      {
+        "term": "Treatment Outcome",
+        "is_major": false,
+        "ui": "D016896"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "cancer",
+        "is_major": false
+      },
+      {
+        "term": "clinical trials",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "In recent years, several studies have presented evidence suggesting a potential role for metformin in anti-cancer therapy. Preclinical studies have demonstrated several anticancer molecular mechanisms of metformin including mTOR inhibition, cytotoxic effects, and immunomodulation. Epidemiologic data have demonstrated decreased cancer incidence and mortality in patients taking metformin. Several clinical trials, focused on evaluation of metformin as an anti-cancer agent are presently underway. Data published from a small number of completed trials has put forth intriguing results. Clinical trials in pre-surgical endometrial cancer patients exhibited a significant decrease in Ki67 with metformin monotherapy. Another interesting observation was made in patients with breast cancer, wherein a trend towards improvement in cancer proliferation markers was noted in patients without insulin resistance. Data on survival outcomes with the use of metformin as an anti-cancer agent is awaited. This manuscript will critically review the role of metformin as a potential cancer treatment."
+  },
+  {
+    "rank": 6,
+    "score": 0.5628353057199211,
+    "search_type": "hybrid",
+    "vector_id": 4921984,
+    "chunk_id": 4921984,
+    "pmid": "35267644",
+    "title": "Metformin Intervention-A Panacea for Cancer Treatment?",
+    "year": 2022,
+    "journal": "Cancers",
+    "authors": [
+      "Angelika Buczy\u0144ska",
+      "Iwona Sidorkiewicz",
+      "Adam Jacek Kr\u0119towski",
+      "Monika Zbucka-Kr\u0119towska",
+      "Agnieszka Adamska"
+    ],
+    "mesh_terms": [],
+    "keywords": [
+      {
+        "term": "anti-cancer",
+        "is_major": false
+      },
+      {
+        "term": "antioxidant",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "The molecular mechanism of action and the individual influence of various metabolic pathways related to metformin intervention are under current investigation. The available data suggest that metformin provides many advantages, exhibiting anti-inflammatory, anti-cancer, hepatoprotective, cardioprotective, otoprotective, radioprotective, and radio-sensitizing properties depending on cellular context. This literature review was undertaken to provide novel evidence concerning metformin intervention, with a particular emphasis on cancer treatment and prevention. Undoubtedly, the pleiotropic actions associated with metformin include inhibiting inflammatory processes, increasing antioxidant capacity, and improving glycemic and lipid metabolism. Consequently, these characteristics make metformin an attractive medicament to translate to human trials, the promising results of which were also summarized in this review."
+  },
+  {
+    "rank": 7,
+    "score": 0.5615591635683712,
+    "search_type": "hybrid",
+    "vector_id": 2105330,
+    "chunk_id": 2105330,
+    "pmid": "38612893",
+    "title": "Metformin: A Dual-Role Player in Cancer Treatment and Prevention.",
+    "year": 2024,
+    "journal": "International journal of molecular sciences",
+    "authors": [
+      "Mariam Ahmed Galal",
+      "Mohammed Al-Rimawi",
+      "Abdurrahman Hajeer",
+      "Huda Dahman",
+      "Samhar Alouch",
+      "Ahmad Aljada"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": true,
+        "ui": "D003924"
+      },
+      {
+        "term": "Cell Proliferation",
+        "is_major": false,
+        "ui": "D049109"
+      },
+      {
+        "term": "Chemotherapy, Adjuvant",
+        "is_major": false,
+        "ui": "D017024"
+      },
+      {
+        "term": "Hyperplasia",
+        "is_major": false,
+        "ui": "D006965"
+      },
+      {
+        "term": "Neoplasms",
+        "is_major": true,
+        "ui": "D009369"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "adjuvant therapy",
+        "is_major": false
+      },
+      {
+        "term": "anticancer",
+        "is_major": false
+      },
+      {
+        "term": "cancer",
+        "is_major": false
+      },
+      {
+        "term": "chemoresistance",
+        "is_major": false
+      },
+      {
+        "term": "clinical trials",
+        "is_major": false
+      },
+      {
+        "term": "mechanisms of action",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Cancer continues to pose a significant global health challenge, as evidenced by the increasing incidence rates and high mortality rates, despite the advancements made in chemotherapy. The emergence of chemoresistance further complicates the effectiveness of treatment. However, there is growing interest in the potential of metformin, a commonly prescribed drug for type 2 diabetes mellitus (T2DM), as an adjuvant chemotherapy agent in cancer treatment. Although the precise mechanism of action of metformin in cancer therapy is not fully understood, it has been found to have pleiotropic effects, including the modulation of metabolic pathways, reduction in inflammation, and the regulation of cellular proliferation. This comprehensive review examines the anticancer properties of metformin, drawing insights from various studies conducted in vitro and in vivo, as well as from clinical trials and observational research. This review discusses the mechanisms of action involving both insulin-dependent and independent pathways, shedding light on the potential of metformin as a therapeutic agent for different types of cancer. Despite promising findings, there are challenges that need to be addressed, such as conflicting outcomes in clinical trials, considerations regarding dosing, and the development of resistance. These challenges highlight the importance of further research to fully harness the therapeutic potential of metformin in cancer treatment. The aims of this review are to provide a contemporary understanding of the role of metformin in cancer therapy and identify areas for future exploration in the pursuit of effective anticancer strategies."
+  },
+  {
+    "rank": 8,
+    "score": 0.5408226495726496,
+    "search_type": "hybrid",
+    "vector_id": 2160792,
+    "chunk_id": 2160792,
+    "pmid": "38555742",
+    "title": "Metformin as anticancer agent and adjuvant in cancer combination therapy: Current progress and future prospect.",
+    "year": 2024,
+    "journal": "Translational oncology",
+    "authors": [
+      "Lin Zhu",
+      "Kaiqing Yang",
+      "Zhe Ren",
+      "Detao Yin",
+      "Yubing Zhou"
+    ],
+    "mesh_terms": [],
+    "keywords": [
+      {
+        "term": "Cancer",
+        "is_major": false
+      },
+      {
+        "term": "Chemotherapy",
+        "is_major": false
+      },
+      {
+        "term": "Combination therapy",
+        "is_major": false
+      },
+      {
+        "term": "Immunotherapy",
+        "is_major": false
+      },
+      {
+        "term": "Metformin",
+        "is_major": false
+      },
+      {
+        "term": "Radiotherapy",
+        "is_major": false
+      },
+      {
+        "term": "Targeted therapy",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Metformin, as the preferred antihyperglycemic drug for type 2 diabetes, has been found to have a significant effect in inhibiting tumor growth in recent years. However, metformin alone in cancer treatment has the disadvantages of high dose concentrations and few targeted cancer types. Increasing studies have confirmed that metformin can be used in combination with conventional anticancer therapy to obtain more promising clinical benefits, which is expected to be rapidly transformed and applied in clinic. Some combination therapy strategies including metformin combined with chemotherapy, radiotherapy, targeted therapy and immunotherapy have been proven to have more significant antitumor effects and longer survival time than monotherapy. In this review, we summarize the synergistic antitumor effects and mechanisms of metformin in combination with other current conventional anticancer therapies. In addition, we update the research progress and the latest prospect of the metformin-combined application in the cancer treatment. This work could provide more evidence and future direction for the clinical application of metformin in antitumor."
+  },
+  {
+    "rank": 9,
+    "score": 0.537898944803848,
+    "search_type": "hybrid",
+    "vector_id": 644799,
+    "chunk_id": 644799,
+    "pmid": "39944825",
+    "title": "Advances in the treatment of glioma-related signaling pathways and mechanisms by metformin.",
+    "year": 2025,
+    "journal": "Frontiers in oncology",
+    "authors": [
+      "Xingyuan Ma",
+      "Chao Sun",
+      "Xiao Ding",
+      "Yuhang Zhang",
+      "Tingzhen Deng",
+      "Yatao Wang",
+      "Haijun Yang",
+      "Ruiwen Ding",
+      "Haotian Li",
+      "Dawen Wang",
+      "Maohua Zheng"
+    ],
+    "mesh_terms": [],
+    "keywords": [
+      {
+        "term": "AMPK signaling pathway",
+        "is_major": false
+      },
+      {
+        "term": "CLIC1",
+        "is_major": false
+      },
+      {
+        "term": "apoptosis",
+        "is_major": false
+      },
+      {
+        "term": "ferroptosis",
+        "is_major": false
+      },
+      {
+        "term": "glioma",
+        "is_major": false
+      },
+      {
+        "term": "glioma immunity",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "oxidative stress",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Metformin (MET) is a commonly used drug for the treatment of type 2 diabetes in the department of endocrinology. In recent years, due to the few clinically effective treatment options including glioma, some scholars have proposed the possibility of metformin in the treatment of glioma, and studies have shown that metformin has a certain inhibitory effect on this tumor. This review explores the multiple mechanisms through which metformin exerts its antitumor effects, focusing on signaling pathways such as AMPK/mTOR, ferroptosis, autophagy, apoptosis and chloride ion channels (CLIC1). Metformin's inhibition of glioma proliferation involves complex cellular processes, including mitochondrial dysfunction, increased reactive oxygen species (ROS) production, and modulation of immune responses. Additionally, metformin affects glioma stem cells by inhibiting key pathways, including STAT3, mTOR, and AKT, and altering the tumor microenvironment. While preclinical studies suggest that metformin enhances radiosensitivity and reduces tumor recurrence, its clinical application remains in early stages, with further studies needed to optimize dosing regimens and understand its full therapeutic potential. This review provides a comprehensive analysis of metformin's molecular mechanisms in glioma treatment and highlights its potential as a novel therapeutic strategy, especially for treatment-resistant gliomas."
+  },
+  {
+    "rank": 10,
+    "score": 0.537898944803848,
+    "search_type": "hybrid",
+    "vector_id": 622298,
+    "chunk_id": 622298,
+    "pmid": "39944825",
+    "title": "Advances in the treatment of glioma-related signaling pathways and mechanisms by metformin.",
+    "year": 2025,
+    "journal": "Frontiers in oncology",
+    "authors": [
+      "Xingyuan Ma",
+      "Chao Sun",
+      "Xiao Ding",
+      "Yuhang Zhang",
+      "Tingzhen Deng",
+      "Yatao Wang",
+      "Haijun Yang",
+      "Ruiwen Ding",
+      "Haotian Li",
+      "Dawen Wang",
+      "Maohua Zheng"
+    ],
+    "mesh_terms": [],
+    "keywords": [
+      {
+        "term": "AMPK signaling pathway",
+        "is_major": false
+      },
+      {
+        "term": "CLIC1",
+        "is_major": false
+      },
+      {
+        "term": "apoptosis",
+        "is_major": false
+      },
+      {
+        "term": "ferroptosis",
+        "is_major": false
+      },
+      {
+        "term": "glioma",
+        "is_major": false
+      },
+      {
+        "term": "glioma immunity",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "oxidative stress",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Metformin (MET) is a commonly used drug for the treatment of type 2 diabetes in the department of endocrinology. In recent years, due to the few clinically effective treatment options including glioma, some scholars have proposed the possibility of metformin in the treatment of glioma, and studies have shown that metformin has a certain inhibitory effect on this tumor. This review explores the multiple mechanisms through which metformin exerts its antitumor effects, focusing on signaling pathways such as AMPK/mTOR, ferroptosis, autophagy, apoptosis and chloride ion channels (CLIC1). Metformin's inhibition of glioma proliferation involves complex cellular processes, including mitochondrial dysfunction, increased reactive oxygen species (ROS) production, and modulation of immune responses. Additionally, metformin affects glioma stem cells by inhibiting key pathways, including STAT3, mTOR, and AKT, and altering the tumor microenvironment. While preclinical studies suggest that metformin enhances radiosensitivity and reduces tumor recurrence, its clinical application remains in early stages, with further studies needed to optimize dosing regimens and understand its full therapeutic potential. This review provides a comprehensive analysis of metformin's molecular mechanisms in glioma treatment and highlights its potential as a novel therapeutic strategy, especially for treatment-resistant gliomas."
+  },
+  {
+    "rank": 1,
+    "score": 6.442777633666992,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 3968519,
+    "chunk_id": 3968519,
+    "pmid": "36395633",
+    "title": "Metformin delivery via iontophoresis based on \u03ba-carrageenan cryogels.",
+    "year": 2022,
+    "journal": "International journal of biological macromolecules",
+    "authors": [
+      "Tidayu Saramas",
+      "Phimchanok Sakunpongpitiporn",
+      "Kornkanok Rotjanasuworapong",
+      "Rawita Morarad",
+      "Sumonman Niamlang",
+      "Anuvat Sirivat"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Swine",
+        "is_major": false,
+        "ui": "D013552"
+      },
+      {
+        "term": "Animals",
+        "is_major": false,
+        "ui": "D000818"
+      },
+      {
+        "term": "Carrageenan",
+        "is_major": false,
+        "ui": "D002351"
+      },
+      {
+        "term": "Cryogels",
+        "is_major": true,
+        "ui": "D059985"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Iontophoresis",
+        "is_major": false,
+        "ui": "D007478"
+      },
+      {
+        "term": "Administration, Cutaneous",
+        "is_major": false,
+        "ui": "D000279"
+      },
+      {
+        "term": "Drug Delivery Systems",
+        "is_major": false,
+        "ui": "D016503"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Metformin",
+        "is_major": false
+      },
+      {
+        "term": "Transdermal drug delivery",
+        "is_major": false
+      },
+      {
+        "term": "\u03ba-Carrageenan",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Transdermal drug delivery system (TDDS) is the system for transmitting a drug through the skin into the blood circulation. In this work, \u03ba-Carrageenan (\u03baC) was used as the drug matrix material. The porous \u03baC matrices were fabricated by dissolving the \u03baC in deionized water to obtain hydrogels and then using the freeze-dryer to obtain cryogels. The porous (\u03baC) matrices showed interconnected pore sizes varying between 6.05 to 25.8\u00a0nm. In the drug release experiments, the drug diffusion coefficient increased and the drug release duration was reduced with decreasing \u03baC concentration due to the larger \u03baC pore sizes. The diffusion coefficient increased with a shorter release time under the applied electric strength of +1.0\u00a0V due to the electro-repulsive force between the Metformin and the anode. For the drug release-permeation of the \u03baC 0.8\u00a0%\u00a0v/v cryogel through the pig skin under applied positive electrical potentials, the amounts of drug release-permeation and diffusion coefficients were enhanced with shorter durations relative to without electrical potential. The \u03baC 0.8\u00a0%\u00a0v/v matrix at the applied electric strength of +6.0\u00a0V has been shown here to be potential to be used as the Metformin transdermal controlled delivery patch for abdominal obesity and diabetes."
+  },
+  {
+    "rank": 2,
+    "score": 6.356631278991699,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 10245089,
+    "chunk_id": 10245089,
+    "pmid": "28720350",
+    "title": "An overview of in vitro dissolution/release methods for novel mucosal drug delivery systems.",
+    "year": 2018,
+    "journal": "Journal of pharmaceutical and biomedical analysis",
+    "authors": [
+      "Mario Jug",
+      "Anita Hafner",
+      "Jasmina Lovri\u0107",
+      "Maja Lusina Kregar",
+      "Ivan Pepi\u0107",
+      "\u017deljka Vani\u0107",
+      "Biserka Cetina-\u010ci\u017emek",
+      "Jelena Filipovi\u0107-Gr\u010di\u0107"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Animals",
+        "is_major": false,
+        "ui": "D000818"
+      },
+      {
+        "term": "Chemistry, Pharmaceutical",
+        "is_major": false,
+        "ui": "D002626"
+      },
+      {
+        "term": "Drug Delivery Systems",
+        "is_major": false,
+        "ui": "D016503"
+      },
+      {
+        "term": "Drug Liberation",
+        "is_major": false,
+        "ui": "D065546"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Mucous Membrane",
+        "is_major": false,
+        "ui": "D009092"
+      },
+      {
+        "term": "Pharmaceutical Preparations",
+        "is_major": false,
+        "ui": "D004364"
+      },
+      {
+        "term": "Solubility",
+        "is_major": false,
+        "ui": "D012995"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "In vitro release",
+        "is_major": false
+      },
+      {
+        "term": "Nasal drug delivery system",
+        "is_major": false
+      },
+      {
+        "term": "Ocular drug delivery system",
+        "is_major": false
+      },
+      {
+        "term": "Oromucosal drug delivery system",
+        "is_major": false
+      },
+      {
+        "term": "Rectal drug delivery systems",
+        "is_major": false
+      },
+      {
+        "term": "Vaginal drug delivery system",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "In vitro dissolution/release tests are an important tool in the drug product development phase as well as in its quality control and the regulatory approval process. Mucosal drug delivery systems are aimed to provide both local and systemic drug action via mucosal surfaces of the body and exhibit significant differences in formulation design, as well as in their physicochemical and release characteristics. Therefore it is not possible to devise a single test system which would be suitable for release testing of such complex dosage forms. This article is aimed to provide a comprehensive review of both compendial and noncompendial methods used for in vitro dissolution/release testing of novel mucosal drug delivery systems aimed for ocular, nasal, oromucosal, vaginal and rectal administration."
+  },
+  {
+    "rank": 3,
+    "score": 6.126728534698486,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 11909000,
+    "chunk_id": 11909000,
+    "pmid": "26569228",
+    "title": "Exploring Different Strategies for Efficient Delivery of Colorectal Cancer Therapy.",
+    "year": 2015,
+    "journal": "International journal of molecular sciences",
+    "authors": [
+      "Congcong Lin",
+      "Huei Leng Helena Ng",
+      "Weisan Pan",
+      "Hubiao Chen",
+      "Ge Zhang",
+      "Zhaoxiang Bian",
+      "Aiping Lu",
+      "Zhijun Yang"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Animals",
+        "is_major": false,
+        "ui": "D000818"
+      },
+      {
+        "term": "Antineoplastic Agents",
+        "is_major": false,
+        "ui": "D000970"
+      },
+      {
+        "term": "Colorectal Neoplasms",
+        "is_major": false,
+        "ui": "D015179"
+      },
+      {
+        "term": "Drug Carriers",
+        "is_major": false,
+        "ui": "D004337"
+      },
+      {
+        "term": "Drug Delivery Systems",
+        "is_major": true,
+        "ui": "D016503"
+      },
+      {
+        "term": "Gastrointestinal Tract",
+        "is_major": false,
+        "ui": "D041981"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Molecular Targeted Therapy",
+        "is_major": false,
+        "ui": "D058990"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "chemotherapy",
+        "is_major": false
+      },
+      {
+        "term": "colon-specific drug delivery system",
+        "is_major": false
+      },
+      {
+        "term": "colorectal cancer",
+        "is_major": false
+      },
+      {
+        "term": "drug delivery system",
+        "is_major": false
+      },
+      {
+        "term": "systemic drug delivery system",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Colorectal cancer (CRC) is the third most common cancer and the fourth leading cause of cancer death in the world. Currently available chemotherapy of CRC usually delivers the drug to both normal as well as cancerous tissues, thus leading to numerous undesirable effects. Much emphasis is being laid on the development of effective drug delivery systems for achieving selective delivery of the active moiety at the anticipated site of action with minimized unwanted side effects. Researchers have employed various techniques (dependent on pH, time, pressure and/or bacteria) for targeting drugs directly to the colonic region. On the other hand, systemic drug delivery strategies to specific molecular targets (such as FGFR, EGFR, CD44, EpCAM, CA IX, PPAR\u03b3 and COX-2) overexpressed by cancerous cells have also been shown to be effective. This review aims to put forth an overview of drug delivery technologies that have been, and may be developed, for the treatment of CRC."
+  },
+  {
+    "rank": 4,
+    "score": 6.101304531097412,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 11178073,
+    "chunk_id": 11178073,
+    "pmid": "27519647",
+    "title": "Novel Polymeric Nanoparticles Intended for Ophthalmic Administration of Acetazolamide.",
+    "year": 2016,
+    "journal": "Journal of pharmaceutical sciences",
+    "authors": [
+      "Daniela A Quinteros",
+      "Luana M Ferreira",
+      "Scheila Rezende Schaffazick",
+      "Santiago D Palma",
+      "Daniel A Allemandi",
+      "Let\u00edcia Cruz"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Acetazolamide",
+        "is_major": false,
+        "ui": "D000086"
+      },
+      {
+        "term": "Administration, Ophthalmic",
+        "is_major": true,
+        "ui": "D060433"
+      },
+      {
+        "term": "Administration, Topical",
+        "is_major": false,
+        "ui": "D000287"
+      },
+      {
+        "term": "Animals",
+        "is_major": false,
+        "ui": "D000818"
+      },
+      {
+        "term": "Cornea",
+        "is_major": false,
+        "ui": "D003315"
+      },
+      {
+        "term": "Drug Carriers",
+        "is_major": false,
+        "ui": "D004337"
+      },
+      {
+        "term": "Intraocular Pressure",
+        "is_major": false,
+        "ui": "D007429"
+      },
+      {
+        "term": "Male",
+        "is_major": false,
+        "ui": "D008297"
+      },
+      {
+        "term": "Nanoparticles",
+        "is_major": false,
+        "ui": "D053758"
+      },
+      {
+        "term": "Organ Culture Techniques",
+        "is_major": false,
+        "ui": "D009924"
+      },
+      {
+        "term": "Particle Size",
+        "is_major": false,
+        "ui": "D010316"
+      },
+      {
+        "term": "Polymers",
+        "is_major": false,
+        "ui": "D011108"
+      },
+      {
+        "term": "Rabbits",
+        "is_major": false,
+        "ui": "D011817"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "drug delivery systems",
+        "is_major": false
+      },
+      {
+        "term": "nanocapsules",
+        "is_major": false
+      },
+      {
+        "term": "nanotechnology",
+        "is_major": false
+      },
+      {
+        "term": "ophthalmic drug delivery",
+        "is_major": false
+      },
+      {
+        "term": "polymeric drug delivery systems",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Glaucoma is characterized by increased intraocular pressure (IOP) that results in blindness if it remains untreated. Acetazolamide (AZM) is a carbonic anhydrase inhibitor, mainly used to reduce IOP in the treatment of glaucoma. However, the potential of topical treatment is limited, due to its low permeability across the ocular epithelium. An alternative to overcome this limitation is the incorporation of AZM in nanoparticulate systems, such as polymeric nanocapsules (NCs). In this way, the aim of this work was to prepare and characterize NC formulations containing AZM, using ethylcellulose (EC) and Eudragit(\u00ae) RS100 (EUD) as encapsulating polymers. The formulations showed high encapsulation efficiency. Particle size measurements showed that NCs are in the nanometric range. Comparing both groups of formulations, the NCEC proved to be smaller than those prepared with EUD. The formulations prepared with EC showed negative zeta potentials, while NCs of EUD were positively charged. For both groups of formulations, no more than 30% of drug was released in 120\u00a0min. Ex\u00a0vivo and in\u00a0vivo studies evidenced that the NCEC formulations were the most efficient, because an increased amount of permeated drug was observed, along with a greater IOP decrease and longer duration of the effect in normotensive rabbits."
+  },
+  {
+    "rank": 5,
+    "score": 5.915046691894531,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 455990,
+    "chunk_id": 455990,
+    "pmid": "40010440",
+    "title": "Drug Delivery Systems in Glaucoma- Current Innovations and Future Perspectives.",
+    "year": 2025,
+    "journal": "Asia-Pacific journal of ophthalmology (Philadelphia, Pa.)",
+    "authors": [
+      "Shayne S Tan",
+      "Tina T Wong"
+    ],
+    "mesh_terms": [],
+    "keywords": [
+      {
+        "term": "Drug delivery system",
+        "is_major": false
+      },
+      {
+        "term": "glaucoma",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Glaucoma is the leading cause of irreversible visual loss worldwide, and as yet, there is no cure. The only evidence-based treatment to slow progression is by lowering intraocular pressure (IOP). Despite the development of new topical medications to reduce IOP, the major limitation of eyedrops lies in human and anatomical factors, namely patient compliance and poor bioavailability, making current medical glaucoma treatment ineffective. In this manuscript, we summarise the limitations of traditional topical anti-glaucoma therapy and study current drug delivery systems to lower IOP, with focus on the only two that have made FDA-approval- Durysta and iDose TR. We highlight their limitations and discuss real-world economic challenges that make it prohibitively difficult for these drug delivery systems to be more widely adopted in daily practice. In this perspective, we also introduce gene therapy as a novel therapeutic option to target downstream pathways of IOP regulation, neuroprotection of the optic nerve, and reducing mitochondrial stress to delay the progression of glaucoma. We discuss promising results of gene therapy for glaucoma treatment in in vivo animal models as well. We also explore the concept of novel nanoparticle-based drug delivery systems, which have the advantage of being highly modifiable and customisable, able to incorporate large amounts of cargo while maintaining a high transfection efficacy, and at a fraction of the cost. Lastly, we propose that nanomedicine, in conjunction with gene therapy, offers a promising solution to the aforementioned challenges of current glaucoma therapy, and can herald a new era of sustained glaucoma treatment."
+  },
+  {
+    "rank": 1,
+    "score": 5.875090599060059,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 3203537,
+    "chunk_id": 3203537,
+    "pmid": "37356894",
+    "title": "Ventilator Management in Metformin-Associated Lactic Acidosis: A Case Report.",
+    "year": null,
+    "journal": "Air medical journal",
+    "authors": [
+      "Michael A Frakes",
+      "Jackson McWade",
+      "Vah\u00e9 Ender",
+      "Jason E Cohen",
+      "Susan R Wilcox"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Female",
+        "is_major": false,
+        "ui": "D005260"
+      },
+      {
+        "term": "Acidosis, Lactic",
+        "is_major": true,
+        "ui": "D000140"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Respiration, Artificial",
+        "is_major": false,
+        "ui": "D012121"
+      },
+      {
+        "term": "Ventilators, Mechanical",
+        "is_major": false,
+        "ui": "D012122"
+      },
+      {
+        "term": "Acidosis",
+        "is_major": true,
+        "ui": "D000138"
+      },
+      {
+        "term": "Tidal Volume",
+        "is_major": false,
+        "ui": "D013990"
+      }
+    ],
+    "keywords": [],
+    "citations": [],
+    "text": "The initiation of mechanical ventilation in the setting of profound metabolic acidosis can be a particular challenge in the transport environment. The classic teaching is that patients with severe acidemia should not be intubated, if possible, because they are often able to better maintain their own compensatory minute ventilation compared with clinician management with the mechanical ventilator. In this case, a patient had profound metformin-associated lactic acidosis with a pH of 6.51 and required intubation for deteriorating mental status with an inability to protect her airway. Maintaining adequate minute ventilation can be directly in conflict with the evidence-based approach of low tidal volume ventilation for all patients. When patients have profound metabolic acidosis without evidence of acute respiratory distress syndrome, increasing the tidal volume slightly to allow for more efficient respiration can be an effective strategy to maintain acid-base status."
+  },
+  {
+    "rank": 2,
+    "score": 5.539734363555908,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 14906702,
+    "chunk_id": 14906702,
+    "pmid": "22751178",
+    "title": "The nature of strength enhancement and weakening by pentagon-heptagon defects in graphene.",
+    "year": 2012,
+    "journal": "Nature materials",
+    "authors": [
+      "Yujie Wei",
+      "Jiangtao Wu",
+      "Hanqing Yin",
+      "Xinghua Shi",
+      "Ronggui Yang",
+      "Mildred Dresselhaus"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Graphite",
+        "is_major": false,
+        "ui": "D006108"
+      },
+      {
+        "term": "Mechanical Phenomena",
+        "is_major": true,
+        "ui": "D055595"
+      },
+      {
+        "term": "Molecular Conformation",
+        "is_major": false,
+        "ui": "D008968"
+      },
+      {
+        "term": "Molecular Dynamics Simulation",
+        "is_major": false,
+        "ui": "D056004"
+      },
+      {
+        "term": "Stress, Mechanical",
+        "is_major": false,
+        "ui": "D013314"
+      }
+    ],
+    "keywords": [],
+    "citations": [],
+    "text": "The two-dimensional crystalline structures in graphene challenge the applicability of existing theories that have been used for characterizing its three-dimensional counterparts. It is crucial to establish reliable structure-property relationships in the important two-dimensional crystals to fully use their remarkable properties. With the success in synthesizing large-area polycrystalline graphene, understanding how grain boundaries (GBs) in graphene alter its physical properties is of both scientific and technological importance. A recent work showed that more GB defects could counter intuitively give rise to higher strength in tilt GBs (ref. 10). We show here that GB strength can either increase or decrease with the tilt, and the behaviour can be explained well by continuum mechanics. It is not just the density of defects that affects the mechanical properties, but the detailed arrangements of defects are also important. The strengths of tilt GBs increase as the square of the tilt angles if pentagon-heptagon defects are evenly spaced, and the trend breaks down in other cases. We find that mechanical failure always starts from the bond shared by hexagon-heptagon rings. Our present work provides fundamental guidance towards understanding how defects interact in two-dimensional crystals, which is important for using high-strength and stretchable graphene for biological and electronic applications."
+  },
+  {
+    "rank": 3,
+    "score": 5.539734363555908,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 13045440,
+    "chunk_id": 13045440,
+    "pmid": "25122407",
+    "title": "Multiscale dynamics of semiflexible polymers from a universal coarse-graining procedure.",
+    "year": 2014,
+    "journal": "Physical review. E, Statistical, nonlinear, and soft matter physics",
+    "authors": [
+      "Elena F Koslover",
+      "Andrew J Spakowitz"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Mechanical Phenomena",
+        "is_major": true,
+        "ui": "D055595"
+      },
+      {
+        "term": "Molecular Conformation",
+        "is_major": false,
+        "ui": "D008968"
+      },
+      {
+        "term": "Molecular Dynamics Simulation",
+        "is_major": false,
+        "ui": "D056004"
+      },
+      {
+        "term": "Polymers",
+        "is_major": false,
+        "ui": "D011108"
+      },
+      {
+        "term": "Stress, Mechanical",
+        "is_major": false,
+        "ui": "D013314"
+      }
+    ],
+    "keywords": [],
+    "citations": [],
+    "text": "Simulating the dynamics of a semiflexible polymer across time and length scales that bridge the rigid and flexible regimes requires a physically sound method for generating coarse-grained representations of the polymer. Here, we study the dynamic behavior of the discrete stretchable, shearable wormlike chain model, which can be used to coarse-grain a continuous semi-elastic chain at an arbitrary discretization. We show that the dynamics of this universal model match those of the wormlike chain at length scales above the discretization length. The evolution of the stress correlation, as probed through Brownian dynamics simulations, is found to reproduce the predicted behavior in both the rigid and flexible regimes, spanning over six orders of magnitude in time scales. The coarse-graining approach employed here thus enables dynamic simulation of semiflexible polymers at lengths and times that were previously inaccessible with conventional methods."
+  },
+  {
+    "rank": 4,
+    "score": 5.531454086303711,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 9401861,
+    "chunk_id": 9401861,
+    "pmid": "29803793",
+    "title": "Comparative evaluation of powder flow parameters with reference to particle size and shape.",
+    "year": 2018,
+    "journal": "International journal of pharmaceutics",
+    "authors": [
+      "Hui Ping Goh",
+      "Paul Wan Sia Heng",
+      "Celine Valeria Liew"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Excipients",
+        "is_major": false,
+        "ui": "D005079"
+      },
+      {
+        "term": "Lactose",
+        "is_major": false,
+        "ui": "D007785"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Multivariate Analysis",
+        "is_major": false,
+        "ui": "D015999"
+      },
+      {
+        "term": "Particle Size",
+        "is_major": false,
+        "ui": "D010316"
+      },
+      {
+        "term": "Povidone",
+        "is_major": false,
+        "ui": "D011205"
+      },
+      {
+        "term": "Powders",
+        "is_major": false,
+        "ui": "D011208"
+      },
+      {
+        "term": "Rheology",
+        "is_major": false,
+        "ui": "D012212"
+      },
+      {
+        "term": "Stearic Acids",
+        "is_major": false,
+        "ui": "D013229"
+      },
+      {
+        "term": "Stress, Mechanical",
+        "is_major": false,
+        "ui": "D013314"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Compressibility",
+        "is_major": false
+      },
+      {
+        "term": "Inter-particulate friction",
+        "is_major": false
+      },
+      {
+        "term": "Particle shape",
+        "is_major": false
+      },
+      {
+        "term": "Particle size",
+        "is_major": false
+      },
+      {
+        "term": "Powder cohesion",
+        "is_major": false
+      },
+      {
+        "term": "Powder flow parameters",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Powder flow is critical to the success of various pharmaceutical processes such as tableting and capsule filling. Despite a plethora of flow characterisation techniques and parameters available, powder flow still remains to be a not well understood subject. Inter-relationships between the various powder flow parameters in particular have not been well established. Furthermore, while it is known that particle size and shape are important determinants of powder flow, their relative impact on individual flow parameter is unclear. In this study, granules were evaluated for their flow properties using various characterisation methods. Through multivariate analysis, flow parameters were classified based on the underlying physical granule property. Angle of repose, Hausner ratio, shear cell parameters and avalanche flow were found to be affected primarily by powder cohesion, which was in turn determined by the smallest granule size fraction. On the other hand, powder compressibility and inter-particulate friction were the main factors underlying basic flow energy. Angle of internal friction was primarily affected by particle roundness and did not appear to describe powder bulk flow properties. This study showed that while the various flow characterisation techniques were different in terms of their applications, there were common physical attributes that governed the measurements."
+  },
+  {
+    "rank": 5,
+    "score": 5.531454086303711,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 4896344,
+    "chunk_id": 4896344,
+    "pmid": "35297689",
+    "title": "Lung and chest wall mechanical properties in metformin-treated and untreated models of type 2 diabetes.",
+    "year": 2022,
+    "journal": "Journal of applied physiology (Bethesda, Md. : 1985)",
+    "authors": [
+      "\u00c1lmos Schranc",
+      "Gergely H Fodor",
+      "Roberta S\u00fcdy",
+      "Bence Ball\u00f3k",
+      "Rich\u00e1rd Kulcs\u00e1r",
+      "J\u00f3zsef Tolnai",
+      "Barna Babik",
+      "Ferenc Pet\u00e1k"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Animals",
+        "is_major": false,
+        "ui": "D000818"
+      },
+      {
+        "term": "Diabetes Mellitus, Experimental",
+        "is_major": true,
+        "ui": "D003921"
+      },
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": true,
+        "ui": "D003924"
+      },
+      {
+        "term": "Lung",
+        "is_major": false,
+        "ui": "D008168"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Rats",
+        "is_major": false,
+        "ui": "D051381"
+      },
+      {
+        "term": "Respiratory Mechanics",
+        "is_major": false,
+        "ui": "D015656"
+      },
+      {
+        "term": "Thoracic Wall",
+        "is_major": true,
+        "ui": "D035441"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "hyperglycemia",
+        "is_major": false
+      },
+      {
+        "term": "lung function",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "skeletal muscle",
+        "is_major": false
+      },
+      {
+        "term": "tissue viscoelasticity",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "The adverse respiratory consequences of type 2 diabetes mellitus (T2DM) may reflect compromised lung function and/or alterations of the chest wall because of skeletal muscle stiffening. We assessed the separate contributions of these compartments to respiratory complications in diabetes and explored the effects of metformin on respiratory abnormalities. Experiments were performed in untreated rats (control,"
+  }
+]

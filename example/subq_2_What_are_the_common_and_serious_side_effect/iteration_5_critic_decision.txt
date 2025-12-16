@@ -1,0 +1,106 @@
+{
+    "scores": [
+        {
+            "pmid": "30927035",
+            "relevance_score": 8,
+            "justification": "This article examines the risk of fractures associated with metformin use and does not directly address common side effects, which aligns somewhat with serious side effects focus of the research question."
+        },
+        {
+            "pmid": "28770324",
+            "relevance_score": 5,
+            "justification": "This article focuses on the cardiovascular effects of metformin in diabetes patients, not on the common or serious side effects, reducing its relevance."
+        },
+        {
+            "pmid": "35002982",
+            "relevance_score": 7,
+            "justification": "The article relates to metformin use in a specific context (sepsis and diabetes), with discussion of mortality—a serious outcome—making it partly relevant."
+        },
+        {
+            "pmid": "28756408",
+            "relevance_score": 2,
+            "justification": "The focus is on methodologies for systematic reviews and meta-analyses rather than specific findings about metformin side effects, making it largely irrelevant."
+        },
+        {
+            "pmid": "28193851",
+            "relevance_score": 1,
+            "justification": "The study design for antidepressant effectiveness is irrelevant to our question on metformin side effects."
+        },
+        {
+            "pmid": "30473037",
+            "relevance_score": 2,
+            "justification": "A general article on systematic reviews and meta-analyses, offering no specific data on metformin side effects."
+        },
+        {
+            "pmid": "26708077",
+            "relevance_score": 1,
+            "justification": "Focused on combining studies for research; not related to metformin side effects."
+        },
+        {
+            "pmid": "36639571",
+            "relevance_score": 2,
+            "justification": "Discussion on systematic review methodologies, not directly related to metformin or its side effects."
+        },
+        {
+            "pmid": "28917594",
+            "relevance_score": 1,
+            "justification": "Discusses systematic reviews production rather than metformin side effects."
+        },
+        {
+            "pmid": "32450783",
+            "relevance_score": 2,
+            "justification": "An overview of systematic reviews in otolaryngology; not related to metformin specifics."
+        },
+        {
+            "pmid": "37699621",
+            "relevance_score": 3,
+            "justification": "Focus on drug therapy-related side effects with mention of adverse reactions; partially applicable."
+        },
+        {
+            "pmid": "31732106",
+            "relevance_score": 5,
+            "justification": "While it mainly discusses cancer risk and survival, it briefly touches on metformin, suggesting limited relevance."
+        },
+        {
+            "pmid": "39976244",
+            "relevance_score": 1,
+            "justification": "Focuses on childhood experiences, not relevant to metformin or its side effects."
+        },
+        {
+            "pmid": "32183872",
+            "relevance_score": 4,
+            "justification": "Focus on amitriptyline side effects, indirectly relevant through discussion of drug-related adverse reactions."
+        },
+        {
+            "pmid": "32871961",
+            "relevance_score": 1,
+            "justification": "Moxibustion and chemotherapy context not applicable to metformin."
+        },
+        {
+            "pmid": "34426461",
+            "relevance_score": 1,
+            "justification": "Asthma and allergy protocol not related to metformin."
+        },
+        {
+            "pmid": "36701706",
+            "relevance_score": 3,
+            "justification": "Acupuncture for cancer side effects doesn't directly relate but shares some thematic relevance to drug side effect management."
+        },
+        {
+            "pmid": "24973984",
+            "relevance_score": 1,
+            "justification": "Turmeric review doesn't align with our focus on metformin side effects."
+        },
+        {
+            "pmid": "23198755",
+            "relevance_score": 1,
+            "justification": "Focused on diabetic neuropathies pain interventions, not metformin."
+        },
+        {
+            "pmid": "36187122",
+            "relevance_score": 10,
+            "justification": "This article is directly focused on gastrointestinal side effects from metformin in Type 2 diabetes patients, making it highly relevant."
+        }
+    ],
+    "decision": "CONTINUE",
+    "suggestion": "Focus next on studies specifically addressing side effects of metformin, using terms like 'metformin side effects' or 'metformin adverse effects' for targeted searches."
+}

@@ -1,0 +1,56 @@
+{
+  "scores": [
+    {
+      "pmid": "38612893",
+      "relevance_score": 8,
+      "justification": "The article discusses metformin's role in cancer treatment and prevention, highlighting its potential use as an adjuvant chemotherapy agent. This aligns with the therapeutic uses of metformin beyond diabetes management, making it relevant to the research question."
+    },
+    {
+      "pmid": "28703040",
+      "relevance_score": 7,
+      "justification": "This article examines metformin as an adjunct therapy in cancer treatment, specifically its role in tumor metabolism and glucose availability, which are pertinent to its therapeutic applications beyond diabetes."
+    },
+    {
+      "pmid": "38785784",
+      "relevance_score": 8,
+      "justification": "Focusing on metformin's applications in cancer management, the article delves into molecular mechanisms and therapeutic strategies. This is highly relevant to understanding the broader therapeutic uses of metformin."
+    },
+    {
+      "pmid": "38555742",
+      "relevance_score": 8,
+      "justification": "The article reviews the use of metformin in combination with other cancer therapies, offering insights into its adjunctive potential, which is a significant aspect of its therapeutic applications."
+    },
+    {
+      "pmid": "29342230",
+      "relevance_score": 8,
+      "justification": "Discussing metformin's potential in targeting cancer stem cells and relevant signaling pathways, the article adds depth to the understanding of metformin's therapeutic use in cancer."
+    },
+    {
+      "pmid": "31114366",
+      "relevance_score": 8,
+      "justification": "This article provides a comprehensive review of metformin's effects in cancer prevention and therapy, placing it within the context of its therapeutic broader scope."
+    },
+    {
+      "pmid": "34311387",
+      "relevance_score": 7,
+      "justification": "The article discusses metformin's role in preventing and treating endocrine-related cancers, highlighting its therapeutic potential beyond diabetes treatment."
+    },
+    {
+      "pmid": "39595655",
+      "relevance_score": 7,
+      "justification": "The review explores the impact of anti-diabetic therapies, including metformin, on cancer progression, which ties into its broader therapeutic use."
+    },
+    {
+      "pmid": "35267644",
+      "relevance_score": 7,
+      "justification": "This article casts metformin as a potential universal solution in cancer treatment, discussing its underlying mechanisms, which is relevant to its therapeutic applications."
+    },
+    {
+      "pmid": "39354464",
+      "relevance_score": 5,
+      "justification": "While focusing on non-coding RNAs, the article touches on metformin's potential in cancer therapy, albeit indirectly linking to its use as a therapeutic agent."
+    }
+  ],
+  "decision": "STOP",
+  "suggestion": "The current selection includes several relevant articles discussing metformin's therapeutic uses, particularly its potential in cancer treatment and prevention, highlighting the drug's varied applications beyond diabetes management. We should focus on reviewing these findings further due to their direct relevance."
+}

@@ -1,0 +1,2131 @@
+SYSTEM: 
+You are a research critic agent. Your task is to evaluate the relevance of the following articles to the research question.
+For each article, provide a relevance score from 1 to 10 (1 = not relevant, 10 = highly relevant) and a brief justification.
+Also, provide an overall assessment: should we continue searching or stop?
+
+Respond in JSON format with two keys: "scores" and "decision".
+- "scores": a list of objects, each with "pmid", "relevance_score", and "justification".
+- "decision": either "CONTINUE" or "STOP". If continuing, add a "suggestion" key with ideas for the next search.
+
+USER: 
+Research Question: "What are the common and serious side effects of metformin?"
+
+Articles to evaluate:
+[
+  {
+    "rank": 1,
+    "score": 9.312362670898438,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 8536774,
+    "chunk_id": 8536774,
+    "pmid": "30927035",
+    "title": "Metformin use and risk of fracture: a systematic review and meta-analysis of observational studies.",
+    "year": 2019,
+    "journal": "Osteoporosis international : a journal established as result of cooperation between the European Foundation for Osteoporosis and the National Osteoporosis Foundation of the USA",
+    "authors": [
+      "A Salari-Moghaddam",
+      "O Sadeghi",
+      "A H Keshteli",
+      "B Larijani",
+      "A Esmaillzadeh"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Observational Studies as Topic",
+        "is_major": false,
+        "ui": "D064887"
+      },
+      {
+        "term": "Osteoporotic Fractures",
+        "is_major": false,
+        "ui": "D058866"
+      },
+      {
+        "term": "Risk Assessment",
+        "is_major": false,
+        "ui": "D018570"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Fracture",
+        "is_major": false
+      },
+      {
+        "term": "Meta-analysis",
+        "is_major": false
+      },
+      {
+        "term": "Metformin",
+        "is_major": false
+      },
+      {
+        "term": "Systematic review",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "INTRODUCTION: No study is available summarizing earlier publications on the association between metformin use and risk of fracture. This systematic review and meta-analysis were conducted to summarize earlier findings on the association between metformin use and risk of fracture.\n\nMETHODS: We conducted a systematic search on all published articles up to October 2018 using online databases including PubMed/Medline, ISI Web of Science, and Scopus. Observational studies that considered metformin use as the exposure variable and bone fracture as the main outcome variable or as one of the outcome variables and participants included were 18\u00a0years and older were included in the systematic review. Publications in which hazard ratios (HRs), rate or risk ratios (RRs), or odds ratios (ORs) were reported as effect size were included in the meta-analysis.\n\nRESULTS: Totally, three cohort studies, one cross-sectional study, one nested case-control study, and one case-control study were included in this systematic review and meta-analysis. When seven effect sizes from six studies were combined, a significant inverse association between metformin use and risk of fracture was observed (RR 0.82; 95% CI 0.72, 0.93). No significant between-study heterogeneity was found (I\n\nCONCLUSION: We found that metformin use was inversely associated with the risk of fracture."
+  },
+  {
+    "rank": 2,
+    "score": 8.682814598083496,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 10235091,
+    "chunk_id": 10235091,
+    "pmid": "28770324",
+    "title": "Impact of metformin on cardiovascular disease: a meta-analysis of randomised trials among people with type 2 diabetes.",
+    "year": 2017,
+    "journal": "Diabetologia",
+    "authors": [
+      "Simon J Griffin",
+      "James K Leaver",
+      "Greg J Irving"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Blood Glucose",
+        "is_major": false,
+        "ui": "D001786"
+      },
+      {
+        "term": "Cardiovascular Diseases",
+        "is_major": false,
+        "ui": "D002318"
+      },
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": false,
+        "ui": "D003924"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Cardiovascular disease",
+        "is_major": false
+      },
+      {
+        "term": "Meta-analysis",
+        "is_major": false
+      },
+      {
+        "term": "Metformin",
+        "is_major": false
+      },
+      {
+        "term": "Review",
+        "is_major": false
+      },
+      {
+        "term": "Systematic review",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "AIMS/HYPOTHESIS: Metformin is the most-prescribed oral medication to lower blood glucose worldwide. Yet previous systematic reviews have raised doubts about its effectiveness in reducing risk of cardiovascular disease, the most costly complication of type 2 diabetes. We aimed to systematically identify and pool randomised trials reporting cardiovascular outcomes in which the effect of metformin was 'isolated' through comparison to diet, lifestyle or placebo.\n\nMETHODS: We performed an electronic literature search of MEDLINE, EMBASE and the Cochrane Library. We also manually screened the reference lists of previous meta-analyses of trials of metformin identified through a MEDLINE search. We included randomised controlled trials of adults with type 2 diabetes comparing any dose and preparation of oral metformin with no intervention, placebo or a lifestyle intervention and reporting mortality or a cardiovascular outcome.\n\nRESULTS: We included ten articles reporting 13 trials (including a total of 2079 individuals with type 2 diabetes allocated to metformin and a similar number to comparison groups) of which only four compared metformin with placebo and collected data on cardiovascular outcomes. Participants were mainly white, aged \u226465\u00a0years, overweight/obese and with poor glycaemic control. Summary estimates were based on a small number of events: 416 myocardial infarctions/ischaemic heart disease events in seven studies and 111 strokes in four studies. The UK Prospective Diabetes Study (UKPDS) contributed the majority of data to the summary estimates, with weights ranging from 52.3% for myocardial infarction to 70.5% for stroke. All outcomes, with the exception of stroke, favoured metformin, with limited heterogeneity between studies, but none achieved statistical significance. Effect sizes (Mantel-Haenszel RR) were: all-cause mortality 0.96 (95% CI 0.84, 1.09); cardiovascular death 0.97 (95% CI 0.80, 1.16); myocardial infarction 0.89 (95% CI 0.75, 1.06); stroke 1.04 (95% CI 0.73, 1.48); and peripheral vascular disease 0.81 (95% CI 0.50, 1.31).\n\nCONCLUSIONS/INTERPRETATION: There remains uncertainty about whether metformin reduces risk of cardiovascular disease among patients with type 2 diabetes, for whom it is the recommended first-line drug. Although this is mainly due to absence of evidence, it is unlikely that a definitive placebo-controlled cardiovascular endpoint trial among people with diabetes will be forthcoming. Alternative approaches to reduce the uncertainty include the use of electronic health records in long-term pragmatic evaluations, inclusion of metformin in factorial trials, publication of cardiovascular outcome data from adverse event reporting in trials of metformin and a cardiovascular endpoint trial of metformin among people without diabetes."
+  },
+  {
+    "rank": 3,
+    "score": 8.506674766540527,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 5164015,
+    "chunk_id": 5164015,
+    "pmid": "35002982",
+    "title": "Association of Preadmission Metformin Use and Prognosis in Patients With Sepsis and Diabetes Mellitus: A Systematic Review and Meta-Analysis.",
+    "year": 2021,
+    "journal": "Frontiers in endocrinology",
+    "authors": [
+      "Yuanzhe Li",
+      "Huayan Zhao",
+      "Yalin Guo",
+      "Yongtao Duan",
+      "Yanjun Guo",
+      "Xianfei Ding"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": false,
+        "ui": "D003924"
+      },
+      {
+        "term": "Diagnostic Tests, Routine",
+        "is_major": false,
+        "ui": "D003955"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Mortality",
+        "is_major": false,
+        "ui": "D009026"
+      },
+      {
+        "term": "Patient Admission",
+        "is_major": false,
+        "ui": "D010343"
+      },
+      {
+        "term": "Prognosis",
+        "is_major": false,
+        "ui": "D011379"
+      },
+      {
+        "term": "Sepsis",
+        "is_major": false,
+        "ui": "D018805"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "meta-analysis",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "mortality",
+        "is_major": false
+      },
+      {
+        "term": "sepsis",
+        "is_major": false
+      },
+      {
+        "term": "systematic review",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Background and Aim: A growing body of evidence suggests that preadmission metformin use could decrease the mortality of septic patients with diabetes mellitus (DM); however, the findings remain controversial. Therefore, this meta-analysis was conducted on available studies to confirm the relationship between preadmission metformin use and mortality in patients with sepsis and DM.\n\nMethods: A comprehensive search of the PubMed, Embase, and Cochrane Library databases was performed for studies published before August 8, 2021. Observational studies assessing the correlation between metformin use and mortality in patients with sepsis and DM were considered eligible studies. We used the Newcastle-Ottawa Scale (NOS) to assess the outcome quality of each included article. Furthermore, the odds ratios (ORs) and 95% confidence intervals (\n\nResults: Eleven articles including 8195 patients were analyzed in this meta-analysis. All the included articles were scored as low risk of bias. Our results showed that preadmission metformin use had a lower mortality rate (OR, 0.74; 95%\n\nConclusions: This study is the most comprehensive meta-analysis at present, which shows that preadmission metformin use may reduce mortality and not increase the levels of serum creatinine and lactic acid in adult patients with sepsis and DM. Therefore, these data suggest that the potential efficacy of metformin could be assessed in future clinical studies.\n\nSystematic Review Registration: https://inplasy.com/?s=INPLASY2021100113, identifier INPLASY2021100113."
+  },
+  {
+    "rank": 4,
+    "score": 8.386621475219727,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 10223696,
+    "chunk_id": 10223696,
+    "pmid": "28756408",
+    "title": "Systematic review and meta-analysis: tools for the information age.",
+    "year": 2017,
+    "journal": "Postgraduate medical journal",
+    "authors": [
+      "Mark Weatherall"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Biomedical Research",
+        "is_major": true,
+        "ui": "D035843"
+      },
+      {
+        "term": "Evidence-Based Medicine",
+        "is_major": false,
+        "ui": "D019317"
+      },
+      {
+        "term": "Guidelines as Topic",
+        "is_major": false,
+        "ui": "D017408"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Meta-Analysis as Topic",
+        "is_major": true,
+        "ui": "D015201"
+      },
+      {
+        "term": "Review Literature as Topic",
+        "is_major": true,
+        "ui": "D012196"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Meta-analysis",
+        "is_major": false
+      },
+      {
+        "term": "Systematic Review",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "The amount of available biomedical information is vast and growing. Natural limitations of the way clinicians and researchers approach this treasure trove of information comprise difficulties locating the information, and once located, cognitive biases may lead to inappropriate use of the information. Systematic reviews and meta-analyses represent important tools in the information age to improve knowledge and action. Systematic reviews represent a census approach to identifying literature to avoid non-response bias. They are a necessary prelude to producing combined quantitative summaries of associations or treatment effects. Meta-analysis comprises the arithmetical techniques for producing combined summaries from individual study reports. Careful, thoughtful and rigorous use of these tools is likely to enhance knowledge and action. Use of standard guidelines, such as the Preferred Reporting Items for Systematic Reviews and Meta-Analyses guidelines, or embedding these activities within collaborative groups such as the Cochrane Collaboration, are likely to lead to more useful systematic review and meta-analysis reporting."
+  },
+  {
+    "rank": 5,
+    "score": 8.386621475219727,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 10681513,
+    "chunk_id": 10681513,
+    "pmid": "28193851",
+    "title": "Individual patient data meta-analysis of combined treatments versus psychotherapy (with or without pill placebo), pharmacotherapy or pill placebo for adult depression: a protocol.",
+    "year": 2017,
+    "journal": "BMJ open",
+    "authors": [
+      "Erica Weitz",
+      "Annet Kleiboer",
+      "Annemieke van Straten",
+      "Steven D Hollon",
+      "Pim Cuijpers"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Adult",
+        "is_major": false,
+        "ui": "D000328"
+      },
+      {
+        "term": "Antidepressive Agents",
+        "is_major": false,
+        "ui": "D000928"
+      },
+      {
+        "term": "Combined Modality Therapy",
+        "is_major": false,
+        "ui": "D003131"
+      },
+      {
+        "term": "Databases, Bibliographic",
+        "is_major": false,
+        "ui": "D016206"
+      },
+      {
+        "term": "Depression",
+        "is_major": false,
+        "ui": "D003863"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Meta-Analysis as Topic",
+        "is_major": false,
+        "ui": "D015201"
+      },
+      {
+        "term": "Psychotherapy",
+        "is_major": true,
+        "ui": "D011613"
+      },
+      {
+        "term": "Randomized Controlled Trials as Topic",
+        "is_major": false,
+        "ui": "D016032"
+      },
+      {
+        "term": "Research Design",
+        "is_major": true,
+        "ui": "D012107"
+      },
+      {
+        "term": "Treatment Outcome",
+        "is_major": false,
+        "ui": "D016896"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Systematic Review",
+        "is_major": false
+      },
+      {
+        "term": "meta-analysis",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "INTRODUCTION: There are many proven treatments (psychotherapy, pharmacotherapy or their combination) for the treatment of depression. Although there is growing evidence for the effectiveness of combination treatment (psychotherapy + pharmacotherapy) over pharmacotherapy alone, psychotherapy alone or psychotherapy plus pill placebo, for depression, little is known about which specific groups of patients may respond best to combined treatment versus monotherapy. Conventional meta-analyses techniques have limitations when tasked with examining whether specific individual characteristics moderate the effect of treatment on depression. Therefore, this protocol outlines an individual patient data (IPD) meta-analysis to explore which patients, with which clinical characteristics, have better outcomes in combined treatment compared with psychotherapy (alone or with pill placebo), pharmacotherapy and pill placebo.\n\nMETHODS AND ANALYSIS: Study searches are completed using an established database of randomised controlled trials (RCTs) on the psychological treatment of adult depression that has previously been reported. Searches were conducted in PubMed, PsycInfo, Embase and the Cochrane Central Register of Controlled Trials. RCTs comparing combination treatment (psychotherapy + pharmacotherapy) with psychotherapy (with or without pill placebo), pharmacotherapy or pill placebo for the treatment of adult depression will be included. Study authors of eligible trials will be contacted and asked to contribute IPD. Conventional meta-analysis techniques will be used to examine differences between studies that have contributed data and those that did not. Then, IPD will be harmonised and analysis using multilevel regression will be conducted to examine effect moderators of treatment outcomes.\n\nDISSEMINATION: Study results outlined above will be published in peer-reviewed journals. Study results will contribute to better understanding whether certain patients respond best to combined treatment or other depression treatments and provide new information on moderators of treatment outcome that can be used by patients, clinicians and researchers.\n\nTRIAL REGISTRATION NUMBER: CRD42016039028."
+  },
+  {
+    "rank": 6,
+    "score": 8.386621475219727,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 8867073,
+    "chunk_id": 8867073,
+    "pmid": "30473037",
+    "title": "Systematic reviews and meta-analytic techniques.",
+    "year": 2018,
+    "journal": "Seminars in pediatric surgery",
+    "authors": [
+      "Robert Baird"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Child",
+        "is_major": false,
+        "ui": "D002648"
+      },
+      {
+        "term": "Evidence-Based Medicine",
+        "is_major": false,
+        "ui": "D019317"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Meta-Analysis as Topic",
+        "is_major": true,
+        "ui": "D015201"
+      },
+      {
+        "term": "Pediatrics",
+        "is_major": false,
+        "ui": "D010372"
+      },
+      {
+        "term": "Specialties, Surgical",
+        "is_major": false,
+        "ui": "D013043"
+      },
+      {
+        "term": "Systematic Reviews as Topic",
+        "is_major": true,
+        "ui": "D000078202"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Meta-analysis",
+        "is_major": false
+      },
+      {
+        "term": "Systematic review",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Systematic reviews (SRs) are a form of research methodology that addresses a specific research question by collecting, appraising and summarising all empirical evidence that fits pre-specified eligibility criteria. Systematic reviews have grown exponentially since their emergence in the late 1970\u202fs as evidence-based medicine permeated medical culture. With several key advantages and limitations inherent to their design, all health care providers should be familiar with their basic structure, how to critically appraise them, and how to incorporate their findings into clinical practice. This review will contextualise systematic reviews within the broader framework of other review types, and outline the steps in conducting or appraising a systematic review. This includes the framing of an appropriate question, the search strategy, appraisal of included studies, as well as synthesis and analysis of the acquired data. A focus on SRs in the context of pediatric surgical practice will be emphasized. A concise primer on meta-analytic techniques is also provided, with resources highlighted for further reading."
+  },
+  {
+    "rank": 7,
+    "score": 8.386621475219727,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 11762490,
+    "chunk_id": 11762490,
+    "pmid": "26708077",
+    "title": "The Herd Mentality: Strength in Numbers, and Combining Studies.",
+    "year": null,
+    "journal": "The Journal of foot and ankle surgery : official publication of the American College of Foot and Ankle Surgeons",
+    "authors": [
+      "Daniel C Jupiter"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Evidence-Based Medicine",
+        "is_major": false,
+        "ui": "D019317"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Orthopedics",
+        "is_major": false,
+        "ui": "D009985"
+      },
+      {
+        "term": "Periodicals as Topic",
+        "is_major": true,
+        "ui": "D010506"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "meta-analysis",
+        "is_major": false
+      },
+      {
+        "term": "systematic review",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Although clinicians may have the best of intentions in terms of keeping up with the medical literature, the overwhelming volume of published studies and the press of clinical responsibilities can make this difficult. A medical version of the Reader's Digest(\u00a9) would thus be a valuable asset. This is something of the role that systematic reviews and meta-analyses play: synthesis and summary of the information in the literature."
+  },
+  {
+    "rank": 8,
+    "score": 8.386621475219727,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 3769662,
+    "chunk_id": 3769662,
+    "pmid": "36639571",
+    "title": "Missing the forest-plot for the trees.",
+    "year": 2023,
+    "journal": "Diabetologia",
+    "authors": [
+      "Deirdre K Tobias"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Biomedical Research",
+        "is_major": true,
+        "ui": "D035843"
+      },
+      {
+        "term": "Systematic Reviews as Topic",
+        "is_major": false,
+        "ui": "D000078202"
+      },
+      {
+        "term": "Meta-Analysis as Topic",
+        "is_major": false,
+        "ui": "D015201"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Meta-analysis",
+        "is_major": false
+      },
+      {
+        "term": "Systematic review",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Systematic reviews and meta-analyses are methods increasingly used in biomedical research since their introduction in the 1970s. They serve to replace other non-systematic and cherry-picked narrative reviews, which are highly variable in their approach, structure and content. Their increase in popularity parallels the increase in overall scientific output, and when properly conducted, systematic reviews can contribute highly impactful summaries of a fast-growing evidence base. Meta-analyses offer statistical summaries, called forest plots, which similarly provide a powerful synopsis unachievable by individual studies. Thus, it is not difficult to imagine why systematic reviews are published more often. Should scientists be concerned by the accelerated output of research, from systematic reviews or other? If quantity comes at the expense of quality, then yes, of course; but should important manuscripts be rationed out otherwise? A new scientific technique can seem scary at first, especially to the researcher who is unfamiliar with its application or uncertain of its validity. In that case, we should become familiar with new and popular methods, and understand their strengths and limitations. There is a rightful place for systematic reviews and meta-analyses among respectable research tools. Importantly, however, despite standard operating procedures and best practices, the quality of systematic reviews today is highly variable, warranting serious concerns for quantity exceeding quality. Therefore, the appropriate response should be to instil researchers with an appreciation for the complexity of conducting and interpreting a systematic review and meta-analysis, to create more knowledgeable authors, reviewers and editors, who collectively will improve, rather than dismiss, these important scientific contributions."
+  },
+  {
+    "rank": 9,
+    "score": 8.386621475219727,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 10103918,
+    "chunk_id": 10103918,
+    "pmid": "28917594",
+    "title": "Key Steps in Conducting Systematic Reviews for Underpinning Clinical Practice Guidelines: Methodology of the European Association of Urology.",
+    "year": 2018,
+    "journal": "European urology",
+    "authors": [
+      "Thomas Knoll",
+      "Muhammad Imran Omar",
+      "Steven Maclennan",
+      "Virginia Hern\u00e1ndez",
+      "Steven Canfield",
+      "Yuhong Yuan",
+      "Max Bruins",
+      "Lorenzo Marconi",
+      "Hein Van Poppel",
+      "James N'Dow",
+      "Richard Sylvester"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Europe",
+        "is_major": false,
+        "ui": "D005060"
+      },
+      {
+        "term": "Practice Guidelines as Topic",
+        "is_major": true,
+        "ui": "D017410"
+      },
+      {
+        "term": "Research Design",
+        "is_major": false,
+        "ui": "D012107"
+      },
+      {
+        "term": "Societies, Medical",
+        "is_major": false,
+        "ui": "D012955"
+      },
+      {
+        "term": "Systematic Reviews as Topic",
+        "is_major": true,
+        "ui": "D000078202"
+      },
+      {
+        "term": "Urology",
+        "is_major": false,
+        "ui": "D014572"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Meta-analysis",
+        "is_major": false
+      },
+      {
+        "term": "Systematic review",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "CONTEXT: The findings of systematic reviews (SRs) and meta-analyses (MAs) are used for clinical decision making. The European Association of Urology has committed increasing resources into the development of high quality clinical guidelines based on such SRs and MAs.\n\nOBJECTIVE: In this paper, we have summarised the process of conducting SRs for underpinning clinical practice guidelines under the auspices of the European Association of Urology Guidelines Office.\n\nEVIDENCE ACQUISITION: The process involves explicit methods and the findings should be reproducible. When conducting a SR, the essential first step is to formulate a clear and answerable research question. An extensive literature search lays the foundation for evidence synthesis. Data are extracted independently by two reviewers and any disagreements are resolved by discussion or arbitration by a third reviewer.\n\nEVIDENCE SYNTHESIS: In SRs, data for particular outcomes in individual randomised controlled trials may be combined statistically in a meta-analysis to increase power when the studies are similar enough. Biases in studies included in a SR/MA can lead to either an over estimation or an under estimation of true intervention effect size, resulting in heterogeneity in outcome between studies. A number of different tools are available such as Cochrane Risk of Bias assessment tool for randomised controlled trials. In circumstances where there is too much heterogeneity, or when a review has included nonrandomised comparative studies, it is more appropriate to conduct a narrative synthesis. The GRADE tool for assessing quality of evidence strives to be a structured and transparent system, which can be applied to all evidence, regardless of quality. A SR not only identifies, evaluates, and summarises the best available evidence, but also the gaps to be targeted by future studies.\n\nCONCLUSIONS: SRs and MAs are integral in developing sound clinical practice guidelines and recommendations.\n\nPATIENT SUMMARY: Clinical practice guidelines should be evidence based, and systematic reviews and meta-analyses are essential in their production. We have discussed the key steps of conducting systematic reviews and meta-analyses in this paper."
+  },
+  {
+    "rank": 10,
+    "score": 8.386621475219727,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 7264069,
+    "chunk_id": 7264069,
+    "pmid": "32450783",
+    "title": "Methodological Quality of Systematic Reviews and Meta-analyses Published in High-Impact Otolaryngology Journals.",
+    "year": 2020,
+    "journal": "Otolaryngology--head and neck surgery : official journal of American Academy of Otolaryngology-Head and Neck Surgery",
+    "authors": [
+      "Rodrigo Martinez-Monedero",
+      "Arman Danielian",
+      "Varun Angajala",
+      "Jennifer E Dinalo",
+      "Eric J Kezirian"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Journal Impact Factor",
+        "is_major": false,
+        "ui": "D055811"
+      },
+      {
+        "term": "Meta-Analysis as Topic",
+        "is_major": true,
+        "ui": "D015201"
+      },
+      {
+        "term": "Otolaryngology",
+        "is_major": true,
+        "ui": "D010036"
+      },
+      {
+        "term": "Periodicals as Topic",
+        "is_major": false,
+        "ui": "D010506"
+      },
+      {
+        "term": "Publication Bias",
+        "is_major": false,
+        "ui": "D017594"
+      },
+      {
+        "term": "Systematic Reviews as Topic",
+        "is_major": true,
+        "ui": "D000078202"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "meta-analysis",
+        "is_major": false
+      },
+      {
+        "term": "systematic review",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "OBJECTIVE: To assess the methodological quality of intervention-focused systematic reviews (SRs) and meta-analyses (MAs) published in high-impact otolaryngology journals.\n\nDATA SOURCES: Ovid Medline, Embase, and Cochrane Library.\n\nREVIEW METHODS: A comprehensive search was performed for SR and MA citations from 2012 to 2017 in the 10 highest impact factor otolaryngology journals. Abstracts were screened to identify published manuscripts in which the authors indicated clearly that they were performing an SR or MA. Applying a modified typology of reviews, 4 reviewers characterized the review type as SR, MA, or another review type. A simplified version of the AMSTAR 2 (A MeaSurement Tool to Assess systematic Reviews 2) tool was used to assess the reporting and methodological quality of the SRs and MAs that were focused on interventions.\n\nRESULTS: Search and abstract screening generated 499 manuscripts that identified themselves as performing an SR or MA. A substantial number (85/499, 17%) were review types other than SRs or MAs, including 34 (7%) that were literature reviews. In total, 236 SRs and MAs focused on interventions. Over 50% of these SRs and MAs had weaknesses in at least 3 of the 16 items in the AMSTAR 2, and over 40% had weaknesses in at least 2 of the 7 critical domains. Ninety-nine percent of SRs and MAs provided critically low confidence in the results of the reviews.\n\nCONCLUSION: Intervention-focused SRs and MAs published in high-impact otolaryngology journals have important methodological limitations that diminish confidence in the results of these reviews."
+  },
+  {
+    "rank": 1,
+    "score": 14.982101440429688,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 2877181,
+    "chunk_id": 2877181,
+    "pmid": "37699621",
+    "title": "Efficacy and safety of drug therapy for the prevention and treatment of chemotherapy-induced peripheral neuropathy: a protocol for a systematic review and network meta-analysis.",
+    "year": 2023,
+    "journal": "BMJ open",
+    "authors": [
+      "Miki Takenaka Sato",
+      "Takeshi Hasegawa",
+      "Hisashi Noma",
+      "Hideki Sugita",
+      "Erika Ota"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Network Meta-Analysis",
+        "is_major": false,
+        "ui": "D000071076"
+      },
+      {
+        "term": "Systematic Reviews as Topic",
+        "is_major": false,
+        "ui": "D000078202"
+      },
+      {
+        "term": "Drug-Related Side Effects and Adverse Reactions",
+        "is_major": true,
+        "ui": "D064420"
+      },
+      {
+        "term": "Peripheral Nervous System Diseases",
+        "is_major": true,
+        "ui": "D010523"
+      },
+      {
+        "term": "Antineoplastic Agents",
+        "is_major": true,
+        "ui": "D000970"
+      },
+      {
+        "term": "Meta-Analysis as Topic",
+        "is_major": false,
+        "ui": "D015201"
+      },
+      {
+        "term": "Review Literature as Topic",
+        "is_major": false,
+        "ui": "D012196"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "CHEMOTHERAPY",
+        "is_major": false
+      },
+      {
+        "term": "Neuropathology",
+        "is_major": false
+      },
+      {
+        "term": "ONCOLOGY",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "INTRODUCTION: Chemotherapy-induced peripheral neuropathy (CIPN) is one of the most common dose-limiting side effects of chemotherapeutic drugs. Numerous clinical trials of various targeted drugs for the prevention or treatment of CIPN have been conducted; however, previous systematic reviews with direct comparisons have failed to demonstrate the efficacy of these drugs in the prevention or treatment of CIPN. In addition, no systematic reviews have indirectly compared CIPN prevention and treatment. This article describes a protocol for evaluating the efficacy and safety of drug therapy for the prevention and treatment of CIPN. The results of the proposed systematic review with network meta-analysis (NMA) will provide new insights into the prevention and treatment of CIPN.\n\nMETHODS AND ANALYSIS: We will conduct a literature search in MEDLINE, PubMed, Embase, Cochrane Central Register of Controlled Trials and ClinicalTrials.gov to find relevant articles published through January 2023. We will include studies that investigated the efficacy and safety of vitamin B\n\nETHICS AND DISSEMINATION: This review does not require ethical approval. The research will be published in a peer-reviewed journal.\n\nPROSPERO REGISTRATION NUMBER: CRD42022371829."
+  },
+  {
+    "rank": 2,
+    "score": 14.59632396697998,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 7836504,
+    "chunk_id": 7836504,
+    "pmid": "31732106",
+    "title": "Limited Evidence Suggests Metformin Might Be Beneficial to Reduce Head and Neck Cancer Risk and Increase Overall Survival, While Any Benefit With Antiinflammatory Drugs Is Inconsistent.",
+    "year": 2019,
+    "journal": "The journal of evidence-based dental practice",
+    "authors": [
+      "Analia Veitz-Keenan",
+      "Thamar Delia Silvestre Calle",
+      "Marco Bergamini"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Head and Neck Neoplasms",
+        "is_major": true,
+        "ui": "D006258"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Meta-Analysis as Topic",
+        "is_major": false,
+        "ui": "D015201"
+      },
+      {
+        "term": "Systematic Reviews as Topic",
+        "is_major": false,
+        "ui": "D000078202"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Metformin",
+        "is_major": false
+      },
+      {
+        "term": "NSAIDs",
+        "is_major": false
+      },
+      {
+        "term": "Oral cancer",
+        "is_major": false
+      },
+      {
+        "term": "Oral cancer prevention",
+        "is_major": false
+      },
+      {
+        "term": "Oral cancer risk",
+        "is_major": false
+      },
+      {
+        "term": "Statins",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "ARTICLE TITLE AND BIBLIOGRAPHIC INFORMATION: Protective effects of metformin, statins, and antiinflammatory drugs on head and neck cancer: A systematic review. Saka Herr\u00e1n C, Jan\u00e9-Salas E, Devesa AE, L\u00f3pez-L\u00f3pez J. Oral Oncol 2018;85:68-81.\n\nSOURCE OF FUNDING: None.\n\nTYPE OF DESIGN: Systematic review with meta-analysis."
+  },
+  {
+    "rank": 3,
+    "score": 14.176563262939453,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 27660004,
+    "chunk_id": 27660004,
+    "pmid": "39976244",
+    "title": "A commentary on Kim et\u00a0al.'s (2025) mapping the multifaceted approaches and impacts of adverse childhood experiences: an umbrella review of meta-analyses for Journal of Child Psychology and Psychiatry's Annual Research Review.",
+    "year": 2025,
+    "journal": "Journal of child psychology and psychiatry, and allied disciplines",
+    "authors": [
+      "Todd I Herrenkohl"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Adverse Childhood Experiences",
+        "is_major": true,
+        "ui": "D000076783"
+      },
+      {
+        "term": "Child",
+        "is_major": false,
+        "ui": "D002648"
+      },
+      {
+        "term": "Systematic Reviews as Topic",
+        "is_major": false,
+        "ui": "D000078202"
+      },
+      {
+        "term": "Meta-Analysis as Topic",
+        "is_major": false,
+        "ui": "D015201"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Adversity",
+        "is_major": false
+      },
+      {
+        "term": "prevention",
+        "is_major": false
+      },
+      {
+        "term": "protective factors",
+        "is_major": false
+      },
+      {
+        "term": "risk factors",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Research on Adverse Childhood Experiences (ACEs) has progresses at a rapid pace over the last 30\u2009years and publications now span many fields and disciplines. With a literature this vast, it is important to stake stock of what is known and where gaps in knowledge remain by reviewing and synthesizing published findings. In this commentary, I center remarks on a well-designed umbrella review conducted by Kim et\u00a0al. on the impact of ACEs. Their review adds depth and precision to earlier reviews on this topic and draws attention to areas where further research is needed, including mechanisms underlying the transmission of risk and the onset of health-related outcomes associated with ACE exposure. I conclude the commentary by echoing a call by Kim and colleagues for more investment in public health prevention to reduce ACE exposure, lessen trauma symptoms, and reduce costs to society."
+  },
+  {
+    "rank": 4,
+    "score": 14.098159790039062,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 7493712,
+    "chunk_id": 7493712,
+    "pmid": "32183872",
+    "title": "Adverse drug reactions associated with amitriptyline\u00a0-\u00a0protocol for a systematic multiple-indication review and meta-analysis.",
+    "year": 2020,
+    "journal": "Systematic reviews",
+    "authors": [
+      "Maria-Sophie Brueckle",
+      "Elizabeth T Thomas",
+      "Svenja E Seide",
+      "Maximilian Pilz",
+      "Ana Isabel Gonzalez-Gonzalez",
+      "Truc Sophia Nguyen",
+      "Sebastian Harder",
+      "Paul P Glasziou",
+      "Ferdinand M Gerlach",
+      "Christiane Muth"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Adult",
+        "is_major": false,
+        "ui": "D000328"
+      },
+      {
+        "term": "Amitriptyline",
+        "is_major": true,
+        "ui": "D000639"
+      },
+      {
+        "term": "Drug-Related Side Effects and Adverse Reactions",
+        "is_major": true,
+        "ui": "D064420"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Meta-Analysis as Topic",
+        "is_major": false,
+        "ui": "D015201"
+      },
+      {
+        "term": "Systematic Reviews as Topic",
+        "is_major": false,
+        "ui": "D000078202"
+      },
+      {
+        "term": "United States",
+        "is_major": false,
+        "ui": "D014481"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Adverse drug reaction",
+        "is_major": false
+      },
+      {
+        "term": "Amitriptyline",
+        "is_major": false
+      },
+      {
+        "term": "Anticholinergic",
+        "is_major": false
+      },
+      {
+        "term": "Elderly",
+        "is_major": false
+      },
+      {
+        "term": "Meta-analysis",
+        "is_major": false
+      },
+      {
+        "term": "Multimedication",
+        "is_major": false
+      },
+      {
+        "term": "Multimorbidity",
+        "is_major": false
+      },
+      {
+        "term": "Multiple-indication review",
+        "is_major": false
+      },
+      {
+        "term": "Polypharmacy",
+        "is_major": false
+      },
+      {
+        "term": "Side effects",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "BACKGROUND: Unwanted anticholinergic effects are both underestimated and frequently overlooked. Failure to identify adverse drug reactions (ADRs) can lead to prescribing cascades and the unnecessary use of over-the-counter products. The objective of this systematic review and meta-analysis is to explore and quantify the frequency and severity of ADRs associated with amitriptyline vs. placebo in randomized controlled trials (RCTs) involving adults with any indication, as well as healthy individuals.\n\nMETHODS: A systematic search in six electronic databases, forward/backward searches, manual searches, and searches for Food and Drug Administration (FDA) and European Medicines Agency (EMA) approval studies, will be performed. Placebo-controlled RCTs evaluating amitriptyline in any dosage, regardless of indication and without restrictions on the time and language of publication, will be included, as will healthy individuals. Studies of topical amitriptyline, combination therapies, or including <\u2009100 participants, will be excluded. Two investigators will screen the studies independently, assess methodological quality, and extract data on design, population, intervention, and outcomes ((non-)anticholinergic ADRs, e.g., symptoms, test results, and adverse drug events (ADEs) such as falls). The primary outcome will be the frequency of anticholinergic ADRs as a binary outcome (absolute number of patients with/without anticholinergic ADRs) in amitriptyline vs. placebo groups. Anticholinergic ADRs will be defined by an experienced clinical pharmacologist, based on literature and data from Martindale: The Complete Drug Reference. Secondary outcomes will be frequency and severity of (non-)anticholinergic ADRs and ADEs. The information will be synthesized in meta-analyses and narratives. We intend to assess heterogeneity using meta-regression (for indication, outcome, and time points) and I\n\nDISCUSSION: We will quantify the frequency of anticholinergic and other ADRs/ADEs in adults taking amitriptyline for any indication by comparing rates for amitriptyline vs. placebo, hence, preventing bias from disease symptoms and nocebo effects. As no standardized instrument exists to measure it, our overall estimate of anticholinergic ADRs may have limitations.\n\nSYSTEMATIC REVIEW REGISTRATION: Submitted to PROSPERO; assignment is in progress."
+  },
+  {
+    "rank": 5,
+    "score": 14.012664794921875,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 6954390,
+    "chunk_id": 6954390,
+    "pmid": "32871961",
+    "title": "The efficacy and safety of moxibustion for chemotherapy-induced gastrointestinal adverse reaction: A protocol for systematic review and meta-analysis.",
+    "year": 2020,
+    "journal": "Medicine",
+    "authors": [
+      "Han-Xiao Zhang",
+      "Cheng-Shun Zhang",
+      "Xiao-Qin Dai",
+      "Chuan-Yi Zuo",
+      "Peng Lv",
+      "Rui-Zhen Huang",
+      "Qian-Ning Mo",
+      "Yi-Feng Bai",
+      "Yi Zhou"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Antineoplastic Agents",
+        "is_major": false,
+        "ui": "D000970"
+      },
+      {
+        "term": "Gastrointestinal Diseases",
+        "is_major": false,
+        "ui": "D005767"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Meta-Analysis as Topic",
+        "is_major": false,
+        "ui": "D015201"
+      },
+      {
+        "term": "Moxibustion",
+        "is_major": true,
+        "ui": "D009071"
+      },
+      {
+        "term": "Systematic Reviews as Topic",
+        "is_major": false,
+        "ui": "D000078202"
+      }
+    ],
+    "keywords": [],
+    "citations": [],
+    "text": "BACKGROUND: Many cancer patients experience gastrointestinal adverse reaction during chemotherapy. Pharmacological interventions are commonly used to treat chemotherapy-induced gastrointestinal side effects but have various limitations. Clinical trials have indicated that moxibustion may alleviate gastrointestinal dysfunction and improve quality of life (QoL) after chemotherapy. This study aims to assess the efficacy and safety of moxibustion for chemotherapy-induced gastrointestinal adverse reaction through a systematic review and meta-analysis.\n\nMETHODS: All randomized controlled trials (RCTs) related to moxibution targeting chemotherapy-induced gastrointestinal adverse reaction will be searched in online databases, such as PubMed, EMBASE, the Cochrane Library, Web of Science, China National Knowledge Infrastructure (CNKI), the Chinese Scientific Journal Database (VIP Database) and WanFang Database from their inception to May 1, 2020. The primary outcome is the incidence and severity of chemotherapy-related gastrointestinal toxicities (nausea and vomiting, diarrhea and constipation). The secondary outcomes include the quality of life, biological parameters' alteration, and adverse events. Study selection, data extraction, and assessment of risk of bias will be performed independently by 2 researchers. The Cochrane Collaboration's Review Manager (RevMan 5.3) software will be used to conduct the direct meta-analysis.\n\nRESULTS: This study will provide a comprehensive review of the available evidence for the treatment of chemotherapy-induced gastrointestinal adverse reaction with moxibustion.\n\nCONCLUSION: The conclusion of this study will provide evidence to judge whether moxibustion is an effective and safety therapeutic intervention for chemotherapy-induced gastrointestinal adverse reaction.\n\nPROSPERO REGISTRATION NUMBER: CRD42020182990."
+  },
+  {
+    "rank": 6,
+    "score": 13.778133392333984,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 5653394,
+    "chunk_id": 5653394,
+    "pmid": "34426461",
+    "title": "Sibship size, birth order and risk of asthma and allergy: protocol for a systematic review and meta-analysis.",
+    "year": 2021,
+    "journal": "BMJ open",
+    "authors": [
+      "Daniil Lisik",
+      "Athina Ioannidou",
+      "Gregorio Milani",
+      "Sungkutu Nyassi",
+      "Saliha Selin \u00d6zuygur Ermis",
+      "Giulia C I Spolidoro",
+      "Emma Goks\u00f6r",
+      "G\u00f6ran Wennergren",
+      "Bright I Nwaru"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Asthma",
+        "is_major": true,
+        "ui": "D001249"
+      },
+      {
+        "term": "Birth Order",
+        "is_major": false,
+        "ui": "D001722"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Hypersensitivity",
+        "is_major": true,
+        "ui": "D006967"
+      },
+      {
+        "term": "Meta-Analysis as Topic",
+        "is_major": false,
+        "ui": "D015201"
+      },
+      {
+        "term": "Review Literature as Topic",
+        "is_major": false,
+        "ui": "D012196"
+      },
+      {
+        "term": "Systematic Reviews as Topic",
+        "is_major": false,
+        "ui": "D000078202"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "allergy",
+        "is_major": false
+      },
+      {
+        "term": "asthma",
+        "is_major": false
+      },
+      {
+        "term": "eczema",
+        "is_major": false
+      },
+      {
+        "term": "immunology",
+        "is_major": false
+      },
+      {
+        "term": "paediatric dermatology",
+        "is_major": false
+      },
+      {
+        "term": "paediatric infectious disease & immunisation",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "INTRODUCTION: The hygiene hypothesis suggests that reduced exposure to microbes might have contributed to the increase in prevalence and incidence of asthma and allergy observed during the second half of the last century. Following this proposal, several studies have investigated the role of sibship size and birth order in the development of asthma and allergic diseases, but the underlying evidence is conflicting. The objective of the present systematic review will be to identify, critically appraise and synthesise previous primary studies investigating the association of sibship size and birth order with the risk of asthma and allergic diseases.\n\nMETHODS AND ANALYSIS: The following databases will be searched: AMED, CABI, CINAHL, Embase, Google Scholar, OAIster, Open Access Theses and Dissertations, Open Grey, ProQuest Dissertations & Theses Global, PsycINFO, PubMed, SciELO, Scopus, Web of Science and WHO Global Index Medicus. Studies published up until 31 December 2020 will be eligible. There will be no restrictions by language and geographical location. Risk of bias in the included studies will be assessed using the Effective Public Health Practice Project quality assessment tool. The produced evidence will be synthesised narratively, and studies that present comparable numerical data will be included in meta-analyses using random effects model.\n\nETHICS AND DISSEMINATION: Only data from the published literature will be included in this systematic review. Therefore, no ethical approval is required. The final review paper will be published in a peer-reviewed journal.\n\nPROSPERO REGISTRATION NUMBER: CRD42020207905."
+  },
+  {
+    "rank": 7,
+    "score": 13.72903823852539,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 27753406,
+    "chunk_id": 27753406,
+    "pmid": "36701706",
+    "title": "Acupuncture for cancer patients with nausea and vomiting: A protocol for systematic review and meta-analysis.",
+    "year": 2023,
+    "journal": "Medicine",
+    "authors": [
+      "Sung-A Kim",
+      "Sabina Lim",
+      "Tiana Won",
+      "Sujung Yeo"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Systematic Reviews as Topic",
+        "is_major": false,
+        "ui": "D000078202"
+      },
+      {
+        "term": "Meta-Analysis as Topic",
+        "is_major": false,
+        "ui": "D015201"
+      },
+      {
+        "term": "Vomiting",
+        "is_major": false,
+        "ui": "D014839"
+      },
+      {
+        "term": "Nausea",
+        "is_major": false,
+        "ui": "D009325"
+      },
+      {
+        "term": "Acupuncture Therapy",
+        "is_major": true,
+        "ui": "D015670"
+      },
+      {
+        "term": "Neoplasms",
+        "is_major": true,
+        "ui": "D009369"
+      },
+      {
+        "term": "Drug-Related Side Effects and Adverse Reactions",
+        "is_major": true,
+        "ui": "D064420"
+      }
+    ],
+    "keywords": [],
+    "citations": [],
+    "text": "BACKGROUND: Nausea and vomiting are among the most common adverse effects experienced by cancer patients undergoing treatment worldwide. Their treatment with pharmacologic therapy can often be complicated by medication interactions and other unwanted side effects. The aim of this systematic review and meta-analysis protocol is to assess the effectiveness and safety of acupuncture therapy for treating nausea and vomiting in patients with cancer.\n\nMETHODS: Three electronic databases and 2 clinical registry platforms will be searched from inception to May 2022: the MEDLINE via PubMed, Embase via Ovid, the Cochrane Central Register of Controlled Trials via the Cochrane Library, the World Health Organisation International Clinical Trials Registry Platform, and National Institutes of Health Clinical trials.gov. Search terms will include nausea, vomiting, cancer, and acupuncture. Two researchers will independently select studies, extract data and assess the risk of bias. The primary outcome will be the incidence of nausea and/or vomiting or other validated outcome measures. Meta-analysis will be carried out using RevMan V.5.4. The quality of evidence from randomized clinical trials will be evaluated with the Grading of Recommendations Assessment, Development and Evaluation System tool.\n\nRESULTS: The results will provide a high-quality synthesis of evidence for clinicians in the field of oncology.\n\nCONCLUSION: The conclusion is expected to provide evidence to determine whether acupuncture is an effective and safe treatment for cancer patients with nausea and vomiting."
+  },
+  {
+    "rank": 8,
+    "score": 13.72903823852539,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 3723743,
+    "chunk_id": 3723743,
+    "pmid": "36701706",
+    "title": "Acupuncture for cancer patients with nausea and vomiting: A protocol for systematic review and meta-analysis.",
+    "year": 2023,
+    "journal": "Medicine",
+    "authors": [
+      "Sung-A Kim",
+      "Sabina Lim",
+      "Tiana Won",
+      "Sujung Yeo"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Systematic Reviews as Topic",
+        "is_major": false,
+        "ui": "D000078202"
+      },
+      {
+        "term": "Meta-Analysis as Topic",
+        "is_major": false,
+        "ui": "D015201"
+      },
+      {
+        "term": "Vomiting",
+        "is_major": false,
+        "ui": "D014839"
+      },
+      {
+        "term": "Nausea",
+        "is_major": false,
+        "ui": "D009325"
+      },
+      {
+        "term": "Acupuncture Therapy",
+        "is_major": true,
+        "ui": "D015670"
+      },
+      {
+        "term": "Neoplasms",
+        "is_major": true,
+        "ui": "D009369"
+      },
+      {
+        "term": "Drug-Related Side Effects and Adverse Reactions",
+        "is_major": true,
+        "ui": "D064420"
+      }
+    ],
+    "keywords": [],
+    "citations": [],
+    "text": "BACKGROUND: Nausea and vomiting are among the most common adverse effects experienced by cancer patients undergoing treatment worldwide. Their treatment with pharmacologic therapy can often be complicated by medication interactions and other unwanted side effects. The aim of this systematic review and meta-analysis protocol is to assess the effectiveness and safety of acupuncture therapy for treating nausea and vomiting in patients with cancer.\n\nMETHODS: Three electronic databases and 2 clinical registry platforms will be searched from inception to May 2022: the MEDLINE via PubMed, Embase via Ovid, the Cochrane Central Register of Controlled Trials via the Cochrane Library, the World Health Organisation International Clinical Trials Registry Platform, and National Institutes of Health Clinical trials.gov. Search terms will include nausea, vomiting, cancer, and acupuncture. Two researchers will independently select studies, extract data and assess the risk of bias. The primary outcome will be the incidence of nausea and/or vomiting or other validated outcome measures. Meta-analysis will be carried out using RevMan V.5.4. The quality of evidence from randomized clinical trials will be evaluated with the Grading of Recommendations Assessment, Development and Evaluation System tool.\n\nRESULTS: The results will provide a high-quality synthesis of evidence for clinicians in the field of oncology.\n\nCONCLUSION: The conclusion is expected to provide evidence to determine whether acupuncture is an effective and safe treatment for cancer patients with nausea and vomiting."
+  },
+  {
+    "rank": 9,
+    "score": 13.59051513671875,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 13186419,
+    "chunk_id": 13186419,
+    "pmid": "24973984",
+    "title": "Efficacy of turmeric in the treatment of digestive disorders: a systematic review and meta-analysis protocol.",
+    "year": 2014,
+    "journal": "Systematic reviews",
+    "authors": [
+      "Kednapa Thavorn",
+      "Muhammad M Mamdani",
+      "Sharon E Straus"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Curcuma",
+        "is_major": true,
+        "ui": "D030024"
+      },
+      {
+        "term": "Gastrointestinal Diseases",
+        "is_major": false,
+        "ui": "D005767"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Phytotherapy",
+        "is_major": false,
+        "ui": "D008517"
+      },
+      {
+        "term": "Systematic Reviews as Topic",
+        "is_major": false,
+        "ui": "D000078202"
+      },
+      {
+        "term": "Treatment Outcome",
+        "is_major": false,
+        "ui": "D016896"
+      },
+      {
+        "term": "Meta-Analysis as Topic",
+        "is_major": false,
+        "ui": "D015201"
+      }
+    ],
+    "keywords": [],
+    "citations": [],
+    "text": "BACKGROUND: Digestive disorders pose significant burdens to millions of people worldwide in terms of morbidity, mortality and healthcare costs. Turmeric has been traditionally used for conditions associated with the digestive system, and its therapeutic benefits were also confirmed in clinical studies. However, rigorous systematic review on this topic is severely limited. Our study aims to systematically review the therapeutic and adverse effects of turmeric and its compounds on digestive disorders, including dyspepsia, peptic ulcer, irritable bowel disease, Crohn's disease, ulcerative colitis, and gastroesophageal reflux disease.\n\nMETHODS/DESIGN: This study will include both randomized controlled trials and non-randomized controlled trials assessing the efficacy and safety of turmeric or its compounds in comparison to a placebo or any other active interventions for digestive disorders without any restrictions on participant age or language of publication. The primary outcome is the proportion of patients that have experienced treatment success. Secondary outcomes are the prevalence of an individual symptom of digestive disorders, the proportion of patients who experienced relapse, the number of physician visits/hospitalization due to digestive disorders, health-related quality of life and the proportion of patients who experienced adverse events. Relevant studies will be identified through MEDLINE, EMBASE, AMED, Dissertations & Theses Database and the Cochrane Central Register of Control Trials from their inception to August 31, 2013. In addition, grey literature such as information published on drug regulatory agencies websites and abstracts/proceedings from conferences will also be reviewed. A calibration exercise will be conducted in a process of study screening, whereby two reviewers will independently screen titles and abstracts from the literature search. Any conflicts will be resolved through a subsequent team discussion. The same process will be adopted in data abstraction and methodological quality appraisal by the Cochrane Risk of Bias Tool and the Newcastle-Ottawa Scale. We will describe study and patient characteristics, risk of bias/methodological quality results, and outcomes of the included studies. If we have sufficient data and homogeneity, a random effects meta-analysis will be performed.\n\nDISCUSSION: Our results will help patients and healthcare practitioners to make informed decisions when considering turmeric as an alternative therapy for digestive disorders.\n\nTRIAL REGISTRATION: PROSPERO registry number: CRD42013005739."
+  },
+  {
+    "rank": 10,
+    "score": 13.556554794311523,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 14581335,
+    "chunk_id": 14581335,
+    "pmid": "23198755",
+    "title": "Pharmacologic interventions for painful diabetic neuropathy: an umbrella systematic review and comparative effectiveness network meta-analysis (Protocol).",
+    "year": 2012,
+    "journal": "Systematic reviews",
+    "authors": [
+      "Marcio L Griebeler",
+      "Apostolos Tsapas",
+      "Juan P Brito",
+      "Zhen Wang",
+      "Olivia J Phung",
+      "Victor M Montori",
+      "M Hassan Murad"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Analgesics",
+        "is_major": true,
+        "ui": "D000700"
+      },
+      {
+        "term": "Comparative Effectiveness Research",
+        "is_major": true,
+        "ui": "D057186"
+      },
+      {
+        "term": "Diabetic Neuropathies",
+        "is_major": true,
+        "ui": "D003929"
+      },
+      {
+        "term": "Systematic Reviews as Topic",
+        "is_major": false,
+        "ui": "D000078202"
+      },
+      {
+        "term": "Meta-Analysis as Topic",
+        "is_major": false,
+        "ui": "D015201"
+      },
+      {
+        "term": "Network Meta-Analysis",
+        "is_major": false,
+        "ui": "D000071076"
+      }
+    ],
+    "keywords": [],
+    "citations": [],
+    "text": "BACKGROUND: Neuropathic pain can reduce the quality of life and independence of 30% to 50% of patients with diabetes. The comparative effectiveness of analgesics for patients with diabetic neuropathy remains unclear. The aim of the current work, therefore, was to summarize the evidence about the analgesic effectiveness of the most common oral and topical agents used for the treatment of peripheral diabetic neuropathy.\n\nMETHODS: We will use an umbrella approach (systematic review of systematic reviews) to identify eligible randomized controlled trials (RCTs) for the most common oral or topical analgesics for painful diabetic neuropathy. Two reviewers will independently determine RCT eligibility. Disagreement will be solved by consensus and arbitrated by a third reviewer. We will extract descriptive, methodological and efficacy data in duplicate. Results will be pooled and analyzed using classic random-effects meta-analyses and network meta-analyses to compute the absolute and relative efficacy of therapeutic options. We will use the I2 statistic and Cochran's Q test to assess heterogeneity. Risk of bias and publication bias, if appropriate, will be evaluated, as well as overall strength of the evidence.\n\nDISCUSSION: This network meta-analysis aims to synthesize available direct and indirect evidence of effectiveness of analgesics in the treatment of painful diabetic neuropathy. The network approach will offer the opportunity to generate a ranking based on efficacy and along with known side effects, costs, and administration burdens will enable patients and clinicians to make choices that best reflect their preferences for treatment of painful diabetic neuropathy."
+  },
+  {
+    "rank": 1,
+    "score": 0.7235648007391823,
+    "search_type": "hybrid",
+    "vector_id": 4155213,
+    "chunk_id": 4155213,
+    "pmid": "36187122",
+    "title": "Gastrointestinal adverse events of metformin treatment in patients with type 2 diabetes mellitus: A systematic review, meta-analysis and meta-regression of randomized controlled trials.",
+    "year": 2022,
+    "journal": "Frontiers in endocrinology",
+    "authors": [
+      "Katarzyna Nabrdalik",
+      "Karolina Skonieczna-\u017bydecka",
+      "Krzysztof Irlik",
+      "Mirela Hendel",
+      "Hanna Kwiendacz",
+      "Igor \u0141oniewski",
+      "Kornelia Januszkiewicz",
+      "Janusz Gumprecht",
+      "Gregory Y H Lip"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Abdominal Pain",
+        "is_major": false,
+        "ui": "D015746"
+      },
+      {
+        "term": "Delayed-Action Preparations",
+        "is_major": false,
+        "ui": "D003692"
+      },
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": true,
+        "ui": "D003924"
+      },
+      {
+        "term": "Diarrhea",
+        "is_major": false,
+        "ui": "D003967"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Nausea",
+        "is_major": false,
+        "ui": "D009325"
+      },
+      {
+        "term": "Randomized Controlled Trials as Topic",
+        "is_major": false,
+        "ui": "D016032"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Adverse events",
+        "is_major": false
+      },
+      {
+        "term": "diarrhea",
+        "is_major": false
+      },
+      {
+        "term": "dose",
+        "is_major": false
+      },
+      {
+        "term": "formulation",
+        "is_major": false
+      },
+      {
+        "term": "gastrointestinal",
+        "is_major": false
+      },
+      {
+        "term": "meta-analysis",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Introduction: Metformin is the first choice drug in the treatment of type 2 diabetes mellitus but its administration may be linked to gastrointestinal adverse events limiting its use.\n\nObjectives: The objective of this systematic review and meta-analysis was to assess the risk of gastrointestinal adverse events related to metformin use in patients with type 2 diabetes treated with metformin.\n\nMethods: PUB MED/CINAHL/Web of Science/Scopus were searched from database inception until 08.11.2020 for articles in English and randomized controlled trials related to patients with type 2 diabetes treated with metformin were included.\n\nResults: From 5315 publications, we identified 199 potentially eligible full-text articles. Finally, 71 randomized controlled trials were included in the meta-analysis. In these studies, metformin use was associated with higher risk of abdominal pain, diarrhea and nausea comparing to control. The risks of abdominal pain and nausea were highest comparing to placebo. Bloating risk was only elevated when metformin treatment was compared to DPP4i.\n\nConclusions: The risk of gastrointestinal adverse events such as abdominal pain, nausea and diarrhea is higher in type 2 diabetes patients treated with metformin compared to other antidiabetic drugs. There is a higher risk of bloating and diarrhea with metformin immediate-release than with metformin extended release formulation.\n\nSystematic Review Registration: https://www.crd.york.ac.uk/prospero/display_record.php?ID=CRD42021289975, identifier CRD42021289975."
+  },
+  {
+    "rank": 2,
+    "score": 0.7118012110243597,
+    "search_type": "hybrid",
+    "vector_id": 2736438,
+    "chunk_id": 2736438,
+    "pmid": "37900422",
+    "title": "The Effectiveness of Metformin in Diabetes Prevention: A Systematic Review and Meta-Analysis.",
+    "year": 2023,
+    "journal": "Cureus",
+    "authors": [
+      "Dhara Patel",
+      "Ismat E Ayesha",
+      "Neetha R Monson",
+      "Nimra Klair",
+      "Utkarsh Patel",
+      "Ayushi Saxena",
+      "Pousette Hamid"
+    ],
+    "mesh_terms": [],
+    "keywords": [
+      {
+        "term": "insulin resistance",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "pre-diabetes",
+        "is_major": false
+      },
+      {
+        "term": "prevention of diabetes",
+        "is_major": false
+      },
+      {
+        "term": "type 2 diabetes",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Diabetes mellitus is a growing global health concern, and prevention strategies play a crucial role in reducing its burden. Metformin has been widely studied as a potential intervention for diabetes prevention, but its overall effectiveness and impact on various populations remain unclear. This study aims to provide a comprehensive synthesis of the available evidence on the effectiveness of metformin in diabetes prevention. A systematic search was conducted in PubMed, Scopus, ScienceDirect, and Google Scholar for articles published from inception to June 2023. The reference lists of the included studies were also searched to retrieve possible additional studies. Any quantitative data were analyzed using Review Manager 5.4. A"
+  },
+  {
+    "rank": 3,
+    "score": 0.710787864803901,
+    "search_type": "hybrid",
+    "vector_id": 6225503,
+    "chunk_id": 6225503,
+    "pmid": "33709434",
+    "title": "Metformin and health outcomes: An umbrella review of systematic reviews with meta-analyses.",
+    "year": 2021,
+    "journal": "European journal of clinical investigation",
+    "authors": [
+      "Xue Li",
+      "Stefano Celotto",
+      "Damiano Pizzol",
+      "Danijela Gasevic",
+      "Meng-Meng Ji",
+      "Tommaso Barnini",
+      "Marco Solmi",
+      "Brendon Stubbs",
+      "Lee Smith",
+      "Guillermo F L\u00f3pez S\u00e1nchez",
+      "Gabriella Pesolillo",
+      "Zengli Yu",
+      "Ioanna Tzoulaki",
+      "Evropi Theodoratou",
+      "John P A Ioannidis",
+      "Nicola Veronese",
+      "Jacopo Demurtas"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Body Mass Index",
+        "is_major": false,
+        "ui": "D015992"
+      },
+      {
+        "term": "Cardiovascular Diseases",
+        "is_major": false,
+        "ui": "D002318"
+      },
+      {
+        "term": "Diabetes Mellitus, Type 1",
+        "is_major": false,
+        "ui": "D003922"
+      },
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": false,
+        "ui": "D003924"
+      },
+      {
+        "term": "Female",
+        "is_major": false,
+        "ui": "D005260"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Infertility, Female",
+        "is_major": false,
+        "ui": "D007247"
+      },
+      {
+        "term": "Male",
+        "is_major": false,
+        "ui": "D008297"
+      },
+      {
+        "term": "Meta-Analysis as Topic",
+        "is_major": false,
+        "ui": "D015201"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Neoplasms",
+        "is_major": false,
+        "ui": "D009369"
+      },
+      {
+        "term": "Obesity",
+        "is_major": false,
+        "ui": "D009765"
+      },
+      {
+        "term": "Overweight",
+        "is_major": false,
+        "ui": "D050177"
+      },
+      {
+        "term": "Polycystic Ovary Syndrome",
+        "is_major": false,
+        "ui": "D011085"
+      },
+      {
+        "term": "Pregnancy",
+        "is_major": false,
+        "ui": "D011247"
+      },
+      {
+        "term": "Pregnancy Rate",
+        "is_major": false,
+        "ui": "D018873"
+      },
+      {
+        "term": "Protective Factors",
+        "is_major": false,
+        "ui": "D065840"
+      },
+      {
+        "term": "Systematic Reviews as Topic",
+        "is_major": false,
+        "ui": "D000078202"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "GRADE",
+        "is_major": false
+      },
+      {
+        "term": "meta-analysis",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "umbrella",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "BACKGROUND: The objective was to capture the breadth of outcomes that have been associated with metformin use and to systematically assess the quality, strength and credibility of these associations using the umbrella review methodology.\n\nMETHODS: Four major databases were searched until 31 May 2020. Meta-analyses of observational studies and meta-analyses of randomized controlled trials (RCTs) (including active and placebo control arms) were included.\n\nRESULTS: From 175 eligible publications, we identified 427 different meta-analyses, including 167 meta-analyses of observational studies, 147 meta-analyses of RCTs for metformin vs placebo/no treatment and 113 meta-analyses of RCTs for metformin vs active medications. There was no association classified as convincing or highly suggestive from meta-analyses of observational studies, but some suggestive/weak associations of metformin use with a lower mortality risk of CVD and cancer. In meta-analyses of RCTs, metformin was associated with a lower incidence of diabetes in people with prediabetes or no diabetes at baseline; lower ovarian hyperstimulation syndrome incidence (in women in controlled ovarian stimulation); higher success for clinical pregnancy rate in poly-cystic ovary syndrome (PCOS); and significant reduction in body mass index in people with type 1 diabetes mellitus, in women who have obesity/overweight with PCOS and in obese/overweight women. Of 175 publications, 166 scored as low or critically low quality per AMSTAR 2 criteria.\n\nCONCLUSIONS: Observational evidence on metformin seems largely unreliable. Randomized evidence shows benefits for preventing diabetes and in some gynaecological and obstetrical settings. However, almost all meta-analyses are of low or critically low quality according to AMSTAR 2 criteria."
+  },
+  {
+    "rank": 4,
+    "score": 0.66978822480484,
+    "search_type": "hybrid",
+    "vector_id": 6141178,
+    "chunk_id": 6141178,
+    "pmid": "33847633",
+    "title": "Effects of continuous use of metformin on cardiovascular outcomes in patients with type 2 diabetes after acute myocardial infarction: A protocol for systematic review and meta-analysis.",
+    "year": 2021,
+    "journal": "Medicine",
+    "authors": [
+      "Chuanwen Shen",
+      "Shuying Tan",
+      "Jun Yang"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Cardiovascular Diseases",
+        "is_major": false,
+        "ui": "D002318"
+      },
+      {
+        "term": "Clinical Trials as Topic",
+        "is_major": false,
+        "ui": "D002986"
+      },
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": false,
+        "ui": "D003924"
+      },
+      {
+        "term": "Glycated Hemoglobin",
+        "is_major": false,
+        "ui": "D006442"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Myocardial Infarction",
+        "is_major": false,
+        "ui": "D009203"
+      },
+      {
+        "term": "Research Design",
+        "is_major": false,
+        "ui": "D012107"
+      },
+      {
+        "term": "Meta-Analysis as Topic",
+        "is_major": false,
+        "ui": "D015201"
+      },
+      {
+        "term": "Systematic Review as Topic",
+        "is_major": false,
+        "ui": "D000078202"
+      }
+    ],
+    "keywords": [],
+    "citations": [],
+    "text": "BACKGROUND: To our knowledge, no meta-analyses or reviews have investigated the efficacy and safety of metformin on cardiovascular outcomes after acute myocardial infarction (AMI) in patients with type 2 diabetes mellitus (T2DM). We thus conduct a high-quality systematic review and meta-analysis to assess the efficacy and safety of metformin on cardiovascular outcomes after AMI in patients with T2DM.\n\nMETHODS: In this systematic review and meta-analysis, we will search PUBMED, Scopus, EMBASE, and Cochrane Library databases through April, 2021. The study is structured to adhere to PRISMA guidelines (i.e., Preferred Reporting Items for Systematic Reviews and Meta-analyses). The literature search, data extraction, and quality assessments are conducted independently by 2 authors. Outcome measures include all-cause mortality; complications such as acute kidney injury, lactic acidosis, hospitalization for AMI or stroke, or death. Where disagreement in the collection of data occurs, this is resolved through discussion. Review Manager Software (v 5.3; Cochrane Collaboration) is used for the meta-analysis. Two independent reviewers will assess the risk of bias of the included studies at study level.\n\nRESULTS: It is hypothesized that metformin use at the post-AMI is associated with decreased risk of cardiovascular disease and death in patients with T2DM.\n\nCONCLUSIONS: This study expects to provide credible and scientific evidence for the efficacy and safety of metformin on cardiovascular outcomes after AMI in patients with T2DM.\n\nREGISTRATION NUMBER: 10.17605/OSF.IO/S3MBP."
+  },
+  {
+    "rank": 5,
+    "score": 0.6453894993513573,
+    "search_type": "hybrid",
+    "vector_id": 5922391,
+    "chunk_id": 5922391,
+    "pmid": "34075573",
+    "title": "Efficacy and Side Effect Profile of Different Formulations of Metformin: A Systematic Review and Meta-Analysis.",
+    "year": 2021,
+    "journal": "Diabetes therapy : research, treatment and education of diabetes and related disorders",
+    "authors": [
+      "Jane L Tarry-Adkins",
+      "Imogen D Grant",
+      "Susan E Ozanne",
+      "Rebecca M Reynolds",
+      "Catherine E Aiken"
+    ],
+    "mesh_terms": [],
+    "keywords": [
+      {
+        "term": "Diabetes",
+        "is_major": false
+      },
+      {
+        "term": "Efficacy",
+        "is_major": false
+      },
+      {
+        "term": "Metformin",
+        "is_major": false
+      },
+      {
+        "term": "Polycystic ovarian syndrome",
+        "is_major": false
+      },
+      {
+        "term": "Side effects",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "INTRODUCTION: Metformin is among the most frequently prescribed drugs worldwide for a variety of indications. Although metformin has several important advantages, for example being easy to store and administer, it is associated with a high incidence of gastrointestinal side effects. Slower-release formulations of metformin may reduce the incidence of side effects while maintaining efficacy; however, there is a lack of systematic evidence available to guide head-to-head comparisons between different metformin formulations.\n\nMETHODS: PubMed, Web of Science, OVID EMBASE, MEDLINE, The Cochrane database and Clinicaltrials.gov were systematically searched (from inception to 25\u00a0January 2021). Trials that randomized adult participants to extended-release formulation of metformin (met-XR), delayed-release (met-DR) or immediate-release metformin (met-IR) were included. Two reviewers independently assessed articles for eligibility and risk-of-bias, with conflicts resolved by a third reviewer. Outcome measures were change in fasting plasma glucose (FPG), glycated haemoglobin (HbA1c), body weight, BMI, lipid profile and side effects. Meta-analyses were conducted using random-effects models.\n\nRESULTS: Fifteen studies (n\u2009=\u20093765) met eligibility criteria. There was no significant difference between the efficacy of met-IR, met-XR or met-DR in changing FPG (p\u2009=\u20090.93). A non-significant reduction in mean body weight was observed in individuals randomized to met-XR vs. met-IR (-\u20091.03\u00a0kg, 95% CI -\u00a02.12 to 0.05, p\u2009=\u20090.06). Individuals randomized to met-XR vs. met-IR had lower low-density lipoprotein (LDL) cholesterol levels (-\u20095.73\u00a0mg/dl, 95% CI -\u00a07.91 to -\u00a03.56, p\u2009<\u20090.00001). Gastrointestinal (GI) side effects were markedly reduced in patients randomised to met-DR vs. met-IR (OR 0.45, 95% CI 0.26-0.80, p\u2009=\u20090.006).\n\nCONCLUSION: Our results demonstrate equal efficacy of longer-acting formulations (met-XR, met-DR) versus immediate-release metformin formulations in terms of glycaemic control. There were insufficient studies available to compare the efficacy of different metformin formulations outside of diabetes care. However met-XR was associated with reduced serum LDL cholesterol concentrations, while met-DR was strongly associated with reduced GI side effects, which could improve drug compliance."
+  },
+  {
+    "rank": 6,
+    "score": 0.6402059506296229,
+    "search_type": "hybrid",
+    "vector_id": 1487125,
+    "chunk_id": 1487125,
+    "pmid": "39350158",
+    "title": "Gastrointestinal adverse events of metformin treatment in patients with type 2 diabetes mellitus: a systematic review and meta-analysis with meta-regression of observational studies.",
+    "year": 2024,
+    "journal": "BMC endocrine disorders",
+    "authors": [
+      "Katarzyna Nabrdalik",
+      "Mirela Hendel",
+      "Krzysztof Irlik",
+      "Hanna Kwiendacz",
+      "Igor \u0141oniewski",
+      "Tommaso Bucci",
+      "Uazman Alam",
+      "Gregory Y H Lip",
+      "Janusz Gumprecht",
+      "Karolina Skonieczna-\u017bydecka"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": true,
+        "ui": "D003924"
+      },
+      {
+        "term": "Gastrointestinal Diseases",
+        "is_major": true,
+        "ui": "D005767"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": true,
+        "ui": "D007004"
+      },
+      {
+        "term": "Incidence",
+        "is_major": false,
+        "ui": "D015994"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Observational Studies as Topic",
+        "is_major": false,
+        "ui": "D064887"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Diarrhea",
+        "is_major": false
+      },
+      {
+        "term": "Dose",
+        "is_major": false
+      },
+      {
+        "term": "Formulation",
+        "is_major": false
+      },
+      {
+        "term": "Gastrointestinal adverse events",
+        "is_major": false
+      },
+      {
+        "term": "Meta-analysis",
+        "is_major": false
+      },
+      {
+        "term": "Metformin",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "INTRODUCTION: Metformin is the most prescribed medication for type 2 diabetes mellitus (T2DM); there is a well-established link with the elevated incidence of gastrointestinal (GI) adverse events (AE) limiting its administration or intensification.\n\nOBJECTIVES: The objective of this systematic review and meta-analysis of observational studies was to evaluate the pooled incidence of GI AE related to metformin use in patients with T2DM.\n\nMATERIALS AND METHODS: PUB MED/CINAHL/Web of Science/Scopus were searched from database inception until 29.07.2024 for observational studies in English describing the frequency of GI AE in patients with T2DM treated with metformin. Random-effects meta-analyses were used to derive effect sizes: event rates.\n\nRESULTS: From 7019 publications, we identified 211 potentially eligible full-text articles. Ultimately, 21 observational studies were included in the meta-analysis. The prevalence of GI AE was as follows: diarrhea 6.9% (95% CI: 0.038-0.123), bloating 6,2% (95% CI: 0.020-0.177), abdominal pain 5,3% (95% CI: 0.003-0.529), vomiting 2.4% (95%: CI 0.007-0.075), constipation 1.1% (95%: CI 0.001-0.100). The incidence of bloating (coefficient -4.46; p\u2009<\u20090.001), diarrhea (coefficient -1.17; p\u2009=\u20090.0951) abdominal pain (coefficient -2.80; p\u2009=\u20090.001), constipation (coefficient -5.78; p\u2009=\u20090.0014) and vomiting (coefficient -2.47; p\u2009<\u20090.001) were lower for extended release (XR) metformin than metformin immediate release (IR) formulation.\n\nCONCLUSIONS: This study highlights the prevalence of GI AE in patients receiving metformin, with a diarrhea predominance, followed by bloating, diarrhea, abdominal pain, constipation, and vomiting. The incidence is lower in patients administered with XR metformin.\n\nTRIAL REGISTRATION: https://www.crd.york.ac.uk/prospero/display_record.php?ID=CRD42021289975 , identifier CRD42021289975."
+  },
+  {
+    "rank": 7,
+    "score": 0.6296185797301606,
+    "search_type": "hybrid",
+    "vector_id": 3759972,
+    "chunk_id": 3759972,
+    "pmid": "36628003",
+    "title": "Effect of Metformin on Vitamin B12 Deficiency in Patients With Type 2 Diabetes Mellitus and Factors Associated With It: A Meta-Analysis.",
+    "year": 2022,
+    "journal": "Cureus",
+    "authors": [
+      "Yasitha Kakarlapudi",
+      "Sai Kiran Kondabolu",
+      "Zuha Tehseen",
+      "Vimal Khemani",
+      "Srilakshmi K J",
+      "Maira D Nousherwani",
+      "Faraz Saleem",
+      "Ahmed N Abdelhameed"
+    ],
+    "mesh_terms": [],
+    "keywords": [
+      {
+        "term": "factors",
+        "is_major": false
+      },
+      {
+        "term": "meta-analysis",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "type 2 diabetes",
+        "is_major": false
+      },
+      {
+        "term": "vitamin b12",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "The current meta-analysis aims to explore the effect of metformin use on vitamin B12 deficiency in patients with type 2 diabetes mellitus (T2DM) and the factors associated with it. This meta-analysis followed the Meta-analysis Of Observational Studies in Epidemiology (MOOSE) guidelines and the Preferred Reporting Items for Systematic reviews and Meta-Analysis (PRISMA) guidelines.\u00a0We searched PubMed and EMBASE from January 1, 2010, to October 31, 2022, to collect the studies that reported the effect of metformin on the deficiency of vitamin B12 in patients with T2DM and the factors associated with it. A total of 17 studies were included in the current meta-analysis. Among all the included studies, 13 were cross-sectional studies, 3 were retrospective cohorts, and one was a case-control study. The pooled rate of deficiency of vitamin B12 in patients receiving metformin (23.16%) was significantly higher compared to patients who were not on metformin (17.4%) (OR: 2.95, 95% CI: 2.18-4.00, p-value: 0.001). Factors significantly associated with vitamin B12 deficiency in patients with T2DM and receiving metformin include the duration of metformin use and a greater dose of metformin. In conclusion, our meta-analysis found that the prevalence of vitamin B12 deficiency is greater in patients receiving metformin compared to patients who did not receive metformin. Given the importance of vitamin B12 in nutrition, metformin-induced B12 decrease may be harmful to patients with T2DM. Supplemental vitamin B12 may be advantageous for those on metformin."
+  },
+  {
+    "rank": 8,
+    "score": 0.6134237565689757,
+    "search_type": "hybrid",
+    "vector_id": 3734707,
+    "chunk_id": 3734707,
+    "pmid": "36714564",
+    "title": "Association of metformin use with fracture risk in type 2 diabetes: A systematic review and meta-analysis of observational studies.",
+    "year": 2022,
+    "journal": "Frontiers in endocrinology",
+    "authors": [
+      "Yining Wang",
+      "Liming Yu",
+      "Zhiqiang Ye",
+      "Rui Lin",
+      "Antonia RuJia Sun",
+      "Lingna Liu",
+      "Jinsong Wei",
+      "Feifu Deng",
+      "Xiangxin Zhong",
+      "Liao Cui",
+      "Li Li",
+      "Yanzhi Liu"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": true,
+        "ui": "D003924"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Fractures, Bone",
+        "is_major": true,
+        "ui": "D050723"
+      },
+      {
+        "term": "Risk",
+        "is_major": false,
+        "ui": "D012306"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "bone",
+        "is_major": false
+      },
+      {
+        "term": "diabetes",
+        "is_major": false
+      },
+      {
+        "term": "fracture",
+        "is_major": false
+      },
+      {
+        "term": "meta-analysis",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Aims: Increasing evidence suggests that metformin can affect bone metabolism beyond its hypoglycemic effects in diabetic patients. However, the effects of metformin on fracture risk in type 2 diabetes mellitus (T2DM) patients remain unclear. A systematic review and meta-analysis were performed in this study to evaluate the association between metformin application and fracture risk in T2DM patients based on previous studies published until June 2021.\n\nMethods: A systematic search was performed to collect publications on metformin application in T2DM patients based on PubMed, Embase, Cochran, and Web of Science databases. Meta-analysis was performed by using a random-effects model to estimate the summary relative risks (RRs) with 95% confidence intervals (CIs). Subgroup analyses based on cohort/case-control and ethnicity and sensitivity analyses were also performed.\n\nResults: Eleven studies were included in the meta-analysis. Results demonstrated metformin use was not significantly associated with a decreased risk of fracture (RR, 0.91; 95% CI, 0.81-1.02; I\n\nConclusion: There was no significant correlation between fracture risk and metformin application in T2DM patients. Due to a limited number of existing studies, further research is needed to make a definite conclusion for clinical consensus."
+  },
+  {
+    "rank": 9,
+    "score": 0.5585983282400592,
+    "search_type": "hybrid",
+    "vector_id": 1712906,
+    "chunk_id": 1712906,
+    "pmid": "39065748",
+    "title": "Metformin-Associated Gastrointestinal Adverse Events Are Reduced by Probiotics: A Meta-Analysis.",
+    "year": 2024,
+    "journal": "Pharmaceuticals (Basel, Switzerland)",
+    "authors": [
+      "Izabela Szymczak-Pajor",
+      "J\u00f3zef Drzewoski",
+      "Sylwia Wenclewska",
+      "Agnieszka \u015aliwi\u0144ska"
+    ],
+    "mesh_terms": [],
+    "keywords": [
+      {
+        "term": "gastrointestinal (GI) adverse events",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "oral glucose-lowering drugs (GLDs)",
+        "is_major": false
+      },
+      {
+        "term": "probiotics",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Metformin, one of the most frequently used oral glucose-lowering drugs (GLDs), is associated with the occurrence of gastrointestinal (GI) adverse events in approximately 20% of users. These unwanted actions result in non-compliance or even discontinuation of metformin therapy. The aim of the presented meta-analysis was to determine whether adding a drug from the group of sulfonylureas, glitazones, DPP-IV inhibitors, or probiotics to metformin monotherapy may affect the risk of GI side effects. The material for this meta-analysis comprised data from 26 randomized controlled clinical trials (RCTs) published in English. This meta-analysis included 41,048 patients. The PubMed, Cochrane Library, and Clinical Trials databases were thoroughly searched to find relevant RCTs. The Population, Intervention, Comparison, Outcomes, and Study Type (PICOT) structure was used to formulate study selection criteria and the research question. Cochrane Review Manager Software 5.4 was used to carry out analysis of collected data. The results were presented as relative risk (RR) and 95% confidence interval (95% CI) for each group, and"
+  },
+  {
+    "rank": 10,
+    "score": 0.5510636329050038,
+    "search_type": "hybrid",
+    "vector_id": 3161891,
+    "chunk_id": 3161891,
+    "pmid": "37369280",
+    "title": "Effects of combined treatment of probiotics and metformin in management of type 2 diabetes: A systematic review and meta-analysis.",
+    "year": 2023,
+    "journal": "Diabetes research and clinical practice",
+    "authors": [
+      "Hamda Memon",
+      "Fatima Abdulla",
+      "Tea Reljic",
+      "Saif Alnuaimi",
+      "Fadila Serdarevic",
+      "Zelija Velija Asimi",
+      "Ambuj Kumar",
+      "Sabina Semiz"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Adult",
+        "is_major": false,
+        "ui": "D000328"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": true,
+        "ui": "D003924"
+      },
+      {
+        "term": "Probiotics",
+        "is_major": true,
+        "ui": "D019936"
+      },
+      {
+        "term": "Fasting",
+        "is_major": false,
+        "ui": "D005215"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Fasting glucose",
+        "is_major": false
+      },
+      {
+        "term": "Fasting insulin",
+        "is_major": false
+      },
+      {
+        "term": "Gastrointestinal intolerance",
+        "is_major": false
+      },
+      {
+        "term": "HbA1c",
+        "is_major": false
+      },
+      {
+        "term": "Insulin resistance",
+        "is_major": false
+      },
+      {
+        "term": "Lipids",
+        "is_major": false
+      },
+      {
+        "term": "Metformin",
+        "is_major": false
+      },
+      {
+        "term": "Probiotic",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "BACKGROUND: Lifestyle changes and dietary intervention, including the use of probiotics, can modulate dysbiosis of gut microbiome and contribute to the management of type 2 diabetes mellitus (T2DM). This systematic review and meta-analysis aim to assess the efficacy of metformin plus probiotics versus metformin alone on outcomes in patients with T2DM.\n\nMETHODS: We searched MEDLINE and EMBASE from inception to February 2023 to identify all randomized controlled trials (RCTs), which compared the use of metformin plus probiotics versus metformin alone in adult patients with T2DM. Data were summarized as mean differences (MD) with 95\u00a0% confidence interval (CI) and pooled under the random effects model.\n\nFINDINGS: Fourteen RCTs (17 comparisons, 1009 patients) were included in this systematic review. Pooled results show a significant decrease in fasting glucose (FG) (MD\u00a0=\u00a0-0.64, 95\u00a0% CI\u00a0=\u00a0-1.06, -0.22) and HbA1c (MD\u00a0=\u00a0-0.29, 95\u00a0% CI\u00a0=\u00a0-0.47, -0.10) levels in patients with T2DM treated with metformin plus probiotics versus metformin alone. The addition of probiotics to metformin resulted in lower odds of gastrointestinal adverse events (Odds ratio\u00a0=\u00a00.18, 95\u00a0% CI\u00a0=\u00a00.09, 0.3.8; I\n\nCONCLUSIONS: The addition of probiotics to metformin therapy is associated with improvement in T2DM outcomes. However, high-quality and adequately reported RCTs are needed in the future to confirm our findings."
+  }
+]

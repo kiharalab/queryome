@@ -1,0 +1,1838 @@
+SYSTEM: 
+You are a research critic agent. Your task is to evaluate the relevance of the following articles to the research question.
+For each article, provide a relevance score from 1 to 10 (1 = not relevant, 10 = highly relevant) and a brief justification.
+Also, provide an overall assessment: should we continue searching or stop?
+
+Respond in JSON format with two keys: "scores" and "decision".
+- "scores": a list of objects, each with "pmid", "relevance_score", and "justification".
+- "decision": either "CONTINUE" or "STOP". If continuing, add a "suggestion" key with ideas for the next search.
+
+USER: 
+Research Question: "What are the latest research trends concerning metformin?"
+
+Articles to evaluate:
+[
+  {
+    "rank": 1,
+    "score": 0.7027881204558222,
+    "search_type": "hybrid",
+    "vector_id": 3478104,
+    "chunk_id": 3478104,
+    "pmid": "37016064",
+    "title": "Molecular mechanisms of action of metformin: latest advances and therapeutic implications.",
+    "year": 2023,
+    "journal": "Clinical and experimental medicine",
+    "authors": [
+      "Hong Zhu",
+      "Zhenquan Jia",
+      "Yunbo Robert Li",
+      "Igor Danelisen"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": true,
+        "ui": "D003924"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Cardiovascular disease",
+        "is_major": false
+      },
+      {
+        "term": "Diabetes",
+        "is_major": false
+      },
+      {
+        "term": "Inflammation",
+        "is_major": false
+      },
+      {
+        "term": "Metformin",
+        "is_major": false
+      },
+      {
+        "term": "Mitochondria",
+        "is_major": false
+      },
+      {
+        "term": "Redox signaling",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Metformin is among the most widely used antidiabetic drugs. Studies over the past few years have identified multiple novel molecular targets and pathways that metformin acts on to exert its beneficial effects in treating type 2 diabetes as well as other disorders involving dysregulated inflammation and redox homeostasis. In this mini-review, we discuss the latest cutting-edge research discoveries on novel molecular targets of metformin in glycemic control, cardiovascular protection, cancer intervention, anti-inflammation, antiaging, and weight control. Identification of these novel targets and pathways not only deepens our understanding of the molecular mechanisms by which metformin exerts diverse beneficial biological effects, but also provides opportunities for developing new mechanistically based drugs for human diseases."
+  },
+  {
+    "rank": 2,
+    "score": 0.7,
+    "search_type": "hybrid",
+    "vector_id": 3021998,
+    "chunk_id": 3021998,
+    "pmid": "37567440",
+    "title": "Extensive therapeutic effects, underlying molecular mechanisms and disease treatment prediction of Metformin: a systematic review.",
+    "year": 2024,
+    "journal": "Translational research : the journal of laboratory and clinical medicine",
+    "authors": [
+      "Yifei Geng",
+      "Zhen Wang",
+      "Xiaoyu Xu",
+      "Xiao Sun",
+      "Xi Dong",
+      "Yun Luo",
+      "Xiaobo Sun"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": true,
+        "ui": "D003924"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Gastrointestinal Microbiome",
+        "is_major": true,
+        "ui": "D000069196"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Derivative",
+        "is_major": false
+      },
+      {
+        "term": "Disease",
+        "is_major": false
+      },
+      {
+        "term": "Metformin",
+        "is_major": false
+      },
+      {
+        "term": "Molecular mechanism",
+        "is_major": false
+      },
+      {
+        "term": "Systematic pharmacology",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Metformin (Met), a first-line management for type 2 diabetes mellitus, has been expansively employed and studied with results indicating its therapeutic potential extending beyond glycemic control. Beyond its established role, this therapeutic drug demonstrates a broad spectrum of action encompassing over 60 disorders, encompassing metabolic conditions, inflammatory disorders, carcinomas, cardiovascular diseases, and cerebrovascular pathologies. There is clear evidence of Met's action targeting specific nodes in the molecular pathways of these diseases and, intriguingly, interactions with the intestinal microbiota and epigenetic processes have been explored. Furthermore, novel Met derivatives with structural modifications tailored to diverse diseases have been synthesized and assessed. This manuscript proffers a comprehensive thematic review of the diseases amenable to Met treatment, elucidates their molecular mechanisms, and employs informatics technology to prospect future therapeutic applications of Met. These data and insights gleaned considerably contribute to enriching our understanding and appreciation of Met's far-reaching clinical potential and therapeutic applicability."
+  },
+  {
+    "rank": 3,
+    "score": 0.6717424157676891,
+    "search_type": "hybrid",
+    "vector_id": 1282831,
+    "chunk_id": 1282831,
+    "pmid": "39595655",
+    "title": "Anti-Diabetic Therapies and Cancer: From Bench to Bedside.",
+    "year": 2024,
+    "journal": "Biomolecules",
+    "authors": [
+      "Dimitris Kounatidis",
+      "Natalia G Vallianou",
+      "Irene Karampela",
+      "Eleni Rebelos",
+      "Marina Kouveletsou",
+      "Vasileios Dalopoulos",
+      "Petros Koufopoulos",
+      "Evanthia Diakoumopoulou",
+      "Nikolaos Tentolouris",
+      "Maria Dalamaga"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Neoplasms",
+        "is_major": true,
+        "ui": "D009369"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": true,
+        "ui": "D007004"
+      },
+      {
+        "term": "Animals",
+        "is_major": false,
+        "ui": "D000818"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Diabetes Mellitus",
+        "is_major": false,
+        "ui": "D003920"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "GLP-1 receptor agonists",
+        "is_major": false
+      },
+      {
+        "term": "SGLT-2 inhibitors",
+        "is_major": false
+      },
+      {
+        "term": "cancer",
+        "is_major": false
+      },
+      {
+        "term": "chronic low-grade inflammation",
+        "is_major": false
+      },
+      {
+        "term": "diabetes mellitus",
+        "is_major": false
+      },
+      {
+        "term": "doxorubicin-induced cardiomyopathy",
+        "is_major": false
+      },
+      {
+        "term": "immune check point inhibitors",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "tirzepatide",
+        "is_major": false
+      },
+      {
+        "term": "tumor microenvironment",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Diabetes mellitus (DM) is a significant risk factor for various cancers, with the impact of anti-diabetic therapies on cancer progression differing across malignancies. Among these therapies, metformin has gained attention for its potential anti-cancer effects, primarily through modulation of the AMP-activated protein kinase/mammalian target of rapamycin (AMPK/mTOR) pathway and the induction of autophagy. Beyond metformin, other conventional anti-diabetic treatments, such as insulin, sulfonylureas (SUs), pioglitazone, and dipeptidyl peptidase-4 (DPP-4) inhibitors, have also been examined for their roles in cancer biology, though findings are often inconclusive. More recently, novel medications, like glucagon-like peptide-1 (GLP-1) receptor agonists, dual GLP-1/glucose-dependent insulinotropic polypeptide (GIP) agonists, and sodium-glucose co-transporter-2 (SGLT-2) inhibitors, have revolutionized DM management by not only improving glycemic control but also delivering substantial cardiovascular and renal benefits. Given their diverse metabolic effects, including anti-obesogenic properties, these novel agents are now under meticulous investigation for their potential influence on tumorigenesis and cancer advancement. This review aims to offer a comprehensive exploration of the evolving landscape of glucose-lowering treatments and their implications in cancer biology. It critically evaluates experimental evidence surrounding the molecular mechanisms by which these medications may modulate oncogenic signaling pathways and reshape the tumor microenvironment (TME). Furthermore, it assesses translational research and clinical trials to gauge the practical relevance of these findings in real-world settings. Finally, it explores the potential of anti-diabetic medications as adjuncts in cancer treatment, particularly in enhancing the efficacy of chemotherapy, minimizing toxicity, and addressing resistance within the framework of immunotherapy."
+  },
+  {
+    "rank": 4,
+    "score": 0.660199586727145,
+    "search_type": "hybrid",
+    "vector_id": 1242093,
+    "chunk_id": 1242093,
+    "pmid": "39669200",
+    "title": "Advancements in precision medicine: multi-omics approach for tailored metformin treatment in type 2 diabetes.",
+    "year": 2024,
+    "journal": "Frontiers in pharmacology",
+    "authors": [
+      "Najeha Rizwana Anwardeen",
+      "Khaled Naja",
+      "Mohamed A Elrayess"
+    ],
+    "mesh_terms": [],
+    "keywords": [
+      {
+        "term": "genomics",
+        "is_major": false
+      },
+      {
+        "term": "metabolomics",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "microbiomics",
+        "is_major": false
+      },
+      {
+        "term": "precision medicine",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Metformin has become the frontline treatment in addressing the significant global health challenge of type 2 diabetes due to its proven effectiveness in lowering blood glucose levels. However, the reality is that many patients struggle to achieve their glycemic targets with the medication and the cause behind this variability has not been investigated thoroughly. While genetic factors account for only about a third of this response variability, the potential influence of metabolomics and the gut microbiome on drug efficacy opens new avenues for investigation. This review explores the different molecular signatures to uncover how the complex interplay between genetics, metabolic profiles, and gut microbiota can shape individual responses to metformin. By highlighting the insights from recent studies and identifying knowledge gaps regarding metformin-microbiota interplay, we aim to highlight the path toward more personalized and effective diabetes management strategies and moving beyond the one-size-fits-all approach."
+  },
+  {
+    "rank": 5,
+    "score": 0.6489807081175528,
+    "search_type": "hybrid",
+    "vector_id": 5472728,
+    "chunk_id": 5472728,
+    "pmid": "34638615",
+    "title": "Metabolomic Approaches to Investigate the Effect of Metformin: An Overview.",
+    "year": 2021,
+    "journal": "International journal of molecular sciences",
+    "authors": [
+      "Hyun Woo Kim"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Animals",
+        "is_major": false,
+        "ui": "D000818"
+      },
+      {
+        "term": "Biomarkers",
+        "is_major": false,
+        "ui": "D015415"
+      },
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": false,
+        "ui": "D003924"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Insulin Resistance",
+        "is_major": false,
+        "ui": "D007333"
+      },
+      {
+        "term": "Metabolic Networks and Pathways",
+        "is_major": false,
+        "ui": "D053858"
+      },
+      {
+        "term": "Metabolome",
+        "is_major": false,
+        "ui": "D055442"
+      },
+      {
+        "term": "Metabolomics",
+        "is_major": false,
+        "ui": "D055432"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "BCAAs",
+        "is_major": false
+      },
+      {
+        "term": "T2DM",
+        "is_major": false
+      },
+      {
+        "term": "TCA cycle",
+        "is_major": false
+      },
+      {
+        "term": "metabolome",
+        "is_major": false
+      },
+      {
+        "term": "metabolomics",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Metformin is the first-line antidiabetic drug that is widely used in the treatment of type 2 diabetes mellitus (T2DM). Even though the various therapeutic potential of metformin treatment has been reported, as well as the improvement of insulin sensitivity and glucose homeostasis, the mechanisms underlying those benefits are still not fully understood. In order to explain the beneficial effects on metformin treatment, various metabolomics analyses have been applied to investigate the metabolic alterations in response to metformin treatment, and significant systemic metabolome changes were observed in biofluid, tissues, and cells. In this review, we compare the latest metabolomic research including clinical trials, animal models, and in vitro studies comprehensively to understand the overall changes of metabolome on metformin treatment."
+  },
+  {
+    "rank": 6,
+    "score": 0.6374799562391875,
+    "search_type": "hybrid",
+    "vector_id": 2160792,
+    "chunk_id": 2160792,
+    "pmid": "38555742",
+    "title": "Metformin as anticancer agent and adjuvant in cancer combination therapy: Current progress and future prospect.",
+    "year": 2024,
+    "journal": "Translational oncology",
+    "authors": [
+      "Lin Zhu",
+      "Kaiqing Yang",
+      "Zhe Ren",
+      "Detao Yin",
+      "Yubing Zhou"
+    ],
+    "mesh_terms": [],
+    "keywords": [
+      {
+        "term": "Cancer",
+        "is_major": false
+      },
+      {
+        "term": "Chemotherapy",
+        "is_major": false
+      },
+      {
+        "term": "Combination therapy",
+        "is_major": false
+      },
+      {
+        "term": "Immunotherapy",
+        "is_major": false
+      },
+      {
+        "term": "Metformin",
+        "is_major": false
+      },
+      {
+        "term": "Radiotherapy",
+        "is_major": false
+      },
+      {
+        "term": "Targeted therapy",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Metformin, as the preferred antihyperglycemic drug for type 2 diabetes, has been found to have a significant effect in inhibiting tumor growth in recent years. However, metformin alone in cancer treatment has the disadvantages of high dose concentrations and few targeted cancer types. Increasing studies have confirmed that metformin can be used in combination with conventional anticancer therapy to obtain more promising clinical benefits, which is expected to be rapidly transformed and applied in clinic. Some combination therapy strategies including metformin combined with chemotherapy, radiotherapy, targeted therapy and immunotherapy have been proven to have more significant antitumor effects and longer survival time than monotherapy. In this review, we summarize the synergistic antitumor effects and mechanisms of metformin in combination with other current conventional anticancer therapies. In addition, we update the research progress and the latest prospect of the metformin-combined application in the cancer treatment. This work could provide more evidence and future direction for the clinical application of metformin in antitumor."
+  },
+  {
+    "rank": 7,
+    "score": 0.6151026741110024,
+    "search_type": "hybrid",
+    "vector_id": 1991950,
+    "chunk_id": 1991950,
+    "pmid": "38785784",
+    "title": "Metformin: From Diabetes to Cancer-Unveiling Molecular Mechanisms and Therapeutic Strategies.",
+    "year": 2024,
+    "journal": "Biology",
+    "authors": [
+      "Emilia Amengual-Cladera",
+      "Pere Miquel Morla-Barcelo",
+      "Andrea Mor\u00e1n-Costoya",
+      "Jorge Sastre-Serra",
+      "Daniel Gabriel Pons",
+      "Adamo Valle",
+      "Pilar Roca",
+      "Mercedes Nadal-Serrano"
+    ],
+    "mesh_terms": [],
+    "keywords": [
+      {
+        "term": "breast cancer",
+        "is_major": false
+      },
+      {
+        "term": "colorectal cancer",
+        "is_major": false
+      },
+      {
+        "term": "diabetes",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "mitochondria",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Metformin, a widely used anti-diabetic drug, has garnered attention for its potential in cancer management, particularly in breast and colorectal cancer. It is established that metformin reduces mitochondrial respiration, but its specific molecular targets within mitochondria vary. Proposed mechanisms include inhibiting mitochondrial respiratory chain Complex I and/or Complex IV, and mitochondrial glycerophosphate dehydrogenase, among others. These actions lead to cellular energy deficits, redox state changes, and several molecular changes that reduce hyperglycemia in type 2 diabetic patients. Clinical evidence supports metformin's role in cancer prevention in type 2 diabetes mellitus patients. Moreover, in these patients with breast and colorectal cancer, metformin consumption leads to an improvement in survival outcomes and prognosis. The synergistic effects of metformin with chemotherapy and immunotherapy highlights its potential as an adjunctive therapy for breast and colorectal cancer. However, nuanced findings underscore the need for further research and stratification by molecular subtype, particularly for breast cancer. This comprehensive review integrates metformin-related findings from epidemiological, clinical, and preclinical studies in breast and colorectal cancer. Here, we discuss current research addressed to define metformin's bioavailability and efficacy, exploring novel metformin-based compounds and drug delivery systems, including derivatives targeting mitochondria, combination therapies, and novel nanoformulations, showing enhanced anticancer effects."
+  },
+  {
+    "rank": 8,
+    "score": 0.5655025866490494,
+    "search_type": "hybrid",
+    "vector_id": 1797974,
+    "chunk_id": 1797974,
+    "pmid": "38984380",
+    "title": "Advances in metformin-delivery systems for diabetes and obesity management.",
+    "year": 2024,
+    "journal": "Diabetes, obesity & metabolism",
+    "authors": [
+      "Mehrnaz Abbasi",
+      "Braeden Heath",
+      "Lauren McGinness"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Drug Delivery Systems",
+        "is_major": true,
+        "ui": "D016503"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": true,
+        "ui": "D007004"
+      },
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": true,
+        "ui": "D003924"
+      },
+      {
+        "term": "Obesity",
+        "is_major": true,
+        "ui": "D009765"
+      },
+      {
+        "term": "Obesity Management",
+        "is_major": false,
+        "ui": "D000073319"
+      },
+      {
+        "term": "Biological Availability",
+        "is_major": false,
+        "ui": "D001682"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "delivery systems",
+        "is_major": false
+      },
+      {
+        "term": "diabetes",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "microneedle",
+        "is_major": false
+      },
+      {
+        "term": "microparticles",
+        "is_major": false
+      },
+      {
+        "term": "nanoparticles",
+        "is_major": false
+      },
+      {
+        "term": "obesity",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Metformin is a medication that is commonly prescribed to manage type 2 diabetes. It has been used for more than 60\u2009years and is highly effective in lowering blood glucose levels. Recent studies indicate that metformin may have additional medical benefits beyond treating diabetes, revealing its potential therapeutic uses. Oral medication is commonly used to administer metformin because of its convenience and cost-effectiveness. However, there are challenges in optimizing its effectiveness. Gastrointestinal side effects and limitations in bioavailability have led to the underutilization of metformin. Innovative drug-delivery systems such as fast-dissolving tablets, micro/nanoparticle formulations, hydrogel and microneedles have been explored to optimize metformin therapy. These strategies enhance metformin dosage, targeting, bioavailability and stability, and provide personalized treatment options for improved glucose homeostasis, antiobesity and metabolic health benefits. Developing new delivery systems for metformin shows potential for improving therapeutic outcomes, broadening its applications beyond diabetes management and addressing unmet medical needs in various clinical settings. However, it is important to improve drug-delivery systems, addressing issues such as complexity, cost, biocompatibility, stability during storage and transportation, loading capacity, required technologies and biomaterials, targeting precision and regulatory approval. Addressing these limitations is crucial for effective, safe and accessible drug delivery in clinical practice. In this review, recent advances in the development and application of metformin-delivery systems for diabetes and obesity are discussed."
+  },
+  {
+    "rank": 9,
+    "score": 0.5511039399787839,
+    "search_type": "hybrid",
+    "vector_id": 268169,
+    "chunk_id": 268169,
+    "pmid": "40058683",
+    "title": "Metformin's anticancer odyssey: Revealing multifaceted mechanisms across diverse neoplastic terrains- a critical review.",
+    "year": 2025,
+    "journal": "Biochimie",
+    "authors": [
+      "Rashmi Saxena Pal",
+      "Talha Jawaid",
+      "M A Rahman",
+      "Rakesh Verma",
+      "Pratap Kumar Patra",
+      "Sharma Vedika Vijaypal",
+      "Yogendra Pal",
+      "Rohit Upadhyay"
+    ],
+    "mesh_terms": [],
+    "keywords": [
+      {
+        "term": "Anti diabetic drug",
+        "is_major": false
+      },
+      {
+        "term": "Anticancer agent",
+        "is_major": false
+      },
+      {
+        "term": "Drug repurposing",
+        "is_major": false
+      },
+      {
+        "term": "Metformin",
+        "is_major": false
+      },
+      {
+        "term": "Molecular mechanisms",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Metformin, initially prescribed as an oral hypoglycemic medication for type 2 diabetes, has recently gained attention for its potential anticancer effects. Its history dates to 1918, when guanidine, a component of the traditional European herb Galega officinalis, was found to reduce glycemia. This review precisely examines the mechanisms underlying Metformin's anticancer effects across various neoplastic conditions. This investigation explores the complex interactions between metformin and major signaling pathways associated with carcinogenesis, including AMP-activated protein kinase (AMPK), mTOR, and insulin-like growth factor (IGF) pathways. The review emphasizes Metformin's diverse effects on angiogenesis, inflammation, apoptosis, and cellular metabolism in cancer cells. Additionally, new data on metformin's capacity to alter the tumor microenvironment and enhance immune surveillance systems against cancer are examined. The review underscores Metformin's potential for repurposing in oncology, emphasizing its clinical relevance as an adjuvant therapy for various cancers. The review provides insightful information about the complex anticancer mechanisms of metformin by combining data from preclinical and clinical studies. These findings not only broaden our knowledge of the effects of metformin but also open new avenues for oncology research and treatment developments."
+  },
+  {
+    "rank": 10,
+    "score": 0.5511039399787839,
+    "search_type": "hybrid",
+    "vector_id": 28187322,
+    "chunk_id": 28187322,
+    "pmid": "40058683",
+    "title": "Metformin's anticancer odyssey: Revealing multifaceted mechanisms across diverse neoplastic terrains- a critical review.",
+    "year": 2025,
+    "journal": "Biochimie",
+    "authors": [
+      "Rashmi Saxena Pal",
+      "Talha Jawaid",
+      "M A Rahman",
+      "Rakesh Verma",
+      "Pratap Kumar Patra",
+      "Sharma Vedika Vijaypal",
+      "Yogendra Pal",
+      "Rohit Upadhyay"
+    ],
+    "mesh_terms": [],
+    "keywords": [
+      {
+        "term": "Anti diabetic drug",
+        "is_major": false
+      },
+      {
+        "term": "Anticancer agent",
+        "is_major": false
+      },
+      {
+        "term": "Drug repurposing",
+        "is_major": false
+      },
+      {
+        "term": "Metformin",
+        "is_major": false
+      },
+      {
+        "term": "Molecular mechanisms",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Metformin, initially prescribed as an oral hypoglycemic medication for type 2 diabetes, has recently gained attention for its potential anticancer effects. Its history dates to 1918, when guanidine, a component of the traditional European herb Galega officinalis, was found to reduce glycemia. This review precisely examines the mechanisms underlying Metformin's anticancer effects across various neoplastic conditions. This investigation explores the complex interactions between metformin and major signaling pathways associated with carcinogenesis, including AMP-activated protein kinase (AMPK), mTOR, and insulin-like growth factor (IGF) pathways. The review emphasizes Metformin's diverse effects on angiogenesis, inflammation, apoptosis, and cellular metabolism in cancer cells. Additionally, new data on metformin's capacity to alter the tumor microenvironment and enhance immune surveillance systems against cancer are examined. The review underscores Metformin's potential for repurposing in oncology, emphasizing its clinical relevance as an adjuvant therapy for various cancers. The review provides insightful information about the complex anticancer mechanisms of metformin by combining data from preclinical and clinical studies. These findings not only broaden our knowledge of the effects of metformin but also open new avenues for oncology research and treatment developments."
+  },
+  {
+    "rank": 1,
+    "score": 4.776224613189697,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 8718887,
+    "chunk_id": 8718887,
+    "pmid": "30661330",
+    "title": "Hepatoprotective and anti-obesity effects of Korean blue honeysuckle extracts in high fat diet-fed mice.",
+    "year": 2018,
+    "journal": "Journal of exercise nutrition & biochemistry",
+    "authors": [
+      "Yoon-Seok Chun",
+      "Se-Kwang Ku",
+      "Jong-Kyu Kim",
+      "Sok Park",
+      "In-Ho Cho",
+      "Nam-Ju Lee"
+    ],
+    "mesh_terms": [],
+    "keywords": [
+      {
+        "term": "Metformin",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "PURPOSE: This study aimed to study the protective effects and mechanism of Blue Honeysuckle (BH) extracts (Berries of Lonicera caerulea L.) on non-alcoholic fatty liver disease (NAFLD) and obesity risk factors in a high fat-diet (HFD) model.\n\nMETHODS: Animals adapted to HFD were selected after 1 week of adaption period and divided into 6 groups (8 mice in each group; 40 HFD-fed mice and 8 normal fat pellet diet (NFD)-fed mice). After the end of 12 weeks of continuous oral administrations of 3 different dosages of BH extract, 400, 200 and 100 mg/kg, or metformin 250 mg/kg, dissolved in a volume of 10 mL/kg distilled water, the hepatoprotective, hypolipidemic, hypoglycemic, nephroprotective, and anti-obesity effects were analyzed.\n\nRESULTS: The BH extract improved fat density and mass, adipocyte histopathology, hepatocyte hypertrophy, hepatic enzyme activity, lipid metabolism, and related gene expression including ACC1, AMPK \u03b11 and AMPK \u03b12 in hepatic tissue, leptin, UCP2, adiponectin, C/EBP \u03b1, C/EBP\u03b2 and SREBP1c in adipose tissue. Especially, 200 mg/kg of BH extract constantly improved NAFLD and obesity risk factors through AMPK upregulation-mediated hepatic glucose enzyme activity, lipid metabolism-related gene expression, and activation of the antioxidant defense system, to a level comparable to that of metformin 250 mg/kg in HFD-fed mice.\n\nCONCLUSION: BH extract has the potential to reduce the risk factors associated with obesity, in addition to the remarkable effect of preventing NAFLD. Future research will need to be done to determine whether these results are consistent in human studies."
+  },
+  {
+    "rank": 2,
+    "score": 4.1875433921813965,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 10371717,
+    "chunk_id": 10371717,
+    "pmid": "28565153",
+    "title": "MECHANISMS OF LARGE-SCALE EVOLUTIONARY TRENDS.",
+    "year": 1994,
+    "journal": "Evolution; international journal of organic evolution",
+    "authors": [
+      "Daniel W McShea"
+    ],
+    "mesh_terms": [],
+    "keywords": [
+      {
+        "term": "Diffusion",
+        "is_major": false
+      },
+      {
+        "term": "driven trend",
+        "is_major": false
+      },
+      {
+        "term": "evolutionary trends",
+        "is_major": false
+      },
+      {
+        "term": "passive trend",
+        "is_major": false
+      },
+      {
+        "term": "trend mechanisms",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Large-scale evolutionary trends may result from driving forces or from passive diffusion in bounded spaces. Such trends are persistent directional changes in higher taxa spanning significant periods of geological time; examples include the frequently cited long-term trends in size, complexity, and fitness in life as a whole, as well as trends in lesser supraspecific taxa and trends in space. In a driven trend, the distribution mean increases on account of a force (which may manifest itself as a bias in the direction of change) that acts on lineages throughout the space in which diversification occurs. In a passive system, no pervasive force or bias exists, but the mean increases because change in one direction is blocked by a boundary, or other inhomogeneity, in some limited region of the space. Two tests have been used to distinguish these trend mechanisms: (1) the test based on the behavior of the minimum; and (2) the ancestor-descendant test, based on comparisons in a random sample of ancestor-descendant pairs that lie far from any possible lower bound. For skewed distributions, a third test is introduced here: (3) the subclade test, based on the mean skewness of a sample of subclades drawn from the tail of a terminal distribution. With certain restrictions, a system is driven if the minimum increases, if increases significantly outnumber decreases among ancestor-descendant pairs, and if the mean skew of subclades is significantly positive. A passive mechanism is more difficult to demonstrate but is the more likely mechanism if decreases outnumber increases and if the mean skew of subclades is negative. Unlike the other tests, the subclade test requires no detailed phylogeny or paleontological time series, but only terminal (e.g., modern) distributions. Monte Carlo simulations of the diversification of a clade are used to show how the subclade test works. In the empirical cases examined, the three tests gave concordant results, suggesting first, that they work, and second, that the passive and driven mechanisms may correspond to natural categories of causes of large-scale trends."
+  },
+  {
+    "rank": 3,
+    "score": 4.124407768249512,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 10174282,
+    "chunk_id": 10174282,
+    "pmid": "28819951",
+    "title": "Metformin - a new old drug.",
+    "year": 2017,
+    "journal": "Endokrynologia Polska",
+    "authors": [
+      "Marta Patrycja Wr\u00f3bel",
+      "Bogdan Marek",
+      "Dariusz Kajdaniuk",
+      "Dominika Rokicka",
+      "Aleksandra Szymborska-Kajanek",
+      "Krzysztof Strojek"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": false,
+        "ui": "D003924"
+      },
+      {
+        "term": "Female",
+        "is_major": false,
+        "ui": "D005260"
+      },
+      {
+        "term": "Glucose",
+        "is_major": false,
+        "ui": "D005947"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Insulin Resistance",
+        "is_major": false,
+        "ui": "D007333"
+      },
+      {
+        "term": "Liver",
+        "is_major": false,
+        "ui": "D008099"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Polycystic Ovary Syndrome",
+        "is_major": false,
+        "ui": "D011085"
+      },
+      {
+        "term": "Practice Guidelines as Topic",
+        "is_major": false,
+        "ui": "D017410"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "metformin properties",
+        "is_major": false
+      },
+      {
+        "term": "type 2 diabetes",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "For many years metformin has been the gold standard in the treatment of type 2 diabetes. According to recommendations of the most important diabetes associations, this is the first-choice drug for use as monotherapy in patients with newly diagnosed type 2 diabetes. Metformin is also recommended in combined treatment when monotherapy is no longer effective. It is then combined with a sulfony-lurea, an incretin, flozin, or insulin, irrespective of the number of insulin injections per day. Besides its properties used in the treatment of diabetes, metformin has been treated for some time as a drug of a so-called pleiotropic activity, as each year brings new reports about its favourable effect in different conditions. At present, the scope of reimbursed indications of this drug has been expanded to include prediabetes, insulin resistance syndromes, and polycystic ovary syndrome. Metformin does not stimulate insulin secretion by the beta cells of the pancreas, and thus it is a drug that does not cause hypoglycaemia. The blood glucose-lowering effect of the drug is a consequence of hepatic glucose production inhibition, and of peripheral tissue (muscle tissue, fatty tissue) sensitisation to the effect of insulin of both endogenous and exogenous origin. The exact mechanism of metformin action at the cellular level remained unknown for a long time. Studies performed in recent years have provided a great deal of information that enables better understanding of the mechanism of action of the drug as well as the clinical effects resulting from its use. Metformin, besides improvement of glycaemia, is neutral to body weight, is cardioprotective, improves lipid profile, and has a probable anti-cancer effect. Metformin accumulation in the intestinal mucosa may interfere with FDG (18F-deoxyglucose) PET-CT image assessment. The aim of this article is a detailed discussion of metformin properties, its mechanisms of action, and clinical effects."
+  },
+  {
+    "rank": 4,
+    "score": 4.124407768249512,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 9551584,
+    "chunk_id": 9551584,
+    "pmid": "29637033",
+    "title": "Metformin-Induced Lactic Acidosis: A Case Study.",
+    "year": 2018,
+    "journal": "Cureus",
+    "authors": [
+      "Waliul Chowdhury",
+      "Muhammad Uzair Lodhi",
+      "Intekhab Askari Syed",
+      "Umer Ahmed",
+      "Maxwell Miller",
+      "Mustafa Rahim"
+    ],
+    "mesh_terms": [],
+    "keywords": [
+      {
+        "term": "lactic acidosis",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "metformin overdose",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Metformin is\u00a0the first line management for patients with Type 2 diabetes mellitus. Metformin-induced lactic acidosis (MALA) is a severe side effect of metformin in high doses. However,\u00a0there have not been many reported cases of MALA. The threshold metformin concentration needed to induce lactic acidosis is still not fully understood. It is important for physicians to measure metformin\u00a0levels upon admission in Type 2 diabetes patients who take metformin and present with suspected lactic acidosis. We present a case of a 40-year-old Caucasian male who presented with severe lactic acidosis shortly after overdosing on metformin."
+  },
+  {
+    "rank": 5,
+    "score": 4.124407768249512,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 8243539,
+    "chunk_id": 8243539,
+    "pmid": "31245187",
+    "title": "Metformin-associated Lactic Acidosis: An Unexpected Scenario.",
+    "year": 2019,
+    "journal": "Cureus",
+    "authors": [
+      "Samia Asif",
+      "Joseph Bennett",
+      "Bindiya Marakkath"
+    ],
+    "mesh_terms": [],
+    "keywords": [
+      {
+        "term": "lactic acidosis",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "metformin toxicity",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "According to the National Diabetes Statistics Report (2017) by Centers for Disease Control and Prevention (CDC), 9.4% of the US population, approximately 30.3 million people had diabetes while 84.1 million had pre-diabetes as of 2015. In addition to lifestyle changes, the American Diabetes Association recommends metformin as the first-line treatment for type 2 diabetes. Hence, not surprisingly, metformin is a commonly prescribed medication by most healthcare providers in all clinical settings. As a result, it remains essential that all medical professionals be aware of any adverse effects as a result of metformin therapy, no matter how uncommon. We present the case of a 42-year-old lady with type 2 diabetes mellitus who required initial admission to intensive care unit (ICU) after presenting with unilateral back and lower abdominal pain with dysuria and was noted to have an acute kidney injury with a creatinine of 7.45 mg/dL and severe metabolic acidosis with a pH of 6.7 and an anion gap more than 50 mmol/L. Lactic acid was elevated at 24.2 mmol/L. Serum metformin levels were high at 14 mcg/mL (therapeutic range: 1-2 mcg/mL). She required emergent dialysis but subsequently, renal functions recovered. Risk of metformin-associated lactic acidosis (MALA) is reported to be an estimated 6.3 per 100,000 patient-years. Commonly encountered clinical scenarios such as hypoxemia, sepsis, alcohol abuse, renal injury, and shock can precipitate MALA. Early recognition allows timely initiation of appropriate therapy and reduces associated morbidity."
+  },
+  {
+    "rank": 6,
+    "score": 4.073256492614746,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 8797786,
+    "chunk_id": 8797786,
+    "pmid": "30572757",
+    "title": "National Trends in Diabetes Medication Use in the United States: 2008 to 2015.",
+    "year": 2020,
+    "journal": "Journal of pharmacy practice",
+    "authors": [
+      "Amit D Raval",
+      "Ami Vyas"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Adolescent",
+        "is_major": false,
+        "ui": "D000293"
+      },
+      {
+        "term": "Adult",
+        "is_major": false,
+        "ui": "D000328"
+      },
+      {
+        "term": "Diabetes Mellitus",
+        "is_major": true,
+        "ui": "D003920"
+      },
+      {
+        "term": "Dipeptidyl-Peptidase IV Inhibitors",
+        "is_major": false,
+        "ui": "D054873"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Sodium-Glucose Transporter 2 Inhibitors",
+        "is_major": false,
+        "ui": "D000077203"
+      },
+      {
+        "term": "Sulfonylurea Compounds",
+        "is_major": false,
+        "ui": "D013453"
+      },
+      {
+        "term": "United States",
+        "is_major": false,
+        "ui": "D014481"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Medical Expenditure Panel Survey",
+        "is_major": false
+      },
+      {
+        "term": "diabetes",
+        "is_major": false
+      },
+      {
+        "term": "insulin",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "trends",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "BACKGROUND: Data on trends of diabetes medications use are sparse, outdated, and limited to prescription data. We determined trends in diabetes medication use among US individuals with diabetes during 2008-2015.\n\nMETHODS: We used 2008-2015 Medical Expenditure Panel Survey to examine diabetes medication utilization among individuals aged \u226518 years with diabetes. Prescription medications were classified based on therapeutic class and subclass using Multum Lexicon database.\n\nRESULTS: From 2008 to 2015, use of any diabetes medication (81.4% vs. 87%), metformin (47.8% vs. 59.0%), and insulin (23.0% vs. 31.0%) increased, whereas, use of sulfonylurea (36.0% vs. 29.0%) and thiazolidinedione (21% vs. 9.0%) declined. A linear increase was observed in the uptake of dipeptidyl peptidase-4 (DPP-4) inhibitors from 6.2% in 2008 to 12.4% in 2015; glucagon-like peptide-1 (GLP-1) receptor agonists from 2.5% in 2008 to 4.4% in 2015 and sodium glucose transporter-2 (SGLT2) inhibitors from 0.8% in 2014 (the first SGLT2 inhibitors approval year) to 4.4% in 2015. Monotherapy use increased from 50.6% to 56.4% during 2008-2015, while triple therapy use declined.\n\nCONCLUSIONS: Metformin, insulin and sulfonylureas remained the top-three prescribed classes of diabetes medications. Increased use of DPP-4 inhibitors, GLP-1 receptor agonists and SGLT2 inhibitors was offset by decline in TZDs use."
+  },
+  {
+    "rank": 7,
+    "score": 4.047947883605957,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 3629278,
+    "chunk_id": 3629278,
+    "pmid": "36836794",
+    "title": "Pleiotropic Effects of Metformin in Osteoarthritis.",
+    "year": 2023,
+    "journal": "Life (Basel, Switzerland)",
+    "authors": [
+      "Sevdalina Nikolova Lambova"
+    ],
+    "mesh_terms": [],
+    "keywords": [
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "osteoarthritis",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "The involvement of the knee joint is the most common localization of the pathological process in osteoarthritis (OA), which is associated with obesity in over 50% of the patients and is mediated by mechanical, inflammatory, and metabolic mechanisms. Obesity and the associated conditions (hyperglycemia, dyslipidemia, and hypertension) have been found to be risk factors for the development of knee OA, which has led to the emerging concept of the existence of a distinct phenotype, i.e., metabolic knee OA. Combined assessment of markers derived from dysfunctional adipose tissue, markers of bone and cartilage metabolism, as well as high-sensitivity inflammatory markers and imaging, might reveal prognostic signs for metabolic knee OA. Interestingly, it has been suggested that drugs used for the treatment of other components of the metabolic syndrome may also affect the clinical course and retard the progression of metabolic-associated knee OA. In this regard, significant amounts of new data are accumulating about the role of metformin-a drug, commonly used in clinical practice with suggested multiple pleiotropic effects. The aim of the current review is to analyze the current views about the potential pleiotropic effects of metformin in OA. Upon the analysis of the different effects of metformin, major mechanisms that might be involved in OA are the influence of inflammation, oxidative stress, autophagy, adipokine levels, and microbiome modulation. There is an increasing amount of evidence from in vitro studies, animal models, and clinical trials that metformin can slow OA progression by modulating inflammatory and metabolic factors that are summarized in the current up-to-date review. Considering the contemporary concept about the existence of metabolic type knee OA, in which the accompanying obesity and systemic low-grade inflammation are suggested to influence disease course, metformin could be considered as a useful and safe component of the personalized therapeutic approach in knee OA patients with accompanying type II diabetes or obesity."
+  },
+  {
+    "rank": 8,
+    "score": 4.047947883605957,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 7089638,
+    "chunk_id": 7089638,
+    "pmid": "32668195",
+    "title": "Mitochondrial Metabolism as a Target for Cancer Therapy.",
+    "year": 2020,
+    "journal": "Cell metabolism",
+    "authors": [
+      "Karthik Vasan",
+      "Marie Werner",
+      "Navdeep S Chandel"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Animals",
+        "is_major": false,
+        "ui": "D000818"
+      },
+      {
+        "term": "Antineoplastic Agents",
+        "is_major": false,
+        "ui": "D000970"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Mitochondria",
+        "is_major": false,
+        "ui": "D008928"
+      },
+      {
+        "term": "Neoplasms",
+        "is_major": false,
+        "ui": "D009369"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "mitochondria",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Recent evidence in humans and mice supports the notion that mitochondrial metabolism is active and necessary for tumor growth. Mitochondrial metabolism supports tumor anabolism by providing key metabolites for macromolecule synthesis and generating oncometabolites to maintain the cancer phenotype. Moreover, there are multiple clinical trials testing the efficacy of inhibiting mitochondrial metabolism as a new cancer therapeutic treatment. In this review, we discuss the rationale of using these anti-cancer agents in clinical trials and highlight how to effectively utilize them in different tumor contexts."
+  },
+  {
+    "rank": 9,
+    "score": 3.827117681503296,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 11188695,
+    "chunk_id": 11188695,
+    "pmid": "27469359",
+    "title": "In Vivo Imaging of Human 11C-Metformin in Peripheral Organs: Dosimetry, Biodistribution, and Kinetic Analyses.",
+    "year": 2016,
+    "journal": "Journal of nuclear medicine : official publication, Society of Nuclear Medicine",
+    "authors": [
+      "Lars C Gormsen",
+      "Elias Immanuel Sundelin",
+      "Jonas Brorson Jensen",
+      "Mikkel Holm Vendelbo",
+      "Steen Jakobsen",
+      "Ole Lajord Munk",
+      "Mette Marie Hougaard Christensen",
+      "Kim Br\u00f8sen",
+      "J\u00f8rgen Fr\u00f8ki\u00e6r",
+      "Niels Jessen"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Adult",
+        "is_major": false,
+        "ui": "D000328"
+      },
+      {
+        "term": "Carbon Radioisotopes",
+        "is_major": true,
+        "ui": "D002250"
+      },
+      {
+        "term": "Female",
+        "is_major": false,
+        "ui": "D005260"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Kinetics",
+        "is_major": false,
+        "ui": "D007700"
+      },
+      {
+        "term": "Male",
+        "is_major": false,
+        "ui": "D008297"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Middle Aged",
+        "is_major": false,
+        "ui": "D008875"
+      },
+      {
+        "term": "Positron-Emission Tomography",
+        "is_major": false,
+        "ui": "D049268"
+      },
+      {
+        "term": "Radiometry",
+        "is_major": false,
+        "ui": "D011874"
+      },
+      {
+        "term": "Tissue Distribution",
+        "is_major": false,
+        "ui": "D014018"
+      },
+      {
+        "term": "Whole Body Imaging",
+        "is_major": false,
+        "ui": "D051598"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "11C-metformin",
+        "is_major": false
+      },
+      {
+        "term": "PET/CT",
+        "is_major": false
+      },
+      {
+        "term": "biodistribution",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Metformin is the most widely prescribed oral antiglycemic drug, with few adverse effects. However, surprisingly little is known about its human biodistribution and target tissue metabolism. In animal experiments, we have shown that metformin can be labeled by\n\nMETHODS: Nine subjects (3 women and 6 men) participated in 2 studies: in the first study, human radiation dosimetry and biodistribution of\n\nRESULTS: Radiation dosimetry was acceptable, with effective doses of 9.5 \u03bcSv/MBq (intravenous administration) and 18.1 \u03bcSv/MBq (oral administration). Whole-body PET revealed that"
+  },
+  {
+    "rank": 10,
+    "score": 3.827117681503296,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 2484524,
+    "chunk_id": 2484524,
+    "pmid": "38203351",
+    "title": "Mass Spectrometry Study about In Vitro and In Vivo Reaction between Metformin and Glucose: A Preliminary Investigation on Alternative Biological Behavior.",
+    "year": 2023,
+    "journal": "International journal of molecular sciences",
+    "authors": [
+      "Gianluca Bartolucci",
+      "Marco Pallecchi",
+      "Laura Braconi",
+      "Silvia Dei",
+      "Elisabetta Teodori",
+      "Annunziata Lapolla",
+      "Giovanni Sartore",
+      "Pietro Traldi"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Tandem Mass Spectrometry",
+        "is_major": false,
+        "ui": "D053719"
+      },
+      {
+        "term": "Liquid Chromatography-Mass Spectrometry",
+        "is_major": false,
+        "ui": "D000097922"
+      },
+      {
+        "term": "Cell Membrane",
+        "is_major": false,
+        "ui": "D002462"
+      },
+      {
+        "term": "Glucose",
+        "is_major": false,
+        "ui": "D005947"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "mass spectrometry",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "reaction of metformin with glucose",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Metformin is the most prescribed glucose-lowering drug worldwide; globally, over 100 million patients are prescribed this drug annually. Some different action mechanisms have been proposed for this drug, but, surprisingly, no metabolite of metformin has ever been described. It was considered interesting to investigate the possible reaction of metformin with glucose following the Maillard reaction pattern. The reaction was first performed in in vitro conditions, showing the formation of two adducts that originated by the condensation of the two molecular species with the losses of one or two water molecules. Their structures were investigated by liquid chromatography coupled with mass spectrometry (HPLC-MS), tandem mass spectrometry (MS/MS) and accurate mass measurements (HRMS). The species originated via the reaction of glucose and metformin and were called"
+  },
+  {
+    "rank": 1,
+    "score": 4.65569543838501,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 4842182,
+    "chunk_id": 4842182,
+    "pmid": "35352646",
+    "title": "Metformin has no Significant Anticancer Effect on Patients with Advanced or Unresectable Cancer: A Systematic Review and Meta-analysis.",
+    "year": 2022,
+    "journal": "Current pharmaceutical design",
+    "authors": [
+      "Xinyan Gan",
+      "Chang Cao",
+      "Yan He",
+      "Xiaolin Hu",
+      "Xingchen Peng",
+      "Yonglin Su"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Neoplasms",
+        "is_major": true,
+        "ui": "D009369"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Metformin",
+        "is_major": false
+      },
+      {
+        "term": "cancer",
+        "is_major": false
+      },
+      {
+        "term": "meta-analysis",
+        "is_major": false
+      },
+      {
+        "term": "overall survival",
+        "is_major": false
+      },
+      {
+        "term": "progression-free survival",
+        "is_major": false
+      },
+      {
+        "term": "randomized clinical trials",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "BACKGROUND: At present, the antitumor effect of metformin is controversial. Previous meta-analyses included observational studies, of which the results can be influenced by many confounders, affecting the result of meta-analyses and weakening the strength of evidence. Therefore, we conducted a meta-analysis to confirm the effect of metformin use on patients with advanced or unresectable cancers, including randomized clinical trials (RCTs).\n\nMETHODS: We searched for RCTs in accordance with the inclusion and exclusion criteria. A meta-analysis was conducted to combine hazard ratios (HRs) or risk ratios (RRs) and their 95% confidence intervals (CIs) using a random-effects model.\n\nRESULTS: Finally, 7 eligible RCTs were included in the meta-analysis. Overall, the combined results revealed that treatment with metformin did not improve the overall survival (OS) of patients (HR, 1.12; 95% CI, 0.91-1.37, p>0.05), and there was no clear evidence that metformin use was related to improved progression-free survival (PFS) (HR, 1.17; 95% CI, 0.97-1.40; p>0.05). The pooled RR for grade III or IV adverse events was 0.92 (95% CI, 0.52- 1.60; p>0.05), indicating that the use of metformin was not significantly related to increased toxicity.\n\nCONCLUSION: Metformin does not significantly improve the survival of patients with advanced or unresectable cancer, regardless of cancer type and region."
+  },
+  {
+    "rank": 2,
+    "score": 4.65569543838501,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 5704309,
+    "chunk_id": 5704309,
+    "pmid": "34365027",
+    "title": "Metformin-enhances resilience via hormesis.",
+    "year": 2021,
+    "journal": "Ageing research reviews",
+    "authors": [
+      "Edward J Calabrese",
+      "Evgenios Agathokleous",
+      "Rachna Kapoor",
+      "Gaurav Dhawan",
+      "Walter J Kozumbo",
+      "Vittorio Calabrese"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Hormesis",
+        "is_major": true,
+        "ui": "D059165"
+      },
+      {
+        "term": "Longevity",
+        "is_major": false,
+        "ui": "D008136"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "AMPK",
+        "is_major": false
+      },
+      {
+        "term": "Aging",
+        "is_major": false
+      },
+      {
+        "term": "Hormesis",
+        "is_major": false
+      },
+      {
+        "term": "Metformin",
+        "is_major": false
+      },
+      {
+        "term": "Neuroprotection",
+        "is_major": false
+      },
+      {
+        "term": "Nrf2",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "The present paper demonstrates that metformin (MF) induced a broad spectrum of hormetic biphasic dose responses in a wide range of experimental studies, affecting multiple organ systems, cell types, and endpoints enhancing resilience to chemical stresses in preconditioning and co-current exposure protocols. Detailed mechanistic evaluations indicate that MF-induced hormetic-adaptive responses are mediated often via the activation of adenosine monophosphate-activated kinase (AMPK) protein and its subsequent upregulation of nuclear factor erythroid 2-related factor 2 (Nrf2). Hormesis-induced protective responses by MF are largely mediated via a vast and highly integrated anti-inflammatory molecular network that enhances longevity and delays the onset and slows the progression of neurodegenerative and other chronic diseases."
+  },
+  {
+    "rank": 3,
+    "score": 4.65569543838501,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 11843975,
+    "chunk_id": 11843975,
+    "pmid": "26616157",
+    "title": "Impact of moisture and magnesium stearate functionality on manufacturability of wet granulated metformin tablets.",
+    "year": 2017,
+    "journal": "Pharmaceutical development and technology",
+    "authors": [
+      "Umesh Kestur",
+      "Divyakant Desai",
+      "Shasad Sharif",
+      "Benjamin Wong",
+      "Hang Guo",
+      "Dan Tang",
+      "Steven Chan"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Excipients",
+        "is_major": false,
+        "ui": "D005079"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Tablets",
+        "is_major": true,
+        "ui": "D013607"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Bulk yield strength",
+        "is_major": false
+      },
+      {
+        "term": "friability",
+        "is_major": false
+      },
+      {
+        "term": "magnesium stearate",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "residual moisture",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "During the development of a wet granulated 850 mg metformin hydrochloride tablet formulation, the tablets exhibited high friability (>3% w/w) irrespective of the source of extra-granular magnesium stearate (MgSt). High friability values indicated that an anti-bonding effect of MgSt was too high to be overcome by 3.3% w/w povidone as a binder in the formulation with 1.5% w/w residual granule moisture. Increasing the povidone concentration up to 7% w/w showed limited improvement in friability, with tablets showing variable friability depending on MgSt source. Characterization of MgSt indicated differences in crystallinity, surface area and particle morphology between different vendors. In addition, a new bulk yield strength test, which determines the MgSt fragmentation tendency, was found to be indicative of the MgSt performance in the tablet formulation. To improve bonding properties of granules, residual granule moisture was increased to 2% w/w at different povidone concentrations. At 2% w/w residual granule moisture content, regardless of MgSt source, the tablets showed significant improvement in friability (\u223c0.6% w/w) even at the lowest povidone concentration (3.3% w/w). The bonding power of higher residual granule moisture had a greater impact than higher povidone concentration in overcoming the anti-bonding effects of magnesium stearate."
+  },
+  {
+    "rank": 4,
+    "score": 4.463261604309082,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 11861257,
+    "chunk_id": 11861257,
+    "pmid": "26637275",
+    "title": "Impact of Metformin on Advanced Pancreatic Cancer Survival: Too Little, Too Late?",
+    "year": 2016,
+    "journal": "Clinical cancer research : an official journal of the American Association for Cancer Research",
+    "authors": [
+      "Yu-Xiao Yang",
+      "Anil K Rustgi"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Pancreatic Neoplasms",
+        "is_major": true,
+        "ui": "D010190"
+      }
+    ],
+    "keywords": [],
+    "citations": [
+      {
+        "type": "CommentOn",
+        "source": "Clin Cancer Res. 2016 Mar 1;22(5):1076-85. doi: 10.1158/1078-0432.CCR-15-1722",
+        "pmid": "26459175"
+      }
+    ],
+    "text": "Metformin offers no survival advantage in patients with metastatic pancreatic cancer. Despite promising experimental evidence suggesting an antitumor effect of metformin, its impact on the survival of advanced pancreatic cancer is likely very limited. Future studies may need to consider its role in early-stage pancreatic cancer. See related article by Reni et al., p. 1076."
+  },
+  {
+    "rank": 5,
+    "score": 4.463261604309082,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 4982720,
+    "chunk_id": 4982720,
+    "pmid": "35216477",
+    "title": "Metformin: Expanding the Scope of Application-Starting Earlier than Yesterday, Canceling Later.",
+    "year": 2022,
+    "journal": "International journal of molecular sciences",
+    "authors": [
+      "Yulia A Kononova",
+      "Nikolai P Likhonosov",
+      "Alina Yu Babenko"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Life Style",
+        "is_major": false,
+        "ui": "D008019"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "atherosclerosis",
+        "is_major": false
+      },
+      {
+        "term": "cardio-vascular diseases",
+        "is_major": false
+      },
+      {
+        "term": "chronic kidney disease",
+        "is_major": false
+      },
+      {
+        "term": "diabetes mellitus",
+        "is_major": false
+      },
+      {
+        "term": "heart failure",
+        "is_major": false
+      },
+      {
+        "term": "lactate",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "molecular mechanisms",
+        "is_major": false
+      },
+      {
+        "term": "obesity",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Today the area of application of metformin is expanding, and a wealth of data point to its benefits in people without carbohydrate metabolism disorders. Already in the population of people leading an unhealthy lifestyle, before the formation of obesity and prediabetes metformin smooths out the adverse effects of a high-fat diet. Being prescribed at this stage, metformin will probably be able to, if not prevent, then significantly reduce the progression of all subsequent metabolic changes. To a large extent, this review will discuss the proofs of the evidence for this. Another recent important change is a removal of a number of restrictions on its use in patients with heart failure, acute coronary syndrome and chronic kidney disease. We will discuss the reasons for these changes and present a new perspective on the role of increasing lactate in metformin therapy."
+  },
+  {
+    "rank": 6,
+    "score": 4.463261604309082,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 3415027,
+    "chunk_id": 3415027,
+    "pmid": "37063031",
+    "title": "Is metformin use associated with a reduced risk of oesophageal cancer? A systematic review and meta-analysis.",
+    "year": 2022,
+    "journal": "Postgraduate medical journal",
+    "authors": [
+      "Yue Chen",
+      "Xingyu Cheng",
+      "Chenyu Sun",
+      "Na Hyun Kim",
+      "Sujatha Kailas",
+      "Faisal Qureshi",
+      "Zeid Karadsheh",
+      "Yile Wu",
+      "Lei Hu",
+      "Zhen Zhou",
+      "Chandur Bhan",
+      "Keun Young Kim",
+      "Raveena Manem",
+      "Ce Cheng",
+      "Qin Zhou"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Esophageal Neoplasms",
+        "is_major": true,
+        "ui": "D004938"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "adult gastroenterology",
+        "is_major": false
+      },
+      {
+        "term": "adult oncology",
+        "is_major": false
+      },
+      {
+        "term": "clinical pharmacology",
+        "is_major": false
+      },
+      {
+        "term": "oesophageal disease",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "OBJECTIVES: Studies on the association between metformin use and the risk of oesophageal cancer (OC) have generated controversial findings. This updated meta-analysis was conducted to reassess the effects of metformin on OC.\n\nMETHODS: A comprehensive search strategy was conducted to select relevant studies from origination to February 2021. Heterogeneity was evaluated through the Q test and I2 statistics. HRs and 95% CIs were pooled through either random-effect or fixed-effect models. Meta-regression, subgroup analyses, sensitivity analysis and publication bias diagnosis were also performed.\n\nRESULTS: Seven studies with 5 426 343 subjects were included. Metformin use was associated with reduced risk of OC (HR=0.69, 95%\u2009CI 0.54 to 0.87, p<0.001). Sensitivity analysis suggested that the results were relatively stable.\n\nCONCLUSION: Metformin is associated with a reduced risk of OC. More well-designed studies are still needed to further elaborate on these associations.\n\nPROSPERO REGISTRATION NUMBER: CRD42021237127."
+  },
+  {
+    "rank": 7,
+    "score": 4.463261604309082,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 7598307,
+    "chunk_id": 7598307,
+    "pmid": "32060931",
+    "title": "The pharmacokinetics of metformin in patients receiving intermittent haemodialysis.",
+    "year": 2020,
+    "journal": "British journal of clinical pharmacology",
+    "authors": [
+      "Klarissa A Sinnappah",
+      "Isabelle H S Kuan",
+      "Tilenka R J Thynne",
+      "Matthew P Doogue",
+      "Daniel F B Wright"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Renal Dialysis",
+        "is_major": false,
+        "ui": "D006435"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "NONMEM",
+        "is_major": false
+      },
+      {
+        "term": "haemodialysis",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "pharmacokinetics",
+        "is_major": false
+      }
+    ],
+    "citations": [
+      {
+        "type": "CommentIn",
+        "source": "Br J Clin Pharmacol. 2021 Aug;87(8):3370-3371. doi: 10.1111/bcp.14683",
+        "pmid": "33314254"
+      }
+    ],
+    "text": "The aims of this study were to characterise the population pharmacokinetics of metformin in patients receiving haemodialysis, and to determine the doses that will maintain median metformin plasma concentrations below 5 mg L"
+  },
+  {
+    "rank": 8,
+    "score": 4.463261604309082,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 2379259,
+    "chunk_id": 2379259,
+    "pmid": "38324209",
+    "title": "SMR transporters meet the challenge of metformin metabolites.",
+    "year": 2024,
+    "journal": "The Journal of general physiology",
+    "authors": [
+      "Ben Short"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Membrane Transport Proteins",
+        "is_major": true,
+        "ui": "D026901"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      }
+    ],
+    "keywords": [],
+    "citations": [
+      {
+        "type": "CommentOn",
+        "source": "J Gen Physiol. 2024 Mar 4;156(3):e202313464. doi: 10.1085/jgp.202313464",
+        "pmid": "38294434"
+      }
+    ],
+    "text": "JGP study (Lucero et al. http://www.doi.org/10.1085/jgp.202313464) shows that members of the SMRGdx subtype can export the degradation products of metformin, helping bacteria adapt to high environmental levels of the commonly prescribed diabetes medication."
+  },
+  {
+    "rank": 9,
+    "score": 4.463261604309082,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 6099304,
+    "chunk_id": 6099304,
+    "pmid": "33858109",
+    "title": "Optimization of Sibipiruna activated carbon preparation by simplex-centroid mixture design for simultaneous adsorption of rhodamine B and metformin.",
+    "year": 2021,
+    "journal": "Journal of hazardous materials",
+    "authors": [
+      "Lucas Spessato",
+      "Vitor A Duarte",
+      "Patr\u00edcia Viero",
+      "Heloisa Zanella",
+      "Jhessica M Fonseca",
+      "Pedro A Arroyo",
+      "Vitor C Almeida"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Adsorption",
+        "is_major": false,
+        "ui": "D000327"
+      },
+      {
+        "term": "Charcoal",
+        "is_major": true,
+        "ui": "D002606"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Rhodamines",
+        "is_major": false,
+        "ui": "D012235"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Adsorption island",
+        "is_major": false
+      },
+      {
+        "term": "Adsorption mechanism",
+        "is_major": false
+      },
+      {
+        "term": "Binary adsorption",
+        "is_major": false
+      },
+      {
+        "term": "Response surface methodology",
+        "is_major": false
+      },
+      {
+        "term": "Sibipiruna pods",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "The present paper reports the application of augmented simplex-centroid mixture design to obtain a high BET surface area activated carbon using as reactants KOH, K"
+  },
+  {
+    "rank": 10,
+    "score": 4.463261604309082,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 4768461,
+    "chunk_id": 4768461,
+    "pmid": "35449372",
+    "title": "International Regulatory Collaboration on the Analysis of Nitrosamines in Metformin-Containing Medicines.",
+    "year": 2022,
+    "journal": "The AAPS journal",
+    "authors": [
+      "David A Keire",
+      "Robert Bream",
+      "Uwe Wollein",
+      "Jeannette Schmaler-Ripcke",
+      "Annette Burchardt",
+      "Massimiliano Conti",
+      "Adam Zmys\u0142owski",
+      "Peter Keizers",
+      "Justin Morin",
+      "Jalene Poh",
+      "Mark George",
+      "Michael Wierer"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Dimethylnitrosamine",
+        "is_major": false,
+        "ui": "D004128"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Nitrosamines",
+        "is_major": true,
+        "ui": "D009602"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "International regulatory laboratories",
+        "is_major": false
+      },
+      {
+        "term": "NDMA",
+        "is_major": false
+      },
+      {
+        "term": "drug supply",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "nitrosamines",
+        "is_major": false
+      }
+    ],
+    "citations": [
+      {
+        "type": "ErratumIn",
+        "source": "AAPS J. 2022 Jul 13;24(4):84. doi: 10.1208/s12248-022-00734-w",
+        "pmid": "35831631"
+      }
+    ],
+    "text": "Recalls of some batches of metformin have occurred due to the detection of N-nitrosodimethylamine (NDMA) in amounts above the acceptable intake (AI) of 96\u00a0ng per day. Prior to the recalls, an international regulatory laboratory network had been monitoring drugs for nitrosamine impurities with each laboratory independently developing and validating multiple analytical procedures to detect and measure nitrosamines in metformin drugs used in their jurisdictions. Here, we provide an overview of the analysis of metformin active pharmaceutical ingredients (APIs) and drug products with 1090 samples (875 finished dosage forms (FDFs) and 215 API samples) tested beginning in November of 2019 through July of 2020. Samples were obtained internationally by a variety of approaches, including purchased, received from firms via information requests or selected by regional regulatory authorities (either at wholesalers or during GMP inspections). Only one nitrosamine (NDMA) was detected and was only present in some batches of metformin products. For API samples, 213 out of 215 lots tested had no measurable level of NDMA. For FDF samples tested, the number of batches with NDMA above the AI amount for patient safety was 17.8% (156/875). Based on these data, although the presence of NDMA was of concern, 82.2% of the samples of metformin drug products tested met quality and safety standards for patients. Regulatory agencies continue to collaborate extensively and work with marketing authorization holders to understand root causes of nitrosamine formation and agree on corrective actions to mitigate the presence of NDMA in future metformin batches."
+  }
+]

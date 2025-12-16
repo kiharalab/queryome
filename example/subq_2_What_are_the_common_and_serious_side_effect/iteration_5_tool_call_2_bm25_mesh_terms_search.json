@@ -1,0 +1,7 @@
+{
+  "name": "bm25_mesh_terms_search",
+  "arguments": {
+    "query": "metformin adverse effects systematic review meta-analysis gastrointestinal diseases neurologic manifestations hypersensitivity",
+    "k": 10
+  }
+}

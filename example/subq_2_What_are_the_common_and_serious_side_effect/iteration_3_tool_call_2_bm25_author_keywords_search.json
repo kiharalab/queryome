@@ -1,0 +1,7 @@
+{
+  "name": "bm25_author_keywords_search",
+  "arguments": {
+    "query": "Metformin side effects pharmacovigilance",
+    "k": 10
+  }
+}

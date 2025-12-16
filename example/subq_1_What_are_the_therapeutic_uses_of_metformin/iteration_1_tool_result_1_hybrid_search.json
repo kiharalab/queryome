@@ -1,0 +1,626 @@
+{
+  "query": "therapeutic uses of metformin",
+  "search_type": "hybrid",
+  "parameters": {
+    "k": 10,
+    "alpha": 0.7
+  },
+  "results_count": 10,
+  "results": [
+    {
+      "rank": 1,
+      "score": 0.755286605937338,
+      "search_type": "hybrid",
+      "vector_id": 4022752,
+      "chunk_id": 4022752,
+      "pmid": "36336804",
+      "title": "Metformin: A Promising Antidiabetic Medication for Cancer Treatment.",
+      "year": 2023,
+      "journal": "Current drug targets",
+      "authors": [
+        "Wei Mu",
+        "Yunyun Jiang",
+        "Guoqiang Liang",
+        "Yue Feng",
+        "Falin Qu"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Metformin",
+          "is_major": true,
+          "ui": "D008687"
+        },
+        {
+          "term": "Diabetes Mellitus, Type 2",
+          "is_major": true,
+          "ui": "D003924"
+        },
+        {
+          "term": "Hypoglycemic Agents",
+          "is_major": false,
+          "ui": "D007004"
+        },
+        {
+          "term": "Neoplasms",
+          "is_major": true,
+          "ui": "D009369"
+        },
+        {
+          "term": "Apoptosis",
+          "is_major": false,
+          "ui": "D017209"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "AMPK complex",
+          "is_major": false
+        },
+        {
+          "term": "ICIs",
+          "is_major": false
+        },
+        {
+          "term": "Metformin",
+          "is_major": false
+        },
+        {
+          "term": "ROS",
+          "is_major": false
+        },
+        {
+          "term": "Sps",
+          "is_major": false
+        },
+        {
+          "term": "anticancer",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Metformin is a widely used drug in patients with type 2 diabetes mellitus. Metformin inhibits hepatic gluconeogenesis and increases glucose utilization in peripheral tissues. In recent years, several studies have shown that metformin is a potential therapeutic agent against cancer, alone or combined with other anticancer treatments. Metformin mainly activates the AMPK complex and regulates intracellular energy status, inhibiting the mitochondrial respiratory chain complex I and reducing the production of reactive oxygen species. Other anticancer targets of metformin are specific transcription factors inhibiting cell proliferation, promoting apoptosis and reducing drug resistance. In addition, metformin modulates tumor cells' response to anticancer treatments, favoring the activity of T cells. In diabetic patients, metformin reduces the occurrence of cancer and improves the prognosis and efficacy of anticancer treatments. In this review, we provided a comprehensive perspective of metformin as an anticancer drug."
+    },
+    {
+      "rank": 2,
+      "score": 0.7,
+      "search_type": "hybrid",
+      "vector_id": 3021998,
+      "chunk_id": 3021998,
+      "pmid": "37567440",
+      "title": "Extensive therapeutic effects, underlying molecular mechanisms and disease treatment prediction of Metformin: a systematic review.",
+      "year": 2024,
+      "journal": "Translational research : the journal of laboratory and clinical medicine",
+      "authors": [
+        "Yifei Geng",
+        "Zhen Wang",
+        "Xiaoyu Xu",
+        "Xiao Sun",
+        "Xi Dong",
+        "Yun Luo",
+        "Xiaobo Sun"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Metformin",
+          "is_major": true,
+          "ui": "D008687"
+        },
+        {
+          "term": "Diabetes Mellitus, Type 2",
+          "is_major": true,
+          "ui": "D003924"
+        },
+        {
+          "term": "Hypoglycemic Agents",
+          "is_major": false,
+          "ui": "D007004"
+        },
+        {
+          "term": "Gastrointestinal Microbiome",
+          "is_major": true,
+          "ui": "D000069196"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "Derivative",
+          "is_major": false
+        },
+        {
+          "term": "Disease",
+          "is_major": false
+        },
+        {
+          "term": "Metformin",
+          "is_major": false
+        },
+        {
+          "term": "Molecular mechanism",
+          "is_major": false
+        },
+        {
+          "term": "Systematic pharmacology",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Metformin (Met), a first-line management for type 2 diabetes mellitus, has been expansively employed and studied with results indicating its therapeutic potential extending beyond glycemic control. Beyond its established role, this therapeutic drug demonstrates a broad spectrum of action encompassing over 60 disorders, encompassing metabolic conditions, inflammatory disorders, carcinomas, cardiovascular diseases, and cerebrovascular pathologies. There is clear evidence of Met's action targeting specific nodes in the molecular pathways of these diseases and, intriguingly, interactions with the intestinal microbiota and epigenetic processes have been explored. Furthermore, novel Met derivatives with structural modifications tailored to diverse diseases have been synthesized and assessed. This manuscript proffers a comprehensive thematic review of the diseases amenable to Met treatment, elucidates their molecular mechanisms, and employs informatics technology to prospect future therapeutic applications of Met. These data and insights gleaned considerably contribute to enriching our understanding and appreciation of Met's far-reaching clinical potential and therapeutic applicability."
+    },
+    {
+      "rank": 3,
+      "score": 0.6972278361449852,
+      "search_type": "hybrid",
+      "vector_id": 1282831,
+      "chunk_id": 1282831,
+      "pmid": "39595655",
+      "title": "Anti-Diabetic Therapies and Cancer: From Bench to Bedside.",
+      "year": 2024,
+      "journal": "Biomolecules",
+      "authors": [
+        "Dimitris Kounatidis",
+        "Natalia G Vallianou",
+        "Irene Karampela",
+        "Eleni Rebelos",
+        "Marina Kouveletsou",
+        "Vasileios Dalopoulos",
+        "Petros Koufopoulos",
+        "Evanthia Diakoumopoulou",
+        "Nikolaos Tentolouris",
+        "Maria Dalamaga"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Neoplasms",
+          "is_major": true,
+          "ui": "D009369"
+        },
+        {
+          "term": "Hypoglycemic Agents",
+          "is_major": true,
+          "ui": "D007004"
+        },
+        {
+          "term": "Animals",
+          "is_major": false,
+          "ui": "D000818"
+        },
+        {
+          "term": "Metformin",
+          "is_major": false,
+          "ui": "D008687"
+        },
+        {
+          "term": "Diabetes Mellitus",
+          "is_major": false,
+          "ui": "D003920"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "GLP-1 receptor agonists",
+          "is_major": false
+        },
+        {
+          "term": "SGLT-2 inhibitors",
+          "is_major": false
+        },
+        {
+          "term": "cancer",
+          "is_major": false
+        },
+        {
+          "term": "chronic low-grade inflammation",
+          "is_major": false
+        },
+        {
+          "term": "diabetes mellitus",
+          "is_major": false
+        },
+        {
+          "term": "doxorubicin-induced cardiomyopathy",
+          "is_major": false
+        },
+        {
+          "term": "immune check point inhibitors",
+          "is_major": false
+        },
+        {
+          "term": "metformin",
+          "is_major": false
+        },
+        {
+          "term": "tirzepatide",
+          "is_major": false
+        },
+        {
+          "term": "tumor microenvironment",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Diabetes mellitus (DM) is a significant risk factor for various cancers, with the impact of anti-diabetic therapies on cancer progression differing across malignancies. Among these therapies, metformin has gained attention for its potential anti-cancer effects, primarily through modulation of the AMP-activated protein kinase/mammalian target of rapamycin (AMPK/mTOR) pathway and the induction of autophagy. Beyond metformin, other conventional anti-diabetic treatments, such as insulin, sulfonylureas (SUs), pioglitazone, and dipeptidyl peptidase-4 (DPP-4) inhibitors, have also been examined for their roles in cancer biology, though findings are often inconclusive. More recently, novel medications, like glucagon-like peptide-1 (GLP-1) receptor agonists, dual GLP-1/glucose-dependent insulinotropic polypeptide (GIP) agonists, and sodium-glucose co-transporter-2 (SGLT-2) inhibitors, have revolutionized DM management by not only improving glycemic control but also delivering substantial cardiovascular and renal benefits. Given their diverse metabolic effects, including anti-obesogenic properties, these novel agents are now under meticulous investigation for their potential influence on tumorigenesis and cancer advancement. This review aims to offer a comprehensive exploration of the evolving landscape of glucose-lowering treatments and their implications in cancer biology. It critically evaluates experimental evidence surrounding the molecular mechanisms by which these medications may modulate oncogenic signaling pathways and reshape the tumor microenvironment (TME). Furthermore, it assesses translational research and clinical trials to gauge the practical relevance of these findings in real-world settings. Finally, it explores the potential of anti-diabetic medications as adjuncts in cancer treatment, particularly in enhancing the efficacy of chemotherapy, minimizing toxicity, and addressing resistance within the framework of immunotherapy."
+    },
+    {
+      "rank": 4,
+      "score": 0.696650141727691,
+      "search_type": "hybrid",
+      "vector_id": 8388234,
+      "chunk_id": 8388234,
+      "pmid": "31114366",
+      "title": "The beneficial effects of metformin on cancer prevention and therapy: a comprehensive review of recent advances.",
+      "year": 2019,
+      "journal": "Cancer management and research",
+      "authors": [
+        "Pouya Saraei",
+        "Ilia Asadi",
+        "Muhammad Azam Kakar",
+        "Nasroallah Moradi-Kor"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        {
+          "term": "AMPK pathway",
+          "is_major": false
+        },
+        {
+          "term": "LKB1",
+          "is_major": false
+        },
+        {
+          "term": "mTOR pathway",
+          "is_major": false
+        },
+        {
+          "term": "metformin",
+          "is_major": false
+        },
+        {
+          "term": "prevention and treatment of cancer",
+          "is_major": false
+        },
+        {
+          "term": "radiation",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Metformin is a widely used drug in today's prescriptions by physicians due to its specific effects in treating and curing type II diabetes. Diabetes is a common disease that may occur throughout human life, and can increase the likelihood of the occurrence of various types of cancer, such as colon, rectum, pancreas and liver cancers, compared to non-diabetic patients. Metformin inhibits mTOR activity by activating ATM (ataxia telangiectasia mutated) and LKB1 (liver kinase B1) and then adenosine monophosphate-activated kinase (AMPK), and thus prevents protein synthesis and cell growth. Metformin can activate p53 by activating AMPK and thereby ultimately stop the cell cycle. Given the potential of metformin in the treatment of cancer, it can be used in radiotherapy, chemotherapy and to improve the response to treatment in androgen derivatives (ADT), and also, according to available evidence, metformin can also be used to prevent various types of cancers. Generally, metformin can: 1) reduce the incidence of cancers, 2) reduce the mortality from cancers, 3) increase the response to treatment in cancer cells when using radiotherapy and chemotherapy, 4) optimize tumor movement and reduce the malignancy, 5) reduce the likelihood of relapse, and 6) reduce the damaging effects of ADT. Therefore, this drug can be used as a complementary therapeutic agent for cancer treatment and prevention. In this review, we have summarized the data from various experimental and clinical studies and highlight the possible potential effects of metformin on cancer therapeutic responses."
+    },
+    {
+      "rank": 5,
+      "score": 0.6708325057122898,
+      "search_type": "hybrid",
+      "vector_id": 1122753,
+      "chunk_id": 1122753,
+      "pmid": "39770443",
+      "title": "Diverse Applications of the Anti-Diabetic Drug Metformin in Treating Human Disease.",
+      "year": 2024,
+      "journal": "Pharmaceuticals (Basel, Switzerland)",
+      "authors": [
+        "Chris-Tiann Roberts",
+        "Nicole Raabe",
+        "Lara Wiegand",
+        "Ashraf Kadar Shahib",
+        "Mojgan Rastegar"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        {
+          "term": "drug repurposing",
+          "is_major": false
+        },
+        {
+          "term": "epigenetics",
+          "is_major": false
+        },
+        {
+          "term": "human disease",
+          "is_major": false
+        },
+        {
+          "term": "metformin",
+          "is_major": false
+        },
+        {
+          "term": "type 2 diabetes",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Metformin is a commonly used drug for treating type 2 diabetes. Metformin is an inexpensive drug with low/no side effects and is well tolerated in human patients of different ages. Recent therapeutic strategies for human disease have considered the benefits of drug repurposing. This includes the use of the anti-diabetic drug metformin. Accordingly, the anti-inflammatory, anti-cancer, anti-viral, neuroprotective, and cardioprotective potentials of metformin have deemed it a suitable candidate for treating a plethora of human diseases. As results from preclinical studies using cellular and animal model systems appear promising, clinical trials with metformin in the context of non-diabetes-related illnesses have been started. Here, we aim to provide a comprehensive overview of the therapeutic potential of metformin in different animal models of human disease and its suggested relationship to epigenetics and ailments with epigenetic components."
+    },
+    {
+      "rank": 6,
+      "score": 0.6708325057122898,
+      "search_type": "hybrid",
+      "vector_id": 1135855,
+      "chunk_id": 1135855,
+      "pmid": "39770443",
+      "title": "Diverse Applications of the Anti-Diabetic Drug Metformin in Treating Human Disease.",
+      "year": 2024,
+      "journal": "Pharmaceuticals (Basel, Switzerland)",
+      "authors": [
+        "Chris-Tiann Roberts",
+        "Nicole Raabe",
+        "Lara Wiegand",
+        "Ashraf Kadar Shahib",
+        "Mojgan Rastegar"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        {
+          "term": "drug repurposing",
+          "is_major": false
+        },
+        {
+          "term": "epigenetics",
+          "is_major": false
+        },
+        {
+          "term": "human disease",
+          "is_major": false
+        },
+        {
+          "term": "metformin",
+          "is_major": false
+        },
+        {
+          "term": "type 2 diabetes",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Metformin is a commonly used drug for treating type 2 diabetes. Metformin is an inexpensive drug with low/no side effects and is well tolerated in human patients of different ages. Recent therapeutic strategies for human disease have considered the benefits of drug repurposing. This includes the use of the anti-diabetic drug metformin. Accordingly, the anti-inflammatory, anti-cancer, anti-viral, neuroprotective, and cardioprotective potentials of metformin have deemed it a suitable candidate for treating a plethora of human diseases. As results from preclinical studies using cellular and animal model systems appear promising, clinical trials with metformin in the context of non-diabetes-related illnesses have been started. Here, we aim to provide a comprehensive overview of the therapeutic potential of metformin in different animal models of human disease and its suggested relationship to epigenetics and ailments with epigenetic components."
+    },
+    {
+      "rank": 7,
+      "score": 0.6161517394952218,
+      "search_type": "hybrid",
+      "vector_id": 4921984,
+      "chunk_id": 4921984,
+      "pmid": "35267644",
+      "title": "Metformin Intervention-A Panacea for Cancer Treatment?",
+      "year": 2022,
+      "journal": "Cancers",
+      "authors": [
+        "Angelika Buczyńska",
+        "Iwona Sidorkiewicz",
+        "Adam Jacek Krętowski",
+        "Monika Zbucka-Krętowska",
+        "Agnieszka Adamska"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        {
+          "term": "anti-cancer",
+          "is_major": false
+        },
+        {
+          "term": "antioxidant",
+          "is_major": false
+        },
+        {
+          "term": "metformin",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "The molecular mechanism of action and the individual influence of various metabolic pathways related to metformin intervention are under current investigation. The available data suggest that metformin provides many advantages, exhibiting anti-inflammatory, anti-cancer, hepatoprotective, cardioprotective, otoprotective, radioprotective, and radio-sensitizing properties depending on cellular context. This literature review was undertaken to provide novel evidence concerning metformin intervention, with a particular emphasis on cancer treatment and prevention. Undoubtedly, the pleiotropic actions associated with metformin include inhibiting inflammatory processes, increasing antioxidant capacity, and improving glycemic and lipid metabolism. Consequently, these characteristics make metformin an attractive medicament to translate to human trials, the promising results of which were also summarized in this review."
+    },
+    {
+      "rank": 8,
+      "score": 0.5700714888168776,
+      "search_type": "hybrid",
+      "vector_id": 4159028,
+      "chunk_id": 4159028,
+      "pmid": "36191545",
+      "title": "The role of metformin as a treatment for neuropsychiatric illness.",
+      "year": 2022,
+      "journal": "European neuropsychopharmacology : the journal of the European College of Neuropsychopharmacology",
+      "authors": [
+        "Seetal Dodd",
+        "Luba Sominsky",
+        "Dan Siskind",
+        "Chiara C Bortolasci",
+        "Andre F Carvalho",
+        "Michael Maes",
+        "Adam J Walker",
+        "Ken Walder",
+        "Alison R Yung",
+        "Lana J Williams",
+        "Hannah Myles",
+        "Tayler Watson",
+        "Michael Berk"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        {
+          "term": "Bipolar disorder",
+          "is_major": false
+        },
+        {
+          "term": "Depression",
+          "is_major": false
+        },
+        {
+          "term": "Diabetes",
+          "is_major": false
+        },
+        {
+          "term": "Mental disorders",
+          "is_major": false
+        },
+        {
+          "term": "Mental illness",
+          "is_major": false
+        },
+        {
+          "term": "Metformin",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Advances in psychopharmacology have been significantly slower to evolve than in other disciplines of medicine and therefore investigation into novel therapeutic approaches is required. Additionally, concurrent metabolic conditions are prevalent among people with mental disorders. Metformin is a widely used hypoglycaemic agent that is now being studied for use beyond diabetes management. Evidence is emerging that metformin has multiple effects on diverse neurobiological pathways and consequently may be repurposed for treating mental illness. Metformin may have beneficial neuroimmunological, neuroplastic, neuro-oxidative and neuro-nitrosative effects across a range of psychiatric and neurodegenerative illnesses. Mechanisms include glucose lowering effects and effects on AMP-activated protein kinase (AMPK) signalling, however the best evidence for clinical benefit is through the glucose lowering effects, with other mechanisms less supported by the current evidence base. This narrative review aims to draw together the existing evidence for use of metformin as a psychopharmaceutical and present the role of metformin in the context of physical and psychiatric ill health, including metabolic, endocrinological and cancer domains. It not only has therapeutic potential in medical comorbidity but may have potential in core illness domains."
+    },
+    {
+      "rank": 9,
+      "score": 0.5565938956485699,
+      "search_type": "hybrid",
+      "vector_id": 3934454,
+      "chunk_id": 3934454,
+      "pmid": "36474458",
+      "title": "Metformin: new applications for an old drug.",
+      "year": 2023,
+      "journal": "Journal of basic and clinical physiology and pharmacology",
+      "authors": [
+        "Amirreza Naseri",
+        "Sarvin Sanaie",
+        "Sina Hamzehzadeh",
+        "Sepideh Seyedi-Sahebari",
+        "Mohammad-Salar Hosseini",
+        "Elnaz Gholipour-Khalili",
+        "Ehsan Rezazadeh-Gavgani",
+        "Reza Majidazar",
+        "Parya Seraji",
+        "Sara Daneshvar",
+        "Erfan Rezazadeh-Gavgani"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Female",
+          "is_major": false,
+          "ui": "D005260"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "COVID-19",
+          "is_major": false,
+          "ui": "D000086382"
+        },
+        {
+          "term": "Hypoglycemic Agents",
+          "is_major": true,
+          "ui": "D007004"
+        },
+        {
+          "term": "Metformin",
+          "is_major": true,
+          "ui": "D008687"
+        },
+        {
+          "term": "Neoplasms",
+          "is_major": false,
+          "ui": "D009369"
+        },
+        {
+          "term": "Off-Label Use",
+          "is_major": true,
+          "ui": "D056687"
+        },
+        {
+          "term": "Cardiovascular Diseases",
+          "is_major": false,
+          "ui": "D002318"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "biguanides",
+          "is_major": false
+        },
+        {
+          "term": "central nervous system diseases",
+          "is_major": false
+        },
+        {
+          "term": "communicable diseases",
+          "is_major": false
+        },
+        {
+          "term": "liver diseases",
+          "is_major": false
+        },
+        {
+          "term": "metformin",
+          "is_major": false
+        },
+        {
+          "term": "neoplasms",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Metformin is a biguanide, evolved as one of the most widely used medicines. The applications of this component include but are not limited to reducing blood glucose, weight loss, and polycystic ovary syndrome. Studies about other probable indications have emerged, indicating that this agent can also be utilized for other purposes. In this review, applications of metformin are noticed based on the current evidence. Metformin commonly is used as an off-label drug in non-alcoholic fatty liver disease (NAFLD), but it worsens inflammation and should not be used for this purpose, according to the latest research. Metformin decreased the risk of death in patients with liver cirrhosis. It is an effective agent in the prevention and improvement of survival in patients suffering hepatocellular carcinoma. There is evidence of the beneficial effects of metformin in colorectal cancer, early-stage prostate cancer, breast cancer, urothelial cancer, blood cancer, melanoma, and bone cancer, suggesting metformin as a potent anti-tumor agent. Metformin shows neuroprotective effects and provides a potential therapeutic benefit for mild cognitive impairment and Alzheimer's disease (AD). It also has been shown to improve mental function and reduce the incidence of dementia. Another condition that metformin has been shown to slow the progression of is Duchenne muscular dystrophy. Regarding infectious diseases, tuberculosis (TB) and coronavirus disease (COVID-19) are among the conditions suggested to be affected by metformin. The beneficial effects of metformin in cardiovascular diseases were also reported in the literature. Concerning renal function, studies showed that daily oral administration of metformin could ameliorate kidney fibrosis and normalize kidney structure and function. This study reviewed the clinical and preclinical evidence about the possible benefits of metformin based on recent studies. Numerous questions like whether these probable indications of metformin can be observed in non-diabetics, need to be described by future basic experiments and clinical studies."
+    },
+    {
+      "rank": 10,
+      "score": 0.5549692890575117,
+      "search_type": "hybrid",
+      "vector_id": 2160792,
+      "chunk_id": 2160792,
+      "pmid": "38555742",
+      "title": "Metformin as anticancer agent and adjuvant in cancer combination therapy: Current progress and future prospect.",
+      "year": 2024,
+      "journal": "Translational oncology",
+      "authors": [
+        "Lin Zhu",
+        "Kaiqing Yang",
+        "Zhe Ren",
+        "Detao Yin",
+        "Yubing Zhou"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        {
+          "term": "Cancer",
+          "is_major": false
+        },
+        {
+          "term": "Chemotherapy",
+          "is_major": false
+        },
+        {
+          "term": "Combination therapy",
+          "is_major": false
+        },
+        {
+          "term": "Immunotherapy",
+          "is_major": false
+        },
+        {
+          "term": "Metformin",
+          "is_major": false
+        },
+        {
+          "term": "Radiotherapy",
+          "is_major": false
+        },
+        {
+          "term": "Targeted therapy",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Metformin, as the preferred antihyperglycemic drug for type 2 diabetes, has been found to have a significant effect in inhibiting tumor growth in recent years. However, metformin alone in cancer treatment has the disadvantages of high dose concentrations and few targeted cancer types. Increasing studies have confirmed that metformin can be used in combination with conventional anticancer therapy to obtain more promising clinical benefits, which is expected to be rapidly transformed and applied in clinic. Some combination therapy strategies including metformin combined with chemotherapy, radiotherapy, targeted therapy and immunotherapy have been proven to have more significant antitumor effects and longer survival time than monotherapy. In this review, we summarize the synergistic antitumor effects and mechanisms of metformin in combination with other current conventional anticancer therapies. In addition, we update the research progress and the latest prospect of the metformin-combined application in the cancer treatment. This work could provide more evidence and future direction for the clinical application of metformin in antitumor."
+    }
+  ]
+}

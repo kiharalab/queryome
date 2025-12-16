@@ -1,0 +1,403 @@
+{
+  "query": "metformin drug delivery systems",
+  "search_type": "bm25_author_keywords",
+  "parameters": {
+    "k": 5
+  },
+  "results_count": 5,
+  "results": [
+    {
+      "rank": 1,
+      "score": 6.442777633666992,
+      "search_type": "bm25_author_keywords",
+      "vector_id": 3968519,
+      "chunk_id": 3968519,
+      "pmid": "36395633",
+      "title": "Metformin delivery via iontophoresis based on κ-carrageenan cryogels.",
+      "year": 2022,
+      "journal": "International journal of biological macromolecules",
+      "authors": [
+        "Tidayu Saramas",
+        "Phimchanok Sakunpongpitiporn",
+        "Kornkanok Rotjanasuworapong",
+        "Rawita Morarad",
+        "Sumonman Niamlang",
+        "Anuvat Sirivat"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Swine",
+          "is_major": false,
+          "ui": "D013552"
+        },
+        {
+          "term": "Animals",
+          "is_major": false,
+          "ui": "D000818"
+        },
+        {
+          "term": "Carrageenan",
+          "is_major": false,
+          "ui": "D002351"
+        },
+        {
+          "term": "Cryogels",
+          "is_major": true,
+          "ui": "D059985"
+        },
+        {
+          "term": "Metformin",
+          "is_major": true,
+          "ui": "D008687"
+        },
+        {
+          "term": "Iontophoresis",
+          "is_major": false,
+          "ui": "D007478"
+        },
+        {
+          "term": "Administration, Cutaneous",
+          "is_major": false,
+          "ui": "D000279"
+        },
+        {
+          "term": "Drug Delivery Systems",
+          "is_major": false,
+          "ui": "D016503"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "Metformin",
+          "is_major": false
+        },
+        {
+          "term": "Transdermal drug delivery",
+          "is_major": false
+        },
+        {
+          "term": "κ-Carrageenan",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Transdermal drug delivery system (TDDS) is the system for transmitting a drug through the skin into the blood circulation. In this work, κ-Carrageenan (κC) was used as the drug matrix material. The porous κC matrices were fabricated by dissolving the κC in deionized water to obtain hydrogels and then using the freeze-dryer to obtain cryogels. The porous (κC) matrices showed interconnected pore sizes varying between 6.05 to 25.8 nm. In the drug release experiments, the drug diffusion coefficient increased and the drug release duration was reduced with decreasing κC concentration due to the larger κC pore sizes. The diffusion coefficient increased with a shorter release time under the applied electric strength of +1.0 V due to the electro-repulsive force between the Metformin and the anode. For the drug release-permeation of the κC 0.8 % v/v cryogel through the pig skin under applied positive electrical potentials, the amounts of drug release-permeation and diffusion coefficients were enhanced with shorter durations relative to without electrical potential. The κC 0.8 % v/v matrix at the applied electric strength of +6.0 V has been shown here to be potential to be used as the Metformin transdermal controlled delivery patch for abdominal obesity and diabetes."
+    },
+    {
+      "rank": 2,
+      "score": 6.356631278991699,
+      "search_type": "bm25_author_keywords",
+      "vector_id": 10245089,
+      "chunk_id": 10245089,
+      "pmid": "28720350",
+      "title": "An overview of in vitro dissolution/release methods for novel mucosal drug delivery systems.",
+      "year": 2018,
+      "journal": "Journal of pharmaceutical and biomedical analysis",
+      "authors": [
+        "Mario Jug",
+        "Anita Hafner",
+        "Jasmina Lovrić",
+        "Maja Lusina Kregar",
+        "Ivan Pepić",
+        "Željka Vanić",
+        "Biserka Cetina-Čižmek",
+        "Jelena Filipović-Grčić"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Animals",
+          "is_major": false,
+          "ui": "D000818"
+        },
+        {
+          "term": "Chemistry, Pharmaceutical",
+          "is_major": false,
+          "ui": "D002626"
+        },
+        {
+          "term": "Drug Delivery Systems",
+          "is_major": false,
+          "ui": "D016503"
+        },
+        {
+          "term": "Drug Liberation",
+          "is_major": false,
+          "ui": "D065546"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Mucous Membrane",
+          "is_major": false,
+          "ui": "D009092"
+        },
+        {
+          "term": "Pharmaceutical Preparations",
+          "is_major": false,
+          "ui": "D004364"
+        },
+        {
+          "term": "Solubility",
+          "is_major": false,
+          "ui": "D012995"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "In vitro release",
+          "is_major": false
+        },
+        {
+          "term": "Nasal drug delivery system",
+          "is_major": false
+        },
+        {
+          "term": "Ocular drug delivery system",
+          "is_major": false
+        },
+        {
+          "term": "Oromucosal drug delivery system",
+          "is_major": false
+        },
+        {
+          "term": "Rectal drug delivery systems",
+          "is_major": false
+        },
+        {
+          "term": "Vaginal drug delivery system",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "In vitro dissolution/release tests are an important tool in the drug product development phase as well as in its quality control and the regulatory approval process. Mucosal drug delivery systems are aimed to provide both local and systemic drug action via mucosal surfaces of the body and exhibit significant differences in formulation design, as well as in their physicochemical and release characteristics. Therefore it is not possible to devise a single test system which would be suitable for release testing of such complex dosage forms. This article is aimed to provide a comprehensive review of both compendial and noncompendial methods used for in vitro dissolution/release testing of novel mucosal drug delivery systems aimed for ocular, nasal, oromucosal, vaginal and rectal administration."
+    },
+    {
+      "rank": 3,
+      "score": 6.126728534698486,
+      "search_type": "bm25_author_keywords",
+      "vector_id": 11909000,
+      "chunk_id": 11909000,
+      "pmid": "26569228",
+      "title": "Exploring Different Strategies for Efficient Delivery of Colorectal Cancer Therapy.",
+      "year": 2015,
+      "journal": "International journal of molecular sciences",
+      "authors": [
+        "Congcong Lin",
+        "Huei Leng Helena Ng",
+        "Weisan Pan",
+        "Hubiao Chen",
+        "Ge Zhang",
+        "Zhaoxiang Bian",
+        "Aiping Lu",
+        "Zhijun Yang"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Animals",
+          "is_major": false,
+          "ui": "D000818"
+        },
+        {
+          "term": "Antineoplastic Agents",
+          "is_major": false,
+          "ui": "D000970"
+        },
+        {
+          "term": "Colorectal Neoplasms",
+          "is_major": false,
+          "ui": "D015179"
+        },
+        {
+          "term": "Drug Carriers",
+          "is_major": false,
+          "ui": "D004337"
+        },
+        {
+          "term": "Drug Delivery Systems",
+          "is_major": true,
+          "ui": "D016503"
+        },
+        {
+          "term": "Gastrointestinal Tract",
+          "is_major": false,
+          "ui": "D041981"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Molecular Targeted Therapy",
+          "is_major": false,
+          "ui": "D058990"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "chemotherapy",
+          "is_major": false
+        },
+        {
+          "term": "colon-specific drug delivery system",
+          "is_major": false
+        },
+        {
+          "term": "colorectal cancer",
+          "is_major": false
+        },
+        {
+          "term": "drug delivery system",
+          "is_major": false
+        },
+        {
+          "term": "systemic drug delivery system",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Colorectal cancer (CRC) is the third most common cancer and the fourth leading cause of cancer death in the world. Currently available chemotherapy of CRC usually delivers the drug to both normal as well as cancerous tissues, thus leading to numerous undesirable effects. Much emphasis is being laid on the development of effective drug delivery systems for achieving selective delivery of the active moiety at the anticipated site of action with minimized unwanted side effects. Researchers have employed various techniques (dependent on pH, time, pressure and/or bacteria) for targeting drugs directly to the colonic region. On the other hand, systemic drug delivery strategies to specific molecular targets (such as FGFR, EGFR, CD44, EpCAM, CA IX, PPARγ and COX-2) overexpressed by cancerous cells have also been shown to be effective. This review aims to put forth an overview of drug delivery technologies that have been, and may be developed, for the treatment of CRC."
+    },
+    {
+      "rank": 4,
+      "score": 6.101304531097412,
+      "search_type": "bm25_author_keywords",
+      "vector_id": 11178073,
+      "chunk_id": 11178073,
+      "pmid": "27519647",
+      "title": "Novel Polymeric Nanoparticles Intended for Ophthalmic Administration of Acetazolamide.",
+      "year": 2016,
+      "journal": "Journal of pharmaceutical sciences",
+      "authors": [
+        "Daniela A Quinteros",
+        "Luana M Ferreira",
+        "Scheila Rezende Schaffazick",
+        "Santiago D Palma",
+        "Daniel A Allemandi",
+        "Letícia Cruz"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Acetazolamide",
+          "is_major": false,
+          "ui": "D000086"
+        },
+        {
+          "term": "Administration, Ophthalmic",
+          "is_major": true,
+          "ui": "D060433"
+        },
+        {
+          "term": "Administration, Topical",
+          "is_major": false,
+          "ui": "D000287"
+        },
+        {
+          "term": "Animals",
+          "is_major": false,
+          "ui": "D000818"
+        },
+        {
+          "term": "Cornea",
+          "is_major": false,
+          "ui": "D003315"
+        },
+        {
+          "term": "Drug Carriers",
+          "is_major": false,
+          "ui": "D004337"
+        },
+        {
+          "term": "Intraocular Pressure",
+          "is_major": false,
+          "ui": "D007429"
+        },
+        {
+          "term": "Male",
+          "is_major": false,
+          "ui": "D008297"
+        },
+        {
+          "term": "Nanoparticles",
+          "is_major": false,
+          "ui": "D053758"
+        },
+        {
+          "term": "Organ Culture Techniques",
+          "is_major": false,
+          "ui": "D009924"
+        },
+        {
+          "term": "Particle Size",
+          "is_major": false,
+          "ui": "D010316"
+        },
+        {
+          "term": "Polymers",
+          "is_major": false,
+          "ui": "D011108"
+        },
+        {
+          "term": "Rabbits",
+          "is_major": false,
+          "ui": "D011817"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "drug delivery systems",
+          "is_major": false
+        },
+        {
+          "term": "nanocapsules",
+          "is_major": false
+        },
+        {
+          "term": "nanotechnology",
+          "is_major": false
+        },
+        {
+          "term": "ophthalmic drug delivery",
+          "is_major": false
+        },
+        {
+          "term": "polymeric drug delivery systems",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Glaucoma is characterized by increased intraocular pressure (IOP) that results in blindness if it remains untreated. Acetazolamide (AZM) is a carbonic anhydrase inhibitor, mainly used to reduce IOP in the treatment of glaucoma. However, the potential of topical treatment is limited, due to its low permeability across the ocular epithelium. An alternative to overcome this limitation is the incorporation of AZM in nanoparticulate systems, such as polymeric nanocapsules (NCs). In this way, the aim of this work was to prepare and characterize NC formulations containing AZM, using ethylcellulose (EC) and Eudragit(®) RS100 (EUD) as encapsulating polymers. The formulations showed high encapsulation efficiency. Particle size measurements showed that NCs are in the nanometric range. Comparing both groups of formulations, the NCEC proved to be smaller than those prepared with EUD. The formulations prepared with EC showed negative zeta potentials, while NCs of EUD were positively charged. For both groups of formulations, no more than 30% of drug was released in 120 min. Ex vivo and in vivo studies evidenced that the NCEC formulations were the most efficient, because an increased amount of permeated drug was observed, along with a greater IOP decrease and longer duration of the effect in normotensive rabbits."
+    },
+    {
+      "rank": 5,
+      "score": 5.915046691894531,
+      "search_type": "bm25_author_keywords",
+      "vector_id": 455990,
+      "chunk_id": 455990,
+      "pmid": "40010440",
+      "title": "Drug Delivery Systems in Glaucoma- Current Innovations and Future Perspectives.",
+      "year": 2025,
+      "journal": "Asia-Pacific journal of ophthalmology (Philadelphia, Pa.)",
+      "authors": [
+        "Shayne S Tan",
+        "Tina T Wong"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        {
+          "term": "Drug delivery system",
+          "is_major": false
+        },
+        {
+          "term": "glaucoma",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Glaucoma is the leading cause of irreversible visual loss worldwide, and as yet, there is no cure. The only evidence-based treatment to slow progression is by lowering intraocular pressure (IOP). Despite the development of new topical medications to reduce IOP, the major limitation of eyedrops lies in human and anatomical factors, namely patient compliance and poor bioavailability, making current medical glaucoma treatment ineffective. In this manuscript, we summarise the limitations of traditional topical anti-glaucoma therapy and study current drug delivery systems to lower IOP, with focus on the only two that have made FDA-approval- Durysta and iDose TR. We highlight their limitations and discuss real-world economic challenges that make it prohibitively difficult for these drug delivery systems to be more widely adopted in daily practice. In this perspective, we also introduce gene therapy as a novel therapeutic option to target downstream pathways of IOP regulation, neuroprotection of the optic nerve, and reducing mitochondrial stress to delay the progression of glaucoma. We discuss promising results of gene therapy for glaucoma treatment in in vivo animal models as well. We also explore the concept of novel nanoparticle-based drug delivery systems, which have the advantage of being highly modifiable and customisable, able to incorporate large amounts of cargo while maintaining a high transfection efficacy, and at a fraction of the cost. Lastly, we propose that nanomedicine, in conjunction with gene therapy, offers a promising solution to the aforementioned challenges of current glaucoma therapy, and can herald a new era of sustained glaucoma treatment."
+    }
+  ]
+}

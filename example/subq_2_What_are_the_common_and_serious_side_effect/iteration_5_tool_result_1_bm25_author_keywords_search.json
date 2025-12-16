@@ -1,0 +1,671 @@
+{
+  "query": "systematic review meta-analysis gastrointestinal neurological hypersensitivity metformin",
+  "search_type": "bm25_author_keywords",
+  "parameters": {
+    "k": 10
+  },
+  "results_count": 10,
+  "results": [
+    {
+      "rank": 1,
+      "score": 9.312362670898438,
+      "search_type": "bm25_author_keywords",
+      "vector_id": 8536774,
+      "chunk_id": 8536774,
+      "pmid": "30927035",
+      "title": "Metformin use and risk of fracture: a systematic review and meta-analysis of observational studies.",
+      "year": 2019,
+      "journal": "Osteoporosis international : a journal established as result of cooperation between the European Foundation for Osteoporosis and the National Osteoporosis Foundation of the USA",
+      "authors": [
+        "A Salari-Moghaddam",
+        "O Sadeghi",
+        "A H Keshteli",
+        "B Larijani",
+        "A Esmaillzadeh"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Hypoglycemic Agents",
+          "is_major": false,
+          "ui": "D007004"
+        },
+        {
+          "term": "Metformin",
+          "is_major": false,
+          "ui": "D008687"
+        },
+        {
+          "term": "Observational Studies as Topic",
+          "is_major": false,
+          "ui": "D064887"
+        },
+        {
+          "term": "Osteoporotic Fractures",
+          "is_major": false,
+          "ui": "D058866"
+        },
+        {
+          "term": "Risk Assessment",
+          "is_major": false,
+          "ui": "D018570"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "Fracture",
+          "is_major": false
+        },
+        {
+          "term": "Meta-analysis",
+          "is_major": false
+        },
+        {
+          "term": "Metformin",
+          "is_major": false
+        },
+        {
+          "term": "Systematic review",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "INTRODUCTION: No study is available summarizing earlier publications on the association between metformin use and risk of fracture. This systematic review and meta-analysis were conducted to summarize earlier findings on the association between metformin use and risk of fracture.\n\nMETHODS: We conducted a systematic search on all published articles up to October 2018 using online databases including PubMed/Medline, ISI Web of Science, and Scopus. Observational studies that considered metformin use as the exposure variable and bone fracture as the main outcome variable or as one of the outcome variables and participants included were 18 years and older were included in the systematic review. Publications in which hazard ratios (HRs), rate or risk ratios (RRs), or odds ratios (ORs) were reported as effect size were included in the meta-analysis.\n\nRESULTS: Totally, three cohort studies, one cross-sectional study, one nested case-control study, and one case-control study were included in this systematic review and meta-analysis. When seven effect sizes from six studies were combined, a significant inverse association between metformin use and risk of fracture was observed (RR 0.82; 95% CI 0.72, 0.93). No significant between-study heterogeneity was found (I\n\nCONCLUSION: We found that metformin use was inversely associated with the risk of fracture."
+    },
+    {
+      "rank": 2,
+      "score": 8.682814598083496,
+      "search_type": "bm25_author_keywords",
+      "vector_id": 10235091,
+      "chunk_id": 10235091,
+      "pmid": "28770324",
+      "title": "Impact of metformin on cardiovascular disease: a meta-analysis of randomised trials among people with type 2 diabetes.",
+      "year": 2017,
+      "journal": "Diabetologia",
+      "authors": [
+        "Simon J Griffin",
+        "James K Leaver",
+        "Greg J Irving"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Blood Glucose",
+          "is_major": false,
+          "ui": "D001786"
+        },
+        {
+          "term": "Cardiovascular Diseases",
+          "is_major": false,
+          "ui": "D002318"
+        },
+        {
+          "term": "Diabetes Mellitus, Type 2",
+          "is_major": false,
+          "ui": "D003924"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Hypoglycemic Agents",
+          "is_major": false,
+          "ui": "D007004"
+        },
+        {
+          "term": "Metformin",
+          "is_major": false,
+          "ui": "D008687"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "Cardiovascular disease",
+          "is_major": false
+        },
+        {
+          "term": "Meta-analysis",
+          "is_major": false
+        },
+        {
+          "term": "Metformin",
+          "is_major": false
+        },
+        {
+          "term": "Review",
+          "is_major": false
+        },
+        {
+          "term": "Systematic review",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "AIMS/HYPOTHESIS: Metformin is the most-prescribed oral medication to lower blood glucose worldwide. Yet previous systematic reviews have raised doubts about its effectiveness in reducing risk of cardiovascular disease, the most costly complication of type 2 diabetes. We aimed to systematically identify and pool randomised trials reporting cardiovascular outcomes in which the effect of metformin was 'isolated' through comparison to diet, lifestyle or placebo.\n\nMETHODS: We performed an electronic literature search of MEDLINE, EMBASE and the Cochrane Library. We also manually screened the reference lists of previous meta-analyses of trials of metformin identified through a MEDLINE search. We included randomised controlled trials of adults with type 2 diabetes comparing any dose and preparation of oral metformin with no intervention, placebo or a lifestyle intervention and reporting mortality or a cardiovascular outcome.\n\nRESULTS: We included ten articles reporting 13 trials (including a total of 2079 individuals with type 2 diabetes allocated to metformin and a similar number to comparison groups) of which only four compared metformin with placebo and collected data on cardiovascular outcomes. Participants were mainly white, aged ≤65 years, overweight/obese and with poor glycaemic control. Summary estimates were based on a small number of events: 416 myocardial infarctions/ischaemic heart disease events in seven studies and 111 strokes in four studies. The UK Prospective Diabetes Study (UKPDS) contributed the majority of data to the summary estimates, with weights ranging from 52.3% for myocardial infarction to 70.5% for stroke. All outcomes, with the exception of stroke, favoured metformin, with limited heterogeneity between studies, but none achieved statistical significance. Effect sizes (Mantel-Haenszel RR) were: all-cause mortality 0.96 (95% CI 0.84, 1.09); cardiovascular death 0.97 (95% CI 0.80, 1.16); myocardial infarction 0.89 (95% CI 0.75, 1.06); stroke 1.04 (95% CI 0.73, 1.48); and peripheral vascular disease 0.81 (95% CI 0.50, 1.31).\n\nCONCLUSIONS/INTERPRETATION: There remains uncertainty about whether metformin reduces risk of cardiovascular disease among patients with type 2 diabetes, for whom it is the recommended first-line drug. Although this is mainly due to absence of evidence, it is unlikely that a definitive placebo-controlled cardiovascular endpoint trial among people with diabetes will be forthcoming. Alternative approaches to reduce the uncertainty include the use of electronic health records in long-term pragmatic evaluations, inclusion of metformin in factorial trials, publication of cardiovascular outcome data from adverse event reporting in trials of metformin and a cardiovascular endpoint trial of metformin among people without diabetes."
+    },
+    {
+      "rank": 3,
+      "score": 8.506674766540527,
+      "search_type": "bm25_author_keywords",
+      "vector_id": 5164015,
+      "chunk_id": 5164015,
+      "pmid": "35002982",
+      "title": "Association of Preadmission Metformin Use and Prognosis in Patients With Sepsis and Diabetes Mellitus: A Systematic Review and Meta-Analysis.",
+      "year": 2021,
+      "journal": "Frontiers in endocrinology",
+      "authors": [
+        "Yuanzhe Li",
+        "Huayan Zhao",
+        "Yalin Guo",
+        "Yongtao Duan",
+        "Yanjun Guo",
+        "Xianfei Ding"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Diabetes Mellitus, Type 2",
+          "is_major": false,
+          "ui": "D003924"
+        },
+        {
+          "term": "Diagnostic Tests, Routine",
+          "is_major": false,
+          "ui": "D003955"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Hypoglycemic Agents",
+          "is_major": false,
+          "ui": "D007004"
+        },
+        {
+          "term": "Metformin",
+          "is_major": false,
+          "ui": "D008687"
+        },
+        {
+          "term": "Mortality",
+          "is_major": false,
+          "ui": "D009026"
+        },
+        {
+          "term": "Patient Admission",
+          "is_major": false,
+          "ui": "D010343"
+        },
+        {
+          "term": "Prognosis",
+          "is_major": false,
+          "ui": "D011379"
+        },
+        {
+          "term": "Sepsis",
+          "is_major": false,
+          "ui": "D018805"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "meta-analysis",
+          "is_major": false
+        },
+        {
+          "term": "metformin",
+          "is_major": false
+        },
+        {
+          "term": "mortality",
+          "is_major": false
+        },
+        {
+          "term": "sepsis",
+          "is_major": false
+        },
+        {
+          "term": "systematic review",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Background and Aim: A growing body of evidence suggests that preadmission metformin use could decrease the mortality of septic patients with diabetes mellitus (DM); however, the findings remain controversial. Therefore, this meta-analysis was conducted on available studies to confirm the relationship between preadmission metformin use and mortality in patients with sepsis and DM.\n\nMethods: A comprehensive search of the PubMed, Embase, and Cochrane Library databases was performed for studies published before August 8, 2021. Observational studies assessing the correlation between metformin use and mortality in patients with sepsis and DM were considered eligible studies. We used the Newcastle-Ottawa Scale (NOS) to assess the outcome quality of each included article. Furthermore, the odds ratios (ORs) and 95% confidence intervals (\n\nResults: Eleven articles including 8195 patients were analyzed in this meta-analysis. All the included articles were scored as low risk of bias. Our results showed that preadmission metformin use had a lower mortality rate (OR, 0.74; 95%\n\nConclusions: This study is the most comprehensive meta-analysis at present, which shows that preadmission metformin use may reduce mortality and not increase the levels of serum creatinine and lactic acid in adult patients with sepsis and DM. Therefore, these data suggest that the potential efficacy of metformin could be assessed in future clinical studies.\n\nSystematic Review Registration: https://inplasy.com/?s=INPLASY2021100113, identifier INPLASY2021100113."
+    },
+    {
+      "rank": 4,
+      "score": 8.386621475219727,
+      "search_type": "bm25_author_keywords",
+      "vector_id": 10223696,
+      "chunk_id": 10223696,
+      "pmid": "28756408",
+      "title": "Systematic review and meta-analysis: tools for the information age.",
+      "year": 2017,
+      "journal": "Postgraduate medical journal",
+      "authors": [
+        "Mark Weatherall"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Biomedical Research",
+          "is_major": true,
+          "ui": "D035843"
+        },
+        {
+          "term": "Evidence-Based Medicine",
+          "is_major": false,
+          "ui": "D019317"
+        },
+        {
+          "term": "Guidelines as Topic",
+          "is_major": false,
+          "ui": "D017408"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Meta-Analysis as Topic",
+          "is_major": true,
+          "ui": "D015201"
+        },
+        {
+          "term": "Review Literature as Topic",
+          "is_major": true,
+          "ui": "D012196"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "Meta-analysis",
+          "is_major": false
+        },
+        {
+          "term": "Systematic Review",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "The amount of available biomedical information is vast and growing. Natural limitations of the way clinicians and researchers approach this treasure trove of information comprise difficulties locating the information, and once located, cognitive biases may lead to inappropriate use of the information. Systematic reviews and meta-analyses represent important tools in the information age to improve knowledge and action. Systematic reviews represent a census approach to identifying literature to avoid non-response bias. They are a necessary prelude to producing combined quantitative summaries of associations or treatment effects. Meta-analysis comprises the arithmetical techniques for producing combined summaries from individual study reports. Careful, thoughtful and rigorous use of these tools is likely to enhance knowledge and action. Use of standard guidelines, such as the Preferred Reporting Items for Systematic Reviews and Meta-Analyses guidelines, or embedding these activities within collaborative groups such as the Cochrane Collaboration, are likely to lead to more useful systematic review and meta-analysis reporting."
+    },
+    {
+      "rank": 5,
+      "score": 8.386621475219727,
+      "search_type": "bm25_author_keywords",
+      "vector_id": 10681513,
+      "chunk_id": 10681513,
+      "pmid": "28193851",
+      "title": "Individual patient data meta-analysis of combined treatments versus psychotherapy (with or without pill placebo), pharmacotherapy or pill placebo for adult depression: a protocol.",
+      "year": 2017,
+      "journal": "BMJ open",
+      "authors": [
+        "Erica Weitz",
+        "Annet Kleiboer",
+        "Annemieke van Straten",
+        "Steven D Hollon",
+        "Pim Cuijpers"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Adult",
+          "is_major": false,
+          "ui": "D000328"
+        },
+        {
+          "term": "Antidepressive Agents",
+          "is_major": false,
+          "ui": "D000928"
+        },
+        {
+          "term": "Combined Modality Therapy",
+          "is_major": false,
+          "ui": "D003131"
+        },
+        {
+          "term": "Databases, Bibliographic",
+          "is_major": false,
+          "ui": "D016206"
+        },
+        {
+          "term": "Depression",
+          "is_major": false,
+          "ui": "D003863"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Meta-Analysis as Topic",
+          "is_major": false,
+          "ui": "D015201"
+        },
+        {
+          "term": "Psychotherapy",
+          "is_major": true,
+          "ui": "D011613"
+        },
+        {
+          "term": "Randomized Controlled Trials as Topic",
+          "is_major": false,
+          "ui": "D016032"
+        },
+        {
+          "term": "Research Design",
+          "is_major": true,
+          "ui": "D012107"
+        },
+        {
+          "term": "Treatment Outcome",
+          "is_major": false,
+          "ui": "D016896"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "Systematic Review",
+          "is_major": false
+        },
+        {
+          "term": "meta-analysis",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "INTRODUCTION: There are many proven treatments (psychotherapy, pharmacotherapy or their combination) for the treatment of depression. Although there is growing evidence for the effectiveness of combination treatment (psychotherapy + pharmacotherapy) over pharmacotherapy alone, psychotherapy alone or psychotherapy plus pill placebo, for depression, little is known about which specific groups of patients may respond best to combined treatment versus monotherapy. Conventional meta-analyses techniques have limitations when tasked with examining whether specific individual characteristics moderate the effect of treatment on depression. Therefore, this protocol outlines an individual patient data (IPD) meta-analysis to explore which patients, with which clinical characteristics, have better outcomes in combined treatment compared with psychotherapy (alone or with pill placebo), pharmacotherapy and pill placebo.\n\nMETHODS AND ANALYSIS: Study searches are completed using an established database of randomised controlled trials (RCTs) on the psychological treatment of adult depression that has previously been reported. Searches were conducted in PubMed, PsycInfo, Embase and the Cochrane Central Register of Controlled Trials. RCTs comparing combination treatment (psychotherapy + pharmacotherapy) with psychotherapy (with or without pill placebo), pharmacotherapy or pill placebo for the treatment of adult depression will be included. Study authors of eligible trials will be contacted and asked to contribute IPD. Conventional meta-analysis techniques will be used to examine differences between studies that have contributed data and those that did not. Then, IPD will be harmonised and analysis using multilevel regression will be conducted to examine effect moderators of treatment outcomes.\n\nDISSEMINATION: Study results outlined above will be published in peer-reviewed journals. Study results will contribute to better understanding whether certain patients respond best to combined treatment or other depression treatments and provide new information on moderators of treatment outcome that can be used by patients, clinicians and researchers.\n\nTRIAL REGISTRATION NUMBER: CRD42016039028."
+    },
+    {
+      "rank": 6,
+      "score": 8.386621475219727,
+      "search_type": "bm25_author_keywords",
+      "vector_id": 8867073,
+      "chunk_id": 8867073,
+      "pmid": "30473037",
+      "title": "Systematic reviews and meta-analytic techniques.",
+      "year": 2018,
+      "journal": "Seminars in pediatric surgery",
+      "authors": [
+        "Robert Baird"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Child",
+          "is_major": false,
+          "ui": "D002648"
+        },
+        {
+          "term": "Evidence-Based Medicine",
+          "is_major": false,
+          "ui": "D019317"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Meta-Analysis as Topic",
+          "is_major": true,
+          "ui": "D015201"
+        },
+        {
+          "term": "Pediatrics",
+          "is_major": false,
+          "ui": "D010372"
+        },
+        {
+          "term": "Specialties, Surgical",
+          "is_major": false,
+          "ui": "D013043"
+        },
+        {
+          "term": "Systematic Reviews as Topic",
+          "is_major": true,
+          "ui": "D000078202"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "Meta-analysis",
+          "is_major": false
+        },
+        {
+          "term": "Systematic review",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Systematic reviews (SRs) are a form of research methodology that addresses a specific research question by collecting, appraising and summarising all empirical evidence that fits pre-specified eligibility criteria. Systematic reviews have grown exponentially since their emergence in the late 1970 s as evidence-based medicine permeated medical culture. With several key advantages and limitations inherent to their design, all health care providers should be familiar with their basic structure, how to critically appraise them, and how to incorporate their findings into clinical practice. This review will contextualise systematic reviews within the broader framework of other review types, and outline the steps in conducting or appraising a systematic review. This includes the framing of an appropriate question, the search strategy, appraisal of included studies, as well as synthesis and analysis of the acquired data. A focus on SRs in the context of pediatric surgical practice will be emphasized. A concise primer on meta-analytic techniques is also provided, with resources highlighted for further reading."
+    },
+    {
+      "rank": 7,
+      "score": 8.386621475219727,
+      "search_type": "bm25_author_keywords",
+      "vector_id": 11762490,
+      "chunk_id": 11762490,
+      "pmid": "26708077",
+      "title": "The Herd Mentality: Strength in Numbers, and Combining Studies.",
+      "year": null,
+      "journal": "The Journal of foot and ankle surgery : official publication of the American College of Foot and Ankle Surgeons",
+      "authors": [
+        "Daniel C Jupiter"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Evidence-Based Medicine",
+          "is_major": false,
+          "ui": "D019317"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Orthopedics",
+          "is_major": false,
+          "ui": "D009985"
+        },
+        {
+          "term": "Periodicals as Topic",
+          "is_major": true,
+          "ui": "D010506"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "meta-analysis",
+          "is_major": false
+        },
+        {
+          "term": "systematic review",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Although clinicians may have the best of intentions in terms of keeping up with the medical literature, the overwhelming volume of published studies and the press of clinical responsibilities can make this difficult. A medical version of the Reader's Digest(©) would thus be a valuable asset. This is something of the role that systematic reviews and meta-analyses play: synthesis and summary of the information in the literature."
+    },
+    {
+      "rank": 8,
+      "score": 8.386621475219727,
+      "search_type": "bm25_author_keywords",
+      "vector_id": 3769662,
+      "chunk_id": 3769662,
+      "pmid": "36639571",
+      "title": "Missing the forest-plot for the trees.",
+      "year": 2023,
+      "journal": "Diabetologia",
+      "authors": [
+        "Deirdre K Tobias"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Biomedical Research",
+          "is_major": true,
+          "ui": "D035843"
+        },
+        {
+          "term": "Systematic Reviews as Topic",
+          "is_major": false,
+          "ui": "D000078202"
+        },
+        {
+          "term": "Meta-Analysis as Topic",
+          "is_major": false,
+          "ui": "D015201"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "Meta-analysis",
+          "is_major": false
+        },
+        {
+          "term": "Systematic review",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Systematic reviews and meta-analyses are methods increasingly used in biomedical research since their introduction in the 1970s. They serve to replace other non-systematic and cherry-picked narrative reviews, which are highly variable in their approach, structure and content. Their increase in popularity parallels the increase in overall scientific output, and when properly conducted, systematic reviews can contribute highly impactful summaries of a fast-growing evidence base. Meta-analyses offer statistical summaries, called forest plots, which similarly provide a powerful synopsis unachievable by individual studies. Thus, it is not difficult to imagine why systematic reviews are published more often. Should scientists be concerned by the accelerated output of research, from systematic reviews or other? If quantity comes at the expense of quality, then yes, of course; but should important manuscripts be rationed out otherwise? A new scientific technique can seem scary at first, especially to the researcher who is unfamiliar with its application or uncertain of its validity. In that case, we should become familiar with new and popular methods, and understand their strengths and limitations. There is a rightful place for systematic reviews and meta-analyses among respectable research tools. Importantly, however, despite standard operating procedures and best practices, the quality of systematic reviews today is highly variable, warranting serious concerns for quantity exceeding quality. Therefore, the appropriate response should be to instil researchers with an appreciation for the complexity of conducting and interpreting a systematic review and meta-analysis, to create more knowledgeable authors, reviewers and editors, who collectively will improve, rather than dismiss, these important scientific contributions."
+    },
+    {
+      "rank": 9,
+      "score": 8.386621475219727,
+      "search_type": "bm25_author_keywords",
+      "vector_id": 10103918,
+      "chunk_id": 10103918,
+      "pmid": "28917594",
+      "title": "Key Steps in Conducting Systematic Reviews for Underpinning Clinical Practice Guidelines: Methodology of the European Association of Urology.",
+      "year": 2018,
+      "journal": "European urology",
+      "authors": [
+        "Thomas Knoll",
+        "Muhammad Imran Omar",
+        "Steven Maclennan",
+        "Virginia Hernández",
+        "Steven Canfield",
+        "Yuhong Yuan",
+        "Max Bruins",
+        "Lorenzo Marconi",
+        "Hein Van Poppel",
+        "James N'Dow",
+        "Richard Sylvester"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Europe",
+          "is_major": false,
+          "ui": "D005060"
+        },
+        {
+          "term": "Practice Guidelines as Topic",
+          "is_major": true,
+          "ui": "D017410"
+        },
+        {
+          "term": "Research Design",
+          "is_major": false,
+          "ui": "D012107"
+        },
+        {
+          "term": "Societies, Medical",
+          "is_major": false,
+          "ui": "D012955"
+        },
+        {
+          "term": "Systematic Reviews as Topic",
+          "is_major": true,
+          "ui": "D000078202"
+        },
+        {
+          "term": "Urology",
+          "is_major": false,
+          "ui": "D014572"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "Meta-analysis",
+          "is_major": false
+        },
+        {
+          "term": "Systematic review",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "CONTEXT: The findings of systematic reviews (SRs) and meta-analyses (MAs) are used for clinical decision making. The European Association of Urology has committed increasing resources into the development of high quality clinical guidelines based on such SRs and MAs.\n\nOBJECTIVE: In this paper, we have summarised the process of conducting SRs for underpinning clinical practice guidelines under the auspices of the European Association of Urology Guidelines Office.\n\nEVIDENCE ACQUISITION: The process involves explicit methods and the findings should be reproducible. When conducting a SR, the essential first step is to formulate a clear and answerable research question. An extensive literature search lays the foundation for evidence synthesis. Data are extracted independently by two reviewers and any disagreements are resolved by discussion or arbitration by a third reviewer.\n\nEVIDENCE SYNTHESIS: In SRs, data for particular outcomes in individual randomised controlled trials may be combined statistically in a meta-analysis to increase power when the studies are similar enough. Biases in studies included in a SR/MA can lead to either an over estimation or an under estimation of true intervention effect size, resulting in heterogeneity in outcome between studies. A number of different tools are available such as Cochrane Risk of Bias assessment tool for randomised controlled trials. In circumstances where there is too much heterogeneity, or when a review has included nonrandomised comparative studies, it is more appropriate to conduct a narrative synthesis. The GRADE tool for assessing quality of evidence strives to be a structured and transparent system, which can be applied to all evidence, regardless of quality. A SR not only identifies, evaluates, and summarises the best available evidence, but also the gaps to be targeted by future studies.\n\nCONCLUSIONS: SRs and MAs are integral in developing sound clinical practice guidelines and recommendations.\n\nPATIENT SUMMARY: Clinical practice guidelines should be evidence based, and systematic reviews and meta-analyses are essential in their production. We have discussed the key steps of conducting systematic reviews and meta-analyses in this paper."
+    },
+    {
+      "rank": 10,
+      "score": 8.386621475219727,
+      "search_type": "bm25_author_keywords",
+      "vector_id": 7264069,
+      "chunk_id": 7264069,
+      "pmid": "32450783",
+      "title": "Methodological Quality of Systematic Reviews and Meta-analyses Published in High-Impact Otolaryngology Journals.",
+      "year": 2020,
+      "journal": "Otolaryngology--head and neck surgery : official journal of American Academy of Otolaryngology-Head and Neck Surgery",
+      "authors": [
+        "Rodrigo Martinez-Monedero",
+        "Arman Danielian",
+        "Varun Angajala",
+        "Jennifer E Dinalo",
+        "Eric J Kezirian"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Journal Impact Factor",
+          "is_major": false,
+          "ui": "D055811"
+        },
+        {
+          "term": "Meta-Analysis as Topic",
+          "is_major": true,
+          "ui": "D015201"
+        },
+        {
+          "term": "Otolaryngology",
+          "is_major": true,
+          "ui": "D010036"
+        },
+        {
+          "term": "Periodicals as Topic",
+          "is_major": false,
+          "ui": "D010506"
+        },
+        {
+          "term": "Publication Bias",
+          "is_major": false,
+          "ui": "D017594"
+        },
+        {
+          "term": "Systematic Reviews as Topic",
+          "is_major": true,
+          "ui": "D000078202"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "meta-analysis",
+          "is_major": false
+        },
+        {
+          "term": "systematic review",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "OBJECTIVE: To assess the methodological quality of intervention-focused systematic reviews (SRs) and meta-analyses (MAs) published in high-impact otolaryngology journals.\n\nDATA SOURCES: Ovid Medline, Embase, and Cochrane Library.\n\nREVIEW METHODS: A comprehensive search was performed for SR and MA citations from 2012 to 2017 in the 10 highest impact factor otolaryngology journals. Abstracts were screened to identify published manuscripts in which the authors indicated clearly that they were performing an SR or MA. Applying a modified typology of reviews, 4 reviewers characterized the review type as SR, MA, or another review type. A simplified version of the AMSTAR 2 (A MeaSurement Tool to Assess systematic Reviews 2) tool was used to assess the reporting and methodological quality of the SRs and MAs that were focused on interventions.\n\nRESULTS: Search and abstract screening generated 499 manuscripts that identified themselves as performing an SR or MA. A substantial number (85/499, 17%) were review types other than SRs or MAs, including 34 (7%) that were literature reviews. In total, 236 SRs and MAs focused on interventions. Over 50% of these SRs and MAs had weaknesses in at least 3 of the 16 items in the AMSTAR 2, and over 40% had weaknesses in at least 2 of the 7 critical domains. Ninety-nine percent of SRs and MAs provided critically low confidence in the results of the reviews.\n\nCONCLUSION: Intervention-focused SRs and MAs published in high-impact otolaryngology journals have important methodological limitations that diminish confidence in the results of these reviews."
+    }
+  ]
+}

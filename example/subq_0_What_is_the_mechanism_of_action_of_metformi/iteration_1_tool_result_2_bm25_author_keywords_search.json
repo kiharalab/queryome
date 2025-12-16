@@ -1,0 +1,665 @@
+{
+  "query": "metformin mechanism of action",
+  "search_type": "bm25_author_keywords",
+  "parameters": {
+    "k": 10
+  },
+  "results_count": 10,
+  "results": [
+    {
+      "rank": 1,
+      "score": 8.987873077392578,
+      "search_type": "bm25_author_keywords",
+      "vector_id": 4931492,
+      "chunk_id": 4931492,
+      "pmid": "35278303",
+      "title": "[A multidirectional effect of metformin].",
+      "year": 2022,
+      "journal": "Polski merkuriusz lekarski : organ Polskiego Towarzystwa Lekarskiego",
+      "authors": [
+        "Luiza Żyrek",
+        "Małgorzata Latocha"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Aging",
+          "is_major": false,
+          "ui": "D000375"
+        },
+        {
+          "term": "Animals",
+          "is_major": false,
+          "ui": "D000818"
+        },
+        {
+          "term": "Diabetes Mellitus",
+          "is_major": true,
+          "ui": "D003920"
+        },
+        {
+          "term": "Female",
+          "is_major": false,
+          "ui": "D005260"
+        },
+        {
+          "term": "Hypoglycemic Agents",
+          "is_major": false,
+          "ui": "D007004"
+        },
+        {
+          "term": "Metformin",
+          "is_major": true,
+          "ui": "D008687"
+        },
+        {
+          "term": "Neoplasms",
+          "is_major": true,
+          "ui": "D009369"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "mechanism of action",
+          "is_major": false
+        },
+        {
+          "term": "metformin",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Diabetes as chronic civilization disease, very often occurs together with health disorders. One of the basic pharmaceuticals commonly used in her therapy is metformin. Many other positive effects, not related to diabetes, have been observed in tatients treated with metformin for a long time. These are: positive changes in diagnostiic parameters, protection against cancer development, less frequent occurrence of other pathologies and diseases, increased sensitivity to selected drugs (e.g. cytostatics), delayed aging processes of organism. In addition to the molecular changes resulting in a hypoglycemic effect, the most common modifications of gene expression have been described, indicated as the basis for the anti-aging, anti-atherosclerotic and anticancer effects of this drug and its effect on melanogenesis or the nervous system. The results presented in the study are very promising, but most of them relate to experiments carried out in cell cultures or animals. The possibility of obtaining similar effects in humans requires much more research."
+    },
+    {
+      "rank": 2,
+      "score": 7.1072211265563965,
+      "search_type": "bm25_author_keywords",
+      "vector_id": 4694191,
+      "chunk_id": 4694191,
+      "pmid": "35545330",
+      "title": "Role of metformin in the diagnosis, prevention, and treatment of hepatocellular carcinoma.",
+      "year": 2022,
+      "journal": "Zhong nan da xue xue bao. Yi xue ban = Journal of Central South University. Medical sciences",
+      "authors": [
+        "Shize Xiong",
+        "Wei Liu"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Carcinoma, Hepatocellular",
+          "is_major": true,
+          "ui": "D006528"
+        },
+        {
+          "term": "Cell Line, Tumor",
+          "is_major": false,
+          "ui": "D045744"
+        },
+        {
+          "term": "Cell Proliferation",
+          "is_major": false,
+          "ui": "D049109"
+        },
+        {
+          "term": "Diabetes Mellitus, Type 2",
+          "is_major": true,
+          "ui": "D003924"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Liver Neoplasms",
+          "is_major": true,
+          "ui": "D008113"
+        },
+        {
+          "term": "Metformin",
+          "is_major": true,
+          "ui": "D008687"
+        },
+        {
+          "term": "Quality of Life",
+          "is_major": false,
+          "ui": "D011788"
+        },
+        {
+          "term": "Tumor Microenvironment",
+          "is_major": false,
+          "ui": "D059016"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "hepatocellular carcinoma",
+          "is_major": false
+        },
+        {
+          "term": "mechanism of action",
+          "is_major": false
+        },
+        {
+          "term": "metformin",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Hepatocellular carcinoma is one of the most common malignant tumors in the world. Although there are many options for the treatment of hepatocellular carcinoma, such as surgical resection, interventional therapy, radiotherapy, chemotherapy, targeted therapy and liver transplantation, the poor therapeutic effect seriously reduces the quality of life for patients and also increases the social and economic burden. Metformin is originally used as the first-line drug for type 2 diabetes, but it has been found to play a certain effect in the prevention and treatment of malignant tumor. The potential roles of metformin against hepatocellular carcinoma, such as regulation of the microenvironment, proliferation signal pathway, metabolism, invasion and metastasis, apoptosis, autophagy, and epigenetics of hepatoma cells. It provides a new choice for the prevention and treatment of hepatocellular carcinoma."
+    },
+    {
+      "rank": 3,
+      "score": 6.434077262878418,
+      "search_type": "bm25_author_keywords",
+      "vector_id": 8027946,
+      "chunk_id": 8027946,
+      "pmid": "31534778",
+      "title": "Anticancer activity of metformin: a systematic review of the literature.",
+      "year": 2019,
+      "journal": "Future science OA",
+      "authors": [
+        "Mohamad Aljofan",
+        "Dieter Riethmacher"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        {
+          "term": "AMPK",
+          "is_major": false
+        },
+        {
+          "term": "anticancer",
+          "is_major": false
+        },
+        {
+          "term": "cancer",
+          "is_major": false
+        },
+        {
+          "term": "mechanism of action",
+          "is_major": false
+        },
+        {
+          "term": "metformin",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "BACKGROUND: The anticancer activity of metformin has been confirmed against several cancer types\n\nMETHOD: A search through different databases was conducted, including Medline and EMBASE.\n\nRESULTS: A total of 96 articles were identified of which 56 were removed for duplication and 24 were excluded after reviewing the title and abstract. A total of 12 research articles were included that describe different antiproliferative mechanisms that may contribute to the antineoplastic effects of metformin.\n\nCONCLUSION: This analysis discussed the potential anticancer activity of metformin and highlighted the importance of AMPK as a potential target for anticancer therapy."
+    },
+    {
+      "rank": 4,
+      "score": 5.877412796020508,
+      "search_type": "bm25_author_keywords",
+      "vector_id": 6142735,
+      "chunk_id": 6142735,
+      "pmid": "33849540",
+      "title": "How metformin affects various malignancies by means of microRNAs: a brief review.",
+      "year": 2021,
+      "journal": "Cancer cell international",
+      "authors": [
+        "Nahid Alimoradi",
+        "Negar Firouzabadi",
+        "Reihaneh Fatehi"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        {
+          "term": "AMPK",
+          "is_major": false
+        },
+        {
+          "term": "Biomarker",
+          "is_major": false
+        },
+        {
+          "term": "Cancer",
+          "is_major": false
+        },
+        {
+          "term": "Mechanism of action",
+          "is_major": false
+        },
+        {
+          "term": "Metformin",
+          "is_major": false
+        },
+        {
+          "term": "MicroRNAs",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Metformin known as the first-line orally prescribed drug for lowering blood glucose in type II diabetes (T2DM) has recently found various therapeutic applications including in cancer. Metformin has been studied for its influences in prevention and treatment of cancer through multiple mechanisms such as microRNA (miR) regulation. Alteration in the expression of miRs by metformin may play an important role in the treatment of various cancers. MiRs are single-stranded RNAs that are involved in gene regulation. By binding to the 3'UTR of target mRNAs, miRs influence protein levels. Irregularities in the expression of miRs that control the expression of oncogenes and tumor suppressor genes are associated with the onset and progression of cancer. Metformin may possess an effect on tumor prevention and progression by modifying miR expression and downstream pathways. Here, we summarize the effect of metformin on different types of cancer by regulating the expression of various miRs and the associated downstream molecules."
+    },
+    {
+      "rank": 5,
+      "score": 5.877412796020508,
+      "search_type": "bm25_author_keywords",
+      "vector_id": 5705957,
+      "chunk_id": 5705957,
+      "pmid": "34367059",
+      "title": "Metformin and Covid-19: Focused Review of Mechanisms and Current Literature Suggesting Benefit.",
+      "year": 2021,
+      "journal": "Frontiers in endocrinology",
+      "authors": [
+        "Sherehan Ibrahim",
+        "Jamie R Lowe",
+        "Carolyn T Bramante",
+        "Surbhi Shah",
+        "Nichole R Klatt",
+        "Nancy Sherwood",
+        "Louis Aronne",
+        "Michael Puskarich",
+        "Leonardo Tamariz",
+        "Ana Palacio",
+        "Eric Bomberg",
+        "Michael Usher",
+        "Samantha King",
+        "Brad Benson",
+        "Deneen Vojta",
+        "Chris Tignanelli",
+        "Nicholas Ingraham"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Hypoglycemic Agents",
+          "is_major": false,
+          "ui": "D007004"
+        },
+        {
+          "term": "Metformin",
+          "is_major": false,
+          "ui": "D008687"
+        },
+        {
+          "term": "Treatment Outcome",
+          "is_major": false,
+          "ui": "D016896"
+        },
+        {
+          "term": "COVID-19 Drug Treatment",
+          "is_major": true,
+          "ui": "D000093485"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "COVID-19",
+          "is_major": false
+        },
+        {
+          "term": "mechanisms of action",
+          "is_major": false
+        },
+        {
+          "term": "metformin",
+          "is_major": false
+        },
+        {
+          "term": "microbiome",
+          "is_major": false
+        },
+        {
+          "term": "obesity",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Metformin is the first-line medication for type 2 diabetes, but it also has a long history of improved outcomes in infectious diseases, such as influenza, hepatitis C, and"
+    },
+    {
+      "rank": 6,
+      "score": 5.475491523742676,
+      "search_type": "bm25_author_keywords",
+      "vector_id": 7556291,
+      "chunk_id": 7556291,
+      "pmid": "32133417",
+      "title": "Annexin A1 accounts for an anti-inflammatory binding target of sesamin metabolites.",
+      "year": 2020,
+      "journal": "NPJ science of food",
+      "authors": [
+        "Yasuaki Kabe",
+        "Daisuke Takemoto",
+        "Ayaka Kanai",
+        "Miwa Hirai",
+        "Yoshiko Ono",
+        "Sota Akazawa",
+        "Manabu Horikawa",
+        "Yoshinori Kitagawa",
+        "Hiroshi Handa",
+        "Tomohiro Rogi",
+        "Hiroshi Shibata",
+        "Makoto Suematsu"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        {
+          "term": "Mechanism of action",
+          "is_major": false
+        },
+        {
+          "term": "Proteins",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Sesamin [(7α,7'α,8α,8'α)-3,4:3',4'-bis(methylenedioxy)-7,9':7',9-diepoxylignane] is a major lignan in sesame seeds. Sesamin is converted to the catechol metabolite, SC1 [(7α,7'α,8α,8'α)-3',4'-methylenedioxy-7,9':7',9-diepoxylignane-3,4-diol] with anti-inflammatory effects after oral administration. However, its molecular target remains unknown. Analysis using high-performance affinity nanobeads led to the identification of annexin A1 (ANX A1) as an SC1-binding protein. SC1 was found to bind to the annexin repeat 3 region of ANX A1 with a high-affinity constant (Kd = 2.77 μmol L"
+    },
+    {
+      "rank": 7,
+      "score": 5.409400939941406,
+      "search_type": "bm25_author_keywords",
+      "vector_id": 4773874,
+      "chunk_id": 4773874,
+      "pmid": "35455439",
+      "title": "A Clinical Perspective of the Multifaceted Mechanism of Metformin in Diabetes, Infections, Cognitive Dysfunction, and Cancer.",
+      "year": 2022,
+      "journal": "Pharmaceuticals (Basel, Switzerland)",
+      "authors": [
+        "Elaine Chow",
+        "Aimin Yang",
+        "Colin H L Chung",
+        "Juliana C N Chan"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        {
+          "term": "anticancer action",
+          "is_major": false
+        },
+        {
+          "term": "cardioprotection",
+          "is_major": false
+        },
+        {
+          "term": "cognition",
+          "is_major": false
+        },
+        {
+          "term": "diabetes",
+          "is_major": false
+        },
+        {
+          "term": "infections",
+          "is_major": false
+        },
+        {
+          "term": "mechanisms",
+          "is_major": false
+        },
+        {
+          "term": "metformin",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "In type 2 diabetes, ecological and lifecourse factors may interact with the host microbiota to influence expression of his/her genomes causing perturbation of interconnecting biological pathways with diverse clinical course. Metformin is a plant-based or plant-derived medicinal product used for the treatment of type 2 diabetes for over 60 years and is an essential drug listed by the World Health Organization. By reducing mitochondrial oxidative phosphorylation and adenosine triphosphate (ATP) production, metformin increased AMP (adenosine monophosphate)-activated protein kinase (AMPK) activity and altered cellular redox state with reduced glucagon activity, endogenous glucose production, lipogenesis, and protein synthesis. Metformin modulated immune response by directly reducing neutrophil to lymphocyte ratio and improving the phagocytic function of immune cells. By increasing the relative abundance of mucin-producing and short-chain-fatty-acid-producing gut microbes, metformin further improved the host inflammatory and metabolic milieu. Experimentally, metformin promoted apoptosis and reduced proliferation of cancer cells by reducing their oxygen consumption and modulating the microenvironment. Both clinical and mechanistic studies support the pluripotent effects of metformin on reducing cardiovascular-renal events, infection, cancer, cognitive dysfunction, and all-cause death in type 2 diabetes, making this low-cost medication a fundamental therapy for individualization of other glucose-lowering drugs in type 2 diabetes. Further research into the effects of metformin on cognitive function, infection and cancer, especially in people without diabetes, will provide new insights into the therapeutic value of metformin in our pursuit of prevention and treatment of ageing-related as well as acute and chronic diseases beyond diabetes."
+    },
+    {
+      "rank": 8,
+      "score": 5.409400939941406,
+      "search_type": "bm25_author_keywords",
+      "vector_id": 4772665,
+      "chunk_id": 4772665,
+      "pmid": "35454163",
+      "title": "Metformin in Differentiated Thyroid Cancer: Molecular Pathways and Its Clinical Implications.",
+      "year": 2022,
+      "journal": "Biomolecules",
+      "authors": [
+        "Manuel García-Sáenz",
+        "Miry Lobaton-Ginsberg",
+        "Aldo Ferreira-Hermosillo"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Adenocarcinoma",
+          "is_major": true,
+          "ui": "D000230"
+        },
+        {
+          "term": "Cell Cycle",
+          "is_major": false,
+          "ui": "D002453"
+        },
+        {
+          "term": "Cell Proliferation",
+          "is_major": false,
+          "ui": "D049109"
+        },
+        {
+          "term": "Diabetes Mellitus, Type 2",
+          "is_major": true,
+          "ui": "D003924"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Insulin Resistance",
+          "is_major": true,
+          "ui": "D007333"
+        },
+        {
+          "term": "Metformin",
+          "is_major": true,
+          "ui": "D008687"
+        },
+        {
+          "term": "Thyroid Neoplasms",
+          "is_major": true,
+          "ui": "D013964"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "clinical pathways",
+          "is_major": false
+        },
+        {
+          "term": "metformin",
+          "is_major": false
+        },
+        {
+          "term": "pharmacological mechanisms of action",
+          "is_major": false
+        },
+        {
+          "term": "thyroid cancer",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Metformin is a synthetic biguanide that improves insulin sensitivity and reduces hepatic gluconeogenesis. Aside being the first-line therapy for Type 2 Diabetes (T2D), many pleiotropic effects have been discovered in recent years, such as its capacity to reduce cancer risk and tumorigenesis. Although widely studied, the effect of metformin on thyroid cancer remains controversial. Potential mechanisms for its growth inhibitory effects have been elucidated in various preclinical studies that involved pathways related to adenosine mono-phosphate-activated protein kinase (AMPK), mammalian target of rapamycin (mTOR), mitochondrial glycerophosphate dehydrogenase (mGPDH), and the nuclear factor κB (NF-κB). Hyperinsulinemia increases cell glucose uptake and oxidative stress, and promotes thyroid cell growth, leading to hyperproliferation, carcinogenesis, and the development of malignant tumors. Furthermore, it has also been related to thyroid nodules size in nodular disease, as well as tumoral size in patients with thyroid cancer. Several clinical studies concluded that metformin might have an important role as an adjuvant therapy to reduce the growth of benign and malignant thyroid neoplasms. This suggests that metformin might be useful for patients with differentiated or poorly differentiated thyroid cancer and metabolic diseases such as insulin resistance or diabetes."
+    },
+    {
+      "rank": 9,
+      "score": 5.409400939941406,
+      "search_type": "bm25_author_keywords",
+      "vector_id": 8833325,
+      "chunk_id": 8833325,
+      "pmid": "30554148",
+      "title": "Metformin Affects Heme Function as a Possible Mechanism of Action.",
+      "year": 2019,
+      "journal": "G3 (Bethesda, Md.)",
+      "authors": [
+        "Xiyan Li",
+        "Xin Wang",
+        "Michael P Snyder"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Cells, Cultured",
+          "is_major": false,
+          "ui": "D002478"
+        },
+        {
+          "term": "Erythrocytes",
+          "is_major": false,
+          "ui": "D004912"
+        },
+        {
+          "term": "Heme",
+          "is_major": false,
+          "ui": "D006418"
+        },
+        {
+          "term": "Hep G2 Cells",
+          "is_major": false,
+          "ui": "D056945"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Hypoglycemic Agents",
+          "is_major": false,
+          "ui": "D007004"
+        },
+        {
+          "term": "Metformin",
+          "is_major": false,
+          "ui": "D008687"
+        },
+        {
+          "term": "Oxidation-Reduction",
+          "is_major": false,
+          "ui": "D010084"
+        },
+        {
+          "term": "Oxyhemoglobins",
+          "is_major": false,
+          "ui": "D010108"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "diabetes",
+          "is_major": false
+        },
+        {
+          "term": "heme",
+          "is_major": false
+        },
+        {
+          "term": "hemoprotein",
+          "is_major": false
+        },
+        {
+          "term": "mechanism of action",
+          "is_major": false
+        },
+        {
+          "term": "metformin",
+          "is_major": false
+        },
+        {
+          "term": "porphyrin",
+          "is_major": false
+        },
+        {
+          "term": "redox",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Metformin elicits pleiotropic effects that are beneficial for treating diabetes, as well as particular cancers and aging. In spite of its importance, a convincing and unifying mechanism to explain how metformin operates is lacking. Here we describe investigations into the mechanism of metformin action through heme and hemoprotein(s). Metformin suppresses heme production by 50% in yeast, and this suppression requires mitochondria function, which is necessary for heme synthesis. At high concentrations comparable to those in the clinic, metformin also suppresses heme production in human erythrocytes, erythropoietic cells and hepatocytes by 30-50%; the heme-targeting drug artemisinin operates at a greater potency. Significantly, metformin prevents oxidation of heme in three protein scaffolds, cytochrome c, myoglobin and hemoglobin, with Kd values < 3 mM suggesting a dual oxidation and reduction role in the regulation of heme redox transition. Since heme- and porphyrin-like groups operate in diverse enzymes that control important metabolic processes, we suggest that metformin acts, at least in part, through stabilizing appropriate redox states in heme and other porphyrin-containing groups to control cellular metabolism."
+    },
+    {
+      "rank": 10,
+      "score": 5.409400939941406,
+      "search_type": "bm25_author_keywords",
+      "vector_id": 5806535,
+      "chunk_id": 5806535,
+      "pmid": "34243629",
+      "title": "Metformin and insulin-resistant related diseases: Emphasis on the role of microRNAs.",
+      "year": 2021,
+      "journal": "Biomedicine & pharmacotherapy = Biomedecine & pharmacotherapie",
+      "authors": [
+        "Nahid Alimoradi",
+        "Negar Firouzabadi",
+        "Reihaneh Fatehi"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Animals",
+          "is_major": false,
+          "ui": "D000818"
+        },
+        {
+          "term": "Diabetes Mellitus, Type 2",
+          "is_major": false,
+          "ui": "D003924"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Hypoglycemic Agents",
+          "is_major": false,
+          "ui": "D007004"
+        },
+        {
+          "term": "Insulin",
+          "is_major": false,
+          "ui": "D007328"
+        },
+        {
+          "term": "Insulin Resistance",
+          "is_major": false,
+          "ui": "D007333"
+        },
+        {
+          "term": "Metformin",
+          "is_major": false,
+          "ui": "D008687"
+        },
+        {
+          "term": "MicroRNAs",
+          "is_major": false,
+          "ui": "D035683"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "AMPK",
+          "is_major": false
+        },
+        {
+          "term": "Biomarker",
+          "is_major": false
+        },
+        {
+          "term": "Insulin resistance",
+          "is_major": false
+        },
+        {
+          "term": "Mechanism of action",
+          "is_major": false
+        },
+        {
+          "term": "Metformin",
+          "is_major": false
+        },
+        {
+          "term": "MicroRNAs",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Metformin is one of the most prescribed drugs in type II diabetes (T2DM) which has recently found new applications in the prevention and treatment of various illnesses, from metabolic disorders to cardiovascular and age-related diseases. Metformin improves insulin resistance (IR) by modulating metabolic mechanisms and mitochondrial biogenesis. Alternation of microRNAs (miRs) in the treatment of IR-related illnesses has been observed by metformin therapy. MiRs are small non-coding RNAs that play important roles in RNA silencing, targeting the 3'untranslated region (3'UTR) of most mRNAs and inhibiting the translation of related proteins. As a result, their dysregulation is associated with many diseases. Metformin may alter miRs levels in the treatment of various diseases by AMPK-dependent or AMPK-independent mechanisms. Here, we summarized the therapeutic role of metformin by modifying the aberrant expression of miRs as potential biomarkers or therapeutic targets in diseases in which IR plays a key role."
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "hybrid_search",
+  "arguments": {
+    "query": "metformin comprehensive reviews meta-analyses side effects clinical trials real-world evidence",
+    "alpha": 0.8
+  }
+}

@@ -1,0 +1,2100 @@
+SYSTEM: 
+You are a research critic agent. Your task is to evaluate the relevance of the following articles to the research question.
+For each article, provide a relevance score from 1 to 10 (1 = not relevant, 10 = highly relevant) and a brief justification.
+Also, provide an overall assessment: should we continue searching or stop?
+
+Respond in JSON format with two keys: "scores" and "decision".
+- "scores": a list of objects, each with "pmid", "relevance_score", and "justification".
+- "decision": either "CONTINUE" or "STOP". If continuing, add a "suggestion" key with ideas for the next search.
+
+USER: 
+Research Question: "What are the therapeutic uses of metformin?"
+
+Articles to evaluate:
+[
+  {
+    "rank": 1,
+    "score": 0.755286605937338,
+    "search_type": "hybrid",
+    "vector_id": 4022752,
+    "chunk_id": 4022752,
+    "pmid": "36336804",
+    "title": "Metformin: A Promising Antidiabetic Medication for Cancer Treatment.",
+    "year": 2023,
+    "journal": "Current drug targets",
+    "authors": [
+      "Wei Mu",
+      "Yunyun Jiang",
+      "Guoqiang Liang",
+      "Yue Feng",
+      "Falin Qu"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": true,
+        "ui": "D003924"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Neoplasms",
+        "is_major": true,
+        "ui": "D009369"
+      },
+      {
+        "term": "Apoptosis",
+        "is_major": false,
+        "ui": "D017209"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "AMPK complex",
+        "is_major": false
+      },
+      {
+        "term": "ICIs",
+        "is_major": false
+      },
+      {
+        "term": "Metformin",
+        "is_major": false
+      },
+      {
+        "term": "ROS",
+        "is_major": false
+      },
+      {
+        "term": "Sps",
+        "is_major": false
+      },
+      {
+        "term": "anticancer",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Metformin is a widely used drug in patients with type 2 diabetes mellitus. Metformin inhibits hepatic gluconeogenesis and increases glucose utilization in peripheral tissues. In recent years, several studies have shown that metformin is a potential therapeutic agent against cancer, alone or combined with other anticancer treatments. Metformin mainly activates the AMPK complex and regulates intracellular energy status, inhibiting the mitochondrial respiratory chain complex I and reducing the production of reactive oxygen species. Other anticancer targets of metformin are specific transcription factors inhibiting cell proliferation, promoting apoptosis and reducing drug resistance. In addition, metformin modulates tumor cells' response to anticancer treatments, favoring the activity of T cells. In diabetic patients, metformin reduces the occurrence of cancer and improves the prognosis and efficacy of anticancer treatments. In this review, we provided a comprehensive perspective of metformin as an anticancer drug."
+  },
+  {
+    "rank": 2,
+    "score": 0.7,
+    "search_type": "hybrid",
+    "vector_id": 3021998,
+    "chunk_id": 3021998,
+    "pmid": "37567440",
+    "title": "Extensive therapeutic effects, underlying molecular mechanisms and disease treatment prediction of Metformin: a systematic review.",
+    "year": 2024,
+    "journal": "Translational research : the journal of laboratory and clinical medicine",
+    "authors": [
+      "Yifei Geng",
+      "Zhen Wang",
+      "Xiaoyu Xu",
+      "Xiao Sun",
+      "Xi Dong",
+      "Yun Luo",
+      "Xiaobo Sun"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": true,
+        "ui": "D003924"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Gastrointestinal Microbiome",
+        "is_major": true,
+        "ui": "D000069196"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Derivative",
+        "is_major": false
+      },
+      {
+        "term": "Disease",
+        "is_major": false
+      },
+      {
+        "term": "Metformin",
+        "is_major": false
+      },
+      {
+        "term": "Molecular mechanism",
+        "is_major": false
+      },
+      {
+        "term": "Systematic pharmacology",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Metformin (Met), a first-line management for type 2 diabetes mellitus, has been expansively employed and studied with results indicating its therapeutic potential extending beyond glycemic control. Beyond its established role, this therapeutic drug demonstrates a broad spectrum of action encompassing over 60 disorders, encompassing metabolic conditions, inflammatory disorders, carcinomas, cardiovascular diseases, and cerebrovascular pathologies. There is clear evidence of Met's action targeting specific nodes in the molecular pathways of these diseases and, intriguingly, interactions with the intestinal microbiota and epigenetic processes have been explored. Furthermore, novel Met derivatives with structural modifications tailored to diverse diseases have been synthesized and assessed. This manuscript proffers a comprehensive thematic review of the diseases amenable to Met treatment, elucidates their molecular mechanisms, and employs informatics technology to prospect future therapeutic applications of Met. These data and insights gleaned considerably contribute to enriching our understanding and appreciation of Met's far-reaching clinical potential and therapeutic applicability."
+  },
+  {
+    "rank": 3,
+    "score": 0.6972278361449852,
+    "search_type": "hybrid",
+    "vector_id": 1282831,
+    "chunk_id": 1282831,
+    "pmid": "39595655",
+    "title": "Anti-Diabetic Therapies and Cancer: From Bench to Bedside.",
+    "year": 2024,
+    "journal": "Biomolecules",
+    "authors": [
+      "Dimitris Kounatidis",
+      "Natalia G Vallianou",
+      "Irene Karampela",
+      "Eleni Rebelos",
+      "Marina Kouveletsou",
+      "Vasileios Dalopoulos",
+      "Petros Koufopoulos",
+      "Evanthia Diakoumopoulou",
+      "Nikolaos Tentolouris",
+      "Maria Dalamaga"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Neoplasms",
+        "is_major": true,
+        "ui": "D009369"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": true,
+        "ui": "D007004"
+      },
+      {
+        "term": "Animals",
+        "is_major": false,
+        "ui": "D000818"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Diabetes Mellitus",
+        "is_major": false,
+        "ui": "D003920"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "GLP-1 receptor agonists",
+        "is_major": false
+      },
+      {
+        "term": "SGLT-2 inhibitors",
+        "is_major": false
+      },
+      {
+        "term": "cancer",
+        "is_major": false
+      },
+      {
+        "term": "chronic low-grade inflammation",
+        "is_major": false
+      },
+      {
+        "term": "diabetes mellitus",
+        "is_major": false
+      },
+      {
+        "term": "doxorubicin-induced cardiomyopathy",
+        "is_major": false
+      },
+      {
+        "term": "immune check point inhibitors",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "tirzepatide",
+        "is_major": false
+      },
+      {
+        "term": "tumor microenvironment",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Diabetes mellitus (DM) is a significant risk factor for various cancers, with the impact of anti-diabetic therapies on cancer progression differing across malignancies. Among these therapies, metformin has gained attention for its potential anti-cancer effects, primarily through modulation of the AMP-activated protein kinase/mammalian target of rapamycin (AMPK/mTOR) pathway and the induction of autophagy. Beyond metformin, other conventional anti-diabetic treatments, such as insulin, sulfonylureas (SUs), pioglitazone, and dipeptidyl peptidase-4 (DPP-4) inhibitors, have also been examined for their roles in cancer biology, though findings are often inconclusive. More recently, novel medications, like glucagon-like peptide-1 (GLP-1) receptor agonists, dual GLP-1/glucose-dependent insulinotropic polypeptide (GIP) agonists, and sodium-glucose co-transporter-2 (SGLT-2) inhibitors, have revolutionized DM management by not only improving glycemic control but also delivering substantial cardiovascular and renal benefits. Given their diverse metabolic effects, including anti-obesogenic properties, these novel agents are now under meticulous investigation for their potential influence on tumorigenesis and cancer advancement. This review aims to offer a comprehensive exploration of the evolving landscape of glucose-lowering treatments and their implications in cancer biology. It critically evaluates experimental evidence surrounding the molecular mechanisms by which these medications may modulate oncogenic signaling pathways and reshape the tumor microenvironment (TME). Furthermore, it assesses translational research and clinical trials to gauge the practical relevance of these findings in real-world settings. Finally, it explores the potential of anti-diabetic medications as adjuncts in cancer treatment, particularly in enhancing the efficacy of chemotherapy, minimizing toxicity, and addressing resistance within the framework of immunotherapy."
+  },
+  {
+    "rank": 4,
+    "score": 0.696650141727691,
+    "search_type": "hybrid",
+    "vector_id": 8388234,
+    "chunk_id": 8388234,
+    "pmid": "31114366",
+    "title": "The beneficial effects of metformin on cancer prevention and therapy: a comprehensive review of recent advances.",
+    "year": 2019,
+    "journal": "Cancer management and research",
+    "authors": [
+      "Pouya Saraei",
+      "Ilia Asadi",
+      "Muhammad Azam Kakar",
+      "Nasroallah Moradi-Kor"
+    ],
+    "mesh_terms": [],
+    "keywords": [
+      {
+        "term": "AMPK pathway",
+        "is_major": false
+      },
+      {
+        "term": "LKB1",
+        "is_major": false
+      },
+      {
+        "term": "mTOR pathway",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "prevention and treatment of cancer",
+        "is_major": false
+      },
+      {
+        "term": "radiation",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Metformin is a widely used drug in today's prescriptions by physicians due to its specific effects in treating and curing type II diabetes. Diabetes is a common disease that may occur throughout human life, and can increase the likelihood of the occurrence of various types of cancer, such as colon, rectum, pancreas and liver cancers, compared to non-diabetic patients. Metformin inhibits mTOR activity by activating ATM (ataxia telangiectasia mutated) and LKB1 (liver kinase B1) and then adenosine monophosphate-activated kinase (AMPK), and thus prevents protein synthesis and cell growth. Metformin can activate p53 by activating AMPK and thereby ultimately stop the cell cycle. Given the potential of metformin in the treatment of cancer, it can be used in radiotherapy, chemotherapy and to improve the response to treatment in androgen derivatives (ADT), and also, according to available evidence, metformin can also be used to prevent various types of cancers. Generally, metformin can: 1) reduce the incidence of cancers, 2) reduce the mortality from cancers, 3) increase the response to treatment in cancer cells when using radiotherapy and chemotherapy, 4) optimize tumor movement and reduce the malignancy, 5) reduce the likelihood of relapse, and 6) reduce the damaging effects of ADT. Therefore, this drug can be used as a complementary therapeutic agent for cancer treatment and prevention. In this review, we have summarized the data from various experimental and clinical studies and highlight the possible potential effects of metformin on cancer therapeutic responses."
+  },
+  {
+    "rank": 5,
+    "score": 0.6708325057122898,
+    "search_type": "hybrid",
+    "vector_id": 1122753,
+    "chunk_id": 1122753,
+    "pmid": "39770443",
+    "title": "Diverse Applications of the Anti-Diabetic Drug Metformin in Treating Human Disease.",
+    "year": 2024,
+    "journal": "Pharmaceuticals (Basel, Switzerland)",
+    "authors": [
+      "Chris-Tiann Roberts",
+      "Nicole Raabe",
+      "Lara Wiegand",
+      "Ashraf Kadar Shahib",
+      "Mojgan Rastegar"
+    ],
+    "mesh_terms": [],
+    "keywords": [
+      {
+        "term": "drug repurposing",
+        "is_major": false
+      },
+      {
+        "term": "epigenetics",
+        "is_major": false
+      },
+      {
+        "term": "human disease",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "type 2 diabetes",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Metformin is a commonly used drug for treating type 2 diabetes. Metformin is an inexpensive drug with low/no side effects and is well tolerated in human patients of different ages. Recent therapeutic strategies for human disease have considered the benefits of drug repurposing. This includes the use of the anti-diabetic drug metformin. Accordingly, the anti-inflammatory, anti-cancer, anti-viral, neuroprotective, and cardioprotective potentials of metformin have deemed it a suitable candidate for treating a plethora of human diseases. As results from preclinical studies using cellular and animal model systems appear promising, clinical trials with metformin in the context of non-diabetes-related illnesses have been started. Here, we aim to provide a comprehensive overview of the therapeutic potential of metformin in different animal models of human disease and its suggested relationship to epigenetics and ailments with epigenetic components."
+  },
+  {
+    "rank": 6,
+    "score": 0.6708325057122898,
+    "search_type": "hybrid",
+    "vector_id": 1135855,
+    "chunk_id": 1135855,
+    "pmid": "39770443",
+    "title": "Diverse Applications of the Anti-Diabetic Drug Metformin in Treating Human Disease.",
+    "year": 2024,
+    "journal": "Pharmaceuticals (Basel, Switzerland)",
+    "authors": [
+      "Chris-Tiann Roberts",
+      "Nicole Raabe",
+      "Lara Wiegand",
+      "Ashraf Kadar Shahib",
+      "Mojgan Rastegar"
+    ],
+    "mesh_terms": [],
+    "keywords": [
+      {
+        "term": "drug repurposing",
+        "is_major": false
+      },
+      {
+        "term": "epigenetics",
+        "is_major": false
+      },
+      {
+        "term": "human disease",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "type 2 diabetes",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Metformin is a commonly used drug for treating type 2 diabetes. Metformin is an inexpensive drug with low/no side effects and is well tolerated in human patients of different ages. Recent therapeutic strategies for human disease have considered the benefits of drug repurposing. This includes the use of the anti-diabetic drug metformin. Accordingly, the anti-inflammatory, anti-cancer, anti-viral, neuroprotective, and cardioprotective potentials of metformin have deemed it a suitable candidate for treating a plethora of human diseases. As results from preclinical studies using cellular and animal model systems appear promising, clinical trials with metformin in the context of non-diabetes-related illnesses have been started. Here, we aim to provide a comprehensive overview of the therapeutic potential of metformin in different animal models of human disease and its suggested relationship to epigenetics and ailments with epigenetic components."
+  },
+  {
+    "rank": 7,
+    "score": 0.6161517394952218,
+    "search_type": "hybrid",
+    "vector_id": 4921984,
+    "chunk_id": 4921984,
+    "pmid": "35267644",
+    "title": "Metformin Intervention-A Panacea for Cancer Treatment?",
+    "year": 2022,
+    "journal": "Cancers",
+    "authors": [
+      "Angelika Buczy\u0144ska",
+      "Iwona Sidorkiewicz",
+      "Adam Jacek Kr\u0119towski",
+      "Monika Zbucka-Kr\u0119towska",
+      "Agnieszka Adamska"
+    ],
+    "mesh_terms": [],
+    "keywords": [
+      {
+        "term": "anti-cancer",
+        "is_major": false
+      },
+      {
+        "term": "antioxidant",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "The molecular mechanism of action and the individual influence of various metabolic pathways related to metformin intervention are under current investigation. The available data suggest that metformin provides many advantages, exhibiting anti-inflammatory, anti-cancer, hepatoprotective, cardioprotective, otoprotective, radioprotective, and radio-sensitizing properties depending on cellular context. This literature review was undertaken to provide novel evidence concerning metformin intervention, with a particular emphasis on cancer treatment and prevention. Undoubtedly, the pleiotropic actions associated with metformin include inhibiting inflammatory processes, increasing antioxidant capacity, and improving glycemic and lipid metabolism. Consequently, these characteristics make metformin an attractive medicament to translate to human trials, the promising results of which were also summarized in this review."
+  },
+  {
+    "rank": 8,
+    "score": 0.5700714888168776,
+    "search_type": "hybrid",
+    "vector_id": 4159028,
+    "chunk_id": 4159028,
+    "pmid": "36191545",
+    "title": "The role of metformin as a treatment for neuropsychiatric illness.",
+    "year": 2022,
+    "journal": "European neuropsychopharmacology : the journal of the European College of Neuropsychopharmacology",
+    "authors": [
+      "Seetal Dodd",
+      "Luba Sominsky",
+      "Dan Siskind",
+      "Chiara C Bortolasci",
+      "Andre F Carvalho",
+      "Michael Maes",
+      "Adam J Walker",
+      "Ken Walder",
+      "Alison R Yung",
+      "Lana J Williams",
+      "Hannah Myles",
+      "Tayler Watson",
+      "Michael Berk"
+    ],
+    "mesh_terms": [],
+    "keywords": [
+      {
+        "term": "Bipolar disorder",
+        "is_major": false
+      },
+      {
+        "term": "Depression",
+        "is_major": false
+      },
+      {
+        "term": "Diabetes",
+        "is_major": false
+      },
+      {
+        "term": "Mental disorders",
+        "is_major": false
+      },
+      {
+        "term": "Mental illness",
+        "is_major": false
+      },
+      {
+        "term": "Metformin",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Advances in psychopharmacology have been significantly slower to evolve than in other disciplines of medicine and therefore investigation into novel therapeutic approaches is required. Additionally, concurrent metabolic conditions are prevalent among people with mental disorders. Metformin is a widely used hypoglycaemic agent that is now being studied for use beyond diabetes management. Evidence is emerging that metformin has multiple effects on diverse neurobiological pathways and consequently may be repurposed for treating mental illness. Metformin may have beneficial neuroimmunological, neuroplastic, neuro-oxidative and neuro-nitrosative effects across a range of psychiatric and neurodegenerative illnesses. Mechanisms include glucose lowering effects and effects on AMP-activated protein kinase (AMPK) signalling, however the best evidence for clinical benefit is through the glucose lowering effects, with other mechanisms less supported by the current evidence base. This narrative review aims to draw together the existing evidence for use of metformin as a psychopharmaceutical and present the role of metformin in the context of physical and psychiatric ill health, including metabolic, endocrinological and cancer domains. It not only has therapeutic potential in medical comorbidity but may have potential in core illness domains."
+  },
+  {
+    "rank": 9,
+    "score": 0.5565938956485699,
+    "search_type": "hybrid",
+    "vector_id": 3934454,
+    "chunk_id": 3934454,
+    "pmid": "36474458",
+    "title": "Metformin: new applications for an old drug.",
+    "year": 2023,
+    "journal": "Journal of basic and clinical physiology and pharmacology",
+    "authors": [
+      "Amirreza Naseri",
+      "Sarvin Sanaie",
+      "Sina Hamzehzadeh",
+      "Sepideh Seyedi-Sahebari",
+      "Mohammad-Salar Hosseini",
+      "Elnaz Gholipour-Khalili",
+      "Ehsan Rezazadeh-Gavgani",
+      "Reza Majidazar",
+      "Parya Seraji",
+      "Sara Daneshvar",
+      "Erfan Rezazadeh-Gavgani"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Female",
+        "is_major": false,
+        "ui": "D005260"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "COVID-19",
+        "is_major": false,
+        "ui": "D000086382"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": true,
+        "ui": "D007004"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Neoplasms",
+        "is_major": false,
+        "ui": "D009369"
+      },
+      {
+        "term": "Off-Label Use",
+        "is_major": true,
+        "ui": "D056687"
+      },
+      {
+        "term": "Cardiovascular Diseases",
+        "is_major": false,
+        "ui": "D002318"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "biguanides",
+        "is_major": false
+      },
+      {
+        "term": "central nervous system diseases",
+        "is_major": false
+      },
+      {
+        "term": "communicable diseases",
+        "is_major": false
+      },
+      {
+        "term": "liver diseases",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "neoplasms",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Metformin is a biguanide, evolved as one of the most widely used medicines. The applications of this component include but are not limited to reducing blood glucose, weight loss, and polycystic ovary syndrome. Studies about other probable indications have emerged, indicating that this agent can also be utilized for other purposes. In this review, applications of metformin are noticed based on the current evidence. Metformin commonly is used as an off-label drug in non-alcoholic fatty liver disease (NAFLD), but it worsens inflammation and should not be used for this purpose, according to the latest research. Metformin decreased the risk of death in patients with liver cirrhosis. It is an effective agent in the\u00a0prevention and improvement of survival in patients suffering hepatocellular carcinoma. There is evidence of the beneficial effects of metformin in colorectal cancer, early-stage prostate cancer, breast cancer, urothelial cancer, blood cancer, melanoma, and bone cancer, suggesting metformin as a potent anti-tumor agent. Metformin shows neuroprotective effects and provides a potential therapeutic benefit for mild cognitive impairment and Alzheimer's disease (AD). It also has been shown to improve mental function and reduce the incidence of dementia. Another condition that metformin has\u00a0been shown to slow the progression of is Duchenne muscular dystrophy. Regarding infectious diseases, tuberculosis (TB) and coronavirus disease (COVID-19) are\u00a0among the conditions suggested to be affected by metformin. The beneficial effects of metformin in cardiovascular diseases were also reported in the literature. Concerning renal function, studies showed that daily oral\u00a0administration of metformin could ameliorate kidney fibrosis and normalize kidney structure and function. This\u00a0study reviewed the clinical and preclinical evidence about the possible benefits of metformin based on recent studies. Numerous questions like whether these probable indications of metformin can be observed in non-diabetics, need to be described by future basic experiments and clinical studies."
+  },
+  {
+    "rank": 10,
+    "score": 0.5549692890575117,
+    "search_type": "hybrid",
+    "vector_id": 2160792,
+    "chunk_id": 2160792,
+    "pmid": "38555742",
+    "title": "Metformin as anticancer agent and adjuvant in cancer combination therapy: Current progress and future prospect.",
+    "year": 2024,
+    "journal": "Translational oncology",
+    "authors": [
+      "Lin Zhu",
+      "Kaiqing Yang",
+      "Zhe Ren",
+      "Detao Yin",
+      "Yubing Zhou"
+    ],
+    "mesh_terms": [],
+    "keywords": [
+      {
+        "term": "Cancer",
+        "is_major": false
+      },
+      {
+        "term": "Chemotherapy",
+        "is_major": false
+      },
+      {
+        "term": "Combination therapy",
+        "is_major": false
+      },
+      {
+        "term": "Immunotherapy",
+        "is_major": false
+      },
+      {
+        "term": "Metformin",
+        "is_major": false
+      },
+      {
+        "term": "Radiotherapy",
+        "is_major": false
+      },
+      {
+        "term": "Targeted therapy",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Metformin, as the preferred antihyperglycemic drug for type 2 diabetes, has been found to have a significant effect in inhibiting tumor growth in recent years. However, metformin alone in cancer treatment has the disadvantages of high dose concentrations and few targeted cancer types. Increasing studies have confirmed that metformin can be used in combination with conventional anticancer therapy to obtain more promising clinical benefits, which is expected to be rapidly transformed and applied in clinic. Some combination therapy strategies including metformin combined with chemotherapy, radiotherapy, targeted therapy and immunotherapy have been proven to have more significant antitumor effects and longer survival time than monotherapy. In this review, we summarize the synergistic antitumor effects and mechanisms of metformin in combination with other current conventional anticancer therapies. In addition, we update the research progress and the latest prospect of the metformin-combined application in the cancer treatment. This work could provide more evidence and future direction for the clinical application of metformin in antitumor."
+  },
+  {
+    "rank": 1,
+    "score": 6.748324394226074,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 10281972,
+    "chunk_id": 10281972,
+    "pmid": "28703040",
+    "title": "Metformin: Adjunct Therapy in Cancer Treatment.",
+    "year": 2017,
+    "journal": "Workplace health & safety",
+    "authors": [
+      "Ann R Lurati"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Female",
+        "is_major": false,
+        "ui": "D005260"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Middle Aged",
+        "is_major": false,
+        "ui": "D008875"
+      },
+      {
+        "term": "Neoplasms",
+        "is_major": false,
+        "ui": "D009369"
+      },
+      {
+        "term": "Off-Label Use",
+        "is_major": true,
+        "ui": "D056687"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "cancer",
+        "is_major": false
+      },
+      {
+        "term": "glucose",
+        "is_major": false
+      },
+      {
+        "term": "glycolysis",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "mitochrondria",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "An employee undergoing cancer treatment was prescribed metformin, a medication used in the treatment of type 2 diabetes and currently used as adjunct therapy for cancer. Metformin's anti-inflammatory properties inhibit tumor growth. It is speculated that cancer cells develop a metabolism that enhances aerobic glycolysis, which promotes cell growth and increases the need for glucose. Metformin decreases insulin in the blood, which decreases the amount of glucose available to cancer cells, thus starving the cells of nutrition, resulting in cell death. This case study explores the role of metformin in cancer treatment, with implications for occupational health nurses."
+  },
+  {
+    "rank": 2,
+    "score": 6.724754333496094,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 13580380,
+    "chunk_id": 13580380,
+    "pmid": "24452520",
+    "title": "Saliva vs. plasma bioequivalence of metformin in humans: validation of class II drugs of the salivary excretion classification system.",
+    "year": 2014,
+    "journal": "Drug research",
+    "authors": [
+      "N Idkaidek",
+      "T Arafat"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Saliva",
+        "is_major": false,
+        "ui": "D012463"
+      },
+      {
+        "term": "Salivary Elimination",
+        "is_major": false,
+        "ui": "D065787"
+      },
+      {
+        "term": "Therapeutic Equivalency",
+        "is_major": false,
+        "ui": "D013810"
+      }
+    ],
+    "keywords": [],
+    "citations": [],
+    "text": "To study saliva and plasma bioequivalence of metformin in humans, and to investigate the robustness of using saliva instead of plasma as surrogate for bioequivalence of class II drugs according to the salivary excretion classification system (SECS).Plasma and saliva samples were collected for 12\u2009h after 500\u2009mg oral dosing of metformin to 16 healthy humans. Plasma and saliva pharmacokinetic parameters, 90% confidence intervals and intra-subject variability values were calculated using Kinetica V5. Descriptive statistics and dimensional analysis were calculated by Excel. SimCYP program V13 was used for estimation of effective intestinal permeability.Metformin was subjected to salivary excretion since it falls into class II (Low permeability/High fraction unbound to plasma proteins), with correlation coefficients of 0.95-0.99 between plasma and saliva concentrations. Saliva/plasma concentration ratios were 0.29-0.39. The 90% confidence limits of all parameters failed in both saliva and plasma. Intra-subject variability values in saliva were higher than plasma leading to need for higher number of subjects to be used in saliva.Saliva instead of plasma can be used as surrogate for bioequivalence of class II drugs according to SECS when adequate sample size is used. Future work is planned to demonstrate SECS robustness in drugs that fall into class III."
+  },
+  {
+    "rank": 3,
+    "score": 6.537713527679443,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 10372427,
+    "chunk_id": 10372427,
+    "pmid": "28565978",
+    "title": "Off-label uses of the Pipeline embolization device: a review of the literature.",
+    "year": 2017,
+    "journal": "Neurosurgical focus",
+    "authors": [
+      "Purvee D Patel",
+      "Nohra Chalouhi",
+      "Elias Atallah",
+      "Stavropoula Tjoumakaris",
+      "David Hasan",
+      "Hekmat Zarzour",
+      "Robert Rosenwasser",
+      "Pascal Jabbour"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Animals",
+        "is_major": false,
+        "ui": "D000818"
+      },
+      {
+        "term": "Embolization, Therapeutic",
+        "is_major": false,
+        "ui": "D004621"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Intracranial Aneurysm",
+        "is_major": false,
+        "ui": "D002532"
+      },
+      {
+        "term": "Off-Label Use",
+        "is_major": true,
+        "ui": "D056687"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "ACA = anterior cerebral artery",
+        "is_major": false
+      },
+      {
+        "term": "ACoA = anterior communicating artery",
+        "is_major": false
+      },
+      {
+        "term": "CCA = cavernous carotid aneurysm",
+        "is_major": false
+      },
+      {
+        "term": "CCF = carotid-cavernous fistula",
+        "is_major": false
+      },
+      {
+        "term": "ICA = internal carotid artery",
+        "is_major": false
+      },
+      {
+        "term": "MCA = middle cerebral artery",
+        "is_major": false
+      },
+      {
+        "term": "PED = Pipeline embolization device",
+        "is_major": false
+      },
+      {
+        "term": "PRU = P2Y12 reaction unit",
+        "is_major": false
+      },
+      {
+        "term": "Pipeline embolization device",
+        "is_major": false
+      },
+      {
+        "term": "SAH = subarachnoid hemorrhage",
+        "is_major": false
+      },
+      {
+        "term": "aneurysms",
+        "is_major": false
+      },
+      {
+        "term": "mRS = modified Rankin Scale",
+        "is_major": false
+      },
+      {
+        "term": "off-label uses",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "The Pipeline embolization device (PED) is the most widely used flow diverter in endovascular neurosurgery. In 2011, the device received FDA approval for the treatment of large and giant aneurysms in the internal carotid artery extending from the petrous to the superior hypophyseal segments. However, as popularity of the device grew and neurosurgeons gained more experience, its use has extended to several other indications. Some of these off-label uses include previously treated aneurysms, acutely ruptured aneurysms, small aneurysms, distal circulation aneurysms, posterior circulation aneurysms, fusiform aneurysms, dissecting aneurysms, pseudoaneurysms, and even carotid-cavernous fistulas. The authors present a literature review of the safety and efficacy of the PED in these off-label uses."
+  },
+  {
+    "rank": 4,
+    "score": 6.5020341873168945,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 2472530,
+    "chunk_id": 2472530,
+    "pmid": "38189592",
+    "title": "Bioequivalence and Safety Assessment of 2 Formulations of Low-Dose Metformin Hydrochloride under Fasting Conditions in Healthy Chinese Participants: A Randomized Phase 1 Clinical Trial.",
+    "year": 2024,
+    "journal": "Clinical pharmacology in drug development",
+    "authors": [
+      "Ming-Li Sun",
+      "Xin-Wen Xu",
+      "Chen Liu",
+      "Yuan-Xu Tong",
+      "Ya-Li Wei",
+      "Hui-Juan Liu",
+      "Wei Zhang",
+      "Xing-He Wang"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Therapeutic Equivalency",
+        "is_major": false,
+        "ui": "D013810"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": true,
+        "ui": "D003924"
+      },
+      {
+        "term": "Fasting",
+        "is_major": false,
+        "ui": "D005215"
+      },
+      {
+        "term": "Tablets",
+        "is_major": false,
+        "ui": "D013607"
+      },
+      {
+        "term": "China",
+        "is_major": false,
+        "ui": "D002681"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "bioequivalence",
+        "is_major": false
+      },
+      {
+        "term": "clinical trial",
+        "is_major": false
+      },
+      {
+        "term": "fasting conditions",
+        "is_major": false
+      },
+      {
+        "term": "low dose",
+        "is_major": false
+      },
+      {
+        "term": "metformin hydrochloride",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "The incidence of type 2 diabetes is high, and the existing metformin hydrochloride (MH) tablets of 250\u00a0mg cannot meet the demands of the Chinese drug market. This study aimed to evaluate the bioequivalence and safety of generic formulations of MH tablets (test formulation [T], 250\u00a0mg/tablet) and innovative products (reference formulation [R], 250\u00a0mg/tablet) under fasting conditions. This was an open-label, single-dose, 2-period, 2-sequence crossover, single-center, randomized phase I clinical trial. T and R were considered bioequivalent if the adjusted geometric mean ratios (GMRs) and 90% confidence intervals of the area under the curve (AUC) and maximum concentration (C"
+  },
+  {
+    "rank": 5,
+    "score": 6.341721534729004,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 3934454,
+    "chunk_id": 3934454,
+    "pmid": "36474458",
+    "title": "Metformin: new applications for an old drug.",
+    "year": 2023,
+    "journal": "Journal of basic and clinical physiology and pharmacology",
+    "authors": [
+      "Amirreza Naseri",
+      "Sarvin Sanaie",
+      "Sina Hamzehzadeh",
+      "Sepideh Seyedi-Sahebari",
+      "Mohammad-Salar Hosseini",
+      "Elnaz Gholipour-Khalili",
+      "Ehsan Rezazadeh-Gavgani",
+      "Reza Majidazar",
+      "Parya Seraji",
+      "Sara Daneshvar",
+      "Erfan Rezazadeh-Gavgani"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Female",
+        "is_major": false,
+        "ui": "D005260"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "COVID-19",
+        "is_major": false,
+        "ui": "D000086382"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": true,
+        "ui": "D007004"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Neoplasms",
+        "is_major": false,
+        "ui": "D009369"
+      },
+      {
+        "term": "Off-Label Use",
+        "is_major": true,
+        "ui": "D056687"
+      },
+      {
+        "term": "Cardiovascular Diseases",
+        "is_major": false,
+        "ui": "D002318"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "biguanides",
+        "is_major": false
+      },
+      {
+        "term": "central nervous system diseases",
+        "is_major": false
+      },
+      {
+        "term": "communicable diseases",
+        "is_major": false
+      },
+      {
+        "term": "liver diseases",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "neoplasms",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Metformin is a biguanide, evolved as one of the most widely used medicines. The applications of this component include but are not limited to reducing blood glucose, weight loss, and polycystic ovary syndrome. Studies about other probable indications have emerged, indicating that this agent can also be utilized for other purposes. In this review, applications of metformin are noticed based on the current evidence. Metformin commonly is used as an off-label drug in non-alcoholic fatty liver disease (NAFLD), but it worsens inflammation and should not be used for this purpose, according to the latest research. Metformin decreased the risk of death in patients with liver cirrhosis. It is an effective agent in the\u00a0prevention and improvement of survival in patients suffering hepatocellular carcinoma. There is evidence of the beneficial effects of metformin in colorectal cancer, early-stage prostate cancer, breast cancer, urothelial cancer, blood cancer, melanoma, and bone cancer, suggesting metformin as a potent anti-tumor agent. Metformin shows neuroprotective effects and provides a potential therapeutic benefit for mild cognitive impairment and Alzheimer's disease (AD). It also has been shown to improve mental function and reduce the incidence of dementia. Another condition that metformin has\u00a0been shown to slow the progression of is Duchenne muscular dystrophy. Regarding infectious diseases, tuberculosis (TB) and coronavirus disease (COVID-19) are\u00a0among the conditions suggested to be affected by metformin. The beneficial effects of metformin in cardiovascular diseases were also reported in the literature. Concerning renal function, studies showed that daily oral\u00a0administration of metformin could ameliorate kidney fibrosis and normalize kidney structure and function. This\u00a0study reviewed the clinical and preclinical evidence about the possible benefits of metformin based on recent studies. Numerous questions like whether these probable indications of metformin can be observed in non-diabetics, need to be described by future basic experiments and clinical studies."
+  },
+  {
+    "rank": 6,
+    "score": 6.118545055389404,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 10608305,
+    "chunk_id": 10608305,
+    "pmid": "28296142",
+    "title": "Platelet-rich plasma for androgenetic alopecia: Does it work? Evidence from meta analysis.",
+    "year": 2017,
+    "journal": "Journal of cosmetic dermatology",
+    "authors": [
+      "Salvatore Giordano",
+      "Marco Romeo",
+      "Petteri Lankinen"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Alopecia",
+        "is_major": false,
+        "ui": "D000505"
+      },
+      {
+        "term": "Hair Follicle",
+        "is_major": false,
+        "ui": "D018859"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Injections, Intradermal",
+        "is_major": false,
+        "ui": "D007271"
+      },
+      {
+        "term": "Platelet-Rich Plasma",
+        "is_major": true,
+        "ui": "D053657"
+      },
+      {
+        "term": "Therapeutic Uses",
+        "is_major": false,
+        "ui": "D045506"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "androgenetic alopecia",
+        "is_major": false
+      },
+      {
+        "term": "hair growth",
+        "is_major": false
+      },
+      {
+        "term": "hair restoration",
+        "is_major": false
+      },
+      {
+        "term": "platelet-rich plasma(PRP)",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "INTRODUCTION: The use of platelet-rich plasma (PRP) has increased among different surgical specialities for the treatment of various conditions. Androgenetic alopecia is a common condition, with severe attendant psychosocial implications. PRP injections for hair restoration have become a popular practice among plastic surgeons. We performed a meta-analysis comparing local injection of platelet-rich plasma versus control to evaluate this issue in order to investigate the effectiveness of PRP local injections for androgenetic alopecia.\n\nMETHODS: A systematic literature search was performed. Primary outcome was the increase in number of hairs. Secondary outcomes were the increase in hair thickness and the percentage increase in hair number and thickness. We performed random-effect analysis.\n\nRESULTS: Six studies involving 177 patients were retrieved and included in the present analysis. A significantly locally increased hair number per cm\n\nCONCLUSIONS: Local injection of PRP for androgenic alopecia might be associated with an increased number of hairs and some hair thickness improvement in the treated areas with minimal morbidity. The results of this meta-analysis should be interpreted with caution as it consists of pooling many small studies. Larger randomized studies can verify this perception."
+  },
+  {
+    "rank": 7,
+    "score": 6.098102569580078,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 6466522,
+    "chunk_id": 6466522,
+    "pmid": "33450218",
+    "title": "Biowaiver Monographs for Immediate Release Solid Oral Dosage Forms: Metformin Hydrochloride.",
+    "year": 2021,
+    "journal": "Journal of pharmaceutical sciences",
+    "authors": [
+      "Melissa Metry",
+      "Yan Shu",
+      "Bertil Abrahamsson",
+      "Rodrigo Cristofoletti",
+      "Jennifer B Dressman",
+      "D W Groot",
+      "Alan Parr",
+      "Peter Langguth",
+      "Vinod P Shah",
+      "Tomokazu Tajiri",
+      "Mehul U Mehta",
+      "James E Polli"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Administration, Oral",
+        "is_major": false,
+        "ui": "D000284"
+      },
+      {
+        "term": "Biological Availability",
+        "is_major": false,
+        "ui": "D001682"
+      },
+      {
+        "term": "Biopharmaceutics",
+        "is_major": false,
+        "ui": "D001702"
+      },
+      {
+        "term": "Dosage Forms",
+        "is_major": false,
+        "ui": "D004304"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Permeability",
+        "is_major": false,
+        "ui": "D010539"
+      },
+      {
+        "term": "Solubility",
+        "is_major": false,
+        "ui": "D012995"
+      },
+      {
+        "term": "Therapeutic Equivalency",
+        "is_major": false,
+        "ui": "D013810"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Bioequivalence",
+        "is_major": false
+      },
+      {
+        "term": "Biopharmaceutics classification system (BCS)",
+        "is_major": false
+      },
+      {
+        "term": "Biowaiver",
+        "is_major": false
+      },
+      {
+        "term": "Excipients",
+        "is_major": false
+      },
+      {
+        "term": "Metformin",
+        "is_major": false
+      },
+      {
+        "term": "Metformin hydrochloride",
+        "is_major": false
+      },
+      {
+        "term": "Permeability",
+        "is_major": false
+      },
+      {
+        "term": "Pharmacokinetics",
+        "is_major": false
+      },
+      {
+        "term": "Regulatory science",
+        "is_major": false
+      },
+      {
+        "term": "Solubility",
+        "is_major": false
+      },
+      {
+        "term": "Transporters",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Data are examined regarding possible waiver of in\u00a0vivo bioequivalence testing (i.e. biowaiver) for approval of metformin hydrochloride (metformin) immediate-release solid oral dosage forms. Data include metformin's Biopharmaceutics Classification System (BCS) properties, including potential excipient interactions. Metformin is a prototypical transporter-mediated drug and is highly soluble, but only 50% of an orally administered dose is absorbed from the gut. Therefore, metformin is a BCS Class III substance. A BCS-based approval approach for major changes to marketed products and new generics is admissible if test and reference dosage forms have the identical active pharmaceutical ingredient and if in\u00a0vitro dissolution from both are very rapid (i.e. at least 85% within 15 min at pH 1.2, 4.5, and 6.8). Recent International Council for Harmonisation BCS guidance indicates all excipients for Class III biowaivers are recommended to be qualitatively the same and quantitatively similar (except for preservatives, flavor agents, colorant, or capsule shell or film coating excipients). However, despite metformin being a prototypical transporter-mediated drug, there is no evidence that commonly used excipients impact metformin absorption, such that this restriction on excipients for BCS III drugs merits regulatory relief. Commonly used excipients in usual amounts are not likely to impact metformin absorption."
+  },
+  {
+    "rank": 8,
+    "score": 6.098102569580078,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 12056082,
+    "chunk_id": 12056082,
+    "pmid": "26373206",
+    "title": "An in vitro--in silico--in vivo approach in biopharmaceutical drug characterization: metformin hydrochloride IR tablets.",
+    "year": 2015,
+    "journal": "Die Pharmazie",
+    "authors": [
+      "S Beloica",
+      "S Cviji\u0107",
+      "I Hom\u0161ek",
+      "M Bogataj",
+      "J Paroj\u010di\u0107"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Algorithms",
+        "is_major": false,
+        "ui": "D000465"
+      },
+      {
+        "term": "Biopharmaceutics",
+        "is_major": false,
+        "ui": "D001702"
+      },
+      {
+        "term": "Computer Simulation",
+        "is_major": false,
+        "ui": "D003198"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Permeability",
+        "is_major": false,
+        "ui": "D010539"
+      },
+      {
+        "term": "Solubility",
+        "is_major": false,
+        "ui": "D012995"
+      },
+      {
+        "term": "Tablets",
+        "is_major": false,
+        "ui": "D013607"
+      },
+      {
+        "term": "Therapeutic Equivalency",
+        "is_major": false,
+        "ui": "D013810"
+      }
+    ],
+    "keywords": [],
+    "citations": [],
+    "text": "The integrated in vitro--in silico--in vivo approach has emerged into a biopharmaceutical toolkit that could accelerate drug development and improve drug product clinical performance in patients. In the present study, the influence of physiologically based media and dynamic dissolution testing on drug release from two metformin hydrochloride immediate release products with proven bioequivalence was tested. Metformin-specific physiologically based pharmacokinetic (PBPK) model was developed based on a range of literature or in silico predicted data using gastrointestinal simulation technology implemented in the Simcyp software package. Various approaches were employed in order to estimate the human effective permeability which was used as input for metformin plasma profile simulation. Influence of the rate and extent of metformin dissolution on drug absorption was evaluated. Both convolution and deconvolution approaches were used in order to establish a correlation between the in vitro and in vivo data. The results obtained indicate that physiologically based dissolution media and glass bead dissolution device exhibit certain advantages over the compendial dissolution apparatus and simple buffers which tended to be over-discriminative. Gastrointestinal simulation technology implemented in the Simcyp Simulator was successfully used in developing drug-specific PBPK model for metformin. Simulations indicate that in vitro dissolution kinetics has no significant effect on metformin absorption, if more than 65% of drug is released in 1 hour. Level A in vitro-in vivo correlation was obtained using both convolution and deconvolution approaches."
+  },
+  {
+    "rank": 9,
+    "score": 6.098102569580078,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 4293237,
+    "chunk_id": 4293237,
+    "pmid": "35989252",
+    "title": "Bioequivalence of China- and Germany-Manufactured Metformin Extended-Release Tablets Under Fed and Fasted Conditions in Healthy Volunteers: A Randomized, Open-Label, 2-Way Crossover Study.",
+    "year": 2022,
+    "journal": "Clinical pharmacology in drug development",
+    "authors": [
+      "Chaoying Hu",
+      "Tong Pei",
+      "Dandan Li",
+      "Dongli Zhou",
+      "Lan Zhang"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Cross-Over Studies",
+        "is_major": false,
+        "ui": "D018592"
+      },
+      {
+        "term": "Therapeutic Equivalency",
+        "is_major": false,
+        "ui": "D013810"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Area Under Curve",
+        "is_major": false,
+        "ui": "D019540"
+      },
+      {
+        "term": "Tablets",
+        "is_major": false,
+        "ui": "D013607"
+      },
+      {
+        "term": "China",
+        "is_major": false,
+        "ui": "D002681"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "bioequivalence",
+        "is_major": false
+      },
+      {
+        "term": "extended-release tablets",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "pharmacokinetics",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "We compared the bioequivalence, pharmacokinetics, and safety of metformin extended-release (MXR) tablets manufactured by Merck Pharmaceuticals Manufacturing (Jiangsu) Co., Ltd (Nantong, China) and Merck KGaA (Darmstadt, Germany) after a single oral dose under fasted/fed conditions. In this open-label phase 1 study, 54 healthy volunteers (fasted, n\u00a0= 38; fed, n\u00a0=\u00a016) were randomly assigned to receive one 500-mg MXR tablet that was manufactured by Merck Pharmaceuticals Manufacturing (Jiangsu) Co. or Merck KGaA. Respectively, the mean terminal half-life was 7.5 and 6.8 hours in the fasted group, and 6.7 and 9.1 hours in the fed group. Median times to maximum observed concentration were 3 and 4 hours (fasted group) and 6 hours (both products, fed group). No significant differences were observed in the metformin plasma concentration-time curve (AUC) from time 0 to the last sampling time and maximum observed concentration between products. Geometric least square mean ratios for maximum observed concentration, AUC from time 0 to the last sampling time, and AUC from time 0 to infinity were nearly 100%; the corresponding 90%CIs for bioequivalence were within 80% to 125%. Diarrhea (26.4%), abdominal pain (5.7%), and nausea (3.8%) were the most common adverse events (AEs); AEs were mild. The mean AUC from time 0 to infinity (test and reference) was substantially increased by \u224845% in the fed condition (equivalent to a 1.5-fold dose increase); this means food increased net systemic availability but had no impact on AE incidence. This was considered in the study design, which included MXR administration with evening meals. MXR tablets were bioequivalent under fasted/fed conditions and were safe and well tolerated."
+  },
+  {
+    "rank": 10,
+    "score": 5.981331825256348,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 706294,
+    "chunk_id": 706294,
+    "pmid": "39604047",
+    "title": "Repurposing metformin: A potential off-label indication for ischaemic stroke?",
+    "year": 2025,
+    "journal": "Diabetes, obesity & metabolism",
+    "authors": [
+      "Thura Tun Oo"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Drug Repositioning",
+        "is_major": true,
+        "ui": "D058492"
+      },
+      {
+        "term": "Ischemic Stroke",
+        "is_major": true,
+        "ui": "D000083242"
+      },
+      {
+        "term": "Off-Label Use",
+        "is_major": true,
+        "ui": "D056687"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": true,
+        "ui": "D007004"
+      },
+      {
+        "term": "Animals",
+        "is_major": false,
+        "ui": "D000818"
+      },
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": false,
+        "ui": "D003924"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "drug repurposing",
+        "is_major": false
+      },
+      {
+        "term": "ischaemic stroke",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "translational research",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "The term 'clinical cemetery' is frequently used to characterize ischaemic stroke, one of the leading causes of mortality and long-term morbidity globally. Over the past two decades, a number of novel therapies have been investigated for ischaemic stroke. However, aside from mechanical thrombectomy, the only FDA-approved prescription for treating ischaemic stroke is tissue plasminogen activator, which has a limited therapeutic period. Although post-stroke rehabilitation therapies are helpful in improving functional recovery, their benefits cannot be yielded promptly. Nowadays, drug repurposing might be an appealing approach to expanding therapeutic options for ischaemic stroke. During the last decade, metformin has been extensively researched as a potential repurposing medicine for ischaemic stroke, with a focus on both preventive and therapeutic approaches. With regard to the idea of repurposing metformin in ischaemic stroke, this review aims to compile the available data from pre-clinical and clinical trials, address and clarify any discrepancies, and offer solutions."
+  },
+  {
+    "rank": 1,
+    "score": 6.37532901763916,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 9610569,
+    "chunk_id": 9610569,
+    "pmid": "29524481",
+    "title": "Changes in metformin use and other antihyperglycemic therapies after insulin initiation in patients with type 2 diabetes.",
+    "year": 2018,
+    "journal": "Diabetes research and clinical practice",
+    "authors": [
+      "Scott J Pilla",
+      "James R Dotimas",
+      "Nisa M Maruthur",
+      "Jeanne M Clark",
+      "Hsin-Chieh Yeh"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": false,
+        "ui": "D003924"
+      },
+      {
+        "term": "Female",
+        "is_major": false,
+        "ui": "D005260"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Insulin",
+        "is_major": false,
+        "ui": "D007328"
+      },
+      {
+        "term": "Male",
+        "is_major": false,
+        "ui": "D008297"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Middle Aged",
+        "is_major": false,
+        "ui": "D008875"
+      },
+      {
+        "term": "Retrospective Studies",
+        "is_major": false,
+        "ui": "D012189"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Diabetes mellitus, Type 2",
+        "is_major": false
+      },
+      {
+        "term": "Insulin/therapeutic use",
+        "is_major": false
+      },
+      {
+        "term": "Metformin/therapeutic use",
+        "is_major": false
+      },
+      {
+        "term": "Pharmacoepidemiology",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "AIMS: When patients with type 2 diabetes initiate insulin, metformin should be continued while continuation of other antihyperglycemics has unclear benefit. We aimed to identify practice patterns in antihyperglycemic therapy during the insulin transition, and determine factors associated with metformin continuation.\n\nMETHODS: We performed a retrospective analysis of the Look AHEAD (Action for Health in Diabetes) trial which randomized overweight/obese adults under ambulatory care for type 2 diabetes to an intensive lifestyle intervention or diabetes support and education. Among the 931 participants who initiated insulin over ten years, we described longitudinal changes in antihyperglycemic medications during the insulin transition, and performed multivariable logistic regression to estimate the association between patient characteristics and metformin continuation.\n\nRESULTS: Before insulin initiation, 81.0% of patients used multiple antihyperglycemics, the most common being metformin, sulfonylureas, and thiazolidinediones. After insulin initiation, metformin was continued in 80.3% of patients; other antihyperglycemics were continued less often, yet 58.0% of patients were treated with multiple non-insulin antihyperglycemics. Metformin continuation was inversely associated with age (fully adjusted (a) OR 0.60 per 10\u202fyears [0.42-0.86]), serum creatinine above safety thresholds (aOR 0.09 [0.02-0.36]), lower income (P\u202f=\u202f0.025 for trend), taking more medications (aOR 0.92 per medication [0.86-0.98]), and initiating rapid, short, or premixed insulin (aOR 0.59 [0.39-0.89]).\n\nCONCLUSIONS: The vast majority of patients with type 2 diabetes continue metformin after insulin initiation, consistent with guidelines. Other antihyperglycemics are frequently continued along with insulin, and further research is needed to determine which, if any, patients may benefit from this."
+  },
+  {
+    "rank": 2,
+    "score": 5.864181041717529,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 20645702,
+    "chunk_id": 20645702,
+    "pmid": "13059621",
+    "title": "Corticotropin (ACTH) and cortisone; newer concepts of their use in clinical practice.",
+    "year": 1953,
+    "journal": "California medicine",
+    "authors": [
+      "L W KINSELL",
+      "L BOLING",
+      "J W PARTRIDGE",
+      "N FOREMAN"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Adjuvants, Immunologic",
+        "is_major": true,
+        "ui": "D000276"
+      },
+      {
+        "term": "Adjuvants, Pharmaceutic",
+        "is_major": true,
+        "ui": "D000277"
+      },
+      {
+        "term": "Adrenocorticotropic Hormone",
+        "is_major": false,
+        "ui": "D000324"
+      },
+      {
+        "term": "Arthritis, Rheumatoid",
+        "is_major": true,
+        "ui": "D001172"
+      },
+      {
+        "term": "Asthma",
+        "is_major": true,
+        "ui": "D001249"
+      },
+      {
+        "term": "Cortisone",
+        "is_major": false,
+        "ui": "D003348"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Probability",
+        "is_major": true,
+        "ui": "D011336"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "ACTH/therapeutic use",
+        "is_major": true
+      },
+      {
+        "term": "CORTISONE/therapeutic use",
+        "is_major": true
+      }
+    ],
+    "citations": [],
+    "text": "On the basis of three years' experience with corticotropin and cortisone, it seems probable that the place of these hormones in clinical medicine will be one of increasing importance. At present they may be used to attain certain specific objectives:1. To return a large number of chronic invalids to a place of full activity in the community. This applies particularly to patients with rheumatoid arthritis and bronchial asthma. Many years of continuous therapy will be required in the majority of such patients.2. As life-saving agents in patients with certain diseases of unknown etiologic delineation that almost always cause death. In some patients treated for some of those diseases, therapy may eventually be discontinued.3. As life-saving agents (in conjunction with intensive antibiotic therapy) in patients with severe infections inadequately responsive to chemotherapy alone. Many of the untoward effects of hormonal therapy may be minimized or prevented by appropriate adjuvant measures."
+  },
+  {
+    "rank": 3,
+    "score": 5.552865982055664,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 6697456,
+    "chunk_id": 6697456,
+    "pmid": "33176391",
+    "title": "Time trends in diabetes medication prescription and factors associated with metformin discontinuation in people with newly diagnosed type 2 diabetes: A national population-based study.",
+    "year": 2021,
+    "journal": "Diabetic medicine : a journal of the British Diabetic Association",
+    "authors": [
+      "Anne-Sophie Aguad\u00e9",
+      "Chrystelle Gastaldi-M\u00e9nager",
+      "Pierre Fontaine",
+      "Diane Karsenty",
+      "Anne Fagot-Campagna",
+      "Coralie Amadou"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Age Factors",
+        "is_major": false,
+        "ui": "D000367"
+      },
+      {
+        "term": "Cohort Studies",
+        "is_major": false,
+        "ui": "D015331"
+      },
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": false,
+        "ui": "D003924"
+      },
+      {
+        "term": "Drug Prescriptions",
+        "is_major": false,
+        "ui": "D011307"
+      },
+      {
+        "term": "Female",
+        "is_major": false,
+        "ui": "D005260"
+      },
+      {
+        "term": "France",
+        "is_major": false,
+        "ui": "D005602"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Male",
+        "is_major": false,
+        "ui": "D008297"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Middle Aged",
+        "is_major": false,
+        "ui": "D008875"
+      },
+      {
+        "term": "Polypharmacology",
+        "is_major": false,
+        "ui": "D064798"
+      },
+      {
+        "term": "Sex Factors",
+        "is_major": false,
+        "ui": "D012737"
+      },
+      {
+        "term": "Social Deprivation",
+        "is_major": false,
+        "ui": "D000091489"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Type 2 diabetes",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "therapeutics",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "OBJECTIVE: To describe, based on the French National Health Insurance (NHI) data, time trends in diabetes medications after treatment initiation in two consecutive cohorts of people newly treated for type 2 diabetes (T2D) in 2008 (1st cohort) and 2013 (2nd cohort).\n\nMATERIALS AND METHODS: People, aged 45\u00a0years and older, newly treated for T2D in 2008 and 2013 were identified in the French NHI Data System. Treatment changes were collected for each year of follow-up. Logistic regression was performed to identify factors associated with metformin discontinuation.\n\nRESULTS: Respectively, 157 940 and 160 670 beneficiaries (mean age: 63 and 64\u00a0years; men proportion: 53 and 52%) of the French NHI general scheme initiated a diabetes treatment in 2008 and 2013. Metformin was the first monotherapy and increased in use: 67% of monotherapies in 2008 versus 77% in 2013. Monotherapy percentage decreased from the second year onwards in both cohorts. A marked increase in metformin-DPP4i combination therapy was observed (14% of dual therapies in 2008 vs. 46% in 2015 in the first cohort), replacing the metformin-sulfonylureas combination as a second-line treatment. Metformin discontinuation was statistically associated with female gender, social deprivation, age and anti-diabetic polypharmacy. Discontinuation of diabetes treatment was observed after 5\u00a0years for, respectively, 10% and 13% in the first and second cohorts.\n\nCONCLUSION: Descriptive analysis of two consecutive national cohorts showed an evolution in the prescription patterns of anti-diabetic treatments over a short period. With early treatment intensification, increasing rate of metformin monotherapy, and changes in dual-therapy strategy."
+  },
+  {
+    "rank": 4,
+    "score": 5.469906806945801,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 20644315,
+    "chunk_id": 20644315,
+    "pmid": "13182626",
+    "title": "Acne conglobata; use of cortisone and corticotropin in therapy.",
+    "year": 1954,
+    "journal": "California medicine",
+    "authors": [
+      "E M FARBER",
+      "E R CLAIBORNE"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Acne Vulgaris",
+        "is_major": true,
+        "ui": "D000152"
+      },
+      {
+        "term": "Adrenocorticotropic Hormone",
+        "is_major": false,
+        "ui": "D000324"
+      },
+      {
+        "term": "Anti-Bacterial Agents",
+        "is_major": true,
+        "ui": "D000900"
+      },
+      {
+        "term": "Cortisone",
+        "is_major": false,
+        "ui": "D003348"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Steroids",
+        "is_major": true,
+        "ui": "D013256"
+      },
+      {
+        "term": "X-Ray Therapy",
+        "is_major": true,
+        "ui": "D014964"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "ACNE",
+        "is_major": true
+      },
+      {
+        "term": "ACTH/therapeutic use",
+        "is_major": true
+      },
+      {
+        "term": "CORTISONE/therapeutic use",
+        "is_major": true
+      }
+    ],
+    "citations": [],
+    "text": "Six patients with acne conglobata were treated with cortisone and adrenocorticotropic hormone. Definite immediate improvement was observed in all of them. In three cases control of the disease was maintained on relatively low doses of steroid. In one case there was response to superficial x-ray therapy after the acute phase of the disease had subsided in response to steroids. Resistance to steroid therapy apparently developed in one patient after approximately 18 months of treatment. One patient responded to treatment and then remained well (for two months when last observed) although steroids and all other treatment were discontinued. The combined use of antibiotics and steroids in the patients treated gave the best results."
+  },
+  {
+    "rank": 5,
+    "score": 5.381918907165527,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 20642320,
+    "chunk_id": 20642320,
+    "pmid": "13585163",
+    "title": "Ultrasonic therapy: physiological basis and clinical application.",
+    "year": 1958,
+    "journal": "California medicine",
+    "authors": [
+      "D RUBIN"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Liver",
+        "is_major": true,
+        "ui": "D008099"
+      },
+      {
+        "term": "Ultrasonic Therapy",
+        "is_major": true,
+        "ui": "D014464"
+      },
+      {
+        "term": "Ultrasonics",
+        "is_major": false,
+        "ui": "D014465"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "ULTRASONICS/therapeutic use",
+        "is_major": true
+      }
+    ],
+    "citations": [],
+    "text": "Ultrasound is a relatively new but fairly well accepted physical modality. Therapeutically, ultrasonic energy is employed empirically, but the present trend is to utilize low and medium intensities, 0.5 to 2.0 watts per square centimeter, rather than high intensities, over 2.0 watts per square centimeter, for medical purposes. The important physiological effects of ultrasonic energy on living tissue are thermal, mechanical, chemical and biological. Which one of these effects is dominant is not clearly understood. However, the intensity of the ultrasound field and the duration of application determines the extent to which the thermal or the mechanical effect prevails. From a clinical point of view ultrasonic energy has been most effective in the treatment of painful conditions involving the musculoskeletal and neuromuscular structures. More recently, studies have been directed toward the use of ultrasound as a neurosurgical tool."
+  },
+  {
+    "rank": 6,
+    "score": 5.381918907165527,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 20644379,
+    "chunk_id": 20644379,
+    "pmid": "13150198",
+    "title": "Acid detergent douche therapy of leukorrhea.",
+    "year": 1954,
+    "journal": "California medicine",
+    "authors": [
+      "R W DEVOE",
+      "W FOOTER"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Detergents",
+        "is_major": false,
+        "ui": "D003902"
+      },
+      {
+        "term": "Female",
+        "is_major": false,
+        "ui": "D005260"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Leukorrhea",
+        "is_major": true,
+        "ui": "D007973"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "DETERGENTS/therapeutic use",
+        "is_major": true
+      }
+    ],
+    "citations": [],
+    "text": "A harmless acid detergent douche solution based on known physiologic and chemical factors was used in clinical trial on 104 patients having leukorrhea of various causes. When used alone or as an adjunct to other forms of therapy there was a favorable response in 81 per cent of patients with infections who were followed. In non-infectious leukorrhea there was probably no shortening of healing; however, there was effective relief of symptoms in 84 per cent of those who were followed. This acid detergent douche solution may have a wide range of use."
+  },
+  {
+    "rank": 7,
+    "score": 5.381918907165527,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 20440257,
+    "chunk_id": 20440257,
+    "pmid": "14925825",
+    "title": "Oxygen therapy.",
+    "year": 1952,
+    "journal": "California medicine",
+    "authors": [
+      "J B DILLON"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Acute Disease",
+        "is_major": true,
+        "ui": "D000208"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Oxygen",
+        "is_major": false,
+        "ui": "D010100"
+      },
+      {
+        "term": "Oxygen Inhalation Therapy",
+        "is_major": true,
+        "ui": "D010102"
+      },
+      {
+        "term": "Shock",
+        "is_major": true,
+        "ui": "D012769"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "OXYGEN/therapeutic use",
+        "is_major": true
+      }
+    ],
+    "citations": [],
+    "text": "Oxygen, properly administered, often is a valuable therapeutic agent in many conditions such as hemorrhage, heart disease, respiratory diseases, anemia, shock, infection with fever and others in which there is direct or indirect interference with normal oxygenation of tissues. In severe heart disease or acute respiratory conditions, administration of oxygen under pressure may be necessary in order to deliver the required amount to the tissues in want. For conditions in which oxygen want is less critical, 50 per cent concentration of the gas in the inspired atmosphere is effective and more easily carried out. Patients with chronic heart disease may be greatly helped by taking oxygen at home under the direction of a physician."
+  },
+  {
+    "rank": 8,
+    "score": 5.381918907165527,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 20642498,
+    "chunk_id": 20642498,
+    "pmid": "13563551",
+    "title": "Metachromasy: an experimental and theoretical reevaluation.",
+    "year": 1958,
+    "journal": "The Journal of biophysical and biochemical cytology",
+    "authors": [
+      "J A BERGERON",
+      "M SINGER"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Coloring Agents",
+        "is_major": true,
+        "ui": "D004396"
+      },
+      {
+        "term": "Plants, Medicinal",
+        "is_major": false,
+        "ui": "D010946"
+      },
+      {
+        "term": "Spectrophotometry",
+        "is_major": true,
+        "ui": "D013053"
+      },
+      {
+        "term": "Staining and Labeling",
+        "is_major": true,
+        "ui": "D013194"
+      },
+      {
+        "term": "Tolonium Chloride",
+        "is_major": true,
+        "ui": "D014048"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "SQUILL/therapeutic use",
+        "is_major": true
+      }
+    ],
+    "citations": [],
+    "text": "Non-chromotropic substances such as fibrin and gelatin and most tissue and cellular structures stain orthochromatically with internal dye concentrations of such metachromatic dyes as methylene blue and toluidine blue which, if in solution, would be metachromatic. Therefore, at ordinary levels of staining these substances depress the natural tendency of these dyes to change color. However, at elevated levels of dye-binding metachromasy eventually occurs. This phenomenon is explained on the basis of the distribution of dye-binding sites. In these substrates, by contrast with chromotropic substances, many binding sites are too far removed for dye interaction, consequently the interaction frequency can become high enough to produce a color change only as saturation of the available sites is approached. It is also shown that the destruction of color is a characteristic of metachromasy and that water molecules intercalated between approximated dye ions are responsible for the loss and change of color. A concept of metachromasy is proposed in which the interaction between water molecules and suitably approximated dye ions plays an essential role. The experimental studies are described against a background of the history and evolution of ideas on metachromasy. The literature is reviewed and reassessed particularly from the physicochemical viewpoint."
+  },
+  {
+    "rank": 9,
+    "score": 5.381918907165527,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 20643222,
+    "chunk_id": 20643222,
+    "pmid": "13404449",
+    "title": "Suppression of malaria with pyrimethamine in Nigerian schoolchildren.",
+    "year": 1956,
+    "journal": "Bulletin of the World Health Organization",
+    "authors": [
+      "H M ARCHIBALD",
+      "L J BRUCE-CHWATT"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Antimalarials",
+        "is_major": false,
+        "ui": "D000962"
+      },
+      {
+        "term": "Body Weight",
+        "is_major": true,
+        "ui": "D001835"
+      },
+      {
+        "term": "Child",
+        "is_major": false,
+        "ui": "D002648"
+      },
+      {
+        "term": "Drug Combinations",
+        "is_major": true,
+        "ui": "D004338"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Malaria",
+        "is_major": true,
+        "ui": "D008288"
+      },
+      {
+        "term": "Malaria, Falciparum",
+        "is_major": true,
+        "ui": "D016778"
+      },
+      {
+        "term": "Pyrimethamine",
+        "is_major": true,
+        "ui": "D011739"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "ANTIMALARIALS/therapeutic use",
+        "is_major": true
+      }
+    ],
+    "citations": [],
+    "text": "The authors describe a two-year investigation carried out on a group of Nigerian schoolchildren with the object of assessing the effect of suppressing malaria infection with pyrimethamine on the physical development of the African child. The results showed that the average gain in weight of the treated children over the period of the investigation was significantly greater than that of the untreated children. Despite the relatively high weekly dose of the drug no side-effects were observed, and no alarming manifestation of malaria was noted when administration of the drug was discontinued."
+  },
+  {
+    "rank": 10,
+    "score": 5.381918907165527,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 20642240,
+    "chunk_id": 20642240,
+    "pmid": "13638834",
+    "title": "Phenethylbiguanide in diabetic patients; clinical and metabolic effects.",
+    "year": 1959,
+    "journal": "California medicine",
+    "authors": [
+      "T H LAMBERT"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": true,
+        "ui": "D003924"
+      },
+      {
+        "term": "Diet, Diabetic",
+        "is_major": true,
+        "ui": "D003927"
+      },
+      {
+        "term": "Glycated Hemoglobin",
+        "is_major": true,
+        "ui": "D006442"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Insulin",
+        "is_major": true,
+        "ui": "D007328"
+      },
+      {
+        "term": "Male",
+        "is_major": false,
+        "ui": "D008297"
+      },
+      {
+        "term": "Nausea",
+        "is_major": true,
+        "ui": "D009325"
+      },
+      {
+        "term": "Obesity",
+        "is_major": true,
+        "ui": "D009765"
+      },
+      {
+        "term": "Phenformin",
+        "is_major": true,
+        "ui": "D010629"
+      },
+      {
+        "term": "Vomiting",
+        "is_major": true,
+        "ui": "D014839"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "ANTIDIABETICS/therapeutic use",
+        "is_major": true
+      }
+    ],
+    "citations": [],
+    "text": "Phenethylbiguanide (DBI) was given to 70 unselected but not obese diabetic patients who were receiving restricted diabetic diets. The only side effects attributed to the drug were anorexia, nausea, vomiting and diarrhea in 28 patients. These symptoms subsided with reduction of dosage. No evidence of serious toxicity has been demonstrated in clinical and metabolic studies. In 27 of the 70 patients diabetes was controlled adequately with DBI alone, and more stable control was obtained in 11 labile diabetics who received DBI in combination with insulin.The mechanism of action is not definitely known."
+  }
+]

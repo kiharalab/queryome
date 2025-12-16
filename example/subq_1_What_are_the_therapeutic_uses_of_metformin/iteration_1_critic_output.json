@@ -1,0 +1,51 @@
+{
+  "scores": [
+    {
+      "pmid": "36336804",
+      "relevance_score": 7,
+      "justification": "This article explores the potential use of metformin for cancer treatment, which is a significant therapeutic use beyond its primary indication for diabetes. It examines the mechanisms and effects in cancer settings, making it relevant to the broader question of therapeutic uses of metformin."
+    },
+    {
+      "pmid": "37567440",
+      "relevance_score": 9,
+      "justification": "This systematic review provides a comprehensive overview of the therapeutic uses of metformin across various conditions, not limited to diabetes. It covers a wide range of disorders and examines molecular mechanisms, making it highly relevant to the research question."
+    },
+    {
+      "pmid": "39595655",
+      "relevance_score": 6,
+      "justification": "While the focus is on anti-diabetic therapies including metformin in the context of cancer, the article provides insights into metformin's extended therapeutic potential in non-diabetes areas, albeit primarily cancer-focused."
+    },
+    {
+      "pmid": "31114366",
+      "relevance_score": 6,
+      "justification": "The article reviews metformin's role in cancer prevention and therapy, which is a secondary therapeutic use, but largely focuses on oncology, not covering the full spectrum of metformin's therapeutic uses."
+    },
+    {
+      "pmid": "39770443",
+      "relevance_score": 8,
+      "justification": "This article addresses various potential applications of metformin, such as anti-inflammatory, anti-cancer, and neuroprotective effects. It provides a broader perspective on repurposing metformin beyond diabetes treatment."
+    },
+    {
+      "pmid": "35267644",
+      "relevance_score": 5,
+      "justification": "Although the article discusses several therapeutic actions of metformin, it focuses primarily on cancer treatment. It offers insights into its potential applications but less about diverse therapeutic conditions."
+    },
+    {
+      "pmid": "36191545",
+      "relevance_score": 5,
+      "justification": "The focus here is on metformin's potential in treating neuropsychiatric conditions, which is a niche area of therapeutic use, but it does contribute to the understanding of its wider applications."
+    },
+    {
+      "pmid": "36474458",
+      "relevance_score": 6,
+      "justification": "This review identifies multiple potential applications of metformin such as in cancer, liver diseases, and cognitive impairments, making it relevant to exploring diverse therapeutic uses outside diabetes."
+    },
+    {
+      "pmid": "38555742",
+      "relevance_score": 7,
+      "justification": "This article highlights metformin's function as an anticancer agent and as an adjunct in combination therapy, which is useful information for understanding its therapeutic spectrum beyond diabetes."
+    }
+  ],
+  "decision": "CONTINUE",
+  "suggestion": "Continue searching for articles that explore metformin's use in other non-cancer areas such as cardiovascular, neurodegenerative diseases, or gastrointestinal health to provide a more comprehensive picture of its therapeutic versatility."
+}

@@ -1,0 +1,22 @@
+[2025-12-07T12:15:47.782931] Queryome CLI started - Log directory: /net/kihara/home/ppunuru/queryome_cli/logs/2025-12-07_12-15-47
+[2025-12-07T12:18:08.316893] [CLI] Single query mode: tell me about metformin
+[2025-12-07T12:18:08.318730] [PI] Starting research for query: 'tell me about metformin'
+[2025-12-07T12:18:08.321886] Saving text to logs/2025-12-07_12-15-47/pi_initial_prompt.txt
+[2025-12-07T12:18:08.327360] [PI] Calling gpt-4o for initial analysis...
+[2025-12-07T12:18:15.023391] [PI] Reasoning iteration 1
+[2025-12-07T12:18:15.025930] [PI] Executing function call 1: run_subagent_team
+[2025-12-07T12:18:15.027791] [PI] Function arguments: {'subquestions': ['What is the mechanism of action of metformin?', 'What are the therapeutic uses of metformin?', 'What are the common and serious side effects of metformin?', 'What are the latest research trends concerning metformin?']}
+[2025-12-07T12:18:15.031036] Saving JSON to logs/2025-12-07_12-15-47/pi_iteration_1_tool_call_2_run_subagent_team.json
+[2025-12-07T12:18:15.035517] [PI] Running subagent teams for 4 subquestions
+[2025-12-07T12:18:15.037055] [PI] Using 4 parallel workers
+[2025-12-07T12:22:03.908822] [PI] Collected 73 total articles from all subagent teams
+[2025-12-07T12:22:03.911670] [PI] Function run_subagent_team executed successfully
+[2025-12-07T12:22:03.913251] Saving JSON to logs/2025-12-07_12-15-47/pi_iteration_1_tool_result_2_run_subagent_team.json
+[2025-12-07T12:22:03.918494] [PI] Continuing reasoning with 1 function responses...
+[2025-12-07T12:22:11.134198] [PI] Reasoning iteration 2
+[2025-12-07T12:22:11.136798] [PI] No function calls found in response
+[2025-12-07T12:22:11.138434] [PI] No more function calls - research complete
+[2025-12-07T12:22:11.140984] Saving text to logs/2025-12-07_12-15-47/pi_final_answer_raw.txt
+[2025-12-07T12:22:11.160500] [PI] Citation processing complete
+[2025-12-07T12:22:11.162198] Saving text to logs/2025-12-07_12-15-47/pi_final_answer.txt
+[2025-12-07T12:22:11.167172] [CLI] Session ended

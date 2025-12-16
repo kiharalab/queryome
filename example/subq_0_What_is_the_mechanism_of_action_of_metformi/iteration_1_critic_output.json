@@ -1,0 +1,55 @@
+{
+  "scores": [
+    {
+      "pmid": "21677353",
+      "relevance_score": 10,
+      "justification": "This article specifically focuses on the mechanisms of action of metformin, detailing both known and newer insights related to its therapeutic effects on type 2 diabetes and beyond, such as its impact on glucose absorption, AMPK activation, and its distribution via transporters."
+    },
+    {
+      "pmid": "23582849",
+      "relevance_score": 10,
+      "justification": "The article covers the mechanism of action of metformin, with a focus on hepatic glucose production and AMPK's role, directly addressing the research question."
+    },
+    {
+      "pmid": "35067907",
+      "relevance_score": 9,
+      "justification": "Discusses metformin's action on meta-inflammation and inflammaging, including molecular mechanisms like AMPK activation, which is relevant but somewhat specialized compared to broader actions of metformin."
+    },
+    {
+      "pmid": "31439934",
+      "relevance_score": 10,
+      "justification": "This article delves into the glucoregulatory actions of metformin, particularly its effects on glucose production and energy metabolism, which are central to understanding its mechanism of action."
+    },
+    {
+      "pmid": "22117616",
+      "relevance_score": 9,
+      "justification": "The article provides an overview of cellular and molecular mechanisms of metformin, focusing on complex interactions and AMPK activation, relevant to the research question."
+    },
+    {
+      "pmid": "11602624",
+      "relevance_score": 9,
+      "justification": "Focuses on the role of AMPK in metformin's mechanism, offering insights into metabolic processes affected by metformin, directly relevant to the question."
+    },
+    {
+      "pmid": "35216316",
+      "relevance_score": 8,
+      "justification": "Proposes a novel mechanism involving cyclic PIP, contributing to the understanding of metformin's action, although more niche compared to established mechanisms."
+    },
+    {
+      "pmid": "32535544",
+      "relevance_score": 9,
+      "justification": "Discusses mechanisms related to mitochondria and leukocyte-endothelium interactions, broadening the understanding of metformin's effects beyond glucose regulation."
+    },
+    {
+      "pmid": "31693892",
+      "relevance_score": 8,
+      "justification": "Explores mitochondrial respiratory activity and AMPK activation by metformin, relevant to its mechanism but more focused on specific pathways."
+    },
+    {
+      "pmid": "35419709",
+      "relevance_score": 8,
+      "justification": "Covers AMPK-dependent pathways extensively, detailing how these relate to metformin's action in various diseases, relevant but perhaps less central in terms of diabetes-focused mechanisms."
+    }
+  ],
+  "decision": "STOP"
+}

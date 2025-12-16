@@ -1,0 +1,21 @@
+### Executive Summary
+
+Metformin is a widely used oral antidiabetic drug primarily prescribed for managing type 2 diabetes mellitus. While it is generally considered effective and safe, metformin can have common and serious side effects that affect patient tolerance and adherence. This report synthesizes findings from numerous studies to explore these side effects, focusing on gastrointestinal disturbances and lactic acidosis, among others.
+
+Gastrointestinal side effects are the most prevalent with metformin use, affecting a considerable percentage of patients. These effects include nausea, vomiting, diarrhea, abdominal pain, and bloating, often occurring at the outset of treatment but sometimes persisting over long-term therapy (PMID: 32738838; PMID: 35602825). The incidence and severity of these side effects can vary depending on the formulation used, with extended-release versions typically causing fewer gastrointestinal symptoms than immediate-release formulations (PMID: 28616428; PMID: 34075573).
+
+Lactic acidosis, although rare, remains the most serious potential side effect of metformin. It is particularly associated with underlying risk factors such as renal impairment, cardiovascular issues, and other comorbid conditions that predispose patients to reduced lactic clearance (PMID: 24502087; PMID: 24299454). The incidence of metformin-associated lactic acidosis is not significantly higher than with other antidiabetic medications but warrants caution and monitoring in high-risk groups (PMID: 21611624; PMID: 23742066).
+
+### Key Findings
+
+1. **Gastrointestinal Side Effects**: Nearly half of metformin users report gastrointestinal issues such as diarrhea, nausea, vomiting, and abdominal pain. These are common reasons for discontinuation of therapy (PMID: 32738838; PMID: 34075573).
+
+2. **Formulation Differences**: Extended-release formulations of metformin typically have a lower risk of gastrointestinal side effects compared to immediate-release versions (PMID: 28616428; PMID: 34075573).
+
+3. **Lactic Acidosis**: While rare, lactic acidosis is a severe side effect linked to metformin, predominantly in patients with predisposing conditions. The overall incidence is low but requires vigilance (PMID: 24502087; PMID: 21611624).
+
+4. **Other Side Effects**: Less common effects include insomnia and nightmares, which have been reported in isolated cases but remain poorly understood (PMID: 22701848; PMID: 36237763).
+
+### Main Conclusions
+
+The use of metformin, while effective, carries a risk profile dominated by common gastrointestinal disturbances and the remote but serious risk of lactic acidosis. These side effects underscore the importance of individualized risk assessment and choice of formulation to optimize adherence and therapeutic outcomes. For safe metformin use, especially in those at risk for lactic acidosis, regular monitoring and patient education about side effects are pivotal. Future research could focus on refining risk stratification and exploring mitigation tactics for gastrointestinal intolerance, such as adjunctive therapies or dietary modifications.

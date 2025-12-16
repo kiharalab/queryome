@@ -1,0 +1,734 @@
+{
+  "query": "metformin comprehensive reviews meta-analyses side effects clinical trials real-world evidence",
+  "search_type": "hybrid",
+  "parameters": {
+    "k": 10,
+    "alpha": 0.8
+  },
+  "results_count": 10,
+  "results": [
+    {
+      "rank": 1,
+      "score": 0.9078139181014324,
+      "search_type": "hybrid",
+      "vector_id": 6225503,
+      "chunk_id": 6225503,
+      "pmid": "33709434",
+      "title": "Metformin and health outcomes: An umbrella review of systematic reviews with meta-analyses.",
+      "year": 2021,
+      "journal": "European journal of clinical investigation",
+      "authors": [
+        "Xue Li",
+        "Stefano Celotto",
+        "Damiano Pizzol",
+        "Danijela Gasevic",
+        "Meng-Meng Ji",
+        "Tommaso Barnini",
+        "Marco Solmi",
+        "Brendon Stubbs",
+        "Lee Smith",
+        "Guillermo F López Sánchez",
+        "Gabriella Pesolillo",
+        "Zengli Yu",
+        "Ioanna Tzoulaki",
+        "Evropi Theodoratou",
+        "John P A Ioannidis",
+        "Nicola Veronese",
+        "Jacopo Demurtas"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Body Mass Index",
+          "is_major": false,
+          "ui": "D015992"
+        },
+        {
+          "term": "Cardiovascular Diseases",
+          "is_major": false,
+          "ui": "D002318"
+        },
+        {
+          "term": "Diabetes Mellitus, Type 1",
+          "is_major": false,
+          "ui": "D003922"
+        },
+        {
+          "term": "Diabetes Mellitus, Type 2",
+          "is_major": false,
+          "ui": "D003924"
+        },
+        {
+          "term": "Female",
+          "is_major": false,
+          "ui": "D005260"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Hypoglycemic Agents",
+          "is_major": false,
+          "ui": "D007004"
+        },
+        {
+          "term": "Infertility, Female",
+          "is_major": false,
+          "ui": "D007247"
+        },
+        {
+          "term": "Male",
+          "is_major": false,
+          "ui": "D008297"
+        },
+        {
+          "term": "Meta-Analysis as Topic",
+          "is_major": false,
+          "ui": "D015201"
+        },
+        {
+          "term": "Metformin",
+          "is_major": false,
+          "ui": "D008687"
+        },
+        {
+          "term": "Neoplasms",
+          "is_major": false,
+          "ui": "D009369"
+        },
+        {
+          "term": "Obesity",
+          "is_major": false,
+          "ui": "D009765"
+        },
+        {
+          "term": "Overweight",
+          "is_major": false,
+          "ui": "D050177"
+        },
+        {
+          "term": "Polycystic Ovary Syndrome",
+          "is_major": false,
+          "ui": "D011085"
+        },
+        {
+          "term": "Pregnancy",
+          "is_major": false,
+          "ui": "D011247"
+        },
+        {
+          "term": "Pregnancy Rate",
+          "is_major": false,
+          "ui": "D018873"
+        },
+        {
+          "term": "Protective Factors",
+          "is_major": false,
+          "ui": "D065840"
+        },
+        {
+          "term": "Systematic Reviews as Topic",
+          "is_major": false,
+          "ui": "D000078202"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "GRADE",
+          "is_major": false
+        },
+        {
+          "term": "meta-analysis",
+          "is_major": false
+        },
+        {
+          "term": "metformin",
+          "is_major": false
+        },
+        {
+          "term": "umbrella",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "BACKGROUND: The objective was to capture the breadth of outcomes that have been associated with metformin use and to systematically assess the quality, strength and credibility of these associations using the umbrella review methodology.\n\nMETHODS: Four major databases were searched until 31 May 2020. Meta-analyses of observational studies and meta-analyses of randomized controlled trials (RCTs) (including active and placebo control arms) were included.\n\nRESULTS: From 175 eligible publications, we identified 427 different meta-analyses, including 167 meta-analyses of observational studies, 147 meta-analyses of RCTs for metformin vs placebo/no treatment and 113 meta-analyses of RCTs for metformin vs active medications. There was no association classified as convincing or highly suggestive from meta-analyses of observational studies, but some suggestive/weak associations of metformin use with a lower mortality risk of CVD and cancer. In meta-analyses of RCTs, metformin was associated with a lower incidence of diabetes in people with prediabetes or no diabetes at baseline; lower ovarian hyperstimulation syndrome incidence (in women in controlled ovarian stimulation); higher success for clinical pregnancy rate in poly-cystic ovary syndrome (PCOS); and significant reduction in body mass index in people with type 1 diabetes mellitus, in women who have obesity/overweight with PCOS and in obese/overweight women. Of 175 publications, 166 scored as low or critically low quality per AMSTAR 2 criteria.\n\nCONCLUSIONS: Observational evidence on metformin seems largely unreliable. Randomized evidence shows benefits for preventing diabetes and in some gynaecological and obstetrical settings. However, almost all meta-analyses are of low or critically low quality according to AMSTAR 2 criteria."
+    },
+    {
+      "rank": 2,
+      "score": 0.8308033401865634,
+      "search_type": "hybrid",
+      "vector_id": 2736438,
+      "chunk_id": 2736438,
+      "pmid": "37900422",
+      "title": "The Effectiveness of Metformin in Diabetes Prevention: A Systematic Review and Meta-Analysis.",
+      "year": 2023,
+      "journal": "Cureus",
+      "authors": [
+        "Dhara Patel",
+        "Ismat E Ayesha",
+        "Neetha R Monson",
+        "Nimra Klair",
+        "Utkarsh Patel",
+        "Ayushi Saxena",
+        "Pousette Hamid"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        {
+          "term": "insulin resistance",
+          "is_major": false
+        },
+        {
+          "term": "metformin",
+          "is_major": false
+        },
+        {
+          "term": "pre-diabetes",
+          "is_major": false
+        },
+        {
+          "term": "prevention of diabetes",
+          "is_major": false
+        },
+        {
+          "term": "type 2 diabetes",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Diabetes mellitus is a growing global health concern, and prevention strategies play a crucial role in reducing its burden. Metformin has been widely studied as a potential intervention for diabetes prevention, but its overall effectiveness and impact on various populations remain unclear. This study aims to provide a comprehensive synthesis of the available evidence on the effectiveness of metformin in diabetes prevention. A systematic search was conducted in PubMed, Scopus, ScienceDirect, and Google Scholar for articles published from inception to June 2023. The reference lists of the included studies were also searched to retrieve possible additional studies. Any quantitative data were analyzed using Review Manager 5.4. A"
+    },
+    {
+      "rank": 3,
+      "score": 0.7290045402182015,
+      "search_type": "hybrid",
+      "vector_id": 3021998,
+      "chunk_id": 3021998,
+      "pmid": "37567440",
+      "title": "Extensive therapeutic effects, underlying molecular mechanisms and disease treatment prediction of Metformin: a systematic review.",
+      "year": 2024,
+      "journal": "Translational research : the journal of laboratory and clinical medicine",
+      "authors": [
+        "Yifei Geng",
+        "Zhen Wang",
+        "Xiaoyu Xu",
+        "Xiao Sun",
+        "Xi Dong",
+        "Yun Luo",
+        "Xiaobo Sun"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Metformin",
+          "is_major": true,
+          "ui": "D008687"
+        },
+        {
+          "term": "Diabetes Mellitus, Type 2",
+          "is_major": true,
+          "ui": "D003924"
+        },
+        {
+          "term": "Hypoglycemic Agents",
+          "is_major": false,
+          "ui": "D007004"
+        },
+        {
+          "term": "Gastrointestinal Microbiome",
+          "is_major": true,
+          "ui": "D000069196"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "Derivative",
+          "is_major": false
+        },
+        {
+          "term": "Disease",
+          "is_major": false
+        },
+        {
+          "term": "Metformin",
+          "is_major": false
+        },
+        {
+          "term": "Molecular mechanism",
+          "is_major": false
+        },
+        {
+          "term": "Systematic pharmacology",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Metformin (Met), a first-line management for type 2 diabetes mellitus, has been expansively employed and studied with results indicating its therapeutic potential extending beyond glycemic control. Beyond its established role, this therapeutic drug demonstrates a broad spectrum of action encompassing over 60 disorders, encompassing metabolic conditions, inflammatory disorders, carcinomas, cardiovascular diseases, and cerebrovascular pathologies. There is clear evidence of Met's action targeting specific nodes in the molecular pathways of these diseases and, intriguingly, interactions with the intestinal microbiota and epigenetic processes have been explored. Furthermore, novel Met derivatives with structural modifications tailored to diverse diseases have been synthesized and assessed. This manuscript proffers a comprehensive thematic review of the diseases amenable to Met treatment, elucidates their molecular mechanisms, and employs informatics technology to prospect future therapeutic applications of Met. These data and insights gleaned considerably contribute to enriching our understanding and appreciation of Met's far-reaching clinical potential and therapeutic applicability."
+    },
+    {
+      "rank": 4,
+      "score": 0.6138219104197007,
+      "search_type": "hybrid",
+      "vector_id": 6141178,
+      "chunk_id": 6141178,
+      "pmid": "33847633",
+      "title": "Effects of continuous use of metformin on cardiovascular outcomes in patients with type 2 diabetes after acute myocardial infarction: A protocol for systematic review and meta-analysis.",
+      "year": 2021,
+      "journal": "Medicine",
+      "authors": [
+        "Chuanwen Shen",
+        "Shuying Tan",
+        "Jun Yang"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Cardiovascular Diseases",
+          "is_major": false,
+          "ui": "D002318"
+        },
+        {
+          "term": "Clinical Trials as Topic",
+          "is_major": false,
+          "ui": "D002986"
+        },
+        {
+          "term": "Diabetes Mellitus, Type 2",
+          "is_major": false,
+          "ui": "D003924"
+        },
+        {
+          "term": "Glycated Hemoglobin",
+          "is_major": false,
+          "ui": "D006442"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Hypoglycemic Agents",
+          "is_major": false,
+          "ui": "D007004"
+        },
+        {
+          "term": "Metformin",
+          "is_major": false,
+          "ui": "D008687"
+        },
+        {
+          "term": "Myocardial Infarction",
+          "is_major": false,
+          "ui": "D009203"
+        },
+        {
+          "term": "Research Design",
+          "is_major": false,
+          "ui": "D012107"
+        },
+        {
+          "term": "Meta-Analysis as Topic",
+          "is_major": false,
+          "ui": "D015201"
+        },
+        {
+          "term": "Systematic Review as Topic",
+          "is_major": false,
+          "ui": "D000078202"
+        }
+      ],
+      "keywords": [],
+      "citations": [],
+      "text": "BACKGROUND: To our knowledge, no meta-analyses or reviews have investigated the efficacy and safety of metformin on cardiovascular outcomes after acute myocardial infarction (AMI) in patients with type 2 diabetes mellitus (T2DM). We thus conduct a high-quality systematic review and meta-analysis to assess the efficacy and safety of metformin on cardiovascular outcomes after AMI in patients with T2DM.\n\nMETHODS: In this systematic review and meta-analysis, we will search PUBMED, Scopus, EMBASE, and Cochrane Library databases through April, 2021. The study is structured to adhere to PRISMA guidelines (i.e., Preferred Reporting Items for Systematic Reviews and Meta-analyses). The literature search, data extraction, and quality assessments are conducted independently by 2 authors. Outcome measures include all-cause mortality; complications such as acute kidney injury, lactic acidosis, hospitalization for AMI or stroke, or death. Where disagreement in the collection of data occurs, this is resolved through discussion. Review Manager Software (v 5.3; Cochrane Collaboration) is used for the meta-analysis. Two independent reviewers will assess the risk of bias of the included studies at study level.\n\nRESULTS: It is hypothesized that metformin use at the post-AMI is associated with decreased risk of cardiovascular disease and death in patients with T2DM.\n\nCONCLUSIONS: This study expects to provide credible and scientific evidence for the efficacy and safety of metformin on cardiovascular outcomes after AMI in patients with T2DM.\n\nREGISTRATION NUMBER: 10.17605/OSF.IO/S3MBP."
+    },
+    {
+      "rank": 5,
+      "score": 0.5771377541177394,
+      "search_type": "hybrid",
+      "vector_id": 2633761,
+      "chunk_id": 2633761,
+      "pmid": "38021728",
+      "title": "Comparison of the Efficacy of Metformin and Lifestyle Modification for the Primary Prevention of Type 2 Diabetes: A Meta-Analysis of Randomized Controlled Trials.",
+      "year": 2023,
+      "journal": "Cureus",
+      "authors": [
+        "Jaahnavi Vajje",
+        "Saima Khan",
+        "Avneet Kaur",
+        "Heemali Kataria",
+        "Sahar Sarpoolaki",
+        "Aastha Goudel",
+        "Ali Hanif Bhatti",
+        "Danish Allahwala"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        {
+          "term": "lifestyle intervention",
+          "is_major": false
+        },
+        {
+          "term": "meta-analysis",
+          "is_major": false
+        },
+        {
+          "term": "metformin",
+          "is_major": false
+        },
+        {
+          "term": "prevention",
+          "is_major": false
+        },
+        {
+          "term": "type 2 diabetes",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "This meta-analysis aimed to compare the effectiveness of metformin versus lifestyle interventions in preventing diabetes in individuals with prediabetes. We followed the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidelines and conducted a comprehensive search of databases (PubMed, Cochrane Library, EMBASE) up to September 1, 2023. Five eligible studies were included. The results showed that there was no significant difference in the risk of developing diabetes between the metformin and lifestyle intervention groups (RR: 1.14, 95% CI: 0.77-1.68). Similarly, when comparing metformin with lifestyle intervention, the risk of diabetes was slightly higher in the metformin group, but this difference was not statistically significant (RR: 1.31, 95% CI: 0.93-1.86). When comparing metformin with lifestyle intervention to lifestyle intervention alone, no significant difference was observed in the incidence of diabetes (RR: 0.88, 95% CI: 0.74-1.04). In conclusion, our analysis found that the incidence of type 2 diabetes was slightly higher in patients receiving metformin alone compared to lifestyle intervention, but this difference did not reach statistical significance. Further trials are necessary to better evaluate these interventions for preventing type 2 diabetes in high-risk individuals."
+    },
+    {
+      "rank": 6,
+      "score": 0.564951183532196,
+      "search_type": "hybrid",
+      "vector_id": 19581304,
+      "chunk_id": 19581304,
+      "pmid": "16153370",
+      "title": "[Metformin for type-2 diabetes mellitus. Systematic review and meta-analysis].",
+      "year": 2005,
+      "journal": "Atencion primaria",
+      "authors": [
+        "A Sáenz Calvo",
+        "I Fernández Esteban",
+        "A Mataix Sanjuán",
+        "M Ausejo Segura",
+        "M Roqué",
+        "D Moher"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Adult",
+          "is_major": false,
+          "ui": "D000328"
+        },
+        {
+          "term": "Aged",
+          "is_major": false,
+          "ui": "D000368"
+        },
+        {
+          "term": "Chi-Square Distribution",
+          "is_major": false,
+          "ui": "D016009"
+        },
+        {
+          "term": "Cholesterol, LDL",
+          "is_major": false,
+          "ui": "D008078"
+        },
+        {
+          "term": "Confidence Intervals",
+          "is_major": false,
+          "ui": "D016001"
+        },
+        {
+          "term": "Diabetes Mellitus, Type 2",
+          "is_major": false,
+          "ui": "D003924"
+        },
+        {
+          "term": "Female",
+          "is_major": false,
+          "ui": "D005260"
+        },
+        {
+          "term": "Glycated Hemoglobin",
+          "is_major": false,
+          "ui": "D006442"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Hypoglycemic Agents",
+          "is_major": false,
+          "ui": "D007004"
+        },
+        {
+          "term": "Male",
+          "is_major": false,
+          "ui": "D008297"
+        },
+        {
+          "term": "Metformin",
+          "is_major": false,
+          "ui": "D008687"
+        },
+        {
+          "term": "Middle Aged",
+          "is_major": false,
+          "ui": "D008875"
+        },
+        {
+          "term": "Placebos",
+          "is_major": false,
+          "ui": "D010919"
+        },
+        {
+          "term": "Randomized Controlled Trials as Topic",
+          "is_major": false,
+          "ui": "D016032"
+        },
+        {
+          "term": "Risk",
+          "is_major": false,
+          "ui": "D012306"
+        },
+        {
+          "term": "Risk Factors",
+          "is_major": false,
+          "ui": "D012307"
+        },
+        {
+          "term": "Time Factors",
+          "is_major": false,
+          "ui": "D013997"
+        }
+      ],
+      "keywords": [],
+      "citations": [
+        {
+          "type": "CommentIn",
+          "source": "Aten Primaria. 2005 Sep 15;36(4):192-3. doi: 10.1157/13078604",
+          "pmid": "16153371"
+        }
+      ],
+      "text": "OBJECTIVE: To evaluate the efficacy of metformin against placebo, diet, oral anti-diabetics, or insulin in type 2 diabetes mellitus.\n\nDESIGN: Systematic review.\n\nDATA SOURCES: MEDLINE (1966-2003), EMBASE (1974-2003), LILACS (1986-2003), Cochrane library (Issue 3, 2003).\n\nSELECTION OF STUDIES: 29 randomized clinical trials of metformin in monotherapy, with results on mortality, morbidity, and biochemistry. EXTRACTION OF DATA: RevMan 4 computer program. Two reviewers extracted the data and evaluated the quality.\n\nMAIN VARIABLES: any clinical event related to diabetes (mortality, coronary disease, stroke, arterial disease, and retinopathy). Secondary variables: weight and biochemistry.\n\nRESULTS: 29 clinical studies with 37 comparisons of metformin were analyzed (13 with sulphonylureas, 12 with placebo, 3 with diet, 3 with thiazolidinediones, 2 with alpha-glucosidase inhibitors, 2 with insulin, and 2 with meglitinides). Metformin was more beneficial than the sulphonylureas or insulin for any clinical event associated with diabetes (relative risk [RR]=0.78; 95% confidence interval [CI], 0.65-0.94) and than diet (RR=0.74; 95% CI, 0.60-0.90). Metformin decreased glycosylated hemoglobin A1 (weighted mean difference, -1.21%; 95% CI, -1.48 to -0.94), low density lipoprotein cholesterol (weighted mean difference, -0.24; 95% CI, -0.40 to -0.09), and weight (standardized mean difference, -0.11; 95% CI, -0.18 to -0.04). Metformin was more beneficial than the placebo, diet or the thiazolidinediones on glycosylated hemoglobin A1, and than the sulphonylureas or insulin on weight.\n\nCONCLUSIONS: In the long term metformin reduces the risks of clinical events associated with diabetes. There are no long term clinical trials which compare alpha-glucosidase inhibitors, meglitinides, and thiazolidinediones with metformin, in primary results. The different treatments compared with metformin did not obtain more benefit for the secondary results evaluated."
+    },
+    {
+      "rank": 7,
+      "score": 0.5491466831844228,
+      "search_type": "hybrid",
+      "vector_id": 2719641,
+      "chunk_id": 2719641,
+      "pmid": "37881440",
+      "title": "Unveiling the potential pleiotropic effects of metformin in treating COVID-19: a comprehensive review.",
+      "year": 2023,
+      "journal": "Frontiers in molecular biosciences",
+      "authors": [
+        "Pavlo Petakh",
+        "Iryna Kamyshna",
+        "Aleksandr Kamyshnyi"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        {
+          "term": "coronavirus disease 2019",
+          "is_major": false
+        },
+        {
+          "term": "diabetes",
+          "is_major": false
+        },
+        {
+          "term": "dysbiosis",
+          "is_major": false
+        },
+        {
+          "term": "gut microbiota",
+          "is_major": false
+        },
+        {
+          "term": "metformin",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "This review article explores the potential of metformin, a medication commonly used for type 2 diabetes, as an antiviral and anti-inflammatory agent in the context of coronavirus disease 2019 (COVID-19). Metformin has demonstrated inhibitory effects on the growth of SARS-CoV-2 in cell culture models and has shown promising results in reducing viral load and achieving undetectable viral levels in clinical trials. Additionally, metformin exhibits anti-inflammatory properties by reducing the production of pro-inflammatory cytokines and modulating immune cell function, which may help prevent cytokine storms associated with severe COVID-19. The drug's ability to regulate the balance between pro-inflammatory Th17 cells and anti-inflammatory Treg cells suggests its potential in mitigating inflammation and restoring T cell functionality. Furthermore, metformin's modulation of the gut microbiota, particularly changes in bacterial taxa and the production of short-chain fatty acids, may contribute to its therapeutic effects. The interplay between metformin, bile acids, the gut microbiome, glucagon-like peptide-1 secretion, and glycemic control has implications for the management of diabetes and potential interventions in COVID-19. By refreshing the current evidence, this review highlights the potential of metformin as a therapeutic option in the management of COVID-19, while also exploring its effects on the gut microbiome and immunometabolism."
+    },
+    {
+      "rank": 8,
+      "score": 0.5485475993140153,
+      "search_type": "hybrid",
+      "vector_id": 6343919,
+      "chunk_id": 6343919,
+      "pmid": "33549430",
+      "title": "Effect of metformin on all-cause mortality and major adverse cardiovascular events: An updated meta-analysis of randomized controlled trials.",
+      "year": 2021,
+      "journal": "Nutrition, metabolism, and cardiovascular diseases : NMCD",
+      "authors": [
+        "Matteo Monami",
+        "Riccardo Candido",
+        "Basilio Pintaudi",
+        "Giovanni Targher",
+        "Edoardo Mannucci"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Cardiovascular Diseases",
+          "is_major": false,
+          "ui": "D002318"
+        },
+        {
+          "term": "Cause of Death",
+          "is_major": false,
+          "ui": "D002423"
+        },
+        {
+          "term": "Diabetes Mellitus, Type 2",
+          "is_major": false,
+          "ui": "D003924"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Hypoglycemic Agents",
+          "is_major": false,
+          "ui": "D007004"
+        },
+        {
+          "term": "Metformin",
+          "is_major": false,
+          "ui": "D008687"
+        },
+        {
+          "term": "Randomized Controlled Trials as Topic",
+          "is_major": false,
+          "ui": "D016032"
+        },
+        {
+          "term": "Risk Assessment",
+          "is_major": false,
+          "ui": "D018570"
+        },
+        {
+          "term": "Risk Factors",
+          "is_major": false,
+          "ui": "D012307"
+        },
+        {
+          "term": "Time Factors",
+          "is_major": false,
+          "ui": "D013997"
+        },
+        {
+          "term": "Treatment Outcome",
+          "is_major": false,
+          "ui": "D016896"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "Major cardiovascular events",
+          "is_major": false
+        },
+        {
+          "term": "Meta-analysis",
+          "is_major": false
+        },
+        {
+          "term": "Metformin",
+          "is_major": false
+        },
+        {
+          "term": "Mortality",
+          "is_major": false
+        },
+        {
+          "term": "Type 2 diabetes",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "AIMS: The Italian Society of Diabetology and the Italian Association of Clinical Diabetologists are developing new guidelines for drug treatment of type 2 diabetes. The effects of anti-hyperglycaemic drugs on all-cause mortality and major adverse cardiovascular events (MACEs) were included among the critical clinical outcomes. We have therefore carried out an updated meta-analysis on the effects of metformin on these outcomes.\n\nDATA SYNTHESIS: A MEDLINE and EMBASE search was performed to identify all randomized controlled trials (RCTs) with duration ≥52 weeks (published up to August 2020), in which metformin was compared with either placebo/no therapy or active comparators. MACEs (restricted for RCT reporting MACEs within their study endpoints) and all-cause mortality (irrespective of the inclusion of MACEs among the pre-specified endpoints) were considered as the primary endpoints. Mantel-Haenszel odds ratio (MH-OR) with 95% confidence interval was calculated for all endpoints considered. Metformin was associated with a nonsignificant reduction of all-cause mortality (n = 13 RCTs; MH-OR 0.80 [95% CI 0.60, 1.07]). However, this association became statistically significant after excluding RCTs comparing metformin with sulfonylureas, SGLT-2 inhibitors or GLP-1 analogues (MH-OR 0.71 [0.51, 0.99]). Metformin was associated with a lower risk of MACEs compared with comparator treatments (n = 2 RCTs; MH-OR 0.52 [0.37, 0.73]), p < 0.001. Similar results were obtained in a post-hoc analysis including all RCTs fulfilling criteria for inclusion in the analysis (MH-OR: 0.57 [0.42, 0.76]).\n\nCONCLUSIONS: This updated meta-analysis suggests that metfomin is significantly associated with lower risk of MACEs and tendentially lower all-cause mortality compared to placebo or other anti-hyperglycaemic drugs."
+    },
+    {
+      "rank": 9,
+      "score": 0.5351460894431459,
+      "search_type": "hybrid",
+      "vector_id": 28118097,
+      "chunk_id": 28118097,
+      "pmid": "40230880",
+      "title": "Potential Efficacy of Metformin for Age-Related Macular Degeneration: A Systematic Review and Meta-Analysis.",
+      "year": null,
+      "journal": "Ophthalmology science",
+      "authors": [
+        "Matthew D Huh",
+        "Simon N Le",
+        "Kieran S O'Brien",
+        "Jeremy D Keenan",
+        "Jay M Stewart"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        {
+          "term": "Age-related macular degeneration",
+          "is_major": false
+        },
+        {
+          "term": "Meta-analysis",
+          "is_major": false
+        },
+        {
+          "term": "Metformin",
+          "is_major": false
+        },
+        {
+          "term": "Systematic review",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Topic: Metformin, a widely used diabetes medication, has shown potential for treating age-related macular degeneration (AMD) due to its antioxidative, anti-inflammatory, and antiangiogenic properties. This study aims to systematically review and analyze the efficacy of metformin in reducing AMD prevalence.\n\nClinical Relevance: Metformin's potential to serve as a treatment for AMD could significantly reduce the burden of vision loss, offering a cost-effective and widely accessible solution.\n\nMethods: A systematic search was conducted in OVID Embase, OVID MEDLINE, Cochrane Library, and Web of Science databases on May 2, 2024. Both observational and interventional studies were included if they involved oral metformin use before AMD diagnosis. Data were extracted and analyzed using a random-effects model meta-analysis, with subgroup analyses based on study design, AMD subtype, sex, and metformin dosage.\n\nResults: Eighteen observational studies were identified, which together included a total of 2 683 234 individuals. Nine studies had a case-control design, 7 were retrospective cohort studies, and 2 were cross-sectional studies. The meta-analysis revealed a significant reduction in the odds of AMD among metformin users (pooled odds ratio [OR] = 0.86, 95% confidence interval = 0.79-0.93,\n\nConclusion: Although the current evidence suggests a potential protective role of metformin in AMD, all studies showing an effect of metformin have been observational and thus subject to bias. Randomized clinical trials are needed to determine the effectiveness of metformin for preventing the onset of AMD.\n\nFinancial Disclosures: Proprietary or commercial disclosure may be found in the Footnotes and Disclosures at the end of this article."
+    },
+    {
+      "rank": 10,
+      "score": 0.5351460894431459,
+      "search_type": "hybrid",
+      "vector_id": 28134516,
+      "chunk_id": 28134516,
+      "pmid": "40230880",
+      "title": "Potential Efficacy of Metformin for Age-Related Macular Degeneration: A Systematic Review and Meta-Analysis.",
+      "year": null,
+      "journal": "Ophthalmology science",
+      "authors": [
+        "Matthew D Huh",
+        "Simon N Le",
+        "Kieran S O'Brien",
+        "Jeremy D Keenan",
+        "Jay M Stewart"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        {
+          "term": "Age-related macular degeneration",
+          "is_major": false
+        },
+        {
+          "term": "Meta-analysis",
+          "is_major": false
+        },
+        {
+          "term": "Metformin",
+          "is_major": false
+        },
+        {
+          "term": "Systematic review",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Topic: Metformin, a widely used diabetes medication, has shown potential for treating age-related macular degeneration (AMD) due to its antioxidative, anti-inflammatory, and antiangiogenic properties. This study aims to systematically review and analyze the efficacy of metformin in reducing AMD prevalence.\n\nClinical Relevance: Metformin's potential to serve as a treatment for AMD could significantly reduce the burden of vision loss, offering a cost-effective and widely accessible solution.\n\nMethods: A systematic search was conducted in OVID Embase, OVID MEDLINE, Cochrane Library, and Web of Science databases on May 2, 2024. Both observational and interventional studies were included if they involved oral metformin use before AMD diagnosis. Data were extracted and analyzed using a random-effects model meta-analysis, with subgroup analyses based on study design, AMD subtype, sex, and metformin dosage.\n\nResults: Eighteen observational studies were identified, which together included a total of 2 683 234 individuals. Nine studies had a case-control design, 7 were retrospective cohort studies, and 2 were cross-sectional studies. The meta-analysis revealed a significant reduction in the odds of AMD among metformin users (pooled odds ratio [OR] = 0.86, 95% confidence interval = 0.79-0.93,\n\nConclusion: Although the current evidence suggests a potential protective role of metformin in AMD, all studies showing an effect of metformin have been observational and thus subject to bias. Randomized clinical trials are needed to determine the effectiveness of metformin for preventing the onset of AMD.\n\nFinancial Disclosures: Proprietary or commercial disclosure may be found in the Footnotes and Disclosures at the end of this article."
+    }
+  ]
+}

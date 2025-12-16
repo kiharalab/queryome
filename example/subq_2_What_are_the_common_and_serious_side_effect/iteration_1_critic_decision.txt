@@ -1,0 +1,106 @@
+{
+  "scores": [
+    {
+      "pmid": "24502087",
+      "relevance_score": 9,
+      "justification": "This article directly addresses lactic acidosis, a known serious side effect of metformin, and discusses multiple cases, circumstances leading to the side effect, and outcomes, making it highly relevant."
+    },
+    {
+      "pmid": "24299454",
+      "relevance_score": 8,
+      "justification": "This article provides a case study of lactic acidosis in a patient with type 2 diabetes on metformin, elaborating on risk factors and common adverse effects, aligning well with the research question."
+    },
+    {
+      "pmid": "11045134",
+      "relevance_score": 8,
+      "justification": "This article discusses common side effects of metformin, including nausea, abdominal pain, diarrhea, and serious but rare lactic acidosis, directly relevant to the research question."
+    },
+    {
+      "pmid": "32738838",
+      "relevance_score": 9,
+      "justification": "The study focuses on gastrointestinal side effects of metformin, which are very common, as well as the management and frequency, contributing valuable data for the research question."
+    },
+    {
+      "pmid": "21611624",
+      "relevance_score": 8,
+      "justification": "This article brings attention to the incidence of Metformin Associated Lactic Acidosis (MALA), which is a primary concern in the research question, hence quite relevant."
+    },
+    {
+      "pmid": "23742066",
+      "relevance_score": 6,
+      "justification": "The article focuses on metformin use in cases of suicide attempts and highlights lactic acidosis, but the context is more about overdose rather than therapeutic side effects, making it less relevant."
+    },
+    {
+      "pmid": "20045581",
+      "relevance_score": 5,
+      "justification": "While it discusses a case of liver injury, which is a less common side effect, it offers limited generalizable insight into common side effects of metformin in routine therapeutic use."
+    },
+    {
+      "pmid": "35602825",
+      "relevance_score": 7,
+      "justification": "This case report and review highlights lactic acidosis and common GI side effects of metformin, making it relevant to understanding both common and serious side effects."
+    },
+    {
+      "pmid": "22543254",
+      "relevance_score": 4,
+      "justification": "The article focuses on prescribing practices in the elderly and the tolerability of metformin despite contraindications. It indirectly addresses side effects but is not primarily focused on them."
+    },
+    {
+      "pmid": "24263160",
+      "relevance_score": 4,
+      "justification": "This article presents a rare case of liver injury associated with metformin and is less focused on the broader scope of common side effects."
+    },
+    {
+      "pmid": "37591450",
+      "relevance_score": 3,
+      "justification": "The article discusses metformin derivatives and their potential applications, which is not directly relevant to the common and serious side effects of metformin itself."
+    },
+    {
+      "pmid": "35330695",
+      "relevance_score": 3,
+      "justification": "This study focuses on metformin delivery methods for minimizing side effects, touching on drug administration rather than the side effects themselves, thus less directly relevant."
+    },
+    {
+      "pmid": "36852652",
+      "relevance_score": 2,
+      "justification": "The article focuses on metformin's use in radiation therapy, unrelated to the central theme of side effects in diabetes treatment."
+    },
+    {
+      "pmid": "31098946",
+      "relevance_score": 3,
+      "justification": "While it discusses metformin's protective roles against toxicities, it does not focus expressly on the side effects encountered in standard diabetic therapies."
+    },
+    {
+      "pmid": "32562114",
+      "relevance_score": 3,
+      "justification": "This article is unrelated to diabetes or metformin as it focuses on compounds for longevity with minimized side effects, thus not directly addressing metformin's side effects."
+    },
+    {
+      "pmid": "35115253",
+      "relevance_score": 4,
+      "justification": "Focuses more on prescribing trends and costs rather than detailing the side effects of metformin itself, thus less relevant to the research question."
+    },
+    {
+      "pmid": "38888389",
+      "relevance_score": 3,
+      "justification": "The study addresses risk minimization for various drugs, mentioning metformin among others, but it is not specifically focused on metformin side effects."
+    },
+    {
+      "pmid": "28463344",
+      "relevance_score": 5,
+      "justification": "Examines the potential role of metformin in preventing antipsychotic-induced weight gain, indirectly relevant as it discusses metformin use beyond its primary indication."
+    },
+    {
+      "pmid": "28361819",
+      "relevance_score": 2,
+      "justification": "Primarily focuses on pioglitazone in diabetes treatment, with little relevance to metformin side effects specifically."
+    },
+    {
+      "pmid": "36909343",
+      "relevance_score": 6,
+      "justification": "Investigates GI side effects of metformin and the potential role of prebiotics to mitigate these effects, which ties into common side effects of metformin."
+    }
+  ],
+  "decision": "CONTINUE",
+  "suggestion": "Focus on finding more comprehensive reviews or meta-analyses specifically covering a wide range of common and serious side effects of metformin, including both clinical trials and real-world evidence."
+}

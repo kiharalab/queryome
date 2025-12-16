@@ -1,0 +1,8 @@
+{
+  "name": "hybrid_search",
+  "arguments": {
+    "query": "therapeutic uses of metformin in gastrointestinal health",
+    "k": 10,
+    "alpha": 0.5
+  }
+}

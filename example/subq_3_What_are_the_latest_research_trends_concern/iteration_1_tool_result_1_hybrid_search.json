@@ -1,0 +1,662 @@
+{
+  "query": "latest research trends in metformin",
+  "search_type": "hybrid",
+  "parameters": {
+    "k": 10,
+    "alpha": 0.7
+  },
+  "results_count": 10,
+  "results": [
+    {
+      "rank": 1,
+      "score": 0.7027881204558222,
+      "search_type": "hybrid",
+      "vector_id": 3478104,
+      "chunk_id": 3478104,
+      "pmid": "37016064",
+      "title": "Molecular mechanisms of action of metformin: latest advances and therapeutic implications.",
+      "year": 2023,
+      "journal": "Clinical and experimental medicine",
+      "authors": [
+        "Hong Zhu",
+        "Zhenquan Jia",
+        "Yunbo Robert Li",
+        "Igor Danelisen"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Metformin",
+          "is_major": true,
+          "ui": "D008687"
+        },
+        {
+          "term": "Diabetes Mellitus, Type 2",
+          "is_major": true,
+          "ui": "D003924"
+        },
+        {
+          "term": "Hypoglycemic Agents",
+          "is_major": false,
+          "ui": "D007004"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "Cardiovascular disease",
+          "is_major": false
+        },
+        {
+          "term": "Diabetes",
+          "is_major": false
+        },
+        {
+          "term": "Inflammation",
+          "is_major": false
+        },
+        {
+          "term": "Metformin",
+          "is_major": false
+        },
+        {
+          "term": "Mitochondria",
+          "is_major": false
+        },
+        {
+          "term": "Redox signaling",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Metformin is among the most widely used antidiabetic drugs. Studies over the past few years have identified multiple novel molecular targets and pathways that metformin acts on to exert its beneficial effects in treating type 2 diabetes as well as other disorders involving dysregulated inflammation and redox homeostasis. In this mini-review, we discuss the latest cutting-edge research discoveries on novel molecular targets of metformin in glycemic control, cardiovascular protection, cancer intervention, anti-inflammation, antiaging, and weight control. Identification of these novel targets and pathways not only deepens our understanding of the molecular mechanisms by which metformin exerts diverse beneficial biological effects, but also provides opportunities for developing new mechanistically based drugs for human diseases."
+    },
+    {
+      "rank": 2,
+      "score": 0.7,
+      "search_type": "hybrid",
+      "vector_id": 3021998,
+      "chunk_id": 3021998,
+      "pmid": "37567440",
+      "title": "Extensive therapeutic effects, underlying molecular mechanisms and disease treatment prediction of Metformin: a systematic review.",
+      "year": 2024,
+      "journal": "Translational research : the journal of laboratory and clinical medicine",
+      "authors": [
+        "Yifei Geng",
+        "Zhen Wang",
+        "Xiaoyu Xu",
+        "Xiao Sun",
+        "Xi Dong",
+        "Yun Luo",
+        "Xiaobo Sun"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Metformin",
+          "is_major": true,
+          "ui": "D008687"
+        },
+        {
+          "term": "Diabetes Mellitus, Type 2",
+          "is_major": true,
+          "ui": "D003924"
+        },
+        {
+          "term": "Hypoglycemic Agents",
+          "is_major": false,
+          "ui": "D007004"
+        },
+        {
+          "term": "Gastrointestinal Microbiome",
+          "is_major": true,
+          "ui": "D000069196"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "Derivative",
+          "is_major": false
+        },
+        {
+          "term": "Disease",
+          "is_major": false
+        },
+        {
+          "term": "Metformin",
+          "is_major": false
+        },
+        {
+          "term": "Molecular mechanism",
+          "is_major": false
+        },
+        {
+          "term": "Systematic pharmacology",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Metformin (Met), a first-line management for type 2 diabetes mellitus, has been expansively employed and studied with results indicating its therapeutic potential extending beyond glycemic control. Beyond its established role, this therapeutic drug demonstrates a broad spectrum of action encompassing over 60 disorders, encompassing metabolic conditions, inflammatory disorders, carcinomas, cardiovascular diseases, and cerebrovascular pathologies. There is clear evidence of Met's action targeting specific nodes in the molecular pathways of these diseases and, intriguingly, interactions with the intestinal microbiota and epigenetic processes have been explored. Furthermore, novel Met derivatives with structural modifications tailored to diverse diseases have been synthesized and assessed. This manuscript proffers a comprehensive thematic review of the diseases amenable to Met treatment, elucidates their molecular mechanisms, and employs informatics technology to prospect future therapeutic applications of Met. These data and insights gleaned considerably contribute to enriching our understanding and appreciation of Met's far-reaching clinical potential and therapeutic applicability."
+    },
+    {
+      "rank": 3,
+      "score": 0.6717424157676891,
+      "search_type": "hybrid",
+      "vector_id": 1282831,
+      "chunk_id": 1282831,
+      "pmid": "39595655",
+      "title": "Anti-Diabetic Therapies and Cancer: From Bench to Bedside.",
+      "year": 2024,
+      "journal": "Biomolecules",
+      "authors": [
+        "Dimitris Kounatidis",
+        "Natalia G Vallianou",
+        "Irene Karampela",
+        "Eleni Rebelos",
+        "Marina Kouveletsou",
+        "Vasileios Dalopoulos",
+        "Petros Koufopoulos",
+        "Evanthia Diakoumopoulou",
+        "Nikolaos Tentolouris",
+        "Maria Dalamaga"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Neoplasms",
+          "is_major": true,
+          "ui": "D009369"
+        },
+        {
+          "term": "Hypoglycemic Agents",
+          "is_major": true,
+          "ui": "D007004"
+        },
+        {
+          "term": "Animals",
+          "is_major": false,
+          "ui": "D000818"
+        },
+        {
+          "term": "Metformin",
+          "is_major": false,
+          "ui": "D008687"
+        },
+        {
+          "term": "Diabetes Mellitus",
+          "is_major": false,
+          "ui": "D003920"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "GLP-1 receptor agonists",
+          "is_major": false
+        },
+        {
+          "term": "SGLT-2 inhibitors",
+          "is_major": false
+        },
+        {
+          "term": "cancer",
+          "is_major": false
+        },
+        {
+          "term": "chronic low-grade inflammation",
+          "is_major": false
+        },
+        {
+          "term": "diabetes mellitus",
+          "is_major": false
+        },
+        {
+          "term": "doxorubicin-induced cardiomyopathy",
+          "is_major": false
+        },
+        {
+          "term": "immune check point inhibitors",
+          "is_major": false
+        },
+        {
+          "term": "metformin",
+          "is_major": false
+        },
+        {
+          "term": "tirzepatide",
+          "is_major": false
+        },
+        {
+          "term": "tumor microenvironment",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Diabetes mellitus (DM) is a significant risk factor for various cancers, with the impact of anti-diabetic therapies on cancer progression differing across malignancies. Among these therapies, metformin has gained attention for its potential anti-cancer effects, primarily through modulation of the AMP-activated protein kinase/mammalian target of rapamycin (AMPK/mTOR) pathway and the induction of autophagy. Beyond metformin, other conventional anti-diabetic treatments, such as insulin, sulfonylureas (SUs), pioglitazone, and dipeptidyl peptidase-4 (DPP-4) inhibitors, have also been examined for their roles in cancer biology, though findings are often inconclusive. More recently, novel medications, like glucagon-like peptide-1 (GLP-1) receptor agonists, dual GLP-1/glucose-dependent insulinotropic polypeptide (GIP) agonists, and sodium-glucose co-transporter-2 (SGLT-2) inhibitors, have revolutionized DM management by not only improving glycemic control but also delivering substantial cardiovascular and renal benefits. Given their diverse metabolic effects, including anti-obesogenic properties, these novel agents are now under meticulous investigation for their potential influence on tumorigenesis and cancer advancement. This review aims to offer a comprehensive exploration of the evolving landscape of glucose-lowering treatments and their implications in cancer biology. It critically evaluates experimental evidence surrounding the molecular mechanisms by which these medications may modulate oncogenic signaling pathways and reshape the tumor microenvironment (TME). Furthermore, it assesses translational research and clinical trials to gauge the practical relevance of these findings in real-world settings. Finally, it explores the potential of anti-diabetic medications as adjuncts in cancer treatment, particularly in enhancing the efficacy of chemotherapy, minimizing toxicity, and addressing resistance within the framework of immunotherapy."
+    },
+    {
+      "rank": 4,
+      "score": 0.660199586727145,
+      "search_type": "hybrid",
+      "vector_id": 1242093,
+      "chunk_id": 1242093,
+      "pmid": "39669200",
+      "title": "Advancements in precision medicine: multi-omics approach for tailored metformin treatment in type 2 diabetes.",
+      "year": 2024,
+      "journal": "Frontiers in pharmacology",
+      "authors": [
+        "Najeha Rizwana Anwardeen",
+        "Khaled Naja",
+        "Mohamed A Elrayess"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        {
+          "term": "genomics",
+          "is_major": false
+        },
+        {
+          "term": "metabolomics",
+          "is_major": false
+        },
+        {
+          "term": "metformin",
+          "is_major": false
+        },
+        {
+          "term": "microbiomics",
+          "is_major": false
+        },
+        {
+          "term": "precision medicine",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Metformin has become the frontline treatment in addressing the significant global health challenge of type 2 diabetes due to its proven effectiveness in lowering blood glucose levels. However, the reality is that many patients struggle to achieve their glycemic targets with the medication and the cause behind this variability has not been investigated thoroughly. While genetic factors account for only about a third of this response variability, the potential influence of metabolomics and the gut microbiome on drug efficacy opens new avenues for investigation. This review explores the different molecular signatures to uncover how the complex interplay between genetics, metabolic profiles, and gut microbiota can shape individual responses to metformin. By highlighting the insights from recent studies and identifying knowledge gaps regarding metformin-microbiota interplay, we aim to highlight the path toward more personalized and effective diabetes management strategies and moving beyond the one-size-fits-all approach."
+    },
+    {
+      "rank": 5,
+      "score": 0.6489807081175528,
+      "search_type": "hybrid",
+      "vector_id": 5472728,
+      "chunk_id": 5472728,
+      "pmid": "34638615",
+      "title": "Metabolomic Approaches to Investigate the Effect of Metformin: An Overview.",
+      "year": 2021,
+      "journal": "International journal of molecular sciences",
+      "authors": [
+        "Hyun Woo Kim"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Animals",
+          "is_major": false,
+          "ui": "D000818"
+        },
+        {
+          "term": "Biomarkers",
+          "is_major": false,
+          "ui": "D015415"
+        },
+        {
+          "term": "Diabetes Mellitus, Type 2",
+          "is_major": false,
+          "ui": "D003924"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Hypoglycemic Agents",
+          "is_major": false,
+          "ui": "D007004"
+        },
+        {
+          "term": "Insulin Resistance",
+          "is_major": false,
+          "ui": "D007333"
+        },
+        {
+          "term": "Metabolic Networks and Pathways",
+          "is_major": false,
+          "ui": "D053858"
+        },
+        {
+          "term": "Metabolome",
+          "is_major": false,
+          "ui": "D055442"
+        },
+        {
+          "term": "Metabolomics",
+          "is_major": false,
+          "ui": "D055432"
+        },
+        {
+          "term": "Metformin",
+          "is_major": false,
+          "ui": "D008687"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "BCAAs",
+          "is_major": false
+        },
+        {
+          "term": "T2DM",
+          "is_major": false
+        },
+        {
+          "term": "TCA cycle",
+          "is_major": false
+        },
+        {
+          "term": "metabolome",
+          "is_major": false
+        },
+        {
+          "term": "metabolomics",
+          "is_major": false
+        },
+        {
+          "term": "metformin",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Metformin is the first-line antidiabetic drug that is widely used in the treatment of type 2 diabetes mellitus (T2DM). Even though the various therapeutic potential of metformin treatment has been reported, as well as the improvement of insulin sensitivity and glucose homeostasis, the mechanisms underlying those benefits are still not fully understood. In order to explain the beneficial effects on metformin treatment, various metabolomics analyses have been applied to investigate the metabolic alterations in response to metformin treatment, and significant systemic metabolome changes were observed in biofluid, tissues, and cells. In this review, we compare the latest metabolomic research including clinical trials, animal models, and in vitro studies comprehensively to understand the overall changes of metabolome on metformin treatment."
+    },
+    {
+      "rank": 6,
+      "score": 0.6374799562391875,
+      "search_type": "hybrid",
+      "vector_id": 2160792,
+      "chunk_id": 2160792,
+      "pmid": "38555742",
+      "title": "Metformin as anticancer agent and adjuvant in cancer combination therapy: Current progress and future prospect.",
+      "year": 2024,
+      "journal": "Translational oncology",
+      "authors": [
+        "Lin Zhu",
+        "Kaiqing Yang",
+        "Zhe Ren",
+        "Detao Yin",
+        "Yubing Zhou"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        {
+          "term": "Cancer",
+          "is_major": false
+        },
+        {
+          "term": "Chemotherapy",
+          "is_major": false
+        },
+        {
+          "term": "Combination therapy",
+          "is_major": false
+        },
+        {
+          "term": "Immunotherapy",
+          "is_major": false
+        },
+        {
+          "term": "Metformin",
+          "is_major": false
+        },
+        {
+          "term": "Radiotherapy",
+          "is_major": false
+        },
+        {
+          "term": "Targeted therapy",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Metformin, as the preferred antihyperglycemic drug for type 2 diabetes, has been found to have a significant effect in inhibiting tumor growth in recent years. However, metformin alone in cancer treatment has the disadvantages of high dose concentrations and few targeted cancer types. Increasing studies have confirmed that metformin can be used in combination with conventional anticancer therapy to obtain more promising clinical benefits, which is expected to be rapidly transformed and applied in clinic. Some combination therapy strategies including metformin combined with chemotherapy, radiotherapy, targeted therapy and immunotherapy have been proven to have more significant antitumor effects and longer survival time than monotherapy. In this review, we summarize the synergistic antitumor effects and mechanisms of metformin in combination with other current conventional anticancer therapies. In addition, we update the research progress and the latest prospect of the metformin-combined application in the cancer treatment. This work could provide more evidence and future direction for the clinical application of metformin in antitumor."
+    },
+    {
+      "rank": 7,
+      "score": 0.6151026741110024,
+      "search_type": "hybrid",
+      "vector_id": 1991950,
+      "chunk_id": 1991950,
+      "pmid": "38785784",
+      "title": "Metformin: From Diabetes to Cancer-Unveiling Molecular Mechanisms and Therapeutic Strategies.",
+      "year": 2024,
+      "journal": "Biology",
+      "authors": [
+        "Emilia Amengual-Cladera",
+        "Pere Miquel Morla-Barcelo",
+        "Andrea Morán-Costoya",
+        "Jorge Sastre-Serra",
+        "Daniel Gabriel Pons",
+        "Adamo Valle",
+        "Pilar Roca",
+        "Mercedes Nadal-Serrano"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        {
+          "term": "breast cancer",
+          "is_major": false
+        },
+        {
+          "term": "colorectal cancer",
+          "is_major": false
+        },
+        {
+          "term": "diabetes",
+          "is_major": false
+        },
+        {
+          "term": "metformin",
+          "is_major": false
+        },
+        {
+          "term": "mitochondria",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Metformin, a widely used anti-diabetic drug, has garnered attention for its potential in cancer management, particularly in breast and colorectal cancer. It is established that metformin reduces mitochondrial respiration, but its specific molecular targets within mitochondria vary. Proposed mechanisms include inhibiting mitochondrial respiratory chain Complex I and/or Complex IV, and mitochondrial glycerophosphate dehydrogenase, among others. These actions lead to cellular energy deficits, redox state changes, and several molecular changes that reduce hyperglycemia in type 2 diabetic patients. Clinical evidence supports metformin's role in cancer prevention in type 2 diabetes mellitus patients. Moreover, in these patients with breast and colorectal cancer, metformin consumption leads to an improvement in survival outcomes and prognosis. The synergistic effects of metformin with chemotherapy and immunotherapy highlights its potential as an adjunctive therapy for breast and colorectal cancer. However, nuanced findings underscore the need for further research and stratification by molecular subtype, particularly for breast cancer. This comprehensive review integrates metformin-related findings from epidemiological, clinical, and preclinical studies in breast and colorectal cancer. Here, we discuss current research addressed to define metformin's bioavailability and efficacy, exploring novel metformin-based compounds and drug delivery systems, including derivatives targeting mitochondria, combination therapies, and novel nanoformulations, showing enhanced anticancer effects."
+    },
+    {
+      "rank": 8,
+      "score": 0.5655025866490494,
+      "search_type": "hybrid",
+      "vector_id": 1797974,
+      "chunk_id": 1797974,
+      "pmid": "38984380",
+      "title": "Advances in metformin-delivery systems for diabetes and obesity management.",
+      "year": 2024,
+      "journal": "Diabetes, obesity & metabolism",
+      "authors": [
+        "Mehrnaz Abbasi",
+        "Braeden Heath",
+        "Lauren McGinness"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Metformin",
+          "is_major": true,
+          "ui": "D008687"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Drug Delivery Systems",
+          "is_major": true,
+          "ui": "D016503"
+        },
+        {
+          "term": "Hypoglycemic Agents",
+          "is_major": true,
+          "ui": "D007004"
+        },
+        {
+          "term": "Diabetes Mellitus, Type 2",
+          "is_major": true,
+          "ui": "D003924"
+        },
+        {
+          "term": "Obesity",
+          "is_major": true,
+          "ui": "D009765"
+        },
+        {
+          "term": "Obesity Management",
+          "is_major": false,
+          "ui": "D000073319"
+        },
+        {
+          "term": "Biological Availability",
+          "is_major": false,
+          "ui": "D001682"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "delivery systems",
+          "is_major": false
+        },
+        {
+          "term": "diabetes",
+          "is_major": false
+        },
+        {
+          "term": "metformin",
+          "is_major": false
+        },
+        {
+          "term": "microneedle",
+          "is_major": false
+        },
+        {
+          "term": "microparticles",
+          "is_major": false
+        },
+        {
+          "term": "nanoparticles",
+          "is_major": false
+        },
+        {
+          "term": "obesity",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Metformin is a medication that is commonly prescribed to manage type 2 diabetes. It has been used for more than 60 years and is highly effective in lowering blood glucose levels. Recent studies indicate that metformin may have additional medical benefits beyond treating diabetes, revealing its potential therapeutic uses. Oral medication is commonly used to administer metformin because of its convenience and cost-effectiveness. However, there are challenges in optimizing its effectiveness. Gastrointestinal side effects and limitations in bioavailability have led to the underutilization of metformin. Innovative drug-delivery systems such as fast-dissolving tablets, micro/nanoparticle formulations, hydrogel and microneedles have been explored to optimize metformin therapy. These strategies enhance metformin dosage, targeting, bioavailability and stability, and provide personalized treatment options for improved glucose homeostasis, antiobesity and metabolic health benefits. Developing new delivery systems for metformin shows potential for improving therapeutic outcomes, broadening its applications beyond diabetes management and addressing unmet medical needs in various clinical settings. However, it is important to improve drug-delivery systems, addressing issues such as complexity, cost, biocompatibility, stability during storage and transportation, loading capacity, required technologies and biomaterials, targeting precision and regulatory approval. Addressing these limitations is crucial for effective, safe and accessible drug delivery in clinical practice. In this review, recent advances in the development and application of metformin-delivery systems for diabetes and obesity are discussed."
+    },
+    {
+      "rank": 9,
+      "score": 0.5511039399787839,
+      "search_type": "hybrid",
+      "vector_id": 268169,
+      "chunk_id": 268169,
+      "pmid": "40058683",
+      "title": "Metformin's anticancer odyssey: Revealing multifaceted mechanisms across diverse neoplastic terrains- a critical review.",
+      "year": 2025,
+      "journal": "Biochimie",
+      "authors": [
+        "Rashmi Saxena Pal",
+        "Talha Jawaid",
+        "M A Rahman",
+        "Rakesh Verma",
+        "Pratap Kumar Patra",
+        "Sharma Vedika Vijaypal",
+        "Yogendra Pal",
+        "Rohit Upadhyay"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        {
+          "term": "Anti diabetic drug",
+          "is_major": false
+        },
+        {
+          "term": "Anticancer agent",
+          "is_major": false
+        },
+        {
+          "term": "Drug repurposing",
+          "is_major": false
+        },
+        {
+          "term": "Metformin",
+          "is_major": false
+        },
+        {
+          "term": "Molecular mechanisms",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Metformin, initially prescribed as an oral hypoglycemic medication for type 2 diabetes, has recently gained attention for its potential anticancer effects. Its history dates to 1918, when guanidine, a component of the traditional European herb Galega officinalis, was found to reduce glycemia. This review precisely examines the mechanisms underlying Metformin's anticancer effects across various neoplastic conditions. This investigation explores the complex interactions between metformin and major signaling pathways associated with carcinogenesis, including AMP-activated protein kinase (AMPK), mTOR, and insulin-like growth factor (IGF) pathways. The review emphasizes Metformin's diverse effects on angiogenesis, inflammation, apoptosis, and cellular metabolism in cancer cells. Additionally, new data on metformin's capacity to alter the tumor microenvironment and enhance immune surveillance systems against cancer are examined. The review underscores Metformin's potential for repurposing in oncology, emphasizing its clinical relevance as an adjuvant therapy for various cancers. The review provides insightful information about the complex anticancer mechanisms of metformin by combining data from preclinical and clinical studies. These findings not only broaden our knowledge of the effects of metformin but also open new avenues for oncology research and treatment developments."
+    },
+    {
+      "rank": 10,
+      "score": 0.5511039399787839,
+      "search_type": "hybrid",
+      "vector_id": 28187322,
+      "chunk_id": 28187322,
+      "pmid": "40058683",
+      "title": "Metformin's anticancer odyssey: Revealing multifaceted mechanisms across diverse neoplastic terrains- a critical review.",
+      "year": 2025,
+      "journal": "Biochimie",
+      "authors": [
+        "Rashmi Saxena Pal",
+        "Talha Jawaid",
+        "M A Rahman",
+        "Rakesh Verma",
+        "Pratap Kumar Patra",
+        "Sharma Vedika Vijaypal",
+        "Yogendra Pal",
+        "Rohit Upadhyay"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        {
+          "term": "Anti diabetic drug",
+          "is_major": false
+        },
+        {
+          "term": "Anticancer agent",
+          "is_major": false
+        },
+        {
+          "term": "Drug repurposing",
+          "is_major": false
+        },
+        {
+          "term": "Metformin",
+          "is_major": false
+        },
+        {
+          "term": "Molecular mechanisms",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Metformin, initially prescribed as an oral hypoglycemic medication for type 2 diabetes, has recently gained attention for its potential anticancer effects. Its history dates to 1918, when guanidine, a component of the traditional European herb Galega officinalis, was found to reduce glycemia. This review precisely examines the mechanisms underlying Metformin's anticancer effects across various neoplastic conditions. This investigation explores the complex interactions between metformin and major signaling pathways associated with carcinogenesis, including AMP-activated protein kinase (AMPK), mTOR, and insulin-like growth factor (IGF) pathways. The review emphasizes Metformin's diverse effects on angiogenesis, inflammation, apoptosis, and cellular metabolism in cancer cells. Additionally, new data on metformin's capacity to alter the tumor microenvironment and enhance immune surveillance systems against cancer are examined. The review underscores Metformin's potential for repurposing in oncology, emphasizing its clinical relevance as an adjuvant therapy for various cancers. The review provides insightful information about the complex anticancer mechanisms of metformin by combining data from preclinical and clinical studies. These findings not only broaden our knowledge of the effects of metformin but also open new avenues for oncology research and treatment developments."
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "hybrid_search",
+  "arguments": {
+    "query": "common and serious side effects of metformin",
+    "k": 10,
+    "alpha": 0.5
+  }
+}

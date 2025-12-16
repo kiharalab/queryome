@@ -1,0 +1,107 @@
+
+{
+    "scores": [
+        {
+            "pmid": "36449193",
+            "relevance_score": 3,
+            "justification": "This article discusses severe adverse reactions broadly, using a pharmacovigilance program methodology, but does not specifically address metformin or its side effects."
+        },
+        {
+            "pmid": "27476310",
+            "relevance_score": 2,
+            "justification": "The focus here is on the principles of pharmacoepidemiology and pharmacovigilance without specific details on metformin's side effects."
+        },
+        {
+            "pmid": "34376366",
+            "relevance_score": 2,
+            "justification": "This article examines prescription sequence symmetry analysis in pharmacovigilance, not directly related to metformin or its side effects."
+        },
+        {
+            "pmid": "23640186",
+            "relevance_score": 2,
+            "justification": "The article provides an overview of pharmacovigilance evolution but does not focus on metformin."
+        },
+        {
+            "pmid": "28645716",
+            "relevance_score": 1,
+            "justification": "This article is about vaccine safety surveillance and unrelated to metformin or its side effects."
+        },
+        {
+            "pmid": "34376366",
+            "relevance_score": 2,
+            "justification": "Despite examining pharmacovigilance tools, this article doesn't specifically cover metformin's side effects."
+        },
+        {
+            "pmid": "37387038",
+            "relevance_score": 1,
+            "justification": "Focuses on pharmacovigilance software systems with no specific mention of metformin."
+        },
+        {
+            "pmid": "30822263",
+            "relevance_score": 1,
+            "justification": "Concerns biomarkers in clinical trials unrelated to metformin-specific data."
+        },
+        {
+            "pmid": "38269492",
+            "relevance_score": 10,
+            "justification": "This article directly analyzes metformin's adverse event profile using the FDA's database, making it highly relevant."
+        },
+        {
+            "pmid": "27697815",
+            "relevance_score": 2,
+            "justification": "A general discussion on adverse drug reactions without specific focus on metformin."
+        },
+        {
+            "pmid": "28066120",
+            "relevance_score": 1,
+            "justification": "Focuses on pemetrexed-induced edema and doesn't relate to metformin side effects."
+        },
+        {
+            "pmid": "22701848",
+            "relevance_score": 8,
+            "justification": "Discusses sleep disorders as a side effect of metformin, relevant to the research question."
+        },
+        {
+            "pmid": "32190229",
+            "relevance_score": 1,
+            "justification": "Relates to glutamine supplements and not metformin."
+        },
+        {
+            "pmid": "38110265",
+            "relevance_score": 1,
+            "justification": "Discusses adverse drug reactions in children under tuberculosis treatment, not related to metformin."
+        },
+        {
+            "pmid": "25937541",
+            "relevance_score": 7,
+            "justification": "Addresses gastrointestinal side effects related to diabetes treatment with metformin included, though not its main focus."
+        },
+        {
+            "pmid": "31908540",
+            "relevance_score": 1,
+            "justification": "Focuses on ACE-inhibitor related angioedema and lacking relevance to metformin."
+        },
+        {
+            "pmid": "32092786",
+            "relevance_score": 1,
+            "justification": "Discusses statistical methods for ADR detection generally without focus on metformin."
+        },
+        {
+            "pmid": "36450560",
+            "relevance_score": 1,
+            "justification": "Addresses COVID-19 vaccine reactions without discussing metformin."
+        },
+        {
+            "pmid": "26104729",
+            "relevance_score": 9,
+            "justification": "Focuses on adverse events related to metformin, especially lactic acidosis, relevant to the research question."
+        },
+        {
+            "pmid": "36992288",
+            "relevance_score": 1,
+            "justification": "Examines COVID-19 vaccine side effects, not related to metformin."
+        }
+    ],
+    "decision": "CONTINUE",
+    "suggestion": "Focus the search on articles specifically discussing 'metformin side effects' or 'metformin adverse reactions' to find more targeted studies and reports."
+}

@@ -1,0 +1,2426 @@
+SYSTEM: 
+You are a research critic agent. Your task is to evaluate the relevance of the following articles to the research question.
+For each article, provide a relevance score from 1 to 10 (1 = not relevant, 10 = highly relevant) and a brief justification.
+Also, provide an overall assessment: should we continue searching or stop?
+
+Respond in JSON format with two keys: "scores" and "decision".
+- "scores": a list of objects, each with "pmid", "relevance_score", and "justification".
+- "decision": either "CONTINUE" or "STOP". If continuing, add a "suggestion" key with ideas for the next search.
+
+USER: 
+Research Question: "What are the therapeutic uses of metformin?"
+
+Articles to evaluate:
+[
+  {
+    "rank": 1,
+    "score": 0.8156887401319974,
+    "search_type": "hybrid",
+    "vector_id": 4249446,
+    "chunk_id": 4249446,
+    "pmid": "36052760",
+    "title": "Protective effects of metformin in various cardiovascular diseases: Clinical evidence and AMPK-dependent mechanisms.",
+    "year": 2022,
+    "journal": "Journal of cellular and molecular medicine",
+    "authors": [
+      "Yizhi Bu",
+      "Mei Peng",
+      "Xinyi Tang",
+      "Xu Xu",
+      "Yifeng Wu",
+      "Alex F Chen",
+      "Xiaoping Yang"
+    ],
+    "mesh_terms": [
+      {
+        "term": "AMP-Activated Protein Kinases",
+        "is_major": false,
+        "ui": "D055372"
+      },
+      {
+        "term": "Cardiovascular Diseases",
+        "is_major": true,
+        "ui": "D002318"
+      },
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": true,
+        "ui": "D003924"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "cardiovascular diseases",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "protective effect",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Metformin, a well-known AMPK agonist, has been widely used as the first-line drug for treating type 2 diabetes. There had been a significant concern regarding the use of metformin in people with cardiovascular diseases (CVDs) due to its potential lactic acidosis side effect. Currently growing clinical and preclinical evidence indicates that metformin can lower the incidence of cardiovascular events in diabetic patients or even non-diabetic patients beyond its hypoglycaemic effects. The underlying mechanisms of cardiovascular benefits of metformin largely involve the cellular energy sensor, AMPK, of which activation corrects endothelial dysfunction, reduces oxidative stress and improves inflammatory response. In this minireview, we summarized the clinical evidence of metformin benefits in several widely studied cardiovascular diseases, such as atherosclerosis, ischaemic/reperfusion injury and arrhythmia, both in patients with or without diabetes. Meanwhile, we highlighted the potential AMPK-dependent mechanisms in in vitro and/or in vivo models."
+  },
+  {
+    "rank": 2,
+    "score": 0.8088490635313986,
+    "search_type": "hybrid",
+    "vector_id": 12533573,
+    "chunk_id": 12533573,
+    "pmid": "25762117",
+    "title": "Novel therapeutic targets of metformin: metabolic syndrome and cardiovascular disease.",
+    "year": 2015,
+    "journal": "Expert opinion on therapeutic targets",
+    "authors": [
+      "Ricardo Ladeiras-Lopes",
+      "Ricardo Fontes-Carvalho",
+      "Nuno Bettencourt",
+      "Francisco Sampaio",
+      "Vasco Gama",
+      "Adelino Leite-Moreira"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Animals",
+        "is_major": false,
+        "ui": "D000818"
+      },
+      {
+        "term": "Cardiovascular Diseases",
+        "is_major": false,
+        "ui": "D002318"
+      },
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": false,
+        "ui": "D003924"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Insulin Resistance",
+        "is_major": false,
+        "ui": "D007333"
+      },
+      {
+        "term": "Metabolic Syndrome",
+        "is_major": false,
+        "ui": "D024821"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Molecular Targeted Therapy",
+        "is_major": false,
+        "ui": "D058990"
+      },
+      {
+        "term": "Myocardial Reperfusion Injury",
+        "is_major": false,
+        "ui": "D015428"
+      },
+      {
+        "term": "Prediabetic State",
+        "is_major": false,
+        "ui": "D011236"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "cardiovascular disease",
+        "is_major": false
+      },
+      {
+        "term": "heart failure",
+        "is_major": false
+      },
+      {
+        "term": "ischemic heart disease",
+        "is_major": false
+      },
+      {
+        "term": "metabolic syndrome",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "INTRODUCTION: Metformin is a widely used drug in the treatment of type 2 diabetes mellitus (T2DM). However, it is becoming an attractive drug to manage patients with pre-diabetes and to possibly prevent cardiac remodeling and fibrosis and heart failure.\n\nAREAS COVERED: In this review, we highlight the novel therapeutic targets of metformin with a special emphasis on cardiovascular disease. We discuss its key mechanisms of action and new signaling pathways that could partially account for its effect. Furthermore, metformin's role in the management of patients with metabolic syndrome is debated, emphasizing its potential to prevent diabetic heart disease. On the other hand, intense research is ongoing to clarify if metformin will be a future drug to target ischemia-reperfusion injury in the setting of myocardial ischemia.\n\nEXPERT OPINION: In the following years, one should look carefully at basic science results to successfully design and conduct clinical trials, emphasizing patients without full-blown T2DM, but who otherwise might have increased insulin resistance. Topics such as the prevention of cardiac fibrosis and heart failure with preserved ejection fraction, the attenuation of ischemia-reperfusion injury on an acute coronary syndrome and the post-myocardial infarction left ventricle remodeling surely deserve a special interest and should be faced as potential therapeutic targets for metformin."
+  },
+  {
+    "rank": 3,
+    "score": 0.80822901380623,
+    "search_type": "hybrid",
+    "vector_id": 8418809,
+    "chunk_id": 8418809,
+    "pmid": "31029144",
+    "title": "Metformin in patients with and without diabetes: a paradigm shift in cardiovascular disease management.",
+    "year": 2019,
+    "journal": "Cardiovascular diabetology",
+    "authors": [
+      "Fei Luo",
+      "Avash Das",
+      "Jingfei Chen",
+      "Panyun Wu",
+      "Xiangping Li",
+      "Zhenfei Fang"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Animals",
+        "is_major": false,
+        "ui": "D000818"
+      },
+      {
+        "term": "Biomarkers",
+        "is_major": false,
+        "ui": "D015415"
+      },
+      {
+        "term": "Blood Glucose",
+        "is_major": false,
+        "ui": "D001786"
+      },
+      {
+        "term": "Cardiovascular Agents",
+        "is_major": false,
+        "ui": "D002317"
+      },
+      {
+        "term": "Cardiovascular Diseases",
+        "is_major": false,
+        "ui": "D002318"
+      },
+      {
+        "term": "Clinical Decision-Making",
+        "is_major": false,
+        "ui": "D000066491"
+      },
+      {
+        "term": "Diabetes Mellitus",
+        "is_major": false,
+        "ui": "D003920"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Risk Factors",
+        "is_major": false,
+        "ui": "D012307"
+      },
+      {
+        "term": "Treatment Outcome",
+        "is_major": false,
+        "ui": "D016896"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Atherosclerosis",
+        "is_major": false
+      },
+      {
+        "term": "Coronary artery disease",
+        "is_major": false
+      },
+      {
+        "term": "Diabetes mellitus",
+        "is_major": false
+      },
+      {
+        "term": "Metformin",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "With an increasing global burden of coronary artery disease (CAD), early detection and timely management of risk factors are crucial to reduce morbidity and mortality in such patients. Diabetes mellitus (DM) is considered an independent risk factor for the development of CAD. Metformin, an anti-diabetic drug, has been shown in pre-clinical and clinical studies, to lower the cardiovascular events in the DM patients. Growing evidence suggests that metformin has a protective effect on coronary artery beyond its hypoglycemic effects. Given its global availability, route of administration and cost, metformin provides an alternate/additional therapeutic option for primary and secondary prevention of CAD in DM and non-diabetics alike. Future prospective cohort-based studies and randomized clinical trials are needed to identify 'at-risk' population who may potentially benefit from metformin."
+  },
+  {
+    "rank": 4,
+    "score": 0.7220759973056714,
+    "search_type": "hybrid",
+    "vector_id": 4270197,
+    "chunk_id": 4270197,
+    "pmid": "36077136",
+    "title": "From Diabetes to Atherosclerosis: Potential of Metformin for Management of Cardiovascular Disease.",
+    "year": 2022,
+    "journal": "International journal of molecular sciences",
+    "authors": [
+      "Anastasia V Poznyak",
+      "Larisa Litvinova",
+      "Paolo Poggio",
+      "Donato Moschetta",
+      "Vasily Nikolaevich Sukhorukov",
+      "Alexander N Orekhov"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Atherosclerosis",
+        "is_major": true,
+        "ui": "D050197"
+      },
+      {
+        "term": "Cardiovascular Diseases",
+        "is_major": true,
+        "ui": "D002318"
+      },
+      {
+        "term": "Diabetes Mellitus",
+        "is_major": true,
+        "ui": "D003920"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Oxidative Stress",
+        "is_major": false,
+        "ui": "D018384"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "atherosclerosis",
+        "is_major": false
+      },
+      {
+        "term": "cardiovascular disease",
+        "is_major": false
+      },
+      {
+        "term": "lipid",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Atherosclerosis is a common cause of cardiovascular disease, which, in turn, is often fatal. Today, we know a lot about the pathogenesis of atherosclerosis. However, the main knowledge is that the disease is extremely complicated. The development of atherosclerosis is associated with more than one molecular mechanism, each making a significant contribution. These mechanisms include endothelial dysfunction, inflammation, mitochondrial dysfunction, oxidative stress, and lipid metabolism disorders. This complexity inevitably leads to difficulties in treatment and prevention. One of the possible therapeutic options for atherosclerosis and its consequences may be metformin, which has already proven itself in the treatment of diabetes. Both diabetes and atherosclerosis are complex metabolic diseases, the pathogenesis of which involves many different mechanisms, including those common to both diseases. This makes metformin a suitable candidate for investigating its efficacy in cardiovascular disease. In this review, we highlight aspects such as the mechanisms of action and targets of metformin, in addition to summarizing the available data from clinical trials on the effective reduction of cardiovascular risks."
+  },
+  {
+    "rank": 5,
+    "score": 0.7213414430415032,
+    "search_type": "hybrid",
+    "vector_id": 13948934,
+    "chunk_id": 13948934,
+    "pmid": "24007890",
+    "title": "Evaluating the potential benefits of metformin in patients with cardiovascular disease and heart failure.",
+    "year": 2013,
+    "journal": "The Consultant pharmacist : the journal of the American Society of Consultant Pharmacists",
+    "authors": [
+      "Daryn K Norwood",
+      "Allison A Chilipko",
+      "Shril M Amin",
+      "David Macharia",
+      "Kimberly L Still"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Cardiovascular Diseases",
+        "is_major": false,
+        "ui": "D002318"
+      },
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": false,
+        "ui": "D003924"
+      },
+      {
+        "term": "Heart Failure",
+        "is_major": false,
+        "ui": "D006333"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Randomized Controlled Trials as Topic",
+        "is_major": false,
+        "ui": "D016032"
+      }
+    ],
+    "keywords": [],
+    "citations": [],
+    "text": "OBJECTIVE: To examine the safety and potential benefits of metformin in diabetic patients with cardiovascular (CV) disease and heart failure (HF).\n\nDATA SOURCES: Searches of MEDLINE and International Pharmaceutical Abstracts (1966-August 2012). Search terms included metformin, lactic acidosis, cardiovascular disease, diabetes, heart failure, and clinical trials.\n\nSTUDY SELECTION AND DATA EXTRACTION: Published studies and case reports that were chosen for inclusion evaluated the benefit and safety of metformin in patients with diabetes with CV disease and HF.\n\nDATA SYNTHESIS: Case reports and retrospective trials have failed to illustrate an association with metformin use and lactic acidosis in patients with HF or cardiac disease. In fact, the evidence has suggested that these patients may actually benefit from the use of metformin.\n\nCONCLUSIONS: Results from recent trials have evaluated the potential clinical advantages of metformin in patients with cardiac disease and HF. These studies have illustrated a favorable morbidity and mortality profile for the use of metformin in these patient populations. While large prospective trials are still needed to display conclusive evidence, the recent clinical trials suggest a benefit in areas where metformin use has previously been discouraged."
+  },
+  {
+    "rank": 6,
+    "score": 0.6748254883374358,
+    "search_type": "hybrid",
+    "vector_id": 12126809,
+    "chunk_id": 12126809,
+    "pmid": "26271457",
+    "title": "The pleiotropic effects of metformin: time for prospective studies.",
+    "year": 2015,
+    "journal": "Cardiovascular diabetology",
+    "authors": [
+      "Daniel I Bromage",
+      "Derek M Yellon"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Animals",
+        "is_major": false,
+        "ui": "D000818"
+      },
+      {
+        "term": "Biomarkers",
+        "is_major": false,
+        "ui": "D015415"
+      },
+      {
+        "term": "Blood Glucose",
+        "is_major": false,
+        "ui": "D001786"
+      },
+      {
+        "term": "Cardiovascular Diseases",
+        "is_major": false,
+        "ui": "D002318"
+      },
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": false,
+        "ui": "D003924"
+      },
+      {
+        "term": "Evidence-Based Medicine",
+        "is_major": false,
+        "ui": "D019317"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Risk Assessment",
+        "is_major": false,
+        "ui": "D018570"
+      },
+      {
+        "term": "Risk Factors",
+        "is_major": false,
+        "ui": "D012307"
+      },
+      {
+        "term": "Treatment Outcome",
+        "is_major": false,
+        "ui": "D016896"
+      }
+    ],
+    "keywords": [],
+    "citations": [],
+    "text": "The global prevalence of diabetes has risen to epidemic proportions and the trend is predicted to continue. The consequent burden of cardiovascular morbidity and mortality is a major public health concern and new treatments are required to mitigate the deleterious effects of cardiovascular disease in diabetic patients. Ischaemia-reperfusion injury is well known to exacerbate the harmful effects of acute myocardial infarction and subsequent therapeutic reperfusion, and several mechanical and pharmacological approaches to mitigating this injury have been investigated. Metformin, which is cheap, relatively safe and widely used in type 2 diabetes, is one such pharmacotherapy with considerable pre-clinical evidence for cardioprotective utility beyond its glucose-lowering effect. However, despite convincing basic evidence its translation to clinical application has largely been limited to studies of cardiovascular risk. There are several barriers to prospective randomized assessment in the context of acute myocardial infarction, not least the accessibility and already widespread use of metformin among patients with type 2 diabetes at high risk of cardiovascular events. In the place of class 1 evidence, well-designed prospective cohort studies of the potential pleiotropic utility of metformin in cardiovascular disease, and particularly its benefit in ischaemia-reperfusion injury, are needed. Given the availability of metformin worldwide, this is particularly true in low- and middle-income countries where the optimal therapy for acute myocardial infarction, primary percutaneous coronary intervention, may not be available, and instead patients are managed with thrombolysis. As this is less effective, metformin as an adjunct to thrombolysis (or PPCI) could represent an effective, cheap means of cardioprotection with global relevance."
+  },
+  {
+    "rank": 7,
+    "score": 0.661943123202881,
+    "search_type": "hybrid",
+    "vector_id": 5137470,
+    "chunk_id": 5137470,
+    "pmid": "35032305",
+    "title": "Association of Metformin with the Mortality and Incidence of Cardiovascular Events in Patients with Pre-existing Cardiovascular Diseases.",
+    "year": 2022,
+    "journal": "Drugs",
+    "authors": [
+      "Tian Li",
+      "Rui Providencia",
+      "Wenhua Jiang",
+      "Manling Liu",
+      "Lu Yu",
+      "Chunhu Gu",
+      "Alex Chia Yu Chang",
+      "Heng Ma"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Cardiovascular Diseases",
+        "is_major": true,
+        "ui": "D002318"
+      },
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": true,
+        "ui": "D003924"
+      },
+      {
+        "term": "Heart Failure",
+        "is_major": true,
+        "ui": "D006333"
+      },
+      {
+        "term": "Incidence",
+        "is_major": false,
+        "ui": "D015994"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Myocardial Infarction",
+        "is_major": true,
+        "ui": "D009203"
+      }
+    ],
+    "keywords": [],
+    "citations": [],
+    "text": "INTRODUCTION: Whether metformin reduces all-cause cardiovascular mortality and the incidence of cardiovascular events in patients with pre-existing cardiovascular diseases (CVD) remains inconclusive. Some randomised controlled trials (RCTs) and cohort studies have shown that metformin is associated with an increased risk of mortality and cardiovascular events.\n\nMETHODS: We conducted a pooling synthesis to assess the effects of metformin in all-cause cardiovascular mortality and incidence of cardiovascular events in patients with CVD. Studies published up to October 2021 in PubMed or Embase with a registration in PROSPERO (CRD42020189905) were collected. Both RCT and cohort studies were included. Hazard ratios (HR) with 95% CI were pooled across various trials using the random-effects model.\n\nRESULTS: This study enrolled 35 published studies (in 14 publications) for qualitative synthesis and identified 33 studies (published in 26 publications) for quantitative analysis. We analysed a total of 61,704 patients, among them 58,271 patients were used to calculate all-cause mortality while 12,814 patients were used to calculate cardiovascular mortality. Compared with non-metformin control, metformin usage is associated with a reduction in all-cause mortality (HR: 0.90; 95% CI 0.83, 0.98; p = 0.01), cardiovascular mortality (HR: 0.89; 95% CI 0.85, 0.94; p < 0.0001), incidence of coronary revascularisation (HR: 0.79; 95% CI 0.64, 0.98; p = 0.03), and heart failure (HR: 0.90; 95% CI 0.87, 0.94; p < 0.0001) in patients with pre-existing cardiovascular diseases.\n\nCONCLUSION: Metformin use is associated with a reduction in all-cause mortality, cardiovascular mortality, incidence of coronary revascularisation, and heart failure in patients with CVD; however, metformin usage was not associated with reduction in the incidence of myocardial infarction, angina, or stroke."
+  },
+  {
+    "rank": 8,
+    "score": 0.6591742537682828,
+    "search_type": "hybrid",
+    "vector_id": 3492509,
+    "chunk_id": 3492509,
+    "pmid": "36972373",
+    "title": "Metformin: evidence from preclinical and clinical studies for potential novel applications in cardiovascular disease.",
+    "year": 2023,
+    "journal": "Expert opinion on investigational drugs",
+    "authors": [
+      "Adel Dihoum",
+      "Graham Rena",
+      "Ewan R Pearson",
+      "Chim C Lang",
+      "Ify R Mordi"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": true,
+        "ui": "D003924"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Cardiovascular Diseases",
+        "is_major": true,
+        "ui": "D002318"
+      },
+      {
+        "term": "Sodium-Glucose Transporter 2 Inhibitors",
+        "is_major": true,
+        "ui": "D000077203"
+      },
+      {
+        "term": "Randomized Controlled Trials as Topic",
+        "is_major": false,
+        "ui": "D016032"
+      },
+      {
+        "term": "Glucagon-Like Peptide-1 Receptor Agonists",
+        "is_major": false,
+        "ui": "D000097789"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Cardiovascular disease",
+        "is_major": false
+      },
+      {
+        "term": "diabetes",
+        "is_major": false
+      },
+      {
+        "term": "heart failure",
+        "is_major": false
+      },
+      {
+        "term": "inflammation",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "INTRODUCTION: For a long time, metformin has been the first-line treatment for glycemic control in type 2 diabetes; however, the results of recent cardiovascular outcome trials of sodium-glucose co-transporter 2 inhibitors and glucagon-like peptide 1 receptor agonists have caused many to question metformin's position in the guidelines. Although there are several plausible mechanisms by which metformin might have beneficial cardiovascular effects, for example, its anti-inflammatory effects and metabolic properties, and numerous observational data suggesting improved cardiovascular outcomes with metformin use, the main randomized clinical trial data for metformin was published over 20\u2009years ago. Nevertheless, the overwhelming majority of participants in contemporary type 2 diabetes trials were prescribed metformin.\n\nAREAS COVERED: In this review, we will summarize the potential mechanisms of cardiovascular benefit with metformin, before discussing clinical data in individuals with or without diabetes.\n\nEXPERT OPINION: Metformin may have some cardiovascular benefit in patients with and without diabetes, however the majority of clinical trials were small and are before the use SGLT2 inhibitors and GLP1-RAs. Larger contemporary randomized trials, with metformin evaluating its cardiovascular benefit are warranted."
+  },
+  {
+    "rank": 9,
+    "score": 0.6330232876299713,
+    "search_type": "hybrid",
+    "vector_id": 8139225,
+    "chunk_id": 8139225,
+    "pmid": "31362743",
+    "title": "Effect of metformin on all-cause and cardiovascular mortality in patients with coronary artery diseases: a systematic review and an updated meta-analysis.",
+    "year": 2019,
+    "journal": "Cardiovascular diabetology",
+    "authors": [
+      "Yechen Han",
+      "Hongzhi Xie",
+      "Yongtai Liu",
+      "Peng Gao",
+      "Xufei Yang",
+      "Zhujun Shen"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Adult",
+        "is_major": false,
+        "ui": "D000328"
+      },
+      {
+        "term": "Aged",
+        "is_major": false,
+        "ui": "D000368"
+      },
+      {
+        "term": "Biomarkers",
+        "is_major": false,
+        "ui": "D015415"
+      },
+      {
+        "term": "Blood Glucose",
+        "is_major": false,
+        "ui": "D001786"
+      },
+      {
+        "term": "Cause of Death",
+        "is_major": false,
+        "ui": "D002423"
+      },
+      {
+        "term": "Coronary Artery Disease",
+        "is_major": false,
+        "ui": "D003324"
+      },
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": false,
+        "ui": "D003924"
+      },
+      {
+        "term": "Female",
+        "is_major": false,
+        "ui": "D005260"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Incidence",
+        "is_major": false,
+        "ui": "D015994"
+      },
+      {
+        "term": "Male",
+        "is_major": false,
+        "ui": "D008297"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Middle Aged",
+        "is_major": false,
+        "ui": "D008875"
+      },
+      {
+        "term": "Risk Assessment",
+        "is_major": false,
+        "ui": "D018570"
+      },
+      {
+        "term": "Risk Factors",
+        "is_major": false,
+        "ui": "D012307"
+      },
+      {
+        "term": "Time Factors",
+        "is_major": false,
+        "ui": "D013997"
+      },
+      {
+        "term": "Treatment Outcome",
+        "is_major": false,
+        "ui": "D016896"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Coronary artery disease",
+        "is_major": false
+      },
+      {
+        "term": "Diabetes",
+        "is_major": false
+      },
+      {
+        "term": "Meta-analysis",
+        "is_major": false
+      },
+      {
+        "term": "Systemic review",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "BACKGROUND: Metformin is the most widely prescribed drug to lower glucose and has a definitive effect on the cardiovascular system. The goal of this systematic review and meta-analysis is to assess the effects of metformin on mortality and cardiac function among patients with coronary artery disease (CAD).\n\nMETHODS: Relevant studies reported before October 2018 was retrieved from databases including PubMed, EMBASE, Cochrane Library and Web of Science. Hazard ratio (HR) was calculated to evaluate the all-cause mortality, cardiovascular mortality and incidence of cardiovascular events (CV events), to figure out the level of left ventricular ejection fraction (LVEF), creatine kinase MB (CK-MB), type B natriuretic peptide (BNP) and to compare the average level of low density lipoprotein (LDL).\n\nRESULTS: In this meta-analysis were included 40 studies comprising 1,066,408 patients. The cardiovascular mortality, all-cause mortality and incidence of CV events were lowered to adjusted HR (aHR)\u2009=\u20090.81, aHR\u2009=\u20090.67 and aHR\u2009=\u20090. 83 respectively after the patients with CAD were given metformin. Subgroup analysis showed that metformin reduced all-cause mortality in myocardial infarction (MI) (aHR\u2009=\u20090.79) and heart failure (HF) patients (aHR\u2009=\u20090.84), the incidence of CV events in HF (aHR\u2009=\u20090.83) and type II diabetes mellitus (T2DM) patients (aHR\u2009=\u20090.83), but had no significant effect on MI (aHR\u2009=\u20090.87) and non-T2DM patients (aHR\u2009=\u20090.92). Metformin is superior to sulphonylurea (aHR\u2009=\u20090.81) in effects on lowering the incidence of CV events and in effects on patients who don't use medication. The CK-MB level in the metformin group was lower than that in the control group standard mean difference (SMD)\u2009=\u2009-\u20090.11). There was no significant evidence that metformin altered LVEF (MD\u2009=\u20092.91), BNP (MD\u2009=\u2009-\u20090.02) and LDL (MD\u2009=\u2009-\u20090.08).\n\nCONCLUSION: Metformin reduces cardiovascular mortality, all-cause mortality and CV events in CAD patients. For MI patients and CAD patients without T2DM, metformin has no significant effect of reducing the incidence of CV events. Metformin has a better effect of reducing the incidence of CV events than sulfonylureas."
+  },
+  {
+    "rank": 10,
+    "score": 0.6142906005531495,
+    "search_type": "hybrid",
+    "vector_id": 3213615,
+    "chunk_id": 3213615,
+    "pmid": "37307806",
+    "title": "Cardiovascular Protection by Metformin: Latest Advances in Basic and Clinical Research.",
+    "year": 2023,
+    "journal": "Cardiology",
+    "authors": [
+      "Jason Z Li",
+      "Y Robert Li"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": true,
+        "ui": "D003924"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Heart Failure",
+        "is_major": true,
+        "ui": "D006333"
+      },
+      {
+        "term": "Atherosclerosis",
+        "is_major": true,
+        "ui": "D050197"
+      },
+      {
+        "term": "Glucose",
+        "is_major": false,
+        "ui": "D005947"
+      },
+      {
+        "term": "Cardiovascular Diseases",
+        "is_major": true,
+        "ui": "D002318"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Atherosclerosis",
+        "is_major": false
+      },
+      {
+        "term": "Cardiovascular protection",
+        "is_major": false
+      },
+      {
+        "term": "Heart failure",
+        "is_major": false
+      },
+      {
+        "term": "Metformin",
+        "is_major": false
+      },
+      {
+        "term": "Myocardial injury",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "BACKGROUND: Metformin is among the most frequently prescribed antidiabetic drugs worldwide and remains the first-line therapy for type 2 diabetes due to its well-established glucose-lowering efficacy and favorable safety profile.\n\nSUMMARY: Studies over the past decades show that metformin also exerts many other beneficial effects independent of its glucose-lowering effect both in experimental models and human subjects. Among them, the most notable is its cardiovascular protective effect. In this review, we discuss the latest cutting-edge research findings on metformin's cardiovascular protection from both preclinical studies and randomized clinical trials. We focus on describing novel basic research discoveries reported in influential journals and discussing their implications in the context of latest clinical trial findings related to common cardiovascular and metabolic disorders, including atherosclerosis and dyslipidemia, myocardial injury, and heart failure.\n\nKEY MESSAGES: While substantial preclinical and clinical evidence suggests metformin as a potential cardiovascular protectant, large-scale randomized controlled trials are warranted to establish its clinical efficacy in treating patients with atherosclerotic cardiovascular disease and heart failure."
+  },
+  {
+    "rank": 1,
+    "score": 0.9689303098799009,
+    "search_type": "hybrid",
+    "vector_id": 27910019,
+    "chunk_id": 27910019,
+    "pmid": "40283923",
+    "title": "Overview of Metformin and Neurodegeneration: A Comprehensive Review.",
+    "year": 2025,
+    "journal": "Pharmaceuticals (Basel, Switzerland)",
+    "authors": [
+      "Weronika Kruczkowska",
+      "Julia Ga\u0142\u0119ziewska",
+      "Paulina Buczek",
+      "El\u017cbieta P\u0142uciennik",
+      "Mateusz Kciuk",
+      "Agnieszka \u015aliwi\u0144ska"
+    ],
+    "mesh_terms": [],
+    "keywords": [
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "neurodegeneration",
+        "is_major": false
+      },
+      {
+        "term": "type 2 diabetes",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "This comprehensive review examines the therapeutic potential of metformin, a well-established diabetes medication, in treating neurodegenerative disorders. Originally used as a first-line treatment for type 2 diabetes, recent studies have begun investigating metformin's effects beyond metabolic disorders, particularly its neuroprotective capabilities against conditions like Parkinson's disease, Alzheimer's disease, Huntington's disease, and multiple sclerosis. Key findings demonstrate that metformin's neuroprotective effects operate through multiple pathways: AMPK activation enhancing cellular energy metabolism and autophagy; upregulation of antioxidant defenses; suppression of inflammation; inhibition of protein aggregation; and improvement of mitochondrial function. These mechanisms collectively address common pathological features in neurodegeneration and neuroinflammation, including oxidative stress, protein accumulation, and mitochondrial dysfunction. Clinical and preclinical evidence supporting metformin's association with improved cognitive performance, reduced risk of dementia, and modulation of pathological hallmarks of neurodegenerative diseases is critically evaluated. While metformin shows promise as a therapeutic agent, this review emphasizes the need for further investigation to fully understand its mechanisms and optimal therapeutic applications in neurodegenerative diseases."
+  },
+  {
+    "rank": 2,
+    "score": 0.9316942013285059,
+    "search_type": "hybrid",
+    "vector_id": 4701174,
+    "chunk_id": 4701174,
+    "pmid": "35557834",
+    "title": "Exploring the Pharmacological Potential of Metformin for Neurodegenerative Diseases.",
+    "year": 2022,
+    "journal": "Frontiers in aging neuroscience",
+    "authors": [
+      "Ming-Rui Du",
+      "Quan-You Gao",
+      "Chen-Lin Liu",
+      "Lin-Ya Bai",
+      "Tian Li",
+      "Fei-Long Wei"
+    ],
+    "mesh_terms": [],
+    "keywords": [
+      {
+        "term": "AMP-activated protein kinase",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "narrative review",
+        "is_major": false
+      },
+      {
+        "term": "neurodegeneration",
+        "is_major": false
+      },
+      {
+        "term": "pharmacology",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Metformin, one of the first-line of hypoglycemic drugs, has cardioprotective, anti-inflammatory and anticancer activities, in addition to its proven hypoglycemic effects. Furthermore, the preventive and therapeutic potential of metformin for neurodegenerative diseases has become a topic of concern. Increasing research suggests that metformin can prevent the progression of neurodegenerative diseases. In recent years, many studies have investigated the neuroprotective effect of metformin in the treatment of neurodegenerative diseases. It has been revealed that metformin can play a neuroprotective role by regulating energy metabolism, oxidative stress, inflammatory response and protein deposition of cells, and avoiding neuronal dysfunction and neuronal death. On the contrary, some have hypothesized that metformin has a two-sided effect which may accelerate the progression of neurodegenerative diseases. In this review, the results of animal experiments and clinical studies are reviewed to discuss the application prospects of metformin in neurodegenerative diseases."
+  },
+  {
+    "rank": 3,
+    "score": 0.8339392370966116,
+    "search_type": "hybrid",
+    "vector_id": 2531195,
+    "chunk_id": 2531195,
+    "pmid": "38139841",
+    "title": "Metformin: The Winding Path from Understanding Its Molecular Mechanisms to Proving Therapeutic Benefits in Neurodegenerative Disorders.",
+    "year": 2023,
+    "journal": "Pharmaceuticals (Basel, Switzerland)",
+    "authors": [
+      "Laura Mihaela Isop",
+      "Andrea Elena Neculau",
+      "Radu Dan Necula",
+      "Cristian Kakucs",
+      "Marius Alexandru Moga",
+      "Lorena Dima"
+    ],
+    "mesh_terms": [],
+    "keywords": [
+      {
+        "term": "Alzheimer",
+        "is_major": false
+      },
+      {
+        "term": "Parkinson disease",
+        "is_major": false
+      },
+      {
+        "term": "antiaging",
+        "is_major": false
+      },
+      {
+        "term": "cognitive impairment",
+        "is_major": false
+      },
+      {
+        "term": "diabetes",
+        "is_major": false
+      },
+      {
+        "term": "epilepsy",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "neurodegenerative",
+        "is_major": false
+      },
+      {
+        "term": "neuroprotection",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Metformin, a widely prescribed medication for type 2 diabetes, has garnered increasing attention for its potential neuroprotective properties due to the growing demand for treatments for Alzheimer's, Parkinson's, and motor neuron diseases. This review synthesizes experimental and clinical studies on metformin's mechanisms of action and potential therapeutic benefits for neurodegenerative disorders. A comprehensive search of electronic databases, including PubMed, MEDLINE, Embase, and Cochrane library, focused on key phrases such as \"metformin\", \"neuroprotection\", and \"neurodegenerative diseases\", with data up to September 2023. Recent research on metformin's glucoregulatory mechanisms reveals new molecular targets, including the activation of the LKB1-AMPK signaling pathway, which is crucial for chronic administration of metformin. The pleiotropic impact may involve other stress kinases that are acutely activated. The precise role of respiratory chain complexes (I and IV), of the mitochondrial targets, or of the lysosomes in metformin effects remains to be established by further research. Research on extrahepatic targets like the gut and microbiota, as well as its antioxidant and immunomodulatory properties, is crucial for understanding neurodegenerative disorders. Experimental data on animal models shows promising results, but clinical studies are inconclusive. Understanding the molecular targets and mechanisms of its effects could help design clinical trials to explore and, hopefully, prove its therapeutic effects in neurodegenerative conditions."
+  },
+  {
+    "rank": 4,
+    "score": 0.7302193813809987,
+    "search_type": "hybrid",
+    "vector_id": 1918334,
+    "chunk_id": 1918334,
+    "pmid": "38881878",
+    "title": "Novel targets and therapies of metformin in dementia: old drug, new insights.",
+    "year": 2024,
+    "journal": "Frontiers in pharmacology",
+    "authors": [
+      "Wenxing Cui",
+      "Chen Lv",
+      "Panling Geng",
+      "Mingdi Fu",
+      "Wenjing Zhou",
+      "Mingxiang Xiong",
+      "Tian Li"
+    ],
+    "mesh_terms": [],
+    "keywords": [
+      {
+        "term": "dementia",
+        "is_major": false
+      },
+      {
+        "term": "insulin resistance",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "neuroinflammation",
+        "is_major": false
+      },
+      {
+        "term": "oxidative stress",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Dementia is a devastating disorder characterized by progressive and persistent cognitive decline, imposing a heavy public health burden on the individual and society. Despite numerous efforts by researchers in the field of dementia, pharmacological treatments are limited to relieving symptoms and fail to prevent disease progression. Therefore, studies exploring novel therapeutics or repurposing classical drugs indicated for other diseases are urgently needed. Metformin, a first-line antihyperglycemic drug used to treat type 2 diabetes, has been shown to be beneficial in neurodegenerative diseases including dementia. This review discusses and evaluates the neuroprotective role of metformin in dementia, from the perspective of basic and clinical studies. Mechanistically, metformin has been shown to improve insulin resistance, reduce neuronal apoptosis, and decrease oxidative stress and neuroinflammation in the brain. Collectively, the current data presented here support the future potential of metformin as a potential therapeutic strategy for dementia. This study also inspires a new field for future translational studies and clinical research to discover novel therapeutic targets for dementia."
+  },
+  {
+    "rank": 5,
+    "score": 0.7182675798788409,
+    "search_type": "hybrid",
+    "vector_id": 9232321,
+    "chunk_id": 9232321,
+    "pmid": "30072954",
+    "title": "The Therapeutic Potential of Metformin in Neurodegenerative Diseases.",
+    "year": 2018,
+    "journal": "Frontiers in endocrinology",
+    "authors": [
+      "Carola Rotermund",
+      "Gerrit Machetanz",
+      "Julia C Fitzgerald"
+    ],
+    "mesh_terms": [],
+    "keywords": [
+      {
+        "term": "Alzheimer's disease",
+        "is_major": false
+      },
+      {
+        "term": "Parkinson's disease",
+        "is_major": false
+      },
+      {
+        "term": "aging",
+        "is_major": false
+      },
+      {
+        "term": "diabetes",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "mitochondria",
+        "is_major": false
+      },
+      {
+        "term": "neurodegeneration",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "The search for treatments for neurodegenerative diseases is a major concern in light of today's aging population and an increasing burden on individuals, families, and society. Although great advances have been made in the last decades to understand the underlying genetic and biological cause of these diseases, only some symptomatic treatments are available. Metformin has long since been used to treat Type 2 Diabetes and has been shown to be beneficial in several other conditions. Metformin is well-tested"
+  },
+  {
+    "rank": 6,
+    "score": 0.7156624582847918,
+    "search_type": "hybrid",
+    "vector_id": 7852294,
+    "chunk_id": 7852294,
+    "pmid": "31751298",
+    "title": "Could metformin be therapeutically useful in Huntington's disease?",
+    "year": 2020,
+    "journal": "Reviews in the neurosciences",
+    "authors": [
+      "Bor Luen Tang"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Animals",
+        "is_major": false,
+        "ui": "D000818"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Huntington Disease",
+        "is_major": false,
+        "ui": "D006816"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Neurons",
+        "is_major": false,
+        "ui": "D009474"
+      },
+      {
+        "term": "Neuroprotective Agents",
+        "is_major": false,
+        "ui": "D018696"
+      },
+      {
+        "term": "Signal Transduction",
+        "is_major": false,
+        "ui": "D015398"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "AMP-activated protein kinase (AMPK)",
+        "is_major": false
+      },
+      {
+        "term": "Huntington\u2019s disease (HD)",
+        "is_major": false
+      },
+      {
+        "term": "metformin, protein phosphatase 2A (PP2A)",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Emerging evidence suggest that dimethylbiguanide (metformin), a first-line drug for type 2 diabetes mellitus, could be neuroprotective in a range of brain pathologies, which include neurodegenerative diseases and brain injury. However, there are also contraindications that associate metformin treatment with cognitive impairment as well as adverse outcomes in Alzheimer's disease and Parkinson's disease animal models. Recently, a beneficial effect of metformin in animal models of Huntington's disease (HD) has been strengthened by multiple reports. In this brief review, the findings associated with the effects of metformin in attenuating neurodegenerative diseases are discussed, focusing on HD-associated pathology and the potential underlying mechanisms highlighted by these studies. The mechanism of action of metformin is complex, and its therapeutic efficacy is therefore expected to be dependent on the disease context. The key metabolic pathways that are effectively affected by metformin, such as AMP-activated protein kinase activation, may be altered in the later decades of the human lifespan. In this regard, metformin may nonetheless be therapeutically useful for neurological diseases with early pathological onsets, such as HD."
+  },
+  {
+    "rank": 7,
+    "score": 0.7091737381445238,
+    "search_type": "hybrid",
+    "vector_id": 10391582,
+    "chunk_id": 10391582,
+    "pmid": "28589443",
+    "title": "Metformin - a Future Therapy for Neurodegenerative Diseases : Theme: Drug Discovery, Development and Delivery in Alzheimer's Disease Guest Editor: Davide Brambilla.",
+    "year": 2017,
+    "journal": "Pharmaceutical research",
+    "authors": [
+      "Magdalena Markowicz-Piasecka",
+      "Joanna Sikora",
+      "Aleksandra Szyd\u0142owska",
+      "Agata Skupie\u0144",
+      "El\u017cbieta Mikiciuk-Olasik",
+      "Kristiina M Huttunen"
+    ],
+    "mesh_terms": [
+      {
+        "term": "AMP-Activated Protein Kinases",
+        "is_major": false,
+        "ui": "D055372"
+      },
+      {
+        "term": "Alzheimer Disease",
+        "is_major": false,
+        "ui": "D000544"
+      },
+      {
+        "term": "Amyloid beta-Peptides",
+        "is_major": false,
+        "ui": "D016229"
+      },
+      {
+        "term": "Animals",
+        "is_major": false,
+        "ui": "D000818"
+      },
+      {
+        "term": "Antioxidants",
+        "is_major": false,
+        "ui": "D000975"
+      },
+      {
+        "term": "Cholinesterase Inhibitors",
+        "is_major": false,
+        "ui": "D002800"
+      },
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": false,
+        "ui": "D003924"
+      },
+      {
+        "term": "Drug Discovery",
+        "is_major": false,
+        "ui": "D055808"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Oxidative Stress",
+        "is_major": false,
+        "ui": "D018384"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "acetylcholinesterase",
+        "is_major": false
+      },
+      {
+        "term": "alzheimer\u2019s disease",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "neurodegeneration",
+        "is_major": false
+      },
+      {
+        "term": "oxidative stress",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Type 2 diabetes mellitus\u00a0(T2DM) is a complex, chronic and progressive metabolic disease, which is characterized by relative insulin deficiency, insulin resistance, and high glucose levels in blood. Esteemed published articles and epidemiological data exhibit an increased risk of developing Alzheimer's disease\u00a0(AD) in diabetic pateints. Metformin is the most frequently used oral anti-diabetic drug, which apart from hypoglycaemic activity, improves serum lipid profiles, positively influences the process of haemostasis, and possesses anti-inflammatory properties. Recently, scientists have put their efforts in establishing metformin's role in the treatment of neurodegenerative diseases, such as AD,\u00a0amnestic mild cognitive impairment and Parkinson's disease. Results of several clinical studies confirm that long term use of metformin in diabetic patients contributes to better cognitive function, compared to participants using other anti-diabetic drugs. The exact mechanism of metformin's advantageous activity in AD is not fully understood, but scientists claim that activation of AMPK-dependent pathways in human neural stem cells might be responsible for the neuroprotective activity of metformin. Metformin was also found to markedly decease Beta-secretase 1\u00a0(BACE1) protein expression and activity in cell culture models and in vivo, thereby reducing BACE1 cleavage products and the production of A\u03b2\u00a0(\u03b2-amyloid). Furthermore, there is also some evidence that metformin decreases the activity of acetylcholinesterase\u00a0(AChE), which is responsible for the degradation of acetylcholine\u00a0(Ach), a neurotransmitter involved in the process of learning and memory. In regard to the beneficial effects of metformin, its anti-inflammatory and anti-oxidative properties cannot be omitted. Numerous in vitro and in vivo studies have confirmed that metformin ameliorates oxidative damage."
+  },
+  {
+    "rank": 8,
+    "score": 0.629990410242291,
+    "search_type": "hybrid",
+    "vector_id": 6927764,
+    "chunk_id": 6927764,
+    "pmid": "32900343",
+    "title": "Metformin: A Growing Journey from Glycemic Control to the Treatment of Alzheimer's Disease and Depression.",
+    "year": 2021,
+    "journal": "Current medicinal chemistry",
+    "authors": [
+      "Mohamed El Massry",
+      "Lynn M Alaeddine",
+      "Leen Ali",
+      "Celine Saad",
+      "Assaad A Eid"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Alzheimer Disease",
+        "is_major": true,
+        "ui": "D000544"
+      },
+      {
+        "term": "Depression",
+        "is_major": false,
+        "ui": "D003863"
+      },
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": true,
+        "ui": "D003924"
+      },
+      {
+        "term": "Glycemic Control",
+        "is_major": false,
+        "ui": "D000085002"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "AMPK Pathway",
+        "is_major": false
+      },
+      {
+        "term": "Alzheimer's Disease",
+        "is_major": false
+      },
+      {
+        "term": "Depression",
+        "is_major": false
+      },
+      {
+        "term": "Glucose\nTransporters",
+        "is_major": false
+      },
+      {
+        "term": "Insulin",
+        "is_major": false
+      },
+      {
+        "term": "Metabolic Stress",
+        "is_major": false
+      },
+      {
+        "term": "Metformin",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Metabolic stress, transduced as an altered cellular redox and energy status, presents as the main culprit in many diseases, including diabetes. However, its role in the pathology of neurological disorders is still not fully elucidated. Metformin, a biguanide compound, is an FDA approved antidiabetic drug generally used for the treatment of type 2 diabetes. The recently described wide spectrum of action executed by this drug suggests a potential therapeutic benefit in a panoply of disorders. Current studies imply that metformin could play a neuroprotective role by reversing hallmarks of brain injury (metabolic dysfunction, neuronal dystrophy and cellular loss), in addition to cognitive and behavioral alterations that accompany the onset of certain brain diseases such as Alzheimer's disease (AD) and depression. However, the mechanisms by which metformin exerts its protective effect in neurodegenerative disorders are not yet fully elucidated. The aim of this review is to reexamine the mechanisms through which metformin performs its function while concentrating on its effect on reestablishing homeostasis in a metabolically disturbed milieu. We will also highlight the importance of metabolic stress, not only as a component of many neurological disorders, but also as a primary driving force for neural insult. Of interest, we will explore the involvement of metabolic stress in the pathobiology of AD and depression. The derangement in major metabolic pathways, including AMPK, insulin and glucose transporters, will be explored and the potential therapeutic effects of metformin administration on the reversal of brain injury in such metabolism dependent diseases will be exposed."
+  },
+  {
+    "rank": 9,
+    "score": 0.5963302252163087,
+    "search_type": "hybrid",
+    "vector_id": 5031993,
+    "chunk_id": 5031993,
+    "pmid": "35153733",
+    "title": "Deciphering the Roles of Metformin in Alzheimer's Disease: A Snapshot.",
+    "year": 2021,
+    "journal": "Frontiers in pharmacology",
+    "authors": [
+      "Wang Liao",
+      "Jiaxin Xu",
+      "Bo Li",
+      "Yuting Ruan",
+      "Tian Li",
+      "Jun Liu"
+    ],
+    "mesh_terms": [],
+    "keywords": [
+      {
+        "term": "AMPK",
+        "is_major": false
+      },
+      {
+        "term": "Alzheimer\u2019s disease",
+        "is_major": false
+      },
+      {
+        "term": "insulin",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "neuroinflammation",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Alzheimer's disease (AD) is a prevalent neurodegenerative disease predominantly affecting millions of elderly people. To date, no effective therapy has been identified to reverse the progression of AD. Metformin, as a first-line medication for Type 2 Diabetes Mellitus (T2DM), exerts multiple beneficial effects on various neurodegenerative disorders, including AD. Evidence from clinical studies has demonstrated that metformin use contributes to a lower risk of developing AD and better cognitive performance, which might be modified by interactors such as diabetic status and APOE-\u03b54 status. Previous mechanistic studies have gradually unveiled the effects of metformin on AD pathology and pathophysiology, including neuronal loss, neural dysfunction, amyloid-\u03b2 (A\u03b2) depositions, tau phosphorylation, chronic neuroinflammation, insulin resistance, impaired glucose metabolism and mitochondrial dysfunction. Current evidence remains ambiguous and even conflicting. Herein, we review the current state of knowledge concerning the mechanisms of metformin in AD pathology while summarizing current evidence from clinical studies."
+  },
+  {
+    "rank": 10,
+    "score": 0.5692044103579614,
+    "search_type": "hybrid",
+    "vector_id": 9101711,
+    "chunk_id": 9101711,
+    "pmid": "30219731",
+    "title": "Metformin attenuates diabetes-induced tau hyperphosphorylation in vitro and in vivo by enhancing autophagic clearance.",
+    "year": 2019,
+    "journal": "Experimental neurology",
+    "authors": [
+      "Jin-Liang Chen",
+      "Cheng Luo",
+      "Die Pu",
+      "Guo-Qiang Zhang",
+      "Yu-Xing Zhao",
+      "Yue Sun",
+      "Ke-Xiang Zhao",
+      "Zhi-Yin Liao",
+      "An-Kang Lv",
+      "Shi-Yu Zhu",
+      "Jing Zhou",
+      "Qian Xiao"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Animals",
+        "is_major": false,
+        "ui": "D000818"
+      },
+      {
+        "term": "Autophagy",
+        "is_major": false,
+        "ui": "D001343"
+      },
+      {
+        "term": "Cell Line",
+        "is_major": false,
+        "ui": "D002460"
+      },
+      {
+        "term": "Diabetes Mellitus, Experimental",
+        "is_major": false,
+        "ui": "D003921"
+      },
+      {
+        "term": "Dose-Response Relationship, Drug",
+        "is_major": false,
+        "ui": "D004305"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Male",
+        "is_major": false,
+        "ui": "D008297"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Mice",
+        "is_major": false,
+        "ui": "D051379"
+      },
+      {
+        "term": "Phosphorylation",
+        "is_major": false,
+        "ui": "D010766"
+      },
+      {
+        "term": "Random Allocation",
+        "is_major": false,
+        "ui": "D011897"
+      },
+      {
+        "term": "Tauopathies",
+        "is_major": false,
+        "ui": "D024801"
+      },
+      {
+        "term": "tau Proteins",
+        "is_major": false,
+        "ui": "D016875"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Alzheimer's disease",
+        "is_major": false
+      },
+      {
+        "term": "Autophagy",
+        "is_major": false
+      },
+      {
+        "term": "Diabetes mellitus",
+        "is_major": false
+      },
+      {
+        "term": "Metformin",
+        "is_major": false
+      },
+      {
+        "term": "Tau",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Diabetes mellitus (DM) can increase the risk of Alzheimer's disease (AD) in patients. However, no effective approaches are available to prevent its progression and development. Recently, autophagy dysfunction was identified to be involved in the pathogenesis of neurodegenerative diseases. This study was designed to investigate the effect of metformin on hyperphosphorylated tau proteins in diabetic encephalopathy (DE) by regulating autophagy clearance. db/db mice were randomly divided into four groups, db/+ mice were used as control group. Twelve-week old male db/db mice received consecutive intraperitoneal injection of 200\u202fmg/kg/d metformin or (and) 10\u202fmg/kg/d chloroquine for eight weeks. Morris water maze (MWM) tests were performed to test cognitive functions before the mice were euthanized. Metformin attenuated cognitive impairment in db/db mice, reduced hyperphosphorylated tau proteins, restored the impaired autophagy in diabetic mice, all of which were reversed by inhibiting of autophagy activity. In high glucose-cultured HT22 cells, metformin increased autophagy in a dose-dependent manner. Besides, metformin enhanced autophagy activity in an AMPK dependent manner. These data show that metformin may reduce tauopathy and improve cognitive impairment in db/db mice by modulating autophagy through the AMPK dependent pathway. These findings highlight metformin as a new therapeutic strategy for the treatment of DE."
+  },
+  {
+    "rank": 1,
+    "score": 0.8016583461485565,
+    "search_type": "hybrid",
+    "vector_id": 2109436,
+    "chunk_id": 2109436,
+    "pmid": "38617792",
+    "title": "Understanding the action mechanisms of metformin in the gastrointestinal tract.",
+    "year": 2024,
+    "journal": "Frontiers in pharmacology",
+    "authors": [
+      "Meihui Cheng",
+      "Lili Ren",
+      "Xianxian Jia",
+      "Jianwei Wang",
+      "Bin Cong"
+    ],
+    "mesh_terms": [],
+    "keywords": [
+      {
+        "term": "drug mechanism",
+        "is_major": false
+      },
+      {
+        "term": "gastrointestinal tract",
+        "is_major": false
+      },
+      {
+        "term": "gut microbiota",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "type 2 diabetes",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Metformin is the initial medication recommended for the treatment of type 2 diabetes mellitus (T2DM). In addition to diabetes treatment, the function of metformin also can be anti-aging, antiviral, and anti-inflammatory. Nevertheless, further exploration is required to fully understand its mode of operation. Historically, the liver has been acknowledged as the main location where metformin reduces glucose levels, however, there is increasing evidence suggesting that the gastrointestinal tract also plays a significant role in its action. In the gastrointestinal tract, metformin effects glucose uptake and absorption, increases glucagon-like peptide-1 (GLP-1) secretion, alters the composition and structure of the gut microbiota, and modulates the immune response. However, the side effects of it cannot be ignored such as gastrointestinal distress in patients. This review outlines the impact of metformin on the digestive system and explores potential explanations for variations in metformin effectiveness and adverse effects like gastrointestinal discomfort."
+  },
+  {
+    "rank": 2,
+    "score": 0.790258608112216,
+    "search_type": "hybrid",
+    "vector_id": 10841663,
+    "chunk_id": 10841663,
+    "pmid": "27987248",
+    "title": "Understanding and overcoming metformin gastrointestinal intolerance.",
+    "year": 2017,
+    "journal": "Diabetes, obesity & metabolism",
+    "authors": [
+      "Fabrice Bonnet",
+      "Andr\u00e9 Scheen"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": false,
+        "ui": "D003924"
+      },
+      {
+        "term": "Gastrointestinal Diseases",
+        "is_major": false,
+        "ui": "D005767"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "gastrointestinal intolerance",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "microbiota",
+        "is_major": false
+      },
+      {
+        "term": "type 2 diabetes mellitus",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Metformin is the most widely prescribed drug for patients with type 2 diabetes mellitus and the first-line pharmacological option as supported by multiple international guidelines, yet a rather large proportion of patients cannot tolerate metformin in adequate amounts because of its associated gastrointestinal (GI) adverse events (AEs). GI AEs typically encountered with metformin therapy include diarrhoea, nausea, flatulence, indigestion, vomiting and abdominal discomfort, with diarrhoea and nausea being the most common. Although starting at a low dose and titrating slowly may help prevent some GI AEs associated with metformin, some patients are unable to tolerate metformin at all and it may also be difficult to convince patients to start metformin again after a bout of GI AEs. Despite this clinical importance, the underlying mechanisms of the GI intolerance associated with metformin are poorly known. In the present review, we discuss: the epidemiology of metformin-associated GI intolerance and its underlying mechanisms; genotype variability and associated factors affecting metformin GI intolerance, such as comorbidities, co-medications and bariatric surgery; clinical consequences and therapeutic strategies to overcome metformin GI intolerance. These strategies include appropriate titration of immediate-release metformin, use of extended-release metformin, the promise of delayed-release metformin and gut microbiome modulators, as well as alternative pharmacological therapies when metformin cannot be tolerated at all. Given the available data, all efforts should be made to maintain metformin before considering a shift to another drug therapy."
+  },
+  {
+    "rank": 3,
+    "score": 0.6566640189832804,
+    "search_type": "hybrid",
+    "vector_id": 6740266,
+    "chunk_id": 6740266,
+    "pmid": "33105165",
+    "title": "Metformin and Gastrointestinal Cancer Development in Newly Diagnosed Type 2 Diabetes: A Population-Based Study in Korea.",
+    "year": 2020,
+    "journal": "Clinical and translational gastroenterology",
+    "authors": [
+      "Ji Hong You",
+      "Sun Ok Song",
+      "Min Jin Kang",
+      "Yoon Young Cho",
+      "Sun Wook Kim",
+      "Sung Hwan Suh",
+      "Sujin Lee",
+      "Yong-Ho Lee",
+      "Byung-Wan Lee"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Adolescent",
+        "is_major": false,
+        "ui": "D000293"
+      },
+      {
+        "term": "Adult",
+        "is_major": false,
+        "ui": "D000328"
+      },
+      {
+        "term": "Aged",
+        "is_major": false,
+        "ui": "D000368"
+      },
+      {
+        "term": "Aged, 80 and over",
+        "is_major": false,
+        "ui": "D000369"
+      },
+      {
+        "term": "Child",
+        "is_major": false,
+        "ui": "D002648"
+      },
+      {
+        "term": "Child, Preschool",
+        "is_major": false,
+        "ui": "D002675"
+      },
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": false,
+        "ui": "D003924"
+      },
+      {
+        "term": "Female",
+        "is_major": false,
+        "ui": "D005260"
+      },
+      {
+        "term": "Follow-Up Studies",
+        "is_major": false,
+        "ui": "D005500"
+      },
+      {
+        "term": "Gastrointestinal Neoplasms",
+        "is_major": false,
+        "ui": "D005770"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Incidence",
+        "is_major": false,
+        "ui": "D015994"
+      },
+      {
+        "term": "Infant",
+        "is_major": false,
+        "ui": "D007223"
+      },
+      {
+        "term": "Infant, Newborn",
+        "is_major": false,
+        "ui": "D007231"
+      },
+      {
+        "term": "Male",
+        "is_major": false,
+        "ui": "D008297"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Middle Aged",
+        "is_major": false,
+        "ui": "D008875"
+      },
+      {
+        "term": "Proportional Hazards Models",
+        "is_major": false,
+        "ui": "D016016"
+      },
+      {
+        "term": "Republic of Korea",
+        "is_major": false,
+        "ui": "D056910"
+      },
+      {
+        "term": "Retrospective Studies",
+        "is_major": false,
+        "ui": "D012189"
+      },
+      {
+        "term": "Risk Assessment",
+        "is_major": false,
+        "ui": "D018570"
+      },
+      {
+        "term": "Risk Factors",
+        "is_major": false,
+        "ui": "D012307"
+      },
+      {
+        "term": "Young Adult",
+        "is_major": false,
+        "ui": "D055815"
+      }
+    ],
+    "keywords": [],
+    "citations": [],
+    "text": "INTRODUCTION: Clinical studies have produced conflicting results on the effects of metformin on gastrointestinal cancer development. We aimed to investigate the association between metformin use and stomach, colon, liver, and pancreatic cancer development among patients with newly diagnosed, drug-na\u00efve type 2 diabetes.\n\nMETHODS: This retrospective study evaluated propensity score-matched patients with newly diagnosed type 2 diabetes from the Korean National Health Insurance Service database. Metformin users were categorized into tertiles according to the cumulative dose or duration of metformin treatment, and the risks of gastrointestinal cancers were compared.\n\nRESULTS: Metformin users had reduced risks of developing stomach cancer (hazard ratio [HR]: 0.841, 95% confidence interval [CI]: 0.797-0.887), colon cancer (HR: 0.865, 95% CI: 0.822-0.91), and liver cancer (HR: 0.709, 95% CI: 0.675-0.746; P < 0.001). However, metformin users did not have a reduced overall risk of pancreatic cancer (HR: 1.335, 95% CI: 1.209-1.475; P < 0.001). The risks tended to decrease at higher cumulative doses and durations of metformin use, with significantly reduced risks of all 4 cancers at the highest cumulative dose (\u22651,200,000 mg) and the longest duration (\u22652,000 days) of metformin use.\n\nDISCUSSION: This population-based data suggest that metformin could be associated with reductions in the risks of stomach, colon, and liver cancers, as well a reduced risk of pancreatic cancer in some subgroups. Metformin has benefit as a first-line treatment for type 2 diabetes mellitus. A further role in cancer risk reduction could be studied in controlled trials."
+  },
+  {
+    "rank": 4,
+    "score": 0.6490510365006411,
+    "search_type": "hybrid",
+    "vector_id": 3897672,
+    "chunk_id": 3897672,
+    "pmid": "36484892",
+    "title": "Metformin in therapeutic applications in human diseases: its mechanism of action and clinical study.",
+    "year": 2022,
+    "journal": "Molecular biomedicine",
+    "authors": [
+      "Yang Du",
+      "Ya-Juan Zhu",
+      "Yi-Xin Zhou",
+      "Jing Ding",
+      "Ji-Yan Liu"
+    ],
+    "mesh_terms": [],
+    "keywords": [
+      {
+        "term": "AMPK",
+        "is_major": false
+      },
+      {
+        "term": "Adverse effects",
+        "is_major": false
+      },
+      {
+        "term": "Gut microbiome",
+        "is_major": false
+      },
+      {
+        "term": "Metformin",
+        "is_major": false
+      },
+      {
+        "term": "Mitochondria",
+        "is_major": false
+      },
+      {
+        "term": "Redox balance",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Metformin, a biguanide drug, is the most commonly used first-line medication for type 2 diabetes mellites due to its outstanding glucose-lowering ability. After oral administration of 1\u00a0g, metformin peaked plasma concentration of approximately 20-30\u00a0\u03bcM in 3\u00a0h, and then it mainly accumulated in the gastrointestinal tract, liver and kidney. Substantial studies have indicated that metformin exerts its beneficial or deleterious effect by multiple mechanisms, apart from AMPK-dependent mechanism, also including several AMPK-independent mechanisms, such as restoring of redox balance, affecting mitochondrial function, modulating gut microbiome and regulating several other signals, such as FBP1, PP2A, FGF21, SIRT1 and mTOR. On the basis of these multiple mechanisms, researchers tried to repurpose this old drug and further explored the possible indications and adverse effects of metformin. Through investigating with clinical studies, researchers concluded that in addition to decreasing cardiovascular events and anti-obesity, metformin is also beneficial for neurodegenerative disease, polycystic ovary syndrome, aging, cancer and COVID-19, however, it also induces some adverse effects, such as gastrointestinal complaints, lactic acidosis, vitamin B12 deficiency, neurodegenerative disease and offspring impairment. Of note, the dose of metformin used in most studies is much higher than its clinically relevant dose, which may cast doubt on the actual effects of metformin on these disease in the clinic. This review summarizes these research developments on the mechanism of action and clinical evidence of metformin and discusses its therapeutic potential and clinical safety."
+  },
+  {
+    "rank": 5,
+    "score": 0.647647441891763,
+    "search_type": "hybrid",
+    "vector_id": 879629,
+    "chunk_id": 879629,
+    "pmid": "37863262",
+    "title": "Metformin inhibits digestive proteases and impairs protein digestion in mice.",
+    "year": 2023,
+    "journal": "The Journal of biological chemistry",
+    "authors": [
+      "Caleb J Kelly",
+      "Andrew A Verdegaal",
+      "Brent W Anderson",
+      "William L Shaw",
+      "Natasha A Bencivenga-Barry",
+      "Ewa Folta-Stogniew",
+      "Andrew L Goodman"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Animals",
+        "is_major": false,
+        "ui": "D000818"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Mice",
+        "is_major": false,
+        "ui": "D051379"
+      },
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": false,
+        "ui": "D003924"
+      },
+      {
+        "term": "Enteropeptidase",
+        "is_major": true,
+        "ui": "D004765"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Proteolysis",
+        "is_major": true,
+        "ui": "D059748"
+      },
+      {
+        "term": "Enzyme Activation",
+        "is_major": false,
+        "ui": "D004789"
+      },
+      {
+        "term": "Gastrointestinal Tract",
+        "is_major": false,
+        "ui": "D041981"
+      },
+      {
+        "term": "Trypsin",
+        "is_major": false,
+        "ui": "D014357"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "diabetes",
+        "is_major": false
+      },
+      {
+        "term": "enteropeptidase",
+        "is_major": false
+      },
+      {
+        "term": "intestine",
+        "is_major": false
+      },
+      {
+        "term": "maldigestion",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "protease",
+        "is_major": false
+      },
+      {
+        "term": "protein degradation",
+        "is_major": false
+      },
+      {
+        "term": "trypsin",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Metformin is among the most prescribed medications worldwide and the first-line therapy for type 2 diabetes. However, gastrointestinal side effects are common and can be dose limiting. The total daily metformin dose frequently reaches several grams, and poor absorption results in high intestinal drug concentrations. Here, we report that metformin inhibits the activity of enteropeptidase and other digestive enzymes at drug concentrations predicted to occur in the human duodenum. Treatment of mouse gastrointestinal tissue with metformin reduces enteropeptidase activity; further, metformin-treated mice exhibit reduced enteropeptidase activity, reduced trypsin activity, and impaired protein digestion within the intestinal lumen. These results indicate that metformin-induced protein maldigestion could contribute to the gastrointestinal side effects and other impacts of this widely used drug."
+  },
+  {
+    "rank": 6,
+    "score": 0.647647441891763,
+    "search_type": "hybrid",
+    "vector_id": 2756394,
+    "chunk_id": 2756394,
+    "pmid": "37863262",
+    "title": "Metformin inhibits digestive proteases and impairs protein digestion in mice.",
+    "year": 2023,
+    "journal": "The Journal of biological chemistry",
+    "authors": [
+      "Caleb J Kelly",
+      "Andrew A Verdegaal",
+      "Brent W Anderson",
+      "William L Shaw",
+      "Natasha A Bencivenga-Barry",
+      "Ewa Folta-Stogniew",
+      "Andrew L Goodman"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Animals",
+        "is_major": false,
+        "ui": "D000818"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Mice",
+        "is_major": false,
+        "ui": "D051379"
+      },
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": false,
+        "ui": "D003924"
+      },
+      {
+        "term": "Enteropeptidase",
+        "is_major": true,
+        "ui": "D004765"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Proteolysis",
+        "is_major": true,
+        "ui": "D059748"
+      },
+      {
+        "term": "Enzyme Activation",
+        "is_major": false,
+        "ui": "D004789"
+      },
+      {
+        "term": "Gastrointestinal Tract",
+        "is_major": false,
+        "ui": "D041981"
+      },
+      {
+        "term": "Trypsin",
+        "is_major": false,
+        "ui": "D014357"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "diabetes",
+        "is_major": false
+      },
+      {
+        "term": "enteropeptidase",
+        "is_major": false
+      },
+      {
+        "term": "intestine",
+        "is_major": false
+      },
+      {
+        "term": "maldigestion",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "protease",
+        "is_major": false
+      },
+      {
+        "term": "protein degradation",
+        "is_major": false
+      },
+      {
+        "term": "trypsin",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Metformin is among the most prescribed medications worldwide and the first-line therapy for type 2 diabetes. However, gastrointestinal side effects are common and can be dose limiting. The total daily metformin dose frequently reaches several grams, and poor absorption results in high intestinal drug concentrations. Here, we report that metformin inhibits the activity of enteropeptidase and other digestive enzymes at drug concentrations predicted to occur in the human duodenum. Treatment of mouse gastrointestinal tissue with metformin reduces enteropeptidase activity; further, metformin-treated mice exhibit reduced enteropeptidase activity, reduced trypsin activity, and impaired protein digestion within the intestinal lumen. These results indicate that metformin-induced protein maldigestion could contribute to the gastrointestinal side effects and other impacts of this widely used drug."
+  },
+  {
+    "rank": 7,
+    "score": 0.6328562712645603,
+    "search_type": "hybrid",
+    "vector_id": 2763750,
+    "chunk_id": 2763750,
+    "pmid": "37871735",
+    "title": "The co-regulation of the gut microbiome and host genes might play essential roles in metformin gastrointestinal intolerance.",
+    "year": 2023,
+    "journal": "Toxicology and applied pharmacology",
+    "authors": [
+      "Huixiang Zhang",
+      "Jiao Lai",
+      "Lihuan Zhang",
+      "Wei Zhang",
+      "Xun Liu",
+      "Qilin Gong",
+      "Hongxi Tian",
+      "Mingzhi Yang",
+      "Tao Yang",
+      "Rui Zhao",
+      "Dongqing Li",
+      "Hehua Huang",
+      "Ya Zhao",
+      "Shan Yan",
+      "Ming Yu",
+      "Yanbin Xiyang",
+      "Lanlan Shi",
+      "Lirong Yang",
+      "Limei Wang",
+      "Weiwen Chen",
+      "Xue Cao"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Gastrointestinal Microbiome",
+        "is_major": true,
+        "ui": "D000069196"
+      },
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": true,
+        "ui": "D003924"
+      },
+      {
+        "term": "RNA, Ribosomal, 16S",
+        "is_major": false,
+        "ui": "D012336"
+      },
+      {
+        "term": "Bile Acids and Salts",
+        "is_major": false,
+        "ui": "D001647"
+      },
+      {
+        "term": "Anti-Inflammatory Agents",
+        "is_major": false,
+        "ui": "D000893"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Co-regulation",
+        "is_major": false
+      },
+      {
+        "term": "Gastrointestinal intolerance",
+        "is_major": false
+      },
+      {
+        "term": "Gut microbiome",
+        "is_major": false
+      },
+      {
+        "term": "Host genes",
+        "is_major": false
+      },
+      {
+        "term": "Metformin",
+        "is_major": false
+      },
+      {
+        "term": "Type 2 diabetes",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Metformin is commonly used, but approximately 20% of patients experience gastrointestinal intolerance, leading to medication discontinuation for unclear reasons and a lack of effective management strategies. In this study, the 18 fecal and blood samples were analyzed using 16S rRNA and mRNA transcriptome, respectively. These samples included 3 fecal and 4 blood from metformin-tolerant T2D patients before and after metformin treatment (T and Ta), 3 fecal and 5 blood from metformin-intolerant T2D patients before and after treatment (TS and TSa), and 6 fecal samples from healthy controls. The results showed that certain anti-inflammatory gut bacteria and gene, such as Barnesiella (p\u00a0=\u00a00.046), Parabacteroides goldsteinii (p\u00a0=\u00a00.016), and the gene JUND (p\u00a0=\u00a00.0002), exhibited higher levels in metformin-intolerant patients, and which decreased after metformin treatment (p\u00a0<\u00a00.05). This potentially invalidates patients' anti-inflammatory effect and intestinal mucus barrier protection, which may lead to alterations in intestinal permeability, decreased gut barrier function, and gastrointestinal symptoms, including diarrhea, bloating, and nausea. After metformin treatment, primary bile acids (PBAs) production species: Weissella confusa, Weissella paramesenteroides, Lactobacillus brevis, and Lactobacillus plantarum increased (p\u00a0<\u00a00.05). The species converting PBAs to secondary bile acids (SBAs): Parabacteroides distasonis decreased (p\u00a0<\u00a00.05). This might result in accumulation of PBAs, which also may lead to anti-inflammatory gene JUND and SQSTM1 downregulated. In conclusion, this study suggests that metformin intolerance may be attributed to a decrease in anti-inflammatory-related flora and genes, and also alterations in PBAs accumulation-related flora. These findings open up possibilities for future research targeting gut flora and host genes to prevent metformin intolerance."
+  },
+  {
+    "rank": 8,
+    "score": 0.6164755555075663,
+    "search_type": "hybrid",
+    "vector_id": 27759189,
+    "chunk_id": 27759189,
+    "pmid": "39470509",
+    "title": "Metformin: Diverse molecular mechanisms, gastrointestinal effects and overcoming intolerance in type 2 Diabetes Mellitus: A review.",
+    "year": 2024,
+    "journal": "Medicine",
+    "authors": [
+      "Sami Mohamed"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": true,
+        "ui": "D003924"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": true,
+        "ui": "D007004"
+      },
+      {
+        "term": "Gastrointestinal Microbiome",
+        "is_major": false,
+        "ui": "D000069196"
+      },
+      {
+        "term": "Gastrointestinal Tract",
+        "is_major": false,
+        "ui": "D041981"
+      }
+    ],
+    "keywords": [],
+    "citations": [],
+    "text": "Metformin, the first line treatment for patients with type 2 diabetes mellitus, has alternative novel roles, including cancer and diabetes prevention. This narrative review aims to explore its diverse mechanisms, effects and intolerance, using sources obtained by searching Scopus, PubMed and Web of Science databases, and following Scale for the Assessment of Narrative Review Articles reporting guidelines. Metformin exerts it actions through duration influenced, and organ specific, diverse mechanisms. Its use is associated with inhibition of hepatic gluconeogenesis targeted by mitochondria and lysosomes, reduction of cholesterol levels involving brown adipose tissue, weight reduction influenced by growth differentiation factor 15 and novel commensal bacteria, in addition to counteraction of meta-inflammation alongside immuno-modulation. Interactions with the gastrointestinal tract include alteration of gut microbiota, enhancement of glucose uptake and glucagon like peptide 1 and reduction of bile acid absorption. Though beneficial, they may be linked to intolerance. Metformin related gastrointestinal adverse effects are associated with dose escalation, immediate release formulations, gut microbiota alteration, epigenetic predisposition, inhibition of organic cation transporters in addition to interactions with serotonin, histamine and the enterohepatic circulation. Potentially effective measures to overcome intolerance encompasses carefully objective targeted dose escalation, prescription of fixed dose combination, microbiome modulators and prebiotics, in addition to use of extended release formulations."
+  },
+  {
+    "rank": 9,
+    "score": 0.6030385474008402,
+    "search_type": "hybrid",
+    "vector_id": 12513947,
+    "chunk_id": 12513947,
+    "pmid": "25802471",
+    "title": "Addition of a Gastrointestinal Microbiome Modulator to Metformin Improves Metformin Tolerance and Fasting Glucose Levels.",
+    "year": 2015,
+    "journal": "Journal of diabetes science and technology",
+    "authors": [
+      "Jeffrey H Burton",
+      "Matthew Johnson",
+      "Jolene Johnson",
+      "Daniel S Hsia",
+      "Frank L Greenway",
+      "Mark L Heiman"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Adult",
+        "is_major": false,
+        "ui": "D000328"
+      },
+      {
+        "term": "Aged",
+        "is_major": false,
+        "ui": "D000368"
+      },
+      {
+        "term": "Blood Glucose",
+        "is_major": false,
+        "ui": "D001786"
+      },
+      {
+        "term": "Body Mass Index",
+        "is_major": false,
+        "ui": "D015992"
+      },
+      {
+        "term": "Cross-Over Studies",
+        "is_major": false,
+        "ui": "D018592"
+      },
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": false,
+        "ui": "D003924"
+      },
+      {
+        "term": "Fasting",
+        "is_major": true,
+        "ui": "D005215"
+      },
+      {
+        "term": "Female",
+        "is_major": false,
+        "ui": "D005260"
+      },
+      {
+        "term": "Food, Formulated",
+        "is_major": true,
+        "ui": "D005526"
+      },
+      {
+        "term": "Gastrointestinal Microbiome",
+        "is_major": false,
+        "ui": "D000069196"
+      },
+      {
+        "term": "Glucose Tolerance Test",
+        "is_major": false,
+        "ui": "D005951"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Inulin",
+        "is_major": false,
+        "ui": "D007444"
+      },
+      {
+        "term": "Male",
+        "is_major": false,
+        "ui": "D008297"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Middle Aged",
+        "is_major": false,
+        "ui": "D008875"
+      },
+      {
+        "term": "Pilot Projects",
+        "is_major": false,
+        "ui": "D010865"
+      },
+      {
+        "term": "Plant Extracts",
+        "is_major": false,
+        "ui": "D010936"
+      },
+      {
+        "term": "Polyphenols",
+        "is_major": false,
+        "ui": "D059808"
+      },
+      {
+        "term": "Treatment Outcome",
+        "is_major": false,
+        "ui": "D016896"
+      },
+      {
+        "term": "beta-Glucans",
+        "is_major": false,
+        "ui": "D047071"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "GI adverse events",
+        "is_major": false
+      },
+      {
+        "term": "NM504",
+        "is_major": false
+      },
+      {
+        "term": "glucose",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "metformin intolerance",
+        "is_major": false
+      },
+      {
+        "term": "microbiome modulator",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "BACKGROUND: Adverse effects of metformin are primarily related to gastrointestinal (GI) intolerance that could limit titration to an efficacious dose or cause discontinuation of the medication. Because some metformin side effects may be attributable to shifts in the GI microbiome, we tested whether a GI microbiome modulator (GIMM) used in combination with metformin would ameliorate the GI symptoms.\n\nMETHODS: A 2-period crossover study design was used with 2 treatment sequences, either placebo in period 1 followed by GIMM in period 2 or vice versa. Study periods lasted for 2 weeks, with a 2-week washout period between. During the first week, type 2 diabetes patients (T2D) who experienced metformin GI intolerance took 500 mg metformin along with their assigned NM504 (GIMM) or placebo treatment with breakfast and with dinner. In the second week, the 10 subjects took 500 mg metformin (t.i.d.), with GIMM or placebo consumed with the first and third daily metformin doses. Subjects were permitted to discontinue metformin dosing if it became intolerable.\n\nRESULTS: The combination of metformin and GIMM treatment produced a significantly better tolerance score to metformin than the placebo combination (6.78 \u00b1 0.65 [mean \u00b1 SEM] versus 4.45 \u00b1 0.69, P = .0006). Mean fasting glucose levels were significantly (P < .02) lower with the metformin-GIMM combination (121.3 \u00b1 7.8 mg/dl) than with metformin-placebo (151.9 \u00b1 7.8 mg/dl).\n\nCONCLUSION: Combining a GI microbiome modulator with metformin might allow the greater use of metformin in T2D patients and improve treatment of the disease."
+  },
+  {
+    "rank": 10,
+    "score": 0.6001899993080517,
+    "search_type": "hybrid",
+    "vector_id": 6208989,
+    "chunk_id": 6208989,
+    "pmid": "33744985",
+    "title": "Anticancer potential of metformin: focusing on gastrointestinal cancers.",
+    "year": 2021,
+    "journal": "Cancer chemotherapy and pharmacology",
+    "authors": [
+      "Mohammad Rafi Khezri",
+      "Hassan Malekinejad",
+      "Naime Majidi-Zolbanin",
+      "Morteza Ghasemnejad-Berenji"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Angiogenesis Inhibitors",
+        "is_major": false,
+        "ui": "D020533"
+      },
+      {
+        "term": "Antineoplastic Agents",
+        "is_major": false,
+        "ui": "D000970"
+      },
+      {
+        "term": "Apoptosis",
+        "is_major": false,
+        "ui": "D017209"
+      },
+      {
+        "term": "Drug Resistance, Neoplasm",
+        "is_major": false,
+        "ui": "D019008"
+      },
+      {
+        "term": "Gastrointestinal Neoplasms",
+        "is_major": false,
+        "ui": "D005770"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "MicroRNAs",
+        "is_major": false,
+        "ui": "D035683"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Cancer",
+        "is_major": false
+      },
+      {
+        "term": "Gastrointestinal",
+        "is_major": false
+      },
+      {
+        "term": "Metformin",
+        "is_major": false
+      }
+    ],
+    "citations": [
+      {
+        "type": "ErratumIn",
+        "source": "Cancer Chemother Pharmacol. 2022 Feb;89(2):283. doi: 10.1007/s00280-021-04336-9",
+        "pmid": "34338811"
+      }
+    ],
+    "text": "Gastrointestinal cancers are one of the most common types of cancer that have high annual mortality; therefore, identification and introduction of safe drugs in the control and prevention of these cancers are of particular importance. Metformin, a lipophilic biguanide, is the most commonly prescribed agent for type 2 diabetes management. In addition to its great effects on lowering the blood glucose concentrations, the anti-cancer properties of this drug have been reported in many types of cancers such as gastrointestinal cancers. Hence the effects of this agent as a safe drug on the reduction of gastrointestinal cancer risk and suppression of these types of cancers have been studied in different clinical trials. Furthermore, the proposed mechanisms of metformin in preventing the growth of these cancers have been investigated in several studies. In this review, we discuss recent advances in elucidating the molecular mechanisms that are relevant for metformin use in gastrointestinal cancer treatment."
+  }
+]

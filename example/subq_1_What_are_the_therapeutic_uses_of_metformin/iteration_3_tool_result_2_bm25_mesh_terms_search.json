@@ -1,0 +1,1110 @@
+{
+  "query": "metformin adjunct therapy cancer chronic diseases",
+  "search_type": "bm25_mesh_terms",
+  "parameters": {
+    "k": 15
+  },
+  "results_count": 15,
+  "results": [
+    {
+      "rank": 1,
+      "score": 7.4965972900390625,
+      "search_type": "bm25_mesh_terms",
+      "vector_id": 8438576,
+      "chunk_id": 8438576,
+      "pmid": "31053397",
+      "title": "Mind-Body Interventions in the Management of Chronic Cancer Pain.",
+      "year": 2019,
+      "journal": "Seminars in oncology nursing",
+      "authors": [
+        "Linda H Eaton",
+        "Jennifer M Hulett"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Cancer Pain",
+          "is_major": false,
+          "ui": "D000072716"
+        },
+        {
+          "term": "Chronic Disease",
+          "is_major": false,
+          "ui": "D002908"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Mind-Body Therapies",
+          "is_major": true,
+          "ui": "D026441"
+        },
+        {
+          "term": "Pain Management",
+          "is_major": false,
+          "ui": "D059408"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "Cancer",
+          "is_major": false
+        },
+        {
+          "term": "Chronic pain",
+          "is_major": false
+        },
+        {
+          "term": "Complementary therapies",
+          "is_major": false
+        },
+        {
+          "term": "Mind-body therapies",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "OBJECTIVES: To describe mind-body interventions used in the management of chronic cancer pain including their mechanisms of action, dosing, and delivery methods based on available evidence to date.\n\nDATA SOURCES: Peer-reviewed publications.\n\nCONCLUSION: Further high-quality research is needed to establish the effectiveness and mechanisms of actions for mind-body interventions in chronic cancer pain management.\n\nIMPLICATIONS FOR NURSING PRACTICE: Mind-body interventions for chronic cancer pain management are generally safe and well-accepted by individuals with cancer. Nurses need to be knowledgeable about these interventions to explain their level of effectiveness and any safety issues with patients."
+    },
+    {
+      "rank": 2,
+      "score": 6.370349884033203,
+      "search_type": "bm25_mesh_terms",
+      "vector_id": 11112600,
+      "chunk_id": 11112600,
+      "pmid": "27567928",
+      "title": "Aspirin in pancreatic cancer: chemopreventive effects and therapeutic potentials.",
+      "year": 2016,
+      "journal": "Biochimica et biophysica acta",
+      "authors": [
+        "Ming-Jie Jiang",
+        "Juan-Juan Dai",
+        "Dian-Na Gu",
+        "Qian Huang",
+        "Ling Tian"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Animals",
+          "is_major": false,
+          "ui": "D000818"
+        },
+        {
+          "term": "Anticarcinogenic Agents",
+          "is_major": false,
+          "ui": "D016588"
+        },
+        {
+          "term": "Aspirin",
+          "is_major": false,
+          "ui": "D001241"
+        },
+        {
+          "term": "Cancer Pain",
+          "is_major": false,
+          "ui": "D000072716"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Metformin",
+          "is_major": false,
+          "ui": "D008687"
+        },
+        {
+          "term": "Pancreatic Neoplasms",
+          "is_major": false,
+          "ui": "D010190"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "Aspirin",
+          "is_major": false
+        },
+        {
+          "term": "Cancer biology",
+          "is_major": false
+        },
+        {
+          "term": "Cancer chemoprevention",
+          "is_major": false
+        },
+        {
+          "term": "Cancer microenvironment",
+          "is_major": false
+        },
+        {
+          "term": "Cancer therapy",
+          "is_major": false
+        },
+        {
+          "term": "Pancreatic cancer",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Pancreatic cancer is one of the most aggressive malignancies with dismal prognosis. Recently, aspirin has been found to be an effective chemopreventive agent for many solid tumors. However, the function of aspirin use in pancreatic cancer largely remains unknown. We herein argued that aspirin could also lower the risk of pancreatic cancer. Importantly, aspirin assumes pleiotropic effects by targeting multiple molecules. It could further target the unique tumor biology of pancreatic cancer and modify the cancer microenvironment, thus showing remarkable therapeutic potentials. Besides, aspirin could reverse the chemoradiation resistance by repressing tumor repopulation and exert synergistic potentials with metformin on pancreatic cancer chemoprevention. Moreover, aspirin secondarily benefits pancreatic cancer patients through modestly reducing cancer pain and the risk of venous thromboembolism. Furthermore, new aspirin derivatives and delivery systems might help to improve risk-to-benefit ratio. In brief, aspirin is a promising chemopreventive agent and exerts significant therapeutic potentials in pancreatic cancer."
+    },
+    {
+      "rank": 3,
+      "score": 6.360741138458252,
+      "search_type": "bm25_mesh_terms",
+      "vector_id": 17734942,
+      "chunk_id": 17734942,
+      "pmid": "18786090",
+      "title": "Insulin resistance: a potential new target for therapy in patients with heart failure.",
+      "year": 2008,
+      "journal": "Cardiovascular therapeutics",
+      "authors": [
+        "Aaron K F Wong",
+        "Matlooba A AlZadjali",
+        "Anna-Maria J Choy",
+        "Chim C Lang"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Chronic Disease",
+          "is_major": false,
+          "ui": "D002908"
+        },
+        {
+          "term": "Heart Failure",
+          "is_major": false,
+          "ui": "D006333"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Hypoglycemic Agents",
+          "is_major": false,
+          "ui": "D007004"
+        },
+        {
+          "term": "Insulin Resistance",
+          "is_major": true,
+          "ui": "D007333"
+        },
+        {
+          "term": "Metformin",
+          "is_major": false,
+          "ui": "D008687"
+        },
+        {
+          "term": "Thiazolidinediones",
+          "is_major": false,
+          "ui": "D045162"
+        }
+      ],
+      "keywords": [],
+      "citations": [],
+      "text": "There is increasing evidence to suggest that chronic heart failure (CHF) is an insulin resistant (IR) state and that the degree of IR correlates with the severity and mortality of CHF. The pathophysiology of IR in CHF has yet to be fully defined. Additionally, it remains to be determined if IR is merely a marker reflecting the severity of CHF or whether it contributes to the disease in CHF. If IR is truly a culprit that worsens CHF, it will potentially be a new target for therapy as strategies that can reverse IR in CHF may potentially result in an improvement in symptoms and even mortality in these patients. However, there are concerns regarding the use of certain insulin sensitizers, most notably, the thiazolidinediones (TZDs) which have been associated with increased risk of hospitalizations for CHF. Despite previous concerns of lactic acidosis (LA), there is now evidence that metformin may not only be safe but could potentially be useful in the setting of CHF. There are now ongoing prospective studies, including the TAYSIDE study, to determine if reversing IR with metformin will have beneficial effects in patients with CHF."
+    },
+    {
+      "rank": 4,
+      "score": 6.360741138458252,
+      "search_type": "bm25_mesh_terms",
+      "vector_id": 4875491,
+      "chunk_id": 4875491,
+      "pmid": "35333878",
+      "title": "Recruitment in randomized clinical trials: The MeMeMe experience.",
+      "year": 2022,
+      "journal": "PloS one",
+      "authors": [
+        "Ivan Baldassari",
+        "Andreina Oliverio",
+        "Vittorio Krogh",
+        "Eleonora Bruno",
+        "Giuliana Gargano",
+        "Mauro Cortellini",
+        "Alice Casagrande",
+        "Maria G Di Mauro",
+        "Elisabetta Venturelli",
+        "Daniela Del Sette Cerulli",
+        "Bellegotti Manuela",
+        "Franco Berrino",
+        "Patrizia Pasanisi"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Chronic Disease",
+          "is_major": false,
+          "ui": "D002908"
+        },
+        {
+          "term": "Female",
+          "is_major": false,
+          "ui": "D005260"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Logistic Models",
+          "is_major": false,
+          "ui": "D016015"
+        },
+        {
+          "term": "Metformin",
+          "is_major": true,
+          "ui": "D008687"
+        },
+        {
+          "term": "Racial Groups",
+          "is_major": false,
+          "ui": "D044469"
+        },
+        {
+          "term": "Research Design",
+          "is_major": false,
+          "ui": "D012107"
+        }
+      ],
+      "keywords": [],
+      "citations": [],
+      "text": "INTRODUCTION: Recruitment is essential for the success of clinical trials. We are conducting a randomized clinical trial to test the effect of a Mediterranean dietary intervention with or without 1700 mg/day of metformin for the prevention of age-related chronic diseases, the MeMeMe trial (Trial registration number: EudraCT number: 2012-005427-32 ClinicalTrials.gov ID: NCT02960711). MeMeMe recruiting experience, highlighting strengths, limitations encountered and results is reported.\n\nPATIENTS AND METHODS: Statistical analysis focused on the reasons for withdrawal according to the recruitment method (\"active\" versus \"passive\" criterion) and the time of withdrawal. Logistic regression models were used to explore the associations between the risk of withdrawal and sex, recruitment method, randomization arm, and with markers of compliance to the intervention, such as one-year change in body weight.\n\nRESULTS: Out of 2035 volunteers, 660 (32.4%) were recruited \"actively\" and 1375 (67.6%) \"passively\". Among people who dropped out of the trial after randomization, there were 19.5% for the \"active\" and 22.0% for the \"passive\" method (p = 0.28). The risk of withdrawal was significantly higher in women (OR:1.91; 95% CI:1.17-3.12; p = 0.01), in volunteers older at recruitment (OR:1.25; 95% CI:1.07-1.45; p = 0.004), and in those with a higher BMI at baseline (OR:1.23; 95% CI:1.07-1.43; p = 0.004). Volunteers who lost at least 2 kg (the median weight change) in the first year of intervention were significantly less (53%) likely to withdraw from the trial (OR:0.48; 95% CI:0.30-0.75; p = 0.001).\n\nCONCLUSION: Our findings suggest that the \"passive\" recruitment method was more effective than the \"active\" one to advance recruitment. The benefits of \"passive\" recruitment hardly outweighed the drawbacks.\n\nTRIAL REGISTRATION: Trial registration number: EudraCT number: 2012-005427-32. ClinicalTrials.gov ID: NCT02960711."
+    },
+    {
+      "rank": 5,
+      "score": 6.320361137390137,
+      "search_type": "bm25_mesh_terms",
+      "vector_id": 8643865,
+      "chunk_id": 8643865,
+      "pmid": "30754072",
+      "title": "NF-κB as the mediator of metformin's effect on ageing and ageing-related diseases.",
+      "year": 2019,
+      "journal": "Clinical and experimental pharmacology & physiology",
+      "authors": [
+        "Gönül Kanigur Sultuybek",
+        "Tugba Soydas",
+        "Guven Yenmis"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Aging",
+          "is_major": false,
+          "ui": "D000375"
+        },
+        {
+          "term": "Animals",
+          "is_major": false,
+          "ui": "D000818"
+        },
+        {
+          "term": "Disease",
+          "is_major": false,
+          "ui": "D004194"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Metformin",
+          "is_major": false,
+          "ui": "D008687"
+        },
+        {
+          "term": "Molecular Targeted Therapy",
+          "is_major": true,
+          "ui": "D058990"
+        },
+        {
+          "term": "NF-kappa B",
+          "is_major": false,
+          "ui": "D016328"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "NF-kB",
+          "is_major": false
+        },
+        {
+          "term": "ageing",
+          "is_major": false
+        },
+        {
+          "term": "ageing-related diseases",
+          "is_major": false
+        },
+        {
+          "term": "metformin",
+          "is_major": false
+        },
+        {
+          "term": "oxidative stress",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Ageing can be defined as the progressive failure of repair and maintenance systems with a consequent accumulation of cellular damage in nucleic acids, proteins, and lipids. These various types of damage promote ageing by driving cellular senescence and apoptosis. The nuclear factor-kappa B (NF-kB) pathway is one of the key mediators of ageing and this pathway is activated by genotoxic, oxidative and inflammatory stress, and regulates expression of cytokines, growth factors, and genes that regulate apoptosis, cell-cycle progression, and inflammation. Therefore, NF-kB is increased in a variety of tissues with ageing, thus the inhibition of NF-kB leads to delayed onset of ageing-related symptoms and pathologies such as diabetes, atherosclerosis, and cancer. Metformin is often used as an anti-diabetic medication in type 2 diabetes throughout the world and appears to be a potential anti-ageing agent. Owing to its antioxidant, anticancer, cardio-protective and anti-inflammatory properties, metformin has become a potential candidate drug, improving in the context of ageing and ageing-related diseases. An inappropriate NF-kB activation is associated with diseases and pathologic conditions which can impair the activity of genes involved in cell senescence, apoptosis, immunity, and inflammation. Metformin, inhibiting the expression of NF-kB gene, eliminates the susceptibility to common diseases. This review underlines the pleiotropic effects of metformin in ageing and different ageing-related diseases and attributes its effects to the modulation of NF-kB."
+    },
+    {
+      "rank": 6,
+      "score": 6.248255729675293,
+      "search_type": "bm25_mesh_terms",
+      "vector_id": 4538594,
+      "chunk_id": 4538594,
+      "pmid": "35735150",
+      "title": "[Chronic cancer pain: pathophysiology and ICD-11 classification].",
+      "year": 2022,
+      "journal": "Revue medicale suisse",
+      "authors": [
+        "Cyril Chams",
+        "Ana Borda De Agua Reis",
+        "Chantal Berna",
+        "Marc R Suter"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Cancer Pain",
+          "is_major": true,
+          "ui": "D000072716"
+        },
+        {
+          "term": "Cancer Survivors",
+          "is_major": true,
+          "ui": "D000073116"
+        },
+        {
+          "term": "Chronic Pain",
+          "is_major": true,
+          "ui": "D059350"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "International Classification of Diseases",
+          "is_major": false,
+          "ui": "D038801"
+        },
+        {
+          "term": "Medical Oncology",
+          "is_major": false,
+          "ui": "D008495"
+        },
+        {
+          "term": "Neoplasms",
+          "is_major": true,
+          "ui": "D009369"
+        }
+      ],
+      "keywords": [],
+      "citations": [],
+      "text": "Chronic cancer pain is one of the most common symptoms affecting oncology patients and cancer survivors. Epidemiological trends show that its recognition and management are increasingly important. The ICD-11 provides a better analysis of this problem based on the pathophysiological characteristics of cancer-related pain. This article proposes to review the mechanisms of cancer-related pain in relation to this classification."
+    },
+    {
+      "rank": 7,
+      "score": 6.2408952713012695,
+      "search_type": "bm25_mesh_terms",
+      "vector_id": 168856,
+      "chunk_id": 168856,
+      "pmid": "39456024",
+      "title": "Effects of metformin phonophoresis and exercise therapy on pain, range of motion, and physical function in chronic knee osteoarthritis: randomized clinical trial.",
+      "year": 2024,
+      "journal": "Journal of orthopaedic surgery and research",
+      "authors": [
+        "Marwah Salih Abed",
+        "Marihan Zakaria Aziz",
+        "Nabil Mohie AbdelHamid",
+        "Elsadat Saad Soliman"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Osteoarthritis, Knee",
+          "is_major": true,
+          "ui": "D020370"
+        },
+        {
+          "term": "Female",
+          "is_major": false,
+          "ui": "D005260"
+        },
+        {
+          "term": "Male",
+          "is_major": false,
+          "ui": "D008297"
+        },
+        {
+          "term": "Middle Aged",
+          "is_major": false,
+          "ui": "D008875"
+        },
+        {
+          "term": "Phonophoresis",
+          "is_major": true,
+          "ui": "D015612"
+        },
+        {
+          "term": "Range of Motion, Articular",
+          "is_major": true,
+          "ui": "D016059"
+        },
+        {
+          "term": "Metformin",
+          "is_major": true,
+          "ui": "D008687"
+        },
+        {
+          "term": "Exercise Therapy",
+          "is_major": true,
+          "ui": "D005081"
+        },
+        {
+          "term": "Aged",
+          "is_major": false,
+          "ui": "D000368"
+        },
+        {
+          "term": "Treatment Outcome",
+          "is_major": false,
+          "ui": "D016896"
+        },
+        {
+          "term": "Chronic Disease",
+          "is_major": false,
+          "ui": "D002908"
+        },
+        {
+          "term": "Combined Modality Therapy",
+          "is_major": false,
+          "ui": "D003131"
+        },
+        {
+          "term": "Pain Measurement",
+          "is_major": false,
+          "ui": "D010147"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "Exercise",
+          "is_major": false
+        },
+        {
+          "term": "Knee osteoarthritis",
+          "is_major": false
+        },
+        {
+          "term": "Metformin Phonophoresis",
+          "is_major": false
+        },
+        {
+          "term": "Ultrasound",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "BACKGROUND: Knee osteoarthritis (KOA) is a common musculoskeletal disorder. Therapeutic ultrasound (US) is a safe and effective treatment for KOA. It relieves knee pain and enhances function. Metformin (MF) regulates chondrocytes, hence providing chondroprotection. Furthermore, it efficiently reduces knee articular cartilage degeneration and retards the progression of osteoarthritis. However, the localized administration of MF by phonophoresis for KOA has yet to be studied.\n\nPURPOSE: To assess the possible effects of metformin phonophoresis (MFPH) plus exercise therapy (EX) compared to MFPH alone or the US on knee pain, function, and range of motion (ROM) in chronic KOA patients.\n\nMETHODS: Seventy-eight patients with unilateral mild to moderate chronic KOA were included. Patients were randomly assigned to three groups: group A (MFPH + EX), group B (MFPH alone), and group C (US). The US group used an acoustic-neutral gel, while the MFPH group used a gel containing 1.2% MF. The exercises included hamstring stretches, calf stretches, and knee strengthening exercises. Treatment in the three groups continued for four weeks (three sessions per week). The Visual Analog Scale (VAS), the Western Ontario and McMaster Universities Osteoarthritis Index (WOMAC), and the goniometer were used to assess knee pain, function disability, and ROM, respectively. All measures were recorded before, 2 weeks, and 4 weeks after the intervention in all groups. Multivariate Analysis of Variance (MNOVA) was performed to compare the effects within and between groups for knee ROM and function disability. The Kruskal-Wallis test and the Friedman test analyzed the pain intensity.\n\nRESULTS: When the baseline patient characteristics were compared, there were no significant differences in means of age, gender, body mass index (BMI), or lower limb dominance across the three groups (p > 0.05). After 4 weeks of intervention, clinical outcomes significantly improved in all three groups (p < 0.05). However, patients in the MFPH + EX group improved significantly in all outcomes compared to the MFPH and US groups (p < 0.05).\n\nCONCLUSION: Post-treatment results showed a statistically and clinically significant improvement in pain intensity, knee ROM, and function in the MFPH group; however, combining MFPH with exercises is more beneficial in reducing KOA symptoms.\n\nTRIAL REGISTRATION: Clinical Trial Registry at (pactr.samrc.ac.za) database. NO: PACTR202311507335269. Date: November 9, 2023 (retrospectively registered)."
+    },
+    {
+      "rank": 8,
+      "score": 6.2408952713012695,
+      "search_type": "bm25_mesh_terms",
+      "vector_id": 1422072,
+      "chunk_id": 1422072,
+      "pmid": "39456024",
+      "title": "Effects of metformin phonophoresis and exercise therapy on pain, range of motion, and physical function in chronic knee osteoarthritis: randomized clinical trial.",
+      "year": 2024,
+      "journal": "Journal of orthopaedic surgery and research",
+      "authors": [
+        "Marwah Salih Abed",
+        "Marihan Zakaria Aziz",
+        "Nabil Mohie AbdelHamid",
+        "Elsadat Saad Soliman"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Osteoarthritis, Knee",
+          "is_major": true,
+          "ui": "D020370"
+        },
+        {
+          "term": "Female",
+          "is_major": false,
+          "ui": "D005260"
+        },
+        {
+          "term": "Male",
+          "is_major": false,
+          "ui": "D008297"
+        },
+        {
+          "term": "Middle Aged",
+          "is_major": false,
+          "ui": "D008875"
+        },
+        {
+          "term": "Phonophoresis",
+          "is_major": true,
+          "ui": "D015612"
+        },
+        {
+          "term": "Range of Motion, Articular",
+          "is_major": true,
+          "ui": "D016059"
+        },
+        {
+          "term": "Metformin",
+          "is_major": true,
+          "ui": "D008687"
+        },
+        {
+          "term": "Exercise Therapy",
+          "is_major": true,
+          "ui": "D005081"
+        },
+        {
+          "term": "Aged",
+          "is_major": false,
+          "ui": "D000368"
+        },
+        {
+          "term": "Treatment Outcome",
+          "is_major": false,
+          "ui": "D016896"
+        },
+        {
+          "term": "Chronic Disease",
+          "is_major": false,
+          "ui": "D002908"
+        },
+        {
+          "term": "Combined Modality Therapy",
+          "is_major": false,
+          "ui": "D003131"
+        },
+        {
+          "term": "Pain Measurement",
+          "is_major": false,
+          "ui": "D010147"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "Exercise",
+          "is_major": false
+        },
+        {
+          "term": "Knee osteoarthritis",
+          "is_major": false
+        },
+        {
+          "term": "Metformin Phonophoresis",
+          "is_major": false
+        },
+        {
+          "term": "Ultrasound",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "BACKGROUND: Knee osteoarthritis (KOA) is a common musculoskeletal disorder. Therapeutic ultrasound (US) is a safe and effective treatment for KOA. It relieves knee pain and enhances function. Metformin (MF) regulates chondrocytes, hence providing chondroprotection. Furthermore, it efficiently reduces knee articular cartilage degeneration and retards the progression of osteoarthritis. However, the localized administration of MF by phonophoresis for KOA has yet to be studied.\n\nPURPOSE: To assess the possible effects of metformin phonophoresis (MFPH) plus exercise therapy (EX) compared to MFPH alone or the US on knee pain, function, and range of motion (ROM) in chronic KOA patients.\n\nMETHODS: Seventy-eight patients with unilateral mild to moderate chronic KOA were included. Patients were randomly assigned to three groups: group A (MFPH + EX), group B (MFPH alone), and group C (US). The US group used an acoustic-neutral gel, while the MFPH group used a gel containing 1.2% MF. The exercises included hamstring stretches, calf stretches, and knee strengthening exercises. Treatment in the three groups continued for four weeks (three sessions per week). The Visual Analog Scale (VAS), the Western Ontario and McMaster Universities Osteoarthritis Index (WOMAC), and the goniometer were used to assess knee pain, function disability, and ROM, respectively. All measures were recorded before, 2 weeks, and 4 weeks after the intervention in all groups. Multivariate Analysis of Variance (MNOVA) was performed to compare the effects within and between groups for knee ROM and function disability. The Kruskal-Wallis test and the Friedman test analyzed the pain intensity.\n\nRESULTS: When the baseline patient characteristics were compared, there were no significant differences in means of age, gender, body mass index (BMI), or lower limb dominance across the three groups (p > 0.05). After 4 weeks of intervention, clinical outcomes significantly improved in all three groups (p < 0.05). However, patients in the MFPH + EX group improved significantly in all outcomes compared to the MFPH and US groups (p < 0.05).\n\nCONCLUSION: Post-treatment results showed a statistically and clinically significant improvement in pain intensity, knee ROM, and function in the MFPH group; however, combining MFPH with exercises is more beneficial in reducing KOA symptoms.\n\nTRIAL REGISTRATION: Clinical Trial Registry at (pactr.samrc.ac.za) database. NO: PACTR202311507335269. Date: November 9, 2023 (retrospectively registered)."
+    },
+    {
+      "rank": 9,
+      "score": 6.167946815490723,
+      "search_type": "bm25_mesh_terms",
+      "vector_id": 13385469,
+      "chunk_id": 13385469,
+      "pmid": "24709339",
+      "title": "STOP accelerating lung aging for the treatment of COPD.",
+      "year": 2014,
+      "journal": "Experimental gerontology",
+      "authors": [
+        "Kazuhiro Ito",
+        "Nicolas Mercado"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Aging",
+          "is_major": false,
+          "ui": "D000375"
+        },
+        {
+          "term": "Disease Progression",
+          "is_major": false,
+          "ui": "D018450"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Inflammation",
+          "is_major": false,
+          "ui": "D007249"
+        },
+        {
+          "term": "Lung",
+          "is_major": false,
+          "ui": "D008168"
+        },
+        {
+          "term": "Metformin",
+          "is_major": false,
+          "ui": "D008687"
+        },
+        {
+          "term": "Oxidative Stress",
+          "is_major": false,
+          "ui": "D018384"
+        },
+        {
+          "term": "Pulmonary Disease, Chronic Obstructive",
+          "is_major": false,
+          "ui": "D029424"
+        },
+        {
+          "term": "Sirtuins",
+          "is_major": false,
+          "ui": "D037761"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "Aging",
+          "is_major": false
+        },
+        {
+          "term": "Autophagy",
+          "is_major": false
+        },
+        {
+          "term": "COPD",
+          "is_major": false
+        },
+        {
+          "term": "Corticosteroid",
+          "is_major": false
+        },
+        {
+          "term": "Emphysema",
+          "is_major": false
+        },
+        {
+          "term": "Inflammation",
+          "is_major": false
+        },
+        {
+          "term": "Lung",
+          "is_major": false
+        },
+        {
+          "term": "Melatonin",
+          "is_major": false
+        },
+        {
+          "term": "Metformin",
+          "is_major": false
+        },
+        {
+          "term": "Oxidative stress",
+          "is_major": false
+        },
+        {
+          "term": "Sirtuin",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Life expectancy is assumed to rise continuously and consequently global burden of age-associated diseases is expected to increase. All vital organs begin to lose some function during aging with different rates, and the same happens on the lung. Chronic obstructive pulmonary disease (COPD) is a chronic inflammatory disease of the lungs, which progresses very slowly and the majority of patients are therefore elderly. COPD is a major and increasing global health problem with enormous amount of expenditure of indirect/direct health care costs, and therefore, there is urgent need to clarify the molecular mechanism of COPD and develop novel treatments. We here hypothesize that environmental gases, such as cigarette smoke and kitchen pollutants, may accelerate the aging of lung or worsen aging-related events in the lung, leading to defective resolution of inflammation, reduced anti-oxidant capacity and defective disposal of abnormal proteins, and this consequently induces progression of COPD. Recent studies identified some anti-aging small molecules (geroprotectors) that may open up new avenues for the treatment of COPD."
+    },
+    {
+      "rank": 10,
+      "score": 6.166131019592285,
+      "search_type": "bm25_mesh_terms",
+      "vector_id": 4398768,
+      "chunk_id": 4398768,
+      "pmid": "35869449",
+      "title": "The promising therapeutic effects of metformin on metabolic reprogramming of cancer-associated fibroblasts in solid tumors.",
+      "year": 2022,
+      "journal": "Cellular & molecular biology letters",
+      "authors": [
+        "Samaneh Mostafavi",
+        "Hamidreza Zalpoor",
+        "Zuhair Mohammad Hassan"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Cancer-Associated Fibroblasts",
+          "is_major": true,
+          "ui": "D000072645"
+        },
+        {
+          "term": "Fibroblasts",
+          "is_major": false,
+          "ui": "D005347"
+        },
+        {
+          "term": "Glycolysis",
+          "is_major": false,
+          "ui": "D006019"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Lactates",
+          "is_major": false,
+          "ui": "D007773"
+        },
+        {
+          "term": "Metformin",
+          "is_major": true,
+          "ui": "D008687"
+        },
+        {
+          "term": "Neoplasms",
+          "is_major": true,
+          "ui": "D009369"
+        },
+        {
+          "term": "Tumor Microenvironment",
+          "is_major": false,
+          "ui": "D059016"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "Cancer-associated fibroblasts",
+          "is_major": false
+        },
+        {
+          "term": "Lactic acid",
+          "is_major": false
+        },
+        {
+          "term": "Metformin",
+          "is_major": false
+        },
+        {
+          "term": "Myofibroblasts",
+          "is_major": false
+        },
+        {
+          "term": "Stromal cells",
+          "is_major": false
+        },
+        {
+          "term": "Tumor microenvironment",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Tumor-infiltrated lymphocytes are exposed to many toxic metabolites and molecules in the tumor microenvironment (TME) that suppress their anti-tumor activity. Toxic metabolites, such as lactate and ketone bodies, are produced mainly by catabolic cancer-associated fibroblasts (CAFs) to feed anabolic cancer cells. These catabolic and anabolic cells make a metabolic compartment through which high-energy metabolites like lactate can be transferred via the monocarboxylate transporter channel 4. Moreover, a decrease in molecules, including caveolin-1, has been reported to cause deep metabolic changes in normal fibroblasts toward myofibroblast differentiation. In this context, metformin is a promising drug in cancer therapy due to its effect on oncogenic signal transduction pathways, leading to the inhibition of tumor proliferation and downregulation of key oncometabolites like lactate and succinate. The cross-feeding and metabolic coupling of CAFs and tumor cells are also affected by metformin. Therefore, the importance of metabolic reprogramming of stromal cells and also the pivotal effects of metformin on TME and oncometabolites signaling pathways have been reviewed in this study."
+    },
+    {
+      "rank": 11,
+      "score": 6.14723014831543,
+      "search_type": "bm25_mesh_terms",
+      "vector_id": 3581975,
+      "chunk_id": 3581975,
+      "pmid": "36842758",
+      "title": "Cancer screening in chronic inflammatory rheumatic diseases.",
+      "year": 2023,
+      "journal": "Joint bone spine",
+      "authors": [
+        "Joanna Kedra",
+        "Raphaèle Seror"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Early Detection of Cancer",
+          "is_major": false,
+          "ui": "D055088"
+        },
+        {
+          "term": "Rheumatic Diseases",
+          "is_major": true,
+          "ui": "D012216"
+        },
+        {
+          "term": "Rheumatology",
+          "is_major": true,
+          "ui": "D012219"
+        },
+        {
+          "term": "Chronic Disease",
+          "is_major": false,
+          "ui": "D002908"
+        },
+        {
+          "term": "Neoplasms",
+          "is_major": true,
+          "ui": "D009369"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "Cancer",
+          "is_major": false
+        },
+        {
+          "term": "Rheumatic disease",
+          "is_major": false
+        },
+        {
+          "term": "Screening",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Cancer is a major public health concern, and screening for cancer is a on-going issue in our practice. The risk of cancer in patients with chronic inflammatory rheumatic diseases varies according to their personal medical history, underlying rheumatic disease and its treatment. However, to date, no rheumatology learned society has established specific recommendations for cancer screening in patients with chronic inflammatory rheumatic diseases. In this review, we provide an overview of the risk of cancer in chronic inflammatory rheumatic diseases (related to the disease itself or its treatment), cancer screening in the general population and in immunocompromised subjects, and cancer screening in patients with chronic inflammatory rheumatic diseases."
+    },
+    {
+      "rank": 12,
+      "score": 5.9774909019470215,
+      "search_type": "bm25_mesh_terms",
+      "vector_id": 21502405,
+      "chunk_id": 21502405,
+      "pmid": "11714216",
+      "title": "Metformin as a cause of late-onset chronic diarrhea.",
+      "year": 2001,
+      "journal": "Pharmacotherapy",
+      "authors": [
+        "M T Foss",
+        "K D Clement"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Chronic Disease",
+          "is_major": false,
+          "ui": "D002908"
+        },
+        {
+          "term": "Diabetes Mellitus, Type 2",
+          "is_major": false,
+          "ui": "D003924"
+        },
+        {
+          "term": "Diarrhea",
+          "is_major": false,
+          "ui": "D003967"
+        },
+        {
+          "term": "Female",
+          "is_major": false,
+          "ui": "D005260"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Hypoglycemic Agents",
+          "is_major": false,
+          "ui": "D007004"
+        },
+        {
+          "term": "Metformin",
+          "is_major": false,
+          "ui": "D008687"
+        },
+        {
+          "term": "Middle Aged",
+          "is_major": false,
+          "ui": "D008875"
+        }
+      ],
+      "keywords": [],
+      "citations": [],
+      "text": "Metformin is an effective and commonly administered drug for controlling plasma glucose concentrations in patients with type 2 diabetes mellitus. Gastrointestinal adverse effects such as abdominal pain, nausea, dyspepsia, anorexia, and diarrhea are common and widely accepted when occurring at the start of metformin therapy. Diarrhea occurring long after the dosage titration period is much less well recognized. Our patient began to experience nausea, abdominal cramping, and explosive watery diarrhea that occasionally caused incontinence after several years of stable metformin therapy A trial of metformin discontinuation resolved all gastrointestinal symptoms. A review of the literature revealed two reports that suggest diarrhea occurring long after the start of metformin therapy is relatively common, based on surveys of patients with diabetes. Metformin-induced diarrhea is differentiated from diabetic diarrhea, which is clinically similar, except diabetic diarrhea is rare in patients with type 2 diabetes. Patients with type 2 diabetes who are taking metformin and experience diarrhea deserve a drug-free interval before undergoing expensive and uncomfortable diagnostic tests, even when the dosage has been stable over a long period."
+    },
+    {
+      "rank": 13,
+      "score": 5.9774909019470215,
+      "search_type": "bm25_mesh_terms",
+      "vector_id": 14462536,
+      "chunk_id": 14462536,
+      "pmid": "23369136",
+      "title": "Diabetes and chronic heart failure: from diabetic cardiomyopathy to therapeutic approach.",
+      "year": 2013,
+      "journal": "Endocrine, metabolic & immune disorders drug targets",
+      "authors": [
+        "A Dei Cas",
+        "V Spigoni",
+        "V Ridolfi",
+        "M Metra"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Chronic Disease",
+          "is_major": false,
+          "ui": "D002908"
+        },
+        {
+          "term": "Diabetes Mellitus",
+          "is_major": true,
+          "ui": "D003920"
+        },
+        {
+          "term": "Diabetic Cardiomyopathies",
+          "is_major": false,
+          "ui": "D058065"
+        },
+        {
+          "term": "Heart Failure",
+          "is_major": false,
+          "ui": "D006333"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Hypoglycemic Agents",
+          "is_major": false,
+          "ui": "D007004"
+        },
+        {
+          "term": "Insulin",
+          "is_major": false,
+          "ui": "D007328"
+        },
+        {
+          "term": "Metformin",
+          "is_major": false,
+          "ui": "D008687"
+        }
+      ],
+      "keywords": [],
+      "citations": [],
+      "text": "Diabetes and chronic heart failure are interrelated conditions with major medical and economic impact that have to be treated as a distinct entity. Several pathological mechanisms have been investigated and proposed to explain the structural and functional changes associated with diabetic cardiomyopathy. These mechanisms are likely to act synergically and may potentiate one the other. This review outlines recent advances in the pathophysiological mechanisms implicated in the development and progression of diabetic cardiomyopathy and in current therapeutic strategies."
+    },
+    {
+      "rank": 14,
+      "score": 5.9745988845825195,
+      "search_type": "bm25_mesh_terms",
+      "vector_id": 5671480,
+      "chunk_id": 5671480,
+      "pmid": "34387256",
+      "title": "Diabetes and pancreatic cancer: recent insights with implications for early diagnosis, treatment and prevention.",
+      "year": 2021,
+      "journal": "Current opinion in gastroenterology",
+      "authors": [
+        "Bechien U Wu"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Diabetes Mellitus, Type 2",
+          "is_major": true,
+          "ui": "D003924"
+        },
+        {
+          "term": "Early Detection of Cancer",
+          "is_major": false,
+          "ui": "D055088"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Hypoglycemic Agents",
+          "is_major": false,
+          "ui": "D007004"
+        },
+        {
+          "term": "Metformin",
+          "is_major": true,
+          "ui": "D008687"
+        },
+        {
+          "term": "Pancreatic Neoplasms",
+          "is_major": true,
+          "ui": "D010190"
+        }
+      ],
+      "keywords": [],
+      "citations": [],
+      "text": "PURPOSE OF REVIEW: Recent insights into the complex relationship between diabetes and pancreatic cancer have the potential to help direct future approaches to early detection, treatment and prevention.\n\nRECENT FINDINGS: Insulin resistance and hyperinsulinemia have been identified as factors that relate to risk of pancreatic cancer among patients with long-standing diabetes. In contrast, weight loss in the setting of new-onset diabetes can help identify patients at an increased risk for harbouring pancreatic-cancer related disturbances in glucose metabolism. Insights into the implications of poor glycaemic control in patients undergoing resection for pancreatic cancer have the potential to improve both surgical and oncologic outcomes. Finally, among antidiabetic medications, metformin continues to be evaluated as a potential adjunctive therapeutic agent, although recent evidence supports the safety of incretins with respect to pancreatic cancer.\n\nSUMMARY: This review highlights recent developments in these areas with an emphasis on opportunities for improved early diagnosis, treatment and prevention in pancreatic cancer."
+    },
+    {
+      "rank": 15,
+      "score": 5.9310078620910645,
+      "search_type": "bm25_mesh_terms",
+      "vector_id": 17030735,
+      "chunk_id": 17030735,
+      "pmid": "19801140",
+      "title": "Restorative physical and occupational therapy: a critical need for patients with chronic kidney and end-stage renal disease.",
+      "year": 2009,
+      "journal": "Advances in chronic kidney disease",
+      "authors": [
+        "James Nussbaum",
+        "Ralph K Garcia"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Chronic Disease",
+          "is_major": false,
+          "ui": "D002908"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Kidney Diseases",
+          "is_major": false,
+          "ui": "D007674"
+        },
+        {
+          "term": "Kidney Failure, Chronic",
+          "is_major": false,
+          "ui": "D007676"
+        },
+        {
+          "term": "Occupational Therapy",
+          "is_major": true,
+          "ui": "D009788"
+        },
+        {
+          "term": "Physical Therapy Modalities",
+          "is_major": true,
+          "ui": "D026741"
+        }
+      ],
+      "keywords": [],
+      "citations": [],
+      "text": "Patients with CKD and ESRD present with many health problems, which may lead to increased mortality and dysfunction. Numerous comorbidities may contribute toward physical, emotional, and social problems and a decreased quality of life. Difficulty ambulating, balance deficits, joint pain and stiffness, muscle spasm and weakness, fatigue, neuropathy, and difficulty with activities of daily living (ADLs) may contribute to a decrease in functional independence. Physical therapy (PT) and occupational therapy (OT) aim to restore physical functioning, facilitate independence in ADLs, and promote functional independence by using various therapeutic procedures. PT and OT are the usual services of choice to address impaired function associated with acute and chronic pathology. The purpose of this article is multifold: (1) to describe specific interventions provided by PTs and OTs that may be beneficial to individuals with CKD and ESRD, (2) to identify and describe the potential benefits of rehabilitation for these patient populations, and (3) to provide programmatic rehabilitation recommendations for patients with CKD and ESRD."
+    }
+  ]
+}

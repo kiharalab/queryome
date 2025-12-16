@@ -1,0 +1,56 @@
+{
+  "scores": [
+    {
+      "pmid": "37016064",
+      "relevance_score": 10,
+      "justification": "This article directly relates to the latest molecular mechanisms of metformin, covering its multifaceted effects across various diseases, making it highly relevant to recent research trends."
+    },
+    {
+      "pmid": "37567440",
+      "relevance_score": 10,
+      "justification": "This comprehensive review discusses metformin's broad therapeutic application and future predictions in disease treatment, highly relevant to understanding recent research trends about the drug."
+    },
+    {
+      "pmid": "39595655",
+      "relevance_score": 8,
+      "justification": "Focuses on the role of metformin in cancer treatment, which is an emerging area of interest in metformin research, though not as broad in scope as the primary topic."
+    },
+    {
+      "pmid": "39669200",
+      "relevance_score": 9,
+      "justification": "The article highlights the advancement in using multi-omics approaches for metformin treatment in diabetes, aligning with recent precision medicine trends in metformin research."
+    },
+    {
+      "pmid": "34638615",
+      "relevance_score": 7,
+      "justification": "Discusses metabolomic approaches to study metformin, which is a significant area but not as broad as some other trends being investigated currently."
+    },
+    {
+      "pmid": "38555742",
+      "relevance_score": 7,
+      "justification": "Explores metformin's role in cancer therapy and its use in combination therapies, contributing to the understanding of metformin's expanding use."
+    },
+    {
+      "pmid": "38785784",
+      "relevance_score": 7,
+      "justification": "Focuses on metformin's use from diabetes to cancer management, a relevant but specific aspect of its broader trends."
+    },
+    {
+      "pmid": "38984380",
+      "relevance_score": 6,
+      "justification": "Discusses innovations in metformin delivery systems for diabetes and obesity, a narrower aspect of its use compared to the broader trends discussed in other articles."
+    },
+    {
+      "pmid": "40058683",
+      "relevance_score": 5,
+      "justification": "While focusing on anticancer effects which are relevant, this is a limited scope compared to other broader discussions about metformin's overall trends."
+    },
+    {
+      "pmid": "30661330",
+      "relevance_score": 3,
+      "justification": "Only tangentially related to metformin through comparison, and focuses on an unrelated herbal extract study."
+    }
+  ],
+  "decision": "CONTINUE",
+  "suggestion": "Explore recent conference proceedings, review articles, and more primary literature focusing specifically on novel therapeutic uses, drug delivery systems, and molecular mechanisms of metformin to gain a comprehensive view of ongoing research trends."
+}

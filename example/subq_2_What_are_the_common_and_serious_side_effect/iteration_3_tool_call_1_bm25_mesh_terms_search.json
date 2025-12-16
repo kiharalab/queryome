@@ -1,0 +1,7 @@
+{
+  "name": "bm25_mesh_terms_search",
+  "arguments": {
+    "query": "Metformin adverse effects pharmacovigilance",
+    "k": 10
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "scores": [
+    {
+      "pmid": "36052760",
+      "relevance_score": 9,
+      "justification": "The article discusses the cardiovascular benefits of metformin, highlighting its therapeutic uses beyond diabetes management, particularly in cardiovascular diseases. This is highly relevant to the research question on therapeutic uses."
+    },
+    {
+      "pmid": "25762117",
+      "relevance_score": 9,
+      "justification": "This article highlights novel therapeutic targets of metformin, with an emphasis on cardiovascular disease and metabolic syndrome. It discusses mechanisms and potential uses in heart disease, making it highly relevant."
+    },
+    {
+      "pmid": "31029144",
+      "relevance_score": 8,
+      "justification": "The article covers the promising cardiovascular benefits of metformin in both diabetic and non-diabetic patients, supporting its broader therapeutic use, which is relevant to the research question."
+    },
+    {
+      "pmid": "36077136",
+      "relevance_score": 8,
+      "justification": "Discusses metformin's potential in managing cardiovascular diseases like atherosclerosis, highlighting its therapeutic applications beyond diabetes, aligning well with the research focus."
+    },
+    {
+      "pmid": "24007890",
+      "relevance_score": 7,
+      "justification": "Evaluates metformin's safety and benefits in cardiovascular disease and heart failure, which supports its therapeutic uses but focuses on safety aspects more than therapeutic innovations."
+    },
+    {
+      "pmid": "26271457",
+      "relevance_score": 6,
+      "justification": "Explores metformin's pleiotropic effects, including cardioprotection, but lacks direct clinical relevance to therapeutic applications outside the context of diabetes."
+    },
+    {
+      "pmid": "35032305",
+      "relevance_score": 7,
+      "justification": "Analyzes the association of metformin with mortality and cardiovascular events in patients with pre-existing conditions, contributing to its therapeutic overview."
+    },
+    {
+      "pmid": "36972373",
+      "relevance_score": 7,
+      "justification": "Discusses both preclinical and clinical evidence supporting metformin's cardiovascular applications, indicating potential novel therapeutic uses."
+    },
+    {
+      "pmid": "31362743",
+      "relevance_score": 8,
+      "justification": "Provides a systemic review and meta-analysis of metformin's effects on mortality in coronary artery diseases, showcasing its therapeutic potential and relevance."
+    },
+    {
+      "pmid": "37307806",
+      "relevance_score": 8,
+      "justification": "Focuses specifically on cardiovascular protection offered by metformin, reviewing both basic and clinical research, making it highly relevant."
+    }
+  ],
+  "decision": "CONTINUE",
+  "suggestion": "The search should be expanded to focus on additional therapeutic uses of metformin beyond cardiovascular effects, such as its potential roles in non-metabolic disorders or as an adjunct therapy in cancer and other chronic diseases. Also consider more recent publications or ongoing trials for emerging applications."
+}

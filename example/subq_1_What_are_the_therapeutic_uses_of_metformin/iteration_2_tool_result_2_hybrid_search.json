@@ -1,0 +1,669 @@
+{
+  "query": "therapeutic uses of metformin in neurodegenerative diseases",
+  "search_type": "hybrid",
+  "parameters": {
+    "k": 10,
+    "alpha": 0.5
+  },
+  "results_count": 10,
+  "results": [
+    {
+      "rank": 1,
+      "score": 0.9689303098799009,
+      "search_type": "hybrid",
+      "vector_id": 27910019,
+      "chunk_id": 27910019,
+      "pmid": "40283923",
+      "title": "Overview of Metformin and Neurodegeneration: A Comprehensive Review.",
+      "year": 2025,
+      "journal": "Pharmaceuticals (Basel, Switzerland)",
+      "authors": [
+        "Weronika Kruczkowska",
+        "Julia Gałęziewska",
+        "Paulina Buczek",
+        "Elżbieta Płuciennik",
+        "Mateusz Kciuk",
+        "Agnieszka Śliwińska"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        {
+          "term": "metformin",
+          "is_major": false
+        },
+        {
+          "term": "neurodegeneration",
+          "is_major": false
+        },
+        {
+          "term": "type 2 diabetes",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "This comprehensive review examines the therapeutic potential of metformin, a well-established diabetes medication, in treating neurodegenerative disorders. Originally used as a first-line treatment for type 2 diabetes, recent studies have begun investigating metformin's effects beyond metabolic disorders, particularly its neuroprotective capabilities against conditions like Parkinson's disease, Alzheimer's disease, Huntington's disease, and multiple sclerosis. Key findings demonstrate that metformin's neuroprotective effects operate through multiple pathways: AMPK activation enhancing cellular energy metabolism and autophagy; upregulation of antioxidant defenses; suppression of inflammation; inhibition of protein aggregation; and improvement of mitochondrial function. These mechanisms collectively address common pathological features in neurodegeneration and neuroinflammation, including oxidative stress, protein accumulation, and mitochondrial dysfunction. Clinical and preclinical evidence supporting metformin's association with improved cognitive performance, reduced risk of dementia, and modulation of pathological hallmarks of neurodegenerative diseases is critically evaluated. While metformin shows promise as a therapeutic agent, this review emphasizes the need for further investigation to fully understand its mechanisms and optimal therapeutic applications in neurodegenerative diseases."
+    },
+    {
+      "rank": 2,
+      "score": 0.9316942013285059,
+      "search_type": "hybrid",
+      "vector_id": 4701174,
+      "chunk_id": 4701174,
+      "pmid": "35557834",
+      "title": "Exploring the Pharmacological Potential of Metformin for Neurodegenerative Diseases.",
+      "year": 2022,
+      "journal": "Frontiers in aging neuroscience",
+      "authors": [
+        "Ming-Rui Du",
+        "Quan-You Gao",
+        "Chen-Lin Liu",
+        "Lin-Ya Bai",
+        "Tian Li",
+        "Fei-Long Wei"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        {
+          "term": "AMP-activated protein kinase",
+          "is_major": false
+        },
+        {
+          "term": "metformin",
+          "is_major": false
+        },
+        {
+          "term": "narrative review",
+          "is_major": false
+        },
+        {
+          "term": "neurodegeneration",
+          "is_major": false
+        },
+        {
+          "term": "pharmacology",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Metformin, one of the first-line of hypoglycemic drugs, has cardioprotective, anti-inflammatory and anticancer activities, in addition to its proven hypoglycemic effects. Furthermore, the preventive and therapeutic potential of metformin for neurodegenerative diseases has become a topic of concern. Increasing research suggests that metformin can prevent the progression of neurodegenerative diseases. In recent years, many studies have investigated the neuroprotective effect of metformin in the treatment of neurodegenerative diseases. It has been revealed that metformin can play a neuroprotective role by regulating energy metabolism, oxidative stress, inflammatory response and protein deposition of cells, and avoiding neuronal dysfunction and neuronal death. On the contrary, some have hypothesized that metformin has a two-sided effect which may accelerate the progression of neurodegenerative diseases. In this review, the results of animal experiments and clinical studies are reviewed to discuss the application prospects of metformin in neurodegenerative diseases."
+    },
+    {
+      "rank": 3,
+      "score": 0.8339392370966116,
+      "search_type": "hybrid",
+      "vector_id": 2531195,
+      "chunk_id": 2531195,
+      "pmid": "38139841",
+      "title": "Metformin: The Winding Path from Understanding Its Molecular Mechanisms to Proving Therapeutic Benefits in Neurodegenerative Disorders.",
+      "year": 2023,
+      "journal": "Pharmaceuticals (Basel, Switzerland)",
+      "authors": [
+        "Laura Mihaela Isop",
+        "Andrea Elena Neculau",
+        "Radu Dan Necula",
+        "Cristian Kakucs",
+        "Marius Alexandru Moga",
+        "Lorena Dima"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        {
+          "term": "Alzheimer",
+          "is_major": false
+        },
+        {
+          "term": "Parkinson disease",
+          "is_major": false
+        },
+        {
+          "term": "antiaging",
+          "is_major": false
+        },
+        {
+          "term": "cognitive impairment",
+          "is_major": false
+        },
+        {
+          "term": "diabetes",
+          "is_major": false
+        },
+        {
+          "term": "epilepsy",
+          "is_major": false
+        },
+        {
+          "term": "metformin",
+          "is_major": false
+        },
+        {
+          "term": "neurodegenerative",
+          "is_major": false
+        },
+        {
+          "term": "neuroprotection",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Metformin, a widely prescribed medication for type 2 diabetes, has garnered increasing attention for its potential neuroprotective properties due to the growing demand for treatments for Alzheimer's, Parkinson's, and motor neuron diseases. This review synthesizes experimental and clinical studies on metformin's mechanisms of action and potential therapeutic benefits for neurodegenerative disorders. A comprehensive search of electronic databases, including PubMed, MEDLINE, Embase, and Cochrane library, focused on key phrases such as \"metformin\", \"neuroprotection\", and \"neurodegenerative diseases\", with data up to September 2023. Recent research on metformin's glucoregulatory mechanisms reveals new molecular targets, including the activation of the LKB1-AMPK signaling pathway, which is crucial for chronic administration of metformin. The pleiotropic impact may involve other stress kinases that are acutely activated. The precise role of respiratory chain complexes (I and IV), of the mitochondrial targets, or of the lysosomes in metformin effects remains to be established by further research. Research on extrahepatic targets like the gut and microbiota, as well as its antioxidant and immunomodulatory properties, is crucial for understanding neurodegenerative disorders. Experimental data on animal models shows promising results, but clinical studies are inconclusive. Understanding the molecular targets and mechanisms of its effects could help design clinical trials to explore and, hopefully, prove its therapeutic effects in neurodegenerative conditions."
+    },
+    {
+      "rank": 4,
+      "score": 0.7302193813809987,
+      "search_type": "hybrid",
+      "vector_id": 1918334,
+      "chunk_id": 1918334,
+      "pmid": "38881878",
+      "title": "Novel targets and therapies of metformin in dementia: old drug, new insights.",
+      "year": 2024,
+      "journal": "Frontiers in pharmacology",
+      "authors": [
+        "Wenxing Cui",
+        "Chen Lv",
+        "Panling Geng",
+        "Mingdi Fu",
+        "Wenjing Zhou",
+        "Mingxiang Xiong",
+        "Tian Li"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        {
+          "term": "dementia",
+          "is_major": false
+        },
+        {
+          "term": "insulin resistance",
+          "is_major": false
+        },
+        {
+          "term": "metformin",
+          "is_major": false
+        },
+        {
+          "term": "neuroinflammation",
+          "is_major": false
+        },
+        {
+          "term": "oxidative stress",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Dementia is a devastating disorder characterized by progressive and persistent cognitive decline, imposing a heavy public health burden on the individual and society. Despite numerous efforts by researchers in the field of dementia, pharmacological treatments are limited to relieving symptoms and fail to prevent disease progression. Therefore, studies exploring novel therapeutics or repurposing classical drugs indicated for other diseases are urgently needed. Metformin, a first-line antihyperglycemic drug used to treat type 2 diabetes, has been shown to be beneficial in neurodegenerative diseases including dementia. This review discusses and evaluates the neuroprotective role of metformin in dementia, from the perspective of basic and clinical studies. Mechanistically, metformin has been shown to improve insulin resistance, reduce neuronal apoptosis, and decrease oxidative stress and neuroinflammation in the brain. Collectively, the current data presented here support the future potential of metformin as a potential therapeutic strategy for dementia. This study also inspires a new field for future translational studies and clinical research to discover novel therapeutic targets for dementia."
+    },
+    {
+      "rank": 5,
+      "score": 0.7182675798788409,
+      "search_type": "hybrid",
+      "vector_id": 9232321,
+      "chunk_id": 9232321,
+      "pmid": "30072954",
+      "title": "The Therapeutic Potential of Metformin in Neurodegenerative Diseases.",
+      "year": 2018,
+      "journal": "Frontiers in endocrinology",
+      "authors": [
+        "Carola Rotermund",
+        "Gerrit Machetanz",
+        "Julia C Fitzgerald"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        {
+          "term": "Alzheimer's disease",
+          "is_major": false
+        },
+        {
+          "term": "Parkinson's disease",
+          "is_major": false
+        },
+        {
+          "term": "aging",
+          "is_major": false
+        },
+        {
+          "term": "diabetes",
+          "is_major": false
+        },
+        {
+          "term": "metformin",
+          "is_major": false
+        },
+        {
+          "term": "mitochondria",
+          "is_major": false
+        },
+        {
+          "term": "neurodegeneration",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "The search for treatments for neurodegenerative diseases is a major concern in light of today's aging population and an increasing burden on individuals, families, and society. Although great advances have been made in the last decades to understand the underlying genetic and biological cause of these diseases, only some symptomatic treatments are available. Metformin has long since been used to treat Type 2 Diabetes and has been shown to be beneficial in several other conditions. Metformin is well-tested"
+    },
+    {
+      "rank": 6,
+      "score": 0.7156624582847918,
+      "search_type": "hybrid",
+      "vector_id": 7852294,
+      "chunk_id": 7852294,
+      "pmid": "31751298",
+      "title": "Could metformin be therapeutically useful in Huntington's disease?",
+      "year": 2020,
+      "journal": "Reviews in the neurosciences",
+      "authors": [
+        "Bor Luen Tang"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Animals",
+          "is_major": false,
+          "ui": "D000818"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Huntington Disease",
+          "is_major": false,
+          "ui": "D006816"
+        },
+        {
+          "term": "Hypoglycemic Agents",
+          "is_major": false,
+          "ui": "D007004"
+        },
+        {
+          "term": "Metformin",
+          "is_major": false,
+          "ui": "D008687"
+        },
+        {
+          "term": "Neurons",
+          "is_major": false,
+          "ui": "D009474"
+        },
+        {
+          "term": "Neuroprotective Agents",
+          "is_major": false,
+          "ui": "D018696"
+        },
+        {
+          "term": "Signal Transduction",
+          "is_major": false,
+          "ui": "D015398"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "AMP-activated protein kinase (AMPK)",
+          "is_major": false
+        },
+        {
+          "term": "Huntington’s disease (HD)",
+          "is_major": false
+        },
+        {
+          "term": "metformin, protein phosphatase 2A (PP2A)",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Emerging evidence suggest that dimethylbiguanide (metformin), a first-line drug for type 2 diabetes mellitus, could be neuroprotective in a range of brain pathologies, which include neurodegenerative diseases and brain injury. However, there are also contraindications that associate metformin treatment with cognitive impairment as well as adverse outcomes in Alzheimer's disease and Parkinson's disease animal models. Recently, a beneficial effect of metformin in animal models of Huntington's disease (HD) has been strengthened by multiple reports. In this brief review, the findings associated with the effects of metformin in attenuating neurodegenerative diseases are discussed, focusing on HD-associated pathology and the potential underlying mechanisms highlighted by these studies. The mechanism of action of metformin is complex, and its therapeutic efficacy is therefore expected to be dependent on the disease context. The key metabolic pathways that are effectively affected by metformin, such as AMP-activated protein kinase activation, may be altered in the later decades of the human lifespan. In this regard, metformin may nonetheless be therapeutically useful for neurological diseases with early pathological onsets, such as HD."
+    },
+    {
+      "rank": 7,
+      "score": 0.7091737381445238,
+      "search_type": "hybrid",
+      "vector_id": 10391582,
+      "chunk_id": 10391582,
+      "pmid": "28589443",
+      "title": "Metformin - a Future Therapy for Neurodegenerative Diseases : Theme: Drug Discovery, Development and Delivery in Alzheimer's Disease Guest Editor: Davide Brambilla.",
+      "year": 2017,
+      "journal": "Pharmaceutical research",
+      "authors": [
+        "Magdalena Markowicz-Piasecka",
+        "Joanna Sikora",
+        "Aleksandra Szydłowska",
+        "Agata Skupień",
+        "Elżbieta Mikiciuk-Olasik",
+        "Kristiina M Huttunen"
+      ],
+      "mesh_terms": [
+        {
+          "term": "AMP-Activated Protein Kinases",
+          "is_major": false,
+          "ui": "D055372"
+        },
+        {
+          "term": "Alzheimer Disease",
+          "is_major": false,
+          "ui": "D000544"
+        },
+        {
+          "term": "Amyloid beta-Peptides",
+          "is_major": false,
+          "ui": "D016229"
+        },
+        {
+          "term": "Animals",
+          "is_major": false,
+          "ui": "D000818"
+        },
+        {
+          "term": "Antioxidants",
+          "is_major": false,
+          "ui": "D000975"
+        },
+        {
+          "term": "Cholinesterase Inhibitors",
+          "is_major": false,
+          "ui": "D002800"
+        },
+        {
+          "term": "Diabetes Mellitus, Type 2",
+          "is_major": false,
+          "ui": "D003924"
+        },
+        {
+          "term": "Drug Discovery",
+          "is_major": false,
+          "ui": "D055808"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Hypoglycemic Agents",
+          "is_major": false,
+          "ui": "D007004"
+        },
+        {
+          "term": "Metformin",
+          "is_major": false,
+          "ui": "D008687"
+        },
+        {
+          "term": "Oxidative Stress",
+          "is_major": false,
+          "ui": "D018384"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "acetylcholinesterase",
+          "is_major": false
+        },
+        {
+          "term": "alzheimer’s disease",
+          "is_major": false
+        },
+        {
+          "term": "metformin",
+          "is_major": false
+        },
+        {
+          "term": "neurodegeneration",
+          "is_major": false
+        },
+        {
+          "term": "oxidative stress",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Type 2 diabetes mellitus (T2DM) is a complex, chronic and progressive metabolic disease, which is characterized by relative insulin deficiency, insulin resistance, and high glucose levels in blood. Esteemed published articles and epidemiological data exhibit an increased risk of developing Alzheimer's disease (AD) in diabetic pateints. Metformin is the most frequently used oral anti-diabetic drug, which apart from hypoglycaemic activity, improves serum lipid profiles, positively influences the process of haemostasis, and possesses anti-inflammatory properties. Recently, scientists have put their efforts in establishing metformin's role in the treatment of neurodegenerative diseases, such as AD, amnestic mild cognitive impairment and Parkinson's disease. Results of several clinical studies confirm that long term use of metformin in diabetic patients contributes to better cognitive function, compared to participants using other anti-diabetic drugs. The exact mechanism of metformin's advantageous activity in AD is not fully understood, but scientists claim that activation of AMPK-dependent pathways in human neural stem cells might be responsible for the neuroprotective activity of metformin. Metformin was also found to markedly decease Beta-secretase 1 (BACE1) protein expression and activity in cell culture models and in vivo, thereby reducing BACE1 cleavage products and the production of Aβ (β-amyloid). Furthermore, there is also some evidence that metformin decreases the activity of acetylcholinesterase (AChE), which is responsible for the degradation of acetylcholine (Ach), a neurotransmitter involved in the process of learning and memory. In regard to the beneficial effects of metformin, its anti-inflammatory and anti-oxidative properties cannot be omitted. Numerous in vitro and in vivo studies have confirmed that metformin ameliorates oxidative damage."
+    },
+    {
+      "rank": 8,
+      "score": 0.629990410242291,
+      "search_type": "hybrid",
+      "vector_id": 6927764,
+      "chunk_id": 6927764,
+      "pmid": "32900343",
+      "title": "Metformin: A Growing Journey from Glycemic Control to the Treatment of Alzheimer's Disease and Depression.",
+      "year": 2021,
+      "journal": "Current medicinal chemistry",
+      "authors": [
+        "Mohamed El Massry",
+        "Lynn M Alaeddine",
+        "Leen Ali",
+        "Celine Saad",
+        "Assaad A Eid"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Alzheimer Disease",
+          "is_major": true,
+          "ui": "D000544"
+        },
+        {
+          "term": "Depression",
+          "is_major": false,
+          "ui": "D003863"
+        },
+        {
+          "term": "Diabetes Mellitus, Type 2",
+          "is_major": true,
+          "ui": "D003924"
+        },
+        {
+          "term": "Glycemic Control",
+          "is_major": false,
+          "ui": "D000085002"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Hypoglycemic Agents",
+          "is_major": false,
+          "ui": "D007004"
+        },
+        {
+          "term": "Metformin",
+          "is_major": true,
+          "ui": "D008687"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "AMPK Pathway",
+          "is_major": false
+        },
+        {
+          "term": "Alzheimer's Disease",
+          "is_major": false
+        },
+        {
+          "term": "Depression",
+          "is_major": false
+        },
+        {
+          "term": "Glucose\nTransporters",
+          "is_major": false
+        },
+        {
+          "term": "Insulin",
+          "is_major": false
+        },
+        {
+          "term": "Metabolic Stress",
+          "is_major": false
+        },
+        {
+          "term": "Metformin",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Metabolic stress, transduced as an altered cellular redox and energy status, presents as the main culprit in many diseases, including diabetes. However, its role in the pathology of neurological disorders is still not fully elucidated. Metformin, a biguanide compound, is an FDA approved antidiabetic drug generally used for the treatment of type 2 diabetes. The recently described wide spectrum of action executed by this drug suggests a potential therapeutic benefit in a panoply of disorders. Current studies imply that metformin could play a neuroprotective role by reversing hallmarks of brain injury (metabolic dysfunction, neuronal dystrophy and cellular loss), in addition to cognitive and behavioral alterations that accompany the onset of certain brain diseases such as Alzheimer's disease (AD) and depression. However, the mechanisms by which metformin exerts its protective effect in neurodegenerative disorders are not yet fully elucidated. The aim of this review is to reexamine the mechanisms through which metformin performs its function while concentrating on its effect on reestablishing homeostasis in a metabolically disturbed milieu. We will also highlight the importance of metabolic stress, not only as a component of many neurological disorders, but also as a primary driving force for neural insult. Of interest, we will explore the involvement of metabolic stress in the pathobiology of AD and depression. The derangement in major metabolic pathways, including AMPK, insulin and glucose transporters, will be explored and the potential therapeutic effects of metformin administration on the reversal of brain injury in such metabolism dependent diseases will be exposed."
+    },
+    {
+      "rank": 9,
+      "score": 0.5963302252163087,
+      "search_type": "hybrid",
+      "vector_id": 5031993,
+      "chunk_id": 5031993,
+      "pmid": "35153733",
+      "title": "Deciphering the Roles of Metformin in Alzheimer's Disease: A Snapshot.",
+      "year": 2021,
+      "journal": "Frontiers in pharmacology",
+      "authors": [
+        "Wang Liao",
+        "Jiaxin Xu",
+        "Bo Li",
+        "Yuting Ruan",
+        "Tian Li",
+        "Jun Liu"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        {
+          "term": "AMPK",
+          "is_major": false
+        },
+        {
+          "term": "Alzheimer’s disease",
+          "is_major": false
+        },
+        {
+          "term": "insulin",
+          "is_major": false
+        },
+        {
+          "term": "metformin",
+          "is_major": false
+        },
+        {
+          "term": "neuroinflammation",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Alzheimer's disease (AD) is a prevalent neurodegenerative disease predominantly affecting millions of elderly people. To date, no effective therapy has been identified to reverse the progression of AD. Metformin, as a first-line medication for Type 2 Diabetes Mellitus (T2DM), exerts multiple beneficial effects on various neurodegenerative disorders, including AD. Evidence from clinical studies has demonstrated that metformin use contributes to a lower risk of developing AD and better cognitive performance, which might be modified by interactors such as diabetic status and APOE-ε4 status. Previous mechanistic studies have gradually unveiled the effects of metformin on AD pathology and pathophysiology, including neuronal loss, neural dysfunction, amyloid-β (Aβ) depositions, tau phosphorylation, chronic neuroinflammation, insulin resistance, impaired glucose metabolism and mitochondrial dysfunction. Current evidence remains ambiguous and even conflicting. Herein, we review the current state of knowledge concerning the mechanisms of metformin in AD pathology while summarizing current evidence from clinical studies."
+    },
+    {
+      "rank": 10,
+      "score": 0.5692044103579614,
+      "search_type": "hybrid",
+      "vector_id": 9101711,
+      "chunk_id": 9101711,
+      "pmid": "30219731",
+      "title": "Metformin attenuates diabetes-induced tau hyperphosphorylation in vitro and in vivo by enhancing autophagic clearance.",
+      "year": 2019,
+      "journal": "Experimental neurology",
+      "authors": [
+        "Jin-Liang Chen",
+        "Cheng Luo",
+        "Die Pu",
+        "Guo-Qiang Zhang",
+        "Yu-Xing Zhao",
+        "Yue Sun",
+        "Ke-Xiang Zhao",
+        "Zhi-Yin Liao",
+        "An-Kang Lv",
+        "Shi-Yu Zhu",
+        "Jing Zhou",
+        "Qian Xiao"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Animals",
+          "is_major": false,
+          "ui": "D000818"
+        },
+        {
+          "term": "Autophagy",
+          "is_major": false,
+          "ui": "D001343"
+        },
+        {
+          "term": "Cell Line",
+          "is_major": false,
+          "ui": "D002460"
+        },
+        {
+          "term": "Diabetes Mellitus, Experimental",
+          "is_major": false,
+          "ui": "D003921"
+        },
+        {
+          "term": "Dose-Response Relationship, Drug",
+          "is_major": false,
+          "ui": "D004305"
+        },
+        {
+          "term": "Hypoglycemic Agents",
+          "is_major": false,
+          "ui": "D007004"
+        },
+        {
+          "term": "Male",
+          "is_major": false,
+          "ui": "D008297"
+        },
+        {
+          "term": "Metformin",
+          "is_major": false,
+          "ui": "D008687"
+        },
+        {
+          "term": "Mice",
+          "is_major": false,
+          "ui": "D051379"
+        },
+        {
+          "term": "Phosphorylation",
+          "is_major": false,
+          "ui": "D010766"
+        },
+        {
+          "term": "Random Allocation",
+          "is_major": false,
+          "ui": "D011897"
+        },
+        {
+          "term": "Tauopathies",
+          "is_major": false,
+          "ui": "D024801"
+        },
+        {
+          "term": "tau Proteins",
+          "is_major": false,
+          "ui": "D016875"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "Alzheimer's disease",
+          "is_major": false
+        },
+        {
+          "term": "Autophagy",
+          "is_major": false
+        },
+        {
+          "term": "Diabetes mellitus",
+          "is_major": false
+        },
+        {
+          "term": "Metformin",
+          "is_major": false
+        },
+        {
+          "term": "Tau",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Diabetes mellitus (DM) can increase the risk of Alzheimer's disease (AD) in patients. However, no effective approaches are available to prevent its progression and development. Recently, autophagy dysfunction was identified to be involved in the pathogenesis of neurodegenerative diseases. This study was designed to investigate the effect of metformin on hyperphosphorylated tau proteins in diabetic encephalopathy (DE) by regulating autophagy clearance. db/db mice were randomly divided into four groups, db/+ mice were used as control group. Twelve-week old male db/db mice received consecutive intraperitoneal injection of 200 mg/kg/d metformin or (and) 10 mg/kg/d chloroquine for eight weeks. Morris water maze (MWM) tests were performed to test cognitive functions before the mice were euthanized. Metformin attenuated cognitive impairment in db/db mice, reduced hyperphosphorylated tau proteins, restored the impaired autophagy in diabetic mice, all of which were reversed by inhibiting of autophagy activity. In high glucose-cultured HT22 cells, metformin increased autophagy in a dose-dependent manner. Besides, metformin enhanced autophagy activity in an AMPK dependent manner. These data show that metformin may reduce tauopathy and improve cognitive impairment in db/db mice by modulating autophagy through the AMPK dependent pathway. These findings highlight metformin as a new therapeutic strategy for the treatment of DE."
+    }
+  ]
+}

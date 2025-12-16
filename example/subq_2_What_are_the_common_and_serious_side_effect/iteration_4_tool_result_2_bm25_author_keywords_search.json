@@ -1,0 +1,726 @@
+{
+  "query": "metformin adverse reactions",
+  "search_type": "bm25_author_keywords",
+  "parameters": {
+    "k": 10
+  },
+  "results_count": 10,
+  "results": [
+    {
+      "rank": 1,
+      "score": 5.882831573486328,
+      "search_type": "bm25_author_keywords",
+      "vector_id": 3962946,
+      "chunk_id": 3962946,
+      "pmid": "36385252",
+      "title": "Adverse reactions to cosmetics reported to the Chongqing adverse drug reaction monitoring centre system in China.",
+      "year": 2023,
+      "journal": "Contact dermatitis",
+      "authors": [
+        "Sha Wang",
+        "Yang Jiang",
+        "Jing Lyu",
+        "Jiajia Li",
+        "Qingchun Diao"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Female",
+          "is_major": false,
+          "ui": "D005260"
+        },
+        {
+          "term": "Male",
+          "is_major": false,
+          "ui": "D008297"
+        },
+        {
+          "term": "Dermatitis, Allergic Contact",
+          "is_major": true,
+          "ui": "D017449"
+        },
+        {
+          "term": "Cosmetics",
+          "is_major": true,
+          "ui": "D003358"
+        },
+        {
+          "term": "Skin",
+          "is_major": false,
+          "ui": "D012867"
+        },
+        {
+          "term": "Patch Tests",
+          "is_major": false,
+          "ui": "D010328"
+        },
+        {
+          "term": "China",
+          "is_major": false,
+          "ui": "D002681"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "adverse reaction",
+          "is_major": false
+        },
+        {
+          "term": "allergy",
+          "is_major": false
+        },
+        {
+          "term": "cosmetic adverse reactions",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "BACKGROUND: Cosmetic adverse reactions (CARs) are becoming widespread in China. However, a comprehensive analysis of data is lacking.\n\nOBJECTIVE: To analyse the clinical characteristics of patients with reported adverse reactions to cosmetics in Chongqing, China.\n\nMETHODS: Cases with CARs reported to the Chongqing Adverse Drug Reaction Monitoring Centre System from 2017 to 2021 were analysed.\n\nRESULTS: A total of 23 245 cases were identified, of which 94.5% were women. Contact dermatitis (84.3%) was the most common diagnosis of CARs, followed by acne (3.1%). The most frequently reported clinical signs were erythema (70.1%), followed by papules (35.5%). The majority of CARs were reported to be due to ordinary cosmetics (87.9%), of which 81.0% were skin care products and 7.1% were makeup products. Cosmetics with special functions constituted 12.2%, of these, skin whitening (54.0%) and sunscreen (28.0%) products were most frequently reported.\n\nCONCLUSION: Our results suggest that adverse reactions to cosmetics are of concern in China, and dermatologists should actively identify and diagnose CARs. In addition, we should establish a convenient and effective model for collecting, reporting, and evaluating CARs."
+    },
+    {
+      "rank": 2,
+      "score": 5.82741641998291,
+      "search_type": "bm25_author_keywords",
+      "vector_id": 5287152,
+      "chunk_id": 5287152,
+      "pmid": "34844104",
+      "title": "Gut microbiota of patients with type 2 diabetes and gastrointestinal intolerance to metformin differs in composition and functionality from tolerant patients.",
+      "year": 2022,
+      "journal": "Biomedicine & pharmacotherapy = Biomedecine & pharmacotherapie",
+      "authors": [
+        "Cristina Ma Díaz-Perdigones",
+        "Araceli Muñoz-Garach",
+        "María Dolores Álvarez-Bermúdez",
+        "Isabel Moreno-Indias",
+        "Francisco J Tinahones"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Aged",
+          "is_major": false,
+          "ui": "D000368"
+        },
+        {
+          "term": "Diabetes Mellitus, Type 2",
+          "is_major": false,
+          "ui": "D003924"
+        },
+        {
+          "term": "Female",
+          "is_major": false,
+          "ui": "D005260"
+        },
+        {
+          "term": "Follow-Up Studies",
+          "is_major": false,
+          "ui": "D005500"
+        },
+        {
+          "term": "Gastrointestinal Microbiome",
+          "is_major": false,
+          "ui": "D000069196"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Hypoglycemic Agents",
+          "is_major": false,
+          "ui": "D007004"
+        },
+        {
+          "term": "Male",
+          "is_major": false,
+          "ui": "D008297"
+        },
+        {
+          "term": "Metformin",
+          "is_major": false,
+          "ui": "D008687"
+        },
+        {
+          "term": "Middle Aged",
+          "is_major": false,
+          "ui": "D008875"
+        },
+        {
+          "term": "Prospective Studies",
+          "is_major": false,
+          "ui": "D011446"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "Adverse drug reactions",
+          "is_major": false
+        },
+        {
+          "term": "Gastrointestinal",
+          "is_major": false
+        },
+        {
+          "term": "Gut microbiome",
+          "is_major": false
+        },
+        {
+          "term": "Metformin",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "OBJECTIVE: Metformin modifies the gut microbiome in type 2 diabetes and gastrointestinal tolerance to metformin could be mediated by the gut microbiome.\n\nMETHODS: We enrolled 35 patients with type 2 diabetes not receiving treatment with metformin due to suspected gastrointestinal intolerance. Metformin was reintroduced at 425 mg, increasing 425 mg every two weeks until reaching 1700 mg per day. According to the occurrence of metformin-related gastrointestinal symptoms, patients were classified into three groups: early intolerance, non-tolerant, and tolerant. Gut microbiota was profiled with 16 S rRNA. This sequencing aimed to determine the differences in the baseline gut microbiota in all groups and prospectively in the tolerant and non-tolerant groups.\n\nRESULTS: The classification resulted in 15 early intolerant, 10 tolerant, and 10 non-tolerant subjects. Early tolerance was characterized by a higher abundance of Subdoligranulum; while Veillonella and Serratia were higher in the non-tolerant group. The tolerant group showed enrichment of Megamonas, Megamonas rupellensis, and Phascolarctobacterium spp; Ruminococcus gnavus was lower in the longitudinal analysis. At the end point Prevotellaceae, Prevotella stercorea, Megamonas funiformis, Bacteroides xylanisolvens, and Blautia producta had a higher relative abundance in the tolerant group compared to the non-tolerant group. Subdoligranulum, Ruminococcus torques_1, Phascolarctobacterium faecium, and Eubacterium were higher in the non-tolerant group. The PICRUSt analysis showed a lower activity of the amino acid biosynthesis pathways and a higher sugar degradation pathway in the intolerant groups.\n\nCONCLUSIONS: Gut microbiota of subjects with gastrointestinal intolerance depicted taxonomic and functional differences compared to tolerant patients, and this changed differently after metformin administration."
+    },
+    {
+      "rank": 3,
+      "score": 5.690413475036621,
+      "search_type": "bm25_author_keywords",
+      "vector_id": 2484524,
+      "chunk_id": 2484524,
+      "pmid": "38203351",
+      "title": "Mass Spectrometry Study about In Vitro and In Vivo Reaction between Metformin and Glucose: A Preliminary Investigation on Alternative Biological Behavior.",
+      "year": 2023,
+      "journal": "International journal of molecular sciences",
+      "authors": [
+        "Gianluca Bartolucci",
+        "Marco Pallecchi",
+        "Laura Braconi",
+        "Silvia Dei",
+        "Elisabetta Teodori",
+        "Annunziata Lapolla",
+        "Giovanni Sartore",
+        "Pietro Traldi"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Metformin",
+          "is_major": true,
+          "ui": "D008687"
+        },
+        {
+          "term": "Tandem Mass Spectrometry",
+          "is_major": false,
+          "ui": "D053719"
+        },
+        {
+          "term": "Liquid Chromatography-Mass Spectrometry",
+          "is_major": false,
+          "ui": "D000097922"
+        },
+        {
+          "term": "Cell Membrane",
+          "is_major": false,
+          "ui": "D002462"
+        },
+        {
+          "term": "Glucose",
+          "is_major": false,
+          "ui": "D005947"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "mass spectrometry",
+          "is_major": false
+        },
+        {
+          "term": "metformin",
+          "is_major": false
+        },
+        {
+          "term": "reaction of metformin with glucose",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Metformin is the most prescribed glucose-lowering drug worldwide; globally, over 100 million patients are prescribed this drug annually. Some different action mechanisms have been proposed for this drug, but, surprisingly, no metabolite of metformin has ever been described. It was considered interesting to investigate the possible reaction of metformin with glucose following the Maillard reaction pattern. The reaction was first performed in in vitro conditions, showing the formation of two adducts that originated by the condensation of the two molecular species with the losses of one or two water molecules. Their structures were investigated by liquid chromatography coupled with mass spectrometry (HPLC-MS), tandem mass spectrometry (MS/MS) and accurate mass measurements (HRMS). The species originated via the reaction of glucose and metformin and were called"
+    },
+    {
+      "rank": 4,
+      "score": 5.399035930633545,
+      "search_type": "bm25_author_keywords",
+      "vector_id": 5316224,
+      "chunk_id": 5316224,
+      "pmid": "34818566",
+      "title": "Prescriptions for Potentially Inappropriate Medications from the Beers Criteria Among Older Adults Hospitalized for Heart Failure.",
+      "year": 2022,
+      "journal": "Journal of cardiac failure",
+      "authors": [
+        "Diana Jaber",
+        "Fabian Vargas",
+        "Linh Nguyen",
+        "Joanna Ringel",
+        "Kate Zarzuela",
+        "Mahad Musse",
+        "Min Ji Kwak",
+        "Emily B Levitan",
+        "Mathew S Maurer",
+        "Mark S Lachs",
+        "Monika M Safford",
+        "Parag Goyal"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Aged",
+          "is_major": false,
+          "ui": "D000368"
+        },
+        {
+          "term": "Heart Failure",
+          "is_major": true,
+          "ui": "D006333"
+        },
+        {
+          "term": "Hospitalization",
+          "is_major": false,
+          "ui": "D006760"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Inappropriate Prescribing",
+          "is_major": false,
+          "ui": "D057970"
+        },
+        {
+          "term": "Potentially Inappropriate Medication List",
+          "is_major": true,
+          "ui": "D000067561"
+        },
+        {
+          "term": "Prescriptions",
+          "is_major": false,
+          "ui": "D055656"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "PIMs",
+          "is_major": false
+        },
+        {
+          "term": "adverse reactions",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "BACKGROUND: We sought to better understand patterns of potentially inappropriate medications (PIMs) from the Beers criteria among older adults hospitalized with heart failure (HF). This observational study of hospitalizations was derived from the geographically diverse REasons for Geographic and Racial Differences in Stroke cohort.\n\nMETHODS AND RESULTS: We examined participants aged 65 years and older with an expert-adjudicated hospitalization for HF. The Beers criteria medications were abstracted from medical records. The prevalence of PIMs was 61.1% at admission and 64.0% at discharge. Participants were taking a median of 1 PIM (interquartile range [IQR] 0-1 PIM) at hospital admission and a median of 1 PIM (IQR 0-2 PIM) at hospital discharge. Between admission and discharge, 19.1% of patients experienced an increase in the number of PIMs, 15.1% experienced a decrease, and 37% remained on the same number between hospital admission and discharge. The medications with the greatest increase from admission to discharge were proton pump inhibitors (32.6% to 38.6%) and amiodarone (6.2% to 12.2%). The strongest determinant of potentially harmful prescribing patterns was polypharmacy (relative risk 1.34, 95% confidence interval 1.16-1.55, P < .001).\n\nCONCLUSIONS: PIMs are common among older adults hospitalized for HF and may be an important target to improve outcomes in this vulnerable population."
+    },
+    {
+      "rank": 5,
+      "score": 5.363385200500488,
+      "search_type": "bm25_author_keywords",
+      "vector_id": 10997263,
+      "chunk_id": 10997263,
+      "pmid": "27758711",
+      "title": "Loss of Eyebrows and Eyelashes During Concomitant Treatment with Sitagliptin and Metformin.",
+      "year": 2017,
+      "journal": "Current drug safety",
+      "authors": [
+        "Elena Succurro",
+        "Caterina Palleria",
+        "Mariafrancesca Ruffo",
+        "Raffaele Serra",
+        "Franco Arturi",
+        "Luca Gallelli"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Aged",
+          "is_major": false,
+          "ui": "D000368"
+        },
+        {
+          "term": "Alopecia",
+          "is_major": false,
+          "ui": "D000505"
+        },
+        {
+          "term": "Diabetes Mellitus, Type 2",
+          "is_major": false,
+          "ui": "D003924"
+        },
+        {
+          "term": "Eyebrows",
+          "is_major": false,
+          "ui": "D005138"
+        },
+        {
+          "term": "Eyelashes",
+          "is_major": false,
+          "ui": "D005140"
+        },
+        {
+          "term": "Follow-Up Studies",
+          "is_major": false,
+          "ui": "D005500"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Hypoglycemic Agents",
+          "is_major": false,
+          "ui": "D007004"
+        },
+        {
+          "term": "Male",
+          "is_major": false,
+          "ui": "D008297"
+        },
+        {
+          "term": "Metformin",
+          "is_major": false,
+          "ui": "D008687"
+        },
+        {
+          "term": "Sitagliptin Phosphate",
+          "is_major": false,
+          "ui": "D000068900"
+        },
+        {
+          "term": "Sitagliptin Phosphate, Metformin Hydrochloride Drug Combination",
+          "is_major": false,
+          "ui": "D000068899"
+        },
+        {
+          "term": "Treatment Outcome",
+          "is_major": false,
+          "ui": "D016896"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "Adverse drug reaction",
+          "is_major": false
+        },
+        {
+          "term": "metformin",
+          "is_major": false
+        },
+        {
+          "term": "sitagliptin",
+          "is_major": false
+        },
+        {
+          "term": "type 2 diabetes mellitus",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "The fixed dose combination of sitagliptin 50 mg and metformin 850 mg (Janumet ®), is indicated for the treatment of type 2 diabetes mellitus in addition to diet and exercise to improve glycemic control in patients treated with metformin alone.\n\nMETHODS: We report a 69-year-old man with type 2 diabetes that developed sudden loss of eyebrows and eyelashes about 4 months after the beginning of Janumet®. Clinical and laboratory findings excluded the presence of systemic or skin diseases able to induce these manifestations, while the Naranjo probability scale documented a possible association between the drug and the adverse drug reaction."
+    },
+    {
+      "rank": 6,
+      "score": 5.363385200500488,
+      "search_type": "bm25_author_keywords",
+      "vector_id": 2436694,
+      "chunk_id": 2436694,
+      "pmid": "38269492",
+      "title": "Metformin adverse event profile: a pharmacovigilance study based on the FDA Adverse Event Reporting System (FAERS) from 2004 to 2022.",
+      "year": null,
+      "journal": "Expert review of clinical pharmacology",
+      "authors": [
+        "Yikuan Du",
+        "Jinfeng Zhu",
+        "Zhuoming Guo",
+        "Zhenjie Wang",
+        "Yuni Wang",
+        "Mianda Hu",
+        "Lingzhi Zhang",
+        "Yurong Yang",
+        "Jinjin Wang",
+        "Yixing Huang",
+        "Peiying Huang",
+        "Mianhai Chen",
+        "Bo Chen",
+        "Chun Yang"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "United States",
+          "is_major": false,
+          "ui": "D014481"
+        },
+        {
+          "term": "Metformin",
+          "is_major": true,
+          "ui": "D008687"
+        },
+        {
+          "term": "Pharmacovigilance",
+          "is_major": false,
+          "ui": "D060735"
+        },
+        {
+          "term": "Acute Disease",
+          "is_major": false,
+          "ui": "D000208"
+        },
+        {
+          "term": "Pancreatitis",
+          "is_major": true,
+          "ui": "D010195"
+        },
+        {
+          "term": "Adverse Drug Reaction Reporting Systems",
+          "is_major": false,
+          "ui": "D016907"
+        },
+        {
+          "term": "United States Food and Drug Administration",
+          "is_major": false,
+          "ui": "D014486"
+        },
+        {
+          "term": "Drug-Related Side Effects and Adverse Reactions",
+          "is_major": true,
+          "ui": "D064420"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "FAERS",
+          "is_major": false
+        },
+        {
+          "term": "Metformin",
+          "is_major": false
+        },
+        {
+          "term": "adverse drug reactions",
+          "is_major": false
+        },
+        {
+          "term": "lactic acidosis",
+          "is_major": false
+        },
+        {
+          "term": "pharmacovigilance",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "BACKGROUND: Metformin has the potential for treating numerous diseases, but there are still many unrecognized and unreported adverse events (AEs).\n\nMETHODS: We selected data from the United States FDA Adverse Event Reporting System (FAERS) database from the first quarter (Q1) of 2004 to the fourth quarter (Q4) of 2022 for disproportionality analysis to assess the association between metformin and related adverse events.\n\nRESULTS: In this study 10,500,295 case reports were collected from the FAERS database, of which 56,674 adverse events related to metformin were reported. A total of 643 preferred terms (PTs) and 27 system organ classes (SOCs) that were significant disproportionality conforming to the four algorithms simultaneously were included. The SOCs included metabolic and nutritional disorders (\n\nCONCLUSION: Most of our results were consistent with the specification, but some new signals of adverse reactions such as acute pancreatitis were not included. Therefore, further studies are needed to validate unlabeled adverse reactions and provide important support for clinical monitoring and risk identification of metformin."
+    },
+    {
+      "rank": 7,
+      "score": 5.279434680938721,
+      "search_type": "bm25_author_keywords",
+      "vector_id": 10903993,
+      "chunk_id": 10903993,
+      "pmid": "27839968",
+      "title": "Post-donation telephonic interview of blood donors providing an insight into delayed adverse reactions: First attempt in India.",
+      "year": 2017,
+      "journal": "Transfusion and apheresis science : official journal of the World Apheresis Association : official journal of the European Society for Haemapheresis",
+      "authors": [
+        "Aseem K Tiwari",
+        "Geet Aggarwal",
+        "Ravi C Dara",
+        "Dinesh Arora",
+        "Khushboo Srivastava",
+        "Vimarsh Raina"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Adult",
+          "is_major": false,
+          "ui": "D000328"
+        },
+        {
+          "term": "Blood Donors",
+          "is_major": true,
+          "ui": "D001782"
+        },
+        {
+          "term": "Female",
+          "is_major": false,
+          "ui": "D005260"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "India",
+          "is_major": false,
+          "ui": "D007194"
+        },
+        {
+          "term": "Interviews as Topic",
+          "is_major": true,
+          "ui": "D007407"
+        },
+        {
+          "term": "Male",
+          "is_major": false,
+          "ui": "D008297"
+        },
+        {
+          "term": "Prospective Studies",
+          "is_major": false,
+          "ui": "D011446"
+        },
+        {
+          "term": "Surveys and Questionnaires",
+          "is_major": true,
+          "ui": "D011795"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "Adverse reaction",
+          "is_major": false
+        },
+        {
+          "term": "Delayed adverse reaction (DAR)",
+          "is_major": false
+        },
+        {
+          "term": "Immediate adverse reaction (IAR)",
+          "is_major": false
+        },
+        {
+          "term": "Telephonic interview",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "BACKGROUND: Blood donor experiences both immediate adverse reactions (IAR) and delayed adverse reactions (DAR). With limited published data available on the incidence of DAR, a study was conducted to estimate incidence and profile of DAR through telephonic interview.\n\nMATERIALS AND METHODS: Study was conducted over a 45-day period for consecutive volunteer whole blood donations at tertiary care hospital. Donors were divided into first-time, repeat and regular and were monitored for IAR. They were given written copy of post-donation advice. Donors were contacted telephonically three weeks post-donation and enquired about general wellbeing and specific DAR in accordance with a standard n international (International Society of Blood Transfusion) standard format.\n\nRESULTS: Donors participated in the study of which 1.6% donors experienced an IAR. Much larger number reported DAR (10.3% vs.1.6% p<0.0001). Further, DAR was presented as a variegated profile with bruise, painful arms and fatigue being the commonest. DARs were more common in females than males (25% vs. 10.3%, p<0.02). Localized DAR like bruise and painful arms were more common in younger donors (age <50 years) whereas systemic DAR like fatigue was common in older donors (>50 years). First time (12.3%) and repeat donors (13.5%) had similar frequency of DAR but were lower among regular donors (6.7%).\n\nCONCLUSION: DARs are more common than IAR and are of different profile. Post-donation interview has provided an insight into donor experiences and can be used as a valuable tool in donor hemovigilance."
+    },
+    {
+      "rank": 8,
+      "score": 5.141610622406006,
+      "search_type": "bm25_author_keywords",
+      "vector_id": 15723376,
+      "chunk_id": 15723376,
+      "pmid": "21701642",
+      "title": "Adverse drug reactions in inpatients of internal medicine wards at a tertiary care hospital: A prospective cohort study.",
+      "year": 2011,
+      "journal": "Journal of pharmacology & pharmacotherapeutics",
+      "authors": [
+        "Mukeshkumar B Vora",
+        "Hiren R Trivedi",
+        "Bharatbhai K Shah",
+        "C B Tripathi"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        {
+          "term": "Adverse drug reaction",
+          "is_major": false
+        },
+        {
+          "term": "adverse drug reactions",
+          "is_major": false
+        },
+        {
+          "term": "cohort study",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "OBJECTIVE: To find out incidence of adverse drug reactions (ADR) in patients of internal medicine wards and study various aspects of ADR, e.g., causality, mortality, drugs commonly causing ADR in internal medicine wards of Guru Gobind Singh Hospital, Jamnagar, a tertiary care hospital.\n\nMATERIALS AND METHODS: This was prospective, observational study carried out at Department of Medicine, Shri Meghji Pethraj Shah Medical College attached with Guru Gobind Singh Hospital, a tertiary care teaching hospital, Jamnagar, Gujarat over a period of 6 months. For statistical analysis, ADR were analyzed by using Chi-square test.\n\nRESULTS: Out of total 860 patients admitted, 830 were analyzed as they met the inclusion criteria. A total of 45 (5.42%) patients developed 47 ADR. Among them, 27 (3.25 %) (95% CI, 2.03, 4.47%) patients due to ADR required hospital admission in medicine ward (ADR Ad), 18 (2.17%) (95% CI, 1.17%-3.17%) patients developed ADR while already hospitalized in medicine ward (ADR In). Most of the fatal and life-threatening reactions occurred due to chemotherapeutic agents. Majority of patients discontinued suspected drug and recovered from ADR.\n\nCONCLUSION: Fatal and life-threatening adverse reactions reported in the present as well as other studies underline the importance of such studies and need for creating awareness among health professionals about looking for and reporting such reactions."
+    },
+    {
+      "rank": 9,
+      "score": 5.141610622406006,
+      "search_type": "bm25_author_keywords",
+      "vector_id": 5103727,
+      "chunk_id": 5103727,
+      "pmid": "35054090",
+      "title": "Drug Triggers and Clinic of Acute Generalized Exanthematous Pustulosis (AGEP): A Literature Case Series of 297 Patients.",
+      "year": 2022,
+      "journal": "Journal of clinical medicine",
+      "authors": [
+        "Enriqueta Vallejo-Yagüe",
+        "Adrian Martinez-De la Torre",
+        "Omar S Mohamad",
+        "Shweta Sabu",
+        "Andrea M Burden"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        {
+          "term": "AGEP",
+          "is_major": false
+        },
+        {
+          "term": "adverse drug reaction",
+          "is_major": false
+        },
+        {
+          "term": "adverse event",
+          "is_major": false
+        },
+        {
+          "term": "skin reaction",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Acute generalized exanthematous pustulosis (AGEP) is a rare skin reaction, commonly caused by drugs. Available evidence mostly relies on small studies or case reports. We collected published AGEP case reports and, subsequently, described the patient characteristics, suspect and concomitant drugs, time to onset, disease management, and clinical prognosis. This study included 297 AGEP patients (64.3% women) obtained from 250 published case reports or case series with individual patient data. AGEP affected patients of all ages, but the majority of patients (88.2%) were ≥25 years old. The most frequently reported suspect drugs were anti-infectives for systemic use (36.5%), particularly antibacterials for systemic use (31.0%), and especially beta-lactam antibacterials (18.3%) and macrolides (4.3%). Other frequent suspect drugs were antineoplastics (12.2%), and anti-inflammatory/anti-rheumatic products (5.2%) plus hydroxychloroquine (12.8%). Mean time to onset was 9.1 days (standard deviation SD 13.94). Some patients developed fever (64.3%) and systemic involvement (18.9%), and most patients (76.4%) received pharmacological treatment for AGEP. Seven patients died, although five of them were already critically ill prior to AGEP. In conclusion, antibiotics remain the most common suspected cause of AGEP. While case mortality rate may be up to 2.5%, disentangling the role of AGEP on the fatal outcome from the role of the preexisting health conditions remains challenging."
+    },
+    {
+      "rank": 10,
+      "score": 4.967804908752441,
+      "search_type": "bm25_author_keywords",
+      "vector_id": 1656853,
+      "chunk_id": 1656853,
+      "pmid": "39182908",
+      "title": "Rethinking about Metformin: Promising Potentials.",
+      "year": 2024,
+      "journal": "Korean journal of family medicine",
+      "authors": [
+        "Kyunam Kim"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        {
+          "term": "Adverse Drug Reaction",
+          "is_major": false
+        },
+        {
+          "term": "COVID-19",
+          "is_major": false
+        },
+        {
+          "term": "Diabetes Mellitus",
+          "is_major": false
+        },
+        {
+          "term": "Metformin",
+          "is_major": false
+        },
+        {
+          "term": "Neoplasms",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Metformin is widely used drugs in the treatment of type 2 diabetes mellitus. However, the mechanisms of action are complex and are still not fully understood yet. Metformin has a dose-dependent blood sugar-lowering effect. The most common adverse reactions of metformin are gastrointestinal symptoms, and women tend to be more experienced than men. A positive correlation between the administration of duration and the daily dose of metformin and the risk of vitamin B12 deficiency is confirmed. Novel glucose-lowering mechanism through the activation of AMP-activated protein kinase and alteration of gut microbiota composition is identified. In addition, metformin has immunomodulatory properties in various mechanisms, including anti-inflammatory actions, and so forth. Metformin improves insulin sensitivity, which may reduce the risk of tumor growth in certain cancers. The antiviral effects of metformin may occur through several mechanisms, including blocking angiotensin converting enzyme 2 receptor, and so forth. These potential mechanisms of metformin are promising in various clinical settings, such as inflammatory diseases, autoimmune diseases, cancer, and coronavirus disease 2019."
+    }
+  ]
+}

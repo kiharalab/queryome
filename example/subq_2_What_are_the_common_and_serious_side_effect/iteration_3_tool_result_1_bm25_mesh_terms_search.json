@@ -1,0 +1,578 @@
+{
+  "query": "Metformin adverse effects pharmacovigilance",
+  "search_type": "bm25_mesh_terms",
+  "parameters": {
+    "k": 10
+  },
+  "results_count": 10,
+  "results": [
+    {
+      "rank": 1,
+      "score": 10.89220905303955,
+      "search_type": "bm25_mesh_terms",
+      "vector_id": 3913013,
+      "chunk_id": 3913013,
+      "pmid": "36449193",
+      "title": "Investigating Severe Adverse Reactions: Examples of the ANTICIPATE Methodology at Work.",
+      "year": 2022,
+      "journal": "Cancer treatment and research",
+      "authors": [
+        "Charles L Bennett",
+        "Shamia Hoque"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Pharmacovigilance",
+          "is_major": true,
+          "ui": "D060735"
+        },
+        {
+          "term": "Drug-Related Side Effects and Adverse Reactions",
+          "is_major": true,
+          "ui": "D064420"
+        }
+      ],
+      "keywords": [],
+      "citations": [],
+      "text": "Severe adverse drug reactions (sADRs) are important causes of morbidity and mortality. The Southern Network on Adverse Drug Reactions (SONAR), a National Cancer Institute-funded pharmacovigilance program, has outlined a novel 9-stop methodology, termed ANTICIPATE, that has evaluated this methodology, among persons with chronic kidney disease (CKD)."
+    },
+    {
+      "rank": 2,
+      "score": 10.519107818603516,
+      "search_type": "bm25_mesh_terms",
+      "vector_id": 11194449,
+      "chunk_id": 11194449,
+      "pmid": "27476310",
+      "title": "[Pharmacoepidemiology: lights and shadows].",
+      "year": null,
+      "journal": "Bulletin de l'Academie nationale de medecine",
+      "authors": [
+        "Joan-ramon Laporte",
+        "Eduardo Diogene"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Drug-Related Side Effects and Adverse Reactions",
+          "is_major": false,
+          "ui": "D064420"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Pharmacoepidemiology",
+          "is_major": true,
+          "ui": "D017891"
+        },
+        {
+          "term": "Pharmacovigilance",
+          "is_major": false,
+          "ui": "D060735"
+        }
+      ],
+      "keywords": [],
+      "citations": [],
+      "text": "Adverse drug reactions are a major cause of illness and death. They cause 5-10% of general practice consultations and 5 to 10% of hospital admissions and would be the third or fourth cause of death (after heart attack, stroke and cancer). It is a failure of contemporary medicine. The purpose of pharmacoepidemiology is the study of drug use in populations and its impact on public health. The author describes the four stages of the recent history of pharmacovigilance. The first, spontaneous reporting, has identified many adverse drug reactions but cannot provide with incidence or risk estimates. Observational epidemiological research has shaped second generation pharmacovigilance, providing incidence and relative and absolute risks which are essential for public health decision taking. The meta-analysis of clinical trials would be third-generation pharmacovigilance: it has contributed to the understanding of relatively common adverse drug reactions with great impact on public health. Research on big data will surely be the basis of the fourth generation of pharmacovigilance."
+    },
+    {
+      "rank": 3,
+      "score": 10.519107818603516,
+      "search_type": "bm25_mesh_terms",
+      "vector_id": 825749,
+      "chunk_id": 825749,
+      "pmid": "34376366",
+      "title": "Evaluating the use of prescription sequence symmetry analysis as a pharmacovigilance tool: A scoping review.",
+      "year": 2022,
+      "journal": "Research in social & administrative pharmacy : RSAP",
+      "authors": [
+        "Earl J Morris",
+        "Josef Hollmann",
+        "Ann-Kathrin Hofer",
+        "Hemita Bhagwandass",
+        "Razanne Oueini",
+        "Lauren E Adkins",
+        "Jesper Hallas",
+        "Scott M Vouri"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Drug-Related Side Effects and Adverse Reactions",
+          "is_major": true,
+          "ui": "D064420"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Pharmacovigilance",
+          "is_major": true,
+          "ui": "D060735"
+        },
+        {
+          "term": "Prescriptions",
+          "is_major": false,
+          "ui": "D055656"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "Adverse drug events",
+          "is_major": false
+        },
+        {
+          "term": "Prescribing cascade",
+          "is_major": false
+        },
+        {
+          "term": "Prescription sequence symmetry analysis",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "BACKGROUND: The (prescription) sequence symmetry analysis (PSSA) design has been used to identify potential prescribing cascade signals by assessing the prescribing sequence of an index drug relative to a marker drug presumed to treat an adverse drug event provoked by the index drug.\n\nOBJECTIVES: This review aimed to explore the use of the PSSA design as a pharmacovigilance tool with a particular focus on the breadth of identified signals and advances in PSSA methodology.\n\nMETHODS: We searched Embase, PubMed/Medline, Google Scholar, Web of Science and grey literature to identify studies that used the PSSA methodology. Two reviewers independently extracted relevant data for each included article. Study characteristics including signals identified, exposure time window, stratified analyses, and use of controls were extracted.\n\nRESULTS: We identified 53 studies which reported original results obtained using PSSA methodology or quantified the validity of components of the PSSA design. Of those, nine studies provided validation metrics showing reasonable sensitivity and high specificity of PSSA to identify prescribing cascade signals. We identified 340 unique index drug - marker drug signals published in the PSSA literature, representing 281 unique index - marker pharmacological class dyads (i.e., unique fourth-level Anatomical Therapeutic Chemical [ATC] classification dyads). Commonly observed signals were identified for index drugs acting upon the nervous system (34%), cardiovascular system (21%), and blood and blood-forming organs (15%), and many marker drugs were related to the nervous system (25%), alimentary tract and metabolism (23%), cardiovascular system (17%), and genitourinary system and sex hormones (14%). Negative controls and positive controls were utilized in 21% and 13% of studies, respectively.\n\nCONCLUSIONS: The PSSA methodology has been used in 53 studies worldwide to detect and evaluate over 300 unique prescribing cascades signals. Researchers should consider sensitivity analyses incorporating negative and/or positive controls and additional time windows to evaluate time-varying biases when designing PSSA studies."
+    },
+    {
+      "rank": 4,
+      "score": 10.519107818603516,
+      "search_type": "bm25_mesh_terms",
+      "vector_id": 14219612,
+      "chunk_id": 14219612,
+      "pmid": "23640186",
+      "title": "The past, present and perhaps future of pharmacovigilance: homage to Folke Sjoqvist.",
+      "year": 2013,
+      "journal": "European journal of clinical pharmacology",
+      "authors": [
+        "Nicholas Moore"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Drug-Related Side Effects and Adverse Reactions",
+          "is_major": false,
+          "ui": "D064420"
+        },
+        {
+          "term": "Forecasting",
+          "is_major": false,
+          "ui": "D005544"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Pharmacovigilance",
+          "is_major": true,
+          "ui": "D060735"
+        }
+      ],
+      "keywords": [],
+      "citations": [],
+      "text": "Over the years since 1961 and the identification of thalidomide as the common link in thousands of birth defects, daily pharmacovigilance activities and signal generation have evolved from the analysis of individual case reports and imputology, to case series and underreporting, to spontaneous report databases and disproportionality analyses, to data mining in population databases. Regulatory requirements have also changed from purely passive monitoring and reacting to alerts to a proactive approach that includes risk management plans and risk minimization, and from reporting only by healthcare professionals to patient reporting and exploration of social media. The emphasis only on risk assessment is changing towards assessment of the risk/benefit ratio and the exploration of real-life efficacy studies to complement the measure of real-life risk. The interactions between industry and regulators have been amplified and strengthened. However, most adverse reactions, including severe ones, are related to well-known and often pharmacological effects of the older drugs, possibly with genetic predispositions. Prevention is the next frontier for pharmacovigilance, beyond simply generating alerts, and it involves not only the removal of drugs from the market, but also promotion of proper drug prescribing by better trained physicians and the proper use of drugs by better informed patients."
+    },
+    {
+      "rank": 5,
+      "score": 10.519107818603516,
+      "search_type": "bm25_mesh_terms",
+      "vector_id": 10336707,
+      "chunk_id": 10336707,
+      "pmid": "28645716",
+      "title": "Guide to active vaccine safety surveillance: Report of CIOMS working group on vaccine safety - executive summary.",
+      "year": 2017,
+      "journal": "Vaccine",
+      "authors": [
+        "U Heininger",
+        "K Holm",
+        "I Caplanusi",
+        "S R Bailey"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Drug-Related Side Effects and Adverse Reactions",
+          "is_major": false,
+          "ui": "D064420"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Pharmacovigilance",
+          "is_major": true,
+          "ui": "D060735"
+        },
+        {
+          "term": "Vaccines",
+          "is_major": false,
+          "ui": "D014612"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "Active surveillance",
+          "is_major": false
+        },
+        {
+          "term": "Adverse event of specific interest",
+          "is_major": false
+        },
+        {
+          "term": "Resource-limited countries",
+          "is_major": false
+        },
+        {
+          "term": "Vaccine safety",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "In 2013, the Council for International Organizations of Medical Sciences (CIOMS) created a Working Group on Vaccine Safety (WG) to address unmet needs in the area of vaccine pharmacovigilance. Generating reliable data about specific vaccine safety concerns is becoming a priority due to recent progress in the development and deployment of new vaccines of global importance, as well as novel vaccines targeting diseases specifically endemic to many resource-limited countries (RLCs), e.g. malaria, dengue. The WG created a Guide to Active Vaccine Safety Surveillance (AVSS) to assist national regulatory authorities and national immunization program officers in RLCs in determining the best course of action with regards to non-routine pharmacovigilance activities, when confronted with a launch of a new vaccine or a vaccine that is new to their country. Here we summarize the results of the WG, further detailed in the Guide, which for the first time provides a structured approach to identifying and analyzing specific vaccines safety knowledge gaps, while considering all available sources of information, in order to determine whether AVSS is an appropriate solution. If AVSS is confirmed as being the appropriate tool, the Guide provides additional essential information on AVSS, a detailed overview of common types of AVSS and practical implementation considerations. It also provides a framework for a well-constructed and informative AVSS when needed, thus aiming to ensure the best possible safety of immunization in this new landscape."
+    },
+    {
+      "rank": 6,
+      "score": 10.519107818603516,
+      "search_type": "bm25_mesh_terms",
+      "vector_id": 5662582,
+      "chunk_id": 5662582,
+      "pmid": "34376366",
+      "title": "Evaluating the use of prescription sequence symmetry analysis as a pharmacovigilance tool: A scoping review.",
+      "year": 2022,
+      "journal": "Research in social & administrative pharmacy : RSAP",
+      "authors": [
+        "Earl J Morris",
+        "Josef Hollmann",
+        "Ann-Kathrin Hofer",
+        "Hemita Bhagwandass",
+        "Razanne Oueini",
+        "Lauren E Adkins",
+        "Jesper Hallas",
+        "Scott M Vouri"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Drug-Related Side Effects and Adverse Reactions",
+          "is_major": true,
+          "ui": "D064420"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Pharmacovigilance",
+          "is_major": true,
+          "ui": "D060735"
+        },
+        {
+          "term": "Prescriptions",
+          "is_major": false,
+          "ui": "D055656"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "Adverse drug events",
+          "is_major": false
+        },
+        {
+          "term": "Prescribing cascade",
+          "is_major": false
+        },
+        {
+          "term": "Prescription sequence symmetry analysis",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "BACKGROUND: The (prescription) sequence symmetry analysis (PSSA) design has been used to identify potential prescribing cascade signals by assessing the prescribing sequence of an index drug relative to a marker drug presumed to treat an adverse drug event provoked by the index drug.\n\nOBJECTIVES: This review aimed to explore the use of the PSSA design as a pharmacovigilance tool with a particular focus on the breadth of identified signals and advances in PSSA methodology.\n\nMETHODS: We searched Embase, PubMed/Medline, Google Scholar, Web of Science and grey literature to identify studies that used the PSSA methodology. Two reviewers independently extracted relevant data for each included article. Study characteristics including signals identified, exposure time window, stratified analyses, and use of controls were extracted.\n\nRESULTS: We identified 53 studies which reported original results obtained using PSSA methodology or quantified the validity of components of the PSSA design. Of those, nine studies provided validation metrics showing reasonable sensitivity and high specificity of PSSA to identify prescribing cascade signals. We identified 340 unique index drug - marker drug signals published in the PSSA literature, representing 281 unique index - marker pharmacological class dyads (i.e., unique fourth-level Anatomical Therapeutic Chemical [ATC] classification dyads). Commonly observed signals were identified for index drugs acting upon the nervous system (34%), cardiovascular system (21%), and blood and blood-forming organs (15%), and many marker drugs were related to the nervous system (25%), alimentary tract and metabolism (23%), cardiovascular system (17%), and genitourinary system and sex hormones (14%). Negative controls and positive controls were utilized in 21% and 13% of studies, respectively.\n\nCONCLUSIONS: The PSSA methodology has been used in 53 studies worldwide to detect and evaluate over 300 unique prescribing cascades signals. Researchers should consider sensitivity analyses incorporating negative and/or positive controls and additional time windows to evaluate time-varying biases when designing PSSA studies."
+    },
+    {
+      "rank": 7,
+      "score": 10.519107818603516,
+      "search_type": "bm25_mesh_terms",
+      "vector_id": 3177590,
+      "chunk_id": 3177590,
+      "pmid": "37387038",
+      "title": "Questionnaire to Capture the Over Time User Preference During the Comparison of Pharmacovigilance Software Systems.",
+      "year": 2023,
+      "journal": "Studies in health technology and informatics",
+      "authors": [
+        "Panos Bonotis",
+        "Pantelis Natsiavas"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Pharmacovigilance",
+          "is_major": true,
+          "ui": "D060735"
+        },
+        {
+          "term": "Drug-Related Side Effects and Adverse Reactions",
+          "is_major": true,
+          "ui": "D064420"
+        },
+        {
+          "term": "Software",
+          "is_major": false,
+          "ui": "D012984"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "User preferences",
+          "is_major": false
+        },
+        {
+          "term": "comparative study",
+          "is_major": false
+        },
+        {
+          "term": "eHealth",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "The study aimed to assess the usability of the PVClinical platform, which is designed for detecting and managing Adverse Drug Reactions (ADRs). A \"slider\" type comparative questionnaire was designed to capture the preferences of six end-users over time between PVC clinical platform and the established clinical and pharmaceutical ADR detection software tools. The results of the questionnaire were cross-examined with the results of the usability study. The questionnaire was a quick preference-capturing tool over time and provided impactful insights. Coherence in participants' preferences for PVClinical platform was observed, but further research is needed to establish the effectiveness of the questionnaire as a preference-capturing tool."
+    },
+    {
+      "rank": 8,
+      "score": 10.519107818603516,
+      "search_type": "bm25_mesh_terms",
+      "vector_id": 8602620,
+      "chunk_id": 8602620,
+      "pmid": "30822263",
+      "title": "Panvigilance: Integrating Biomarkers in Clinical Trials for Systems Pharmacovigilance.",
+      "year": 2019,
+      "journal": "Omics : a journal of integrative biology",
+      "authors": [
+        "Semra Şardaş",
+        "Aslıgül Kendirci"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Biomarkers",
+          "is_major": false,
+          "ui": "D015415"
+        },
+        {
+          "term": "Drug-Related Side Effects and Adverse Reactions",
+          "is_major": false,
+          "ui": "D064420"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Pharmacovigilance",
+          "is_major": true,
+          "ui": "D060735"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "adverse drug reactions",
+          "is_major": false
+        },
+        {
+          "term": "centers for panvigilance",
+          "is_major": false
+        },
+        {
+          "term": "clinical trials",
+          "is_major": false
+        },
+        {
+          "term": "drug safety",
+          "is_major": false
+        },
+        {
+          "term": "panvigilance",
+          "is_major": false
+        },
+        {
+          "term": "pharmacovigilance",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Drug safety and pharmacovigilance are rapidly changing with biomarkers and new technologies such as artificial intelligence. However, we need new ideas and application contexts for integration of biomarkers and emerging technologies in modern pharmacovigilance. A new concept, panvigilance, has been recently introduced for proactive \"stress testing\" of new drug candidates in panels of patients or healthy volunteers identified by biomarkers, and who are situated in population edges in terms of pharmacokinetic (PK) and/or molecular target interindividual variability. Panvigilance aims to provide upper and lower bound estimates for drug performance under conditions that mimic population edges. Subsequently, it becomes easier to extrapolate pharmacovigilance signals with regard to individuals who reside in between the population edges. In this expert review, we explain that the prefix \"pan,\" meaning everything or all, refers to the three-pronged panvigilance goals to (1) decipher the full population scale variability in medicinal product PKs and molecular target variability, (2) empower forecasting of pharmacovigilance signals within and across populations through knowledge of biomarker variations worldwide, and (3) integration of pharmacovigilance signals across government ministries, civil society organizations, and other stakeholders through, for example, institutional innovation such as centers for panvigilance. We note that panvigilance and pharmacovigilance are complementary, and underscore the added value of panvigilance for global clinical trials. Panvigilance offers a new opportunity for meaningful biomarker application in clinical trials beyond traditional contexts such as personalized medicine. In sum, panvigilance is a systems approach to pharmacovigilance and poised to innovate risk governance in medicinal product development and clinical trials."
+    },
+    {
+      "rank": 9,
+      "score": 10.46817684173584,
+      "search_type": "bm25_mesh_terms",
+      "vector_id": 2436694,
+      "chunk_id": 2436694,
+      "pmid": "38269492",
+      "title": "Metformin adverse event profile: a pharmacovigilance study based on the FDA Adverse Event Reporting System (FAERS) from 2004 to 2022.",
+      "year": null,
+      "journal": "Expert review of clinical pharmacology",
+      "authors": [
+        "Yikuan Du",
+        "Jinfeng Zhu",
+        "Zhuoming Guo",
+        "Zhenjie Wang",
+        "Yuni Wang",
+        "Mianda Hu",
+        "Lingzhi Zhang",
+        "Yurong Yang",
+        "Jinjin Wang",
+        "Yixing Huang",
+        "Peiying Huang",
+        "Mianhai Chen",
+        "Bo Chen",
+        "Chun Yang"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "United States",
+          "is_major": false,
+          "ui": "D014481"
+        },
+        {
+          "term": "Metformin",
+          "is_major": true,
+          "ui": "D008687"
+        },
+        {
+          "term": "Pharmacovigilance",
+          "is_major": false,
+          "ui": "D060735"
+        },
+        {
+          "term": "Acute Disease",
+          "is_major": false,
+          "ui": "D000208"
+        },
+        {
+          "term": "Pancreatitis",
+          "is_major": true,
+          "ui": "D010195"
+        },
+        {
+          "term": "Adverse Drug Reaction Reporting Systems",
+          "is_major": false,
+          "ui": "D016907"
+        },
+        {
+          "term": "United States Food and Drug Administration",
+          "is_major": false,
+          "ui": "D014486"
+        },
+        {
+          "term": "Drug-Related Side Effects and Adverse Reactions",
+          "is_major": true,
+          "ui": "D064420"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "FAERS",
+          "is_major": false
+        },
+        {
+          "term": "Metformin",
+          "is_major": false
+        },
+        {
+          "term": "adverse drug reactions",
+          "is_major": false
+        },
+        {
+          "term": "lactic acidosis",
+          "is_major": false
+        },
+        {
+          "term": "pharmacovigilance",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "BACKGROUND: Metformin has the potential for treating numerous diseases, but there are still many unrecognized and unreported adverse events (AEs).\n\nMETHODS: We selected data from the United States FDA Adverse Event Reporting System (FAERS) database from the first quarter (Q1) of 2004 to the fourth quarter (Q4) of 2022 for disproportionality analysis to assess the association between metformin and related adverse events.\n\nRESULTS: In this study 10,500,295 case reports were collected from the FAERS database, of which 56,674 adverse events related to metformin were reported. A total of 643 preferred terms (PTs) and 27 system organ classes (SOCs) that were significant disproportionality conforming to the four algorithms simultaneously were included. The SOCs included metabolic and nutritional disorders (\n\nCONCLUSION: Most of our results were consistent with the specification, but some new signals of adverse reactions such as acute pancreatitis were not included. Therefore, further studies are needed to validate unlabeled adverse reactions and provide important support for clinical monitoring and risk identification of metformin."
+    },
+    {
+      "rank": 10,
+      "score": 10.356474876403809,
+      "search_type": "bm25_mesh_terms",
+      "vector_id": 11004756,
+      "chunk_id": 11004756,
+      "pmid": "27697815",
+      "title": "Adverse drug reactions.",
+      "year": 2016,
+      "journal": "Clinical medicine (London, England)",
+      "authors": [
+        "Jamie J Coleman",
+        "Sarah K Pontefract"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Adverse Drug Reaction Reporting Systems",
+          "is_major": false,
+          "ui": "D016907"
+        },
+        {
+          "term": "Drug-Related Side Effects and Adverse Reactions",
+          "is_major": true,
+          "ui": "D064420"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Pharmacovigilance",
+          "is_major": false,
+          "ui": "D060735"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "Adverse drug reactions",
+          "is_major": false
+        },
+        {
+          "term": "adverse drug reaction reporting systems",
+          "is_major": false
+        },
+        {
+          "term": "clinical pharmacology",
+          "is_major": false
+        },
+        {
+          "term": "drug-related side effects and adverse reactions",
+          "is_major": false
+        },
+        {
+          "term": "pharmacovigilance",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Adverse drug reactions (ADRs) remain a challenge in modern healthcare, particularly given the increasing complexity of therapeutics, an ageing population and rising multimorbidity. This article summarises some of the key facts about ADRs and explores aspects relating to their prevention, diagnosis, reporting and management in current clinical practice."
+    }
+  ]
+}

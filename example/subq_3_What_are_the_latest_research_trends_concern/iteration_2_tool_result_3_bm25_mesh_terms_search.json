@@ -1,0 +1,350 @@
+{
+  "query": "molecular mechanisms of metformin",
+  "search_type": "bm25_mesh_terms",
+  "parameters": {
+    "k": 5
+  },
+  "results_count": 5,
+  "results": [
+    {
+      "rank": 1,
+      "score": 5.875090599060059,
+      "search_type": "bm25_mesh_terms",
+      "vector_id": 3203537,
+      "chunk_id": 3203537,
+      "pmid": "37356894",
+      "title": "Ventilator Management in Metformin-Associated Lactic Acidosis: A Case Report.",
+      "year": null,
+      "journal": "Air medical journal",
+      "authors": [
+        "Michael A Frakes",
+        "Jackson McWade",
+        "Vahé Ender",
+        "Jason E Cohen",
+        "Susan R Wilcox"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Female",
+          "is_major": false,
+          "ui": "D005260"
+        },
+        {
+          "term": "Acidosis, Lactic",
+          "is_major": true,
+          "ui": "D000140"
+        },
+        {
+          "term": "Metformin",
+          "is_major": true,
+          "ui": "D008687"
+        },
+        {
+          "term": "Respiration, Artificial",
+          "is_major": false,
+          "ui": "D012121"
+        },
+        {
+          "term": "Ventilators, Mechanical",
+          "is_major": false,
+          "ui": "D012122"
+        },
+        {
+          "term": "Acidosis",
+          "is_major": true,
+          "ui": "D000138"
+        },
+        {
+          "term": "Tidal Volume",
+          "is_major": false,
+          "ui": "D013990"
+        }
+      ],
+      "keywords": [],
+      "citations": [],
+      "text": "The initiation of mechanical ventilation in the setting of profound metabolic acidosis can be a particular challenge in the transport environment. The classic teaching is that patients with severe acidemia should not be intubated, if possible, because they are often able to better maintain their own compensatory minute ventilation compared with clinician management with the mechanical ventilator. In this case, a patient had profound metformin-associated lactic acidosis with a pH of 6.51 and required intubation for deteriorating mental status with an inability to protect her airway. Maintaining adequate minute ventilation can be directly in conflict with the evidence-based approach of low tidal volume ventilation for all patients. When patients have profound metabolic acidosis without evidence of acute respiratory distress syndrome, increasing the tidal volume slightly to allow for more efficient respiration can be an effective strategy to maintain acid-base status."
+    },
+    {
+      "rank": 2,
+      "score": 5.539734363555908,
+      "search_type": "bm25_mesh_terms",
+      "vector_id": 14906702,
+      "chunk_id": 14906702,
+      "pmid": "22751178",
+      "title": "The nature of strength enhancement and weakening by pentagon-heptagon defects in graphene.",
+      "year": 2012,
+      "journal": "Nature materials",
+      "authors": [
+        "Yujie Wei",
+        "Jiangtao Wu",
+        "Hanqing Yin",
+        "Xinghua Shi",
+        "Ronggui Yang",
+        "Mildred Dresselhaus"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Graphite",
+          "is_major": false,
+          "ui": "D006108"
+        },
+        {
+          "term": "Mechanical Phenomena",
+          "is_major": true,
+          "ui": "D055595"
+        },
+        {
+          "term": "Molecular Conformation",
+          "is_major": false,
+          "ui": "D008968"
+        },
+        {
+          "term": "Molecular Dynamics Simulation",
+          "is_major": false,
+          "ui": "D056004"
+        },
+        {
+          "term": "Stress, Mechanical",
+          "is_major": false,
+          "ui": "D013314"
+        }
+      ],
+      "keywords": [],
+      "citations": [],
+      "text": "The two-dimensional crystalline structures in graphene challenge the applicability of existing theories that have been used for characterizing its three-dimensional counterparts. It is crucial to establish reliable structure-property relationships in the important two-dimensional crystals to fully use their remarkable properties. With the success in synthesizing large-area polycrystalline graphene, understanding how grain boundaries (GBs) in graphene alter its physical properties is of both scientific and technological importance. A recent work showed that more GB defects could counter intuitively give rise to higher strength in tilt GBs (ref. 10). We show here that GB strength can either increase or decrease with the tilt, and the behaviour can be explained well by continuum mechanics. It is not just the density of defects that affects the mechanical properties, but the detailed arrangements of defects are also important. The strengths of tilt GBs increase as the square of the tilt angles if pentagon-heptagon defects are evenly spaced, and the trend breaks down in other cases. We find that mechanical failure always starts from the bond shared by hexagon-heptagon rings. Our present work provides fundamental guidance towards understanding how defects interact in two-dimensional crystals, which is important for using high-strength and stretchable graphene for biological and electronic applications."
+    },
+    {
+      "rank": 3,
+      "score": 5.539734363555908,
+      "search_type": "bm25_mesh_terms",
+      "vector_id": 13045440,
+      "chunk_id": 13045440,
+      "pmid": "25122407",
+      "title": "Multiscale dynamics of semiflexible polymers from a universal coarse-graining procedure.",
+      "year": 2014,
+      "journal": "Physical review. E, Statistical, nonlinear, and soft matter physics",
+      "authors": [
+        "Elena F Koslover",
+        "Andrew J Spakowitz"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Mechanical Phenomena",
+          "is_major": true,
+          "ui": "D055595"
+        },
+        {
+          "term": "Molecular Conformation",
+          "is_major": false,
+          "ui": "D008968"
+        },
+        {
+          "term": "Molecular Dynamics Simulation",
+          "is_major": false,
+          "ui": "D056004"
+        },
+        {
+          "term": "Polymers",
+          "is_major": false,
+          "ui": "D011108"
+        },
+        {
+          "term": "Stress, Mechanical",
+          "is_major": false,
+          "ui": "D013314"
+        }
+      ],
+      "keywords": [],
+      "citations": [],
+      "text": "Simulating the dynamics of a semiflexible polymer across time and length scales that bridge the rigid and flexible regimes requires a physically sound method for generating coarse-grained representations of the polymer. Here, we study the dynamic behavior of the discrete stretchable, shearable wormlike chain model, which can be used to coarse-grain a continuous semi-elastic chain at an arbitrary discretization. We show that the dynamics of this universal model match those of the wormlike chain at length scales above the discretization length. The evolution of the stress correlation, as probed through Brownian dynamics simulations, is found to reproduce the predicted behavior in both the rigid and flexible regimes, spanning over six orders of magnitude in time scales. The coarse-graining approach employed here thus enables dynamic simulation of semiflexible polymers at lengths and times that were previously inaccessible with conventional methods."
+    },
+    {
+      "rank": 4,
+      "score": 5.531454086303711,
+      "search_type": "bm25_mesh_terms",
+      "vector_id": 9401861,
+      "chunk_id": 9401861,
+      "pmid": "29803793",
+      "title": "Comparative evaluation of powder flow parameters with reference to particle size and shape.",
+      "year": 2018,
+      "journal": "International journal of pharmaceutics",
+      "authors": [
+        "Hui Ping Goh",
+        "Paul Wan Sia Heng",
+        "Celine Valeria Liew"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Excipients",
+          "is_major": false,
+          "ui": "D005079"
+        },
+        {
+          "term": "Lactose",
+          "is_major": false,
+          "ui": "D007785"
+        },
+        {
+          "term": "Metformin",
+          "is_major": false,
+          "ui": "D008687"
+        },
+        {
+          "term": "Multivariate Analysis",
+          "is_major": false,
+          "ui": "D015999"
+        },
+        {
+          "term": "Particle Size",
+          "is_major": false,
+          "ui": "D010316"
+        },
+        {
+          "term": "Povidone",
+          "is_major": false,
+          "ui": "D011205"
+        },
+        {
+          "term": "Powders",
+          "is_major": false,
+          "ui": "D011208"
+        },
+        {
+          "term": "Rheology",
+          "is_major": false,
+          "ui": "D012212"
+        },
+        {
+          "term": "Stearic Acids",
+          "is_major": false,
+          "ui": "D013229"
+        },
+        {
+          "term": "Stress, Mechanical",
+          "is_major": false,
+          "ui": "D013314"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "Compressibility",
+          "is_major": false
+        },
+        {
+          "term": "Inter-particulate friction",
+          "is_major": false
+        },
+        {
+          "term": "Particle shape",
+          "is_major": false
+        },
+        {
+          "term": "Particle size",
+          "is_major": false
+        },
+        {
+          "term": "Powder cohesion",
+          "is_major": false
+        },
+        {
+          "term": "Powder flow parameters",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Powder flow is critical to the success of various pharmaceutical processes such as tableting and capsule filling. Despite a plethora of flow characterisation techniques and parameters available, powder flow still remains to be a not well understood subject. Inter-relationships between the various powder flow parameters in particular have not been well established. Furthermore, while it is known that particle size and shape are important determinants of powder flow, their relative impact on individual flow parameter is unclear. In this study, granules were evaluated for their flow properties using various characterisation methods. Through multivariate analysis, flow parameters were classified based on the underlying physical granule property. Angle of repose, Hausner ratio, shear cell parameters and avalanche flow were found to be affected primarily by powder cohesion, which was in turn determined by the smallest granule size fraction. On the other hand, powder compressibility and inter-particulate friction were the main factors underlying basic flow energy. Angle of internal friction was primarily affected by particle roundness and did not appear to describe powder bulk flow properties. This study showed that while the various flow characterisation techniques were different in terms of their applications, there were common physical attributes that governed the measurements."
+    },
+    {
+      "rank": 5,
+      "score": 5.531454086303711,
+      "search_type": "bm25_mesh_terms",
+      "vector_id": 4896344,
+      "chunk_id": 4896344,
+      "pmid": "35297689",
+      "title": "Lung and chest wall mechanical properties in metformin-treated and untreated models of type 2 diabetes.",
+      "year": 2022,
+      "journal": "Journal of applied physiology (Bethesda, Md. : 1985)",
+      "authors": [
+        "Álmos Schranc",
+        "Gergely H Fodor",
+        "Roberta Südy",
+        "Bence Ballók",
+        "Richárd Kulcsár",
+        "József Tolnai",
+        "Barna Babik",
+        "Ferenc Peták"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Animals",
+          "is_major": false,
+          "ui": "D000818"
+        },
+        {
+          "term": "Diabetes Mellitus, Experimental",
+          "is_major": true,
+          "ui": "D003921"
+        },
+        {
+          "term": "Diabetes Mellitus, Type 2",
+          "is_major": true,
+          "ui": "D003924"
+        },
+        {
+          "term": "Lung",
+          "is_major": false,
+          "ui": "D008168"
+        },
+        {
+          "term": "Metformin",
+          "is_major": true,
+          "ui": "D008687"
+        },
+        {
+          "term": "Rats",
+          "is_major": false,
+          "ui": "D051381"
+        },
+        {
+          "term": "Respiratory Mechanics",
+          "is_major": false,
+          "ui": "D015656"
+        },
+        {
+          "term": "Thoracic Wall",
+          "is_major": true,
+          "ui": "D035441"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "hyperglycemia",
+          "is_major": false
+        },
+        {
+          "term": "lung function",
+          "is_major": false
+        },
+        {
+          "term": "metformin",
+          "is_major": false
+        },
+        {
+          "term": "skeletal muscle",
+          "is_major": false
+        },
+        {
+          "term": "tissue viscoelasticity",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "The adverse respiratory consequences of type 2 diabetes mellitus (T2DM) may reflect compromised lung function and/or alterations of the chest wall because of skeletal muscle stiffening. We assessed the separate contributions of these compartments to respiratory complications in diabetes and explored the effects of metformin on respiratory abnormalities. Experiments were performed in untreated rats (control,"
+    }
+  ]
+}

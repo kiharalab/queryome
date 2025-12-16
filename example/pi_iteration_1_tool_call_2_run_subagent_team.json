@@ -1,0 +1,11 @@
+{
+  "name": "run_subagent_team",
+  "arguments": {
+    "subquestions": [
+      "What is the mechanism of action of metformin?",
+      "What are the therapeutic uses of metformin?",
+      "What are the common and serious side effects of metformin?",
+      "What are the latest research trends concerning metformin?"
+    ]
+  }
+}

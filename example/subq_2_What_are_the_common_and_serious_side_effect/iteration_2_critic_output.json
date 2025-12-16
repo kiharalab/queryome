@@ -1,0 +1,56 @@
+{
+  "scores": [
+    {
+      "pmid": "33709434",
+      "relevance_score": 4,
+      "justification": "While this article touches on outcomes related to metformin, it is primarily focused on health outcomes rather than specific side effects. The mention of reliability and quality of evidence may indirectly relate to adverse effects, but this is not the primary focus."
+    },
+    {
+      "pmid": "37900422",
+      "relevance_score": 2,
+      "justification": "This article is focused on the effectiveness of metformin in diabetes prevention rather than side effects, making it largely irrelevant to the research question."
+    },
+    {
+      "pmid": "37567440",
+      "relevance_score": 3,
+      "justification": "This article discusses the broad therapeutic effects and mechanisms of metformin, with only indirect references to adverse effects, thus offering limited relevance to the research question on side effects."
+    },
+    {
+      "pmid": "33847633",
+      "relevance_score": 3,
+      "justification": "The article focuses on cardiovascular outcomes post-myocardial infarction, including safety, but it doesn't specifically address common and serious side effects of metformin comprehensively."
+    },
+    {
+      "pmid": "38021728",
+      "relevance_score": 2,
+      "justification": "This article compares the efficacy of metformin versus lifestyle changes in diabetes prevention. There's no relevant discussion on metformin's side effects."
+    },
+    {
+      "pmid": "16153370",
+      "relevance_score": 4,
+      "justification": "While the article reviews metformin's efficacy against various treatments, it involves some discussions on weight and biochemistry changes that could implicitly relate to side effects, although not extensively."
+    },
+    {
+      "pmid": "37881440",
+      "relevance_score": 1,
+      "justification": "The article explores the use of metformin as an antiviral treatment for COVID-19 and its mechanistic actions, unrelated to an investigation of its side effects."
+    },
+    {
+      "pmid": "33549430",
+      "relevance_score": 3,
+      "justification": "Discusses cardiovascular outcomes and mortality with metformin use, hinting at safety considerations but doesn't delve into specific side effects extensively."
+    },
+    {
+      "pmid": "40230880",
+      "relevance_score": 1,
+      "justification": "This article explores the potential efficacy of metformin for macular degeneration, offering no relevant information about its side effects for diabetes treatment."
+    },
+    {
+      "pmid": "27193864",
+      "relevance_score": 1,
+      "justification": "This article is about systematic reviews in neuropsychology and offers no discussion relevant to metformin or its side effects."
+    }
+  ],
+  "decision": "CONTINUE",
+  "suggestion": "Focus search on studies specifically analyzing side effects of metformin, such as pharmacovigilance studies and post-market reports, which often list adverse reactions in detail."
+}

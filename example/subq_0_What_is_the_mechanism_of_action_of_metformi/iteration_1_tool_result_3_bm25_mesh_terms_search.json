@@ -1,0 +1,737 @@
+{
+  "query": "metformin pharmacology",
+  "search_type": "bm25_mesh_terms",
+  "parameters": {
+    "k": 10
+  },
+  "results_count": 10,
+  "results": [
+    {
+      "rank": 1,
+      "score": 6.686662673950195,
+      "search_type": "bm25_mesh_terms",
+      "vector_id": 4445843,
+      "chunk_id": 4445843,
+      "pmid": "35862740",
+      "title": "Quantitative Systems Pharmacology Modeling Framework of Autophagy in Tuberculosis: Application to Adjunctive Metformin Host-Directed Therapy.",
+      "year": 2022,
+      "journal": "Antimicrobial agents and chemotherapy",
+      "authors": [
+        "Krina Mehta",
+        "Tingjie Guo",
+        "Robert S Wallis",
+        "Piet H van der Graaf",
+        "J G Coen van Hasselt"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Animals",
+          "is_major": false,
+          "ui": "D000818"
+        },
+        {
+          "term": "Anti-Bacterial Agents",
+          "is_major": false,
+          "ui": "D000900"
+        },
+        {
+          "term": "Autophagy",
+          "is_major": false,
+          "ui": "D001343"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Metformin",
+          "is_major": true,
+          "ui": "D008687"
+        },
+        {
+          "term": "Mice",
+          "is_major": false,
+          "ui": "D051379"
+        },
+        {
+          "term": "Mycobacterium tuberculosis",
+          "is_major": true,
+          "ui": "D009169"
+        },
+        {
+          "term": "Network Pharmacology",
+          "is_major": false,
+          "ui": "D000091484"
+        },
+        {
+          "term": "Tuberculosis",
+          "is_major": true,
+          "ui": "D014376"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "autophagy",
+          "is_major": false
+        },
+        {
+          "term": "host-directed therapy",
+          "is_major": false
+        },
+        {
+          "term": "mathematical modeling",
+          "is_major": false
+        },
+        {
+          "term": "quantitative systems pharmacology",
+          "is_major": false
+        },
+        {
+          "term": "tuberculosis",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Quantitative systems pharmacology (QSP) modeling of the host immune response against Mycobacterium tuberculosis can inform the rational design of host-directed therapies (HDTs). We aimed to develop a QSP framework to evaluate the effects of metformin-associated autophagy induction in combination with antibiotics. A QSP framework for autophagy was developed by extending a model for host immune response to include adenosine monophosphate-activated protein kinase (AMPK)-mTOR-autophagy signaling. This model was combined with pharmacokinetic-pharmacodynamic models for metformin and antibiotics against M. tuberculosis. We compared the model predictions to mice infection experiments and derived predictions for the pathogen- and host-associated dynamics in humans treated with metformin in combination with antibiotics. The model adequately captured the observed bacterial load dynamics in mice M. tuberculosis infection models treated with metformin. Simulations for adjunctive metformin therapy in newly diagnosed patients suggested a limited yet dose-dependent effect of metformin on reduction of the intracellular bacterial load when the overall bacterial load is low, late during antibiotic treatment. We present the first QSP framework for HDTs against M. tuberculosis, linking cellular-level autophagy effects to disease progression and adjunctive HDT treatment response. This framework may be extended to guide the design of HDTs against M. tuberculosis."
+    },
+    {
+      "rank": 2,
+      "score": 6.13242244720459,
+      "search_type": "bm25_mesh_terms",
+      "vector_id": 3900779,
+      "chunk_id": 3900779,
+      "pmid": "36496454",
+      "title": "Causal inference in medical records and complementary systems pharmacology for metformin drug repurposing towards dementia.",
+      "year": 2022,
+      "journal": "Nature communications",
+      "authors": [
+        "Marie-Laure Charpignon",
+        "Bella Vakulenko-Lagun",
+        "Bang Zheng",
+        "Colin Magdamo",
+        "Bowen Su",
+        "Kyle Evans",
+        "Steve Rodriguez",
+        "Artem Sokolov",
+        "Sarah Boswell",
+        "Yi-Han Sheu",
+        "Melek Somai",
+        "Lefkos Middleton",
+        "Bradley T Hyman",
+        "Rebecca A Betensky",
+        "Stan N Finkelstein",
+        "Roy E Welsch",
+        "Ioanna Tzoulaki",
+        "Deborah Blacker",
+        "Sudeshna Das",
+        "Mark W Albers"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Metformin",
+          "is_major": true,
+          "ui": "D008687"
+        },
+        {
+          "term": "Drug Repositioning",
+          "is_major": false,
+          "ui": "D058492"
+        },
+        {
+          "term": "Network Pharmacology",
+          "is_major": false,
+          "ui": "D000091484"
+        },
+        {
+          "term": "Diabetes Mellitus, Type 2",
+          "is_major": true,
+          "ui": "D003924"
+        },
+        {
+          "term": "Sulfonylurea Compounds",
+          "is_major": false,
+          "ui": "D013453"
+        },
+        {
+          "term": "Hypoglycemic Agents",
+          "is_major": false,
+          "ui": "D007004"
+        },
+        {
+          "term": "Dementia",
+          "is_major": true,
+          "ui": "D003704"
+        },
+        {
+          "term": "Medical Records",
+          "is_major": false,
+          "ui": "D008499"
+        }
+      ],
+      "keywords": [],
+      "citations": [],
+      "text": "Metformin, a diabetes drug with anti-aging cellular responses, has complex actions that may alter dementia onset. Mixed results are emerging from prior observational studies. To address this complexity, we deploy a causal inference approach accounting for the competing risk of death in emulated clinical trials using two distinct electronic health record systems. In intention-to-treat analyses, metformin use associates with lower hazard of all-cause mortality and lower cause-specific hazard of dementia onset, after accounting for prolonged survival, relative to sulfonylureas. In parallel systems pharmacology studies, the expression of two AD-related proteins, APOE and SPP1, was suppressed by pharmacologic concentrations of metformin in differentiated human neural cells, relative to a sulfonylurea. Together, our findings suggest that metformin might reduce the risk of dementia in diabetes patients through mechanisms beyond glycemic control, and that SPP1 is a candidate biomarker for metformin's action in the brain."
+    },
+    {
+      "rank": 3,
+      "score": 5.811300277709961,
+      "search_type": "bm25_mesh_terms",
+      "vector_id": 4057871,
+      "chunk_id": 4057871,
+      "pmid": "36316840",
+      "title": "Effect of metformin on nonalcoholic fatty liver based on meta-analysis and network pharmacology.",
+      "year": 2022,
+      "journal": "Medicine",
+      "authors": [
+        "Yuanshe Huang",
+        "Xiaodong Wang",
+        "Chen Yan",
+        "Chen Li",
+        "Lidan Zhang",
+        "Lai Zhang",
+        "E Liang",
+        "Tianlei Liu",
+        "Jingxin Mao"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Non-alcoholic Fatty Liver Disease",
+          "is_major": true,
+          "ui": "D065626"
+        },
+        {
+          "term": "Metformin",
+          "is_major": true,
+          "ui": "D008687"
+        },
+        {
+          "term": "Diabetes Mellitus, Type 2",
+          "is_major": true,
+          "ui": "D003924"
+        },
+        {
+          "term": "Sirtuin 1",
+          "is_major": false,
+          "ui": "D056564"
+        },
+        {
+          "term": "Network Pharmacology",
+          "is_major": false,
+          "ui": "D000091484"
+        },
+        {
+          "term": "Insulin Resistance",
+          "is_major": true,
+          "ui": "D007333"
+        },
+        {
+          "term": "Class I Phosphatidylinositol 3-Kinases",
+          "is_major": false,
+          "ui": "D058534"
+        }
+      ],
+      "keywords": [],
+      "citations": [],
+      "text": "BACKGROUND: Whether metformin is related to nonalcoholic fatty liver disease (NAFLD) is controversial. Our aim was to investigate the relationship between metformin and NAFLD that may predict the metformin potential of these lesions and new prevention strategies in NAFLD patients.\n\nMETHODS: The meta-analysis was analyzed by Revman 5.3 softwares systematically searched for works published through July 29, 2022. Network pharmacology research based on databases, Cytoscape 3.7.1 software and R software respectively.\n\nRESULTS: The following variables were associated with metformin in NAFLD patients: decreased of alanine aminotransferase (ALT) level (mean difference [MD] = -10.84, 95% confidence interval [CI] = -21.85 to 0.16, P = .05); decreased of aspartate amino transferase (AST) level (MD = -4.82, 95% CI = -9.33 to -0.30, P = .04); decreased of triglyceride (TG) level (MD = -0.17, 95% CI = -0.26 to -0.08, P = .0002); decreased of total cholesterol (TC) level (MD = -0.29, 95% CI = -0.47 to -0.10, P = .003); decreased of insulin resistance (IR) level (MD = -0.42, 95% CI = -0.82 to -0.02, P = .04). In addition, body mass index (BMI) (MD = -0.65, 95% CI = -1.46 to 0.16, P = .12) had no association with metformin in NAFLD patients. 181 metformin targets and 868 NAFLD disease targets were interaction analyzed, 15 core targets of metformin for the treatment of NAFLD were obtained. The effect of metformin on NAFLD mainly related to cytoplasm and protein binding, NAFLD, hepatitis B, pathway in cancer, toll like receptor signaling pathway and type 2 diabetes mellitus (T2DM). The proteins of hypoxia inducible factor-1 (HIF1A), nuclear factor erythroid 2-related factor (NFE2L2), nitric oxide synthase 3 (NOS3), nuclear receptor subfamily 3 group C member 1 (NR3C1), PI3K catalytic subunit alpha (PIK3CA), and silencing information regulator 2 related enzyme 1 (SIRT1) may the core targets of metformin for the treatment of NAFLD.\n\nCONCLUSION: Metformin might be a candidate drug for the treatment of NAFLD which exhibits therapeutic effect on NAFLD patients associated with ALT, AST, TG, TC and IR while was not correlated with BMI. HIF1A, NFE2L2, NOS3, NR3C1, PIK3CA, and SIRT1 might be core targets of metformin for the treatment of NAFLD."
+    },
+    {
+      "rank": 4,
+      "score": 5.715756416320801,
+      "search_type": "bm25_mesh_terms",
+      "vector_id": 4758574,
+      "chunk_id": 4758574,
+      "pmid": "35437730",
+      "title": "Educational Needs for Quantitative Systems Pharmacology Scientists.",
+      "year": 2022,
+      "journal": "Methods in molecular biology (Clifton, N.J.)",
+      "authors": [
+        "James M Gallo"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Models, Biological",
+          "is_major": false,
+          "ui": "D008954"
+        },
+        {
+          "term": "Network Pharmacology",
+          "is_major": true,
+          "ui": "D000091484"
+        },
+        {
+          "term": "Pharmacology",
+          "is_major": true,
+          "ui": "D010600"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "Pharmacodynamic",
+          "is_major": false
+        },
+        {
+          "term": "Pharmacokinetic",
+          "is_major": false
+        },
+        {
+          "term": "Pharmacology",
+          "is_major": false
+        },
+        {
+          "term": "Quantitative",
+          "is_major": false
+        },
+        {
+          "term": "Systems",
+          "is_major": false
+        },
+        {
+          "term": "Training",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "There is a demand for scientists trained in quantitative systems pharmacology (QSP) that has yet to be met by changes in graduate education. The multidisciplinary nature of QSP is not unlike its predecessor, pharmacokinetics (PKs) and pharmacodynamics (PDs) that have now become firmly established in many educational programs. A hindrance to the evolution of educational programs for QSP is explored and suggestions to move QSP into its proper position as a unique discipline are presented."
+    },
+    {
+      "rank": 5,
+      "score": 5.553630828857422,
+      "search_type": "bm25_mesh_terms",
+      "vector_id": 7152424,
+      "chunk_id": 7152424,
+      "pmid": "32621550",
+      "title": "A framework for simplification of quantitative systems pharmacology models in clinical pharmacology.",
+      "year": 2022,
+      "journal": "British journal of clinical pharmacology",
+      "authors": [
+        "Abdallah Derbalah",
+        "Hesham Al-Sallami",
+        "Chihiro Hasegawa",
+        "Abhishek Gulati",
+        "Stephen B Duffull"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Computer Simulation",
+          "is_major": false,
+          "ui": "D003198"
+        },
+        {
+          "term": "Drug Development",
+          "is_major": false,
+          "ui": "D000076722"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Models, Biological",
+          "is_major": false,
+          "ui": "D008954"
+        },
+        {
+          "term": "Network Pharmacology",
+          "is_major": false,
+          "ui": "D000091484"
+        },
+        {
+          "term": "Pharmacology",
+          "is_major": true,
+          "ui": "D010600"
+        },
+        {
+          "term": "Pharmacology, Clinical",
+          "is_major": true,
+          "ui": "D010601"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "complexity",
+          "is_major": false
+        },
+        {
+          "term": "model-order reduction",
+          "is_major": false
+        },
+        {
+          "term": "pharmacological models",
+          "is_major": false
+        },
+        {
+          "term": "quantitative systems pharmacology",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Quantitative systems pharmacology (QSP) is a relatively new discipline within modelling and simulation that has gained wide attention over the past few years. The application of QSP models spans drug-target identification and validation, through all drug development phases as well as clinical applications. Due to their detailed mechanistic nature, QSP models are capable of extrapolating knowledge to predict outcomes in scenarios that have not been tested experimentally, making them an important resource in experimental and clinical pharmacology. However, these models are complicated to work with due to their size and inherent complexity. This makes many applications of QSP models for simulation, parameter estimation and trial design computationally intractable. A number of techniques have been developed to simplify QSP models into smaller models that are more amenable to further analyses while retaining their accurate predictive capabilities. Different simplification techniques have different strengths and weaknesses and hence different utilities. Understanding the utilities of different methods is essential for selection of the best method for a particular situation. In this paper, we have created an overall framework for model simplification techniques that allows a natural categorisation of methods based on their utility. We provide a brief description of the concept underpinning the different methods and example applications. A summary of the utilities of methods is intended to provide a guide to modellers in their model endeavours to simplify these complicated models."
+    },
+    {
+      "rank": 6,
+      "score": 5.442798137664795,
+      "search_type": "bm25_mesh_terms",
+      "vector_id": 4571773,
+      "chunk_id": 4571773,
+      "pmid": "35712824",
+      "title": "Development of and insights from systems pharmacology models of antibody-drug conjugates.",
+      "year": 2022,
+      "journal": "CPT: pharmacometrics & systems pharmacology",
+      "authors": [
+        "Inez Lam",
+        "Venkatesh Pilla Reddy",
+        "Kathryn Ball",
+        "Rosalinda H Arends",
+        "Feilim Mac Gabhann"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Immunoconjugates",
+          "is_major": true,
+          "ui": "D018796"
+        },
+        {
+          "term": "Models, Biological",
+          "is_major": false,
+          "ui": "D008954"
+        },
+        {
+          "term": "Network Pharmacology",
+          "is_major": false,
+          "ui": "D000091484"
+        },
+        {
+          "term": "Pharmacology",
+          "is_major": true,
+          "ui": "D010600"
+        }
+      ],
+      "keywords": [],
+      "citations": [],
+      "text": "Antibody-drug conjugates (ADCs) have gained traction in the oncology space in the past few decades, with significant progress being made in recent years. Although the use of pharmacometric modeling is well-established in the drug development process, there is an increasing need for a better quantitative biological understanding of the pharmacokinetic and pharmacodynamic relationships of these complex molecules. Quantitative systems pharmacology (QSP) approaches can assist in this endeavor; recent computational QSP models incorporate ADC-specific mechanisms and use data-driven simulations to predict experimental outcomes. Various modeling approaches and platforms have been developed at the in vitro, in vivo, and clinical scales, and can be further integrated to facilitate preclinical to clinical translation. These new tools can help researchers better understand the nature and mechanisms of these targeted therapies to help achieve a more favorable therapeutic window. This review delves into the world of systems pharmacology modeling of ADCs, discussing various modeling efforts in the field thus far."
+    },
+    {
+      "rank": 7,
+      "score": 5.442798137664795,
+      "search_type": "bm25_mesh_terms",
+      "vector_id": 2362088,
+      "chunk_id": 2362088,
+      "pmid": "38364957",
+      "title": "An account on the history of pharmacology in Spain.",
+      "year": 2024,
+      "journal": "Pharmacological research",
+      "authors": [
+        "Ana María Aldea-Perona",
+        "Jesús Flórez Beledo",
+        "Jesús Frías Iniesta",
+        "Antonio G García",
+        "Juan Tamargo",
+        "Francisco Zaragozá"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Spain",
+          "is_major": false,
+          "ui": "D013030"
+        },
+        {
+          "term": "Europe",
+          "is_major": false,
+          "ui": "D005060"
+        },
+        {
+          "term": "Pharmacology, Clinical",
+          "is_major": true,
+          "ui": "D010601"
+        },
+        {
+          "term": "Pharmacogenetics",
+          "is_major": false,
+          "ui": "D010597"
+        },
+        {
+          "term": "Pharmacology",
+          "is_major": true,
+          "ui": "D010600"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "Cardiovascular pharmacology",
+          "is_major": false
+        },
+        {
+          "term": "Clinical pharmacology",
+          "is_major": false
+        },
+        {
+          "term": "History",
+          "is_major": false
+        },
+        {
+          "term": "Neuropsichopharmacology",
+          "is_major": false
+        },
+        {
+          "term": "Pharmacology in Spain",
+          "is_major": false
+        }
+      ],
+      "citations": [
+        {
+          "type": "ErratumIn",
+          "source": "Pharmacol Res. 2024 Jul;205:107240. doi: 10.1016/j.phrs.2024.107240",
+          "pmid": "38821766"
+        }
+      ],
+      "text": "Here we present an account on the history of pharmacology in Spain. Pharmacology as an independent science in Europe began with the creation of university chairs. Of particular relevance was the appointment in 1872 of Osswald Shmiedeberg as chairman of an Institute of Pharmacology at the University of Strassbourg, Germany. Teófilo Hernando pioneered in Spain the new emerging pharmacology at the beginning of the XX Century. He made a posdoctoral stay in the laboratory of Schmiedeberg, working on digitalis. In 1912 he won the chair of \"Materia Médica y Arte de Recetar\" at \"Universidad Central of Madrid\" (today, \"Universidad Complutense de Madrid\", UCM). He soon decided to transform such subject to the emerging modern pharmacology, with the teaching of experimental pharmacology in the third course of medical studies and clinical therapeutics (today clinical pharmacology) in the sixth course. This was the status of pharmacology in 1920, supporting the view that Hernando was a pioneer of clinical pharmacology. However, the Spanish Civil War and the II Word War interropted this division of preclinical and clinical pharmacology; only in the 1980's was clinical pharmacolgy partially developed in Spain. From a scientific point of view, Hernando directly trained various young pharmacologists that extended the new science to various Spanish universities. Some of his direct disciples were Benigno Lorenzo Velázquez, Francisco García Valdecasas, Rafael Méndez, Tomás Alday, Gabriel Sánchez de la Cuesta, Dámaso Gutiérrez or Ramón P é rez-Cirera. One of the central research subject was the analysis of the effects of digitalis on the cat and frog heart. In the initiation of the 1970 s pharmacologists trained by those Hernando's students grew throughout various universities and the \"Consejo Superior de Investigaciones Científicas\" (CSIC). And hence, in 1972 the \"Sociedad Española de Farmacología\" (SEF) emerged. Later on, in the 1990's the \"Sociedad Española de Farmacología Clínica (SEFC) also emerged. The relationship between the two societies is still weak. Out of the vast scope of the pharmacological sciences, Spanish pharmacologists have made relevant contributions in two areas namely, neuropsychopharmacology and cardiovacular pharmacology. Nonetheless, in other areas such as smooth muscle, gastroenterology, pharmacogenetics and hepatic toxicity, Spanish pharmacologists have also made relevant contributions. A succint description of such contributions is made. Finally, some hints on perspectives for the further development of preclinical and clinical pharmacology in Spain, are offered."
+    },
+    {
+      "rank": 8,
+      "score": 5.442798137664795,
+      "search_type": "bm25_mesh_terms",
+      "vector_id": 2276583,
+      "chunk_id": 2276583,
+      "pmid": "38447748",
+      "title": "Beyond lectures and practical courses: Teaching pharmacology using imaginative pedagogical tools.",
+      "year": 2024,
+      "journal": "Pharmacological research",
+      "authors": [
+        "J E Baños",
+        "E Blanco-Reina",
+        "I Bellido-Estévez",
+        "F Bosch",
+        "M R Cabello",
+        "I Cambra-Badii",
+        "J P De la Cruz",
+        "P D'Ocón",
+        "M D Ivorra",
+        "M Ferrándiz",
+        "J A González-Correa",
+        "E Martín-Montañez",
+        "F Martos",
+        "J Pavía",
+        "E Sanz"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Learning",
+          "is_major": false,
+          "ui": "D007858"
+        },
+        {
+          "term": "Pharmacology, Clinical",
+          "is_major": true,
+          "ui": "D010601"
+        },
+        {
+          "term": "Health Personnel",
+          "is_major": false,
+          "ui": "D006282"
+        },
+        {
+          "term": "Pharmacology",
+          "is_major": true,
+          "ui": "D010600"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "European Prescribing Exam",
+          "is_major": false
+        },
+        {
+          "term": "Innovative pedagogical methods",
+          "is_major": false
+        },
+        {
+          "term": "Learning based on social service",
+          "is_major": false
+        },
+        {
+          "term": "Objective Structured Clinical Evaluation",
+          "is_major": false
+        },
+        {
+          "term": "Pharmacology learning networks",
+          "is_major": false
+        },
+        {
+          "term": "Popular movies",
+          "is_major": false
+        },
+        {
+          "term": "Social pharmacology",
+          "is_major": false
+        },
+        {
+          "term": "Television medical series",
+          "is_major": false
+        },
+        {
+          "term": "Virtual reality",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Pharmacology has broadened its scope considerably in recent decades. Initially, it was of interest to chemists, doctors and pharmacists. In recent years, however, it has been incorporated into the teaching of biologists, molecular biologists, biotechnologists, chemical engineers and many health professionals, among others. Traditional teaching methods, such as lectures or laboratory work, have been superseded by the use of new pedagogical approaches to enable a better conceptualization and understanding of the discipline. In this article, we present several new methods that have been used in Spanish universities. Firstly, we describe a teaching network that has allowed the sharing of pedagogical innovations in Spanish universities. A European experience to improve prescribing safety is described in detail. The use of popular films and medical TV series in biomedical students shows how these audiovisual resources can be helpful in teaching pharmacology. The use of virtual worlds is detailed to introduce this new approach to teaching. The increasingly important area of the social aspects of pharmacology is also considered in two sections, one devoted to social pharmacology and the other to the use of learning based on social services to improve understanding of this important area. Finally, the use of Objective Structured Clinical Evaluation in pharmacology allows to know how this approach can help to better evaluate clinical pharmacology students. In conclusion, this article allows to know new pedagogical methods resources used in some Spanish universities that may help to improve the teaching of pharmacology."
+    },
+    {
+      "rank": 9,
+      "score": 5.3158674240112305,
+      "search_type": "bm25_mesh_terms",
+      "vector_id": 4758564,
+      "chunk_id": 4758564,
+      "pmid": "35437719",
+      "title": "Applications of Quantitative System Pharmacology Modeling to Model-Informed Drug Development.",
+      "year": 2022,
+      "journal": "Methods in molecular biology (Clifton, N.J.)",
+      "authors": [
+        "Andy Z X Zhu",
+        "Mark Rogge"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Drug Development",
+          "is_major": false,
+          "ui": "D000076722"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Models, Biological",
+          "is_major": true,
+          "ui": "D008954"
+        },
+        {
+          "term": "Network Pharmacology",
+          "is_major": false,
+          "ui": "D000091484"
+        },
+        {
+          "term": "Pharmacology",
+          "is_major": true,
+          "ui": "D010600"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "Drug development",
+          "is_major": false
+        },
+        {
+          "term": "Drug discovery",
+          "is_major": false
+        },
+        {
+          "term": "Modeling",
+          "is_major": false
+        },
+        {
+          "term": "QSP",
+          "is_major": false
+        },
+        {
+          "term": "Workflow",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Significant advances in analytical technologies have dramatically improved our ability to deconvolute disease biology at molecular, cellular, and tissue levels. Quantitative system pharmacology (QSP) modeling is a computational framework to systematically integrate pharmaceutical properties of a drug candidate with scientific understanding of that deeper disease etiology, target expression, genetic variability, and human physiological processes, thus enabling more insightful drug development decisions related to efficacy and safety. In this chapter, we discuss the key attributes of QSP models in comparison to traditional models. We discuss a recommended four-step process to construct a QSP model to support drug development decisions. A number of illustrative QSP examples related to high-value drug development questions and decisions impacting target identification, lead generation and optimization, first in human studies, and clinical dose and schedule optimization are covered in the chapter. The future perspectives of QSP in the context of potential regulatory acceptance are also discussed."
+    },
+    {
+      "rank": 10,
+      "score": 5.3158674240112305,
+      "search_type": "bm25_mesh_terms",
+      "vector_id": 2747757,
+      "chunk_id": 2747757,
+      "pmid": "37852906",
+      "title": "Development of bispecific T cell engagers: harnessing quantitative systems pharmacology.",
+      "year": 2023,
+      "journal": "Trends in pharmacological sciences",
+      "authors": [
+        "Timothy Qi",
+        "Xiaozhi Liao",
+        "Yanguang Cao"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "T-Lymphocytes",
+          "is_major": false,
+          "ui": "D013601"
+        },
+        {
+          "term": "Network Pharmacology",
+          "is_major": false,
+          "ui": "D000091484"
+        },
+        {
+          "term": "Immunotherapy",
+          "is_major": false,
+          "ui": "D007167"
+        },
+        {
+          "term": "Pharmacology",
+          "is_major": true,
+          "ui": "D010600"
+        },
+        {
+          "term": "Antibodies, Bispecific",
+          "is_major": true,
+          "ui": "D018033"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "bispecific T cell engager",
+          "is_major": false
+        },
+        {
+          "term": "cancer",
+          "is_major": false
+        },
+        {
+          "term": "quantitative systems pharmacology",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Bispecific T cell engagers (bsTCEs) have emerged as a promising class of cancer immunotherapy. Several bsTCEs have achieved marketing approval; dozens more are under clinical investigation. However, the clinical development of bsTCEs remains rife with challenges, including nuanced pharmacology, limited translatability of preclinical findings, frequent on-target toxicity, and convoluted dosing regimens. In this opinion article we present a distinct perspective on how quantitative systems pharmacology (QSP) can serve as a powerful tool for overcoming these obstacles. Recent advances in QSP modeling have empowered developers of bsTCEs to gain a deeper understanding of their context-dependent pharmacology, bridge gaps in experimental data, guide first-in-human (FIH) dose selection, design dosing regimens with expanded therapeutic windows, and improve long-term treatment outcomes. We use recent case studies to exemplify the potential of QSP techniques to support future bsTCE development."
+    }
+  ]
+}

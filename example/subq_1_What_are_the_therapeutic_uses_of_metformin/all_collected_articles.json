@@ -1,0 +1,1988 @@
+[
+  {
+    "rank": 1,
+    "score": 0.755286605937338,
+    "search_type": "hybrid",
+    "vector_id": 4022752,
+    "chunk_id": 4022752,
+    "pmid": "36336804",
+    "title": "Metformin: A Promising Antidiabetic Medication for Cancer Treatment.",
+    "year": 2023,
+    "journal": "Current drug targets",
+    "authors": [
+      "Wei Mu",
+      "Yunyun Jiang",
+      "Guoqiang Liang",
+      "Yue Feng",
+      "Falin Qu"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": true,
+        "ui": "D003924"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Neoplasms",
+        "is_major": true,
+        "ui": "D009369"
+      },
+      {
+        "term": "Apoptosis",
+        "is_major": false,
+        "ui": "D017209"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "AMPK complex",
+        "is_major": false
+      },
+      {
+        "term": "ICIs",
+        "is_major": false
+      },
+      {
+        "term": "Metformin",
+        "is_major": false
+      },
+      {
+        "term": "ROS",
+        "is_major": false
+      },
+      {
+        "term": "Sps",
+        "is_major": false
+      },
+      {
+        "term": "anticancer",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Metformin is a widely used drug in patients with type 2 diabetes mellitus. Metformin inhibits hepatic gluconeogenesis and increases glucose utilization in peripheral tissues. In recent years, several studies have shown that metformin is a potential therapeutic agent against cancer, alone or combined with other anticancer treatments. Metformin mainly activates the AMPK complex and regulates intracellular energy status, inhibiting the mitochondrial respiratory chain complex I and reducing the production of reactive oxygen species. Other anticancer targets of metformin are specific transcription factors inhibiting cell proliferation, promoting apoptosis and reducing drug resistance. In addition, metformin modulates tumor cells' response to anticancer treatments, favoring the activity of T cells. In diabetic patients, metformin reduces the occurrence of cancer and improves the prognosis and efficacy of anticancer treatments. In this review, we provided a comprehensive perspective of metformin as an anticancer drug.",
+    "relevance_score": 7,
+    "relevance_justification": "This article explores the potential use of metformin for cancer treatment, which is a significant therapeutic use beyond its primary indication for diabetes. It examines the mechanisms and effects in cancer settings, making it relevant to the broader question of therapeutic uses of metformin."
+  },
+  {
+    "rank": 2,
+    "score": 0.7,
+    "search_type": "hybrid",
+    "vector_id": 3021998,
+    "chunk_id": 3021998,
+    "pmid": "37567440",
+    "title": "Extensive therapeutic effects, underlying molecular mechanisms and disease treatment prediction of Metformin: a systematic review.",
+    "year": 2024,
+    "journal": "Translational research : the journal of laboratory and clinical medicine",
+    "authors": [
+      "Yifei Geng",
+      "Zhen Wang",
+      "Xiaoyu Xu",
+      "Xiao Sun",
+      "Xi Dong",
+      "Yun Luo",
+      "Xiaobo Sun"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": true,
+        "ui": "D003924"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Gastrointestinal Microbiome",
+        "is_major": true,
+        "ui": "D000069196"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Derivative",
+        "is_major": false
+      },
+      {
+        "term": "Disease",
+        "is_major": false
+      },
+      {
+        "term": "Metformin",
+        "is_major": false
+      },
+      {
+        "term": "Molecular mechanism",
+        "is_major": false
+      },
+      {
+        "term": "Systematic pharmacology",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Metformin (Met), a first-line management for type 2 diabetes mellitus, has been expansively employed and studied with results indicating its therapeutic potential extending beyond glycemic control. Beyond its established role, this therapeutic drug demonstrates a broad spectrum of action encompassing over 60 disorders, encompassing metabolic conditions, inflammatory disorders, carcinomas, cardiovascular diseases, and cerebrovascular pathologies. There is clear evidence of Met's action targeting specific nodes in the molecular pathways of these diseases and, intriguingly, interactions with the intestinal microbiota and epigenetic processes have been explored. Furthermore, novel Met derivatives with structural modifications tailored to diverse diseases have been synthesized and assessed. This manuscript proffers a comprehensive thematic review of the diseases amenable to Met treatment, elucidates their molecular mechanisms, and employs informatics technology to prospect future therapeutic applications of Met. These data and insights gleaned considerably contribute to enriching our understanding and appreciation of Met's far-reaching clinical potential and therapeutic applicability.",
+    "relevance_score": 9,
+    "relevance_justification": "This systematic review provides a comprehensive overview of the therapeutic uses of metformin across various conditions, not limited to diabetes. It covers a wide range of disorders and examines molecular mechanisms, making it highly relevant to the research question."
+  },
+  {
+    "rank": 3,
+    "score": 0.6972278361449852,
+    "search_type": "hybrid",
+    "vector_id": 1282831,
+    "chunk_id": 1282831,
+    "pmid": "39595655",
+    "title": "Anti-Diabetic Therapies and Cancer: From Bench to Bedside.",
+    "year": 2024,
+    "journal": "Biomolecules",
+    "authors": [
+      "Dimitris Kounatidis",
+      "Natalia G Vallianou",
+      "Irene Karampela",
+      "Eleni Rebelos",
+      "Marina Kouveletsou",
+      "Vasileios Dalopoulos",
+      "Petros Koufopoulos",
+      "Evanthia Diakoumopoulou",
+      "Nikolaos Tentolouris",
+      "Maria Dalamaga"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Neoplasms",
+        "is_major": true,
+        "ui": "D009369"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": true,
+        "ui": "D007004"
+      },
+      {
+        "term": "Animals",
+        "is_major": false,
+        "ui": "D000818"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Diabetes Mellitus",
+        "is_major": false,
+        "ui": "D003920"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "GLP-1 receptor agonists",
+        "is_major": false
+      },
+      {
+        "term": "SGLT-2 inhibitors",
+        "is_major": false
+      },
+      {
+        "term": "cancer",
+        "is_major": false
+      },
+      {
+        "term": "chronic low-grade inflammation",
+        "is_major": false
+      },
+      {
+        "term": "diabetes mellitus",
+        "is_major": false
+      },
+      {
+        "term": "doxorubicin-induced cardiomyopathy",
+        "is_major": false
+      },
+      {
+        "term": "immune check point inhibitors",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "tirzepatide",
+        "is_major": false
+      },
+      {
+        "term": "tumor microenvironment",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Diabetes mellitus (DM) is a significant risk factor for various cancers, with the impact of anti-diabetic therapies on cancer progression differing across malignancies. Among these therapies, metformin has gained attention for its potential anti-cancer effects, primarily through modulation of the AMP-activated protein kinase/mammalian target of rapamycin (AMPK/mTOR) pathway and the induction of autophagy. Beyond metformin, other conventional anti-diabetic treatments, such as insulin, sulfonylureas (SUs), pioglitazone, and dipeptidyl peptidase-4 (DPP-4) inhibitors, have also been examined for their roles in cancer biology, though findings are often inconclusive. More recently, novel medications, like glucagon-like peptide-1 (GLP-1) receptor agonists, dual GLP-1/glucose-dependent insulinotropic polypeptide (GIP) agonists, and sodium-glucose co-transporter-2 (SGLT-2) inhibitors, have revolutionized DM management by not only improving glycemic control but also delivering substantial cardiovascular and renal benefits. Given their diverse metabolic effects, including anti-obesogenic properties, these novel agents are now under meticulous investigation for their potential influence on tumorigenesis and cancer advancement. This review aims to offer a comprehensive exploration of the evolving landscape of glucose-lowering treatments and their implications in cancer biology. It critically evaluates experimental evidence surrounding the molecular mechanisms by which these medications may modulate oncogenic signaling pathways and reshape the tumor microenvironment (TME). Furthermore, it assesses translational research and clinical trials to gauge the practical relevance of these findings in real-world settings. Finally, it explores the potential of anti-diabetic medications as adjuncts in cancer treatment, particularly in enhancing the efficacy of chemotherapy, minimizing toxicity, and addressing resistance within the framework of immunotherapy.",
+    "relevance_score": 6,
+    "relevance_justification": "While the focus is on anti-diabetic therapies including metformin in the context of cancer, the article provides insights into metformin's extended therapeutic potential in non-diabetes areas, albeit primarily cancer-focused."
+  },
+  {
+    "rank": 4,
+    "score": 0.696650141727691,
+    "search_type": "hybrid",
+    "vector_id": 8388234,
+    "chunk_id": 8388234,
+    "pmid": "31114366",
+    "title": "The beneficial effects of metformin on cancer prevention and therapy: a comprehensive review of recent advances.",
+    "year": 2019,
+    "journal": "Cancer management and research",
+    "authors": [
+      "Pouya Saraei",
+      "Ilia Asadi",
+      "Muhammad Azam Kakar",
+      "Nasroallah Moradi-Kor"
+    ],
+    "mesh_terms": [],
+    "keywords": [
+      {
+        "term": "AMPK pathway",
+        "is_major": false
+      },
+      {
+        "term": "LKB1",
+        "is_major": false
+      },
+      {
+        "term": "mTOR pathway",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "prevention and treatment of cancer",
+        "is_major": false
+      },
+      {
+        "term": "radiation",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Metformin is a widely used drug in today's prescriptions by physicians due to its specific effects in treating and curing type II diabetes. Diabetes is a common disease that may occur throughout human life, and can increase the likelihood of the occurrence of various types of cancer, such as colon, rectum, pancreas and liver cancers, compared to non-diabetic patients. Metformin inhibits mTOR activity by activating ATM (ataxia telangiectasia mutated) and LKB1 (liver kinase B1) and then adenosine monophosphate-activated kinase (AMPK), and thus prevents protein synthesis and cell growth. Metformin can activate p53 by activating AMPK and thereby ultimately stop the cell cycle. Given the potential of metformin in the treatment of cancer, it can be used in radiotherapy, chemotherapy and to improve the response to treatment in androgen derivatives (ADT), and also, according to available evidence, metformin can also be used to prevent various types of cancers. Generally, metformin can: 1) reduce the incidence of cancers, 2) reduce the mortality from cancers, 3) increase the response to treatment in cancer cells when using radiotherapy and chemotherapy, 4) optimize tumor movement and reduce the malignancy, 5) reduce the likelihood of relapse, and 6) reduce the damaging effects of ADT. Therefore, this drug can be used as a complementary therapeutic agent for cancer treatment and prevention. In this review, we have summarized the data from various experimental and clinical studies and highlight the possible potential effects of metformin on cancer therapeutic responses.",
+    "relevance_score": 6,
+    "relevance_justification": "The article reviews metformin's role in cancer prevention and therapy, which is a secondary therapeutic use, but largely focuses on oncology, not covering the full spectrum of metformin's therapeutic uses."
+  },
+  {
+    "rank": 6,
+    "score": 0.6708325057122898,
+    "search_type": "hybrid",
+    "vector_id": 1135855,
+    "chunk_id": 1135855,
+    "pmid": "39770443",
+    "title": "Diverse Applications of the Anti-Diabetic Drug Metformin in Treating Human Disease.",
+    "year": 2024,
+    "journal": "Pharmaceuticals (Basel, Switzerland)",
+    "authors": [
+      "Chris-Tiann Roberts",
+      "Nicole Raabe",
+      "Lara Wiegand",
+      "Ashraf Kadar Shahib",
+      "Mojgan Rastegar"
+    ],
+    "mesh_terms": [],
+    "keywords": [
+      {
+        "term": "drug repurposing",
+        "is_major": false
+      },
+      {
+        "term": "epigenetics",
+        "is_major": false
+      },
+      {
+        "term": "human disease",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "type 2 diabetes",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Metformin is a commonly used drug for treating type 2 diabetes. Metformin is an inexpensive drug with low/no side effects and is well tolerated in human patients of different ages. Recent therapeutic strategies for human disease have considered the benefits of drug repurposing. This includes the use of the anti-diabetic drug metformin. Accordingly, the anti-inflammatory, anti-cancer, anti-viral, neuroprotective, and cardioprotective potentials of metformin have deemed it a suitable candidate for treating a plethora of human diseases. As results from preclinical studies using cellular and animal model systems appear promising, clinical trials with metformin in the context of non-diabetes-related illnesses have been started. Here, we aim to provide a comprehensive overview of the therapeutic potential of metformin in different animal models of human disease and its suggested relationship to epigenetics and ailments with epigenetic components.",
+    "relevance_score": 8,
+    "relevance_justification": "This article addresses various potential applications of metformin, such as anti-inflammatory, anti-cancer, and neuroprotective effects. It provides a broader perspective on repurposing metformin beyond diabetes treatment."
+  },
+  {
+    "rank": 10,
+    "score": 0.5549692890575117,
+    "search_type": "hybrid",
+    "vector_id": 2160792,
+    "chunk_id": 2160792,
+    "pmid": "38555742",
+    "title": "Metformin as anticancer agent and adjuvant in cancer combination therapy: Current progress and future prospect.",
+    "year": 2024,
+    "journal": "Translational oncology",
+    "authors": [
+      "Lin Zhu",
+      "Kaiqing Yang",
+      "Zhe Ren",
+      "Detao Yin",
+      "Yubing Zhou"
+    ],
+    "mesh_terms": [],
+    "keywords": [
+      {
+        "term": "Cancer",
+        "is_major": false
+      },
+      {
+        "term": "Chemotherapy",
+        "is_major": false
+      },
+      {
+        "term": "Combination therapy",
+        "is_major": false
+      },
+      {
+        "term": "Immunotherapy",
+        "is_major": false
+      },
+      {
+        "term": "Metformin",
+        "is_major": false
+      },
+      {
+        "term": "Radiotherapy",
+        "is_major": false
+      },
+      {
+        "term": "Targeted therapy",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Metformin, as the preferred antihyperglycemic drug for type 2 diabetes, has been found to have a significant effect in inhibiting tumor growth in recent years. However, metformin alone in cancer treatment has the disadvantages of high dose concentrations and few targeted cancer types. Increasing studies have confirmed that metformin can be used in combination with conventional anticancer therapy to obtain more promising clinical benefits, which is expected to be rapidly transformed and applied in clinic. Some combination therapy strategies including metformin combined with chemotherapy, radiotherapy, targeted therapy and immunotherapy have been proven to have more significant antitumor effects and longer survival time than monotherapy. In this review, we summarize the synergistic antitumor effects and mechanisms of metformin in combination with other current conventional anticancer therapies. In addition, we update the research progress and the latest prospect of the metformin-combined application in the cancer treatment. This work could provide more evidence and future direction for the clinical application of metformin in antitumor.",
+    "relevance_score": 7,
+    "relevance_justification": "This article highlights metformin's function as an anticancer agent and as an adjunct in combination therapy, which is useful information for understanding its therapeutic spectrum beyond diabetes."
+  },
+  {
+    "rank": 5,
+    "score": 6.341721534729004,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 3934454,
+    "chunk_id": 3934454,
+    "pmid": "36474458",
+    "title": "Metformin: new applications for an old drug.",
+    "year": 2023,
+    "journal": "Journal of basic and clinical physiology and pharmacology",
+    "authors": [
+      "Amirreza Naseri",
+      "Sarvin Sanaie",
+      "Sina Hamzehzadeh",
+      "Sepideh Seyedi-Sahebari",
+      "Mohammad-Salar Hosseini",
+      "Elnaz Gholipour-Khalili",
+      "Ehsan Rezazadeh-Gavgani",
+      "Reza Majidazar",
+      "Parya Seraji",
+      "Sara Daneshvar",
+      "Erfan Rezazadeh-Gavgani"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Female",
+        "is_major": false,
+        "ui": "D005260"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "COVID-19",
+        "is_major": false,
+        "ui": "D000086382"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": true,
+        "ui": "D007004"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Neoplasms",
+        "is_major": false,
+        "ui": "D009369"
+      },
+      {
+        "term": "Off-Label Use",
+        "is_major": true,
+        "ui": "D056687"
+      },
+      {
+        "term": "Cardiovascular Diseases",
+        "is_major": false,
+        "ui": "D002318"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "biguanides",
+        "is_major": false
+      },
+      {
+        "term": "central nervous system diseases",
+        "is_major": false
+      },
+      {
+        "term": "communicable diseases",
+        "is_major": false
+      },
+      {
+        "term": "liver diseases",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "neoplasms",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Metformin is a biguanide, evolved as one of the most widely used medicines. The applications of this component include but are not limited to reducing blood glucose, weight loss, and polycystic ovary syndrome. Studies about other probable indications have emerged, indicating that this agent can also be utilized for other purposes. In this review, applications of metformin are noticed based on the current evidence. Metformin commonly is used as an off-label drug in non-alcoholic fatty liver disease (NAFLD), but it worsens inflammation and should not be used for this purpose, according to the latest research. Metformin decreased the risk of death in patients with liver cirrhosis. It is an effective agent in the prevention and improvement of survival in patients suffering hepatocellular carcinoma. There is evidence of the beneficial effects of metformin in colorectal cancer, early-stage prostate cancer, breast cancer, urothelial cancer, blood cancer, melanoma, and bone cancer, suggesting metformin as a potent anti-tumor agent. Metformin shows neuroprotective effects and provides a potential therapeutic benefit for mild cognitive impairment and Alzheimer's disease (AD). It also has been shown to improve mental function and reduce the incidence of dementia. Another condition that metformin has been shown to slow the progression of is Duchenne muscular dystrophy. Regarding infectious diseases, tuberculosis (TB) and coronavirus disease (COVID-19) are among the conditions suggested to be affected by metformin. The beneficial effects of metformin in cardiovascular diseases were also reported in the literature. Concerning renal function, studies showed that daily oral administration of metformin could ameliorate kidney fibrosis and normalize kidney structure and function. This study reviewed the clinical and preclinical evidence about the possible benefits of metformin based on recent studies. Numerous questions like whether these probable indications of metformin can be observed in non-diabetics, need to be described by future basic experiments and clinical studies.",
+    "relevance_score": 6,
+    "relevance_justification": "This review identifies multiple potential applications of metformin such as in cancer, liver diseases, and cognitive impairments, making it relevant to exploring diverse therapeutic uses outside diabetes."
+  },
+  {
+    "rank": 1,
+    "score": 0.8156887401319974,
+    "search_type": "hybrid",
+    "vector_id": 4249446,
+    "chunk_id": 4249446,
+    "pmid": "36052760",
+    "title": "Protective effects of metformin in various cardiovascular diseases: Clinical evidence and AMPK-dependent mechanisms.",
+    "year": 2022,
+    "journal": "Journal of cellular and molecular medicine",
+    "authors": [
+      "Yizhi Bu",
+      "Mei Peng",
+      "Xinyi Tang",
+      "Xu Xu",
+      "Yifeng Wu",
+      "Alex F Chen",
+      "Xiaoping Yang"
+    ],
+    "mesh_terms": [
+      {
+        "term": "AMP-Activated Protein Kinases",
+        "is_major": false,
+        "ui": "D055372"
+      },
+      {
+        "term": "Cardiovascular Diseases",
+        "is_major": true,
+        "ui": "D002318"
+      },
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": true,
+        "ui": "D003924"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "cardiovascular diseases",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "protective effect",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Metformin, a well-known AMPK agonist, has been widely used as the first-line drug for treating type 2 diabetes. There had been a significant concern regarding the use of metformin in people with cardiovascular diseases (CVDs) due to its potential lactic acidosis side effect. Currently growing clinical and preclinical evidence indicates that metformin can lower the incidence of cardiovascular events in diabetic patients or even non-diabetic patients beyond its hypoglycaemic effects. The underlying mechanisms of cardiovascular benefits of metformin largely involve the cellular energy sensor, AMPK, of which activation corrects endothelial dysfunction, reduces oxidative stress and improves inflammatory response. In this minireview, we summarized the clinical evidence of metformin benefits in several widely studied cardiovascular diseases, such as atherosclerosis, ischaemic/reperfusion injury and arrhythmia, both in patients with or without diabetes. Meanwhile, we highlighted the potential AMPK-dependent mechanisms in in vitro and/or in vivo models.",
+    "relevance_score": 9,
+    "relevance_justification": "The article discusses the cardiovascular benefits of metformin, highlighting its therapeutic uses beyond diabetes management, particularly in cardiovascular diseases. This is highly relevant to the research question on therapeutic uses."
+  },
+  {
+    "rank": 2,
+    "score": 0.8088490635313986,
+    "search_type": "hybrid",
+    "vector_id": 12533573,
+    "chunk_id": 12533573,
+    "pmid": "25762117",
+    "title": "Novel therapeutic targets of metformin: metabolic syndrome and cardiovascular disease.",
+    "year": 2015,
+    "journal": "Expert opinion on therapeutic targets",
+    "authors": [
+      "Ricardo Ladeiras-Lopes",
+      "Ricardo Fontes-Carvalho",
+      "Nuno Bettencourt",
+      "Francisco Sampaio",
+      "Vasco Gama",
+      "Adelino Leite-Moreira"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Animals",
+        "is_major": false,
+        "ui": "D000818"
+      },
+      {
+        "term": "Cardiovascular Diseases",
+        "is_major": false,
+        "ui": "D002318"
+      },
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": false,
+        "ui": "D003924"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Insulin Resistance",
+        "is_major": false,
+        "ui": "D007333"
+      },
+      {
+        "term": "Metabolic Syndrome",
+        "is_major": false,
+        "ui": "D024821"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Molecular Targeted Therapy",
+        "is_major": false,
+        "ui": "D058990"
+      },
+      {
+        "term": "Myocardial Reperfusion Injury",
+        "is_major": false,
+        "ui": "D015428"
+      },
+      {
+        "term": "Prediabetic State",
+        "is_major": false,
+        "ui": "D011236"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "cardiovascular disease",
+        "is_major": false
+      },
+      {
+        "term": "heart failure",
+        "is_major": false
+      },
+      {
+        "term": "ischemic heart disease",
+        "is_major": false
+      },
+      {
+        "term": "metabolic syndrome",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "INTRODUCTION: Metformin is a widely used drug in the treatment of type 2 diabetes mellitus (T2DM). However, it is becoming an attractive drug to manage patients with pre-diabetes and to possibly prevent cardiac remodeling and fibrosis and heart failure.\n\nAREAS COVERED: In this review, we highlight the novel therapeutic targets of metformin with a special emphasis on cardiovascular disease. We discuss its key mechanisms of action and new signaling pathways that could partially account for its effect. Furthermore, metformin's role in the management of patients with metabolic syndrome is debated, emphasizing its potential to prevent diabetic heart disease. On the other hand, intense research is ongoing to clarify if metformin will be a future drug to target ischemia-reperfusion injury in the setting of myocardial ischemia.\n\nEXPERT OPINION: In the following years, one should look carefully at basic science results to successfully design and conduct clinical trials, emphasizing patients without full-blown T2DM, but who otherwise might have increased insulin resistance. Topics such as the prevention of cardiac fibrosis and heart failure with preserved ejection fraction, the attenuation of ischemia-reperfusion injury on an acute coronary syndrome and the post-myocardial infarction left ventricle remodeling surely deserve a special interest and should be faced as potential therapeutic targets for metformin.",
+    "relevance_score": 9,
+    "relevance_justification": "This article highlights novel therapeutic targets of metformin, with an emphasis on cardiovascular disease and metabolic syndrome. It discusses mechanisms and potential uses in heart disease, making it highly relevant."
+  },
+  {
+    "rank": 3,
+    "score": 0.80822901380623,
+    "search_type": "hybrid",
+    "vector_id": 8418809,
+    "chunk_id": 8418809,
+    "pmid": "31029144",
+    "title": "Metformin in patients with and without diabetes: a paradigm shift in cardiovascular disease management.",
+    "year": 2019,
+    "journal": "Cardiovascular diabetology",
+    "authors": [
+      "Fei Luo",
+      "Avash Das",
+      "Jingfei Chen",
+      "Panyun Wu",
+      "Xiangping Li",
+      "Zhenfei Fang"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Animals",
+        "is_major": false,
+        "ui": "D000818"
+      },
+      {
+        "term": "Biomarkers",
+        "is_major": false,
+        "ui": "D015415"
+      },
+      {
+        "term": "Blood Glucose",
+        "is_major": false,
+        "ui": "D001786"
+      },
+      {
+        "term": "Cardiovascular Agents",
+        "is_major": false,
+        "ui": "D002317"
+      },
+      {
+        "term": "Cardiovascular Diseases",
+        "is_major": false,
+        "ui": "D002318"
+      },
+      {
+        "term": "Clinical Decision-Making",
+        "is_major": false,
+        "ui": "D000066491"
+      },
+      {
+        "term": "Diabetes Mellitus",
+        "is_major": false,
+        "ui": "D003920"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Risk Factors",
+        "is_major": false,
+        "ui": "D012307"
+      },
+      {
+        "term": "Treatment Outcome",
+        "is_major": false,
+        "ui": "D016896"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Atherosclerosis",
+        "is_major": false
+      },
+      {
+        "term": "Coronary artery disease",
+        "is_major": false
+      },
+      {
+        "term": "Diabetes mellitus",
+        "is_major": false
+      },
+      {
+        "term": "Metformin",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "With an increasing global burden of coronary artery disease (CAD), early detection and timely management of risk factors are crucial to reduce morbidity and mortality in such patients. Diabetes mellitus (DM) is considered an independent risk factor for the development of CAD. Metformin, an anti-diabetic drug, has been shown in pre-clinical and clinical studies, to lower the cardiovascular events in the DM patients. Growing evidence suggests that metformin has a protective effect on coronary artery beyond its hypoglycemic effects. Given its global availability, route of administration and cost, metformin provides an alternate/additional therapeutic option for primary and secondary prevention of CAD in DM and non-diabetics alike. Future prospective cohort-based studies and randomized clinical trials are needed to identify 'at-risk' population who may potentially benefit from metformin.",
+    "relevance_score": 8,
+    "relevance_justification": "The article covers the promising cardiovascular benefits of metformin in both diabetic and non-diabetic patients, supporting its broader therapeutic use, which is relevant to the research question."
+  },
+  {
+    "rank": 4,
+    "score": 0.7220759973056714,
+    "search_type": "hybrid",
+    "vector_id": 4270197,
+    "chunk_id": 4270197,
+    "pmid": "36077136",
+    "title": "From Diabetes to Atherosclerosis: Potential of Metformin for Management of Cardiovascular Disease.",
+    "year": 2022,
+    "journal": "International journal of molecular sciences",
+    "authors": [
+      "Anastasia V Poznyak",
+      "Larisa Litvinova",
+      "Paolo Poggio",
+      "Donato Moschetta",
+      "Vasily Nikolaevich Sukhorukov",
+      "Alexander N Orekhov"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Atherosclerosis",
+        "is_major": true,
+        "ui": "D050197"
+      },
+      {
+        "term": "Cardiovascular Diseases",
+        "is_major": true,
+        "ui": "D002318"
+      },
+      {
+        "term": "Diabetes Mellitus",
+        "is_major": true,
+        "ui": "D003920"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Oxidative Stress",
+        "is_major": false,
+        "ui": "D018384"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "atherosclerosis",
+        "is_major": false
+      },
+      {
+        "term": "cardiovascular disease",
+        "is_major": false
+      },
+      {
+        "term": "lipid",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Atherosclerosis is a common cause of cardiovascular disease, which, in turn, is often fatal. Today, we know a lot about the pathogenesis of atherosclerosis. However, the main knowledge is that the disease is extremely complicated. The development of atherosclerosis is associated with more than one molecular mechanism, each making a significant contribution. These mechanisms include endothelial dysfunction, inflammation, mitochondrial dysfunction, oxidative stress, and lipid metabolism disorders. This complexity inevitably leads to difficulties in treatment and prevention. One of the possible therapeutic options for atherosclerosis and its consequences may be metformin, which has already proven itself in the treatment of diabetes. Both diabetes and atherosclerosis are complex metabolic diseases, the pathogenesis of which involves many different mechanisms, including those common to both diseases. This makes metformin a suitable candidate for investigating its efficacy in cardiovascular disease. In this review, we highlight aspects such as the mechanisms of action and targets of metformin, in addition to summarizing the available data from clinical trials on the effective reduction of cardiovascular risks.",
+    "relevance_score": 8,
+    "relevance_justification": "Discusses metformin's potential in managing cardiovascular diseases like atherosclerosis, highlighting its therapeutic applications beyond diabetes, aligning well with the research focus."
+  },
+  {
+    "rank": 5,
+    "score": 0.7213414430415032,
+    "search_type": "hybrid",
+    "vector_id": 13948934,
+    "chunk_id": 13948934,
+    "pmid": "24007890",
+    "title": "Evaluating the potential benefits of metformin in patients with cardiovascular disease and heart failure.",
+    "year": 2013,
+    "journal": "The Consultant pharmacist : the journal of the American Society of Consultant Pharmacists",
+    "authors": [
+      "Daryn K Norwood",
+      "Allison A Chilipko",
+      "Shril M Amin",
+      "David Macharia",
+      "Kimberly L Still"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Cardiovascular Diseases",
+        "is_major": false,
+        "ui": "D002318"
+      },
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": false,
+        "ui": "D003924"
+      },
+      {
+        "term": "Heart Failure",
+        "is_major": false,
+        "ui": "D006333"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Randomized Controlled Trials as Topic",
+        "is_major": false,
+        "ui": "D016032"
+      }
+    ],
+    "keywords": [],
+    "citations": [],
+    "text": "OBJECTIVE: To examine the safety and potential benefits of metformin in diabetic patients with cardiovascular (CV) disease and heart failure (HF).\n\nDATA SOURCES: Searches of MEDLINE and International Pharmaceutical Abstracts (1966-August 2012). Search terms included metformin, lactic acidosis, cardiovascular disease, diabetes, heart failure, and clinical trials.\n\nSTUDY SELECTION AND DATA EXTRACTION: Published studies and case reports that were chosen for inclusion evaluated the benefit and safety of metformin in patients with diabetes with CV disease and HF.\n\nDATA SYNTHESIS: Case reports and retrospective trials have failed to illustrate an association with metformin use and lactic acidosis in patients with HF or cardiac disease. In fact, the evidence has suggested that these patients may actually benefit from the use of metformin.\n\nCONCLUSIONS: Results from recent trials have evaluated the potential clinical advantages of metformin in patients with cardiac disease and HF. These studies have illustrated a favorable morbidity and mortality profile for the use of metformin in these patient populations. While large prospective trials are still needed to display conclusive evidence, the recent clinical trials suggest a benefit in areas where metformin use has previously been discouraged.",
+    "relevance_score": 7,
+    "relevance_justification": "Evaluates metformin's safety and benefits in cardiovascular disease and heart failure, which supports its therapeutic uses but focuses on safety aspects more than therapeutic innovations."
+  },
+  {
+    "rank": 6,
+    "score": 0.6748254883374358,
+    "search_type": "hybrid",
+    "vector_id": 12126809,
+    "chunk_id": 12126809,
+    "pmid": "26271457",
+    "title": "The pleiotropic effects of metformin: time for prospective studies.",
+    "year": 2015,
+    "journal": "Cardiovascular diabetology",
+    "authors": [
+      "Daniel I Bromage",
+      "Derek M Yellon"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Animals",
+        "is_major": false,
+        "ui": "D000818"
+      },
+      {
+        "term": "Biomarkers",
+        "is_major": false,
+        "ui": "D015415"
+      },
+      {
+        "term": "Blood Glucose",
+        "is_major": false,
+        "ui": "D001786"
+      },
+      {
+        "term": "Cardiovascular Diseases",
+        "is_major": false,
+        "ui": "D002318"
+      },
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": false,
+        "ui": "D003924"
+      },
+      {
+        "term": "Evidence-Based Medicine",
+        "is_major": false,
+        "ui": "D019317"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Risk Assessment",
+        "is_major": false,
+        "ui": "D018570"
+      },
+      {
+        "term": "Risk Factors",
+        "is_major": false,
+        "ui": "D012307"
+      },
+      {
+        "term": "Treatment Outcome",
+        "is_major": false,
+        "ui": "D016896"
+      }
+    ],
+    "keywords": [],
+    "citations": [],
+    "text": "The global prevalence of diabetes has risen to epidemic proportions and the trend is predicted to continue. The consequent burden of cardiovascular morbidity and mortality is a major public health concern and new treatments are required to mitigate the deleterious effects of cardiovascular disease in diabetic patients. Ischaemia-reperfusion injury is well known to exacerbate the harmful effects of acute myocardial infarction and subsequent therapeutic reperfusion, and several mechanical and pharmacological approaches to mitigating this injury have been investigated. Metformin, which is cheap, relatively safe and widely used in type 2 diabetes, is one such pharmacotherapy with considerable pre-clinical evidence for cardioprotective utility beyond its glucose-lowering effect. However, despite convincing basic evidence its translation to clinical application has largely been limited to studies of cardiovascular risk. There are several barriers to prospective randomized assessment in the context of acute myocardial infarction, not least the accessibility and already widespread use of metformin among patients with type 2 diabetes at high risk of cardiovascular events. In the place of class 1 evidence, well-designed prospective cohort studies of the potential pleiotropic utility of metformin in cardiovascular disease, and particularly its benefit in ischaemia-reperfusion injury, are needed. Given the availability of metformin worldwide, this is particularly true in low- and middle-income countries where the optimal therapy for acute myocardial infarction, primary percutaneous coronary intervention, may not be available, and instead patients are managed with thrombolysis. As this is less effective, metformin as an adjunct to thrombolysis (or PPCI) could represent an effective, cheap means of cardioprotection with global relevance.",
+    "relevance_score": 6,
+    "relevance_justification": "Explores metformin's pleiotropic effects, including cardioprotection, but lacks direct clinical relevance to therapeutic applications outside the context of diabetes."
+  },
+  {
+    "rank": 7,
+    "score": 0.661943123202881,
+    "search_type": "hybrid",
+    "vector_id": 5137470,
+    "chunk_id": 5137470,
+    "pmid": "35032305",
+    "title": "Association of Metformin with the Mortality and Incidence of Cardiovascular Events in Patients with Pre-existing Cardiovascular Diseases.",
+    "year": 2022,
+    "journal": "Drugs",
+    "authors": [
+      "Tian Li",
+      "Rui Providencia",
+      "Wenhua Jiang",
+      "Manling Liu",
+      "Lu Yu",
+      "Chunhu Gu",
+      "Alex Chia Yu Chang",
+      "Heng Ma"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Cardiovascular Diseases",
+        "is_major": true,
+        "ui": "D002318"
+      },
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": true,
+        "ui": "D003924"
+      },
+      {
+        "term": "Heart Failure",
+        "is_major": true,
+        "ui": "D006333"
+      },
+      {
+        "term": "Incidence",
+        "is_major": false,
+        "ui": "D015994"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Myocardial Infarction",
+        "is_major": true,
+        "ui": "D009203"
+      }
+    ],
+    "keywords": [],
+    "citations": [],
+    "text": "INTRODUCTION: Whether metformin reduces all-cause cardiovascular mortality and the incidence of cardiovascular events in patients with pre-existing cardiovascular diseases (CVD) remains inconclusive. Some randomised controlled trials (RCTs) and cohort studies have shown that metformin is associated with an increased risk of mortality and cardiovascular events.\n\nMETHODS: We conducted a pooling synthesis to assess the effects of metformin in all-cause cardiovascular mortality and incidence of cardiovascular events in patients with CVD. Studies published up to October 2021 in PubMed or Embase with a registration in PROSPERO (CRD42020189905) were collected. Both RCT and cohort studies were included. Hazard ratios (HR) with 95% CI were pooled across various trials using the random-effects model.\n\nRESULTS: This study enrolled 35 published studies (in 14 publications) for qualitative synthesis and identified 33 studies (published in 26 publications) for quantitative analysis. We analysed a total of 61,704 patients, among them 58,271 patients were used to calculate all-cause mortality while 12,814 patients were used to calculate cardiovascular mortality. Compared with non-metformin control, metformin usage is associated with a reduction in all-cause mortality (HR: 0.90; 95% CI 0.83, 0.98; p = 0.01), cardiovascular mortality (HR: 0.89; 95% CI 0.85, 0.94; p < 0.0001), incidence of coronary revascularisation (HR: 0.79; 95% CI 0.64, 0.98; p = 0.03), and heart failure (HR: 0.90; 95% CI 0.87, 0.94; p < 0.0001) in patients with pre-existing cardiovascular diseases.\n\nCONCLUSION: Metformin use is associated with a reduction in all-cause mortality, cardiovascular mortality, incidence of coronary revascularisation, and heart failure in patients with CVD; however, metformin usage was not associated with reduction in the incidence of myocardial infarction, angina, or stroke.",
+    "relevance_score": 7,
+    "relevance_justification": "Analyzes the association of metformin with mortality and cardiovascular events in patients with pre-existing conditions, contributing to its therapeutic overview."
+  },
+  {
+    "rank": 8,
+    "score": 0.6591742537682828,
+    "search_type": "hybrid",
+    "vector_id": 3492509,
+    "chunk_id": 3492509,
+    "pmid": "36972373",
+    "title": "Metformin: evidence from preclinical and clinical studies for potential novel applications in cardiovascular disease.",
+    "year": 2023,
+    "journal": "Expert opinion on investigational drugs",
+    "authors": [
+      "Adel Dihoum",
+      "Graham Rena",
+      "Ewan R Pearson",
+      "Chim C Lang",
+      "Ify R Mordi"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": true,
+        "ui": "D003924"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Cardiovascular Diseases",
+        "is_major": true,
+        "ui": "D002318"
+      },
+      {
+        "term": "Sodium-Glucose Transporter 2 Inhibitors",
+        "is_major": true,
+        "ui": "D000077203"
+      },
+      {
+        "term": "Randomized Controlled Trials as Topic",
+        "is_major": false,
+        "ui": "D016032"
+      },
+      {
+        "term": "Glucagon-Like Peptide-1 Receptor Agonists",
+        "is_major": false,
+        "ui": "D000097789"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Cardiovascular disease",
+        "is_major": false
+      },
+      {
+        "term": "diabetes",
+        "is_major": false
+      },
+      {
+        "term": "heart failure",
+        "is_major": false
+      },
+      {
+        "term": "inflammation",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "INTRODUCTION: For a long time, metformin has been the first-line treatment for glycemic control in type 2 diabetes; however, the results of recent cardiovascular outcome trials of sodium-glucose co-transporter 2 inhibitors and glucagon-like peptide 1 receptor agonists have caused many to question metformin's position in the guidelines. Although there are several plausible mechanisms by which metformin might have beneficial cardiovascular effects, for example, its anti-inflammatory effects and metabolic properties, and numerous observational data suggesting improved cardiovascular outcomes with metformin use, the main randomized clinical trial data for metformin was published over 20 years ago. Nevertheless, the overwhelming majority of participants in contemporary type 2 diabetes trials were prescribed metformin.\n\nAREAS COVERED: In this review, we will summarize the potential mechanisms of cardiovascular benefit with metformin, before discussing clinical data in individuals with or without diabetes.\n\nEXPERT OPINION: Metformin may have some cardiovascular benefit in patients with and without diabetes, however the majority of clinical trials were small and are before the use SGLT2 inhibitors and GLP1-RAs. Larger contemporary randomized trials, with metformin evaluating its cardiovascular benefit are warranted.",
+    "relevance_score": 7,
+    "relevance_justification": "Discusses both preclinical and clinical evidence supporting metformin's cardiovascular applications, indicating potential novel therapeutic uses."
+  },
+  {
+    "rank": 9,
+    "score": 0.6330232876299713,
+    "search_type": "hybrid",
+    "vector_id": 8139225,
+    "chunk_id": 8139225,
+    "pmid": "31362743",
+    "title": "Effect of metformin on all-cause and cardiovascular mortality in patients with coronary artery diseases: a systematic review and an updated meta-analysis.",
+    "year": 2019,
+    "journal": "Cardiovascular diabetology",
+    "authors": [
+      "Yechen Han",
+      "Hongzhi Xie",
+      "Yongtai Liu",
+      "Peng Gao",
+      "Xufei Yang",
+      "Zhujun Shen"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Adult",
+        "is_major": false,
+        "ui": "D000328"
+      },
+      {
+        "term": "Aged",
+        "is_major": false,
+        "ui": "D000368"
+      },
+      {
+        "term": "Biomarkers",
+        "is_major": false,
+        "ui": "D015415"
+      },
+      {
+        "term": "Blood Glucose",
+        "is_major": false,
+        "ui": "D001786"
+      },
+      {
+        "term": "Cause of Death",
+        "is_major": false,
+        "ui": "D002423"
+      },
+      {
+        "term": "Coronary Artery Disease",
+        "is_major": false,
+        "ui": "D003324"
+      },
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": false,
+        "ui": "D003924"
+      },
+      {
+        "term": "Female",
+        "is_major": false,
+        "ui": "D005260"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Incidence",
+        "is_major": false,
+        "ui": "D015994"
+      },
+      {
+        "term": "Male",
+        "is_major": false,
+        "ui": "D008297"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Middle Aged",
+        "is_major": false,
+        "ui": "D008875"
+      },
+      {
+        "term": "Risk Assessment",
+        "is_major": false,
+        "ui": "D018570"
+      },
+      {
+        "term": "Risk Factors",
+        "is_major": false,
+        "ui": "D012307"
+      },
+      {
+        "term": "Time Factors",
+        "is_major": false,
+        "ui": "D013997"
+      },
+      {
+        "term": "Treatment Outcome",
+        "is_major": false,
+        "ui": "D016896"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Coronary artery disease",
+        "is_major": false
+      },
+      {
+        "term": "Diabetes",
+        "is_major": false
+      },
+      {
+        "term": "Meta-analysis",
+        "is_major": false
+      },
+      {
+        "term": "Systemic review",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "BACKGROUND: Metformin is the most widely prescribed drug to lower glucose and has a definitive effect on the cardiovascular system. The goal of this systematic review and meta-analysis is to assess the effects of metformin on mortality and cardiac function among patients with coronary artery disease (CAD).\n\nMETHODS: Relevant studies reported before October 2018 was retrieved from databases including PubMed, EMBASE, Cochrane Library and Web of Science. Hazard ratio (HR) was calculated to evaluate the all-cause mortality, cardiovascular mortality and incidence of cardiovascular events (CV events), to figure out the level of left ventricular ejection fraction (LVEF), creatine kinase MB (CK-MB), type B natriuretic peptide (BNP) and to compare the average level of low density lipoprotein (LDL).\n\nRESULTS: In this meta-analysis were included 40 studies comprising 1,066,408 patients. The cardiovascular mortality, all-cause mortality and incidence of CV events were lowered to adjusted HR (aHR) = 0.81, aHR = 0.67 and aHR = 0. 83 respectively after the patients with CAD were given metformin. Subgroup analysis showed that metformin reduced all-cause mortality in myocardial infarction (MI) (aHR = 0.79) and heart failure (HF) patients (aHR = 0.84), the incidence of CV events in HF (aHR = 0.83) and type II diabetes mellitus (T2DM) patients (aHR = 0.83), but had no significant effect on MI (aHR = 0.87) and non-T2DM patients (aHR = 0.92). Metformin is superior to sulphonylurea (aHR = 0.81) in effects on lowering the incidence of CV events and in effects on patients who don't use medication. The CK-MB level in the metformin group was lower than that in the control group standard mean difference (SMD) = - 0.11). There was no significant evidence that metformin altered LVEF (MD = 2.91), BNP (MD = - 0.02) and LDL (MD = - 0.08).\n\nCONCLUSION: Metformin reduces cardiovascular mortality, all-cause mortality and CV events in CAD patients. For MI patients and CAD patients without T2DM, metformin has no significant effect of reducing the incidence of CV events. Metformin has a better effect of reducing the incidence of CV events than sulfonylureas.",
+    "relevance_score": 8,
+    "relevance_justification": "Provides a systemic review and meta-analysis of metformin's effects on mortality in coronary artery diseases, showcasing its therapeutic potential and relevance."
+  },
+  {
+    "rank": 10,
+    "score": 0.6142906005531495,
+    "search_type": "hybrid",
+    "vector_id": 3213615,
+    "chunk_id": 3213615,
+    "pmid": "37307806",
+    "title": "Cardiovascular Protection by Metformin: Latest Advances in Basic and Clinical Research.",
+    "year": 2023,
+    "journal": "Cardiology",
+    "authors": [
+      "Jason Z Li",
+      "Y Robert Li"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": true,
+        "ui": "D003924"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Heart Failure",
+        "is_major": true,
+        "ui": "D006333"
+      },
+      {
+        "term": "Atherosclerosis",
+        "is_major": true,
+        "ui": "D050197"
+      },
+      {
+        "term": "Glucose",
+        "is_major": false,
+        "ui": "D005947"
+      },
+      {
+        "term": "Cardiovascular Diseases",
+        "is_major": true,
+        "ui": "D002318"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Atherosclerosis",
+        "is_major": false
+      },
+      {
+        "term": "Cardiovascular protection",
+        "is_major": false
+      },
+      {
+        "term": "Heart failure",
+        "is_major": false
+      },
+      {
+        "term": "Metformin",
+        "is_major": false
+      },
+      {
+        "term": "Myocardial injury",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "BACKGROUND: Metformin is among the most frequently prescribed antidiabetic drugs worldwide and remains the first-line therapy for type 2 diabetes due to its well-established glucose-lowering efficacy and favorable safety profile.\n\nSUMMARY: Studies over the past decades show that metformin also exerts many other beneficial effects independent of its glucose-lowering effect both in experimental models and human subjects. Among them, the most notable is its cardiovascular protective effect. In this review, we discuss the latest cutting-edge research findings on metformin's cardiovascular protection from both preclinical studies and randomized clinical trials. We focus on describing novel basic research discoveries reported in influential journals and discussing their implications in the context of latest clinical trial findings related to common cardiovascular and metabolic disorders, including atherosclerosis and dyslipidemia, myocardial injury, and heart failure.\n\nKEY MESSAGES: While substantial preclinical and clinical evidence suggests metformin as a potential cardiovascular protectant, large-scale randomized controlled trials are warranted to establish its clinical efficacy in treating patients with atherosclerotic cardiovascular disease and heart failure.",
+    "relevance_score": 8,
+    "relevance_justification": "Focuses specifically on cardiovascular protection offered by metformin, reviewing both basic and clinical research, making it highly relevant."
+  },
+  {
+    "rank": 1,
+    "score": 0.8225974196666681,
+    "search_type": "hybrid",
+    "vector_id": 2105330,
+    "chunk_id": 2105330,
+    "pmid": "38612893",
+    "title": "Metformin: A Dual-Role Player in Cancer Treatment and Prevention.",
+    "year": 2024,
+    "journal": "International journal of molecular sciences",
+    "authors": [
+      "Mariam Ahmed Galal",
+      "Mohammed Al-Rimawi",
+      "Abdurrahman Hajeer",
+      "Huda Dahman",
+      "Samhar Alouch",
+      "Ahmad Aljada"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": true,
+        "ui": "D003924"
+      },
+      {
+        "term": "Cell Proliferation",
+        "is_major": false,
+        "ui": "D049109"
+      },
+      {
+        "term": "Chemotherapy, Adjuvant",
+        "is_major": false,
+        "ui": "D017024"
+      },
+      {
+        "term": "Hyperplasia",
+        "is_major": false,
+        "ui": "D006965"
+      },
+      {
+        "term": "Neoplasms",
+        "is_major": true,
+        "ui": "D009369"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "adjuvant therapy",
+        "is_major": false
+      },
+      {
+        "term": "anticancer",
+        "is_major": false
+      },
+      {
+        "term": "cancer",
+        "is_major": false
+      },
+      {
+        "term": "chemoresistance",
+        "is_major": false
+      },
+      {
+        "term": "clinical trials",
+        "is_major": false
+      },
+      {
+        "term": "mechanisms of action",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Cancer continues to pose a significant global health challenge, as evidenced by the increasing incidence rates and high mortality rates, despite the advancements made in chemotherapy. The emergence of chemoresistance further complicates the effectiveness of treatment. However, there is growing interest in the potential of metformin, a commonly prescribed drug for type 2 diabetes mellitus (T2DM), as an adjuvant chemotherapy agent in cancer treatment. Although the precise mechanism of action of metformin in cancer therapy is not fully understood, it has been found to have pleiotropic effects, including the modulation of metabolic pathways, reduction in inflammation, and the regulation of cellular proliferation. This comprehensive review examines the anticancer properties of metformin, drawing insights from various studies conducted in vitro and in vivo, as well as from clinical trials and observational research. This review discusses the mechanisms of action involving both insulin-dependent and independent pathways, shedding light on the potential of metformin as a therapeutic agent for different types of cancer. Despite promising findings, there are challenges that need to be addressed, such as conflicting outcomes in clinical trials, considerations regarding dosing, and the development of resistance. These challenges highlight the importance of further research to fully harness the therapeutic potential of metformin in cancer treatment. The aims of this review are to provide a contemporary understanding of the role of metformin in cancer therapy and identify areas for future exploration in the pursuit of effective anticancer strategies.",
+    "relevance_score": 8,
+    "relevance_justification": "The article discusses metformin's role in cancer treatment and prevention, highlighting its potential use as an adjuvant chemotherapy agent. This aligns with the therapeutic uses of metformin beyond diabetes management, making it relevant to the research question."
+  },
+  {
+    "rank": 2,
+    "score": 0.7620538334057052,
+    "search_type": "hybrid",
+    "vector_id": 10281972,
+    "chunk_id": 10281972,
+    "pmid": "28703040",
+    "title": "Metformin: Adjunct Therapy in Cancer Treatment.",
+    "year": 2017,
+    "journal": "Workplace health & safety",
+    "authors": [
+      "Ann R Lurati"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Female",
+        "is_major": false,
+        "ui": "D005260"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Middle Aged",
+        "is_major": false,
+        "ui": "D008875"
+      },
+      {
+        "term": "Neoplasms",
+        "is_major": false,
+        "ui": "D009369"
+      },
+      {
+        "term": "Off-Label Use",
+        "is_major": true,
+        "ui": "D056687"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "cancer",
+        "is_major": false
+      },
+      {
+        "term": "glucose",
+        "is_major": false
+      },
+      {
+        "term": "glycolysis",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "mitochrondria",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "An employee undergoing cancer treatment was prescribed metformin, a medication used in the treatment of type 2 diabetes and currently used as adjunct therapy for cancer. Metformin's anti-inflammatory properties inhibit tumor growth. It is speculated that cancer cells develop a metabolism that enhances aerobic glycolysis, which promotes cell growth and increases the need for glucose. Metformin decreases insulin in the blood, which decreases the amount of glucose available to cancer cells, thus starving the cells of nutrition, resulting in cell death. This case study explores the role of metformin in cancer treatment, with implications for occupational health nurses.",
+    "relevance_score": 7,
+    "relevance_justification": "This article examines metformin as an adjunct therapy in cancer treatment, specifically its role in tumor metabolism and glucose availability, which are pertinent to its therapeutic applications beyond diabetes."
+  },
+  {
+    "rank": 3,
+    "score": 0.7618433986348796,
+    "search_type": "hybrid",
+    "vector_id": 1991950,
+    "chunk_id": 1991950,
+    "pmid": "38785784",
+    "title": "Metformin: From Diabetes to Cancer-Unveiling Molecular Mechanisms and Therapeutic Strategies.",
+    "year": 2024,
+    "journal": "Biology",
+    "authors": [
+      "Emilia Amengual-Cladera",
+      "Pere Miquel Morla-Barcelo",
+      "Andrea Morán-Costoya",
+      "Jorge Sastre-Serra",
+      "Daniel Gabriel Pons",
+      "Adamo Valle",
+      "Pilar Roca",
+      "Mercedes Nadal-Serrano"
+    ],
+    "mesh_terms": [],
+    "keywords": [
+      {
+        "term": "breast cancer",
+        "is_major": false
+      },
+      {
+        "term": "colorectal cancer",
+        "is_major": false
+      },
+      {
+        "term": "diabetes",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "mitochondria",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Metformin, a widely used anti-diabetic drug, has garnered attention for its potential in cancer management, particularly in breast and colorectal cancer. It is established that metformin reduces mitochondrial respiration, but its specific molecular targets within mitochondria vary. Proposed mechanisms include inhibiting mitochondrial respiratory chain Complex I and/or Complex IV, and mitochondrial glycerophosphate dehydrogenase, among others. These actions lead to cellular energy deficits, redox state changes, and several molecular changes that reduce hyperglycemia in type 2 diabetic patients. Clinical evidence supports metformin's role in cancer prevention in type 2 diabetes mellitus patients. Moreover, in these patients with breast and colorectal cancer, metformin consumption leads to an improvement in survival outcomes and prognosis. The synergistic effects of metformin with chemotherapy and immunotherapy highlights its potential as an adjunctive therapy for breast and colorectal cancer. However, nuanced findings underscore the need for further research and stratification by molecular subtype, particularly for breast cancer. This comprehensive review integrates metformin-related findings from epidemiological, clinical, and preclinical studies in breast and colorectal cancer. Here, we discuss current research addressed to define metformin's bioavailability and efficacy, exploring novel metformin-based compounds and drug delivery systems, including derivatives targeting mitochondria, combination therapies, and novel nanoformulations, showing enhanced anticancer effects.",
+    "relevance_score": 8,
+    "relevance_justification": "Focusing on metformin's applications in cancer management, the article delves into molecular mechanisms and therapeutic strategies. This is highly relevant to understanding the broader therapeutic uses of metformin."
+  },
+  {
+    "rank": 4,
+    "score": 0.709772692180096,
+    "search_type": "hybrid",
+    "vector_id": 2160792,
+    "chunk_id": 2160792,
+    "pmid": "38555742",
+    "title": "Metformin as anticancer agent and adjuvant in cancer combination therapy: Current progress and future prospect.",
+    "year": 2024,
+    "journal": "Translational oncology",
+    "authors": [
+      "Lin Zhu",
+      "Kaiqing Yang",
+      "Zhe Ren",
+      "Detao Yin",
+      "Yubing Zhou"
+    ],
+    "mesh_terms": [],
+    "keywords": [
+      {
+        "term": "Cancer",
+        "is_major": false
+      },
+      {
+        "term": "Chemotherapy",
+        "is_major": false
+      },
+      {
+        "term": "Combination therapy",
+        "is_major": false
+      },
+      {
+        "term": "Immunotherapy",
+        "is_major": false
+      },
+      {
+        "term": "Metformin",
+        "is_major": false
+      },
+      {
+        "term": "Radiotherapy",
+        "is_major": false
+      },
+      {
+        "term": "Targeted therapy",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Metformin, as the preferred antihyperglycemic drug for type 2 diabetes, has been found to have a significant effect in inhibiting tumor growth in recent years. However, metformin alone in cancer treatment has the disadvantages of high dose concentrations and few targeted cancer types. Increasing studies have confirmed that metformin can be used in combination with conventional anticancer therapy to obtain more promising clinical benefits, which is expected to be rapidly transformed and applied in clinic. Some combination therapy strategies including metformin combined with chemotherapy, radiotherapy, targeted therapy and immunotherapy have been proven to have more significant antitumor effects and longer survival time than monotherapy. In this review, we summarize the synergistic antitumor effects and mechanisms of metformin in combination with other current conventional anticancer therapies. In addition, we update the research progress and the latest prospect of the metformin-combined application in the cancer treatment. This work could provide more evidence and future direction for the clinical application of metformin in antitumor.",
+    "relevance_score": 8,
+    "relevance_justification": "The article reviews the use of metformin in combination with other cancer therapies, offering insights into its adjunctive potential, which is a significant aspect of its therapeutic applications."
+  },
+  {
+    "rank": 5,
+    "score": 0.6941878668584267,
+    "search_type": "hybrid",
+    "vector_id": 9764989,
+    "chunk_id": 9764989,
+    "pmid": "29342230",
+    "title": "Metformin as an anti-cancer agent: actions and mechanisms targeting cancer stem cells.",
+    "year": 2018,
+    "journal": "Acta biochimica et biophysica Sinica",
+    "authors": [
+      "Nipun Saini",
+      "Xiaohe Yang"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Antineoplastic Agents",
+        "is_major": false,
+        "ui": "D000970"
+      },
+      {
+        "term": "Cell Differentiation",
+        "is_major": false,
+        "ui": "D002454"
+      },
+      {
+        "term": "Cell Proliferation",
+        "is_major": false,
+        "ui": "D049109"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Models, Biological",
+        "is_major": false,
+        "ui": "D008954"
+      },
+      {
+        "term": "Neoplasms",
+        "is_major": false,
+        "ui": "D009369"
+      },
+      {
+        "term": "Neoplastic Stem Cells",
+        "is_major": false,
+        "ui": "D014411"
+      },
+      {
+        "term": "Signal Transduction",
+        "is_major": false,
+        "ui": "D015398"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "AMPK/mTOR pathway",
+        "is_major": false
+      },
+      {
+        "term": "anti-cancer drugs",
+        "is_major": false
+      },
+      {
+        "term": "cancer stem cells",
+        "is_major": false
+      },
+      {
+        "term": "cellular metabolism",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Metformin, a first line medication for type II diabetes, initially entered the spotlight as a promising anti-cancer agent due to epidemiologic reports that found reduced cancer risk and improved clinical outcomes in diabetic patients taking metformin. To uncover the anti-cancer mechanisms of metformin, preclinical studies determined that metformin impairs cellular metabolism and suppresses oncogenic signaling pathways, including receptor tyrosine kinase, PI3K/Akt, and mTOR pathways. Recently, the anti-cancer potential of metformin has gained increasing interest due to its inhibitory effects on cancer stem cells (CSCs), which are associated with tumor metastasis, drug resistance, and relapse. Studies using various cancer models, including breast, pancreatic, prostate, and colon, have demonstrated the potency of metformin in attenuating CSCs through the targeting of specific pathways involved in cell differentiation, renewal, metastasis, and metabolism. In this review, we provide a comprehensive overview of the anti-cancer actions and mechanisms of metformin, including the regulation of CSCs and related pathways. We also discuss the potential anti-cancer applications of metformin as mono- or combination therapies.",
+    "relevance_score": 8,
+    "relevance_justification": "Discussing metformin's potential in targeting cancer stem cells and relevant signaling pathways, the article adds depth to the understanding of metformin's therapeutic use in cancer."
+  },
+  {
+    "rank": 6,
+    "score": 0.6937588803737522,
+    "search_type": "hybrid",
+    "vector_id": 8388234,
+    "chunk_id": 8388234,
+    "pmid": "31114366",
+    "title": "The beneficial effects of metformin on cancer prevention and therapy: a comprehensive review of recent advances.",
+    "year": 2019,
+    "journal": "Cancer management and research",
+    "authors": [
+      "Pouya Saraei",
+      "Ilia Asadi",
+      "Muhammad Azam Kakar",
+      "Nasroallah Moradi-Kor"
+    ],
+    "mesh_terms": [],
+    "keywords": [
+      {
+        "term": "AMPK pathway",
+        "is_major": false
+      },
+      {
+        "term": "LKB1",
+        "is_major": false
+      },
+      {
+        "term": "mTOR pathway",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "prevention and treatment of cancer",
+        "is_major": false
+      },
+      {
+        "term": "radiation",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Metformin is a widely used drug in today's prescriptions by physicians due to its specific effects in treating and curing type II diabetes. Diabetes is a common disease that may occur throughout human life, and can increase the likelihood of the occurrence of various types of cancer, such as colon, rectum, pancreas and liver cancers, compared to non-diabetic patients. Metformin inhibits mTOR activity by activating ATM (ataxia telangiectasia mutated) and LKB1 (liver kinase B1) and then adenosine monophosphate-activated kinase (AMPK), and thus prevents protein synthesis and cell growth. Metformin can activate p53 by activating AMPK and thereby ultimately stop the cell cycle. Given the potential of metformin in the treatment of cancer, it can be used in radiotherapy, chemotherapy and to improve the response to treatment in androgen derivatives (ADT), and also, according to available evidence, metformin can also be used to prevent various types of cancers. Generally, metformin can: 1) reduce the incidence of cancers, 2) reduce the mortality from cancers, 3) increase the response to treatment in cancer cells when using radiotherapy and chemotherapy, 4) optimize tumor movement and reduce the malignancy, 5) reduce the likelihood of relapse, and 6) reduce the damaging effects of ADT. Therefore, this drug can be used as a complementary therapeutic agent for cancer treatment and prevention. In this review, we have summarized the data from various experimental and clinical studies and highlight the possible potential effects of metformin on cancer therapeutic responses.",
+    "relevance_score": 8,
+    "relevance_justification": "This article provides a comprehensive review of metformin's effects in cancer prevention and therapy, placing it within the context of its therapeutic broader scope."
+  },
+  {
+    "rank": 7,
+    "score": 0.6757650590071653,
+    "search_type": "hybrid",
+    "vector_id": 5710310,
+    "chunk_id": 5710310,
+    "pmid": "34311387",
+    "title": "Role of metformin and other metabolic drugs in the prevention and therapy of endocrine-related cancers.",
+    "year": 2021,
+    "journal": "Current opinion in pharmacology",
+    "authors": [
+      "Antonio J León-González",
+      "Juan M Jiménez-Vacas",
+      "Antonio C Fuentes-Fayos",
+      "Andre Sarmento-Cabral",
+      "Aura D Herrera-Martínez",
+      "Manuel D Gahete",
+      "Raúl M Luque"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": false,
+        "ui": "D003924"
+      },
+      {
+        "term": "Endocrine Gland Neoplasms",
+        "is_major": true,
+        "ui": "D004701"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": true,
+        "ui": "D007004"
+      },
+      {
+        "term": "Insulin",
+        "is_major": false,
+        "ui": "D007328"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Tumor Microenvironment",
+        "is_major": false,
+        "ui": "D059016"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Cancer",
+        "is_major": false
+      },
+      {
+        "term": "insulin",
+        "is_major": false
+      },
+      {
+        "term": "metabolic syndrome",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "statins",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Metabolic syndrome is associated with chronic diseases, including type 2 diabetes, cardiovascular diseases, and cancer. This review summarizes the current evidence on the antitumor effects of some relevant drugs currently used to manage metabolic-related pathologies (i.e. insulin and its analogs, metformin, statins, etc.) in endocrine-related cancers including breast cancer, prostate cancer, pituitary cancer, ovarian cancer, and neuroendocrine neoplasms. Although current evidence does not provide a clear antitumor role of several of these drugs, metformin seems to be a promising chemopreventive and adjuvant agent in cancer management, modulating tumor cell metabolism and microenvironment, through both AMP-activated protein kinase-dependent and -independent mechanisms. Moreover, its combination with statins might represent a promising therapeutic strategy to tackle the progression of endocrine-related tumors. However, further studies are needed to endorse the clinical relevance of these drugs as adjuvants for cancer chemotherapy.",
+    "relevance_score": 7,
+    "relevance_justification": "The article discusses metformin's role in preventing and treating endocrine-related cancers, highlighting its therapeutic potential beyond diabetes treatment."
+  },
+  {
+    "rank": 8,
+    "score": 0.641864905355436,
+    "search_type": "hybrid",
+    "vector_id": 1282831,
+    "chunk_id": 1282831,
+    "pmid": "39595655",
+    "title": "Anti-Diabetic Therapies and Cancer: From Bench to Bedside.",
+    "year": 2024,
+    "journal": "Biomolecules",
+    "authors": [
+      "Dimitris Kounatidis",
+      "Natalia G Vallianou",
+      "Irene Karampela",
+      "Eleni Rebelos",
+      "Marina Kouveletsou",
+      "Vasileios Dalopoulos",
+      "Petros Koufopoulos",
+      "Evanthia Diakoumopoulou",
+      "Nikolaos Tentolouris",
+      "Maria Dalamaga"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Neoplasms",
+        "is_major": true,
+        "ui": "D009369"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": true,
+        "ui": "D007004"
+      },
+      {
+        "term": "Animals",
+        "is_major": false,
+        "ui": "D000818"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Diabetes Mellitus",
+        "is_major": false,
+        "ui": "D003920"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "GLP-1 receptor agonists",
+        "is_major": false
+      },
+      {
+        "term": "SGLT-2 inhibitors",
+        "is_major": false
+      },
+      {
+        "term": "cancer",
+        "is_major": false
+      },
+      {
+        "term": "chronic low-grade inflammation",
+        "is_major": false
+      },
+      {
+        "term": "diabetes mellitus",
+        "is_major": false
+      },
+      {
+        "term": "doxorubicin-induced cardiomyopathy",
+        "is_major": false
+      },
+      {
+        "term": "immune check point inhibitors",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "tirzepatide",
+        "is_major": false
+      },
+      {
+        "term": "tumor microenvironment",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Diabetes mellitus (DM) is a significant risk factor for various cancers, with the impact of anti-diabetic therapies on cancer progression differing across malignancies. Among these therapies, metformin has gained attention for its potential anti-cancer effects, primarily through modulation of the AMP-activated protein kinase/mammalian target of rapamycin (AMPK/mTOR) pathway and the induction of autophagy. Beyond metformin, other conventional anti-diabetic treatments, such as insulin, sulfonylureas (SUs), pioglitazone, and dipeptidyl peptidase-4 (DPP-4) inhibitors, have also been examined for their roles in cancer biology, though findings are often inconclusive. More recently, novel medications, like glucagon-like peptide-1 (GLP-1) receptor agonists, dual GLP-1/glucose-dependent insulinotropic polypeptide (GIP) agonists, and sodium-glucose co-transporter-2 (SGLT-2) inhibitors, have revolutionized DM management by not only improving glycemic control but also delivering substantial cardiovascular and renal benefits. Given their diverse metabolic effects, including anti-obesogenic properties, these novel agents are now under meticulous investigation for their potential influence on tumorigenesis and cancer advancement. This review aims to offer a comprehensive exploration of the evolving landscape of glucose-lowering treatments and their implications in cancer biology. It critically evaluates experimental evidence surrounding the molecular mechanisms by which these medications may modulate oncogenic signaling pathways and reshape the tumor microenvironment (TME). Furthermore, it assesses translational research and clinical trials to gauge the practical relevance of these findings in real-world settings. Finally, it explores the potential of anti-diabetic medications as adjuncts in cancer treatment, particularly in enhancing the efficacy of chemotherapy, minimizing toxicity, and addressing resistance within the framework of immunotherapy.",
+    "relevance_score": 7,
+    "relevance_justification": "The review explores the impact of anti-diabetic therapies, including metformin, on cancer progression, which ties into its broader therapeutic use."
+  },
+  {
+    "rank": 9,
+    "score": 0.6321845978360136,
+    "search_type": "hybrid",
+    "vector_id": 4921984,
+    "chunk_id": 4921984,
+    "pmid": "35267644",
+    "title": "Metformin Intervention-A Panacea for Cancer Treatment?",
+    "year": 2022,
+    "journal": "Cancers",
+    "authors": [
+      "Angelika Buczyńska",
+      "Iwona Sidorkiewicz",
+      "Adam Jacek Krętowski",
+      "Monika Zbucka-Krętowska",
+      "Agnieszka Adamska"
+    ],
+    "mesh_terms": [],
+    "keywords": [
+      {
+        "term": "anti-cancer",
+        "is_major": false
+      },
+      {
+        "term": "antioxidant",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "The molecular mechanism of action and the individual influence of various metabolic pathways related to metformin intervention are under current investigation. The available data suggest that metformin provides many advantages, exhibiting anti-inflammatory, anti-cancer, hepatoprotective, cardioprotective, otoprotective, radioprotective, and radio-sensitizing properties depending on cellular context. This literature review was undertaken to provide novel evidence concerning metformin intervention, with a particular emphasis on cancer treatment and prevention. Undoubtedly, the pleiotropic actions associated with metformin include inhibiting inflammatory processes, increasing antioxidant capacity, and improving glycemic and lipid metabolism. Consequently, these characteristics make metformin an attractive medicament to translate to human trials, the promising results of which were also summarized in this review.",
+    "relevance_score": 7,
+    "relevance_justification": "This article casts metformin as a potential universal solution in cancer treatment, discussing its underlying mechanisms, which is relevant to its therapeutic applications."
+  }
+]

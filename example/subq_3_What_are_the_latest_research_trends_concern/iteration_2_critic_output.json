@@ -1,0 +1,65 @@
+{
+  "scores": [
+    {
+      "pmid": "38785784",
+      "relevance_score": 9,
+      "justification": "This article extensively discusses the role of metformin in cancer therapy and its molecular mechanisms, highlighting the latest trends in its applications beyond diabetes treatment, making it highly relevant to the research question."
+    },
+    {
+      "pmid": "39595655",
+      "relevance_score": 8,
+      "justification": "The review covers the potential and mechanisms of metformin and other anti-diabetic therapies in cancer treatment, providing a broad perspective on the evolving landscape, which is pertinent to the research question on metformin trends."
+    },
+    {
+      "pmid": "37016064",
+      "relevance_score": 9,
+      "justification": "This article offers a detailed exploration of the novel molecular targets and pathways of metformin, relevant to recent advances and trends in metformin research, supporting deep insights into its application."
+    },
+    {
+      "pmid": "36336804",
+      "relevance_score": 8,
+      "justification": "The paper discusses the promising use of metformin as an anticancer agent, including its mechanisms of action and benefits, aligning well with the research on metformin's latest therapeutic trends."
+    },
+    {
+      "pmid": "27004404",
+      "relevance_score": 7,
+      "justification": "Though the article is older, it focuses on the repurposing of metformin for cancer treatment, which is a key trend, making it still relevant to the research question albeit less current."
+    },
+    {
+      "pmid": "35267644",
+      "relevance_score": 7,
+      "justification": "The focus on metformin's broad therapeutic applications, including cancer treatment, is relevant. However, the article is more general and less specific about the latest trends."
+    },
+    {
+      "pmid": "38612893",
+      "relevance_score": 8,
+      "justification": "This article provides a comprehensive review of metformin in cancer treatment, examining mechanisms and clinical applications, which is quite relevant to understanding current research trends concerning metformin."
+    },
+    {
+      "pmid": "38555742",
+      "relevance_score": 8,
+      "justification": "The discussion on metformin as an anticancer agent and its combination therapies presents significant insights into its current research trends and applications, aligning well with the research question."
+    },
+    {
+      "pmid": "39944825",
+      "relevance_score": 6,
+      "justification": "While this article focuses on glioma, which is specific, it touches on the broader application of metformin to cancer treatment, offering insights into one aspect of the research trends regarding metformin."
+    },
+    {
+      "pmid": "39944825",
+      "relevance_score": 6,
+      "justification": "This is a duplicate focus on the specific application of metformin in glioma. It touches upon relevant pathways but remains less comprehensive than other articles on broader trends."
+    },
+    {
+      "pmid": "36395633",
+      "relevance_score": 5,
+      "justification": "The focus is on drug delivery systems using metformin, which, while a peripheral aspect, does pertain to innovation in metformin application but is less directly related to trends in its therapeutic use."
+    },
+    {
+      "pmid": "37356894",
+      "relevance_score": 3,
+      "justification": "This case report deals with metformin-associated lactic acidosis and ventilator management, which is only tangentially related to research trends concerning metformin itself."
+    }
+  ],
+  "decision": "STOP"
+}

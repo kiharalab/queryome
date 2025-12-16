@@ -1,0 +1,2313 @@
+SYSTEM: 
+You are a research critic agent. Your task is to evaluate the relevance of the following articles to the research question.
+For each article, provide a relevance score from 1 to 10 (1 = not relevant, 10 = highly relevant) and a brief justification.
+Also, provide an overall assessment: should we continue searching or stop?
+
+Respond in JSON format with two keys: "scores" and "decision".
+- "scores": a list of objects, each with "pmid", "relevance_score", and "justification".
+- "decision": either "CONTINUE" or "STOP". If continuing, add a "suggestion" key with ideas for the next search.
+
+USER: 
+Research Question: "What is the mechanism of action of metformin?"
+
+Articles to evaluate:
+[
+  {
+    "rank": 1,
+    "score": 0.8291312877148025,
+    "search_type": "hybrid",
+    "vector_id": 15753847,
+    "chunk_id": 15753847,
+    "pmid": "21677353",
+    "title": "[Metformin - mechanisms of action and use for the treatment of type 2 diabetes mellitus].",
+    "year": 2011,
+    "journal": "Postepy higieny i medycyny doswiadczalnej (Online)",
+    "authors": [
+      "Marzena Grzybowska",
+      "Joanna Bober",
+      "Maria Olszewska"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": false,
+        "ui": "D003924"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Treatment Outcome",
+        "is_major": false,
+        "ui": "D016896"
+      }
+    ],
+    "keywords": [],
+    "citations": [],
+    "text": "Metformin is widely used for the treatment of type 2 diabetes mellitus. Although this biguanide derivative has been used for more than 50 years, its mechanism of action has not been fully elucidated. In this article we describe the latest achievements concerning the mechanisms of antihyperglycemic action of metformin. They include: decrease of glucose absorption in the small intestine, increase of glucose transport into cells, decrease in the plasma free fatty acid concentrations and inhibition of gluconeogenesis. Activation of AMP-activated protein kinase (AMPK) plays an important role in these processes. The latest discoveries have revealed mechanisms of anti-atherosclerotic, hypotensive and anticancer action of metformin and its impact on vein endothelial function. The pleiotropic actions of metformin include impact on plasma lipid profile, decrease of oxidative stress, and increase in plasma fibrinolytic activity. Although metformin is not metabolized, the latest research has shown that it is actively transported into hepatocytes and renal tubular epithelium, by OCT1 (organic cation transporter 1, encoded by the SLC22A1 gene) and OCT2 (organic cation transporter 2, encoded by the SLC22A2 gene), respectively. However, MATE1 transporter (multidrug and toxin extrusion 1 protein) is encoded by the SLC47A1 gene and facilitates metformin excretion from these cells into bile and urine. Metformin transporter gene polymorphisms may contribute to significant variation in drug response. Further studies of mechanisms of metformin action could contribute to its wider use for the prevention of type 2 diabetes mellitus, cancer, and Alzheimer\u2019s disease, and for the treatment of type 1 diabetes mellitus, and polycystic ovary syndrome (PCOS)."
+  },
+  {
+    "rank": 2,
+    "score": 0.8051953659325545,
+    "search_type": "hybrid",
+    "vector_id": 14275358,
+    "chunk_id": 14275358,
+    "pmid": "23582849",
+    "title": "Revisiting the mechanisms of metformin action in the liver.",
+    "year": 2013,
+    "journal": "Annales d'endocrinologie",
+    "authors": [
+      "Benoit Viollet",
+      "Marc Foretz"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Animals",
+        "is_major": false,
+        "ui": "D000818"
+      },
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": false,
+        "ui": "D003924"
+      },
+      {
+        "term": "Galega",
+        "is_major": false,
+        "ui": "D029881"
+      },
+      {
+        "term": "History, 20th Century",
+        "is_major": false,
+        "ui": "D049673"
+      },
+      {
+        "term": "History, 21st Century",
+        "is_major": false,
+        "ui": "D049674"
+      },
+      {
+        "term": "History, Medieval",
+        "is_major": false,
+        "ui": "D049691"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Liver",
+        "is_major": false,
+        "ui": "D008099"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Phytotherapy",
+        "is_major": false,
+        "ui": "D008517"
+      }
+    ],
+    "keywords": [],
+    "citations": [],
+    "text": "Although considerable efforts have been made since the 1950s to better understand the action of metformin, the first line therapeutic for type 2 diabetes, its mechanisms of action has not been fully elucidated. The main antidiabetic effect of this drug is to decrease hepatic glucose production. A plausible molecular mechanism of action now emerges from recent breakthroughs that place metformin at the control of energy homeostasis. Metformin was shown to induce a mild and transient inhibition of the mitochondrial respiratory chain complex 1. The resulting decrease in hepatic energy state activates the AMP-activated protein kinase (AMPK), a cellular metabolic sensor, and provided a generally accepted mechanism for metformin action on hepatic gluconeogenic program. However, the role of AMPK activation in metformin action has recently been challenged by loss-of-function experiments. Recent evidence showed that metformin-induced inhibition of hepatic glucose output is mediated by reducing cellular energy charge rather than direct inhibition of gluconeogenic gene expression. Furthermore, recent data support a novel mechanism of action for metformin involving antagonism of glucagon signaling pathways by inducing the accumulation of AMP, which inhibits adenylate cyclase and reduced levels of cAMP."
+  },
+  {
+    "rank": 3,
+    "score": 0.7972544461496724,
+    "search_type": "hybrid",
+    "vector_id": 5115903,
+    "chunk_id": 5115903,
+    "pmid": "35067907",
+    "title": "An update on mode of action of metformin in modulation of meta-inflammation and inflammaging.",
+    "year": 2022,
+    "journal": "Pharmacological reports : PR",
+    "authors": [
+      "Meysam Khodadadi",
+      "Davoud Jafari-Gharabaghlou",
+      "Nosratollah Zarghami"
+    ],
+    "mesh_terms": [
+      {
+        "term": "AMP-Activated Protein Kinases",
+        "is_major": false,
+        "ui": "D055372"
+      },
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": true,
+        "ui": "D003924"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Inflammation",
+        "is_major": false,
+        "ui": "D007249"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Aging",
+        "is_major": false
+      },
+      {
+        "term": "Diabetes",
+        "is_major": false
+      },
+      {
+        "term": "Inflammaging",
+        "is_major": false
+      },
+      {
+        "term": "Metformin",
+        "is_major": false
+      },
+      {
+        "term": "Obesity",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Type 2 diabetes mellitus (T2DM) is the most common chronic metabolic condition. Several genetic and environmental factors are involved in developing T2DM. Aging, inflammation, and obesity are the main contributors to the initiation of T2DM. They cause chronic sterile meta-inflammation and insulin resistance, thereby making a person more susceptible to developing T2DM. Metformin, a natural cationic biguanide, is widely used as the first-line treatment of T2DM. The exact action mechanism behind the glucose-lowering effect of metformin is not clear, but, presumably, metformin utilizes a broad spectrum of molecular mechanisms to control blood glucose including decreasing intestinal glucose absorption, inhibition of the hepatic gluconeogenesis, decreasing insulin resistance, etc. Recent studies have shown that metformin exerts its effects through the inhibition of mitochondrial respiratory chain complex 1 and the AMP-activated protein kinase (AMPK) activation, but it has been identified in the other studies that AMPK is not the sole hub in metformin mode of action or there are other unknown mechanisms which are involved and yet to be explored. Therefore, here, we discuss the updated findings of the mechanism of action of metformin that contributes to the meta-inflammation and inflammaging action. It is proposed that figuring out the precise mechanism of action of metformin could improve its application in the fields of obesity, inflammation, aging, and inflammaging."
+  },
+  {
+    "rank": 4,
+    "score": 0.7969466936017957,
+    "search_type": "hybrid",
+    "vector_id": 8101522,
+    "chunk_id": 8101522,
+    "pmid": "31439934",
+    "title": "Understanding the glucoregulatory mechanisms of metformin in type 2 diabetes mellitus.",
+    "year": 2019,
+    "journal": "Nature reviews. Endocrinology",
+    "authors": [
+      "Marc Foretz",
+      "Bruno Guigas",
+      "Benoit Viollet"
+    ],
+    "mesh_terms": [
+      {
+        "term": "AMP-Activated Protein Kinases",
+        "is_major": false,
+        "ui": "D055372"
+      },
+      {
+        "term": "Animals",
+        "is_major": false,
+        "ui": "D000818"
+      },
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": false,
+        "ui": "D003924"
+      },
+      {
+        "term": "Electron Transport",
+        "is_major": false,
+        "ui": "D004579"
+      },
+      {
+        "term": "Gastrointestinal Microbiome",
+        "is_major": false,
+        "ui": "D000069196"
+      },
+      {
+        "term": "Glucose",
+        "is_major": false,
+        "ui": "D005947"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      }
+    ],
+    "keywords": [],
+    "citations": [],
+    "text": "Despite its position as the first-line drug for treatment of type 2 diabetes mellitus, the\u00a0mechanisms underlying the plasma glucose level-lowering effects of metformin (1,1-dimethylbiguanide) still remain incompletely understood. Metformin is thought to exert its primary antidiabetic action through the suppression of hepatic glucose production. In addition, the discovery that metformin inhibits the mitochondrial respiratory chain complex 1 has placed energy metabolism and activation of AMP-activated protein kinase (AMPK) at the centre of its proposed mechanism of action. However, the role of AMPK has been challenged and might only\u00a0account for indirect changes in hepatic insulin sensitivity. Various mechanisms involving alterations in cellular energy charge, AMP-mediated inhibition of adenylate cyclase or fructose-1,6-bisphosphatase 1 and modulation of the cellular redox state through direct inhibition of\u00a0mitochondrial glycerol-3-phosphate dehydrogenase have been proposed for the acute inhibition of gluconeogenesis by metformin. Emerging evidence suggests that metformin could improve obesity-induced meta-inflammation via direct and indirect effects on tissue-resident immune cells in metabolic organs (that is, adipose tissue, the gastrointestinal tract and the liver). Furthermore, the gastrointestinal tract also has a major role in metformin action through modulation of glucose-lowering hormone glucagon-like peptide 1 and the intestinal bile acid pool and alterations in gut microbiota composition."
+  },
+  {
+    "rank": 5,
+    "score": 0.7826704829294889,
+    "search_type": "hybrid",
+    "vector_id": 15390547,
+    "chunk_id": 15390547,
+    "pmid": "22117616",
+    "title": "Cellular and molecular mechanisms of metformin: an overview.",
+    "year": 2012,
+    "journal": "Clinical science (London, England : 1979)",
+    "authors": [
+      "Benoit Viollet",
+      "Bruno Guigas",
+      "Nieves Sanz Garcia",
+      "Jocelyne Leclerc",
+      "Marc Foretz",
+      "Fabrizio Andreelli"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Animals",
+        "is_major": false,
+        "ui": "D000818"
+      },
+      {
+        "term": "Cardiovascular System",
+        "is_major": false,
+        "ui": "D002319"
+      },
+      {
+        "term": "Circadian Clocks",
+        "is_major": false,
+        "ui": "D057906"
+      },
+      {
+        "term": "Diabetic Nephropathies",
+        "is_major": false,
+        "ui": "D003928"
+      },
+      {
+        "term": "Female",
+        "is_major": false,
+        "ui": "D005260"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Neoplasms",
+        "is_major": false,
+        "ui": "D009369"
+      },
+      {
+        "term": "Polycystic Ovary Syndrome",
+        "is_major": false,
+        "ui": "D011085"
+      }
+    ],
+    "keywords": [],
+    "citations": [],
+    "text": "Considerable efforts have been made since the 1950s to better understand the cellular and molecular mechanisms of action of metformin, a potent antihyperglycaemic agent now recommended as the first-line oral therapy for T2D (Type 2 diabetes). The main effect of this drug from the biguanide family is to acutely decrease hepatic glucose production, mostly through a mild and transient inhibition of the mitochondrial respiratory chain complex I. In addition, the resulting decrease in hepatic energy status activates AMPK (AMP-activated protein kinase), a cellular metabolic sensor, providing a generally accepted mechanism for the action of metformin on hepatic gluconeogenesis. The demonstration that respiratory chain complex I, but not AMPK, is the primary target of metformin was recently strengthened by showing that the metabolic effect of the drug is preserved in liver-specific AMPK-deficient mice. Beyond its effect on glucose metabolism, metformin has been reported to restore ovarian function in PCOS (polycystic ovary syndrome), reduce fatty liver, and to lower microvascular and macrovascular complications associated with T2D. Its use has also recently been suggested as an adjuvant treatment for cancer or gestational diabetes and for the prevention in pre-diabetic populations. These emerging new therapeutic areas for metformin will be reviewed together with recent findings from pharmacogenetic studies linking genetic variations to drug response, a promising new step towards personalized medicine in the treatment of T2D."
+  },
+  {
+    "rank": 6,
+    "score": 0.7578074113770897,
+    "search_type": "hybrid",
+    "vector_id": 21537120,
+    "chunk_id": 21537120,
+    "pmid": "11602624",
+    "title": "Role of AMP-activated protein kinase in mechanism of metformin action.",
+    "year": 2001,
+    "journal": "The Journal of clinical investigation",
+    "authors": [
+      "G Zhou",
+      "R Myers",
+      "Y Li",
+      "Y Chen",
+      "X Shen",
+      "J Fenyk-Melody",
+      "M Wu",
+      "J Ventre",
+      "T Doebber",
+      "N Fujii",
+      "N Musi",
+      "M F Hirshman",
+      "L J Goodyear",
+      "D E Moller"
+    ],
+    "mesh_terms": [
+      {
+        "term": "AMP-Activated Protein Kinases",
+        "is_major": false,
+        "ui": "D055372"
+      },
+      {
+        "term": "Aminoimidazole Carboxamide",
+        "is_major": false,
+        "ui": "D000620"
+      },
+      {
+        "term": "Animals",
+        "is_major": false,
+        "ui": "D000818"
+      },
+      {
+        "term": "CCAAT-Enhancer-Binding Proteins",
+        "is_major": false,
+        "ui": "D022762"
+      },
+      {
+        "term": "DNA-Binding Proteins",
+        "is_major": false,
+        "ui": "D004268"
+      },
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": false,
+        "ui": "D003924"
+      },
+      {
+        "term": "Enzyme Activation",
+        "is_major": false,
+        "ui": "D004789"
+      },
+      {
+        "term": "Fatty Acids",
+        "is_major": false,
+        "ui": "D005227"
+      },
+      {
+        "term": "Gene Expression",
+        "is_major": false,
+        "ui": "D015870"
+      },
+      {
+        "term": "Glucose",
+        "is_major": false,
+        "ui": "D005947"
+      },
+      {
+        "term": "Hepatocytes",
+        "is_major": false,
+        "ui": "D022781"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "In Vitro Techniques",
+        "is_major": false,
+        "ui": "D066298"
+      },
+      {
+        "term": "Male",
+        "is_major": false,
+        "ui": "D008297"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Multienzyme Complexes",
+        "is_major": false,
+        "ui": "D009097"
+      },
+      {
+        "term": "Muscle, Skeletal",
+        "is_major": false,
+        "ui": "D018482"
+      },
+      {
+        "term": "Protein Kinase Inhibitors",
+        "is_major": false,
+        "ui": "D047428"
+      },
+      {
+        "term": "Protein Kinases",
+        "is_major": true,
+        "ui": "D011494"
+      },
+      {
+        "term": "Protein Serine-Threonine Kinases",
+        "is_major": false,
+        "ui": "D017346"
+      },
+      {
+        "term": "Pyrazoles",
+        "is_major": false,
+        "ui": "D011720"
+      },
+      {
+        "term": "Pyrimidines",
+        "is_major": false,
+        "ui": "D011743"
+      },
+      {
+        "term": "RNA, Messenger",
+        "is_major": false,
+        "ui": "D012333"
+      },
+      {
+        "term": "Rats",
+        "is_major": false,
+        "ui": "D051381"
+      },
+      {
+        "term": "Rats, Sprague-Dawley",
+        "is_major": false,
+        "ui": "D017207"
+      },
+      {
+        "term": "Ribonucleotides",
+        "is_major": false,
+        "ui": "D012265"
+      },
+      {
+        "term": "Sterol Regulatory Element Binding Protein 1",
+        "is_major": false,
+        "ui": "D051780"
+      },
+      {
+        "term": "Transcription Factors",
+        "is_major": true,
+        "ui": "D014157"
+      }
+    ],
+    "keywords": [],
+    "citations": [
+      {
+        "type": "CommentIn",
+        "source": "J Clin Invest. 2001 Oct;108(8):1105-7. doi: 10.1172/JCI14178",
+        "pmid": "11602616"
+      }
+    ],
+    "text": "Metformin is a widely used drug for treatment of type 2 diabetes with no defined cellular mechanism of action. Its glucose-lowering effect results from decreased hepatic glucose production and increased glucose utilization. Metformin's beneficial effects on circulating lipids have been linked to reduced fatty liver. AMP-activated protein kinase (AMPK) is a major cellular regulator of lipid and glucose metabolism. Here we report that metformin activates AMPK in hepatocytes; as a result, acetyl-CoA carboxylase (ACC) activity is reduced, fatty acid oxidation is induced, and expression of lipogenic enzymes is suppressed. Activation of AMPK by metformin or an adenosine analogue suppresses expression of SREBP-1, a key lipogenic transcription factor. In metformin-treated rats, hepatic expression of SREBP-1 (and other lipogenic) mRNAs and protein is reduced; activity of the AMPK target, ACC, is also reduced. Using a novel AMPK inhibitor, we find that AMPK activation is required for metformin's inhibitory effect on glucose production by hepatocytes. In isolated rat skeletal muscles, metformin stimulates glucose uptake coincident with AMPK activation. Activation of AMPK provides a unified explanation for the pleiotropic beneficial effects of this drug; these results also suggest that alternative means of modulating AMPK should be useful for the treatment of metabolic disorders."
+  },
+  {
+    "rank": 7,
+    "score": 0.757697324315894,
+    "search_type": "hybrid",
+    "vector_id": 4982561,
+    "chunk_id": 4982561,
+    "pmid": "35216316",
+    "title": "Metformin's Mechanism of Action Is Stimulation of the Biosynthesis of the Natural Cyclic AMP Antagonist Prostaglandylinositol Cyclic Phosphate (Cyclic PIP).",
+    "year": 2022,
+    "journal": "International journal of molecular sciences",
+    "authors": [
+      "Heinrich K Wasner"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Cyclic AMP",
+        "is_major": true,
+        "ui": "D000242"
+      },
+      {
+        "term": "Inositol Phosphates",
+        "is_major": false,
+        "ui": "D007295"
+      },
+      {
+        "term": "Insulin",
+        "is_major": false,
+        "ui": "D007328"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Prostaglandins E",
+        "is_major": false,
+        "ui": "D011458"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "biguanides",
+        "is_major": false
+      },
+      {
+        "term": "cyclic AMP antagonist",
+        "is_major": false
+      },
+      {
+        "term": "cyclic PIP",
+        "is_major": false
+      },
+      {
+        "term": "mechanism of insulin action",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "prostaglandylinositol cyclic phosphate",
+        "is_major": false
+      },
+      {
+        "term": "protein serine/threonine phosphatase",
+        "is_major": false
+      },
+      {
+        "term": "protein tyrosine kinase",
+        "is_major": false
+      },
+      {
+        "term": "protein tyrosine phosphatase",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Metformin is the leading drug for treating type 2 diabetics, but the mechanism of action of metformin, despite some suggested mechanisms such as the activation of the AMP-kinase, is largely unknown. Among its many positive effects are the reduction of blood glucose levels, the inhibition of cyclic AMP synthesis, gluconeogenesis and an increase in sensitivity to insulin. Recent studies have described the natural antagonist of cyclic AMP, prostaglandylinositol cyclic phosphate. Synthesis of cyclic PIP is stimulated in all organs by hormones such as insulin and also by drugs such as metformin. Its primary action is to trigger the dephosphorylation of proteins/enzymes, phosphorylated on serine/threonine residues. Cyclic PIP triggers many of the regulations requested by insulin. The parallels between the beneficial effects of metformin and the regulations triggered by cyclic PIP suggest that the mechanism of action of this key drug may well be explained by its stimulation of the synthesis of cyclic PIP."
+  },
+  {
+    "rank": 8,
+    "score": 0.7347023006326634,
+    "search_type": "hybrid",
+    "vector_id": 7232124,
+    "chunk_id": 7232124,
+    "pmid": "32535544",
+    "title": "Mechanisms of action of metformin in type 2 diabetes: Effects on mitochondria and leukocyte-endothelium interactions.",
+    "year": 2020,
+    "journal": "Redox biology",
+    "authors": [
+      "Nadezda Apostolova",
+      "Francesca Iannantuoni",
+      "Aleksandra Gruevska",
+      "Jordi Muntane",
+      "Milagros Rocha",
+      "Victor M Victor"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": true,
+        "ui": "D003924"
+      },
+      {
+        "term": "Endothelium",
+        "is_major": false,
+        "ui": "D004727"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Leukocytes",
+        "is_major": false,
+        "ui": "D007962"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Mitochondria",
+        "is_major": false,
+        "ui": "D008928"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Atherosclerosis",
+        "is_major": false
+      },
+      {
+        "term": "Metformin",
+        "is_major": false
+      },
+      {
+        "term": "Mitochondria",
+        "is_major": false
+      },
+      {
+        "term": "Oxidative stress",
+        "is_major": false
+      },
+      {
+        "term": "Pathophysiology",
+        "is_major": false
+      },
+      {
+        "term": "Treatment",
+        "is_major": false
+      },
+      {
+        "term": "Type 2 diabetes",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Type 2 diabetes (T2D) is a very prevalent, multisystemic, chronic metabolic disorder closely related to atherosclerosis and cardiovascular diseases. It is characterised by mitochondrial dysfunction and the presence of oxidative stress. Metformin is one of the safest and most effective anti-hyperglycaemic agents currently employed as first-line oral therapy for T2D. It has demonstrated additional beneficial effects, unrelated to its hypoglycaemic action, on weight loss and several diseases, such as cancer, cardiovascular disorders and metabolic diseases, including thyroid diseases. Despite the vast clinical experience gained over several decades of use, the mechanism of action of metformin is still not fully understood. This review provides an overview of the existing literature concerning the beneficial mitochondrial and vascular effects of metformin, which it exerts by diminishing oxidative stress and reducing leukocyte-endothelium interactions. Specifically, we describe the molecular mechanisms involved in metformin's effect on gluconeogenesis, its capacity to interfere with major metabolic pathways (AMPK and mTORC1), its action on mitochondria and its antioxidant effects. We also discuss potential targets for therapeutic intervention based on these molecular actions."
+  },
+  {
+    "rank": 9,
+    "score": 0.7267900455603609,
+    "search_type": "hybrid",
+    "vector_id": 7907021,
+    "chunk_id": 7907021,
+    "pmid": "31693892",
+    "title": "Metformin Improves Mitochondrial Respiratory Activity through Activation of AMPK.",
+    "year": 2019,
+    "journal": "Cell reports",
+    "authors": [
+      "Yu Wang",
+      "Hongying An",
+      "Ting Liu",
+      "Caolitao Qin",
+      "Hiromi Sesaki",
+      "Shaodong Guo",
+      "Sally Radovick",
+      "Mehboob Hussain",
+      "Akhil Maheshwari",
+      "Fredric E Wondisford",
+      "Brian O'Rourke",
+      "Ling He"
+    ],
+    "mesh_terms": [
+      {
+        "term": "AMP-Activated Protein Kinase Kinases",
+        "is_major": false,
+        "ui": "D000091162"
+      },
+      {
+        "term": "AMP-Activated Protein Kinases",
+        "is_major": false,
+        "ui": "D055372"
+      },
+      {
+        "term": "Adenine Nucleotides",
+        "is_major": false,
+        "ui": "D000227"
+      },
+      {
+        "term": "Animals",
+        "is_major": false,
+        "ui": "D000818"
+      },
+      {
+        "term": "Blood Glucose",
+        "is_major": false,
+        "ui": "D001786"
+      },
+      {
+        "term": "Cell Respiration",
+        "is_major": false,
+        "ui": "D019069"
+      },
+      {
+        "term": "Diet, High-Fat",
+        "is_major": false,
+        "ui": "D059305"
+      },
+      {
+        "term": "Electron Transport Complex I",
+        "is_major": false,
+        "ui": "D042967"
+      },
+      {
+        "term": "Gene Knockout Techniques",
+        "is_major": false,
+        "ui": "D055786"
+      },
+      {
+        "term": "Hepatocytes",
+        "is_major": false,
+        "ui": "D022781"
+      },
+      {
+        "term": "Hyperglycemia",
+        "is_major": false,
+        "ui": "D006943"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Insulin Resistance",
+        "is_major": false,
+        "ui": "D007333"
+      },
+      {
+        "term": "Liver",
+        "is_major": false,
+        "ui": "D008099"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Mice",
+        "is_major": false,
+        "ui": "D051379"
+      },
+      {
+        "term": "Mice, Inbred C57BL",
+        "is_major": false,
+        "ui": "D008810"
+      },
+      {
+        "term": "Mitochondria, Liver",
+        "is_major": false,
+        "ui": "D008930"
+      },
+      {
+        "term": "Mitochondrial Dynamics",
+        "is_major": false,
+        "ui": "D063154"
+      },
+      {
+        "term": "Protein Kinases",
+        "is_major": false,
+        "ui": "D011494"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "AMPK",
+        "is_major": false
+      },
+      {
+        "term": "Drp1",
+        "is_major": false
+      },
+      {
+        "term": "adenine nucleotides",
+        "is_major": false
+      },
+      {
+        "term": "diabetes",
+        "is_major": false
+      },
+      {
+        "term": "insulin resistance",
+        "is_major": false
+      },
+      {
+        "term": "membrane potential",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "mitochondrial respiration/fission",
+        "is_major": false
+      }
+    ],
+    "citations": [
+      {
+        "type": "CommentIn",
+        "source": "Trends Endocrinol Metab. 2020 Apr;31(4):269-271. doi: 10.1016/j.tem.2020.02.003",
+        "pmid": "32187522"
+      }
+    ],
+    "text": "Impaired mitochondrial respiratory activity contributes to the development of insulin resistance in type 2 diabetes. Metformin, a first-line antidiabetic drug, functions mainly by improving patients' hyperglycemia and insulin resistance. However, its mechanism of action is still not well understood. We show here that pharmacological metformin concentration increases mitochondrial respiration, membrane potential, and ATP levels in hepatocytes and a clinically relevant metformin dose increases liver mitochondrial density and complex 1 activity along with improved hyperglycemia in high-fat- diet (HFD)-fed mice. Metformin, functioning through 5' AMP-activated protein kinase (AMPK), promotes mitochondrial fission to improve mitochondrial respiration and restore the mitochondrial life cycle.\u00a0Furthermore, HFD-fed-mice with liver-specific knockout of AMPK\u03b11/2 subunits exhibit higher blood glucose levels when treated with metformin. Our results demonstrate that activation of AMPK by metformin improves mitochondrial respiration and hyperglycemia in obesity. We also found that supra-pharmacological metformin concentrations reduce adenine nucleotides, resulting in the halt of mitochondrial respiration. These findings suggest a mechanism for metformin's anti-tumor effects."
+  },
+  {
+    "rank": 10,
+    "score": 0.7183910464863708,
+    "search_type": "hybrid",
+    "vector_id": 4795963,
+    "chunk_id": 4795963,
+    "pmid": "35419709",
+    "title": "The role of AMPK-dependent pathways in cellular and molecular mechanisms of metformin: a new perspective for treatment and prevention of diseases.",
+    "year": 2022,
+    "journal": "Inflammopharmacology",
+    "authors": [
+      "Amin Hasanvand"
+    ],
+    "mesh_terms": [
+      {
+        "term": "AMP-Activated Protein Kinases",
+        "is_major": false,
+        "ui": "D055372"
+      },
+      {
+        "term": "Cell Proliferation",
+        "is_major": false,
+        "ui": "D049109"
+      },
+      {
+        "term": "Hepatocytes",
+        "is_major": false,
+        "ui": "D022781"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Neoplasms",
+        "is_major": true,
+        "ui": "D009369"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "AMPK",
+        "is_major": false
+      },
+      {
+        "term": "Diseases",
+        "is_major": false
+      },
+      {
+        "term": "Metformin",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Metformin can suppress gluconeogenesis and reduce blood sugar by activating adenosine monophosphate-activated protein kinase (AMPK) and inducing small heterodimer partner (SHP) expression in the liver cells. The main mechanism of metformin's action is related to its activation of the AMPK enzyme and regulation of the energy balance. AMPK is a heterothermic serine/threonine kinase made of a catalytic alpha subunit and two subunits of beta and a gamma regulator. This enzyme can measure the intracellular ratio of AMP/ATP. If this ratio is high, the amino acid threonine 172 available in its alpha chain would be activated by the phosphorylated liver kinase B1 (LKB1), leading to AMPK activation. Several studies have indicated that apart from its significant role in the reduction of blood glucose level, metformin activates the AMPK enzyme that in turn has various efficient impacts on the regulation of various processes, including controlling inflammatory conditions, altering the differentiation pathway of immune and non-immune cell pathways, and the amelioration of various cancers, liver diseases, inflammatory bowel disease (IBD), kidney diseases, neurological disorders, etc. Metformin's activation of AMPK enables it to control inflammatory conditions, improve oxidative status, regulate the differentiation pathways of various cells, change the pathological process in various diseases, and finally have positive therapeutic effects on them. Due to the activation of AMPK and its role in regulating several subcellular signalling pathways, metformin can be effective in altering the cells' proliferation and differentiation pathways and eventually in the prevention and treatment of certain diseases."
+  },
+  {
+    "rank": 1,
+    "score": 8.987873077392578,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 4931492,
+    "chunk_id": 4931492,
+    "pmid": "35278303",
+    "title": "[A multidirectional effect of metformin].",
+    "year": 2022,
+    "journal": "Polski merkuriusz lekarski : organ Polskiego Towarzystwa Lekarskiego",
+    "authors": [
+      "Luiza \u017byrek",
+      "Ma\u0142gorzata Latocha"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Aging",
+        "is_major": false,
+        "ui": "D000375"
+      },
+      {
+        "term": "Animals",
+        "is_major": false,
+        "ui": "D000818"
+      },
+      {
+        "term": "Diabetes Mellitus",
+        "is_major": true,
+        "ui": "D003920"
+      },
+      {
+        "term": "Female",
+        "is_major": false,
+        "ui": "D005260"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Neoplasms",
+        "is_major": true,
+        "ui": "D009369"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "mechanism of action",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Diabetes as chronic civilization disease, very often occurs together with health disorders. One of the basic pharmaceuticals commonly used in her therapy is metformin. Many other positive effects, not related to diabetes, have been observed in tatients treated with metformin for a long time. These are: positive changes in diagnostiic parameters, protection against cancer development, less frequent occurrence of other pathologies and diseases, increased sensitivity to selected drugs (e.g. cytostatics), delayed aging processes of organism. In addition to the molecular changes resulting in a hypoglycemic effect, the most common modifications of gene expression have been described, indicated as the basis for the anti-aging, anti-atherosclerotic and anticancer effects of this drug and its effect on melanogenesis or the nervous system. The results presented in the study are very promising, but most of them relate to experiments carried out in cell cultures or animals. The possibility of obtaining similar effects in humans requires much more research."
+  },
+  {
+    "rank": 2,
+    "score": 7.1072211265563965,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 4694191,
+    "chunk_id": 4694191,
+    "pmid": "35545330",
+    "title": "Role of metformin in the diagnosis, prevention, and treatment of hepatocellular carcinoma.",
+    "year": 2022,
+    "journal": "Zhong nan da xue xue bao. Yi xue ban = Journal of Central South University. Medical sciences",
+    "authors": [
+      "Shize Xiong",
+      "Wei Liu"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Carcinoma, Hepatocellular",
+        "is_major": true,
+        "ui": "D006528"
+      },
+      {
+        "term": "Cell Line, Tumor",
+        "is_major": false,
+        "ui": "D045744"
+      },
+      {
+        "term": "Cell Proliferation",
+        "is_major": false,
+        "ui": "D049109"
+      },
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": true,
+        "ui": "D003924"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Liver Neoplasms",
+        "is_major": true,
+        "ui": "D008113"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Quality of Life",
+        "is_major": false,
+        "ui": "D011788"
+      },
+      {
+        "term": "Tumor Microenvironment",
+        "is_major": false,
+        "ui": "D059016"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "hepatocellular carcinoma",
+        "is_major": false
+      },
+      {
+        "term": "mechanism of action",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Hepatocellular carcinoma is one of the most common malignant tumors in the world. Although there are many options for the treatment of hepatocellular carcinoma, such as surgical resection, interventional therapy, radiotherapy, chemotherapy, targeted therapy and liver transplantation, the poor therapeutic effect seriously reduces the quality of life for patients and also increases the social and economic burden. Metformin is originally used as the first-line drug for type 2 diabetes, but it has been found to play a certain effect in the prevention and treatment of malignant tumor. The potential roles of metformin against hepatocellular carcinoma, such as regulation of the microenvironment, proliferation signal pathway, metabolism, invasion and metastasis, apoptosis, autophagy, and epigenetics of hepatoma cells. It provides a new choice for the prevention and treatment of hepatocellular carcinoma."
+  },
+  {
+    "rank": 3,
+    "score": 6.434077262878418,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 8027946,
+    "chunk_id": 8027946,
+    "pmid": "31534778",
+    "title": "Anticancer activity of metformin: a systematic review of the literature.",
+    "year": 2019,
+    "journal": "Future science OA",
+    "authors": [
+      "Mohamad Aljofan",
+      "Dieter Riethmacher"
+    ],
+    "mesh_terms": [],
+    "keywords": [
+      {
+        "term": "AMPK",
+        "is_major": false
+      },
+      {
+        "term": "anticancer",
+        "is_major": false
+      },
+      {
+        "term": "cancer",
+        "is_major": false
+      },
+      {
+        "term": "mechanism of action",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "BACKGROUND: The anticancer activity of metformin has been confirmed against several cancer types\n\nMETHOD: A search through different databases was conducted, including Medline and EMBASE.\n\nRESULTS: A total of 96 articles were identified of which 56 were removed for duplication and 24 were excluded after reviewing the title and abstract. A total of 12 research articles were included that describe different antiproliferative mechanisms that may contribute to the antineoplastic effects of metformin.\n\nCONCLUSION: This analysis discussed the potential anticancer activity of metformin and highlighted the importance of AMPK as a potential target for anticancer therapy."
+  },
+  {
+    "rank": 4,
+    "score": 5.877412796020508,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 6142735,
+    "chunk_id": 6142735,
+    "pmid": "33849540",
+    "title": "How metformin affects various malignancies by means of microRNAs: a brief review.",
+    "year": 2021,
+    "journal": "Cancer cell international",
+    "authors": [
+      "Nahid Alimoradi",
+      "Negar Firouzabadi",
+      "Reihaneh Fatehi"
+    ],
+    "mesh_terms": [],
+    "keywords": [
+      {
+        "term": "AMPK",
+        "is_major": false
+      },
+      {
+        "term": "Biomarker",
+        "is_major": false
+      },
+      {
+        "term": "Cancer",
+        "is_major": false
+      },
+      {
+        "term": "Mechanism of action",
+        "is_major": false
+      },
+      {
+        "term": "Metformin",
+        "is_major": false
+      },
+      {
+        "term": "MicroRNAs",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Metformin known as the first-line orally prescribed drug for lowering blood glucose in type II diabetes (T2DM) has recently found various therapeutic applications including in cancer. Metformin has been studied for its influences in prevention and treatment of cancer through multiple mechanisms such as microRNA (miR) regulation. Alteration in the expression of miRs by metformin may play an important role in the treatment of various cancers. MiRs are single-stranded RNAs that are involved in gene regulation. By binding to the 3'UTR of target mRNAs, miRs influence protein levels. Irregularities in the expression of miRs that control the expression of oncogenes and tumor suppressor genes are associated with the onset and progression of cancer. Metformin may possess an effect on tumor prevention and progression by modifying miR expression and downstream pathways. Here, we summarize the effect of metformin on different types of cancer by regulating the expression of various miRs and the associated downstream molecules."
+  },
+  {
+    "rank": 5,
+    "score": 5.877412796020508,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 5705957,
+    "chunk_id": 5705957,
+    "pmid": "34367059",
+    "title": "Metformin and Covid-19: Focused Review of Mechanisms and Current Literature Suggesting Benefit.",
+    "year": 2021,
+    "journal": "Frontiers in endocrinology",
+    "authors": [
+      "Sherehan Ibrahim",
+      "Jamie R Lowe",
+      "Carolyn T Bramante",
+      "Surbhi Shah",
+      "Nichole R Klatt",
+      "Nancy Sherwood",
+      "Louis Aronne",
+      "Michael Puskarich",
+      "Leonardo Tamariz",
+      "Ana Palacio",
+      "Eric Bomberg",
+      "Michael Usher",
+      "Samantha King",
+      "Brad Benson",
+      "Deneen Vojta",
+      "Chris Tignanelli",
+      "Nicholas Ingraham"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Treatment Outcome",
+        "is_major": false,
+        "ui": "D016896"
+      },
+      {
+        "term": "COVID-19 Drug Treatment",
+        "is_major": true,
+        "ui": "D000093485"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "COVID-19",
+        "is_major": false
+      },
+      {
+        "term": "mechanisms of action",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "microbiome",
+        "is_major": false
+      },
+      {
+        "term": "obesity",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Metformin is the first-line medication for type 2 diabetes, but it also has a long history of improved outcomes in infectious diseases, such as influenza, hepatitis C, and"
+  },
+  {
+    "rank": 6,
+    "score": 5.475491523742676,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 7556291,
+    "chunk_id": 7556291,
+    "pmid": "32133417",
+    "title": "Annexin A1 accounts for an anti-inflammatory binding target of sesamin metabolites.",
+    "year": 2020,
+    "journal": "NPJ science of food",
+    "authors": [
+      "Yasuaki Kabe",
+      "Daisuke Takemoto",
+      "Ayaka Kanai",
+      "Miwa Hirai",
+      "Yoshiko Ono",
+      "Sota Akazawa",
+      "Manabu Horikawa",
+      "Yoshinori Kitagawa",
+      "Hiroshi Handa",
+      "Tomohiro Rogi",
+      "Hiroshi Shibata",
+      "Makoto Suematsu"
+    ],
+    "mesh_terms": [],
+    "keywords": [
+      {
+        "term": "Mechanism of action",
+        "is_major": false
+      },
+      {
+        "term": "Proteins",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Sesamin [(7\u03b1,7'\u03b1,8\u03b1,8'\u03b1)-3,4:3',4'-bis(methylenedioxy)-7,9':7',9-diepoxylignane] is a major lignan in sesame seeds. Sesamin is converted to the catechol metabolite, SC1 [(7\u03b1,7'\u03b1,8\u03b1,8'\u03b1)-3',4'-methylenedioxy-7,9':7',9-diepoxylignane-3,4-diol] with anti-inflammatory effects after oral administration. However, its molecular target remains unknown. Analysis using high-performance affinity nanobeads led to the identification of annexin A1 (ANX A1) as an SC1-binding protein. SC1 was found to bind to the annexin repeat 3 region of ANX A1 with a high-affinity constant (Kd\u2009=\u20092.77\u2009\u03bcmol L"
+  },
+  {
+    "rank": 7,
+    "score": 5.409400939941406,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 4773874,
+    "chunk_id": 4773874,
+    "pmid": "35455439",
+    "title": "A Clinical Perspective of the Multifaceted Mechanism of Metformin in Diabetes, Infections, Cognitive Dysfunction, and Cancer.",
+    "year": 2022,
+    "journal": "Pharmaceuticals (Basel, Switzerland)",
+    "authors": [
+      "Elaine Chow",
+      "Aimin Yang",
+      "Colin H L Chung",
+      "Juliana C N Chan"
+    ],
+    "mesh_terms": [],
+    "keywords": [
+      {
+        "term": "anticancer action",
+        "is_major": false
+      },
+      {
+        "term": "cardioprotection",
+        "is_major": false
+      },
+      {
+        "term": "cognition",
+        "is_major": false
+      },
+      {
+        "term": "diabetes",
+        "is_major": false
+      },
+      {
+        "term": "infections",
+        "is_major": false
+      },
+      {
+        "term": "mechanisms",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "In type 2 diabetes, ecological and lifecourse factors may interact with the host microbiota to influence expression of his/her genomes causing perturbation of interconnecting biological pathways with diverse clinical course. Metformin is a plant-based or plant-derived medicinal product used for the treatment of type 2 diabetes for over 60 years and is an essential drug listed by the World Health Organization. By reducing mitochondrial oxidative phosphorylation and adenosine triphosphate (ATP) production, metformin increased AMP (adenosine monophosphate)-activated protein kinase (AMPK) activity and altered cellular redox state with reduced glucagon activity, endogenous glucose production, lipogenesis, and protein synthesis. Metformin modulated immune response by directly reducing neutrophil to lymphocyte ratio and improving the phagocytic function of immune cells. By increasing the relative abundance of mucin-producing and short-chain-fatty-acid-producing gut microbes, metformin further improved the host inflammatory and metabolic milieu. Experimentally, metformin promoted apoptosis and reduced proliferation of cancer cells by reducing their oxygen consumption and modulating the microenvironment. Both clinical and mechanistic studies support the pluripotent effects of metformin on reducing cardiovascular-renal events, infection, cancer, cognitive dysfunction, and all-cause death in type 2 diabetes, making this low-cost medication a fundamental therapy for individualization of other glucose-lowering drugs in type 2 diabetes. Further research into the effects of metformin on cognitive function, infection and cancer, especially in people without diabetes, will provide new insights into the therapeutic value of metformin in our pursuit of prevention and treatment of ageing-related as well as acute and chronic diseases beyond diabetes."
+  },
+  {
+    "rank": 8,
+    "score": 5.409400939941406,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 4772665,
+    "chunk_id": 4772665,
+    "pmid": "35454163",
+    "title": "Metformin in Differentiated Thyroid Cancer: Molecular Pathways and Its Clinical Implications.",
+    "year": 2022,
+    "journal": "Biomolecules",
+    "authors": [
+      "Manuel Garc\u00eda-S\u00e1enz",
+      "Miry Lobaton-Ginsberg",
+      "Aldo Ferreira-Hermosillo"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Adenocarcinoma",
+        "is_major": true,
+        "ui": "D000230"
+      },
+      {
+        "term": "Cell Cycle",
+        "is_major": false,
+        "ui": "D002453"
+      },
+      {
+        "term": "Cell Proliferation",
+        "is_major": false,
+        "ui": "D049109"
+      },
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": true,
+        "ui": "D003924"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Insulin Resistance",
+        "is_major": true,
+        "ui": "D007333"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Thyroid Neoplasms",
+        "is_major": true,
+        "ui": "D013964"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "clinical pathways",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "pharmacological mechanisms of action",
+        "is_major": false
+      },
+      {
+        "term": "thyroid cancer",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Metformin is a synthetic biguanide that improves insulin sensitivity and reduces hepatic gluconeogenesis. Aside being the first-line therapy for Type 2 Diabetes (T2D), many pleiotropic effects have been discovered in recent years, such as its capacity to reduce cancer risk and tumorigenesis. Although widely studied, the effect of metformin on thyroid cancer remains controversial. Potential mechanisms for its growth inhibitory effects have been elucidated in various preclinical studies that involved pathways related to adenosine mono-phosphate-activated protein kinase (AMPK), mammalian target of rapamycin (mTOR), mitochondrial glycerophosphate dehydrogenase (mGPDH), and the nuclear factor \u03baB (NF-\u03baB). Hyperinsulinemia increases cell glucose uptake and oxidative stress, and promotes thyroid cell growth, leading to hyperproliferation, carcinogenesis, and the development of malignant tumors. Furthermore, it has also been related to thyroid nodules size in nodular disease, as well as tumoral size in patients with thyroid cancer. Several clinical studies concluded that metformin might have an important role as an adjuvant therapy to reduce the growth of benign and malignant thyroid neoplasms. This suggests that metformin might be useful for patients with differentiated or poorly differentiated thyroid cancer and metabolic diseases such as insulin resistance or diabetes."
+  },
+  {
+    "rank": 9,
+    "score": 5.409400939941406,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 8833325,
+    "chunk_id": 8833325,
+    "pmid": "30554148",
+    "title": "Metformin Affects Heme Function as a Possible Mechanism of Action.",
+    "year": 2019,
+    "journal": "G3 (Bethesda, Md.)",
+    "authors": [
+      "Xiyan Li",
+      "Xin Wang",
+      "Michael P Snyder"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Cells, Cultured",
+        "is_major": false,
+        "ui": "D002478"
+      },
+      {
+        "term": "Erythrocytes",
+        "is_major": false,
+        "ui": "D004912"
+      },
+      {
+        "term": "Heme",
+        "is_major": false,
+        "ui": "D006418"
+      },
+      {
+        "term": "Hep G2 Cells",
+        "is_major": false,
+        "ui": "D056945"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "Oxidation-Reduction",
+        "is_major": false,
+        "ui": "D010084"
+      },
+      {
+        "term": "Oxyhemoglobins",
+        "is_major": false,
+        "ui": "D010108"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "diabetes",
+        "is_major": false
+      },
+      {
+        "term": "heme",
+        "is_major": false
+      },
+      {
+        "term": "hemoprotein",
+        "is_major": false
+      },
+      {
+        "term": "mechanism of action",
+        "is_major": false
+      },
+      {
+        "term": "metformin",
+        "is_major": false
+      },
+      {
+        "term": "porphyrin",
+        "is_major": false
+      },
+      {
+        "term": "redox",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Metformin elicits pleiotropic effects that are beneficial for treating diabetes, as well as particular cancers and aging. In spite of its importance, a convincing and unifying mechanism to explain how metformin operates is lacking. Here we describe investigations into the mechanism of metformin action through heme and hemoprotein(s). Metformin suppresses heme production by 50% in yeast, and this suppression requires mitochondria function, which is necessary for heme synthesis. At high concentrations comparable to those in the clinic, metformin also suppresses heme production in human erythrocytes, erythropoietic cells and hepatocytes by 30-50%; the heme-targeting drug artemisinin operates at a greater potency. Significantly, metformin prevents oxidation of heme in three protein scaffolds, cytochrome c, myoglobin and hemoglobin, with Kd values < 3 mM suggesting a dual oxidation and reduction role in the regulation of heme redox transition. Since heme- and porphyrin-like groups operate in diverse enzymes that control important metabolic processes, we suggest that metformin acts, at least in part, through stabilizing appropriate redox states in heme and other porphyrin-containing groups to control cellular metabolism."
+  },
+  {
+    "rank": 10,
+    "score": 5.409400939941406,
+    "search_type": "bm25_author_keywords",
+    "vector_id": 5806535,
+    "chunk_id": 5806535,
+    "pmid": "34243629",
+    "title": "Metformin and insulin-resistant related diseases: Emphasis on the role of microRNAs.",
+    "year": 2021,
+    "journal": "Biomedicine & pharmacotherapy = Biomedecine & pharmacotherapie",
+    "authors": [
+      "Nahid Alimoradi",
+      "Negar Firouzabadi",
+      "Reihaneh Fatehi"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Animals",
+        "is_major": false,
+        "ui": "D000818"
+      },
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": false,
+        "ui": "D003924"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Insulin",
+        "is_major": false,
+        "ui": "D007328"
+      },
+      {
+        "term": "Insulin Resistance",
+        "is_major": false,
+        "ui": "D007333"
+      },
+      {
+        "term": "Metformin",
+        "is_major": false,
+        "ui": "D008687"
+      },
+      {
+        "term": "MicroRNAs",
+        "is_major": false,
+        "ui": "D035683"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "AMPK",
+        "is_major": false
+      },
+      {
+        "term": "Biomarker",
+        "is_major": false
+      },
+      {
+        "term": "Insulin resistance",
+        "is_major": false
+      },
+      {
+        "term": "Mechanism of action",
+        "is_major": false
+      },
+      {
+        "term": "Metformin",
+        "is_major": false
+      },
+      {
+        "term": "MicroRNAs",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Metformin is one of the most prescribed drugs in type II diabetes (T2DM) which has recently found new applications in the prevention and treatment of various illnesses, from metabolic disorders to cardiovascular and age-related diseases. Metformin improves insulin resistance (IR) by modulating metabolic mechanisms and mitochondrial biogenesis. Alternation of microRNAs (miRs) in the treatment of IR-related illnesses has been observed by metformin therapy. MiRs are small non-coding RNAs that play important roles in RNA silencing, targeting the 3'untranslated region (3'UTR) of most mRNAs and inhibiting the translation of related proteins. As a result, their dysregulation is associated with many diseases. Metformin may alter miRs levels in the treatment of various diseases by AMPK-dependent or AMPK-independent mechanisms. Here, we summarized the therapeutic role of metformin by modifying the aberrant expression of miRs as potential biomarkers or therapeutic targets in diseases in which IR plays a key role."
+  },
+  {
+    "rank": 1,
+    "score": 6.686662673950195,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 4445843,
+    "chunk_id": 4445843,
+    "pmid": "35862740",
+    "title": "Quantitative Systems Pharmacology Modeling Framework of Autophagy in Tuberculosis: Application to Adjunctive Metformin Host-Directed Therapy.",
+    "year": 2022,
+    "journal": "Antimicrobial agents and chemotherapy",
+    "authors": [
+      "Krina Mehta",
+      "Tingjie Guo",
+      "Robert S Wallis",
+      "Piet H van der Graaf",
+      "J G Coen van Hasselt"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Animals",
+        "is_major": false,
+        "ui": "D000818"
+      },
+      {
+        "term": "Anti-Bacterial Agents",
+        "is_major": false,
+        "ui": "D000900"
+      },
+      {
+        "term": "Autophagy",
+        "is_major": false,
+        "ui": "D001343"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Mice",
+        "is_major": false,
+        "ui": "D051379"
+      },
+      {
+        "term": "Mycobacterium tuberculosis",
+        "is_major": true,
+        "ui": "D009169"
+      },
+      {
+        "term": "Network Pharmacology",
+        "is_major": false,
+        "ui": "D000091484"
+      },
+      {
+        "term": "Tuberculosis",
+        "is_major": true,
+        "ui": "D014376"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "autophagy",
+        "is_major": false
+      },
+      {
+        "term": "host-directed therapy",
+        "is_major": false
+      },
+      {
+        "term": "mathematical modeling",
+        "is_major": false
+      },
+      {
+        "term": "quantitative systems pharmacology",
+        "is_major": false
+      },
+      {
+        "term": "tuberculosis",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Quantitative systems pharmacology (QSP) modeling of the host immune response against Mycobacterium tuberculosis can inform the rational design of host-directed therapies (HDTs). We aimed to develop a QSP framework to evaluate the effects of metformin-associated autophagy induction in combination with antibiotics. A QSP framework for autophagy was developed by extending a model for host immune response to include adenosine monophosphate-activated protein kinase (AMPK)-mTOR-autophagy signaling. This model was combined with pharmacokinetic-pharmacodynamic models for metformin and antibiotics against M. tuberculosis. We compared the model predictions to mice infection experiments and derived predictions for the pathogen- and host-associated dynamics in humans treated with metformin in combination with antibiotics. The model adequately captured the observed bacterial load dynamics in mice M. tuberculosis infection models treated with metformin. Simulations for adjunctive metformin therapy in newly diagnosed patients suggested a limited yet dose-dependent effect of metformin on reduction of the intracellular bacterial load when the overall bacterial load is low, late during antibiotic treatment. We present the first QSP framework for HDTs against M. tuberculosis, linking cellular-level autophagy effects to disease progression and adjunctive HDT treatment response. This framework may be extended to guide the design of HDTs against M. tuberculosis."
+  },
+  {
+    "rank": 2,
+    "score": 6.13242244720459,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 3900779,
+    "chunk_id": 3900779,
+    "pmid": "36496454",
+    "title": "Causal inference in medical records and complementary systems pharmacology for metformin drug repurposing towards dementia.",
+    "year": 2022,
+    "journal": "Nature communications",
+    "authors": [
+      "Marie-Laure Charpignon",
+      "Bella Vakulenko-Lagun",
+      "Bang Zheng",
+      "Colin Magdamo",
+      "Bowen Su",
+      "Kyle Evans",
+      "Steve Rodriguez",
+      "Artem Sokolov",
+      "Sarah Boswell",
+      "Yi-Han Sheu",
+      "Melek Somai",
+      "Lefkos Middleton",
+      "Bradley T Hyman",
+      "Rebecca A Betensky",
+      "Stan N Finkelstein",
+      "Roy E Welsch",
+      "Ioanna Tzoulaki",
+      "Deborah Blacker",
+      "Sudeshna Das",
+      "Mark W Albers"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Drug Repositioning",
+        "is_major": false,
+        "ui": "D058492"
+      },
+      {
+        "term": "Network Pharmacology",
+        "is_major": false,
+        "ui": "D000091484"
+      },
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": true,
+        "ui": "D003924"
+      },
+      {
+        "term": "Sulfonylurea Compounds",
+        "is_major": false,
+        "ui": "D013453"
+      },
+      {
+        "term": "Hypoglycemic Agents",
+        "is_major": false,
+        "ui": "D007004"
+      },
+      {
+        "term": "Dementia",
+        "is_major": true,
+        "ui": "D003704"
+      },
+      {
+        "term": "Medical Records",
+        "is_major": false,
+        "ui": "D008499"
+      }
+    ],
+    "keywords": [],
+    "citations": [],
+    "text": "Metformin, a diabetes drug with anti-aging cellular responses, has complex actions that may alter dementia onset. Mixed results are emerging from prior observational studies. To address this complexity, we deploy a causal inference approach accounting for the competing risk of death in emulated clinical trials using two distinct electronic health record systems. In intention-to-treat analyses, metformin use associates with lower hazard of all-cause mortality and lower cause-specific hazard of dementia onset, after accounting for prolonged survival, relative to sulfonylureas. In parallel systems pharmacology studies, the expression of two AD-related proteins, APOE and SPP1, was suppressed by pharmacologic concentrations of metformin in differentiated human neural cells, relative to a sulfonylurea. Together, our findings suggest that metformin might reduce the risk of dementia in diabetes patients through mechanisms beyond glycemic control, and that SPP1 is a candidate biomarker for metformin's action in the brain."
+  },
+  {
+    "rank": 3,
+    "score": 5.811300277709961,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 4057871,
+    "chunk_id": 4057871,
+    "pmid": "36316840",
+    "title": "Effect of metformin on nonalcoholic fatty liver based on meta-analysis and network pharmacology.",
+    "year": 2022,
+    "journal": "Medicine",
+    "authors": [
+      "Yuanshe Huang",
+      "Xiaodong Wang",
+      "Chen Yan",
+      "Chen Li",
+      "Lidan Zhang",
+      "Lai Zhang",
+      "E Liang",
+      "Tianlei Liu",
+      "Jingxin Mao"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Non-alcoholic Fatty Liver Disease",
+        "is_major": true,
+        "ui": "D065626"
+      },
+      {
+        "term": "Metformin",
+        "is_major": true,
+        "ui": "D008687"
+      },
+      {
+        "term": "Diabetes Mellitus, Type 2",
+        "is_major": true,
+        "ui": "D003924"
+      },
+      {
+        "term": "Sirtuin 1",
+        "is_major": false,
+        "ui": "D056564"
+      },
+      {
+        "term": "Network Pharmacology",
+        "is_major": false,
+        "ui": "D000091484"
+      },
+      {
+        "term": "Insulin Resistance",
+        "is_major": true,
+        "ui": "D007333"
+      },
+      {
+        "term": "Class I Phosphatidylinositol 3-Kinases",
+        "is_major": false,
+        "ui": "D058534"
+      }
+    ],
+    "keywords": [],
+    "citations": [],
+    "text": "BACKGROUND: Whether metformin is related to nonalcoholic fatty liver disease (NAFLD) is controversial. Our aim was to investigate the relationship between metformin and NAFLD that may predict the metformin potential of these lesions and new prevention strategies in NAFLD patients.\n\nMETHODS: The meta-analysis was analyzed by Revman 5.3 softwares systematically searched for works published through July 29, 2022. Network pharmacology research based on databases, Cytoscape 3.7.1 software and R software respectively.\n\nRESULTS: The following variables were associated with metformin in NAFLD patients: decreased of alanine aminotransferase (ALT) level (mean difference [MD]\u2005=\u2005-10.84, 95% confidence interval [CI]\u2005=\u2005-21.85 to 0.16, P\u2005=\u2005.05); decreased of aspartate amino transferase (AST) level (MD\u2005=\u2005-4.82, 95% CI\u2005=\u2005-9.33 to -0.30, P\u2005=\u2005.04); decreased of triglyceride (TG) level (MD\u2005=\u2005-0.17, 95% CI\u2005=\u2005-0.26 to -0.08, P\u2005=\u2005.0002); decreased of total cholesterol (TC) level (MD\u2005=\u2005-0.29, 95% CI\u2005=\u2005-0.47 to -0.10, P\u2005=\u2005.003); decreased of insulin resistance (IR) level (MD\u2005=\u2005-0.42, 95% CI\u2005=\u2005-0.82 to -0.02, P\u2005=\u2005.04). In addition, body mass index (BMI) (MD\u2005=\u2005-0.65, 95% CI\u2005=\u2005-1.46 to 0.16, P\u2005=\u2005.12) had no association with metformin in NAFLD patients. 181 metformin targets and 868 NAFLD disease targets were interaction analyzed, 15 core targets of metformin for the treatment of NAFLD were obtained. The effect of metformin on NAFLD mainly related to cytoplasm and protein binding, NAFLD, hepatitis B, pathway in cancer, toll like receptor signaling pathway and type 2 diabetes mellitus (T2DM). The proteins of hypoxia inducible factor-1 (HIF1A), nuclear factor erythroid 2-related factor (NFE2L2), nitric oxide synthase 3 (NOS3), nuclear receptor subfamily 3 group C member 1 (NR3C1), PI3K catalytic subunit alpha (PIK3CA), and silencing information regulator 2 related enzyme 1 (SIRT1) may the core targets of metformin for the treatment of NAFLD.\n\nCONCLUSION: Metformin might be a candidate drug for the treatment of NAFLD which exhibits therapeutic effect on NAFLD patients associated with ALT, AST, TG, TC and IR while was not correlated with BMI. HIF1A, NFE2L2, NOS3, NR3C1, PIK3CA, and SIRT1 might be core targets of metformin for the treatment of NAFLD."
+  },
+  {
+    "rank": 4,
+    "score": 5.715756416320801,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 4758574,
+    "chunk_id": 4758574,
+    "pmid": "35437730",
+    "title": "Educational Needs for Quantitative Systems Pharmacology Scientists.",
+    "year": 2022,
+    "journal": "Methods in molecular biology (Clifton, N.J.)",
+    "authors": [
+      "James M Gallo"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Models, Biological",
+        "is_major": false,
+        "ui": "D008954"
+      },
+      {
+        "term": "Network Pharmacology",
+        "is_major": true,
+        "ui": "D000091484"
+      },
+      {
+        "term": "Pharmacology",
+        "is_major": true,
+        "ui": "D010600"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Pharmacodynamic",
+        "is_major": false
+      },
+      {
+        "term": "Pharmacokinetic",
+        "is_major": false
+      },
+      {
+        "term": "Pharmacology",
+        "is_major": false
+      },
+      {
+        "term": "Quantitative",
+        "is_major": false
+      },
+      {
+        "term": "Systems",
+        "is_major": false
+      },
+      {
+        "term": "Training",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "There is a demand for scientists trained in quantitative systems pharmacology (QSP) that has yet to be met by changes in graduate education. The multidisciplinary nature of QSP is not unlike its predecessor, pharmacokinetics (PKs) and pharmacodynamics (PDs) that have now become firmly established in many educational programs. A hindrance to the evolution of educational programs for QSP is explored and suggestions to move QSP into its proper position as a unique discipline are presented."
+  },
+  {
+    "rank": 5,
+    "score": 5.553630828857422,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 7152424,
+    "chunk_id": 7152424,
+    "pmid": "32621550",
+    "title": "A framework for simplification of quantitative systems pharmacology models in clinical pharmacology.",
+    "year": 2022,
+    "journal": "British journal of clinical pharmacology",
+    "authors": [
+      "Abdallah Derbalah",
+      "Hesham Al-Sallami",
+      "Chihiro Hasegawa",
+      "Abhishek Gulati",
+      "Stephen B Duffull"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Computer Simulation",
+        "is_major": false,
+        "ui": "D003198"
+      },
+      {
+        "term": "Drug Development",
+        "is_major": false,
+        "ui": "D000076722"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Models, Biological",
+        "is_major": false,
+        "ui": "D008954"
+      },
+      {
+        "term": "Network Pharmacology",
+        "is_major": false,
+        "ui": "D000091484"
+      },
+      {
+        "term": "Pharmacology",
+        "is_major": true,
+        "ui": "D010600"
+      },
+      {
+        "term": "Pharmacology, Clinical",
+        "is_major": true,
+        "ui": "D010601"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "complexity",
+        "is_major": false
+      },
+      {
+        "term": "model-order reduction",
+        "is_major": false
+      },
+      {
+        "term": "pharmacological models",
+        "is_major": false
+      },
+      {
+        "term": "quantitative systems pharmacology",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Quantitative systems pharmacology (QSP) is a relatively new discipline within modelling and simulation that has gained wide attention over the past few years. The application of QSP models spans drug-target identification and validation, through all drug development phases as well as clinical applications. Due to their detailed mechanistic nature, QSP models are capable of extrapolating knowledge to predict outcomes in scenarios that have not been tested experimentally, making them an important resource in experimental and clinical pharmacology. However, these models are complicated to work with due to their size and inherent complexity. This makes many applications of QSP models for simulation, parameter estimation and trial design computationally intractable. A number of techniques have been developed to simplify QSP models into smaller models that are more amenable to further analyses while retaining their accurate predictive capabilities. Different simplification techniques have different strengths and weaknesses and hence different utilities. Understanding the utilities of different methods is essential for selection of the best method for a particular situation. In this paper, we have created an overall framework for model simplification techniques that allows a natural categorisation of methods based on their utility. We provide a brief description of the concept underpinning the different methods and example applications. A summary of the utilities of methods is intended to provide a guide to modellers in their model endeavours to simplify these complicated models."
+  },
+  {
+    "rank": 6,
+    "score": 5.442798137664795,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 4571773,
+    "chunk_id": 4571773,
+    "pmid": "35712824",
+    "title": "Development of and insights from systems pharmacology models of antibody-drug conjugates.",
+    "year": 2022,
+    "journal": "CPT: pharmacometrics & systems pharmacology",
+    "authors": [
+      "Inez Lam",
+      "Venkatesh Pilla Reddy",
+      "Kathryn Ball",
+      "Rosalinda H Arends",
+      "Feilim Mac Gabhann"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Immunoconjugates",
+        "is_major": true,
+        "ui": "D018796"
+      },
+      {
+        "term": "Models, Biological",
+        "is_major": false,
+        "ui": "D008954"
+      },
+      {
+        "term": "Network Pharmacology",
+        "is_major": false,
+        "ui": "D000091484"
+      },
+      {
+        "term": "Pharmacology",
+        "is_major": true,
+        "ui": "D010600"
+      }
+    ],
+    "keywords": [],
+    "citations": [],
+    "text": "Antibody-drug conjugates (ADCs) have gained traction in the oncology space in the past few decades, with significant progress being made in recent years. Although the use of pharmacometric modeling is well-established in the drug development process, there is an increasing need for a better quantitative biological understanding of the pharmacokinetic and pharmacodynamic relationships of these complex molecules. Quantitative systems pharmacology (QSP) approaches can assist in this endeavor; recent computational QSP models incorporate ADC-specific mechanisms and use data-driven simulations to predict experimental outcomes. Various modeling approaches and platforms have been developed at the in vitro, in vivo, and clinical scales, and can be further integrated to facilitate preclinical to clinical translation. These new tools can help researchers better understand the nature and mechanisms of these targeted therapies to help achieve a more favorable therapeutic window. This review delves into the world of systems pharmacology modeling of ADCs, discussing various modeling efforts in the field thus far."
+  },
+  {
+    "rank": 7,
+    "score": 5.442798137664795,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 2362088,
+    "chunk_id": 2362088,
+    "pmid": "38364957",
+    "title": "An account on the history of pharmacology in Spain.",
+    "year": 2024,
+    "journal": "Pharmacological research",
+    "authors": [
+      "Ana Mar\u00eda Aldea-Perona",
+      "Jes\u00fas Fl\u00f3rez Beledo",
+      "Jes\u00fas Fr\u00edas Iniesta",
+      "Antonio G Garc\u00eda",
+      "Juan Tamargo",
+      "Francisco Zaragoz\u00e1"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Spain",
+        "is_major": false,
+        "ui": "D013030"
+      },
+      {
+        "term": "Europe",
+        "is_major": false,
+        "ui": "D005060"
+      },
+      {
+        "term": "Pharmacology, Clinical",
+        "is_major": true,
+        "ui": "D010601"
+      },
+      {
+        "term": "Pharmacogenetics",
+        "is_major": false,
+        "ui": "D010597"
+      },
+      {
+        "term": "Pharmacology",
+        "is_major": true,
+        "ui": "D010600"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Cardiovascular pharmacology",
+        "is_major": false
+      },
+      {
+        "term": "Clinical pharmacology",
+        "is_major": false
+      },
+      {
+        "term": "History",
+        "is_major": false
+      },
+      {
+        "term": "Neuropsichopharmacology",
+        "is_major": false
+      },
+      {
+        "term": "Pharmacology in Spain",
+        "is_major": false
+      }
+    ],
+    "citations": [
+      {
+        "type": "ErratumIn",
+        "source": "Pharmacol Res. 2024 Jul;205:107240. doi: 10.1016/j.phrs.2024.107240",
+        "pmid": "38821766"
+      }
+    ],
+    "text": "Here we present an account on the history of pharmacology in Spain. Pharmacology as an independent science in Europe began with the creation of university chairs. Of particular relevance was the appointment in 1872 of Osswald Shmiedeberg as chairman of an Institute of Pharmacology at the University of Strassbourg, Germany. Te\u00f3filo Hernando pioneered in Spain the new emerging pharmacology at the beginning of the XX Century. He made a posdoctoral stay in the laboratory of Schmiedeberg, working on digitalis. In 1912 he won the chair of \"Materia M\u00e9dica y Arte de Recetar\" at \"Universidad Central of Madrid\" (today, \"Universidad Complutense de Madrid\", UCM). He soon decided to transform such subject to the emerging modern pharmacology, with the teaching of experimental pharmacology in the third course of medical studies and clinical therapeutics (today clinical pharmacology) in the sixth course. This was the status of pharmacology in 1920, supporting the view that Hernando was a pioneer of clinical pharmacology. However, the Spanish Civil War and the II Word War interropted this division of preclinical and clinical pharmacology; only in the 1980's was clinical pharmacolgy partially developed in Spain. From a scientific point of view, Hernando directly trained various young pharmacologists that extended the new science to various Spanish universities. Some of his direct disciples were Benigno Lorenzo Vel\u00e1zquez, Francisco Garc\u00eda Valdecasas, Rafael M\u00e9ndez, Tom\u00e1s Alday, Gabriel S\u00e1nchez de la Cuesta, D\u00e1maso Guti\u00e9rrez or Ram\u00f3n P\u00a0\u00e9\u00a0rez-Cirera. One of the central research subject was the analysis of the effects of digitalis on the cat and frog heart. In the initiation of the 1970\u00a0s pharmacologists trained by those Hernando's students grew throughout various universities and the \"Consejo Superior de Investigaciones Cient\u00edficas\" (CSIC). And hence, in 1972 the \"Sociedad Espa\u00f1ola de Farmacolog\u00eda\" (SEF) emerged. Later on, in the 1990's the \"Sociedad Espa\u00f1ola de Farmacolog\u00eda Cl\u00ednica (SEFC) also emerged. The relationship between the two societies is still weak. Out of the vast scope of the pharmacological sciences, Spanish pharmacologists have made relevant contributions in two areas namely, neuropsychopharmacology and cardiovacular pharmacology. Nonetheless, in other areas such as smooth muscle, gastroenterology, pharmacogenetics and hepatic toxicity, Spanish pharmacologists have also made relevant contributions. A succint description of such contributions is made. Finally, some hints on perspectives for the further development of preclinical and clinical pharmacology in Spain, are offered."
+  },
+  {
+    "rank": 8,
+    "score": 5.442798137664795,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 2276583,
+    "chunk_id": 2276583,
+    "pmid": "38447748",
+    "title": "Beyond lectures and practical courses: Teaching pharmacology using imaginative pedagogical tools.",
+    "year": 2024,
+    "journal": "Pharmacological research",
+    "authors": [
+      "J E Ba\u00f1os",
+      "E Blanco-Reina",
+      "I Bellido-Est\u00e9vez",
+      "F Bosch",
+      "M R Cabello",
+      "I Cambra-Badii",
+      "J P De la Cruz",
+      "P D'Oc\u00f3n",
+      "M D Ivorra",
+      "M Ferr\u00e1ndiz",
+      "J A Gonz\u00e1lez-Correa",
+      "E Mart\u00edn-Monta\u00f1ez",
+      "F Martos",
+      "J Pav\u00eda",
+      "E Sanz"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Learning",
+        "is_major": false,
+        "ui": "D007858"
+      },
+      {
+        "term": "Pharmacology, Clinical",
+        "is_major": true,
+        "ui": "D010601"
+      },
+      {
+        "term": "Health Personnel",
+        "is_major": false,
+        "ui": "D006282"
+      },
+      {
+        "term": "Pharmacology",
+        "is_major": true,
+        "ui": "D010600"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "European Prescribing Exam",
+        "is_major": false
+      },
+      {
+        "term": "Innovative pedagogical methods",
+        "is_major": false
+      },
+      {
+        "term": "Learning based on social service",
+        "is_major": false
+      },
+      {
+        "term": "Objective Structured Clinical Evaluation",
+        "is_major": false
+      },
+      {
+        "term": "Pharmacology learning networks",
+        "is_major": false
+      },
+      {
+        "term": "Popular movies",
+        "is_major": false
+      },
+      {
+        "term": "Social pharmacology",
+        "is_major": false
+      },
+      {
+        "term": "Television medical series",
+        "is_major": false
+      },
+      {
+        "term": "Virtual reality",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Pharmacology has broadened its scope considerably in recent decades. Initially, it was of interest to chemists, doctors and pharmacists. In recent years, however, it has been incorporated into the teaching of biologists, molecular biologists, biotechnologists, chemical engineers and many health professionals, among others. Traditional teaching methods, such as lectures or laboratory work, have been superseded by the use of new pedagogical approaches to enable a better conceptualization and understanding of the discipline. In this article, we present several new methods that have been used in Spanish universities. Firstly, we describe a teaching network that has allowed the sharing of pedagogical innovations in Spanish universities. A European experience to improve prescribing safety is described in detail. The use of popular films and medical TV series in biomedical students shows how these audiovisual resources can be helpful in teaching pharmacology. The use of virtual worlds is detailed to introduce this new approach to teaching. The increasingly important area of the social aspects of pharmacology is also considered in two sections, one devoted to social pharmacology and the other to the use of learning based on social services to improve understanding of this important area. Finally, the use of Objective Structured Clinical Evaluation in pharmacology allows to know how this approach can help to better evaluate clinical pharmacology students. In conclusion, this article allows to know new pedagogical methods resources used in some Spanish universities that may help to improve the teaching of pharmacology."
+  },
+  {
+    "rank": 9,
+    "score": 5.3158674240112305,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 4758564,
+    "chunk_id": 4758564,
+    "pmid": "35437719",
+    "title": "Applications of Quantitative System Pharmacology Modeling to Model-Informed Drug Development.",
+    "year": 2022,
+    "journal": "Methods in molecular biology (Clifton, N.J.)",
+    "authors": [
+      "Andy Z X Zhu",
+      "Mark Rogge"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Drug Development",
+        "is_major": false,
+        "ui": "D000076722"
+      },
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "Models, Biological",
+        "is_major": true,
+        "ui": "D008954"
+      },
+      {
+        "term": "Network Pharmacology",
+        "is_major": false,
+        "ui": "D000091484"
+      },
+      {
+        "term": "Pharmacology",
+        "is_major": true,
+        "ui": "D010600"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "Drug development",
+        "is_major": false
+      },
+      {
+        "term": "Drug discovery",
+        "is_major": false
+      },
+      {
+        "term": "Modeling",
+        "is_major": false
+      },
+      {
+        "term": "QSP",
+        "is_major": false
+      },
+      {
+        "term": "Workflow",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Significant advances in analytical technologies have dramatically improved our ability to deconvolute disease biology at molecular, cellular, and tissue levels. Quantitative system pharmacology (QSP) modeling is a computational framework to systematically integrate pharmaceutical properties of a drug candidate with scientific understanding of that deeper disease etiology, target expression, genetic variability, and human physiological processes, thus enabling more insightful drug development decisions related to efficacy and safety. In this chapter, we discuss the key attributes of QSP models in comparison to traditional models. We discuss a recommended four-step process to construct a QSP model to support drug development decisions. A number of illustrative QSP examples related to high-value drug development questions and decisions impacting target identification, lead generation and optimization, first in human studies, and clinical dose and schedule optimization are covered in the chapter. The future perspectives of QSP in the context of potential regulatory acceptance are also discussed."
+  },
+  {
+    "rank": 10,
+    "score": 5.3158674240112305,
+    "search_type": "bm25_mesh_terms",
+    "vector_id": 2747757,
+    "chunk_id": 2747757,
+    "pmid": "37852906",
+    "title": "Development of bispecific T cell engagers: harnessing quantitative systems pharmacology.",
+    "year": 2023,
+    "journal": "Trends in pharmacological sciences",
+    "authors": [
+      "Timothy Qi",
+      "Xiaozhi Liao",
+      "Yanguang Cao"
+    ],
+    "mesh_terms": [
+      {
+        "term": "Humans",
+        "is_major": false,
+        "ui": "D006801"
+      },
+      {
+        "term": "T-Lymphocytes",
+        "is_major": false,
+        "ui": "D013601"
+      },
+      {
+        "term": "Network Pharmacology",
+        "is_major": false,
+        "ui": "D000091484"
+      },
+      {
+        "term": "Immunotherapy",
+        "is_major": false,
+        "ui": "D007167"
+      },
+      {
+        "term": "Pharmacology",
+        "is_major": true,
+        "ui": "D010600"
+      },
+      {
+        "term": "Antibodies, Bispecific",
+        "is_major": true,
+        "ui": "D018033"
+      }
+    ],
+    "keywords": [
+      {
+        "term": "bispecific T cell engager",
+        "is_major": false
+      },
+      {
+        "term": "cancer",
+        "is_major": false
+      },
+      {
+        "term": "quantitative systems pharmacology",
+        "is_major": false
+      }
+    ],
+    "citations": [],
+    "text": "Bispecific T cell engagers (bsTCEs) have emerged as a promising class of cancer immunotherapy. Several bsTCEs have achieved marketing approval; dozens more are under clinical investigation. However, the clinical development of bsTCEs remains rife with challenges, including nuanced pharmacology, limited translatability of preclinical findings, frequent on-target toxicity, and convoluted dosing regimens. In this opinion article we present a distinct perspective on how quantitative systems pharmacology (QSP) can serve as a powerful tool for overcoming these obstacles. Recent advances in QSP modeling have empowered developers of bsTCEs to gain a deeper understanding of their context-dependent pharmacology, bridge gaps in experimental data, guide first-in-human (FIH) dose selection, design dosing regimens with expanded therapeutic windows, and improve long-term treatment outcomes. We use recent case studies to exemplify the potential of QSP techniques to support future bsTCE development."
+  }
+]

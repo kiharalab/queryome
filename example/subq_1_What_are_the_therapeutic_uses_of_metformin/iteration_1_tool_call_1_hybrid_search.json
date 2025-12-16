@@ -1,0 +1,7 @@
+{
+  "name": "hybrid_search",
+  "arguments": {
+    "query": "therapeutic uses of metformin",
+    "alpha": 0.7
+  }
+}

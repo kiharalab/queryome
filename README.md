@@ -75,6 +75,45 @@ python queryome_cli.py --query "What are the latest treatments for Type 2 diabet
 python queryome_cli.py --query "Efficacy of metformin in elderly patients" --log-dir ./my_logs
 ```
 
+### Example Run (Expected Output + Runtime)
+
+The directory `example/` in this repo is a captured run log for the query `"tell me about metformin"` (see `example/run_log.txt` and `example/pi_final_answer.txt`).
+
+```bash
+python queryome_cli.py --query "tell me about metformin" 
+```
+
+Truncated expected output:
+
+```text
+Here's an overview of metformin based on recent research findings:
+
+### Mechanism of Action
+Metformin primarily works by reducing hepatic glucose production ... [1,2]
+
+### Therapeutic Uses
+Metformin is widely used as a first-line treatment for T2DM ... [3,4]
+
+### Side Effects
+Common side effects include gastrointestinal disturbances ... [5,6]
+
+### Current Research Trends
+Research is expanding metformin's application beyond diabetes ... [7,8]
+
+## References
+[1] Viollet & Foretz (2013). PMID: 23582849
+[2] Foretz et al. (2019). PMID: 31439934
+...
+```
+
+Runtime notes (from the captured run):
+- End-to-end (PI start → final answer): ~4m 03s
+- Subagent phase: 4 subquestions, 4 parallel workers, ~3m 49s, 73 total articles collected
+
+Runtime scaling (rough estimates; dominated by LLM latency + search depth):
+- Without subagents (single-agent / sequential subquestions): ~1-4 min
+- With subagents (up to 10 workers): 4–15 min for 5-10 subquestions (often bounded by the slowest subquestion)
+
 ### Python API
 
 **Single Query:**

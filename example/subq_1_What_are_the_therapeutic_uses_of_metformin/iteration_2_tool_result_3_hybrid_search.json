@@ -1,0 +1,924 @@
+{
+  "query": "therapeutic uses of metformin in gastrointestinal health",
+  "search_type": "hybrid",
+  "parameters": {
+    "k": 10,
+    "alpha": 0.5
+  },
+  "results_count": 10,
+  "results": [
+    {
+      "rank": 1,
+      "score": 0.8016583461485565,
+      "search_type": "hybrid",
+      "vector_id": 2109436,
+      "chunk_id": 2109436,
+      "pmid": "38617792",
+      "title": "Understanding the action mechanisms of metformin in the gastrointestinal tract.",
+      "year": 2024,
+      "journal": "Frontiers in pharmacology",
+      "authors": [
+        "Meihui Cheng",
+        "Lili Ren",
+        "Xianxian Jia",
+        "Jianwei Wang",
+        "Bin Cong"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        {
+          "term": "drug mechanism",
+          "is_major": false
+        },
+        {
+          "term": "gastrointestinal tract",
+          "is_major": false
+        },
+        {
+          "term": "gut microbiota",
+          "is_major": false
+        },
+        {
+          "term": "metformin",
+          "is_major": false
+        },
+        {
+          "term": "type 2 diabetes",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Metformin is the initial medication recommended for the treatment of type 2 diabetes mellitus (T2DM). In addition to diabetes treatment, the function of metformin also can be anti-aging, antiviral, and anti-inflammatory. Nevertheless, further exploration is required to fully understand its mode of operation. Historically, the liver has been acknowledged as the main location where metformin reduces glucose levels, however, there is increasing evidence suggesting that the gastrointestinal tract also plays a significant role in its action. In the gastrointestinal tract, metformin effects glucose uptake and absorption, increases glucagon-like peptide-1 (GLP-1) secretion, alters the composition and structure of the gut microbiota, and modulates the immune response. However, the side effects of it cannot be ignored such as gastrointestinal distress in patients. This review outlines the impact of metformin on the digestive system and explores potential explanations for variations in metformin effectiveness and adverse effects like gastrointestinal discomfort."
+    },
+    {
+      "rank": 2,
+      "score": 0.790258608112216,
+      "search_type": "hybrid",
+      "vector_id": 10841663,
+      "chunk_id": 10841663,
+      "pmid": "27987248",
+      "title": "Understanding and overcoming metformin gastrointestinal intolerance.",
+      "year": 2017,
+      "journal": "Diabetes, obesity & metabolism",
+      "authors": [
+        "Fabrice Bonnet",
+        "André Scheen"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Diabetes Mellitus, Type 2",
+          "is_major": false,
+          "ui": "D003924"
+        },
+        {
+          "term": "Gastrointestinal Diseases",
+          "is_major": false,
+          "ui": "D005767"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Hypoglycemic Agents",
+          "is_major": false,
+          "ui": "D007004"
+        },
+        {
+          "term": "Metformin",
+          "is_major": false,
+          "ui": "D008687"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "gastrointestinal intolerance",
+          "is_major": false
+        },
+        {
+          "term": "metformin",
+          "is_major": false
+        },
+        {
+          "term": "microbiota",
+          "is_major": false
+        },
+        {
+          "term": "type 2 diabetes mellitus",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Metformin is the most widely prescribed drug for patients with type 2 diabetes mellitus and the first-line pharmacological option as supported by multiple international guidelines, yet a rather large proportion of patients cannot tolerate metformin in adequate amounts because of its associated gastrointestinal (GI) adverse events (AEs). GI AEs typically encountered with metformin therapy include diarrhoea, nausea, flatulence, indigestion, vomiting and abdominal discomfort, with diarrhoea and nausea being the most common. Although starting at a low dose and titrating slowly may help prevent some GI AEs associated with metformin, some patients are unable to tolerate metformin at all and it may also be difficult to convince patients to start metformin again after a bout of GI AEs. Despite this clinical importance, the underlying mechanisms of the GI intolerance associated with metformin are poorly known. In the present review, we discuss: the epidemiology of metformin-associated GI intolerance and its underlying mechanisms; genotype variability and associated factors affecting metformin GI intolerance, such as comorbidities, co-medications and bariatric surgery; clinical consequences and therapeutic strategies to overcome metformin GI intolerance. These strategies include appropriate titration of immediate-release metformin, use of extended-release metformin, the promise of delayed-release metformin and gut microbiome modulators, as well as alternative pharmacological therapies when metformin cannot be tolerated at all. Given the available data, all efforts should be made to maintain metformin before considering a shift to another drug therapy."
+    },
+    {
+      "rank": 3,
+      "score": 0.6566640189832804,
+      "search_type": "hybrid",
+      "vector_id": 6740266,
+      "chunk_id": 6740266,
+      "pmid": "33105165",
+      "title": "Metformin and Gastrointestinal Cancer Development in Newly Diagnosed Type 2 Diabetes: A Population-Based Study in Korea.",
+      "year": 2020,
+      "journal": "Clinical and translational gastroenterology",
+      "authors": [
+        "Ji Hong You",
+        "Sun Ok Song",
+        "Min Jin Kang",
+        "Yoon Young Cho",
+        "Sun Wook Kim",
+        "Sung Hwan Suh",
+        "Sujin Lee",
+        "Yong-Ho Lee",
+        "Byung-Wan Lee"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Adolescent",
+          "is_major": false,
+          "ui": "D000293"
+        },
+        {
+          "term": "Adult",
+          "is_major": false,
+          "ui": "D000328"
+        },
+        {
+          "term": "Aged",
+          "is_major": false,
+          "ui": "D000368"
+        },
+        {
+          "term": "Aged, 80 and over",
+          "is_major": false,
+          "ui": "D000369"
+        },
+        {
+          "term": "Child",
+          "is_major": false,
+          "ui": "D002648"
+        },
+        {
+          "term": "Child, Preschool",
+          "is_major": false,
+          "ui": "D002675"
+        },
+        {
+          "term": "Diabetes Mellitus, Type 2",
+          "is_major": false,
+          "ui": "D003924"
+        },
+        {
+          "term": "Female",
+          "is_major": false,
+          "ui": "D005260"
+        },
+        {
+          "term": "Follow-Up Studies",
+          "is_major": false,
+          "ui": "D005500"
+        },
+        {
+          "term": "Gastrointestinal Neoplasms",
+          "is_major": false,
+          "ui": "D005770"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Hypoglycemic Agents",
+          "is_major": false,
+          "ui": "D007004"
+        },
+        {
+          "term": "Incidence",
+          "is_major": false,
+          "ui": "D015994"
+        },
+        {
+          "term": "Infant",
+          "is_major": false,
+          "ui": "D007223"
+        },
+        {
+          "term": "Infant, Newborn",
+          "is_major": false,
+          "ui": "D007231"
+        },
+        {
+          "term": "Male",
+          "is_major": false,
+          "ui": "D008297"
+        },
+        {
+          "term": "Metformin",
+          "is_major": false,
+          "ui": "D008687"
+        },
+        {
+          "term": "Middle Aged",
+          "is_major": false,
+          "ui": "D008875"
+        },
+        {
+          "term": "Proportional Hazards Models",
+          "is_major": false,
+          "ui": "D016016"
+        },
+        {
+          "term": "Republic of Korea",
+          "is_major": false,
+          "ui": "D056910"
+        },
+        {
+          "term": "Retrospective Studies",
+          "is_major": false,
+          "ui": "D012189"
+        },
+        {
+          "term": "Risk Assessment",
+          "is_major": false,
+          "ui": "D018570"
+        },
+        {
+          "term": "Risk Factors",
+          "is_major": false,
+          "ui": "D012307"
+        },
+        {
+          "term": "Young Adult",
+          "is_major": false,
+          "ui": "D055815"
+        }
+      ],
+      "keywords": [],
+      "citations": [],
+      "text": "INTRODUCTION: Clinical studies have produced conflicting results on the effects of metformin on gastrointestinal cancer development. We aimed to investigate the association between metformin use and stomach, colon, liver, and pancreatic cancer development among patients with newly diagnosed, drug-naïve type 2 diabetes.\n\nMETHODS: This retrospective study evaluated propensity score-matched patients with newly diagnosed type 2 diabetes from the Korean National Health Insurance Service database. Metformin users were categorized into tertiles according to the cumulative dose or duration of metformin treatment, and the risks of gastrointestinal cancers were compared.\n\nRESULTS: Metformin users had reduced risks of developing stomach cancer (hazard ratio [HR]: 0.841, 95% confidence interval [CI]: 0.797-0.887), colon cancer (HR: 0.865, 95% CI: 0.822-0.91), and liver cancer (HR: 0.709, 95% CI: 0.675-0.746; P < 0.001). However, metformin users did not have a reduced overall risk of pancreatic cancer (HR: 1.335, 95% CI: 1.209-1.475; P < 0.001). The risks tended to decrease at higher cumulative doses and durations of metformin use, with significantly reduced risks of all 4 cancers at the highest cumulative dose (≥1,200,000 mg) and the longest duration (≥2,000 days) of metformin use.\n\nDISCUSSION: This population-based data suggest that metformin could be associated with reductions in the risks of stomach, colon, and liver cancers, as well a reduced risk of pancreatic cancer in some subgroups. Metformin has benefit as a first-line treatment for type 2 diabetes mellitus. A further role in cancer risk reduction could be studied in controlled trials."
+    },
+    {
+      "rank": 4,
+      "score": 0.6490510365006411,
+      "search_type": "hybrid",
+      "vector_id": 3897672,
+      "chunk_id": 3897672,
+      "pmid": "36484892",
+      "title": "Metformin in therapeutic applications in human diseases: its mechanism of action and clinical study.",
+      "year": 2022,
+      "journal": "Molecular biomedicine",
+      "authors": [
+        "Yang Du",
+        "Ya-Juan Zhu",
+        "Yi-Xin Zhou",
+        "Jing Ding",
+        "Ji-Yan Liu"
+      ],
+      "mesh_terms": [],
+      "keywords": [
+        {
+          "term": "AMPK",
+          "is_major": false
+        },
+        {
+          "term": "Adverse effects",
+          "is_major": false
+        },
+        {
+          "term": "Gut microbiome",
+          "is_major": false
+        },
+        {
+          "term": "Metformin",
+          "is_major": false
+        },
+        {
+          "term": "Mitochondria",
+          "is_major": false
+        },
+        {
+          "term": "Redox balance",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Metformin, a biguanide drug, is the most commonly used first-line medication for type 2 diabetes mellites due to its outstanding glucose-lowering ability. After oral administration of 1 g, metformin peaked plasma concentration of approximately 20-30 μM in 3 h, and then it mainly accumulated in the gastrointestinal tract, liver and kidney. Substantial studies have indicated that metformin exerts its beneficial or deleterious effect by multiple mechanisms, apart from AMPK-dependent mechanism, also including several AMPK-independent mechanisms, such as restoring of redox balance, affecting mitochondrial function, modulating gut microbiome and regulating several other signals, such as FBP1, PP2A, FGF21, SIRT1 and mTOR. On the basis of these multiple mechanisms, researchers tried to repurpose this old drug and further explored the possible indications and adverse effects of metformin. Through investigating with clinical studies, researchers concluded that in addition to decreasing cardiovascular events and anti-obesity, metformin is also beneficial for neurodegenerative disease, polycystic ovary syndrome, aging, cancer and COVID-19, however, it also induces some adverse effects, such as gastrointestinal complaints, lactic acidosis, vitamin B12 deficiency, neurodegenerative disease and offspring impairment. Of note, the dose of metformin used in most studies is much higher than its clinically relevant dose, which may cast doubt on the actual effects of metformin on these disease in the clinic. This review summarizes these research developments on the mechanism of action and clinical evidence of metformin and discusses its therapeutic potential and clinical safety."
+    },
+    {
+      "rank": 5,
+      "score": 0.647647441891763,
+      "search_type": "hybrid",
+      "vector_id": 879629,
+      "chunk_id": 879629,
+      "pmid": "37863262",
+      "title": "Metformin inhibits digestive proteases and impairs protein digestion in mice.",
+      "year": 2023,
+      "journal": "The Journal of biological chemistry",
+      "authors": [
+        "Caleb J Kelly",
+        "Andrew A Verdegaal",
+        "Brent W Anderson",
+        "William L Shaw",
+        "Natasha A Bencivenga-Barry",
+        "Ewa Folta-Stogniew",
+        "Andrew L Goodman"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Animals",
+          "is_major": false,
+          "ui": "D000818"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Mice",
+          "is_major": false,
+          "ui": "D051379"
+        },
+        {
+          "term": "Diabetes Mellitus, Type 2",
+          "is_major": false,
+          "ui": "D003924"
+        },
+        {
+          "term": "Enteropeptidase",
+          "is_major": true,
+          "ui": "D004765"
+        },
+        {
+          "term": "Metformin",
+          "is_major": true,
+          "ui": "D008687"
+        },
+        {
+          "term": "Proteolysis",
+          "is_major": true,
+          "ui": "D059748"
+        },
+        {
+          "term": "Enzyme Activation",
+          "is_major": false,
+          "ui": "D004789"
+        },
+        {
+          "term": "Gastrointestinal Tract",
+          "is_major": false,
+          "ui": "D041981"
+        },
+        {
+          "term": "Trypsin",
+          "is_major": false,
+          "ui": "D014357"
+        },
+        {
+          "term": "Hypoglycemic Agents",
+          "is_major": false,
+          "ui": "D007004"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "diabetes",
+          "is_major": false
+        },
+        {
+          "term": "enteropeptidase",
+          "is_major": false
+        },
+        {
+          "term": "intestine",
+          "is_major": false
+        },
+        {
+          "term": "maldigestion",
+          "is_major": false
+        },
+        {
+          "term": "metformin",
+          "is_major": false
+        },
+        {
+          "term": "protease",
+          "is_major": false
+        },
+        {
+          "term": "protein degradation",
+          "is_major": false
+        },
+        {
+          "term": "trypsin",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Metformin is among the most prescribed medications worldwide and the first-line therapy for type 2 diabetes. However, gastrointestinal side effects are common and can be dose limiting. The total daily metformin dose frequently reaches several grams, and poor absorption results in high intestinal drug concentrations. Here, we report that metformin inhibits the activity of enteropeptidase and other digestive enzymes at drug concentrations predicted to occur in the human duodenum. Treatment of mouse gastrointestinal tissue with metformin reduces enteropeptidase activity; further, metformin-treated mice exhibit reduced enteropeptidase activity, reduced trypsin activity, and impaired protein digestion within the intestinal lumen. These results indicate that metformin-induced protein maldigestion could contribute to the gastrointestinal side effects and other impacts of this widely used drug."
+    },
+    {
+      "rank": 6,
+      "score": 0.647647441891763,
+      "search_type": "hybrid",
+      "vector_id": 2756394,
+      "chunk_id": 2756394,
+      "pmid": "37863262",
+      "title": "Metformin inhibits digestive proteases and impairs protein digestion in mice.",
+      "year": 2023,
+      "journal": "The Journal of biological chemistry",
+      "authors": [
+        "Caleb J Kelly",
+        "Andrew A Verdegaal",
+        "Brent W Anderson",
+        "William L Shaw",
+        "Natasha A Bencivenga-Barry",
+        "Ewa Folta-Stogniew",
+        "Andrew L Goodman"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Animals",
+          "is_major": false,
+          "ui": "D000818"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Mice",
+          "is_major": false,
+          "ui": "D051379"
+        },
+        {
+          "term": "Diabetes Mellitus, Type 2",
+          "is_major": false,
+          "ui": "D003924"
+        },
+        {
+          "term": "Enteropeptidase",
+          "is_major": true,
+          "ui": "D004765"
+        },
+        {
+          "term": "Metformin",
+          "is_major": true,
+          "ui": "D008687"
+        },
+        {
+          "term": "Proteolysis",
+          "is_major": true,
+          "ui": "D059748"
+        },
+        {
+          "term": "Enzyme Activation",
+          "is_major": false,
+          "ui": "D004789"
+        },
+        {
+          "term": "Gastrointestinal Tract",
+          "is_major": false,
+          "ui": "D041981"
+        },
+        {
+          "term": "Trypsin",
+          "is_major": false,
+          "ui": "D014357"
+        },
+        {
+          "term": "Hypoglycemic Agents",
+          "is_major": false,
+          "ui": "D007004"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "diabetes",
+          "is_major": false
+        },
+        {
+          "term": "enteropeptidase",
+          "is_major": false
+        },
+        {
+          "term": "intestine",
+          "is_major": false
+        },
+        {
+          "term": "maldigestion",
+          "is_major": false
+        },
+        {
+          "term": "metformin",
+          "is_major": false
+        },
+        {
+          "term": "protease",
+          "is_major": false
+        },
+        {
+          "term": "protein degradation",
+          "is_major": false
+        },
+        {
+          "term": "trypsin",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Metformin is among the most prescribed medications worldwide and the first-line therapy for type 2 diabetes. However, gastrointestinal side effects are common and can be dose limiting. The total daily metformin dose frequently reaches several grams, and poor absorption results in high intestinal drug concentrations. Here, we report that metformin inhibits the activity of enteropeptidase and other digestive enzymes at drug concentrations predicted to occur in the human duodenum. Treatment of mouse gastrointestinal tissue with metformin reduces enteropeptidase activity; further, metformin-treated mice exhibit reduced enteropeptidase activity, reduced trypsin activity, and impaired protein digestion within the intestinal lumen. These results indicate that metformin-induced protein maldigestion could contribute to the gastrointestinal side effects and other impacts of this widely used drug."
+    },
+    {
+      "rank": 7,
+      "score": 0.6328562712645603,
+      "search_type": "hybrid",
+      "vector_id": 2763750,
+      "chunk_id": 2763750,
+      "pmid": "37871735",
+      "title": "The co-regulation of the gut microbiome and host genes might play essential roles in metformin gastrointestinal intolerance.",
+      "year": 2023,
+      "journal": "Toxicology and applied pharmacology",
+      "authors": [
+        "Huixiang Zhang",
+        "Jiao Lai",
+        "Lihuan Zhang",
+        "Wei Zhang",
+        "Xun Liu",
+        "Qilin Gong",
+        "Hongxi Tian",
+        "Mingzhi Yang",
+        "Tao Yang",
+        "Rui Zhao",
+        "Dongqing Li",
+        "Hehua Huang",
+        "Ya Zhao",
+        "Shan Yan",
+        "Ming Yu",
+        "Yanbin Xiyang",
+        "Lanlan Shi",
+        "Lirong Yang",
+        "Limei Wang",
+        "Weiwen Chen",
+        "Xue Cao"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Metformin",
+          "is_major": true,
+          "ui": "D008687"
+        },
+        {
+          "term": "Gastrointestinal Microbiome",
+          "is_major": true,
+          "ui": "D000069196"
+        },
+        {
+          "term": "Diabetes Mellitus, Type 2",
+          "is_major": true,
+          "ui": "D003924"
+        },
+        {
+          "term": "RNA, Ribosomal, 16S",
+          "is_major": false,
+          "ui": "D012336"
+        },
+        {
+          "term": "Bile Acids and Salts",
+          "is_major": false,
+          "ui": "D001647"
+        },
+        {
+          "term": "Anti-Inflammatory Agents",
+          "is_major": false,
+          "ui": "D000893"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "Co-regulation",
+          "is_major": false
+        },
+        {
+          "term": "Gastrointestinal intolerance",
+          "is_major": false
+        },
+        {
+          "term": "Gut microbiome",
+          "is_major": false
+        },
+        {
+          "term": "Host genes",
+          "is_major": false
+        },
+        {
+          "term": "Metformin",
+          "is_major": false
+        },
+        {
+          "term": "Type 2 diabetes",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "Metformin is commonly used, but approximately 20% of patients experience gastrointestinal intolerance, leading to medication discontinuation for unclear reasons and a lack of effective management strategies. In this study, the 18 fecal and blood samples were analyzed using 16S rRNA and mRNA transcriptome, respectively. These samples included 3 fecal and 4 blood from metformin-tolerant T2D patients before and after metformin treatment (T and Ta), 3 fecal and 5 blood from metformin-intolerant T2D patients before and after treatment (TS and TSa), and 6 fecal samples from healthy controls. The results showed that certain anti-inflammatory gut bacteria and gene, such as Barnesiella (p = 0.046), Parabacteroides goldsteinii (p = 0.016), and the gene JUND (p = 0.0002), exhibited higher levels in metformin-intolerant patients, and which decreased after metformin treatment (p < 0.05). This potentially invalidates patients' anti-inflammatory effect and intestinal mucus barrier protection, which may lead to alterations in intestinal permeability, decreased gut barrier function, and gastrointestinal symptoms, including diarrhea, bloating, and nausea. After metformin treatment, primary bile acids (PBAs) production species: Weissella confusa, Weissella paramesenteroides, Lactobacillus brevis, and Lactobacillus plantarum increased (p < 0.05). The species converting PBAs to secondary bile acids (SBAs): Parabacteroides distasonis decreased (p < 0.05). This might result in accumulation of PBAs, which also may lead to anti-inflammatory gene JUND and SQSTM1 downregulated. In conclusion, this study suggests that metformin intolerance may be attributed to a decrease in anti-inflammatory-related flora and genes, and also alterations in PBAs accumulation-related flora. These findings open up possibilities for future research targeting gut flora and host genes to prevent metformin intolerance."
+    },
+    {
+      "rank": 8,
+      "score": 0.6164755555075663,
+      "search_type": "hybrid",
+      "vector_id": 27759189,
+      "chunk_id": 27759189,
+      "pmid": "39470509",
+      "title": "Metformin: Diverse molecular mechanisms, gastrointestinal effects and overcoming intolerance in type 2 Diabetes Mellitus: A review.",
+      "year": 2024,
+      "journal": "Medicine",
+      "authors": [
+        "Sami Mohamed"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Diabetes Mellitus, Type 2",
+          "is_major": true,
+          "ui": "D003924"
+        },
+        {
+          "term": "Metformin",
+          "is_major": true,
+          "ui": "D008687"
+        },
+        {
+          "term": "Hypoglycemic Agents",
+          "is_major": true,
+          "ui": "D007004"
+        },
+        {
+          "term": "Gastrointestinal Microbiome",
+          "is_major": false,
+          "ui": "D000069196"
+        },
+        {
+          "term": "Gastrointestinal Tract",
+          "is_major": false,
+          "ui": "D041981"
+        }
+      ],
+      "keywords": [],
+      "citations": [],
+      "text": "Metformin, the first line treatment for patients with type 2 diabetes mellitus, has alternative novel roles, including cancer and diabetes prevention. This narrative review aims to explore its diverse mechanisms, effects and intolerance, using sources obtained by searching Scopus, PubMed and Web of Science databases, and following Scale for the Assessment of Narrative Review Articles reporting guidelines. Metformin exerts it actions through duration influenced, and organ specific, diverse mechanisms. Its use is associated with inhibition of hepatic gluconeogenesis targeted by mitochondria and lysosomes, reduction of cholesterol levels involving brown adipose tissue, weight reduction influenced by growth differentiation factor 15 and novel commensal bacteria, in addition to counteraction of meta-inflammation alongside immuno-modulation. Interactions with the gastrointestinal tract include alteration of gut microbiota, enhancement of glucose uptake and glucagon like peptide 1 and reduction of bile acid absorption. Though beneficial, they may be linked to intolerance. Metformin related gastrointestinal adverse effects are associated with dose escalation, immediate release formulations, gut microbiota alteration, epigenetic predisposition, inhibition of organic cation transporters in addition to interactions with serotonin, histamine and the enterohepatic circulation. Potentially effective measures to overcome intolerance encompasses carefully objective targeted dose escalation, prescription of fixed dose combination, microbiome modulators and prebiotics, in addition to use of extended release formulations."
+    },
+    {
+      "rank": 9,
+      "score": 0.6030385474008402,
+      "search_type": "hybrid",
+      "vector_id": 12513947,
+      "chunk_id": 12513947,
+      "pmid": "25802471",
+      "title": "Addition of a Gastrointestinal Microbiome Modulator to Metformin Improves Metformin Tolerance and Fasting Glucose Levels.",
+      "year": 2015,
+      "journal": "Journal of diabetes science and technology",
+      "authors": [
+        "Jeffrey H Burton",
+        "Matthew Johnson",
+        "Jolene Johnson",
+        "Daniel S Hsia",
+        "Frank L Greenway",
+        "Mark L Heiman"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Adult",
+          "is_major": false,
+          "ui": "D000328"
+        },
+        {
+          "term": "Aged",
+          "is_major": false,
+          "ui": "D000368"
+        },
+        {
+          "term": "Blood Glucose",
+          "is_major": false,
+          "ui": "D001786"
+        },
+        {
+          "term": "Body Mass Index",
+          "is_major": false,
+          "ui": "D015992"
+        },
+        {
+          "term": "Cross-Over Studies",
+          "is_major": false,
+          "ui": "D018592"
+        },
+        {
+          "term": "Diabetes Mellitus, Type 2",
+          "is_major": false,
+          "ui": "D003924"
+        },
+        {
+          "term": "Fasting",
+          "is_major": true,
+          "ui": "D005215"
+        },
+        {
+          "term": "Female",
+          "is_major": false,
+          "ui": "D005260"
+        },
+        {
+          "term": "Food, Formulated",
+          "is_major": true,
+          "ui": "D005526"
+        },
+        {
+          "term": "Gastrointestinal Microbiome",
+          "is_major": false,
+          "ui": "D000069196"
+        },
+        {
+          "term": "Glucose Tolerance Test",
+          "is_major": false,
+          "ui": "D005951"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Hypoglycemic Agents",
+          "is_major": false,
+          "ui": "D007004"
+        },
+        {
+          "term": "Inulin",
+          "is_major": false,
+          "ui": "D007444"
+        },
+        {
+          "term": "Male",
+          "is_major": false,
+          "ui": "D008297"
+        },
+        {
+          "term": "Metformin",
+          "is_major": false,
+          "ui": "D008687"
+        },
+        {
+          "term": "Middle Aged",
+          "is_major": false,
+          "ui": "D008875"
+        },
+        {
+          "term": "Pilot Projects",
+          "is_major": false,
+          "ui": "D010865"
+        },
+        {
+          "term": "Plant Extracts",
+          "is_major": false,
+          "ui": "D010936"
+        },
+        {
+          "term": "Polyphenols",
+          "is_major": false,
+          "ui": "D059808"
+        },
+        {
+          "term": "Treatment Outcome",
+          "is_major": false,
+          "ui": "D016896"
+        },
+        {
+          "term": "beta-Glucans",
+          "is_major": false,
+          "ui": "D047071"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "GI adverse events",
+          "is_major": false
+        },
+        {
+          "term": "NM504",
+          "is_major": false
+        },
+        {
+          "term": "glucose",
+          "is_major": false
+        },
+        {
+          "term": "metformin",
+          "is_major": false
+        },
+        {
+          "term": "metformin intolerance",
+          "is_major": false
+        },
+        {
+          "term": "microbiome modulator",
+          "is_major": false
+        }
+      ],
+      "citations": [],
+      "text": "BACKGROUND: Adverse effects of metformin are primarily related to gastrointestinal (GI) intolerance that could limit titration to an efficacious dose or cause discontinuation of the medication. Because some metformin side effects may be attributable to shifts in the GI microbiome, we tested whether a GI microbiome modulator (GIMM) used in combination with metformin would ameliorate the GI symptoms.\n\nMETHODS: A 2-period crossover study design was used with 2 treatment sequences, either placebo in period 1 followed by GIMM in period 2 or vice versa. Study periods lasted for 2 weeks, with a 2-week washout period between. During the first week, type 2 diabetes patients (T2D) who experienced metformin GI intolerance took 500 mg metformin along with their assigned NM504 (GIMM) or placebo treatment with breakfast and with dinner. In the second week, the 10 subjects took 500 mg metformin (t.i.d.), with GIMM or placebo consumed with the first and third daily metformin doses. Subjects were permitted to discontinue metformin dosing if it became intolerable.\n\nRESULTS: The combination of metformin and GIMM treatment produced a significantly better tolerance score to metformin than the placebo combination (6.78 ± 0.65 [mean ± SEM] versus 4.45 ± 0.69, P = .0006). Mean fasting glucose levels were significantly (P < .02) lower with the metformin-GIMM combination (121.3 ± 7.8 mg/dl) than with metformin-placebo (151.9 ± 7.8 mg/dl).\n\nCONCLUSION: Combining a GI microbiome modulator with metformin might allow the greater use of metformin in T2D patients and improve treatment of the disease."
+    },
+    {
+      "rank": 10,
+      "score": 0.6001899993080517,
+      "search_type": "hybrid",
+      "vector_id": 6208989,
+      "chunk_id": 6208989,
+      "pmid": "33744985",
+      "title": "Anticancer potential of metformin: focusing on gastrointestinal cancers.",
+      "year": 2021,
+      "journal": "Cancer chemotherapy and pharmacology",
+      "authors": [
+        "Mohammad Rafi Khezri",
+        "Hassan Malekinejad",
+        "Naime Majidi-Zolbanin",
+        "Morteza Ghasemnejad-Berenji"
+      ],
+      "mesh_terms": [
+        {
+          "term": "Angiogenesis Inhibitors",
+          "is_major": false,
+          "ui": "D020533"
+        },
+        {
+          "term": "Antineoplastic Agents",
+          "is_major": false,
+          "ui": "D000970"
+        },
+        {
+          "term": "Apoptosis",
+          "is_major": false,
+          "ui": "D017209"
+        },
+        {
+          "term": "Drug Resistance, Neoplasm",
+          "is_major": false,
+          "ui": "D019008"
+        },
+        {
+          "term": "Gastrointestinal Neoplasms",
+          "is_major": false,
+          "ui": "D005770"
+        },
+        {
+          "term": "Humans",
+          "is_major": false,
+          "ui": "D006801"
+        },
+        {
+          "term": "Metformin",
+          "is_major": false,
+          "ui": "D008687"
+        },
+        {
+          "term": "MicroRNAs",
+          "is_major": false,
+          "ui": "D035683"
+        }
+      ],
+      "keywords": [
+        {
+          "term": "Cancer",
+          "is_major": false
+        },
+        {
+          "term": "Gastrointestinal",
+          "is_major": false
+        },
+        {
+          "term": "Metformin",
+          "is_major": false
+        }
+      ],
+      "citations": [
+        {
+          "type": "ErratumIn",
+          "source": "Cancer Chemother Pharmacol. 2022 Feb;89(2):283. doi: 10.1007/s00280-021-04336-9",
+          "pmid": "34338811"
+        }
+      ],
+      "text": "Gastrointestinal cancers are one of the most common types of cancer that have high annual mortality; therefore, identification and introduction of safe drugs in the control and prevention of these cancers are of particular importance. Metformin, a lipophilic biguanide, is the most commonly prescribed agent for type 2 diabetes management. In addition to its great effects on lowering the blood glucose concentrations, the anti-cancer properties of this drug have been reported in many types of cancers such as gastrointestinal cancers. Hence the effects of this agent as a safe drug on the reduction of gastrointestinal cancer risk and suppression of these types of cancers have been studied in different clinical trials. Furthermore, the proposed mechanisms of metformin in preventing the growth of these cancers have been investigated in several studies. In this review, we discuss recent advances in elucidating the molecular mechanisms that are relevant for metformin use in gastrointestinal cancer treatment."
+    }
+  ]
+}
